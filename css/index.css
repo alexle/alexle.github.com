@@ -1,0 +1,42 @@
+#wrapper {
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #333;
+   line-height: 1.5;
+}
+
+a:link, a:visited, a:hover {
+   color: #333;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+#nav {
+}
+
+#header {
+   font-size: 22px;
+}
+
+.entry {
+   float: clear;
+}
+
+.post_title {
+   float: left;
+}
+
+.post_date {
+   float: right;
+   color: #777;
+   font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+footer {
+   margin-top: 10px;
+}

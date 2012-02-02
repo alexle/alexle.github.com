@@ -1,0 +1,13 @@
+<!-- post template -->
+{% extends "base.html" %}
+
+{% block main %}
+   <div class="entry">
+      <div class="post_title">
+         <h2>{{ entry.title }}</h2>
+         <p>{{ entry.pretty_date }}</p>
+      </div>
+
+      {{ entry.content }}
+   </div>
+{% endblock %}

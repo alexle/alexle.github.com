@@ -1,0 +1,72 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Alex Le's Blog</title>
+
+   <!-- stylesheets -->
+   <link rel="stylesheet" href="css/index.css" type="text/css">
+
+   <!-- javascript -->
+   <script src="js/jquery-1.3.2.min.js"></script>
+</head>
+
+<body>
+   <div id="wrapper">
+      
+         <div id="header">
+            
+            <H1>Alex Le</H1>
+         </div>
+
+         <div id="main">
+            
+   <div class="entry">
+      <div class="post_title">
+         <h2>Store your data with HTML5 local storage</h2>
+         <p>Nov 27, 2011</p>
+      </div>
+
+      <p>Local storage is a pretty cool feature included in HTML5.</p>
+<p>It allows data to be stored on the client-side via a simple key/value database. Data saved by a page, up to 5MB, resides in the user's browser and is accessible only by pages from the same domain. In other words, local storage data saved by apple.com cannot be accessed by orange.com.</p>
+<p>Keys can be initialized with the API, square bracket, or dot notation:</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>localStorage.setItem('name', 'Alex')</p>
+<p>localStorage['name'] = 'Alex'</p>
+<p>localStorage.name = 'Alex'
+Keys can be read by the same methods. To retrieve the 'name' key's value:
+localStorage.getItem('name')
+Alex</p>
+<p>localStorage['name']
+Alex</p>
+<p>localStorage.name
+Alex
+.clear() removes all keys and values in the domain's local storage:
+localStorage.clear()
+localStorage.getItem('name'))
+undefined
+Other API functions include:
+.removeItem(key)
+.key(index)
+.length</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Here's a simple demo I threw together. The code is available at github. It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!</p>
+<p>There are plenty of reasons to use web storage. The state of an application can be saved, data can be cached to improve performance, user preferences can be stored, page counts can be tracked. The use-cases are endless.</p>
+<p>What about cookies, don't they achieve the same result? Yes. But cookies have their limitations, such as being restricted to 4KB and having overhead from every server request.</p>
+<p>Local storage is an up-and-coming technology that's powerful and easy to use. Play around with it, you might be surprised what you can do with it.</p>
+   </div>
+
+         </div>
+      
+
+      <div id="footer">
+         
+      </div>
+   </div>
+</body>
+</html>
