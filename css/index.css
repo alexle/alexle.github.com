@@ -12,10 +12,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #wrapper {
-   width: 740px;
+   width: 745px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 2%;
+   margin-top: 3%;
    font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
    color: #333;
    line-height: 1.5;
@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 #leftcol {
    width: 185px;
    float: left;
-   margin-right: 15px;
+   margin-right: 20px;
 }
 
 #rightcol {
