@@ -1,12 +1,3 @@
-#wrapper {
-   width: 600px;
-   margin-left: auto;
-   margin-right: auto;
-   font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-   color: #333;
-   line-height: 1.5;
-}
-
 a:link, a:visited, a:hover {
    color: #333;
    text-decoration: none;
@@ -16,11 +7,35 @@ a:hover {
    text-decoration: underline;
 }
 
+h1,h2,h3,h4,h5,h6 {
+   display: inline;
+}
+
+#wrapper {
+   width: 740px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #333;
+   line-height: 1.5;
+}
+
+#leftcol {
+   width: 185px;
+   float: left;
+   margin-right: 15px;
+}
+
+#rightcol {
+   width: 540px;
+   float: left;
+}
+
 #nav {
 }
 
 #header {
-   font-size: 22px;
 }
 
 .entry {
