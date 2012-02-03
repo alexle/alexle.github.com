@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, re, time, os, codecs
+import sys, re, time, os, codecs, getopt, SimpleHTTPServer, SocketServer
 import jinja2, markdown
 
 # Settings
@@ -89,7 +89,7 @@ def detail_pages(f, e):
     for file in f:
         write_file(file['url'], template.render(entry=file))
 
-def main():
+def chisel():
     print "Chiseling..."
     print "\tReading files...",
     files = sorted(get_tree(SOURCE), cmp=compare_entries)
@@ -97,10 +97,21 @@ def main():
     print "Done."
     print "\tRunning steps..."
     for step in STEPS:
-        print "\t\t",
-        step(files, env)
+       print "\t\t",
+       step(files, env)
     print "\tDone."
     print "Done."
+
+def main():
+    opts, args = getopt.getopt(sys.argv[1:], "s", ["server"]) 
+
+    for opt, arg in opts:
+       if opt in ("-s", "--server"):
+          Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+          httpd = SocketServer.TCPServer(("", 8000), Handler)
+          httpd.serve_forever()
+
+    chisel()
 
 if __name__ == "__main__":
     sys.exit(main())
