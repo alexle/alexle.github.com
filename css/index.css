@@ -18,6 +18,13 @@ a:hover {
    color: #888;
 }
 
+blockquote {
+   font-family: courier;
+   padding-left: 10px;
+   margin-left: 15px;
+   border-left: 3px solid #ccc;
+}
+
 #wrapper {
    width: 820px;
    margin-left: auto;

@@ -7,12 +7,15 @@ The most memorable moment for me, however, was Michael Phelp's 100m butterfly. P
 
 Phelps won by 1/100th of a second.
 
+<center><img src="/static/phelps.jpg" width="320" height="242" /></center>
+<div class="separator" style="clear: both; text-align: center;">
+Phelps (left) out reaching Cavic (right).</div>
 
 When asked about his success in a later interview, Phelps said:
 
-When we train everyday, sometimes there are workouts you don't like, don't want to do. Bob says you're putting money in the bank.
-
-I guess I put a lot of money in the bank over the last four years, and we withdrew pretty much every penny in the bank. After Bob and I both grab a little break, it'll be time to start depositing.
+> When we train everyday, sometimes there are workouts you don't like, don't want to do. Bob says you're putting money in the bank.
+> 
+> I guess I put a lot of money in the bank over the last four years, and we withdrew pretty much every penny in the bank. After Bob and I both grab a little break, it'll be time to start depositing.
 
 So whether you're training for a 10k, studying for a Calculus III test, or learning Wing Chun.. put some money in the bank. You never know when you'll need it :)
 
