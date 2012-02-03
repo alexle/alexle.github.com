@@ -9,10 +9,12 @@ a:hover {
 
 h1,h2,h3,h4,h5,h6 {
    display: inline;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
 }
 
 #wrapper {
-   width: 745px;
+   width: 755px;
    margin-left: auto;
    margin-right: auto;
    margin-top: 3%;
@@ -28,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #rightcol {
-   width: 540px;
+   width: 550px;
    float: left;
 }
 
@@ -42,14 +44,22 @@ h1,h2,h3,h4,h5,h6 {
    float: clear;
 }
 
-.post_title {
+.home_title {
    float: left;
 }
 
-.post_date {
+.home_date {
    float: right;
-   color: #777;
+   color: #888;
    font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+.post_title {
+   float: clear;
+}
+
+.post_date {
+   color: #888;
 }
 
 footer {

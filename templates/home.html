@@ -2,13 +2,12 @@
 {% extends "base.html" %}
 
 {% block main %}
-   <b>Blog Posts</b>
     {% for entry in entries %}
         <div class="entry">
-            <div class="post_title">
+            <div class="home_title">
                <a href="blog/{{ entry.url }}">{{ entry.title }}</a>
             </div>
-            <div class="post_date">
+            <div class="home_date">
                {{ entry.pretty_date }}
             </div>
         </div>
