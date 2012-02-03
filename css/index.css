@@ -9,8 +9,6 @@ a:hover {
 
 h1,h2,h3,h4,h5,h6 {
    display: inline;
-   margin: 0 0 0 0;
-   padding: 0 0 0 0;
 }
 
 #wrapper {
@@ -24,14 +22,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #leftcol {
-   width: 190px;
    float: left;
-   margin-right: 20px;
+   width: 186px;
+   padding-right: 12px;
+
+   font-size: 13px;
 }
 
 #rightcol {
-   width: 610px;
    float: left;
+   width: 610px;
+   padding-left: 12px;
 }
 
 #nav {
@@ -40,8 +41,18 @@ h1,h2,h3,h4,h5,h6 {
 #header {
 }
 
+#social {
+   float: left;
+   margin-top: 5px;
+}
+
+.thumb {
+   height: 28px;
+   width: 28px;
+   padding-right: 4px;
+}
+
 .entry {
-   float: clear;
 }
 
 .home_title {
@@ -51,7 +62,7 @@ h1,h2,h3,h4,h5,h6 {
 .home_date {
    float: right;
    color: #888;
-   font-family: Consolas, Monaco, "Courier New", monospace;
+   /* font-family: Consolas, Monaco, "Courier New", monospace; */
 }
 
 .post_title {
@@ -63,5 +74,4 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 footer {
-   margin-top: 10px;
 }
