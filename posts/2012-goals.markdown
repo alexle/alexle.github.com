@@ -1,9 +1,9 @@
 2012 Goals
 01-05-2012    
 
-I've always liked goals. To-Do lists, checkboxes, sticky notes. They give me a feeling of moving forward somewhere and comfort in knowing that I'm not stagnant.
+I've always liked goals. To-Do lists, checkboxes, sticky notes. They give me a feeling of moving <s>forward</s> somewhere and comfort in knowing that I'm not stagnant.
 
-However, I've noticed a disturbing trend lately. All the crossing-off of tasks and check-marking little boxes were to no avail. My lists were _growing_, despite how much effort I put into them. At one point, I had 132 tasks..
+However, I've noticed a disturbing trend lately. All the crossing-off of tasks and check-marking little boxes were to no avail. My lists were _growing_, despite how much effort I put into them. At one point, I had <b>132</b> tasks..
 
 Perhaps it was my GTD system, or discipline in completing tasks. But in retrospect, I think I was simply overwhelmed and spread myself too thin. Brush up the resume? Ok, work on it for 20min. Oh, I really need to add a sign-on for my app. Switch to that for a bit. Hey, Jquery looks cool. Let's try some examples. Ugh, I haven't worked out in a while. Head to the gym to clear my head.
 

@@ -76,6 +76,7 @@ a.home_title:link, a.home_title:visited {
 
 a.home-title:hover {
    text-decoration: underline;
+   color: #888;
 }
 
 .home_date {

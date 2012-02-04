@@ -6,28 +6,43 @@ Local storage is a pretty cool feature included in HTML5.
 It allows data to be stored on the client-side via a simple key/value database. Data saved by a page, up to 5MB, resides in the user's browser and is accessible only by pages from the same domain. In other words, local storage data saved by apple.com cannot be accessed by orange.com.
 
 Keys can be initialized with the API, square bracket, or dot notation:
->>> localStorage.setItem('name', 'Alex')
 
->>> localStorage['name'] = 'Alex'
+<blockquote>
+>> localStorage.setItem('name', 'Alex')<br>
+<br>
+>> localStorage['name'] = 'Alex'<br>
+<br>
+>> localStorage.name = 'Alex'<br>
+</blockquote>
 
->>> localStorage.name = 'Alex'
 Keys can be read by the same methods. To retrieve the 'name' key's value:
->>> localStorage.getItem('name')
->>> Alex
 
->>> localStorage['name']
->>> Alex
+<blockquote>
+>> localStorage.getItem('name')<br>
+>> Alex<br>
+<br>
+>> localStorage['name']<br>
+>> Alex<br>
+<br>
+>> localStorage.name<br>
+>> Alex<br>
+</blockquote>
 
->>> localStorage.name
->>> Alex
 .clear() removes all keys and values in the domain's local storage:
->>> localStorage.clear()
->>> localStorage.getItem('name'))
->>> undefined
+
+<blockquote>
+>> localStorage.clear()<br>
+>> localStorage.getItem('name'))<br>
+>> undefined<br>
+</blockquote>
+
 Other API functions include:
-.removeItem(key)
-.key(index)
-.length
+
+<blockquote>
+.removeItem(key)<br>
+.key(index)<br>
+.length<br>
+</blockquote>
 
 Here's a simple demo I threw together. The code is available at github. It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
 
