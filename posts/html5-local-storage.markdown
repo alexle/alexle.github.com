@@ -44,7 +44,7 @@ Other API functions include:
 .length<br>
 </blockquote>
 
-Here's a simple demo I threw together. The code is available at github. It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
+Here's a simple [demo](http://3checkmarks.appspot.com/) I threw together. The code is available at [github](https://github.com/alexle/3checkmarks). It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
 
 There are plenty of reasons to use web storage. The state of an application can be saved, data can be cached to improve performance, user preferences can be stored, page counts can be tracked. The use-cases are endless.
 
