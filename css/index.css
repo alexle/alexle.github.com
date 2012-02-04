@@ -9,13 +9,19 @@ h1,h2,h3,h4,h5,h6 {
    display: inline;
 }
 
-a:link, a:visited, a:hover {
+a:link, a:visited {
    color: #333;
    cursor: hand;
+   text-decoration: none;
 }
 
 a:hover {
-   color: #888;
+   color: #0084B4;
+   text-decoration: none;
+}
+
+a.post:link, a.post:visited {
+   text-decoration: underline;
 }
 
 blockquote {
@@ -52,15 +58,18 @@ blockquote {
 #header {
 }
 
-.entry {
-}
-
 #social {
    float: left;
    margin-top: 5px;
 }
 
-.thumb {
+.profile_pic {
+   height: 80px;
+   width: 80px;
+   margin-right: 10px;
+   float: left;
+}
+.thumb_pic {
    height: 28px;
    width: 28px;
    padding-right: 4px;
@@ -68,15 +77,6 @@ blockquote {
 
 .home_title {
    float: left;
-}
-
-a.home_title:link, a.home_title:visited {
-   text-decoration: none;
-}
-
-a.home-title:hover {
-   text-decoration: underline;
-   color: #888;
 }
 
 .home_date {
