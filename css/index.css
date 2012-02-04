@@ -1,5 +1,6 @@
 body {
-   font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+   /* font: 16px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif; */
    color: #333;
    line-height: 1.5;
 }
@@ -26,9 +27,12 @@ a.post:link, a.post:visited {
 
 blockquote {
    font-family: courier;
+   border-left: 3px solid #ccc;
    padding-left: 10px;
    margin-left: 15px;
-   border-left: 3px solid #ccc;
+   margin-right: 0px;
+
+   font-size: 13px;
 }
 
 #wrapper {
@@ -43,7 +47,7 @@ blockquote {
    width: 186px;
    padding-right: 12px;
 
-   font-size: 13px;
+   font-size: 14px;
 }
 
 #rightcol {
