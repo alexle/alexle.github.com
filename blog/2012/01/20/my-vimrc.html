@@ -5,46 +5,40 @@
    <meta charset="utf-8">
    <title>Alex Le's Blog</title>
 
-   <!-- stylesheets -->
    <link rel="stylesheet" href="/css/index.css" type="text/css">
-
-   <!-- javascript -->
 </head>
 
 <body>
    <div id="wrapper">
-      
-         <div id="leftcol">
-            
+      <div id="leftcol">
+         <a href="/"><img  src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
 
-            <a href="/"><img  src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
+         Hi, I'm Alex Le.
+         <br>
+         I live in Thornton, write firmware for disc drives, and try to learn something new every day.
+         I like riding motorcycles, The Killers, working out, and a few other things.
+         <br /><br />
+         This is a place for my thoughts, goals, and interesting topics I come across.
 
-            Hi, I'm Alex Le.
-            <br>
-            I live in Thornton, write firmware for disc drives, and try to learn something new every day.
-            I like riding motorcycles, The Killers, working out, and a few other things.
-            <br /><br />
-            This is a place for my thoughts, goals, and interesting topics I come across.
+         <br clear='all' /> <br />
 
-            <br clear='all' /> <br />
+         <b>SOCIAL PROFILE</b>
+         <div id="social">
+            <a href="http://www.facebook.com/alexle" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
+            <a href="http://twitter.com/#!/alextrle" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
+            <a href="http://www.linkedin.com/in/alexle" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
+            <a href="https://github.com/alexle" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
+            <a href="https://profiles.google.com/alex.csm/about" target="_blank"><img src="/static/google_32.png" class="thumb_pic" /></a>
+         </div>
 
-            <b>SOCIAL PROFILE</b>
-            <div id="social">
-               <a href="http://www.facebook.com/alexle" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
-               <a href="http://twitter.com/#!/alextrle" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
-               <a href="http://www.linkedin.com/in/alexle" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
-               <a href="https://github.com/alexle" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
-               <a href="https://profiles.google.com/alex.csm/about" target="_blank"><img src="/static/google_32.png" class="thumb_pic" /></a>
-            </div>
+         <br clear='all' /> <br />
+         
+         <b>CONTACT ME</b>
+         alex.csm@gmail.com
+      </div> <!-- leftcol -->
 
-            <br clear='all' /> <br />
-            
-            <b>CONTACT ME</b>
-            alex.csm@gmail.com
-         </div> <!-- leftcol -->
-
-         <div id="rightcol">
-            
+      <div id="rightcol">
+         
    <div class="post">
       <div class="post_title">
          <h2>My .vimrc Configuration</h2>
@@ -54,49 +48,37 @@
       Jan 20, 2012
       </p>
 
-      <p>VIM is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it's extremely efficient once you learn the movements and power commands. My hands rarely have to leave the keyboard when editing.</p>
-<p>The .vimrc is the configuration file. I consider my .vimrc pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:</p>
-<ol>
-<li>
-<p>Remap : to ;<br>
-The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.</p>
+      <p><a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">VIM</a> is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it's extremely efficient once you learn the movements and power commands. My hands rarely have to leave the keyboard when editing.</p>
+<p>The .vimrc is the configuration file. I consider <a href="https://github.com/alexle/vimrc/blob/master/.vimrc">my .vimrc</a> pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:</p>
+<p><b>1. Remap : to ;</b><br></p>
 <blockquote>
 <p>nnoremap ; :</p>
 </blockquote>
-</li>
-<li>
-<p>Remap &lt;esc&gt; to jj<br>
-Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.</p>
+<p>The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.</p>
+<p><b>2. Remap &lt;esc&gt; to jj</b><br></p>
 <blockquote>
 <p>inoremap jj</p>
 </blockquote>
-</li>
-<li>
-<p>Map &lt;leader&gt; to ,<br>
-The <leader> key is your own personal modifier key and is default as . This setting allows for easier usage of <leader> macros.</p>
+<p>Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.</p>
+<p><b>3. Map &lt;leader&gt; to ,</b><br></p>
 <blockquote>
 <p>let mapleader = ","</p>
 </blockquote>
-</li>
-<li>
-<p>Map NERDTree toggle to ,n.<br>
-This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle NERDTree. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.</p>
+<p>The &lt;leader&gt; key is your own personal modifier key and is default as . This setting allows for easier usage of <leader> macros.</p>
+<p><b>4. Map NERDTree toggle to ,n.</b><br></p>
 <blockquote>
 <p>nnoremap &lt;leader&gt;n :NERDTreeToggle</p>
 </blockquote>
-</li>
-</ol>
+<p>This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle <a href="http://www.vim.org/scripts/script.php?script_id=1658">NERDTree</a>. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.</p>
 <p>All in all, my favorite .vimrc settings increase the comfort of using the editor. I've found them extremely useful and hope they can be the same for you.</p>
 
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="My .vimrc Configuration" data-via="alextrle">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
    </div>
 
-         </div>
-      
+      </div>
 
       <div id="footer">
-         
       </div>
    </div>
 </body>
