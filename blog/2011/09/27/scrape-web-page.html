@@ -10,7 +10,7 @@
 
 <body>
    <div id="wrapper">
-      <div id="leftcol">
+      <nav>
          <a href="/"><img  src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
 
          Hi, I'm Alex Le.
@@ -20,7 +20,7 @@
 
          <br clear='all' /> <br />
 
-         <b>SOCIAL PROFILE</b>
+         <h4>Find me on:</h4>
          <div id="social">
             <a href="http://www.facebook.com/alexle" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
             <a href="http://twitter.com/#!/alextrle" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
@@ -31,11 +31,11 @@
 
          <br clear='all' /> <br />
          
-         <b>CONTACT ME</b>
+         <h4>Contact me:</h4>
          alex.csm@gmail.com
-      </div> <!-- leftcol -->
+      </nav>
 
-      <div id="rightcol">
+      <article>
          
 <div class="post">
    <div class="post_title">
@@ -46,7 +46,8 @@
       Sep 27, 2011
    </p>
 
-   <p>I've been hooked on the television show <a href="http://en.wikipedia.org/wiki/Criminal_Minds">Criminal Minds</a> lately. It follows a team of FBI profilers who analyze criminal behavior to catch some twisted bad guys. It's intriguing to me why serial killers do what they do, so the study and breakdown of each criminal's psyche in the show is appealing.</p>
+   <p class="post_content">
+      <p>I've been hooked on the television show <a href="http://en.wikipedia.org/wiki/Criminal_Minds">Criminal Minds</a> lately. It follows a team of FBI profilers who analyze criminal behavior to catch some twisted bad guys. It's intriguing to me why serial killers do what they do, so the study and breakdown of each criminal's psyche in the show is appealing.</p>
 <p>Luckily for me, ION airs 1-4 episodes almost every day. The only problem is I can never remember what time the show is on. As a result, I have to go to the <a href="http://www.iontelevision.com/">ION website</a> and check what time the episodes are. Every day.</p>
 <p>I got tired of this rather quickly and wrote a python script to "scrape" the webpage for show times. <a href="http://en.wikipedia.org/wiki/Web_scraping">Web scraping</a> is a technique to extract information from websites using code. There are many different ways to scrape the web; the method I used is crude but simple:</p>
 <blockquote>
@@ -114,6 +115,7 @@ October 3<br />
 
 <p>Time and date of <strong>every</strong> Criminal Mind episode for the next week. Fist pump!</p>
 <p>However, there is a downside to the script above (and web scraping in general). If the site redesigns its web page, or changes its data, there's a high probability the script/regex will be affected. For that reason, it is always preferred to use a site's API if available.</p>
+   </p>
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-text="How to scrape a web page with python (Criminal Minds)" data-via="alextrle">Tweet</a>
    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -122,7 +124,7 @@ October 3<br />
 
          <footer>
          </footer>
-      </div>
+      </article>
    </div>
 </body>
 </html>

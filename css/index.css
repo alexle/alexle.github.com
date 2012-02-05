@@ -21,8 +21,9 @@ a:hover {
    text-decoration: none;
 }
 
-a.post:link, a.post:visited {
-   text-decoration: underline;
+a.post_content:link, a.post_content:visited {
+   color: red !important;
+   text-decoration: underline !important;
 }
 
 blockquote {
@@ -42,7 +43,7 @@ blockquote {
    margin-top: 3%;
 }
 
-#leftcol {
+nav {
    float: left;
    width: 186px;
    padding-right: 12px;
@@ -50,16 +51,10 @@ blockquote {
    font-size: 14px;
 }
 
-#rightcol {
+article {
    float: left;
    width: 610px;
    padding-left: 12px;
-}
-
-#nav {
-}
-
-#header {
 }
 
 #social {
@@ -98,5 +93,5 @@ blockquote {
 }
 
 footer {
-   padding-top: 20px;
+   padding-top: 30px;
 }

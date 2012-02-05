@@ -10,7 +10,7 @@
 
 <body>
    <div id="wrapper">
-      <div id="leftcol">
+      <nav>
          <a href="/"><img  src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
 
          Hi, I'm Alex Le.
@@ -20,7 +20,7 @@
 
          <br clear='all' /> <br />
 
-         <b>SOCIAL PROFILE</b>
+         <h4>Find me on:</h4>
          <div id="social">
             <a href="http://www.facebook.com/alexle" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
             <a href="http://twitter.com/#!/alextrle" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
@@ -31,11 +31,11 @@
 
          <br clear='all' /> <br />
          
-         <b>CONTACT ME</b>
+         <h4>Contact me:</h4>
          alex.csm@gmail.com
-      </div> <!-- leftcol -->
+      </nav>
 
-      <div id="rightcol">
+      <article>
          
 <div class="post">
    <div class="post_title">
@@ -46,7 +46,8 @@
       Apr 26, 2011
    </p>
 
-   <p>The first time I heard this, my heart stopped for a couple seconds.</p>
+   <p class="post_content">
+      <p>The first time I heard this, my heart stopped for a couple seconds.</p>
 <p>I knew the algorithm. I had reviewed and implemented it the night before. I even slept on my notes to harness the power of osmosis. But implementing one in an interview/test is a different experience.</p>
 <p>Like many other things in life, it's hard to see what all the fuss was about. Linked lists are easy and I hope the walk-through below helps.</p>
 <p>Define a Node class. Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.</div><div><blockquote>class Node:<br />
@@ -116,6 +117,7 @@ List.append(4)<br />
 for i in List:<br />
 &nbsp; &nbsp; &nbsp;print i</blockquote></p>
 <p>Makes this problem pretty trivial huh? Go python!</p>
+   </p>
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-text=""Write a linked list in python.."" data-via="alextrle">Tweet</a>
    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -124,7 +126,7 @@ for i in List:<br />
 
          <footer>
          </footer>
-      </div>
+      </article>
    </div>
 </body>
 </html>
