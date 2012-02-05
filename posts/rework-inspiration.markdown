@@ -15,7 +15,8 @@ Inspiration is perishable.
 > If you want to do something, you've got to do it now. You can't put it on a shelf and wait two months to get around to it. You can't just say you'll do it later. Later, you won't be pumped up about it anymore.
 > 
 > Inspiration is a magical thing, a productivity multiplier. But it won't wait for you. If it grabs you, grab it right back and put it to work.
-> I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished (or started). Now, when I feel the inspiration to do something, I do it.
+
+I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished (or started). Now, when I feel the inspiration to do something, I do it.
 
 Always wanted to create a web app? Sit down and open an account on Google App Engine or Heroku. Need to update your resume? Open it up and make some changes! It may not be perfect, and the plan may not be clear, but you'll get more done now than if you waited until next week/month/year.
 
