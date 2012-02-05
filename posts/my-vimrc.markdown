@@ -5,25 +5,25 @@ My .vimrc Configuration
 
 The .vimrc is the configuration file. I consider [my .vimrc](https://github.com/alexle/vimrc/blob/master/.vimrc) pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:
 
-<b>1. Remap : to ;</b><br>
+#### 1. Remap : to ; ####
 
 > nnoremap ; :
 
 The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.
 
-<b>2. Remap &lt;esc&gt; to jj</b><br>
+####2. Remap &lt;esc&gt; to jj####
 
 > inoremap jj
 
 Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.
 
-<b>3. Map &lt;leader&gt; to ,</b><br>
+####3. Map &lt;leader&gt; to ,####
 
 > let mapleader = ","
 
 The &lt;leader&gt; key is your own personal modifier key and is default as \. This setting allows for easier usage of <leader> macros.
 
-<b>4. Map NERDTree toggle to ,n.</b><br>
+####4. Map NERDTree toggle to ,n####
 
 > nnoremap &lt;leader&gt;n :NERDTreeToggle
 

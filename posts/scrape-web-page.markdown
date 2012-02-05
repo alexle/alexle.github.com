@@ -42,8 +42,8 @@ print msg
 
 The procedure involves 3 steps: 
 
-1. Read in the site's data. This is done with <b>urlopen( LINK ).read()</b>.
-2. Parse the data I want (date/time) using regular expressions with <b>re.findall()</b>.
+1. Read in the site's data. This is done with **urlopen( LINK ).read()**.
+2. Parse the data I want (date/time) using regular expressions with **re.findall()**.
 3. Run a loop to check/print matches for my show.
 
 As of 9/27/11, running the script above produces an output of:
@@ -71,8 +71,6 @@ October 3<br />
 11
 </blockquote>
 
-</blockquote>
-
-Time and date of <b>every</b> Criminal Mind episode for the next week. Fist pump!
+Time and date of **every** Criminal Mind episode for the next week. Fist pump!
 
 However, there is a downside to the script above (and web scraping in general). If the site redesigns its web page, or changes its data, there's a high probability the script/regex will be affected. For that reason, it is always preferred to use a site's API if available.

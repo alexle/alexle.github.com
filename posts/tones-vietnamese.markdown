@@ -1,7 +1,7 @@
 Operation Learn-To-Read-Vietnamese: Tones
 08-06-2011
 
-There are six <a href="http://www.pauahtun.org/Viet/viet-tones.html">tones</a> in Vietnamese:<br />
+There are six [tones](http://www.pauahtun.org/Viet/viet-tones.html) in Vietnamese:<br />
 
 <table border="1" cellpadding="3px" cellspacing="0px" width="520px"><tbody>
 <tr><td>Name</td><td>Symbol</td><td>Level/tone</td><td>Example</td><td>English Meaning</td></tr>

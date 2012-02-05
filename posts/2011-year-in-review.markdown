@@ -5,40 +5,29 @@ The end of the year always comes with mixed emotions for me. On one hand, it's a
 
 I set out to kick some ass in 2011. While I didn't put quite the dent I wanted on the universe, I couldn't be happier with what how 2011 went. Here's a recap of the goals I set for myself and how they went:
 
-<b>1. Make something (i.e. website, business/startup)</b> &nbsp;&#x2713;<br />
+####1. Make something (i.e. website, business/startup &nbsp;&#x2713;####
 Probably my main focus this year. Learned some javascript/jquery, improved my HTML/CSS. Created my first <a href="http://wwww.feedblast.me/">web app</a> using Python and Google App Engine. More details to come.<br />
-<br />
-<b>2. Bench 225</b> &nbsp;&#x2713;<br />
+####2. Bench 225 &nbsp;&#x2713;####
 Was able to push 225 x 4 successfully. A big feat for me, considering my migration to more "bootcamp" type of workouts.<br />
-<br />
-<b>3. Learn how to read vietnamese</b> &nbsp;&#x2717;<br />
+####3. Learn how to read vietnamese &nbsp;&#x2717;####
 A big let-down for me, considering how much I value this skill. Was not prioritized properly, although it was always in the back of my head and conscious. It did not help that the goal was not SMART. Was often passed over for other tasks that were "easier" to complete in a sitting.<br /> 
-<br />
-<b>4. Buy and play electric guitar</b> &nbsp;&#x2713;<br />
+####4. Buy and play electric guitar &nbsp;&#x2713;####
 Got an electric from a friend and gave it a try for 2 weeks. Did not enjoy it as much as I thought I would.<br />
-<br />
-<b>5. Get Lasik</b> &nbsp;&#x2713;<br />
+####5. Get Lasik &nbsp;&#x2713;####
 Honestly did not think I was going to go through with it. Got it done though. Best $$ I've <i>ever</i> spent. If I could have done it earlier, I would have.<br />
-<br />
-<b>6. Try Yoga</b> &nbsp;&#x2713;<br />
+####6. Try Yoga &nbsp;&#x2713;####
 Tried yoga at home a couple times, did not stick with it. Original intent was to find new workout that was easier on body than basketball/football. Goal was semi-successful in that I found a new appreciation for running.<br />
-<br />
-<b>7. Climb 14er</b> &nbsp;&#x2717;<br />
+####7. Climb 14er &nbsp;&#x2717;####
 Did not get a chance to climb an actual 14er. Did do a gruelling 15 mile hike to Mirror Lake though, so I don't feel too bad about this one.<br />
-<br />
-<b>8. Run Bolder Boulder</b> &nbsp;&#x2713;<br />
+####8. Run Bolder Boulder &nbsp;&#x2713;####
 Long time goal of mine, one of the many highlights of the year. First time running a timed race. Completed race in 70min, only stopping for water.<br />
-<br />
-<b>9. Play River Flows In You (piano)</b> &nbsp;&#x2713;<br />
+####9. Play River Flows In You (piano) &nbsp;&#x2713;####
 More so a test to see if I could still accomplish something if I set my mind to it. Was not able to read a single note before. Had a couple lessons with my sister. <a href="http://www.youtube.com/watch?feature=player_embedded&v=WCnEPWS-5sE">This</a> was the result after one week.<br />
-<br />
-<b>10. Improve wardrobe</b> &nbsp;&#x2717;<br />
+####10. Improve wardrobe &nbsp;&#x2717;####
 Similar to #3, this goal was not SMART nor easy to measure. Still looks like I came straight out of college with my t-shirt and jeans. I did make an effort to dress nicer if it counts for anything.<br />
-<br />
-<b>11. Make GPO (google page one)</b> &nbsp;&#x2713;<br />
+####11. Make GPO (google page one) &nbsp;&#x2713;####
 Success! Google "alex le".<br />
-<br />
-<b>12. Advance career (promotion, duties/responsibilities)</b> &nbsp;&#x2713;<br />
+####12. Advance career (promotion, duties/responsibilities) &nbsp;&#x2713;####
 Took on some challenging projects. Got a promotion.<br />
 
 
