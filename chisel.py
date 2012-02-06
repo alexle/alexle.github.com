@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
-import sys, re, time, os, codecs, getopt, SimpleHTTPServer, SocketServer
+import sys, re, time, os, codecs, getopt, SimpleHTTPServer, BaseHTTPServer
 import jinja2, markdown
+from SimpleHTTPServer import SimpleHTTPRequestHandler
 
 # Settings
 SOURCE = "./posts/"
@@ -106,10 +107,13 @@ def main():
     opts, args = getopt.getopt(sys.argv[1:], "s", ["server"]) 
 
     for opt, arg in opts:
-       if opt in ("-s", "--server"):
-          Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-          httpd = SocketServer.TCPServer(("", 8000), Handler)
-          httpd.serve_forever()
+      if opt in ("-s", "--server"):
+         SimpleHTTPRequestHandler.protocol_version = "HTTP/1.0"
+         httpd = BaseHTTPServer.HTTPServer(('127.0.0.1', 8000), SimpleHTTPRequestHandler)
+
+         sa = httpd.socket.getsockname()
+         print "Serving HTTP on", sa[0], sa[1], "..."
+         httpd.serve_forever()
 
     chisel()
 
