@@ -99,7 +99,11 @@ nav {
    width: 160px;
 }
 
+article {
+   padding-bottom: 10px;
+}
+
 footer {
    border-top: 1px solid #ccc;
-   padding-top: 15px;
+   padding-top: 25px;
 }
