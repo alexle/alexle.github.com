@@ -1,6 +1,6 @@
 body {
-   font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-   /* font: 16px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif; */
+   /* font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+   font: 18px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif; 
    color: #333;
    line-height: 1.5;
 }
@@ -33,38 +33,22 @@ blockquote {
    margin-left: 15px;
    margin-right: 0px;
 
-   font-size: 14px;
+   font-size: 15px;
 }
 
 #wrapper {
-   width: 820px;
+   width: 630px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 3%;
 }
 
-nav {
-   float: left;
-   width: 186px;
-   padding-right: 12px;
-
-   font-size: 14px;
-}
-
-article {
-   float: left;
-   width: 610px;
-   padding-left: 12px;
-}
-
-#social {
-   float: left;
+#social_buttons {
    margin-top: 5px;
 }
 
 .profile_pic {
-   height: 80px;
-   width: 80px;
+   height: 60px;
+   width: 60px;
    margin-right: 10px;
    float: left;
 }
@@ -72,6 +56,10 @@ article {
    height: 28px;
    width: 28px;
    padding-right: 4px;
+}
+
+.home_post {
+   margin-top: 4px;
 }
 
 .home_title {
@@ -92,6 +80,11 @@ article {
    color: #888;
 }
 
+.twitter-share-button {
+   float: right;
+}
+
 footer {
-   padding-top: 30px;
+   border-top: 1px solid #ccc;
+   padding-top: 15px;
 }
