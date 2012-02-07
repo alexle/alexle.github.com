@@ -42,6 +42,11 @@ blockquote {
    margin-right: auto;
 }
 
+nav {
+   height: 60px;
+   margin-bottom: 5px;
+}
+
 #social_buttons {
    margin-top: 5px;
 }
@@ -53,8 +58,8 @@ blockquote {
    float: left;
 }
 .thumb_pic {
-   height: 28px;
-   width: 28px;
+   height: 26px;
+   width: 26px;
    padding-right: 4px;
 }
 
@@ -82,6 +87,16 @@ blockquote {
 
 .twitter-share-button {
    float: right;
+}
+
+#find_me {
+   float: left;
+   width: 490px;
+}
+
+#contact_me {
+   float: right;
+   width: 160px;
 }
 
 footer {
