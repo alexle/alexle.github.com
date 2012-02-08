@@ -11,19 +11,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a:link, a:visited {
-   color: #333;
+   color: #0084B4;
    cursor: hand;
    text-decoration: none;
 }
 
 a:hover {
-   color: #0084B4;
+   color: #333;
    text-decoration: none;
 }
 
-a.post_content:link, a.post_content:visited {
-   color: red !important;
-   text-decoration: underline !important;
+a.home_title:link, a.home_title:visited {
+   color: #333;
+}
+
+a.home_title:hover {
+   color: #0084B4;
+   text-decoration: none;
 }
 
 blockquote {
