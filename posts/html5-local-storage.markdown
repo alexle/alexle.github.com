@@ -44,10 +44,13 @@ Other API functions include:
 .length<br>
 </blockquote>
 
-Here's a simple [demo](http://3checkmarks.appspot.com/) I threw together. The code is available at [github](https://github.com/alexle/3checkmarks). It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
+Here's a simple [demo][1] I threw together. The code is available at [github][2]. It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
 
 There are plenty of reasons to use web storage. The state of an application can be saved, data can be cached to improve performance, user preferences can be stored, page counts can be tracked. The use-cases are endless.
 
 What about cookies, don't they achieve the same result? Yes. But cookies have their limitations, such as being restricted to 4KB and having overhead from every server request.
 
 Local storage is an up-and-coming technology that's powerful and easy to use. Play around with it, you might be surprised what you can do with it.
+
+[1]: http://3checkmarks.appspot.com/
+[2]: https://github.com/alexle/3checkmarks

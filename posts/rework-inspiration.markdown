@@ -1,7 +1,7 @@
 Rework "Inspiration"
 09-07-2011    
 
-I finally got around to reading [Rework](http://www.amazon.com/Rework-Jason-Fried/dp/0307463745). It's a book by [37signals](http://37signals.com/) that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.
+I finally got around to reading [Rework][1]. It's a book by [37signals][2] that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.
 
 <center><img src="/static/rework.png" width="148" height="200" /></center>
 
@@ -23,3 +23,6 @@ Always wanted to create a web app? Sit down and open an account on Google App En
 But what if I don't have enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you're excited and hyped up about a new project, you'll find time for it.
 
 Don't let inspiration go to waste.
+
+[1]: http://www.amazon.com/Rework-Jason-Fried/dp/0307463745
+[2]: http://37signals.com/

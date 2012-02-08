@@ -1,9 +1,9 @@
 My .vimrc Configuration
 01-20-2012    
 
-[VIM](http://en.wikipedia.org/wiki/Vim_(text_editor)) is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it's extremely efficient once you learn the movements and power commands. My hands rarely have to leave the keyboard when editing.
+[VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it's extremely efficient once you learn the movements and power commands. My hands rarely have to leave the keyboard when editing.
 
-The .vimrc is the configuration file. I consider [my .vimrc](https://github.com/alexle/vimrc/blob/master/.vimrc) pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:
+The .vimrc is the configuration file. I consider [my .vimrc][2] pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:
 
 #### 1. Remap : to ; ####
 
@@ -27,6 +27,10 @@ The &lt;leader&gt; key is your own personal modifier key and is default as \. Th
 
 > nnoremap &lt;leader&gt;n :NERDTreeToggle
 
-This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658). NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.
+This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle [NERDTree][3]. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.
 
 All in all, my favorite .vimrc settings increase the comfort of using the editor. I've found them extremely useful and hope they can be the same for you.
+
+[1]: http://en.wikipedia.org/wiki/Vim_(text_editor)
+[2]: https://github.com/alexle/vimrc/blob/master/.vimrc
+[3]: http://www.vim.org/scripts/script.php?script_id=1658
