@@ -11,7 +11,7 @@ Thus, I made it a goal near the end of 2010 to write more frequently. It sounds 
 
 I hope to write more and continue this trend. While Blogger has an easy to use interface, nice statistics, RSS feeds, comments.. basically the whole she-bang out of the box, there are a couple quirks that rub me the wrong way. I'll be going into detail the reasons for my migration away from Blogger in another post, but for now I've decided to go another direction.
 
-You can find me at [http://alexanderle.com][1]. See you there!
+You can find me at [http://alexanderle.com][2]. See you there!
 
 [1]: http://alextrle.blogspot.com
 [2]: http://alexanderle.com
