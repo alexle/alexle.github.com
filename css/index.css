@@ -21,15 +21,6 @@ a:hover {
    text-decoration: none;
 }
 
-a.home_title:link, a.home_title:visited {
-   color: #333;
-}
-
-a.home_title:hover {
-   color: #0084B4;
-   text-decoration: none;
-}
-
 blockquote {
    font-family: courier;
    border-left: 3px solid #ccc;
@@ -74,6 +65,16 @@ nav {
 .home_title {
    float: left;
 }
+
+a.home_title:link, a.home_title:visited {
+   color: #333;
+}
+
+a.home_title:hover {
+   color: #0084B4;
+   text-decoration: none;
+}
+
 
 .home_date {
    float: right;
