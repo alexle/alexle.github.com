@@ -1,0 +1,87 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+   <title>Alex Le's Blog</title>
+
+   <link rel="stylesheet" href="/css/index.css" type="text/css">
+</head>
+
+<body>
+   <div id="wrapper">
+   <nav>
+      <a href="/"><img  src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
+      <h1>Alex Le</h1><br>
+      <h5>Firmware Engineer | Minimalist | Improving Runner</h5>
+   </nav>
+   <br clear="all">
+
+   <article>
+      
+<div class="post">
+   <div class="post_title">
+      <h2>How To Setup A Simple HTTP Server With Python</h2>
+   </div>
+
+   <p class="post_date">
+      Feb 09, 2012
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="How To Setup A Simple HTTP Server With Python" data-via="alextrle">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+   </p>
+
+   <p class="post_content">
+      <p>There are times when you need to setup a quick web server to test your web applications. For basic applications that don't require database or server-side language support, Python has a <a href="http://docs.python.org/library/simplehttpserver.html">module</a> to run a mini web server on your system. It takes no time to configure and eats up very little system resources!</p>
+<h3>SimpleHTTPServer by command line</h3>
+<p>Open up a terminal and go to the directory you would like to start the web server:</p>
+<blockquote>
+<p>$ cd /home/somedirectory</p>
+</blockquote>
+<p>To start the server, simply type:</p>
+<blockquote>
+<p>$ python -m SimpleHTTPServer</p>
+</blockquote>
+<p>That's it! Now your HTTP server will run in port 8000. You can access it via <a href="http://localhost:8000/">localhost:8000</a> or <a href="http://127.0.0.1:8000/">127.0.0.1:8000</a>. If the directory has a file named "index.html", that file will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.</p>
+<p>If you wish to change the port, it can be configured as an additional parameter:</p>
+<blockquote>
+<p>$ python -m SimpleHTTPServer 8200</p>
+</blockquote>
+<h3>SimpleHTTPServer by python script</h3>
+<p>The SimpleHTTPServer can also be started in a script. Here's a snippet of the code I use:</p>
+<blockquote>
+<p>import sys, SimpleHTTPServer, BaseHTTPServer
+from SimpleHTTPServer import SimpleHTTPRequestHandler</p>
+<p>SimpleHTTPRequestHandler.protocol_version = "HTTP/1.0"
+         httpd = BaseHTTPServer.HTTPServer(('127.0.0.1', 8000), SimpleHTTPRequestHandler)</p>
+<pre><code>     sa = httpd.socket.getsockname()
+     print "Serving HTTP on", sa[0], sa[1], "..."
+     httpd.serve_forever()
+</code></pre>
+</blockquote>
+<p>And there you go. Happy web serving!</p>
+   </p>
+</div>
+
+   </article>
+
+   <footer>
+      <div id="find_me">
+         <h4>Find me on:</h4>
+         <div id="social_buttons">
+            <a href="http://www.facebook.com/alexle" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
+            <a href="http://twitter.com/#!/alextrle" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
+            <a href="http://www.linkedin.com/in/alexle" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
+            <a href="https://github.com/alexle" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
+            <a href="https://profiles.google.com/alex.csm/about" target="_blank"><img src="/static/google_32.png" class="thumb_pic" /></a>
+         </div>
+      </div>
+      <div id="contact_me">
+         <h4>Contact me:</h4>
+         <br>
+         alex.csm@gmail.com
+      </div>
+   </footer>
+   </div>
+</body>
+</html>
