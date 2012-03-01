@@ -37,7 +37,7 @@ blockquote {
    margin-right: auto;
 }
 
-nav {
+#header {
    height: 60px;
    margin-bottom: 5px;
 }
@@ -74,7 +74,6 @@ a.home_title:hover {
    color: #0084B4;
    text-decoration: none;
 }
-
 
 .home_date {
    float: right;
