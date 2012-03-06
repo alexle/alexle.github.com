@@ -90,6 +90,7 @@ a.home_title:hover {
 }
 
 .twitter-share-button {
+   margin-top: 8px;
 }
 
 #find_me {
@@ -103,10 +104,10 @@ a.home_title:hover {
 }
 
 article {
-   padding-bottom: 10px;
+   padding-bottom: 5px;
 }
 
 footer {
    border-top: 1px solid #ccc;
-   padding-top: 25px;
+   padding-top: 20px;
 }
