@@ -7,13 +7,17 @@ Can it send text messages? You betcha!
 
 You'll be using the SMTP (Simple Mail Transfer Protocol) library. It's the most common protocol for sending mail and its communication is done using TCP.
 
-> import smtplib
+<div id="code">
+<font color="#cd5c5c">import</font>&nbsp;smtplib<br>
+</div>
 
 Next, establish a secure session with gmail's outgoing SMTP server using your gmail account. A TLS or SSL connection must be used; the example below uses STARTTLS which is port 587.
 
-> server = smtplib.SMTP( "smtp.gmail.com", 587 )<br>
-> server.starttls()<br>
-> server.login( '&lt;gmail_address&gt;', '&lt;gmail_password&gt;' )
+<div id="code">
+server = smtplib.SMTP( <span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><font color="#ffa0a0">smtp.gmail.com</font><span style="background-color: #333333"><font color="#ffffff">&quot;</font></span>, 587 )<br>
+server.starttls()<br>
+server.login( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;gmail_address&gt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;gmail_password&gt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;)<br>
+</div>
 
 Now you're set up to send email. You will send a text message by taking advantage of each mobile carrier's email to SMS gateway!
 
@@ -21,7 +25,9 @@ For example, to send a text message to a t-mobile number, you would use &lt;numb
 
 Once you have your phone destination, all that's left is to add your message and send the mail.
 
-> server.sendmail( '&lt;from&gt;', '&lt;number&gt;@tmomail.net', '&lt;msg&gt;' )
+<div id="code">
+server.sendmail( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;from&gt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;number&gt;@tmomail.net</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">Hello!</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;)<br>
+</div>
 
 5 lines of code. Not bad :)
 

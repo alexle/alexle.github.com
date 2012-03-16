@@ -7,38 +7,39 @@ Luckily for me, ION airs 1-4 episodes almost every day. The only problem is I ca
 
 I got tired of this rather quickly and wrote a python script to "scrape" the webpage for show times. [Web scraping][3] is a technique to extract information from websites using code. There are many different ways to scrape the web; the method I used is crude but simple:
 
-<blockquote>
-#!/usr/bin/python<br />
-<br />
-from urllib import urlopen<br />
-import re, time<br />
-<br />
-LINK = 'http://www.ionline.tv'  # url to scrape<br />
-SHOW = 'CRIMINAL MINDS'         # show keyword to search on<br />
-msg = SHOW<br />
-show_index = 0<br />
-<br />
-content = urlopen( LINK ).read()<br />
-<br />
-dates_array = re.findall( 'weekdate"&gt;(.*?)&lt;', content )<br />
-<br />
-time = re.findall( 'title"&gt;(.*?)&lt;.*?eastern"&gt;(.*?)&lt;.*?(/ul|&lt;li)', content )<br />
-<br />
-for date_entry in range( len(dates_array) - 1 ):<br />
-<br />
-&nbsp;&nbsp;msg += '\n' + dates_array[date_entry]      # iterate through dates<br />
-<br />
-&nbsp;&nbsp;while True:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;if ( time[show_index][0] == SHOW ):     # check if show is CM<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg += '\n' + time[show_index][1]<br />
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp;show_index += 1<br />
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp;if ( time[show_index-1][2] == '/ul' ):  # marker for end of day<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break<br />
-<br />
-print msg
-</blockquote>
+<div id="code">
+<font color="#87ceeb">#!/usr/bin/python</font><br>
+<br>
+<font color="#cd5c5c">from</font>&nbsp;urllib <font color="#cd5c5c">import</font>&nbsp;urlopen<br>
+<font color="#cd5c5c">import</font>&nbsp;re, time<br>
+<br>
+LINK = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0"><a href="http://www.ionline.tv">http://www.ionline.tv</a></font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;<font color="#87ceeb"># url to scrape</font><br>
+SHOW = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">CRIMINAL MINDS</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># show keyword to search on</font><br>
+msg = SHOW<br>
+show_index = 0<br>
+<br>
+content = urlopen( LINK ).read()<br>
+<br>
+dates_array = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">weekdate&quot;&gt;(.*?)&lt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
+<br>
+time = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">title&quot;&gt;(.*?)&lt;.*?eastern&quot;&gt;(.*?)&lt;.*?(/ul|&lt;li)</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
+<br>
+<font color="#f0e68c"><b>print</b></font>&nbsp;time<br>
+<font color="#f0e68c"><b>for</b></font>&nbsp;date_entry <font color="#f0e68c"><b>in</b></font>&nbsp;range( len(dates_array) - 1 ):<br>
+<br>
+&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ dates_array[date_entry]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#87ceeb"># iterate through dates</font><br>
+<br>
+&nbsp;&nbsp; <font color="#f0e68c"><b>while</b></font>&nbsp;True:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index][0] == SHOW ):&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># check if show is CM</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ time[show_index][1]<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show_index += 1<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index-1][2] == <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">/ul</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;):&nbsp;&nbsp;<font color="#87ceeb"># marker for end of day</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f0e68c"><b>break</b></font><br>
+<br>
+<font color="#f0e68c"><b>print</b></font>&nbsp;msg<br>
+</div>
 
 The procedure involves 3 steps: 
 

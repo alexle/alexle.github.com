@@ -23,15 +23,20 @@ If you wish to change the port, it can be configured as an additional parameter:
 
 The SimpleHTTPServer can also be started in a script. Here's a snippet of the code I use:
 
-> import sys, SimpleHTTPServer, BaseHTTPServer
-> from SimpleHTTPServer import SimpleHTTPRequestHandler
-> 
-> SimpleHTTPRequestHandler.protocol_version = "HTTP/1.0"
-         httpd = BaseHTTPServer.HTTPServer(('127.0.0.1', 8000), SimpleHTTPRequestHandler)
->
-         sa = httpd.socket.getsockname()
-         print "Serving HTTP on", sa[0], sa[1], "..."
-         httpd.serve_forever()
+<div id="code">
+<font color="#cd5c5c">import</font>&nbsp;sys, SimpleHTTPServer, BaseHTTPServer<br>
+<font color="#cd5c5c">from</font>&nbsp;SimpleHTTPServer <font color="#cd5c5c">import</font>&nbsp;SimpleHTTPRequestHandler<br>
+<br>
+SimpleHTTPRequestHandler.protocol_version = <span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><font color="#ffa0a0">HTTP/1.0</font><span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><br>
+<br>
+httpd = BaseHTTPServer.HTTPServer((<span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">127.0.0.1</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, 8000), SimpleHTTPRequestHandler)<br>
+<br>
+sa = httpd.socket.getsockname()<br>
+<br>
+<font color="#f0e68c"><b>print</b></font>&nbsp;<span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><font color="#ffa0a0">Serving HTTP on</font><span style="background-color: #333333"><font color="#ffffff">&quot;</font></span>, sa[0], sa[1], <span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><font color="#ffa0a0">...</font><span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><br>
+<br>
+httpd.serve_forever()<br>
+</div>
 
 And there you go. Happy web serving!
 

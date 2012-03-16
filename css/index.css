@@ -31,6 +31,15 @@ blockquote {
    font-size: 14px;
 }
 
+#code {
+   font-family: monospace;
+   background-color: #333333;
+   color: #ffffff;
+   font-size: 13px;
+   padding: 10px;
+}
+
+
 #wrapper {
    width: 630px;
    margin-left: auto;
