@@ -7,25 +7,33 @@ The .vimrc is the configuration file. I consider [my .vimrc][2] pretty basic and
 
 #### 1. Remap : to ; ####
 
-> nnoremap ; :
+<div id="code">
+<font color="#f0e68c"><b>nnoremap</b></font>&nbsp;;&nbsp;:<br>
+</div>
 
 The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.
 
 ####2. Remap &lt;esc&gt; to jj####
 
-> inoremap jj
+<div id="code">
+<font color="#f0e68c"><b>inoremap</b></font>&nbsp;jj&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">esc</font><font color="#ffdead">&gt;</font><br>
+</div>
 
 Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.
 
 ####3. Map &lt;leader&gt; to ,####
 
-> let mapleader = ","
+<div id="code">
+<font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font><font color="#ffa0a0">&quot;,&quot;</font><br>
+</div>
 
 The &lt;leader&gt; key is your own personal modifier key and is default as \. This setting allows for easier usage of <leader> macros.
 
 ####4. Map NERDTree toggle to ,n####
 
-> nnoremap &lt;leader&gt;n :NERDTreeToggle
+<div id="code">
+<font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>n&nbsp;:NERDTreeToggle<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font><br>
+</div>
 
 This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle [NERDTree][3]. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.
 

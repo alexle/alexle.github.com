@@ -47,24 +47,28 @@
       <p><a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">VIM</a> is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it's extremely efficient once you learn the movements and power commands. My hands rarely have to leave the keyboard when editing.</p>
 <p>The .vimrc is the configuration file. I consider <a href="https://github.com/alexle/vimrc/blob/master/.vimrc">my .vimrc</a> pretty basic and a good starting point for beginners to VIM. I would also suggest to understand every setting before adding to your .vimrc file. Here are a few of my favorite settings:</p>
 <h4>1. Remap : to ;</h4>
-<blockquote>
-<p>nnoremap ; :</p>
-</blockquote>
+<div id="code">
+<font color="#f0e68c"><b>nnoremap</b></font>&nbsp;;&nbsp;:<br>
+</div>
+
 <p>The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.</p>
 <h4>2. Remap &lt;esc&gt; to jj</h4>
-<blockquote>
-<p>inoremap jj</p>
-</blockquote>
+<div id="code">
+<font color="#f0e68c"><b>inoremap</b></font>&nbsp;jj&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">esc</font><font color="#ffdead">&gt;</font><br>
+</div>
+
 <p>Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.</p>
 <h4>3. Map &lt;leader&gt; to ,</h4>
-<blockquote>
-<p>let mapleader = ","</p>
-</blockquote>
+<div id="code">
+<font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font><font color="#ffa0a0">&quot;,&quot;</font><br>
+</div>
+
 <p>The &lt;leader&gt; key is your own personal modifier key and is default as . This setting allows for easier usage of <leader> macros.</p>
 <h4>4. Map NERDTree toggle to ,n</h4>
-<blockquote>
-<p>nnoremap &lt;leader&gt;n :NERDTreeToggle</p>
-</blockquote>
+<div id="code">
+<font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>n&nbsp;:NERDTreeToggle<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font><br>
+</div>
+
 <p>This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle <a href="http://www.vim.org/scripts/script.php?script_id=1658">NERDTree</a>. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.</p>
 <p>All in all, my favorite .vimrc settings increase the comfort of using the editor. I've found them extremely useful and hope they can be the same for you.</p>
    </p>
