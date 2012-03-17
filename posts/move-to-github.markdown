@@ -41,7 +41,7 @@ Designing the HTML+CSS was a fun experience as well. The layout is much more sim
 
 Maintaining static HTML files is not for everyone, but it greatly fits my style as a software developer. I love opening a plain text file and writing, without any regards to HTML tags, having to be online, or my hands leaving the keyboard. I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.
 
-In the end, moving to a static site has let me concentrate more on my writing, and not on the styling of my content. There are some disadvantages to static site generators, such as lack of dynamic content such as comments/plugins. I haven't decided how, or even if, I'll address those yet. For now, my main goal is just to focus on content.
+In the end, moving to a static site has let me concentrate more on my writing, and not on the styling of my content. There are some disadvantages to static site generators, such as lack of dynamic content (comments/plugins) and RSS feeds. I haven't decided how, or even if, I'll address those yet. For now, my main goal is just to focus on content.
 
 *Feel free to [fork][6] my blog!
 
