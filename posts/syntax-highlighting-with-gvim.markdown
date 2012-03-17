@@ -52,7 +52,7 @@ counter =&nbsp;<font color="#ffa0a0">0</font><br>
 &nbsp;&nbsp; counter +=&nbsp;<font color="#ffa0a0">1</font><br>
 </div>
 
-Note that TOhtml creates an entire HTML file, which may be overkill for sharing code snippets. My usage simply involves copying the "meat" inbetween the &lt;body&gt; tags and pasting where needed.
+Note that TOhtml creates a HTML file with **all** tags, which may be overkill for sharing code snippets. My usage simply involves copying the "meat" inbetween the &lt;body&gt; tags and pasting in my posts.
 
 The HTML may not be optimal, but it works and provides a quick solution to adding colorized code snippets on your blog.
 
