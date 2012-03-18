@@ -56,4 +56,7 @@ Note that TOhtml creates a HTML file with **all** tags, which may be overkill fo
 
 The HTML may not be optimal, but it works and provides a quick solution to adding colorized code snippets on your blog.
 
+\* Update: Follow the discussion at [Hacker News][2]
+
 [1]: https://github.com/dz/chisel
+[2]: http://news.ycombinator.com/item?id=3716465
