@@ -2,6 +2,8 @@ Hello World!
 12-10-2008
 
 <div id="code">
+<font color="#cd5c5c">#include </font><font color="#ffa0a0">&lt;stdio.h&gt;</font><br>
+<br>
 <font color="#bdb76b"><b>int</b></font>&nbsp;main()<br>
 {<br>
 &nbsp;&nbsp;printf(<font color="#ffa0a0">&quot;Hello world!</font><font color="#ffdead">\n</font><font color="#ffa0a0">&quot;</font>);<br>
