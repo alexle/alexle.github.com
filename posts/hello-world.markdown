@@ -10,4 +10,3 @@ Hello World!
 &nbsp;&nbsp;<font color="#f0e68c"><b>return</b></font>&nbsp;<font color="#ffa0a0">0</font>;<br>
 }<br>
 </div>
-}
