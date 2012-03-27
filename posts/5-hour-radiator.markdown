@@ -9,18 +9,18 @@ A couple hours later, that thought was replaced with "what were you thinking ale
 
 Old radiator, sorry I did not take better care of you.
 
-<img src="/static/radiator1.JPG" width="320" height="240" />
+<img src="/static/rad1.jpg" width="320" height="240" />
 
 Transferring hoses from old radiator to new radiator.
 
-<img src="/static/radiator2.JPG" width="320" height="240" />
+<img src="/static/rad2.jpg" width="320" height="240" />
 
 Bam! The new radiator ready to go to its new home.
 
-<img src="/static/radiator3.JPG" width="320" height="240" />
+<img src="/static/rad3.jpg" width="320" height="240" />
 
 One last look before installation.
 
-<img src="/static/radiator4.JPG" width="320" height="240" />
+<img src="/static/rad4.jpg" width="320" height="240" />
 
 [1]: http://www.youtube.com/watch?v=BPII3yh4btA
