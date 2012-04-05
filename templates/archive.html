@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% set title = "Alex Le's Blog" %}
 
 {% block main %}
    {% for year, year_list in entries|groupby('year')|reverse %}
