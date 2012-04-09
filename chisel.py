@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, re, time, os, codecs, getopt, SimpleHTTPServer, BaseHTTPServer
+import sys, re, time, os, codecs, getopt, SimpleHTTPServer, BaseHTTPServer, email.utils
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 
@@ -14,9 +14,11 @@ TEMPLATES = {
     'home': "home.html",
     'post': "post.html",
     'archive': "archive.html",
+    'rss': "rss.html",
 }
 TIME_FORMAT = "%b %d, %Y"
 ENTRY_TIME_FORMAT = "%m-%d-%Y"
+RSS_TIME_FORMAT = "%Y-%m-%dTO0:00:00-07:00"
 
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',]) 
@@ -52,6 +54,7 @@ def get_tree(source):
                 'month': month,
                 'day': day,
                 'filename': name,
+                'rss_date': time.strftime(RSS_TIME_FORMAT, date),
             })
             f.close()
     return files
@@ -89,6 +92,12 @@ def detail_pages(f, e):
     template = e.get_template(TEMPLATES['post'])
     for file in f:
         write_file(file['url'], template.render(entry=file))
+
+@step
+def generate_rss(f, e):
+    """Generate rss feed"""
+    template = e.get_template(TEMPLATES['rss'])
+    write_file("../feed.xml", template.render(entries=f))
 
 def chisel():
     print "Chiseling..."
