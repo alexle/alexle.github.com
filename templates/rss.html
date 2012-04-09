@@ -2,12 +2,14 @@
 <rss version="2.0">
 <channel>
    <title>Alex Le</title>
+   <description>Alex Le's Blog</description>
    <link>http://www.alexanderle.com</link>
    <language>en-us</language>
    {% for entry in entries %}
    <item>
    <title>{{ entry.title }}</title>
    <link>http://alexanderle.com/blog/{{ entry.url }}</link>
+   <guid>http://alexanderle.com/blog/{{ entry.url }}</guid>
    <pubDate>{{ entry.rss_date }}</pubDate>
    </item>
    {% endfor %}
