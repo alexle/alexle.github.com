@@ -18,7 +18,7 @@ TEMPLATES = {
 }
 TIME_FORMAT = "%b %d, %Y"
 ENTRY_TIME_FORMAT = "%m-%d-%Y"
-RSS_TIME_FORMAT = "%a, %d %b %Y O0:00:00 MST"
+RSS_TIME_FORMAT = "%a, %d %b %Y 00:00:00 MST"
 
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',]) 
