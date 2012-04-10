@@ -45,7 +45,6 @@ In the end, moving to a static site has let me concentrate more on my writing, a
 
 *Feel free to [fork][6] my blog!
 
-
 [1]: http://alexanderle.com/blog/2012/02/07/farewell-blogger.html
 [2]: http://pages.github.com/
 [3]: http://iwantmyname.com/blog/2011/02/list-static-website-generators.html
