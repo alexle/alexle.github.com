@@ -8,6 +8,14 @@
    <language>en-us</language>
    
    <item>
+   <title>Create An RSS Feed From Scratch</title>
+   <link>http://alexanderle.com/blog/2012/04/11/create-an-rss-feed-from-scratch.html</link>
+   <guid>http://alexanderle.com/blog/2012/04/11/create-an-rss-feed-from-scratch.html</guid>
+   <pubDate>Wed, 11 Apr 2012 00:00:00 MST</pubDate>
+   <author>alex.csm@gmail.com (Alex Le)</author>
+   </item>
+   
+   <item>
    <title>Add Syntax Highlighting To Your Blog With VIM</title>
    <link>http://alexanderle.com/blog/2012/03/17/syntax-highlighting-with-gvim.html</link>
    <guid>http://alexanderle.com/blog/2012/03/17/syntax-highlighting-with-gvim.html</guid>

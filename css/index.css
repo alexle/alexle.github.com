@@ -25,10 +25,16 @@ blockquote {
    font-family: courier;
    border-left: 3px solid #ccc;
    padding-left: 10px;
-   margin-left: 15px;
+   margin-left: 10px;
    margin-right: 0px;
 
-   font-size: 14px;
+   font-size: 13px;
+}
+
+pre {
+   font-family: courier;
+   font-size: 13px;
+   padding: 10px;
 }
 
 #code {
@@ -58,12 +64,14 @@ blockquote {
 .profile_pic {
    height: 60px;
    width: 60px;
+   border: 0;
    margin-right: 10px;
    float: left;
 }
 .thumb_pic {
    height: 26px;
    width: 26px;
+   border: 0;
    padding-right: 4px;
 }
 
