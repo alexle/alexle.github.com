@@ -84,7 +84,7 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
 
 ###Automation###
 
-While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my site ([chisel][5]). A [Jinja2][6] template (python template language) is created that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
+While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site ([chisel][5]). A [Jinja2][6] template (python template language) is created that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
 
 <pre>
 {% for entry in entries %}
