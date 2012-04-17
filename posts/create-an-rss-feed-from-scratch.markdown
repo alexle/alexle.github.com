@@ -46,13 +46,12 @@ The `<channel>` tag describes the charateristics of the RSS feed. There are many
 
 ###Item Element###
 
-Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. They follow the same basic requirements of the channel (title, description, link). 
+Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.
 
 <pre>
    <span class="Identifier">&lt;</span><span class="Identifier">item</span><span class="Identifier">&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Create An RSS Feed From Scratch<span class="Identifier">&lt;/title&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/link&gt;</span>
-     <span class="Identifier">&lt;</span><span class="Identifier">description</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/description&gt;</span>
    <span class="Identifier">&lt;/item&gt;</span>
 </pre>
 
@@ -73,10 +72,8 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
    <span class="Identifier">&lt;</span><span class="Identifier">item</span><span class="Identifier">&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Create An RSS Feed From Scratch<span class="Identifier">&lt;/title&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/link&gt;</span>
-     <span class="Identifier">&lt;</span><span class="Identifier">description</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/description&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">guid</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/guid&gt;</span>
      <span class="Identifier">&lt;</span><span class="Identifier">pubDate</span><span class="Identifier">&gt;</span>Wed, 11 Apr 2012 00:00:00 MST<span class="Identifier">&lt;/pubDate&gt;</span>
-     <span class="Identifier">&lt;</span><span class="Identifier">author</span><span class="Identifier">&gt;</span>alex.csm@gmail.com (Alex Le)<span class="Identifier">&lt;/author&gt;</span>
    <span class="Identifier">&lt;/item&gt;</span>
 <span class="Identifier">&lt;/channel&gt;</span>
 <span class="Identifier">&lt;/rss&gt;</span>
@@ -84,7 +81,7 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
 
 ###Automation###
 
-While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site ([chisel][5]). A [Jinja2][6] template (python template language) is created that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
+While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site ([chisel][5]). I create a [Jinja2][6] template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
 
 <pre>
 {% for entry in entries %}
