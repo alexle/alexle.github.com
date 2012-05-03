@@ -52,5 +52,5 @@ What about cookies, don't they achieve the same result? Yes. But cookies have th
 
 Local storage is an up-and-coming technology that's powerful and easy to use. Play around with it, you might be surprised what you can do with it.
 
-[1]: http://3checkmarks.appspot.com/
-[2]: https://github.com/alexle/3checkmarks
+[1]: http://alexanderle.com/localstorage_demo/
+[2]: https://github.com/alexle/localstorage_demo
