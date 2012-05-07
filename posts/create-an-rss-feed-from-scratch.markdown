@@ -27,7 +27,7 @@ To start, create a text file with an .xml extension. Add the `<xml>` declaration
 
 ###Channel Element###
 
-The `<channel>` tag describes the charateristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the [RSS specification][2]. The channel has three required elements:
+The `<channel>` tag describes the characteristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the [RSS specification][2]. The channel has three required elements:
 
 1. `<title>` - title of RSS feed
 2. `<description>` - description of RSS feed
