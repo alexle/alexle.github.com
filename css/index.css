@@ -68,11 +68,18 @@ pre {
    margin-right: 10px;
    float: left;
 }
+
 .thumb_pic {
    height: 26px;
    width: 26px;
    border: 0;
    padding-right: 4px;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .home_post {
