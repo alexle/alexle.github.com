@@ -23,11 +23,11 @@ I completed the race in 70 minutes and swore off running forever. Even the free 
 
 A couple days later, I felt an unexpected urge - the urge to do it again. My legs felt stronger, my pace of 11 minutes/mile looked beatable. And that's when I knew I had caught the running bug.
 
-It's strange how something so painful can be so addicting. Each time, I tried to push myself a *little* bit faster, or a *little* bit further. I wasn't always successful, but failing just motivated me more next time.
+It's strange how something so painful can be so addicting. Each time I run, I try to push myself a *little* bit faster, or a *little* bit further. I'm not always successful, but failing just motivates me more next time.
 
 ###Why I Still Run###
 
-To me, the appeal of running isn't about optimal exercise or finishing in the top 10 or feeling good while doing it. It's about pushing my body and mind beyond its comfort zone, doing something challenging (and at times, seemingly impossible), not quitting when I want to the most, and finding a way to fight through the pain.
+To me, the appeal of running isn't about optimal exercise or finishing in the top 10 or feeling good while doing it. It's about pushing my body and mind beyond its comfort zone. It's about doing something challenging and at times, seemingly impossible. And it's about not quitting when I want to the most, and finding a way to fight through the pain.
 
 There is nothing pleasant about slamming my feet down in front of each other for 15/30/60 minutes while counting down the seconds until it's over. But I love the sense of accomplishment I get after every run and the rush that comes when I beat my old time or distance.
 
