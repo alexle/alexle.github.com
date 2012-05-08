@@ -17,7 +17,7 @@ Unfortunately, the race was grueling and reinforced my hatred for running. My lu
 
 "Never. Again."
 
-I completed the race in 70 minutes and swore off running forever. Even the free beer and goodie bag afterwards couldn't waiver my decision.
+I completed the race in 70 minutes and swore off running forever. Even the free beer and goodie bag afterwards couldn't waver my decision.
 
 ###The Running Bug###
 
@@ -31,7 +31,7 @@ To me, the appeal of running isn't about optimal exercise or finishing in the to
 
 There is nothing pleasant about slamming my feet down in front of each other for 15/30/60 minutes while counting down the seconds until it's over. But I love the sense of accomplishment I get after every run and the rush that comes when I beat my old time or distance.
 
-I'm already looking forward to my next run, though I have a feeling I'm going to really, really hate it. See you on the road!
+I'm already looking forward to my next run, though I have a feeling I'm going to really, really hate it. See you on the road.
 
 [2]: http://bolderboulder.com/
 
