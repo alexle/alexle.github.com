@@ -135,3 +135,9 @@ footer {
    border-top: 1px solid #ccc;
    padding-top: 20px;
 }
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
