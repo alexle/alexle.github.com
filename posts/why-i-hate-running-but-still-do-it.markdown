@@ -23,7 +23,7 @@ I completed the race in 70 minutes and swore off running forever. Even the free 
 
 A couple days later, I felt an unexpected urge - the urge to do it again. My legs felt stronger, my pace of 11 minutes/mile looked beatable. And that's when I knew I had caught the running bug.
 
-It's strange how something so painful can be so addicting. Each time I run, I try to push myself a *little* bit faster, or a *little* bit further. I'm not always successful, but failing just motivates me more next time.
+It's strange how something so painful could be so addicting. Each time I ran, I would try to push myself a *little* bit faster, or a *little* bit further. I wasn't always successful, but failing just motivated me more next time.
 
 ###Why I Still Run###
 
