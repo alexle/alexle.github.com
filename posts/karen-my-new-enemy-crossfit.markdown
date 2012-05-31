@@ -13,13 +13,15 @@ Here is a video demonstrating Wall Balls and how to perform them correctly:
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/TC2FmcPH64o" frameborder="0" allowfullscreen></iframe>
 
-The guy rocked it in 5:00, pretty impressive.
+This guy rocked it in 5:00, pretty impressive.
 
 ###My Results and Impression###
 
 I logged my Karen at 15:25. Unfortunately, I was only using a 16lb ball. And could only hit an 8ft target. So technically, I did not complete a full-Karen. More like a "mini-Karen".
 
 Nonetheless, I feel very accomplished. The workout was harder than I expected, and I don't believe any amount of training could have prepared my body for this. I'm already looking forward to the next trial and am aiming to hit a 9ft target consistently.
+
+Until then, watch out Karen - I'm coming for you.
 
 [1]: http://www.crossfit.com/
 [2]: http://www.crossfit.com/cf-info/faq.html#General0
