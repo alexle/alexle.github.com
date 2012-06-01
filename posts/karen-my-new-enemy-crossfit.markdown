@@ -1,4 +1,4 @@
-Karen, My Newest Enemy (CrossFit)
+Karen, My Newest Enemy
 05-31-2012
 
 I recently completed my first [CrossFit][1] workout of the day - "Karen". For those of you who don't know what CrossFit is, it's a high-intensity fitness program that combines a variety of functional movements to improve strength and conditioning. Think of it as P90x or Insanity, but with different workouts and focus.
