@@ -21,7 +21,7 @@ I logged my Karen at 15:25. Unfortunately, I was only using a 16lb ball. And cou
 
 Nonetheless, I feel very accomplished. The workout was harder than I expected, and I don't believe any amount of training could have prepared my body for this. I'm already looking forward to the next trial and am aiming to hit a 9ft target consistently.
 
-Until then, watch out Karen - I'm coming for you.
+I'm not sure how far I'll delve into Crossfit, but the exercises I've learned so far have been fun and break up the monotony of lifting weights. Karen, you kicked my butt. But when I recover, I'm coming for you.
 
 [1]: http://www.crossfit.com/
 [2]: http://www.crossfit.com/cf-info/faq.html#General0
