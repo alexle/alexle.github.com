@@ -1,0 +1,148 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+   <title>How to scrape a web page with python (Criminal Minds)</title>
+
+   <!-- Google Analytics -->
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28947728-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+      
+   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+   <link rel="stylesheet" href="/css/index.css" type="text/css">
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
+</head>
+
+<body>
+   <div id="wrapper">
+   <div id="header">
+      <a href="/"><img src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
+      <h2>Alex Le</h2><br>
+      <h4>Firmware Engineer | Minimalist | Improving Runner</h4>
+   </div>
+   <br clear="all">
+
+   <article>
+      
+<div class="post">
+   <div class="post_title">
+      <h2>How to scrape a web page with python (Criminal Minds)</h2>
+   </div>
+
+   <p class="post_date">
+      Sep 27, 2011
+   </p>
+
+   <p class="post_content">
+      <p>I've been hooked on the television show <a href="http://en.wikipedia.org/wiki/Criminal_Minds">Criminal Minds</a> lately. It follows a team of FBI profilers who analyze criminal behavior to catch some twisted bad guys. It's intriguing to me why serial killers do what they do, so the study and breakdown of each criminal's psyche in the show is appealing.</p>
+<p>Luckily for me, ION airs 1-4 episodes almost every day. The only problem is I can never remember what time the show is on. As a result, I have to go to the <a href="http://www.iontelevision.com/">ION website</a> and check what time the episodes are. Every day.</p>
+<p>I got tired of this rather quickly and wrote a python script to "scrape" the webpage for show times. <a href="http://en.wikipedia.org/wiki/Web_scraping">Web scraping</a> is a technique to extract information from websites using code. There are many different ways to scrape the web; the method I used is crude but simple:</p>
+<div id="code">
+<font color="#87ceeb">#!/usr/bin/python</font><br>
+<br>
+<font color="#cd5c5c">from</font>&nbsp;urllib <font color="#cd5c5c">import</font>&nbsp;urlopen<br>
+<font color="#cd5c5c">import</font>&nbsp;re, time<br>
+<br>
+LINK = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0"><a href="http://www.ionline.tv">http://www.ionline.tv</a></font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;<font color="#87ceeb"># url to scrape</font><br>
+SHOW = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">CRIMINAL MINDS</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># show keyword to search on</font><br>
+msg = SHOW<br>
+show_index = 0<br>
+<br>
+content = urlopen( LINK ).read()<br>
+<br>
+dates_array = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">weekdate&quot;&gt;(.*?)&lt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
+<br>
+time = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">title&quot;&gt;(.*?)&lt;.*?eastern&quot;&gt;(.*?)&lt;.*?(/ul|&lt;li)</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
+<br>
+<font color="#f0e68c"><b>print</b></font>&nbsp;time<br>
+<font color="#f0e68c"><b>for</b></font>&nbsp;date_entry <font color="#f0e68c"><b>in</b></font>&nbsp;range( len(dates_array) - 1 ):<br>
+<br>
+&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ dates_array[date_entry]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#87ceeb"># iterate through dates</font><br>
+<br>
+&nbsp;&nbsp; <font color="#f0e68c"><b>while</b></font>&nbsp;True:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index][0] == SHOW ):&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># check if show is CM</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ time[show_index][1]<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show_index += 1<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index-1][2] == <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">/ul</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;):&nbsp;&nbsp;<font color="#87ceeb"># marker for end of day</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f0e68c"><b>break</b></font><br>
+<br>
+<font color="#f0e68c"><b>print</b></font>&nbsp;msg<br>
+</div>
+
+<p>The procedure involves 3 steps: </p>
+<ol>
+<li>Read in the site's data. This is done with <strong>urlopen( LINK ).read()</strong>.</li>
+<li>Parse the data I want (date/time) using regular expressions with <strong>re.findall()</strong>.</li>
+<li>Run a loop to check/print matches for my show.</li>
+</ol>
+<p>As of 9/27/11, running the script above produces an output of:</p>
+<blockquote>
+CRIMINAL MINDS<br />
+September 27<br />
+9<br />
+10<br />
+11<br />
+September 28<br />
+10<br />
+11<br />
+September 29<br />
+8<br />
+9<br />
+10<br />
+11<br />
+September 30<br />
+October 1<br />
+October 2<br />
+October 3<br />
+9<br />
+10<br />
+11
+</blockquote>
+
+<p>Time and date of <strong>every</strong> Criminal Mind episode for the next week. Fist pump!</p>
+<p>However, there is a downside to the script above (and web scraping in general). If the site redesigns its web page, or changes its data, there's a high probability the script/regex will be affected. For that reason, it is always preferred to use a site's API if available.</p>
+   </p>
+
+   <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="How to scrape a web page with python (Criminal Minds)" data-via="alextrle">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <g:plusone size="medium"></g:plusone>
+   </p>
+</div>
+
+   </article>
+
+   <footer>
+      <div id="find_me">
+         <h4>Find me on:</h4>
+         <div id="social_buttons">
+            <a href="http://www.facebook.com/alexle" title="Facebook" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
+            <a href="http://twitter.com/#!/alextrle" title="Twitter" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
+            <a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
+            <a href="https://github.com/alexle" title="Github" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
+            <a href="https://profiles.google.com/alex.csm/about" title="Google+" target="_blank"><img src="/static/google-plus-icon.jpg" class="thumb_pic" /></a>
+            <a href="/feed.xml" title="Subscribe RSS" target="_blank"><img src="/static/rss_32.png" class="thumb_pic" /></a>
+         </div>
+      </div>
+      <div id="contact_me">
+         <h4>Contact me:</h4>
+         <br>
+         <a href="mailto:alex.csm@gmail.com" class="home_title">alex.csm@gmail.com</a>
+      </div>
+   </footer>
+   </div>
+</body>
+</html>

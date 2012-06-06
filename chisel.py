@@ -47,7 +47,7 @@ def get_tree(source):
                 'title': title,
                 'epoch': time.mktime(date),
                 'content': FORMAT(''.join(f.readlines()[1:]).decode('UTF-8')),
-                'url': '/'.join([str(year), "%.2d" % month, "%.2d" % day, os.path.splitext(name)[0] + ".html"]),
+                'url': '/'.join([str(year), os.path.splitext(name)[0] + ".html"]),
                 'pretty_date': time.strftime(TIME_FORMAT, date),
                 'date': date,
                 'year': year,

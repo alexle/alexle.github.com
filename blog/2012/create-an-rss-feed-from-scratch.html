@@ -1,0 +1,164 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+   <title>Create An RSS Feed From Scratch</title>
+
+   <!-- Google Analytics -->
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28947728-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+      
+   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+   <link rel="stylesheet" href="/css/index.css" type="text/css">
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
+</head>
+
+<body>
+   <div id="wrapper">
+   <div id="header">
+      <a href="/"><img src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
+      <h2>Alex Le</h2><br>
+      <h4>Firmware Engineer | Minimalist | Improving Runner</h4>
+   </div>
+   <br clear="all">
+
+   <article>
+      
+<div class="post">
+   <div class="post_title">
+      <h2>Create An RSS Feed From Scratch</h2>
+   </div>
+
+   <p class="post_date">
+      Apr 11, 2012
+   </p>
+
+   <p class="post_content">
+      <p><a href="http://en.wikipedia.org/wiki/RSS">RSS feeds</a> are a great way to stay updated with the barrage of content on the web. Unfortunately, not all websites have one available - including this one (until now). Here's a quick guide to the basic components of an RSS feed and how to create one from scratch.</p>
+<style type="text/css">
+pre { font-family: monospace; color: #ffffff; background-color: #333333; }
+.Special { color: #ffdead; }
+.Identifier { color: #98fb98; }
+.Constant { color: #ffa0a0; }
+.Type { color: #bdb76b; font-weight: bold; }
+.Comment { color: #87ceeb; }
+</style>
+
+<h3>XML and RSS Element</h3>
+<p>To start, create a text file with an .xml extension. Add the <code>&lt;xml&gt;</code> declaration (must be the first line), followed by the <code>&lt;rss&gt;</code> tags which will encompass the rest of the RSS content.</p>
+<pre>
+<span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">&quot;utf-8&quot;</span><span class="Comment">?&gt;</span>
+<span class="Identifier">&lt;</span><span class="Identifier">rss</span><span class="Identifier"> </span><span class="Type">version</span>=<span class="Constant">&quot;2.0&quot;</span><span class="Identifier"> </span><span class="Type">xmlns</span><span class="Comment">:</span><span class="Type">atom</span>=<span class="Constant">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="Identifier">&gt;</span>
+
+<-- channel goes here -->
+
+<span class="Identifier">&lt;/rss&gt;</span>
+</pre>
+
+<h3>Channel Element</h3>
+<p>The <code>&lt;channel&gt;</code> tag describes the characteristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the <a href="http://www.rssboard.org/rss-specification">RSS specification</a>. The channel has three required elements:</p>
+<ol>
+<li><code>&lt;title&gt;</code> - title of RSS feed</li>
+<li><code>&lt;description&gt;</code> - description of RSS feed</li>
+<li><code>&lt;link&gt;</code> - link to RSS feed</li>
+</ol>
+<pre>
+<span class="Identifier">&lt;</span><span class="Identifier">channel</span><span class="Identifier">&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Alex Le's Blog<span class="Identifier">&lt;/title&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">description</span><span class="Identifier">&gt;</span>Alex Le's Blog<span class="Identifier">&lt;/description&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://www.alexanderle.com<span class="Identifier">&lt;/link&gt;</span>
+
+   <-- items goes here -->
+
+<span class="Identifier">&lt;/channel&gt;</span>
+</pre>
+
+<h3>Item Element</h3>
+<p>Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.</p>
+<pre>
+   <span class="Identifier">&lt;</span><span class="Identifier">item</span><span class="Identifier">&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Create An RSS Feed From Scratch<span class="Identifier">&lt;/title&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/link&gt;</span>
+   <span class="Identifier">&lt;/item&gt;</span>
+</pre>
+
+<h3>End Result and Validation</h3>
+<p>Put it all together and it becomes a valid, basic RSS feed. Notice there are a couple additions, such as <code>&lt;atom:link&gt;</code>, <code>&lt;guid&gt;</code>, and <code>&lt;pubDate&gt;</code>. This is to meet the <a href="http://validator.w3.org/feed/">W3C Feed Validation Service</a> requirements, which all feeds should be run through to validate.</p>
+<pre>
+<span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">&quot;utf-8&quot;</span><span class="Comment">?&gt;</span>
+<span class="Identifier">&lt;</span><span class="Identifier">rss</span><span class="Identifier"> </span><span class="Type">version</span>=<span class="Constant">&quot;2.0&quot;</span><span class="Identifier"> </span><span class="Type">xmlns</span><span class="Comment">:</span><span class="Type">atom</span>=<span class="Constant">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="Identifier">&gt;</span>
+<span class="Identifier">&lt;</span><span class="Identifier">channel</span><span class="Identifier">&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Alex Le's Blog<span class="Identifier">&lt;/title&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">description</span><span class="Identifier">&gt;</span>Alex Le's Blog<span class="Identifier">&lt;/description&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://www.alexanderle.com<span class="Identifier">&lt;/link&gt;</span>
+   <span class="Identifier">&lt;</span><span class="Special">atom</span><span class="Comment">:</span><span class="Identifier">link</span><span class="Identifier"> </span><span class="Type">href</span>=<span class="Constant">&quot;http://alexanderle.com/feed.xml&quot;</span><span class="Identifier"> </span>
+     <span class="Type">rel</span>=<span class="Constant">&quot;self&quot;</span><span class="Identifier"> </span><span class="Type">type</span>=<span class="Constant">&quot;application/rss+xml&quot;</span><span class="Identifier"> /&gt;</span>
+
+   <span class="Identifier">&lt;</span><span class="Identifier">item</span><span class="Identifier">&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">title</span><span class="Identifier">&gt;</span>Create An RSS Feed From Scratch<span class="Identifier">&lt;/title&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">link</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/link&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">guid</span><span class="Identifier">&gt;</span>http://alexanderle.com/blog/create-an-rss-feed.html<span class="Identifier">&lt;/guid&gt;</span>
+     <span class="Identifier">&lt;</span><span class="Identifier">pubDate</span><span class="Identifier">&gt;</span>Wed, 11 Apr 2012 00:00:00 MST<span class="Identifier">&lt;/pubDate&gt;</span>
+   <span class="Identifier">&lt;/item&gt;</span>
+<span class="Identifier">&lt;/channel&gt;</span>
+<span class="Identifier">&lt;/rss&gt;</span>
+</pre>
+
+<h3>Automation</h3>
+<p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site (<a href="http://alexanderle.com/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
+<pre>
+{% for entry in entries %}
+<span class="Identifier">&lt;</span>item<span class="Identifier">&gt;</span>
+  <span class="Identifier">&lt;</span><span class="Statement">title</span><span class="Identifier">&gt;</span><span class="Title">{{ entry.title }}</span><span class="Identifier">&lt;/</span><span class="Statement">title</span><span class="Identifier">&gt;</span>
+  <span class="Identifier">&lt;</span><span class="Statement">link</span><span class="Identifier">&gt;</span>{{ entry.url }}<span class="Identifier">&lt;/</span><span class="Statement">link</span><span class="Identifier">&gt;</span>
+  <span class="Identifier">&lt;</span>guid<span class="Identifier">&gt;</span>{{ entry.url }}<span class="Identifier">&lt;/</span>guid<span class="Identifier">&gt;</span>
+  <span class="Identifier">&lt;</span>pubDate<span class="Identifier">&gt;</span>{{ entry.rss_date }}<span class="Identifier">&lt;/</span>pubDate<span class="Identifier">&gt;</span>
+<span class="Identifier">&lt;/</span>item<span class="Identifier">&gt;</span>
+{% endfor %}
+</pre>
+
+<p>A simple loop through all the entries fills the variables with their appropriate content, such as entry.post_title, entry.url, and entry.date.</p>
+<p>Hopefully, this introduction to creating RSS feeds was useful. The full RSS xml of this page can be found (and subscribed to) <a href="http://alexanderle.com/feed.xml">here</a>.</p>
+   </p>
+
+   <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Create An RSS Feed From Scratch" data-via="alextrle">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <g:plusone size="medium"></g:plusone>
+   </p>
+</div>
+
+   </article>
+
+   <footer>
+      <div id="find_me">
+         <h4>Find me on:</h4>
+         <div id="social_buttons">
+            <a href="http://www.facebook.com/alexle" title="Facebook" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
+            <a href="http://twitter.com/#!/alextrle" title="Twitter" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
+            <a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
+            <a href="https://github.com/alexle" title="Github" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
+            <a href="https://profiles.google.com/alex.csm/about" title="Google+" target="_blank"><img src="/static/google-plus-icon.jpg" class="thumb_pic" /></a>
+            <a href="/feed.xml" title="Subscribe RSS" target="_blank"><img src="/static/rss_32.png" class="thumb_pic" /></a>
+         </div>
+      </div>
+      <div id="contact_me">
+         <h4>Contact me:</h4>
+         <br>
+         <a href="mailto:alex.csm@gmail.com" class="home_title">alex.csm@gmail.com</a>
+      </div>
+   </footer>
+   </div>
+</body>
+</html>
