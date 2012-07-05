@@ -11,7 +11,7 @@ We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. T
 
 <a href="/static/grays_valley.jpg"><img src="/static/grays_valley.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-3/4th of a mile in, the trail began to incline more. After the first steep climb, we were feeling the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
+3/4th of a mile in, the trail began to incline more. After the first steep climb, we were all feeling the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
 
 As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier had transformed into uneven rocks and boulders. On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
 
