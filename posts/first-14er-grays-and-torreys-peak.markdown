@@ -11,19 +11,19 @@ We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. T
 
 <a href="/static/grays_valley.jpg"><img src="/static/grays_valley.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-3/4th of a mile in, the trail began to incline more. After the first steep climb, we all felt the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
+3/4th of a mile in, the trail began to incline more. After the first steep climb, we were feeling the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
 
-As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier were replaced with uneven rocks and boulders. On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
+As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier had transformed into uneven rocks and boulders. On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
 
 <a href="/static/grays_climb.jpg"><img src="/static/grays_climb.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ###At The Top###
 
-We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms? Instead, all we were greeted with was the booming sound of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
+We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms? Instead, all we were greeted with were booming sounds of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
 
 <a href="/static/grays_victory.jpg"><img src="/static/grays_victory.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. I believe that now. With how windy the summit was and the clouds blocking the sun, it turned chilly fast.
+I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. I believe that now. And with how windy it was on the summit and the rain clouds blocking the sun, it turned chilly fast.
 
 ###To The Next Peak###
 
@@ -41,11 +41,11 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 Unfortunately, a member of the team came down with [altitude sickness][2] so we didn't stay long at Torrey's (probably for the best). On our descent, the rain turned to, yes, **hail**. Luckily, we were semi-prepared with extra pants and rain jackets/ponchos.
 
-A short while later, the hail turned to a light **rain** shower, making the rocks really slippery while navigating down the trail. Thank goodness for our trekking poles. To complete the cycle and "tour of the 4 seasons", super **winds** hit us, making our trek along the narrow paths even more dangerous.
+A short while later, the hail turned to a light **rain** shower, making the rocks really slippery while navigating down the trail. It would not have been fun without our trekking poles. To complete the cycle and "tour of the 4 seasons", super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
 ###Victory###
 
-We made good time on our way down and clocked in at our cars around 3:50 pm. Later that night, we went for pizza with friends where our tales of courage were told over and over. We were all smiles at that point and already planning the next 14er.
+We made good time on our way down and clocked in at the car around 3:50 pm. Later that night, we went for pizza with friends where our tales of courage were told over and over. We were all smiles at that point and already planning the next 14er.
 
 I don't think pizza ever tasted so good.
 
