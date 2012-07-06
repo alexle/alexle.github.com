@@ -3,7 +3,7 @@
 
 It's been a couple days since my [memorable hike][1] and I thought I would share what worked for me on the trip and what I would do differently next time. Here are some tips I'll be following on my next Colorado 14er:
 
-1. **Start early.** Most hikers estimate one hour per 1000 feet of elevation gain. Plan accordingly because it can be dangerous on the summit if afternoon thunderstorms and lightning come in, which are very common during the summer in Colorado. We left Torrey's at 1:20 pm and it was hailing/raining at that point. Leaving the peak around noon would be safer for next time.
+1. **Start early.** Most hikers estimate one hour per 1000 feet of elevation gain. Plan accordingly because it can be dangerous on the summit if afternoon thunderstorms and lightning come in, which are very common during the summer in Colorado. We left Torrey's at 1:20 pm and it was hailing/raining at that point. Starting earlier and leaving the peak around noon would be safer for next time.
 
 2. **Bring plenty of water.** I drink a <u>lot</u> of water every day and sweat profusely when doing physical activities. On the 8.4 mile RT hike we did, I brought a 100oz CamelBak, two 16oz water bottles, and one 32oz Gatorade (for electrolytes/salt) and there was less than 10oz water left in my pack at the end. Of course this varies for each person, but it's better to have <u>too</u> much water than not enough in my opinion. The general rule of thumb is 1 liter of water for every 3 miles you hike.
 
