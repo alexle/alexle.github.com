@@ -11,7 +11,7 @@ It's been a couple days since my [memorable hike][1] and I thought I would share
 
 4. **Stay hydrated.** Drinking when you're thirsty is too late (one can be a quart low on fluids before you feel thirsty), and puts yourself at risk for dehydration, fatigue, and cramps. According to [this article][7], the higher up you are, the more water you need to keep functioning. I recommend drinking small amounts of water frequently, which is another reason why a hydration bladder is nice to have.
 
-5. **Trekking poles are worth it.** As we made our way up a steep climb, a 13 year old girl passed us and remarked, "I'll trade you my trail mix for your trekking poles. Now I know why people use them". They may look silly to some, but they reduce fatigue, stress on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver.
+5. **Trekking poles are worth it.** As we made our way up a steep climb, a 13 year old girl caught up to us and remarked, "I'll trade you my trail mix for your trekking poles. Now I know why people use them". They may look silly to some, but they reduce fatigue, stress on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver.
 
 6. **Bring enough food.** The amount of food to bring varies from person to person. On the last trip, our group only finished half the food we brought. Perhaps it was the altitude, physical exhaustion, or big breakfast we had. What worked well for us was eating small amounts of trail mix, beef jerky, power bars, and [Clif Shot Bloks][4] along the way. That kept our energy levels consistently high. 
 
