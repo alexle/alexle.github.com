@@ -9,7 +9,7 @@ It's been a couple days since my [memorable hike][1] and I thought I would share
 
 3. **Prepare for ALL the elements.** Check the weather report beforehand, but all bets are off when the elevation is this high. For warm weather, I had a synthetic base layer, shorts, and sunglasses. My friends had convertible pants (which looked very convenient) and hats. For rain and wind, I brought my Marmot Ether DriClime jacket and UnderArmour sweats. My friend used a poncho, but would not recommend it again since it flew around in the wind and blocked his vision of where he was stepping. I'd probably bring gloves (wet hands were ice cold from wind) and a beanie next time.
 
-4. **Stay hydrated.** Drinking when you're thirsty is too late (one can be a quart low on fluids before you feel thirsty), and puts yourself at risk for dehydration, fatigue, and cramps. According to [this article][7], the higher up you are, the more water you need to keep functioning. I recommend drinking small amounts of water frequently, which is another reason why a hydration bladder is nice to have.
+4. **Stay hydrated.** Drinking when you're thirsty is too late (one can be a quart low on fluids before feeling thirsty), and puts yourself at risk for dehydration, fatigue, and cramps. According to [this article][7], the higher up you are, the more water your body needs to keep functioning. I recommend drinking small amounts of water frequently, which is another reason why a hydration bladder is nice to have.
 
 5. **Trekking poles are worth it.** As we made our way up a steep climb, a 13 year old girl caught up to us and remarked, "I'll trade you my trail mix for your trekking poles. Now I know why people use them". They may look silly to some, but they reduce fatigue, stress on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver.
 
@@ -21,7 +21,7 @@ It's been a couple days since my [memorable hike][1] and I thought I would share
 
 9. **Account for personal needs.** Everyone remembers the essentials such as sunscreen and bug spray, but don't neglect the simple conveniences such as toilet paper, hand sanitizer, and extra socks. Some people even bring head lamps/flashlights, iodine tablets (to clean water), floss, and matches/lighter.
 
-10. **Enjoy it.** Enjoy the majestic views that look like they came from a Brave Heart movie. Enjoy hearing only the sounds of steps and heavy breathing as you climb a steep incline. Enjoy debating with your friends what's going to happen next in [A Game Of Thrones][3]. Enjoy some of the best air you're ever going to breathe when you're on top.
+10. **Enjoy it.** Take in the majestic views that look like they came from a Brave Heart movie. Be content with hearing only the sounds of steps and heavy breathing as you climb a steep incline. Debate with your friends about what's going to happen next in [A Game Of Thrones][3]. Enjoy some of the best air you're ever going to breathe when you're on top.
 
 Keep in mind these tips are based on my experiences, and that each person's comfort level is different. Hopefully, this post was able to provide a sense of what one can expect on a 14er hike and how I plan to prepare for one in the future.
 
