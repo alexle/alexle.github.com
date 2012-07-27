@@ -27,7 +27,7 @@ Dvd and Blu-Ray only. Darn!
 
 Neatflix is only a demo at this stage, but I hope to add more features in the future. It was fun learning about how to make OAuth requests, hide sensitve developer key data, and manage data flow in a web app. I plan to share some of my experiences in a future post.
 
-In the meantime, check out [http://neatflix.appspot.com][3] if you want some quick information on a particular Netflix title. The [source code][4] is also available publicly in my Github. 
+In the meantime, check out [http://neatflix.appspot.com][2] if you want some quick information on a particular Netflix title. The [source code][4] is also available publicly in my Github. 
 
 [1]: http://www.netflix.com
 [2]: http://neatflix.appspot.com
