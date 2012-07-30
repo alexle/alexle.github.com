@@ -5,7 +5,7 @@ Neatflix: A Netflix API Demo
 
 A minor issue I have with Netflix, however, is that I never know which titles are available. This is compounded by the fact that I only have the "streaming" plan, which negates all the DVD/Blu-Ray selections. I often find myself wondering if a movie is available on Netflix, and if so, whether or not it is streamable.
 
-When I discovered that Netflix has an [API][3], I saw an opportunity to hone my skills and learn something new by creating a web app to solve this problem. Hence, [Neatflix][2] was born.
+When I discovered that Netflix has an [API][3], I saw an opportunity to learn something new by creating a web app to solve this problem. Hence, [Neatflix][2] was born.
 
 Neatflix is simple to use. Just enter a search phrase and click on any result to display its information. The search will return the top 10 titles matched in the Netflix libary. Say you wanted to find out more information about the movie "Thor". A search of this phrase would return the following:
 
