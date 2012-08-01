@@ -27,11 +27,11 @@ I read somewhere that air temperature drops an average of 5 degrees for every 10
 
 ###To The Next Peak###
 
-After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm. The only way there was to descend Gray's Peak and take the mountain pass to Torrey's. In the picture below, you can see Gray's Peak in the background as we started the ascent to Torrey's Peak.
+After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm. The easiest way across was to descend Gray's Peak and take the mountain pass to Torrey's. In the picture below, you can see Gray's Peak in the background as we started the ascent to Torrey's Peak.
 
 <a href="/static/torreys_climb2.jpg"><img src="/static/torreys_climb2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-The weather, however, didn't plan to make it easy on us. Because right then, it started to **snow**. It's the beginning of July, Colorado had just gone through a heat wave, it was a balmy 80+ degrees on the way up, and the last thing we expected to see was snow. To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
+The weather, however, didn't plan to make it easy on us. Because right then, it began to **snow**. It's the beginning of July, Colorado had just gone through a heat wave, it was a balmy 80+ degrees on the way up, and the last thing we expected to see was snow. To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
 
 We made a group decision to go on and eventually reached the top at 1:20 pm. We had battled the elements and altitude and won. It's hard to describe the feeling of accomplishment, joy, and adrenaline that comes from standing at the highest point around you for miles. Maybe a picture *is* worth a thousand words :)
 
@@ -39,9 +39,9 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 ###The Climb Down###
 
-Unfortunately, a member of the team came down with [altitude sickness][2] so we didn't stay long at Torrey's (probably for the best). On our descent, the rain turned to, yes, **hail**. Luckily, we were semi-prepared with extra pants and rain jackets/ponchos.
+Unfortunately, a member of the team came down with [altitude sickness][2] so we didn't stay long at Torrey's (probably for the best). On our descent, it started to, yes, **hail**. Luckily, we were semi-prepared with extra pants and rain jackets/ponchos.
 
-A short while later, the hail turned to a light **rain** shower, making the rocks really slippery while navigating down the trail. It would not have been fun without our trekking poles. To complete the cycle and "tour of the 4 seasons", super **winds** hit us, making our trek along the narrow paths even more dangerous.
+A short while later, the hail turned to a **rain** shower, making the rocks really slippery while navigating down the trail. It would not have been fun without our trekking poles. To complete the cycle and "tour of the 4 seasons", super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
 ###Victory###
 
