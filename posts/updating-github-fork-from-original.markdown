@@ -1,7 +1,7 @@
-Updating A Github Fork From The Original Repository
+Keeping A Github Fork Updated
 08-12-2012
 
-I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its main repository.
+I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its original repository.
 
 ###Setting up the Clone###
 
@@ -15,7 +15,7 @@ In the commands above, "alexle" and "bootstrap" should be replaced with your Git
 
 ###Configuring the Upstream###
 
-Next, add another remote repository pointing to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
+Add another remote repository pointing to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
 
 > git remote add upstream git://github.com/twitter/bootstrap.git
 
