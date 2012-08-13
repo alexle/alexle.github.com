@@ -1,0 +1,101 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+   <title>Updating A Github Fork From The Original Repository</title>
+
+   <!-- Google Analytics -->
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28947728-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+      
+   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+   <link rel="stylesheet" href="/css/index.css" type="text/css">
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
+</head>
+
+<body>
+   <div id="wrapper">
+   <div id="header">
+      <a href="/"><img src="/static/alex_vegas_headshot_seph_round.jpg" class="profile_pic"></a>
+      <h2>Alex Le</h2><br>
+      <h4>Firmware Engineer | Minimalist | Improving Runner</h4>
+   </div>
+   <br clear="all">
+
+   <article>
+      
+<div class="post">
+   <div class="post_title">
+      <h2>Updating A Github Fork From The Original Repository</h2>
+   </div>
+
+   <p class="post_date">
+      Aug 12, 2012
+   </p>
+
+   <p class="post_content">
+      <p>I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its main repository.</p>
+<h3>Setting up the Clone</h3>
+<p>If you haven't cloned your forked repository yet, do so with:</p>
+<blockquote>
+<p>git clone git@github.com:alexle/bootstrap.git</p>
+<p>cd bootstrap</p>
+</blockquote>
+<p>In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your forked repository, respectively.</p>
+<h3>Configuring the Upstream</h3>
+<p>Next, add another remote repository pointing to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.</p>
+<blockquote>
+<p>git remote add upstream git://github.com/twitter/bootstrap.git</p>
+</blockquote>
+<p>Your remote repositories can be viewed with "git remote -v". Note that there should already be an "origin" remote repository to your fork.</p>
+<h3>Updating the Fork</h3>
+<p>To pull the changes from the main repository into your forked repository:</p>
+<blockquote>
+<p>git fetch upstream</p>
+<p>git merge upstream/master</p>
+<p>git push</p>
+</blockquote>
+<p>And voila! This brings your repo up-to-date.</p>
+   </p>
+
+   <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Updating A Github Fork From The Original Repository" data-via="alextrle">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <g:plusone size="medium"></g:plusone>
+   </p>
+</div>
+
+   </article>
+
+   <footer>
+      <div id="find_me">
+         <h4>Find me on:</h4>
+         <div id="social_buttons">
+            <a href="http://www.facebook.com/alexle" title="Facebook" target="_blank"><img src="/static/facebook_32.png" class="thumb_pic" /></a>
+            <a href="http://twitter.com/#!/alextrle" title="Twitter" target="_blank"><img src="/static/twitter_32.png" class="thumb_pic" /></a>
+            <a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank"><img src="/static/linkedin_32.png" class="thumb_pic" /></a>
+            <a href="https://github.com/alexle" title="Github" target="_blank"><img src="/static/github_32.png" class="thumb_pic" /></a>
+            <a href="https://profiles.google.com/alex.csm/about" title="Google+" target="_blank"><img src="/static/google-plus-icon.jpg" class="thumb_pic" /></a>
+            <a href="/feed.xml" title="Subscribe RSS" target="_blank"><img src="/static/rss_32.png" class="thumb_pic" /></a>
+         </div>
+      </div>
+      <div id="contact_me">
+         <h4>Contact me:</h4>
+         <br>
+         <a href="mailto:alex.csm@gmail.com" class="home_title">alex.csm@gmail.com</a>
+      </div>
+   </footer>
+   </div>
+</body>
+</html>
