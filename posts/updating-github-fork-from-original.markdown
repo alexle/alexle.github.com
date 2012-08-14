@@ -15,15 +15,15 @@ In the commands above, "alexle" and "bootstrap" should be replaced with your Git
 
 ###Configuring the Upstream###
 
-Add another remote repository pointing to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
+Add another remote repository, one that points to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
 
 > git remote add upstream git://github.com/twitter/bootstrap.git
 
-Your remote repositories can be viewed with "git remote -v". Note that there should already be an "origin" remote repository to your fork.
+Your remote repositories can be viewed with "git remote -v". Note that there should already be an "origin" remote target in your fork.
 
 ###Updating the Fork###
 
-To pull the changes from the main repository into your forked repository:
+To pull changes from the main repository into your forked repository:
 
 > git fetch upstream
 
