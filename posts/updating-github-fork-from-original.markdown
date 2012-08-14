@@ -11,7 +11,7 @@ If you haven't cloned your forked repository yet, do so with:
 
 > cd bootstrap
 
-In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your forked repository, respectively.
+In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your fork, respectively.
 
 ###Configuring the Upstream###
 
