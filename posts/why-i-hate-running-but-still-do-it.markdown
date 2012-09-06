@@ -27,11 +27,12 @@ It's strange how something so painful could be so addicting. Each run afterwards
 
 ###Why I Still Run###
 
-To me, the appeal of running isn't about optimal exercise or finishing in the top 10 or feeling good while doing it. It's about pushing my body and mind beyond its comfort zone. It's about doing something challenging and at times, seemingly impossible. And it's about not quitting when I want to the most, and finding a way to fight through the pain.
+To me, the appeal of running isn't about optimal exercise or finishing in the top 10 or feeling good while doing it. It's about pushing my body and mind beyond its comfort zone. It's about doing something challenging and at times, seemingly impossible. And it's about [not quitting][1] when I want to the most, and finding a way to fight through the pain.
 
 There is nothing pleasant about slamming my feet down in front of each other for 15/30/60 minutes while counting down the seconds until it's over. But I love the sense of accomplishment I get after every run and the rush that comes when I beat my old time or distance.
 
 I'm already looking forward to my next run, though I have a feeling I'm going to really, really hate it. See you on the road.
 
+[1]: http://alexanderle.com/blog/2011/money-in-the-bank.html
 [2]: http://bolderboulder.com/
 
