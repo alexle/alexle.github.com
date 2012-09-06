@@ -17,7 +17,7 @@ When asked about his success in a later interview, Phelps said:
 > 
 > I guess I put a lot of money in the bank over the last four years, and we withdrew pretty much every penny in the bank. After Bob and I both grab a little break, it'll be time to start depositing.
 
-For most people, success in life requires hard work and dedication. We don't wake up and become programming superstars or master pianists overnight. As Maclcolm Gladwell discussed in his book ["Outliers"][1], it takes 10,000 hours of deliberate practice to become an expert in a field.
+For most people, success in life requires hard work and dedication. We don't wake up and become programming superstars or master pianists overnight. Even Maclcolm Gladwell, in his book ["Outliers"][1], said it takes 10,000 hours of deliberate practice to become an expert in a field.
 
 But putting in the hours, drills, or practice is simply not fun sometimes. There are many days I would rather flip on the TV instead of continuing work on a project. Or pick up Chipotle instead of going to the gym. Then I remember Phelp's quote and push myself forward with the task at hand.
 
