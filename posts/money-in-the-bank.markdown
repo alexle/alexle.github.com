@@ -3,7 +3,7 @@ Putting Money In The Bank
 
 The 2008 Beijing Olympics were awesome. Usain Bolt, Team USA basketball, Phelps, Walsh & May volleyball. I was glued to the TV every night for a week.
 
-The most memorable moment for me, however, was Michael Phelp's 100m butterfly. Phelps came back from a huge deficit (he was in 7th place at the half-way point) to overtake Milorad Cavic in a thrilling finish.
+The most memorable moment for me, however, was [Michael Phelp's 100m butterfly][2]. Phelps came back from a huge deficit (he was in 7th place at the half-way point) to overtake Milorad Cavic in a thrilling finish.
 
 Phelps won by 1/100th of a second.
 
@@ -17,5 +17,11 @@ When asked about his success in a later interview, Phelps said:
 > 
 > I guess I put a lot of money in the bank over the last four years, and we withdrew pretty much every penny in the bank. After Bob and I both grab a little break, it'll be time to start depositing.
 
-So whether you're training for a 10k, studying for a Calculus III test, or learning Wing Chun.. put some money in the bank. You never know when you'll need it :)
+For most people, success in life requires hard work and dedication. We don't wake up and become programming superstars or master pianists overnight. As Maclcolm Gladwell discussed in his book ["Outliers"][1], it takes 10,000 hours of deliberate practice to become an expert in a field.
 
+But putting in the hours, drills, or practice is simply not fun sometimes. There are many days I would rather flip on the TV instead of continuing work on a project. Or pick up Chipotle instead of going to the gym. Then I remember Phelp's quote and push myself forward with the task at hand.
+
+Maybe the project you work on will fail in a blazing ball of fire. Or maybe it'll provide you with an invaluable learning experience for a future opportunity. Keep putting money in the bank. You never know when you'll need it.
+
+[1]: http://en.wikipedia.org/wiki/Outliers_(book)
+[2]: http://www.youtube.com/watch?v=E3paiELa7mA
