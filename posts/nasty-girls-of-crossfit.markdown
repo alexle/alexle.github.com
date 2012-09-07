@@ -70,16 +70,16 @@ Snatch 135lb
 
 __Jackie__ - for time  
 1000m Row  
-50 Thruster 45lbs  
+50 Thruster 45lb  
 30 Pull Ups
 
 __Karen__ - for time  
-150 Wall Balls 20lbs
+150 Wall Balls 20lb
 
 __Kelly__ - 5 rounds for time  
 Run 400m  
 30 Box Jumps  
-30 Wall Balls 20lbs
+30 Wall Balls 20lb
 
 __Linda__ - 10/9/8/7/6/5/4/3/2/1 for time  
 Deadlift 1.5x Body Weight  
@@ -97,12 +97,12 @@ __Mary__ - as many rounds possible in 20 min
 
 __Nancy__ - 5 rounds for time  
 Run 400m  
-15 Overhead Squat 95lbs
+15 Overhead Squat 95lb
 
 __Nasty Girls__ - 3 rounds for time  
 50 Squats  
 7 Muscle-ups  
-10 Hang Power Cleans 135 lb
+10 Hang Power Cleans 135lb
 
 __Nicole__ - as many rounds possible in 20 min  
 Run 400m  
