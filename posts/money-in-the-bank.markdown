@@ -21,7 +21,7 @@ For most people, success in life requires hard work and dedication. We don't wak
 
 But putting in the hours, doing drills, and practicing is simply not fun sometimes. There are many days I would rather flip on the TV instead of continuing work on a project. Or pick up Chipotle instead of going to the gym. When that happens, I try to remember Phelp's quote, which is a great motivator and helps keep my eyes on the end-goal.
 
-Maybe the project you work on will fail in a blazing ball of fire. Or maybe it won't, and instead provide you with an invaluable learning experience for a future opportunity. Keep putting money in the bank. You never know when you'll need it.
+Maybe the extra 15 minutes you put towards your project each day won't end up making a difference. Or maybe it will, and be the factor between success and failure. Keep putting money in the bank. You never know when you'll need it.
 
 [1]: http://en.wikipedia.org/wiki/Outliers_(book)
 [2]: http://www.youtube.com/watch?v=E3paiELa7mA
