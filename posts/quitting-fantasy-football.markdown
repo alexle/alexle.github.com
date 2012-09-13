@@ -3,7 +3,7 @@ Quitting Fantasy Football
 
 For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. Slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.
 
-Not this year though, since I officially quit Fantasy Football.
+No longer though, since I officially quit Fantasy Football.
 
 I don't know how, but Fantasy Football managed to turn my relaxing Sundays into 12 hour marathons of roller-coaster, maddening, torture. It was nice when my team won. But it was worse when my team performed badly and life cease to have meaning.
 
