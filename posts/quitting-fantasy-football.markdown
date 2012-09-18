@@ -1,7 +1,7 @@
 Quitting Fantasy Football
 09-10-2012
 
-For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. Slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.
+For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. The slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.
 
 No longer though, since I have officially quit Fantasy Football.
 
@@ -16,14 +16,14 @@ Exaggerations aside, here are some other reasons why I'm leaving Fantasy Footbal
     Sun - Watch football from 11am to 10pm.  
     Mon - Keep track of MNF game, prepare for waivers.  
     Tue - Research players to add/drop.  
-    Wed - Go through waivers, scour for and pick up free agents.  
+    Wed - View waivers, scour free agents to pick ups.  
     Thu - Adjust roster for Thu night game. Keep track of game.  
     Fri - Day off.  
     Sat - Prepare final roster and make last minute subsitutions.
 
     This is on top of the time spent listening to sports talk radio, reading "expert" blogs and articles, and watching FFB shows on ESPN. Of course, all of this may not even have been necessary, which brings me to my next point.
 
-3. **It's mainly a game of luck.** It didn't matter how much analysis I did or how risky my moves were. In the end, success in Fantasy Football is 90 percent luck and 10 percent skill. Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets old.
+3. **It's mainly a game of luck.** It didn't matter how much analysis I did or how risky my moves were. In the end, success in Fantasy Football is 90 percent luck and 10 percent skill. Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets tiresome.
 
 I understand that for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others. And at the very least, it's a great way to bond and stay in touch with friends.
 
