@@ -9,7 +9,7 @@ Notice the void in the middle of the room? It's been like this for a while now. 
 
 I've noticed this "paralysis" happening more frequently within the last year. It was annoying at first, but as the unmade decisions piled up, it began to take a toll on my concentration and focus. Oftentimes, I would find my thoughts drifting to my "to-decide" list, throwing off my flow and productivity.
 
-Apparently, this is not a new phenomenom (thank goodness). Barry Schwartz, a psychologist, did an [interesting talk][1] on this called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied** and exhausted. It's no wonder our brains are less efficient, which is already overworked and fatigued as it is.
+Apparently, this is not a new phenomenom (thank goodness). Barry Schwartz, a psychologist, did an [interesting talk][1] called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied** and exhausted. It's no wonder our brains are less efficient, which is already overworked and fatigued as it is.
 
 So what can be done about it? Here are my ideas and plan going forward.
 
