@@ -20,7 +20,7 @@ For example, Blogger's editor lacks:
 + pre-defined macros
 + and much more..
 
-Since static site generators create HTML content from simple text files containing [MarkDown][5] or Textile, **any** favorite editor or IDE could be used. This lets me focus less on editing text and more on writing text.
+Another perk of static site generators is that they create HTML content from simple text files. I personally use [MarkDown][5], which is a lightweight markup language that converts easy-to-write plain text to valid HTML. This lets me focus less on editing code tags/structures/syntax and more on writing text.
 
 ###Control Of Content###
 
