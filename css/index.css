@@ -22,7 +22,7 @@ a:hover {
 }
 
 #wrapper {
-   width: 620px;
+   width: 630px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -118,12 +118,12 @@ a.home_title:hover {
 
 #find_me {
    float: left;
-   width: 480px;
+   width: 400px;
 }
 
 #contact_me {
    float: right;
-   width: 140px;
+   width: 147px;
 }
 
 article {
