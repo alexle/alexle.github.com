@@ -1,7 +1,7 @@
 My .Vimrc Configuration
 01-20-2012    
 
-[VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work in an extremely **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
+[VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
 
 The .vimrc is the configuration file. I consider [my .vimrc][2] pretty basic and a good starting point for beginners to VIM. I would suggest to anyone editing their .vimrc to understand each setting before using them. Here are a few of my favorite settings:
 
@@ -84,7 +84,7 @@ With this macro, typing <leader\>g brings up the prompt "Google:". Once a search
 </font>
 </div>
 
-Finally, this last macro allows me to toggle between my coding sessions and my writing sessions. When writing, I prefer a lighter colorscheme (color morning) and smaller width window for readability (columns=90). I also set my text to wrap (setlocal wrap) so my text doesn't run off the window. Since wrap is enabled, the movement keys don't work as efficiently, so the gk, gj, g0, g$ allows the cursor to move similarly to before.
+Finally, this last macro allows me to toggle between my coding sessions and my writing sessions. When writing, I prefer a lighter colorscheme (color morning) and smaller width window for readability (columns=90). I also set my text to wrap (setlocal wrap) so my text doesn't run off the window. Since wrap is enabled, the movement keys don't work as intuitively, so gk, gj, g0, and g$ allow the cursor to move similarly to before.
 
 All in all, my favorite .vimrc settings increase the comfort of using the editor and add a little fun utility for the lazy side in me. I've found them extremely useful and hope they can be the same for you.
 
