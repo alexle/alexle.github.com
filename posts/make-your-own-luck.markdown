@@ -19,7 +19,7 @@ In case that isn't enough, here are 4 additional tips to increase your luck.
 
 ###Add variety to your life###
 
-Instead of hanging out at the same places, or talking to the same types of people, try changing up your environment and activities. You'll meet new people, learn new things, and more importantly, be exposed to more chance opportunities. Be a [Yes Man][1].
+Instead of hanging out at the same places, or talking to the same types of people, try changing up your environment and activities. You'll meet new people, learn new things, and more importantly, be exposed to more chance opportunities. Try being a [Yes Man][1].
 
 ###Be generous###
 
@@ -27,10 +27,10 @@ Go the extra mile for others without expecting anything in return. You'll be hap
 
 ###Concentrate on the present###
 
-Relax, be open-minded, and take in the events around you. Don't become so focused on something that you miss out on other great opportunities in front of you. If you go to a bar only looking for the perfect partner, you may miss the chance to make some good friends. If you're only looking for a specific job on Craigslist, you may overlook some great opportunities out there.
+Relax, be open-minded, and take in the events around you. Don't become so focused on something that you miss out on other great opportunities in front of you. If you go to a bar only looking for the perfect partner, you may miss the chance to make some good friends. If you're only looking for a specific job on Craigslist, you may overlook other nice jobs out there.
 
 ###Embrace failure###
 
-Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what it is, the better prepared you'll be for the next possibility. Some people are so disappointed from choosing the wrong fork in a road that they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the opportunity when it comes.
+Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future. Some people are so disappointed from choosing the wrong fork in a road that they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the next opportunity when it comes.
 
 [1]: http://en.wikipedia.org/wiki/Yes_Man_(film)
