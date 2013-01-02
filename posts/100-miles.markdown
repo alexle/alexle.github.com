@@ -13,7 +13,7 @@ It doesn't sound very impressive, but completing this goal ranks as one of the *
 
 I couldn't be happier with how well this goal played out. To say that it was a success is an understatement. Running this year has completely transformed my views on health and fitness, and combined with some [CrossFit][3] workouts, helped me become the fittest I've ever been.
 
-While I understand that running isn't for everyone, it's hard not to share and endorse something that's had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I enjoy and actually look forward to it.
+While I understand that running isn't for everyone, it's hard not to share and endorse something that's had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
 
 As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done. In fact, you have nothing to lose and everything to gain.
 
