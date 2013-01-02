@@ -17,7 +17,7 @@ I struggled with runs over a mile for a long time. My body would literally shut 
 
 *Run for distance, not time.*
 
-In high school, we were always working to improve our mile times. So I followed suit. Run fast first, run farther later was my reasoning. However, I was so focused on beating my previous mile time that I'd be A) too exhausted to run further or B) too dejected from not hitting the time and not motivated to go on.
+In high school, we were always working to improve our mile times. So I followed suit. Run fast first, run farther later was my reasoning. However, I was so focused on beating my previous mile time that I'd be A) too exhausted to run further or B) too dejected from not hitting the time and unmotivated to go on.
 
 On a whim one day in Sep, I changed the Nike+ run setting to a "timed-run". It didn't matter how fast, it didn't matter how far. Just a challenge to run 15 minutes without stopping. The graph pretty much sums up how well that worked out for me.
 
@@ -27,7 +27,9 @@ Next, we have the number of runs I participated in each month. Feb was embarrass
 
 <a href="/static/avg-pace-each-month.png"><img src="/static/avg-pace-each-month.png" width="600px" class="center" /></a>
 
-The graph above shows (not to scale) the average pace of my runs each month. In Jan, I averaged 8 minutes and 51 seconds on my runs. By the end of the year, my average mile was down to 7 minutes and 56 seconds, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**. A good and very noticeable sign.
+The graph above (not to scale) shows the average pace of my runs each month. In Jan, I averaged 8 minutes and 51 seconds on my runs. By the end of the year, my average mile was down to 7 minutes and 56 seconds, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**.
+
+However, the road there wasn't smooth. After 6 months of running, I had expected to get better. It didn't have be a big difference, just some improvement. When I checked my average pace in Jul, I almost quit from frustration. 8 minutes 50 seconds, almost the same pace I started with 6 months earlier. Fortunately, I made some changes and was able to stick with it.
 
 <a href="/static/nike-2012-when-run.png"><img src="/static/nike-2012-when-run.png" class="center" /></a>
 
