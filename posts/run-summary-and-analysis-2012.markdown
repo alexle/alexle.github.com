@@ -37,10 +37,10 @@ Running in the morning was my preferred choice. It felt great to crawl out of be
 
 <a href="/static/nike-2012-records.png"><img src="/static/nike-2012-records.png" width="600px" class="center" /></a>
 
-Finally, my personal records of the year. My farthest (and longest) run was **3.42 miles** at a pace of **8'46"** in **30:01**. My fastest 5k was finished in **24:49** at a pace of **7'56"**. And my fastest mile was completed on a high school track against my brother, where I ran it in **6'29"**.
+Finally, my personal records of the year. My farthest (and longest) run was **3.42 miles** at a pace of **8'46"** in **30:01**. My fastest 5k was finished in **24:49** at a pace of **7'56"**. And my fastest mile was completed on a high school track against my brother, where I ran it in **6:29**.
 
-In summary, recording my runs was invaluable in completing my goal to run 100 miles. It provided a way for me to track my progress, as well as provide insight on my trends and humps in my way.
+In summary, recording my runs were invaluable in completing my goal to run 100 miles. It provided a way for me to track my progress, as well as provide insight on my trends and potential humps in my way.
 
-As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm ready to face any challenges on the road. Bring it on!
+As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm ready to face the challenges on the road. Bring it on!
 
 [1]: /blog/2012/100-miles.html
