@@ -3,7 +3,7 @@ A Summary And Analysis Of Running In 2012
 
 *WARNING: Lots of statistics and graphs below. Proceed at your own risk.*
 
-Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all, I ran **77 times** with an average distance of **1.6 miles** at an average pace of **8:16** for a total of **125.59 miles**. Runs were tracked with the Nike+ Running app on my iPhone (GPS), and only outdoor runs were recorded.
+Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all, I ran **77 times** for a total of **125.59 miles** at an average pace of **8:16** with an average distance of **1.6 miles**. Runs were tracked with the Nike+ Running app on my iPhone (GPS), and only outdoor runs were recorded.
 
 <a href="/static/miles-ran-each-month.png"><img src="/static/miles-ran-each-month.png" width="600px" class="center" /></a>
 
