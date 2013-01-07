@@ -3,11 +3,11 @@ A Summary And Analysis Of Running In 2012
 
 *WARNING: Lots of statistics and graphs below. Proceed at your own risk.*
 
-Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all, I ran **77 times** for a total of **125.59 miles** at an average pace of **8:16** with an average distance of **1.6 miles**. Runs were tracked with the Nike+ Running app on my iPhone (GPS), and only outdoor runs were recorded.
+Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all, I ran **77 times** for a total of **125.59 miles** at an average pace of **8'16"** with an average distance of **1.6 miles**. Runs were tracked with the Nike+ Running app on my iPhone (GPS), and only outdoor runs were recorded.
 
 <a href="/static/miles-ran-each-month.png"><img src="/static/miles-ran-each-month.png" width="600px" class="center" /></a>
 
-The majority of my runs were done in the Fall -- Sep, Oct, and Nov combined for a whopping 73.81 miles (59% of the year's runs)! The 40-65 degree weather was energizing, the air was brisk, and nothing beats the crunching sound of leaves beneath your feet. Definitely my favorite season to run.
+The majority of my runs were done in the Fall, with Sep, Oct, and Nov combining for a whopping 73.81 miles (59% of the year's runs)! It was definitely my favorite season to run due to the energizing 40-65 degree weather, brisk air, and crunching sound of leaves beneath my feet.
 
 On the other hand, the other 9 months added up to only 51.69 miles (41% of the year's runs). Winter runs were brutal for me; they always felt "un-optimal". Heavy layers of clothes, icy air blasting through my lungs, uncomfortable freezing of all my extremities. Going for a run was hard enough.  The extra challenges of Winter made it much harder.
 
@@ -19,7 +19,7 @@ I struggled with runs over a mile for a long time. My body would literally shut 
 
 In high school, we were always working to improve our mile times. So I followed suit. Run fast first, run farther later was my reasoning. However, I was so focused on beating my previous mile time that I'd be A) too exhausted to run further or B) too dejected from not hitting the time and unmotivated to go on.
 
-On a whim one day in Sep, I changed the Nike+ run setting to a "timed-run". It didn't matter how fast, it didn't matter how far. Just a challenge to run 15 minutes without stopping. The graph pretty much sums up how well that worked out for me.
+On a whim one day in Sep, I changed the Nike+ run setting to a "timed-run". It didn't matter how fast, it didn't matter how far. Just a challenge to run 15 minutes without stopping. It was a major success and the rest of the graph sums up how well that worked out for me.
 
 <a href="/static/num-runs-each-month.png"><img src="/static/num-runs-each-month.png" width="600px" class="center" /></a>
 
@@ -27,7 +27,7 @@ Next, we have the number of runs I participated in each month. Feb was embarrass
 
 <a href="/static/avg-pace-each-month.png"><img src="/static/avg-pace-each-month.png" width="600px" class="center" /></a>
 
-The graph above (not to scale) shows the average pace of my runs each month. In Jan, I averaged 8 minutes and 51 seconds on my runs. By the end of the year, my average mile was down to 7 minutes and 56 seconds, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**.
+The graph above (not to scale) shows the average pace of my runs each month. In Jan, I averaged 8 minutes 51 seconds on my runs. By the end of the year, my average mile was down to 7 minutes 56 seconds, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**.
 
 However, the road there wasn't smooth. After 6 months of running, I had expected to get better. It didn't have be a big difference, just some improvement. When I checked my average pace in Jul, I almost quit from frustration. 8 minutes 50 seconds, almost the same pace I started with 6 months earlier. Fortunately, I made some changes and was able to stick with it.
 
@@ -39,7 +39,7 @@ Running in the morning was my preferred choice. It felt great to crawl out of be
 
 Finally, my personal records of the year. My farthest (and longest) run was **3.42 miles** at a pace of **8'46"** in **30:01**. My fastest 5k was finished in **24:49** at a pace of **7'56"**. And my fastest mile was completed on a high school track against my brother, where I ran it in **6:29**.
 
-In summary, recording my runs were invaluable in completing my goal to run 100 miles. It provided a way for me to track my progress, as well as provide insight on my trends and potential humps in my way.
+In summary, recording my runs were invaluable in completing my goal to run 100 miles. It gave me a way for me to track my progress, as well as provide insight on what worked and didn't work for me.
 
 As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm ready to face the challenges on the road. Bring it on!
 
