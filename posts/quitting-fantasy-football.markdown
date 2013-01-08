@@ -9,10 +9,10 @@ I don't know how, but Fantasy Football managed to turn my relaxing Sundays into 
 
 Exaggerations aside, here are some other reasons why I'm leaving Fantasy Football:
 
-###Completely altered the way I watch football.###
+###1) Completely altered the way I watch football.###
 I would nitpick every miscue my players made and react irrationally afterwards. I can't believe Colston dropped that pass - $@#%! Throw it to Calvin Johnson, he was wide open! It use to be simply rooting for a team to score and win was good enough. Now it only mattered if certain players scored a TD or kicked a FG.
 
-###Part-time job.###
+###2) It' a part-time job.###
 Fantasy Football has evolved over the years and the work required to stay competitive is ridiculous. A typical week for me would look something like this:
 
 Sun - Watch football from 11am to 10pm.  
@@ -25,8 +25,10 @@ Sat - Prepare final roster and make last minute subsitutions.
 
 This is on top of the time spent listening to sports talk radio, reading "expert" blogs and articles, and watching FFB shows on ESPN. Of course, all this may not even have been necessary, which brings me to my next point.
 
-###It's mainly a game of luck.###
+###3) It's mainly a game of luck.###
 It didn't matter how much analysis I did or how risky my moves were. In the end, success in Fantasy Football is 90 percent luck and 10 percent skill. Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets tiresome.
+
+<hr width="75%">
 
 I understand that for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others. And at the very least, it's a great way to bond and stay in touch with friends.
 
