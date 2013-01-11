@@ -39,7 +39,7 @@ Running in the morning was my preferred choice. It felt great to crawl out of be
 
 Finally, my personal records of the year. My farthest (and longest) run was **3.42 miles** at a pace of **8'46"** in **30:01**. My fastest 5k was finished in **24:49** at a pace of **7'56"**. And my fastest mile was completed on a high school track against my brother, where I ran it in **6:29**.
 
-In summary, recording my runs were invaluable in completing my goal to run 100 miles. It gave me a way for me to track my progress, as well as provide insight on what worked and didn't work for me.
+In summary, recording my runs were invaluable in completing my goal to run 100 miles. It gave me a way to track my progress, as well as provide insight on what worked and didn't work on my runs.
 
 As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm ready to face the challenges on the road. Bring it on!
 
