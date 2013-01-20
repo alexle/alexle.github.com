@@ -48,13 +48,23 @@
       <p>The first time I heard this, my heart stopped for a couple seconds.</p>
 <p>I knew the algorithm. I had reviewed and implemented it the night before. I even slept on my notes to harness the power of osmosis. But implementing one in an interview/test is a different experience.</p>
 <p>Like many other things in life, it's hard to see what all the fuss was about. Linked lists are easy and I hope the walk-through below helps.</p>
-<p>Define a Node class. Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.</p>
+<h3>1) Define a Node class</h3>
+<p>Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.</p>
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">Node</font>:<br>
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">__init__</font>( self, data ):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.data = data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.next = None<br>
-<br />
+</div>
+
+<h3>2) Define a LinkedList class</h3>
+<p>In this example, LinkedList holds a pointer to the first (head) and last (tail) node in the list. It also contains functions to later add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.</p>
+<div id="code">
+<font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">LinkedList</font>:<br>
+&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">__init__</font>( self ):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.head =&nbsp;<font color="#98fb98">None</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail =&nbsp;<font color="#98fb98">None</font><br>
+<br>
 &nbsp;&nbsp;def AddNode( self, data ):<br />
 &nbsp;&nbsp;..<br />
 &nbsp;&nbsp;def RemoveNode( self, index ):<br />
@@ -62,6 +72,7 @@
 &nbsp;&nbsp;def PrintList( self ):<br />
 </div>
 
+<h3>3) Create Add and Remove node methods</h3>
 <p>Adding a node to a linked list takes a couple steps.</p>
 <ol>
 <li>Create a node.</li>
@@ -99,6 +110,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev.next = node.next<br>
 </div>
 
+<h3>4) Printing the Linked List</h3>
 <p>To print the list, start at the head pointer. Traverse the list through each node's "next" pointer until the node is no longer null.<br /></p>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">PrintList</font>( self ):<br>

@@ -7,21 +7,35 @@ I knew the algorithm. I had reviewed and implemented it the night before. I even
 
 Like many other things in life, it's hard to see what all the fuss was about. Linked lists are easy and I hope the walk-through below helps.
 
-Define a Node class. Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.
+###1) Define a Node class###
 
+Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.
 
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">Node</font>:<br>
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">__init__</font>( self, data ):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.data = data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.next = None<br>
-<br />
+</div>
+
+###2) Define a LinkedList class###
+
+In this example, LinkedList holds a pointer to the first (head) and last (tail) node in the list. It also contains functions to later add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.
+
+<div id="code">
+<font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">LinkedList</font>:<br>
+&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">__init__</font>( self ):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.head =&nbsp;<font color="#98fb98">None</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail =&nbsp;<font color="#98fb98">None</font><br>
+<br>
 &nbsp;&nbsp;def AddNode( self, data ):<br />
 &nbsp;&nbsp;..<br />
 &nbsp;&nbsp;def RemoveNode( self, index ):<br />
 &nbsp;&nbsp;..<br />
 &nbsp;&nbsp;def PrintList( self ):<br />
 </div>
+
+###3) Create Add and Remove node methods###
 
 Adding a node to a linked list takes a couple steps.
 
@@ -60,6 +74,8 @@ To remove a node from the linked list..<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>else</b></font>:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev.next = node.next<br>
 </div>
+
+###4) Printing the Linked List###
 
 To print the list, start at the head pointer. Traverse the list through each node's "next" pointer until the node is no longer null.<br />
 
