@@ -39,9 +39,9 @@ In this example, LinkedList holds a pointer to the first (head) and last (tail) 
 
 Adding a node to a linked list takes a couple steps.
 
-1. Create a node.
-2. Set the current last node's 'next' pointer to this node. This keeps the nodes linked.
-3. Set the current tail pointer to the new node. If it's the first node (head = none), also set the head pointer to this node.
+1. Create a node. If it is the first node, set the 'head' pointer to it.
+2. Set the last node's 'next' pointer to this node. This keeps the nodes linked.
+3. Update the 'tail' pointer to the new node. 
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>
@@ -56,7 +56,11 @@ Adding a node to a linked list takes a couple steps.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail = new_node<br>
 </div>
 
-To remove a node from the linked list..<br />
+To remove a node from the linked list:
+
+1. Create pointers to keep track of the previous and current node.
+2. Iterate through the list until the index (or an invalid node) is reached.
+3. Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore *skipping* the index node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">RemoveNode</font>( self, index ):<br>
