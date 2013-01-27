@@ -1,13 +1,18 @@
 body {
-   /* font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-   font: 16px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
-   color: #333;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: lighter;
    line-height: 1.5;
 }
 
 
 h1,h2,h4,h5,h6 {
    display: inline;
+   font-weight: 500;
+}
+
+h3, strong {
+   font-weight: 500;
 }
 
 a:link, a:visited {
@@ -22,7 +27,7 @@ a:hover {
 }
 
 #wrapper {
-   width: 630px;
+   width: 620px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -101,7 +106,6 @@ a.home_title:hover {
 .home_date {
    float: right;
    color: #888;
-   /* font-family: Consolas, Monaco, "Courier New", monospace; */
 }
 
 .post_title {
@@ -118,12 +122,12 @@ a.home_title:hover {
 
 #find_me {
    float: left;
-   width: 400px;
+   width: 390px;
 }
 
 #contact_me {
    float: right;
-   width: 147px;
+   width: 144px;
 }
 
 article {

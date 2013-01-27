@@ -9,27 +9,27 @@ Now you may argue it's just a matter of perspective. But if I had taken out stud
 
 The point is that what we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few. Say hi to the person next to you in the checkout line, maybe it'll open up a network opportunity. Spend time on your tiny side project, it might impress the next person who interviews you.
 
-I cringe when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny. 
+I *cringe* when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny. 
 
 We're all capable of making our own luck. And I've found that the harder you work, the **luckier** you get.
 
 <hr width="75%">
 
-In case that isn't enough, here are 4 additional tips to increase your luck. 
+In case that isn't enough, here are 4 additional tips to improve your luck. 
 
-###1) Add variety to your life###
+###Add variety to your life###
 
 Instead of hanging out at the same places, or talking to the same types of people, try changing up your environment and activities. You'll meet new people, learn new things, and more importantly, be exposed to more chance opportunities. Try being a [Yes Man][1].
 
-###2) Be generous###
+###Be generous###
 
 Go the extra mile for others without expecting anything in return. You'll be happier and who knows, maybe the kind act will be returned when you least expect it. The more you give, the more you get.
 
-###3) Concentrate on the present###
+###Concentrate on the present###
 
 Relax, be open-minded, and take in the events around you. Don't become so focused on something that you miss out on other great opportunities in front of you. If you go to a bar only looking for the perfect partner, you may miss the chance to make some good friends. If you're only looking for a specific job on Craigslist, you may overlook other nice jobs out there.
 
-###4) Embrace failure###
+###Embrace failure###
 
 Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future. Some people are so disappointed from choosing the wrong fork in a road that they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the next opportunity when it comes.
 

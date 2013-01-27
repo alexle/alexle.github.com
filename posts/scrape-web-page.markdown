@@ -1,4 +1,4 @@
-How to scrape a web page with python (Criminal Minds)
+Scrape a web page with python (Criminal Minds)
 09-27-2011    
 
 I've been hooked on the television show [Criminal Minds][1] lately. It follows a team of FBI profilers who analyze criminal behavior to catch some twisted bad guys. It's intriguing to me why serial killers do what they do, so the study and breakdown of each criminal's psyche in the show is appealing.
