@@ -5,12 +5,8 @@ body {
    line-height: 1.5;
 }
 
-
 h1,h2,h4,h5,h6 {
    display: inline;
-}
-
-h3, strong {
 }
 
 a:link, a:visited {
@@ -33,6 +29,10 @@ a:hover {
 #header {
    height: 60px;
    margin-bottom: 5px;
+}
+
+.header_style {
+   font-weight: lighter;
 }
 
 blockquote {
