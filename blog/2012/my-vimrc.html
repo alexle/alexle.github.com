@@ -47,27 +47,27 @@
    <p class="post_content">
       <p><a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">VIM</a> is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an <strong>efficient</strong> manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.</p>
 <p>The .vimrc is the configuration file. I consider <a href="https://github.com/alexle/vimrc/blob/master/.vimrc">my .vimrc</a> pretty basic and a good starting point for beginners to VIM. I would suggest to anyone editing their .vimrc to understand each setting before using them. Here are a few of my favorite settings:</p>
-<h4>Remap Command Mode</h4>
+<h3>Remap Command Mode</h3>
 <p><div id="code">
 <font color="#f0e68c"><b>nnoremap</b></font>&nbsp;;&nbsp;:<br>
 </div></p>
 <p>The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.</p>
-<h4>Remap &lt;esc&gt; to jj</h4>
+<h3>Remap &lt;esc&gt; to jj</h3>
 <p><div id="code">
 <font color="#f0e68c"><b>inoremap</b></font>&nbsp;jj&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">esc</font><font color="#ffdead">&gt;</font><br>
 </div></p>
 <p>Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.</p>
-<h4>Map &lt;leader&gt; key</h4>
+<h3>Map &lt;leader&gt; key</h3>
 <p><div id="code">
 <font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font><font color="#ffa0a0">&quot;,&quot;</font><br>
 </div></p>
 <p>The &lt;leader&gt; key is your own personal modifier key and is default as . This setting allows for easier usage of <leader> macros.</p>
-<h4>Map NERDTree toggle to &lt;leader&gt;</h4>
+<h3>Map NERDTree toggle to &lt;leader&gt;</h3>
 <p><div id="code">
 <font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>n&nbsp;:NERDTreeToggle<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font><br>
 </div></p>
 <p>This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle <a href="http://www.vim.org/scripts/script.php?script_id=1658">NERDTree</a>. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.</p>
-<h4>Add Google Search to VIM command line</h4>
+<h3>Add Google Search to VIM command line</h3>
 <p><div id="code">
 <font color="#87ceeb">&quot; key mapping for google search</font><br>
 <font color="#f0e68c"><b>function</b></font>! Google<font color="#ffdead">()</font><br>
@@ -79,7 +79,7 @@
 <font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>g&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">ESC</font><font color="#ffdead">&gt;</font>:! /usr/bin/open -a &quot;/Applications/Google Chrome.app&quot; '<a href="https://google.com/search?q=">https://google.com/search?q=</a><font color="#ffdead">&lt;</font><font color="#ffdead">C-R</font><font color="#ffdead">&gt;</font>=Google()<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font>'<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font>
 </div></p>
 <p>With this macro, typing &lt;leader>g brings up the prompt "Google:". Once a search string is entered, a web browser will open (or tab if one is already opened) with a Google search of the string. This is great for those moments when I want to quickly look something up without having to locate my web browswer.</p>
-<h4>Toggle VIM Blog Mode</h4>
+<h3>Toggle VIM Blog Mode</h3>
 <p><div id="code">
 <font color="#87ceeb">&quot; macro for blog writing</font><br>
 <font color="#f0e68c"><b>function</b></font>&nbsp;ToggleBlog<font color="#ffdead">()</font><br>

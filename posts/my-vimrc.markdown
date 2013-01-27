@@ -5,35 +5,35 @@ My .Vimrc Configuration
 
 The .vimrc is the configuration file. I consider [my .vimrc][2] pretty basic and a good starting point for beginners to VIM. I would suggest to anyone editing their .vimrc to understand each setting before using them. Here are a few of my favorite settings:
 
-####Remap Command Mode####
+###Remap Command Mode###
 <div id="code">
 <font color="#f0e68c"><b>nnoremap</b></font>&nbsp;;&nbsp;:<br>
 </div>
 
 The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.
 
-####Remap &lt;esc&gt; to jj####
+###Remap &lt;esc&gt; to jj###
 <div id="code">
 <font color="#f0e68c"><b>inoremap</b></font>&nbsp;jj&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">esc</font><font color="#ffdead">&gt;</font><br>
 </div>
 
 Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.
 
-####Map &lt;leader&gt; key####
+###Map &lt;leader&gt; key###
 <div id="code">
 <font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font><font color="#ffa0a0">&quot;,&quot;</font><br>
 </div>
 
 The &lt;leader&gt; key is your own personal modifier key and is default as \. This setting allows for easier usage of <leader> macros.
 
-####Map NERDTree toggle to &lt;leader&gt;####
+###Map NERDTree toggle to &lt;leader&gt;###
 <div id="code">
 <font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>n&nbsp;:NERDTreeToggle<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font><br>
 </div>
 
 This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle [NERDTree][3]. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.
 
-####Add Google Search to VIM command line####
+###Add Google Search to VIM command line###
 <div id="code">
 <font color="#87ceeb">&quot; key mapping for google search</font><br>
 <font color="#f0e68c"><b>function</b></font>! Google<font color="#ffdead">()</font><br>
@@ -47,7 +47,7 @@ This allows me to map the &lt;leader&gt; key in conjunction with n to quickly to
 
 With this macro, typing <leader\>g brings up the prompt "Google:". Once a search string is entered, a web browser will open (or tab if one is already opened) with a Google search of the string. This is great for those moments when I want to quickly look something up without having to locate my web browswer.
 
-####Toggle VIM Blog Mode####
+###Toggle VIM Blog Mode###
 <div id="code">
 <font color="#87ceeb">&quot; macro for blog writing</font><br>
 <font color="#f0e68c"><b>function</b></font>&nbsp;ToggleBlog<font color="#ffdead">()</font><br>

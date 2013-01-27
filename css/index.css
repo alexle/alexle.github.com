@@ -8,11 +8,9 @@ body {
 
 h1,h2,h4,h5,h6 {
    display: inline;
-   font-weight: 500;
 }
 
 h3, strong {
-   font-weight: 500;
 }
 
 a:link, a:visited {
@@ -43,22 +41,21 @@ blockquote {
    padding-left: 10px;
    margin-left: 10px;
    margin-right: 0px;
-
-   font-size: 13px;
+   font-size: 14px;
 }
 
 pre {
    font-family: courier;
-   font-size: 13px;
    padding: 10px;
+   font-size: 13px;
 }
 
 #code {
    font-family: monospace;
    background-color: #333333;
    color: #ffffff;
-   font-size: 13px;
    padding: 10px;
+   font-size: 13px;
 }
 
 #social_buttons {
