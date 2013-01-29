@@ -14,7 +14,7 @@ Apparently, this is not a new phenomenom (thank goodness). Psychologist Barry Sc
 So what can be done about it? Here are my ideas and plan going forward:
 
 ###Simplify my life and possessions.###
-By doing so, this reduces the number of choices I have to make. Back when I had cable TV, I could flip through 100+ channels and still not be able to decide on one. Now that I've [cut the cord][2], I don't have to worry about if anything better is on TV. If nothing is good on the 5 channels I have, then I'll work on a project or go for a run instead, which is a win-win situation in my book.
+By doing so, this reduces the number of choices I have to make. Back when I had cable TV, I could flip through 100+ channels and still not be able to decide on one. Now that I've [cut the cord][2], I don't have to worry about if anything better is on TV. If nothing is good on the 5 channels I have, then I'll work on a project or go for a run instead, which is great too. This also applies to clothes, shoes, and any other Stuff I have.
 
 ###For most choices, one is as good as another.###
 Instead of agonizing over whether to get a Sam Adams Octoberfest or Left Hand BlackJack, understand that both beers are probably delicious and there is no wrong choice. When I think about it, 90% of the choices I make each day have little meaningful difference from comparable options. Put the primary focus on must-have features, instead of nice-to-haves ones.

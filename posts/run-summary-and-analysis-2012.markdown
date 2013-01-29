@@ -19,7 +19,7 @@ I struggled with runs over a mile for a long time. My body would literally shut 
 
 In high school, we were always working to improve our mile times. So I followed suit. Run fast first, run farther later was my reasoning. However, I was so focused on beating my previous mile time that I'd be A) too exhausted to run further or B) too dejected from not hitting the time and unmotivated to go on.
 
-On a whim one day in Sep, I changed the Nike+ run setting to a "timed-run". It didn't matter how fast, it didn't matter how far. Just a challenge to run 15 minutes without stopping. It was a major success and the rest of the graph sums up how well that worked out for me.
+On a whim one day in Aug, I changed the Nike+ run setting to a "distance-run". It didn't matter how fast, it didn't matter how long. Just a challenge to run 2 miles without stopping. It was a major success and the rest of the graph sums up how well that worked out for me.
 
 <a href="/static/num-runs-each-month.png"><img src="/static/num-runs-each-month.png" width="600px" class="center" /></a>
 
@@ -41,6 +41,6 @@ Finally, my personal records of the year. My farthest (and longest) run was **3.
 
 In summary, recording my runs were invaluable in completing my goal to run 100 miles. It gave me a way to track my progress, as well as provide insight on what worked and didn't work on my runs.
 
-As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm ready to face the challenges on the road. Bring it on!
+As I settle more into the running groove, I plan to focus less on distance and time to incorporate different exercises such as fartleks, tempo runs, and intervals into my training. I don't know what 2013 holds for me, but I'm excited to face the challenges on the road.
 
 [1]: /blog/2012/100-miles.html
