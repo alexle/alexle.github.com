@@ -42,6 +42,7 @@ blockquote {
    margin-left: 10px;
    margin-right: 0px;
    font-size: 14px;
+   overflow: auto;
 }
 
 pre {
