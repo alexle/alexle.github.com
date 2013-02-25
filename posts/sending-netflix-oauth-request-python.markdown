@@ -22,7 +22,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 
 ###Performing A Non-Authenticated Request###
 
-The autocomplete catalog request searches the Netflix catalog for movies and tv shows that partially match the search string. It is a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
+The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It is a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
 
 > http://api-public.netflix.com/catalog/titles/autocomplete?oauth_consumer_key=**CONSUMER_KEY**&term=**SEARCH_STRING**
 
@@ -44,7 +44,7 @@ full_auto_url = auto_url + <span class="Constant">'?'</span> + urllib.urlencode(
 auto_data = urllib.urlopen(full_auto_url)
 </pre>
 
-Extracting the Netflix data returned can be done by converting the XML response to an Element Obejct with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:
+Extracting the Netflix data returned can be done by converting the XML response to an Element Object with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:
 
 <pre>
 auto_xml = ET.fromstring(auto_data)
@@ -56,7 +56,7 @@ auto_xml = ET.fromstring(auto_data)
 
 ###Performing An Authenticated Signed Request###
 
-The catalog titles search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to sending the request:
+The "catalog titles" search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to sending the request:
 
 1. Setting the base URL
 2. Gathering the parameters
@@ -73,7 +73,7 @@ While this may look daunting, it's not too bad once broken down. First, decide w
 TITLE_URL = <span class="Constant">'<a href="http://api-public.netflix.com/catalog/titles">http://api-public.netflix.com/catalog/titles</a>'</span>
 </pre>
 
-Next, we gather the required OAuth parameters for the Netflix request. 
+Second, we gather the required OAuth parameters for the Netflix request. 
 
 + **parm** - Optional parameter(s) that specify what data is returned. For the catalog titles search, we use the "term" parameter along with the movie/tv's title to gather the film's details.
 
