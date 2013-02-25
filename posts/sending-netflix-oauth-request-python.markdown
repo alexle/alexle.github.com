@@ -56,7 +56,7 @@ auto_xml = ET.fromstring(auto_data)
 
 ###Performing An Authenticated Signed Request###
 
-The catalog titles search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to constructing to the request:
+The catalog titles search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to sending the request:
 
 1. Setting the base URL
 2. Gathering the parameters
