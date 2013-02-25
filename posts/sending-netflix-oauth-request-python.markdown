@@ -44,7 +44,7 @@ full_auto_url = auto_url + <span class="Constant">'?'</span> + urllib.urlencode(
 auto_data = urllib.urlopen(full_auto_url)
 </pre>
 
-To extract the Netflix data returned, the XML response is converted to an Element Obejct with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:
+Extracting the Netflix data returned can be done by converting the XML response to an Element Obejct with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:
 
 <pre>
 auto_xml = ET.fromstring(auto_data)
@@ -56,17 +56,18 @@ auto_xml = ET.fromstring(auto_data)
 
 ###Performing An Authenticated Signed Request###
 
-The catalog titles search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 3 components:
+The catalog titles search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to constructing to the request:
 
 1. Setting the base URL
-2. Creating the base string
-3. Calculating the signature 
+2. Gathering the parameters
+3. Creating the base string
+4. Calculating the signature 
 
 Combining these components produces the signed request, which has the format below:
 
 > http://api-public.netflix.com/**PATH**?parameter=**PARM**&oauth_consumer_key=**CONSUMER_KEY**&oauth_nonce=**NONCE**&oauth_signature_method=**HMAC-SHA1**&oauth_timestamp=**TIME_STAMP**&oauth_version=**1.0**&oauth_signature=**SIGNATURE**
 
-While this may look daunting, it's not too bad once broken down. First, decide what Netflix resouce you want to access (catalog/people, users/current, etc). In this example, we want more information on a particular title so we use the catalog/titles resource. The base URL thus looks like:
+While this may look daunting, it's not too bad once broken down. First, decide what Netflix resource you want to access (catalog/people, users/current, etc). In this example, we want more information on a particular title so we use the catalog/titles resource. The base URL thus looks like:
 
 <pre>
 TITLE_URL = <span class="Constant">'<a href="http://api-public.netflix.com/catalog/titles">http://api-public.netflix.com/catalog/titles</a>'</span>
@@ -111,7 +112,7 @@ parameters = [
    (<span class="Constant">'term'</span>, term)]
 </pre>
 
-Now, the base string can be created by joining the HTTP method (GET/POST), base URL, and parameters (all percent-encoded):
+Next, we create the base string by joining the HTTP method (GET/POST), base URL, and parameters (all percent-encoded):
 
 <pre>
 <span class="Comment"># Put together base string</span>
@@ -137,7 +138,7 @@ The last piece of data to collect is the signature of the base string. This is c
 sign = GenerateSig( base_string )
 </pre>
 
-With all 3 components now created (base URL, base string, signature), all that's left is to combine them together and make the request: 
+With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request: 
 
 <pre>
 parameters.append((<span class="Constant">'oauth_signature'</span>, sign))

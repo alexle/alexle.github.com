@@ -85,7 +85,7 @@ full_auto_url = auto_url + <span class="Constant">'?'</span> + urllib.urlencode(
 auto_data = urllib.urlopen(full_auto_url)
 </pre>
 
-<p>To extract the Netflix data returned, the XML response is converted to an Element Obejct with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:</p>
+<p>Extracting the Netflix data returned can be done by converting the XML response to an Element Obejct with the ElementTree library. Once in this tree-format, it can be traversed and parsed with the built-in functions:</p>
 <pre>
 auto_xml = ET.fromstring(auto_data)
 
@@ -95,9 +95,10 @@ auto_xml = ET.fromstring(auto_data)
 </pre>
 
 <h3>Performing An Authenticated Signed Request</h3>
-<p>The catalog titles search returns detailed information on a film and is an example of an <em>authenticated signed</em> request. It involves 3 components:</p>
+<p>The catalog titles search returns detailed information on a film and is an example of an <em>authenticated signed</em> request. It involves 4 steps prior to constructing to the request:</p>
 <ol>
 <li>Setting the base URL</li>
+<li>Gathering the parameters</li>
 <li>Creating the base string</li>
 <li>Calculating the signature </li>
 </ol>
@@ -105,7 +106,7 @@ auto_xml = ET.fromstring(auto_data)
 <blockquote>
 <p>http://api-public.netflix.com/<strong>PATH</strong>?parameter=<strong>PARM</strong>&amp;oauth_consumer_key=<strong>CONSUMER_KEY</strong>&amp;oauth_nonce=<strong>NONCE</strong>&amp;oauth_signature_method=<strong>HMAC-SHA1</strong>&amp;oauth_timestamp=<strong>TIME_STAMP</strong>&amp;oauth_version=<strong>1.0</strong>&amp;oauth_signature=<strong>SIGNATURE</strong></p>
 </blockquote>
-<p>While this may look daunting, it's not too bad once broken down. First, decide what Netflix resouce you want to access (catalog/people, users/current, etc). In this example, we want more information on a particular title so we use the catalog/titles resource. The base URL thus looks like:</p>
+<p>While this may look daunting, it's not too bad once broken down. First, decide what Netflix resource you want to access (catalog/people, users/current, etc). In this example, we want more information on a particular title so we use the catalog/titles resource. The base URL thus looks like:</p>
 <pre>
 TITLE_URL = <span class="Constant">'<a href="http://api-public.netflix.com/catalog/titles">http://api-public.netflix.com/catalog/titles</a>'</span>
 </pre>
@@ -154,7 +155,7 @@ parameters = [
    (<span class="Constant">'term'</span>, term)]
 </pre>
 
-<p>Now, the base string can be created by joining the HTTP method (GET/POST), base URL, and parameters (all percent-encoded):</p>
+<p>Next, we create the base string by joining the HTTP method (GET/POST), base URL, and parameters (all percent-encoded):</p>
 <pre>
 <span class="Comment"># Put together base string</span>
 param_encode = urllib.urlencode(parameters).replace(<span class="Constant">'+'</span>, <span class="Constant">'%20'</span>)
@@ -178,7 +179,7 @@ base_string = <span class="Constant">'GET&amp;'</span> + OAuthEscape( TITLE_URL 
 sign = GenerateSig( base_string )
 </pre>
 
-<p>With all 3 components now created (base URL, base string, signature), all that's left is to combine them together and make the request: </p>
+<p>With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request: </p>
 <pre>
 parameters.append((<span class="Constant">'oauth_signature'</span>, sign))
 
