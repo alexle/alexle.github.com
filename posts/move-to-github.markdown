@@ -1,7 +1,7 @@
 Why I Moved My Blog To Github Pages
 02-29-2012
 
-In an earlier [post][1], I expressed my desire to write more. While Blogger was a good platform to start on, it wasn't conducive to my work flow nor management of the site. I spent more time manipulating html tags and tinkering with the css/design of the page than producing content. Thus, I researched alternatives and settled on using [Chisel][4], a static site generator.
+In an earlier [post][1], I expressed my desire to write more. While Blogger was a good platform to start on, it wasn't conducive to my work flow nor management of the site. I spent more time manipulating html tags and tinkering with the css/design of the page than producing content. Thus, I researched alternatives and settled on using [Chisel][4], a static site generator that is only **104 lines** of python.
 
 [Static site generators][3] are programs that generates **static** HTML files which can be served through any web server. They use template languages that separate the layout of the website from the content and styles. As an added bonus, SSG's follow rule #29 of The Pragmatic Programmer, "Write code that writes code", which is just plain cool.
 
@@ -14,7 +14,7 @@ The WYSIWYG, or "what you see is what you get" editor, is the plain text box use
 For example, Blogger's editor lacks:
 
 + efficient text movement (VIM/Emacs)
-+ easy text manipulation
++ easy text manipulation (dw, yy)
 + syntax highlighting
 + regex search
 + pre-defined macros
@@ -25,6 +25,8 @@ Another perk of static site generators is that they create HTML content from sim
 ###Control Of Content###
 
 One advantage of having your website in static HTML files is that your content is separate from the server. This makes it extremely easy to move your website to any host (Amazon S3, Heroku, Github Pages, the server in your home office) - just upload your HTML, re-route the domain name and you're good to go. Virtually all servers are able to serve HTML as well, meaning you rarely have to worry about hosting incompatibilities.
+
+Also, since all the files reside statically in your workspace, you can easily search your entire blog for any files (*find -iname ./*) or specific text (*grep -r*) via the command line.
 
 ###Chance For Redesign (Bottom Up)###
 
@@ -41,7 +43,7 @@ Designing the HTML+CSS was a fun experience as well. The layout is much more sim
 
 Maintaining static HTML files is not for everyone, but it greatly fits my style as a software developer. I love opening a plain text file and writing, without any regards to HTML tags, having to be online, or my hands leaving the keyboard. I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.
 
-In the end, moving to a static site has let me concentrate more on my writing, and not on the styling of my content. There are some disadvantages to static site generators, such as lack of dynamic content (comments/plugins) and RSS feeds. I haven't decided how, or even if, I'll address those yet. For now, my main goal is just to focus on content.
+In the end, moving to a static site has let me concentrate more on my writing, and not on the styling of my content. There are some disadvantages to static site generators, such as lack of dynamic content (comments/plugins) and [RSS feeds][7]. I haven't decided how, or even if, I'll address those yet. For now, my main goal is just to focus on content.
 
 *Feel free to [fork][6] my blog!
 
@@ -51,3 +53,4 @@ In the end, moving to a static site has let me concentrate more on my writing, a
 [4]: https://github.com/dz/chisel
 [5]: http://tedwise.com/markdown/
 [6]: https://github.com/alexle/alexle.github.com
+[7]: http://alexanderle.com/blog/2012/create-an-rss-feed-from-scratch.html
