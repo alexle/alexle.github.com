@@ -5,13 +5,13 @@ A Summary And Analysis Of Running In 2012
 
 Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all, I ran **77 times** for a total of **125.59 miles** at an average pace of **8'16"** with an average distance of **1.6 miles**. Runs were tracked with the Nike+ Running app on my iPhone (GPS), and only outdoor runs were recorded.
 
-<a href="/static/miles-ran-each-month.png"><img src="/static/miles-ran-each-month.png" width="600px" class="center" /></a>
+<a href="/static/miles-ran-each-month.png"><img src="/static/miles-ran-each-month.png" alt="alex miles ran per month" width="600px" class="center" /></a>
 
 The majority of my runs were done in the Fall, with Sep, Oct, and Nov combining for a whopping 73.81 miles (59% of the year's runs)! It was definitely my favorite season to run due to the energzigin 40-65 degree weather and fresh, brisk air.
 
 On the other hand, the other 9 months added up to only 51.69 miles (41% of the year's runs). Winter runs were brutal for me; they always felt "un-optimal". Heavy layers of clothes, icy air blasting through my lungs, uncomfortable freezing of all my extremities. Going for a run was hard enough.  The extra challenges of Winter made it much harder.
 
-<a href="/static/avg-distance-each-month.png"><img src="/static/avg-distance-each-month.png" width="600px" class="center" /></a>
+<a href="/static/avg-distance-each-month.png"><img src="/static/avg-distance-each-month.png" alt="alex average distance per month" width="600px" class="center" /></a>
 
 I struggled with runs over a mile for a long time. My body would literally shut down, on cue, after hearing the mile beeper. Until I made **one** change that ultimately allowed my runs to reach new limits. What was that change?
 
@@ -21,7 +21,7 @@ In high school gym class, we ran a mile every week for fitness. Improving our mi
 
 On a whim one day in Aug, I changed the Nike+ run setting to a "distance-run". It didn't matter how fast, it didn't matter how long. Just a challenge to run 2 miles without stopping. It was a major success and the rest of the graph sums up how well that worked out for me.
 
-<a href="/static/num-runs-each-month.png"><img src="/static/num-runs-each-month.png" width="600px" class="center" /></a>
+<a href="/static/num-runs-each-month.png"><img src="/static/num-runs-each-month.png" alt="alex number runs per month" width="600px" class="center" /></a>
 
 Next, we have the number of runs I participated in each month. Feb was embarrassing; I think the shock of how hard running was and the cold temperatures traumatized me for a period of time. Otherwise, I'm pleased to see the increasing trend of my attempts to run. Even if they weren't the best runs, I'd like to think that just making it out on the road was something to be proud of. 90% of success is showing up, right?
 
@@ -31,11 +31,11 @@ The graph above (not to scale) shows the average pace of my runs each month. In 
 
 However, the road there wasn't smooth. After 6 months of running, I had expected to get better. It didn't have be a big difference, just some improvement. When I checked my average pace in Jul, I almost quit from frustration. 8 minutes 50 seconds, almost the same pace I started with 6 months earlier. Fortunately, I made some changes and was able to stick with it.
 
-<a href="/static/nike-2012-when-run.png"><img src="/static/nike-2012-when-run.png" class="center" /></a>
+<a href="/static/nike-2012-when-run.png"><img src="/static/nike-2012-when-run.png" alt="alex runs time of day" class="center" /></a>
 
 Running in the morning was my preferred choice. It felt great to crawl out of bed, throw on my shoes, and make a statement on the day. The neighborhoods and streets were quiet, leaving just the sounds of my steps and rhythmic breathing to keep me company. Night runs were appealing in the hot Summer months, while afternoon runs were favored in the Winter and Spring to maximize the warmth of the sun.
 
-<a href="/static/nike-2012-records.png"><img src="/static/nike-2012-records.png" width="600px" class="center" /></a>
+<a href="/static/nike-2012-records.png"><img src="/static/nike-2012-records.png" alt="alex 2012 running records" width="600px" class="center" /></a>
 
 Finally, my personal records of the year. My farthest (and longest) run was **3.42 miles** at a pace of **8'46"** in **30:01**. My fastest 5k was finished in **24:49** at a pace of **7'56"**. And my fastest mile was completed on a high school track against my brother, where I ran it in **6:29**.
 

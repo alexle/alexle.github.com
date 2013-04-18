@@ -9,19 +9,19 @@ The group consisted of myself and two friends from California visiting for the w
 
 We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. The first section through the valley was relatively even and it was easy to keep a steady pace. Since high altitude compounds the body's need for water, we all reminded each other to stay hydrated. Having CamelBaks were handy in that we didn't have to stop to pull out water along the way.
 
-<a href="/static/grays_valley.jpg"><img src="/static/grays_valley.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/grays_valley.jpg"><img src="/static/grays_valley.jpg" alt="alex le grays valley" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 3/4th of a mile in, the trail began to incline more. After the first steep climb, we were all feeling the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
 
 As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier had transformed into uneven rocks and boulders. On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
 
-<a href="/static/grays_climb.jpg"><img src="/static/grays_climb.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/grays_climb.jpg"><img src="/static/grays_climb.jpg" alt="alex le grays climb" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ###At The Top###
 
 We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms? Instead, all we were greeted with were booming sounds of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
 
-<a href="/static/grays_victory.jpg"><img src="/static/grays_victory.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/grays_victory.jpg"><img src="/static/grays_victory.jpg" alt="alex le grays victory" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. I believe that now. And with how windy it was on the summit and the rain clouds blocking the sun, it turned chilly fast.
 
@@ -35,7 +35,7 @@ The weather, however, didn't plan to make it easy on us. Because right then, it 
 
 We made a group decision to go on and eventually reached the top at 1:20 pm. We had battled the elements and altitude and won. It's hard to describe the feeling of accomplishment, joy, and adrenaline that comes from standing at the highest point around you for miles. Maybe a picture *is* worth a thousand words :)
 
-<a href="/static/torreys_victory.jpg"><img src="/static/torreys_victory.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/torreys_victory.jpg"><img src="/static/torreys_victory.jpg" alt="alex le torreys victory" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ###The Climb Down###
 

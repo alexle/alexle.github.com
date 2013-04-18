@@ -9,19 +9,19 @@ When I discovered that Netflix has an [API][3], I saw an opportunity to learn so
 
 Neatflix is simple to use. Just enter a search phrase and click on any result to display its information. The search will return the top 10 titles matched in the Netflix libary. Say you wanted to find out more information about the movie "Thor". A search of this phrase would return the following:
 
-<a href="/static/neatflix2.png"><img src="/static/neatflix2.png" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
+<a href="/static/neatflix2.png"><img src="/static/neatflix2.png" alt="neatflix home page" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
 
 Clicking any button gives you a collection of important details such as the year the title was made, the length of the movie, the average Netflix rating, its availability on Netflix, a detailed synopsis, and the genre! For example, the first result would display the output below:
 
-<a href="/static/neatflix3.png"><img src="/static/neatflix3.png" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
+<a href="/static/neatflix3.png"><img src="/static/neatflix3.png" alt="neatflix result page" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
 
 That movie looks good! **And** it's available on streaming. I guess I know what I'm doing tonight. Neatflix also shows the number of episodes in a TV series as well. Ever wondered how long Season 1 of "The Walking Dead" is?
 
-<a href="/static/neatflix4.png"><img src="/static/neatflix4.png" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
+<a href="/static/neatflix4.png"><img src="/static/neatflix4.png" alt="neatflix walking dead" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
 
 Only 6 episodes, pretty short season. I wonder if Game Of Thrones is available to stream..
 
-<a href="/static/neatflix5.png"><img src="/static/neatflix5.png" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
+<a href="/static/neatflix5.png"><img src="/static/neatflix5.png" alt="neatflix game of thrones" style="display:block; margin-left:auto; margin-right:auto; border:1px solid #999;" width="560px" /></a>
 
 Dvd and Blu-Ray only. Darn!
 
