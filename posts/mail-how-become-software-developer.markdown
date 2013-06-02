@@ -5,7 +5,7 @@ In their 25th annual Jobs Rated report, CareerCast [ranked Software Engineering 
 
 It seems the general population is taking notice of this as well. Kevin Systrom, CEO of Instagram, is one of many who has [made the switch to a career in software development][2]. With no formal engineering training, he taught himself how to program at night and ended up creating a one-billion dollar photo app.
 
-I recently received an email from a friend asking for advice on how to switch industries. He currently works in finance, and as far as I know, works hard and and is good at his job. Yet, he desires more and struggles with how to transition to programming. While I'm no expert on this topic, I'd thought I share his email and my (slightly modified) response to him:
+I recently received an email from a friend asking for advice on how to switch industries. He currently works in finance, and as far as I know, is good at his job. Yet, he's unsatisfied and struggles with how to transition to programming. While I'm no expert on this topic, I'd thought I share his email and my (slightly modified) response to him:
 
 > *Hello everyone.*
 
