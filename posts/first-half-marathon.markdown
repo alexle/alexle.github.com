@@ -31,7 +31,7 @@ Picture courtesy of Denver Post</div>
 
 My overall goal was to finish under 2 hours, which is a 9:09 min/mile pace. To achieve this, the plan was to run a "negative" split, meaning I would run the first half of the race *slower* than the second half of the race. In theory, this conserves energy stores and allows a stronger finish. Easy in practice, but hard to execute.
 
-The start was fast. Blazing fast. Maybe it was the adrenaline, or two straight days of spaghetti inside me. The first mile (through a beautiful park) was over in 8:05. So much for the plan. I quickly dialed it down.
+The start was fast. Blazing fast. Maybe it was the adrenaline, or two straight days of spaghetti inside me. The first mile (through a beautiful park) was over in 8:05. So much for starting slow. I quickly dialed it down.
 
 Oddly enough, I did not enjoy the first highlight of the race - a run through the Denver Zoo. The paths were extremely narrow and crowded, and all I saw was a mountain goat and some flamingos.
 
@@ -41,13 +41,13 @@ I'm one of those people who constantly check their GPS watches when they run. I 
 
 During the run through the Zoo, however, I completely forgot about it. Perhaps I was too busy scanning for animals, or avoiding feet and bodies in front of me. When I emerged, I glanced at my watch and was shocked. I was almost 1/4 of the way done.
 
-I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside blared "DON'T DO IT". So I settled in and hit the cruise control button.
+I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside blared "DON'T DO IT". I settled in and hit the cruise control button.
 
-It was my most enjoyable section of the race. Just me, my headphones, and three straight miles of pavement as far as the eyes could see. It was Euphoria.
+It was the most enjoyable section of the race for me. Just me, my music, and three straight miles of pavement as far as the eyes could see. It was Euphoria.
 
 ###Miles 7-10: Gut Check###
 
-I was pumped up and feeling good when I hit Mile 7. Until I realized that everything I did in the last hour, I was going to have to do it again.
+I was pumped up and feeling good when I hit Mile 7. Until I realized that everything I did in the last hour, I was going to have to do again.
 
 Sticking to the plan, I turned my effort up a notch. If I was doing 70% capacity before, my goal was to do 80% here. For me, this stretch was difficult and more of a mental challenge than physical.
 
@@ -55,7 +55,7 @@ Running on Colfax was a blur to me. All I remember thinking was "wow, they close
 
 ###Miles 11-13: The Final Kick###
 
-Reaching this marker was like waking up from a dream and facing reality. Alex, you really might finish this race. Just three more miles and you never have to run another mile again.
+Reaching this marker was like waking up from a dream and getting hit with a dose of reality. Alex, you really might finish this race. Just three more miles and you never have to run another mile again.
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
