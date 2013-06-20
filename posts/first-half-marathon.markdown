@@ -1,7 +1,7 @@
 My First Half-Marathon: Race Recap And Experience
 06-20-2013
 
-Last December, my girlfriend surprised me with an entry to the Colfax Half-Marathon. I had just reached my goal of 100 miles in one year, and was ecstatic for a new challenge. Visions of crossing the finsh line to hundreds of cheering people and wearing a race medal danced in my head.
+Last December, my girlfriend surprised me with an entry to the Colfax Half-Marathon. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finsh line to hundreds of cheering people and wearing a race medal danced in my head.
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
@@ -41,7 +41,7 @@ I'm one of those people who constantly check their GPS watches when they run. I 
 
 During the run through the Zoo, however, I completely forgot about the time. Perhaps I was too busy scanning for animals, or avoiding feet and bodies in front of me. When I emerged, I glanced at my watch and was shocked. I was almost 1/4 of the way done.
 
-I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside me blared "DON'T DO IT". So I settled in and hit the cruise control button.
+I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside me kept shouting "DON'T DO IT". So I settled in and hit the cruise control button.
 
 It was the most enjoyable section of the race for me. Just me, my music, and three straight miles of pavement as far as the eyes could see. It was Euphoria.
 
@@ -51,7 +51,7 @@ I was pumped up and feeling good when I hit Mile 7. Until I realized that everyt
 
 Sticking to the plan, I turned my effort up a notch. If I was doing 70% capacity before, my goal was to do 80% here. For me, this stretch was difficult and more of a mental challenge than physical.
 
-Running on Colfax was a blur to me. All I remember thinking was "wow, they closed down a lot of cross-streets for this race".
+Running on Colfax was a blur. All I remember thinking was "wow, they closed down a lot of cross-streets for this race".
 
 ###Miles 11-13: The Final Kick###
 
@@ -59,7 +59,7 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
+Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with [Swedish House Mafia][2].
 
 ###Finish & Post-Race###
 
@@ -78,3 +78,6 @@ It was an honor to be a part of all the athletes who competed, and reminds me th
 In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
 
 <a href="/static/2013-colfax-alex-medal.jpg"><img src="/static/2013-colfax-alex-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
+
+[1]: http://alexanderle.com/blog/2012/2012-goals.html
+[2]: http://en.wikipedia.org/wiki/Save_the_World_(song)
