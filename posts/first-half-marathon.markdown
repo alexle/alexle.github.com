@@ -5,7 +5,7 @@ Last December, my girlfriend surprised me with an entry to the Colfax Half-Marat
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
-Luckily, I went through with it and 4 (grueling) months later, I completed my first half-marathon. I finished in 01:48:12 with a pace of 8:15. It was an extraordinary experience, one that I'll never forget. Here is the recap of my half-marathon.
+Luckily, I went through with it and 4 (grueling) months later, I completed my first half-marathon. I finished in 01:48:12 with a pace of 8:15. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
 
 <a href="/static/2013-half-nike-map.jpg"><img src="/static/2013-half-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
@@ -17,7 +17,7 @@ My nerves were surprisingly calm. I was running on 3 hours of sleep, a Clif ener
 
 ###The Start###
 
-With thirty minutes to go, they steered us into our respected corrals. I was in Group D which, judging by the pace groups around me, looked to be the 9:00-9:15 minute/mile group. This was good by me, since I was on a mission and didn't want anyone in my way.
+With thirty minutes to go, they steered us into our respected corrals. I was in Group D which, judging by the pace groups around me, looked to be the 9:15 minute/mile group. This was good by me, since I was on a mission and didn't want anyone in my way.
 
 It seemed like an eternity in the corral. Thankfully, the "let's-get-ready-to-rumble" announcer kept energy levels high with motivational dialogue and jokes. When the national anthem finished, the headphones went in..
 
@@ -39,9 +39,9 @@ Oddly enough, I did not enjoy the first highlight of the race - a run through th
 
 I'm one of those people who constantly check their GPS watches when they run. I love statistics, and getting feedback on my performance is very helpful for me.
 
-During the run through the Zoo, however, I completely forgot about it. Perhaps I was too busy scanning for animals, or avoiding feet and bodies in front of me. When I emerged, I glanced at my watch and was shocked. I was almost 1/4 of the way done.
+During the run through the Zoo, however, I completely forgot about the time. Perhaps I was too busy scanning for animals, or avoiding feet and bodies in front of me. When I emerged, I glanced at my watch and was shocked. I was almost 1/4 of the way done.
 
-I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside blared "DON'T DO IT". I settled in and hit the cruise control button.
+I couldn't believe how quickly the miles went by. I felt unstoppable. As much as I wanted to push the pedal, a small voice inside me blared "DON'T DO IT". So I settled in and hit the cruise control button.
 
 It was the most enjoyable section of the race for me. Just me, my music, and three straight miles of pavement as far as the eyes could see. It was Euphoria.
 
@@ -59,13 +59,13 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, legs so heavy.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
+Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
 
 ###Finish & Post-Race###
 
-Crossing the finish line was overwheming and surreal. For a second or two, I almost forgot where I was. I was filled with so many emotions at that moment.
+Crossing the finish line was overwheming and surreal. For a second or two, I almost forgot where I was. I was filled with so many emotions.
 
-The sweetest part? My friends had made their way to the finish line, and shared my finish. Their support and exitement truly helped me along the race, and made the entire experience that much better.
+The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and exitement truly helped me along the race, and made the entire experience that much better.
 
 <a href="/static/2013-colfax-alex-finish.jpg"><img src="/static/2013-colfax-alex-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
