@@ -25,7 +25,7 @@ Each wave was staggered about 3 minutes. Honestly, it was the <u>best</u> start 
 
 <a href="/static/2013-colfax-start.jpg"><img src="/static/2013-colfax-start.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
-Picture courtesy of Denver Post</div>
+Photo courtesy of Denver Post.</div>
 
 ###Miles 1-3: Zoom Zoom###
 
@@ -68,6 +68,8 @@ Crossing the finish line was overwheming and surreal. For a second or two, I alm
 The sweetest part? My friends had made their way to the finish line, and shared my finish. Their support and exitement truly helped me along the race, and made the entire experience that much better.
 
 <a href="/static/2013-colfax-alex-finish.jpg"><img src="/static/2013-colfax-alex-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<div class="separator" style="clear: both; text-align: center;">
+Photo courtesy of the best support group ever.</div>
 
 Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Marathon medal around my necked. I couldn't take my hands off of it, and still wear it from time to time around the house.
 
