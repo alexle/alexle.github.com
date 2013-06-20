@@ -20,7 +20,7 @@ I've taken this to heart lately and it's worked wonders for my productivity and 
 
 Always wanted to create a web app? Sit down and open an account on Google App Engine or Heroku. Need to update your resume? Open it up and make some changes! It may not be perfect, and the plan may not be clear, but you'll get more done now than if you waited until next week/month/year.
 
-But what if I don't have enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you're excited and hyped up about a new project, you'll find time for it.
+But what if you don't have enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you're excited and hyped up about a new project, you'll find time for it. There's no such thing as "not having time". It's only a matter of what you make a priority.
 
 Don't let inspiration go to waste.
 
