@@ -7,7 +7,7 @@ Below is a brief summary and analysis of of all my [runs in 2012][1]. All in all
 
 <a href="/static/miles-ran-each-month.png"><img src="/static/miles-ran-each-month.png" alt="alex miles ran per month" width="600px" class="center" /></a>
 
-The majority of my runs were done in the Fall, with Sep, Oct, and Nov combining for a whopping 73.81 miles (59% of the year's runs)! It was definitely my favorite season to run due to the energzigin 40-65 degree weather and fresh, brisk air.
+The majority of my runs were done in the Fall. I was surprised that Sep, Oct, and Nov combined for a whopping 73.81 miles (59% of the year's runs)! It was definitely my favorite season to run due to the cool 45-65 degree weather and fresh, brisk air.
 
 On the other hand, the other 9 months added up to only 51.69 miles (41% of the year's runs). Winter runs were brutal for me; they always felt "un-optimal". Heavy layers of clothes, icy air blasting through my lungs, uncomfortable freezing of all my extremities. Going for a run was hard enough.  The extra challenges of Winter made it much harder.
 
@@ -27,9 +27,9 @@ Next, we have the number of runs I participated in each month. Feb was embarrass
 
 <a href="/static/avg-pace-each-month.png"><img src="/static/avg-pace-each-month.png" width="600px" class="center" /></a>
 
-The graph above (not to scale) shows the average pace of my runs each month. In Jan, I averaged 8 minutes 51 seconds on my runs. By the end of the year, my average mile was down to 7 minutes 56 seconds, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**.
+The graph above (not to scale) shows the average pace of my runs each month. In Jan, I averaged 8:51 on my runs. By the end of the year, my average mile was down to 7:56, a difference of almost a minute! The best part? My average pace **decreased**, even as the length of my runs **increased**.
 
-However, the road there wasn't smooth. After 6 months of running, I had expected to get better. It didn't have be a big difference, just some improvement. When I checked my average pace in Jul, I almost quit from frustration. 8 minutes 50 seconds, almost the same pace I started with 6 months earlier. Fortunately, I made some changes and was able to stick with it.
+However, the road there wasn't smooth. After 6 months of running, I had expected to get better. It didn't have be a big difference, just some improvement. When I checked my average pace in Jul, I almost quit from frustration. 8 minutes 50 seconds, almost the same pace I started with 6 months earlier. Fortunately, I made some changes and was able to see some improvement.
 
 <a href="/static/nike-2012-when-run.png"><img src="/static/nike-2012-when-run.png" alt="alex runs time of day" class="center" /></a>
 
