@@ -7,13 +7,13 @@ It seems the general population is taking notice of this as well. Kevin Systrom,
 
 I recently received an email from a friend asking for advice on how to switch industries. He currently works in finance, and as far as I know, is good at his job. Yet, he's unsatisfied and struggles with how to transition to programming. While I'm no expert on this topic, I'd thought I share his email and my (slightly modified) response to him:
 
-> *Hello everyone.*
+> Hello everyone.
 
-> *Over the last year I have been contemplating on the decision of whether to change industries. I have finally decided that computer programming is for me.*
+> Over the last year I have been contemplating on the decision of whether to change industries. I have finally decided that computer programming is for me.
 
-> *I have dedicated hours to Codeacademy and Stanford cs lectures. Recently, I applied for  Devbootcamp (Ruby on Rails) program in SF, but I failed in passing the interview.  I am quiet devastated, but I refuse to give up. However, as of now I am lost, I would like to learn RoR, Java, Javascript and Python. I can't commit another 4 hours to college, but I can commit to programs less than two years. So far the only program I have found in Colorado for RoR is http://davincicoders.com/.*
+> I have dedicated hours to Codeacademy and Stanford cs lectures. Recently, I applied for  Devbootcamp (Ruby on Rails) program in SF, but I failed in passing the interview.  I am quiet devastated, but I refuse to give up. However, as of now I am lost, I would like to learn RoR, Java, Javascript and Python. I can't commit another 4 hours to college, but I can commit to programs less than two years. So far the only program I have found in Colorado for RoR is http://davincicoders.com/.
 
-> *If you have an recommendations I would love to hear. Eventually I would love to work as developer while designing my own things at home in parallel.*
+> If you have an recommendations I would love to hear. Eventually I would love to work as developer while designing my own things at home in parallel.
 
 Hello aspiring developer!
 

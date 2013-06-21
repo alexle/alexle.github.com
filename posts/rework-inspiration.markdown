@@ -5,8 +5,9 @@ I finally got around to reading [Rework][1]. It's a book by [37signals][2] that 
 
 <center><img src="/static/rework.png" width="148" height="200" /></center>
 
-There are many great lessons in the book: Learning from mistakes is overrated, Good enough, Scratch your own itch, No time is no excuse, Planning is guessing, Start something. I could write a whole entry for each one. But the lesson I remember the most, and the one that has had the largest impact on me, is about inspiration:
-Inspiration is perishable.
+There are many great lessons in the book: Learning from mistakes is overrated, Good enough, Scratch your own itch, No time is no excuse, Planning is guessing, Start something. I could write a blog entry for each one.
+
+But the lesson I remember the most, and the one that has had the largest impact on me, is about inspiration: **Inspiration is perishable.**
 
 > We all have ideas. Ideas are immortal. They last forever.
 > 
@@ -20,7 +21,7 @@ I've taken this to heart lately and it's worked wonders for my productivity and 
 
 Always wanted to create a web app? Sit down and open an account on Google App Engine or Heroku. Need to update your resume? Open it up and make some changes! It may not be perfect, and the plan may not be clear, but you'll get more done now than if you waited until next week/month/year.
 
-But what if you don't have enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you're excited and hyped up about a new project, you'll find time for it. There's no such thing as "not having time". It's only a matter of what you make a priority.
+But what if there isn't enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you're excited about a new project, you'll find time for it. There's no such thing as "not having time". It's only a matter of what you make a priority.
 
 Don't let inspiration go to waste.
 
