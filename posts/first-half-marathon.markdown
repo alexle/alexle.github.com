@@ -1,7 +1,7 @@
 My First Half-Marathon: Race Recap And Experience
 06-20-2013
 
-Last December, my girlfriend surprised me with an entry to the Colfax Half-Marathon. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finsh line to hundreds of cheering people and wearing a race medal danced in my head.
+Last December, my girlfriend surprised me with an entry to the Colfax Half-Marathon. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
@@ -59,13 +59,13 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to [save the world][2] with Swedish House Mafia.
+Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
 
 ###Finish & Post-Race###
 
-Crossing the finish line was overwheming and surreal. For a second or two, I almost forgot where I was. I was filled with so many emotions.
+Crossing the finish line was overwhelming and surreal. For a second or two, I almost forgot where I was. I was filled with so many emotions.
 
-The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and exitement truly helped me along the race, and made the entire experience that much better.
+The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and excitement truly helped me along the race, and made the entire experience that much better.
 
 <a href="/static/2013-colfax-alex-finish.jpg"><img src="/static/2013-colfax-alex-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
@@ -80,4 +80,3 @@ In the end, the race surpassed all my expectations. It was a perfect day to run,
 <a href="/static/2013-colfax-alex-medal.jpg"><img src="/static/2013-colfax-alex-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 
 [1]: http://alexanderle.com/blog/2012/2012-goals.html
-[2]: http://en.wikipedia.org/wiki/Save_the_World_(song)
