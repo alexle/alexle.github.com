@@ -7,7 +7,7 @@ Hiking up a 14er is an exhilarating experience. It's been a couple days since my
 
 2. **Bring plenty of water.** I drink a <u>lot</u> of water every day and heat up easily when doing physical activities. For the 8.4 mile RT trip up Grey's/Torrey's, I brought a 100oz CamelBak, two 16oz water bottles, and one 32oz Gatorade (for electrolytes/salt). That amount of liquid is probably overkill for most people, but it's better to have <u>too</u> much water than not enough in my opinion. The general rule of thumb is 1 liter of water for every 3 miles you hike.
 
-3. **Stay hydrated.** Drinking when you're thirsty is too late (one can be a quart low on fluids before feeling thirsty), and puts yourself at risk for dehydration, fatigue, and cramps. According to [HighAltitudeLife.com][7], the higher up you are, the more water your body needs to keep functioning. I recommend drinking small amounts of water frequently, which is another reason why a hydration bladder is nice to have.
+3. **Stay hydrated.** Drinking when you're thirsty is too late (one can be a quart low on fluids before feeling thirsty), and puts yourself at risk for dehydration, fatigue, and cramps. According to [HighAltitudeLife][7], the higher up you are, the more water your body needs to keep functioning. I recommend drinking small amounts of water frequently, which is another reason why a hydration bladder is nice to have.
 
 4. **Food needs vary from person to person.**  On the trip, our group only finished **half** the food we brought. Perhaps it was the altitude, physical exhaustion, or breakfast we had in the morning. What worked well for us was eating small amounts of trail mix, beef jerky, power bars, and [Clif Shot Bloks][4] along the way. That kept our energy levels consistently high. A small lunch on the summit was more than enough. 
 
@@ -21,7 +21,7 @@ Hiking up a 14er is an exhilarating experience. It's been a couple days since my
 
 9. **Account for personal needs.** Everyone remembers the essentials such as sunscreen and bug spray, but don't neglect the simple conveniences such as toilet paper, hand sanitizer, and extra socks. Some people even bring head lamps/flashlights, iodine tablets (to clean water), floss, and matches/lighter.
 
-10. **Enjoy it.** Completing a 14er is a memorable experience so take your time and "smell the roses". Many focus on just making it to the top, and miss out on a ton of breath-taking views. Fall into rhythm with the sounds of steps and heavy breathing as you climb a steep incline. Debate with your friends about what's going to happen next in [A Game Of Thrones][3]. And enjoy some of the best air you're ever going to breathe when you're on top.
+10. **Enjoy it.** Completing a 14er is a memorable experience so take your time and "smell the roses". Many focus on just making it to the top, and don't fully appreciate the journey up. Take in the breath-taking views. Focus on the sounds of your steps and heavy breathing as you climb a steep incline. Debate what's going to happen next in [A Game Of Thrones][3] with your friends. And enjoy some of the best air you're ever going to breathe when you're on top.
 
 Keep in mind these tips are based on my experiences, and that each person's comfort level is different. Hopefully, this post was able to provide a sense of what one can expect on a 14er hike and how I plan to prepare for one in the future.
 

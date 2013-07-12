@@ -21,7 +21,7 @@ server.login( <span style="background-color: #333333"><font color="#ffffff">'</f
 
 Now you're set up to send email. You will send a text message by taking advantage of each mobile carrier's email to SMS gateway!
 
-For example, to send a text message to a t-mobile number, you would use &lt;number&gt;@tmomail.net. To send a text message to an AT&T number, you would use &lt;number&gt;@mms.att.net.
+For example, to send a text message to a t-mobile number, you would use &lt;number&gt;@tmomail.net. To send a text message to an AT&T number, you would use &lt;number&gt;@mms.att.net. Here's a list of other [mail-sms gateways][1].
 
 Once you have your phone destination, all that's left is to add your message and send the mail.
 
@@ -31,3 +31,4 @@ server.sendmail( <span style="background-color: #333333"><font color="#ffffff">'
 
 5 lines of code. Not bad :)
 
+[1]: https://en.wikipedia.org/wiki/List_of_SMS_gateways

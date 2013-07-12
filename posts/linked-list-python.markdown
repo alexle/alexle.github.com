@@ -9,7 +9,7 @@ Like many other things in life, it's hard to see what all the fuss was about. Li
 
 ###1) Define a Node class###
 
-Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any node.
+Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any other node.
 
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">Node</font>:<br>
@@ -20,7 +20,7 @@ Every Node has a value and a pointer to the next node. When a node is first crea
 
 ###2) Define a LinkedList class###
 
-In this example, LinkedList holds a pointer to the first (head) and last (tail) node in the list. It also contains functions to later add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.
+The LinkedList class will hold all our nodes. It's responsible for keeping track (via pointers) of the first (head) and last (tail) node in the list. It also contains functions to add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.
 
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">LinkedList</font>:<br>
@@ -41,7 +41,7 @@ Adding a node to a linked list takes a couple steps.
 
 1. Create a node. If it is the first node, set the 'head' pointer to it.
 2. Set the last node's 'next' pointer to this node. This keeps the nodes linked.
-3. Update the 'tail' pointer to the new node. 
+3. Update the node to be the new 'tail' node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>
@@ -56,10 +56,10 @@ Adding a node to a linked list takes a couple steps.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail = new_node<br>
 </div>
 
-To remove a node from the linked list:
+To remove a node from the linked list, we must keep track of *three* nodes - the node we're attempting to remove, and the nodes before and after it. This is to be able to re-stitch the list back together after removing a node.
 
-1. Create pointers to keep track of the previous and current node.
-2. Iterate through the list until the index (or an invalid node) is reached.
+1. Iterate through the list to find the node to remove.
+2. Create pointers to keep track of the previous and current node.
 3. Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore *skipping* the index node.
 
 <div id="code">
@@ -81,7 +81,7 @@ To remove a node from the linked list:
 
 ###4) Printing the Linked List###
 
-To print the list, start at the head pointer. Traverse the list through each node's "next" pointer until the node is no longer null.<br />
+To print the list, start at the head pointer. Traverse the list through each node's "next" pointer, displaying its data member, until the node is no longer null.<br />
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">PrintList</font>( self ):<br>

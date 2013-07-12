@@ -77,7 +77,7 @@ The output was surprising:
 26 people - 59.82 percent  
 27 people - 62.69 percent  
 
-23 people in a room, 50.73% chance for a same birthday. It's really true.
+*23 people* in a room, *50.73%* chance for a same birthday. It's really true.
 
 In hindsight, it's similar to the penny/wheat and chessboard problem in that we don't see how quickly the compounds or "combinations" can grow. When I first saw this problem, I pictured the probability that 23 other people would have the same birthday as me (pretty low actually). What I failed to consider, however, was that the statement also includes comparing other people's birthdays with each other.
 
