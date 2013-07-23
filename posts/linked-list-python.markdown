@@ -40,8 +40,8 @@ The LinkedList class will hold all our nodes. It's responsible for keeping track
 Adding a node to a linked list takes a couple steps.
 
 1. Create a node. If it is the first node, set the 'head' pointer to it.
-2. Set the last node's 'next' pointer to this node. This keeps the nodes linked.
-3. Update the node to be the new 'tail' node.
+2. Set the current Tail node's next pointer to the new node. This keeps the nodes linked.
+3. Update the new node to be the Tail node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>
@@ -61,6 +61,7 @@ To remove a node from the linked list, we must keep track of *three* nodes - the
 1. Iterate through the list to find the node to remove.
 2. Create pointers to keep track of the previous and current node.
 3. Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore *skipping* the index node.
+4. If the Head node is removed, update the Head to be the 'next' node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">RemoveNode</font>( self, index ):<br>

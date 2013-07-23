@@ -77,8 +77,8 @@
 <p>Adding a node to a linked list takes a couple steps.</p>
 <ol>
 <li>Create a node. If it is the first node, set the 'head' pointer to it.</li>
-<li>Set the last node's 'next' pointer to this node. This keeps the nodes linked.</li>
-<li>Update the node to be the new 'tail' node.</li>
+<li>Set the current Tail node's next pointer to the new node. This keeps the nodes linked.</li>
+<li>Update the new node to be the Tail node.</li>
 </ol>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>
@@ -98,6 +98,7 @@
 <li>Iterate through the list to find the node to remove.</li>
 <li>Create pointers to keep track of the previous and current node.</li>
 <li>Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore <em>skipping</em> the index node.</li>
+<li>If the Head node is removed, update the Head to be the 'next' node.</li>
 </ol>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">RemoveNode</font>( self, index ):<br>

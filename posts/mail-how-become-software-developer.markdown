@@ -1,7 +1,7 @@
 Mail: How Do I Switch To A Career In Software?
 05-21-2013
 
-In their 25th annual Jobs Rated report, CareerCast [ranked Software Engineering as the #3 best job][1] out of 200 for 2013. I've been working as a developer for over 5 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - I love my job.
+In their 25th annual Jobs Rated report, CareerCast [ranked Software Engineering][1] as the #3 best job out of 200 for 2013. I've been working as a developer for over 5 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - I love my job.
 
 It seems the general population is taking notice of this as well. Kevin Systrom, CEO of Instagram, is one of many who has [made the switch to a career in software development][2]. With no formal engineering training, he taught himself how to program at night and ended up creating a one-billion dollar photo app.
 

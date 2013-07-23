@@ -21,7 +21,7 @@ Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key
 
 ###Map &lt;leader&gt; key###
 <div id="code">
-<font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font><font color="#ffa0a0">&quot;,&quot;</font><br>
+<font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font>&nbsp;<font color="#ffa0a0">&quot;,&quot;</font><br>
 </div>
 
 The &lt;leader&gt; key is your own personal modifier key and is default as \. This setting allows for easier usage of <leader> macros.
