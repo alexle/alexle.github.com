@@ -25,9 +25,9 @@ In this situation, however, the previous shot AND the fact that the bullets are 
 <div class="separator" style="clear: both; text-align: center;">
 Diagram of revolver chamber. The red circles are bullets.</div>
 
-If we are alive at this point, then that means the first shot did NOT contain a bullet and came from either locations 1, 2, 3, or 4. So the total number of outcomes is **4**.
+If you are alive at this point, then that means the first shot did NOT contain a bullet and must have come from either locations 1, 2, 3, or 4. So the total number of outcomes is **4**.
 
-Now we calculate the **expected occurrences**, or number of ways we could die. Since the revolver moves in a deterministic fashion, death can only occur if the first shot was fired from chamber 4, leading to the second shot being fired from chamber 5 (bullet)! If the shot was fired from either chambers 1, 2, or 3, then the subsequent shot would be blanks from 2, 3, or 4.
+Now we calculate the **expected occurrences**, or number of ways we could die. Since the revolver moves in a deterministic fashion, death can <u>only</u> occur if the first shot was fired from chamber 4, leading to the second shot being fired from chamber 5 (bullet). If the first shot was fired from either chambers 1, 2, or 3, then the subsequent shot would be blanks from 2, 3, or 4!
 
 To complete the calculation, the probability of dying here is 1 (number of given outcomes) divided by 4 (number of total outcomes) or **25%**.
 
