@@ -40,8 +40,8 @@ The LinkedList class will hold all our nodes. It's responsible for keeping track
 Adding a node to a linked list takes a couple steps.
 
 1. Create a node. If it is the first node, set the 'head' pointer to it.
-2. Set the current Tail node's next pointer to the new node. This keeps the nodes linked.
-3. Update the new node to be the Tail node.
+2. If a Tail exists, update its next pointer to the new node. This keeps the nodes linked.
+3. Assign the new node to be the Tail node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>

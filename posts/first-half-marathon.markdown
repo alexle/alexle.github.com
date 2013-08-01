@@ -59,7 +59,7 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, heavy legs dragging.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
+Lungs on fire, legs dragging heavily.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
 
 ###Finish & Post-Race###
 

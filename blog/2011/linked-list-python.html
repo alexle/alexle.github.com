@@ -77,8 +77,8 @@
 <p>Adding a node to a linked list takes a couple steps.</p>
 <ol>
 <li>Create a node. If it is the first node, set the 'head' pointer to it.</li>
-<li>Set the current Tail node's next pointer to the new node. This keeps the nodes linked.</li>
-<li>Update the new node to be the Tail node.</li>
+<li>If a Tail exists, update its next pointer to the new node. This keeps the nodes linked.</li>
+<li>Assign the new node to be the Tail node.</li>
 </ol>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">AddNode</font>( self, data ):<br>

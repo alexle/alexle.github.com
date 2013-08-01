@@ -1,7 +1,7 @@
 Store your data with HTML5 local storage
 11-27-2011    
 
-Local storage is a pretty cool feature included in HTML5.
+[Local storage][3] is a pretty cool feature included in HTML5.
 
 It allows data to be stored on the client-side via a simple key/value database. Data saved by a page, up to 5MB, resides in the user's browser and is accessible only by pages from the same domain. In other words, local storage data saved by apple.com cannot be accessed by orange.com.
 
@@ -54,3 +54,4 @@ Local storage is an up-and-coming technology that's powerful and easy to use. Pl
 
 [1]: http://alexanderle.com/localstorage_demo/
 [2]: https://github.com/alexle/localstorage_demo
+[3]: http://diveintohtml5.info/storage.html

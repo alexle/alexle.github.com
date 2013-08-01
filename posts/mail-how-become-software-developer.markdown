@@ -49,7 +49,7 @@ You'll learn more and faster, in my opinion. It'll also provide you an experienc
 
 ####5) Don't stop learning####
 
-Subscribe to sites like HackerNews and blogs like Coding Horror. The industry is always evolving and the more you know, the better. Google everything. StackOverflow is your best friend.
+Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The industry is always evolving and the more you know, the better. Google everything. StackOverflow is your best friend.
 
 <hr width="75%">
 
@@ -62,3 +62,5 @@ I'm open to talk anytime if you have more questions. Good luck!
 [1]: http://www.careercast.com/jobs-rated/best-worst-jobs-2013
 [2]: http://thenextweb.com/2012/04/10/instagrams-ceo-had-no-formal-programming-training-hes-a-marketer-who-learned-to-code-by-night/
 [3]: http://news.cnet.com/8301-17938_105-20093715-1/meet-connor-a-7-year-old-iphone-app-developer/
+[4]: https://news.ycombinator.com/news
+[5]: http://www.codinghorror.com/blog/

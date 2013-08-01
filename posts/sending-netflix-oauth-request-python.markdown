@@ -1,7 +1,7 @@
 Sending Netflix OAuth Requests With Python
 02-24-2013
 
-Oauth is an authentication protocol that allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies developing it.
+Oauth is an authentication protocol that allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.
 
 That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous [post][1], I shared a [demo][2] that uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.
 
