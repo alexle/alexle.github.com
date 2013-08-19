@@ -1,7 +1,7 @@
-My First Half-Marathon: Race Recap And Experience
+My First Half Marathon: Race Recap And Experience
 06-20-2013
 
-Last December, my girlfriend surprised me with an entry to the Colfax Half-Marathon. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
+Last December, my girlfriend surprised me with an entry to the [Devner Colfax Half-Marathon][2]. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
@@ -79,4 +79,5 @@ In the end, the race surpassed all my expectations. It was a perfect day to run,
 
 <a href="/static/2013-colfax-alex-medal.jpg"><img src="/static/2013-colfax-alex-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 
-[1]: http://alexanderle.com/blog/2012/2012-goals.html
+[1]: http://alexanderle.com/blog/2012/100-miles.html
+[2]: http://www.runcolfax.org/

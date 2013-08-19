@@ -6,14 +6,14 @@ How To Send A SMS Message With Python (easy way)
 Can it send text messages? You betcha! Here are the steps to send one easily:
 
 ###Load SMTP Module###
-SMTP, or simple mail transfer protocol, will be used to send the text message. It's the most common protocol for sending e-mail between mail servers. Fortunately, Python includes a nice library of its basic functions in *smtplib*.
+SMTP (simple mail transfer protocol) is the most common protocol for sending e-mail between mail servers. This protocol will be used to send the text message. Fortunately, Python includes a nice library of its basic functions in *smtplib*.
 
 <div id="code">
 <font color="#cd5c5c">import</font>&nbsp;smtplib<br>
 </div>
 
 ###Connect to Gmail SMTP Server###
-The next step is to establish a secure session with Gmail's outgoing SMTP server. A connection can be made with either TLS or SSL. In this example, the STARTTLS connection is used which is port 587. The session is complete with the credentials of a valid Gmail account.
+Next, a secure session with Gmail's outgoing SMTP server needs to be established. A connection can be made with either TLS or SSL. In this example, the STARTTLS connection is used (port 587). The session is complete with the credentials of a valid Gmail account.
 
 <div id="code">
 server = smtplib.SMTP( <span style="background-color: #333333"><font color="#ffffff">&quot;</font></span><font color="#ffa0a0">smtp.gmail.com</font><span style="background-color: #333333"><font color="#ffffff">&quot;</font></span>, 587 )<br>

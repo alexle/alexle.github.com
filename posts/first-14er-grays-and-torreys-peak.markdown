@@ -31,7 +31,7 @@ After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm.
 
 <a href="/static/torreys_climb2.jpg"><img src="/static/torreys_climb2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-The weather, however, didn't plan to make it easy on us. Because right then, it began to **snow**. It's the beginning of July, Colorado had just gone through a heat wave, it was a balmy 80+ degrees on the way up, and the last thing we expected to see was snow. To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
+The weather, however, didn't plan to make it easy on us. Because right then, it began to **snow**. It was the beginning of July, Colorado had just gone through a heat wave, it, and the last thing we expected to see was snow. To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
 
 We made a group decision to go on and eventually reached the top at 1:20 pm. We had battled the elements and altitude and won. It's hard to describe the feeling of accomplishment, joy, and adrenaline that comes from standing at the highest point around you for miles. Maybe a picture *is* worth a thousand words :)
 
