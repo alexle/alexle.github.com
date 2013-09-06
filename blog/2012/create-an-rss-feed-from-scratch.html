@@ -117,7 +117,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 </pre>
 
 <h3>Automation</h3>
-<p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site (<a href="http://alexanderle.com/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
+<p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site (<a href="/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
 <pre>
 {% for entry in entries %}
 <span class="Identifier">&lt;</span>item<span class="Identifier">&gt;</span>
@@ -130,7 +130,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 </pre>
 
 <p>A simple loop through all the entries fills the variables with their appropriate content, such as entry.post_title, entry.url, and entry.date.</p>
-<p>Hopefully, this introduction to creating RSS feeds was useful. The full RSS xml of this page can be found (and subscribed to) <a href="http://alexanderle.com/feed.xml">here</a>.</p>
+<p>Hopefully, this introduction to creating RSS feeds was useful. The full RSS xml of this page can be found (and subscribed to) <a href="/feed.xml">here</a>.</p>
    </p>
 
    <p>

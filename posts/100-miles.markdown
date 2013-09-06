@@ -17,8 +17,8 @@ While I understand that running isn't for everyone, it's hard not to share and e
 
 As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done. In fact, you have nothing to lose and everything to gain.
 
-[1]: http://alexanderle.com/blog/2012/2012-goals.html
-[2]: http://alexanderle.com/blog/2011/money-in-the-bank.html
-[3]: http://alexanderle.com/blog/2012/nasty-girls-of-crossfit.html
+[1]: /blog/2012/2012-goals.html
+[2]: /blog/2011/money-in-the-bank.html
+[3]: /blog/2012/nasty-girls-of-crossfit.html
 [4]: /blog/2013/run-summary-and-analysis-2012.html
-[5]: http://alexanderle.com/blog/2012/why-i-hate-running-but-still-do-it.html
+[5]: /blog/2012/why-i-hate-running-but-still-do-it.html

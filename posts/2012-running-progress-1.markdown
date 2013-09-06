@@ -8,6 +8,6 @@ One of my [goals this year][1] is to run 100 miles. To keep track, I use the Nik
 <br>
 <img src="/static/nike+1.png" class="center" />
 
-[1]: http://alexanderle.com/blog/2012/01/05/2012-goals.html
+[1]: /blog/2012/01/05/2012-goals.html
 [2]: http://www.nytimes.com/2009/01/01/fashion/01change.html?pagewanted=all
 

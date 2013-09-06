@@ -79,5 +79,5 @@ In the end, the race surpassed all my expectations. It was a perfect day to run,
 
 <a href="/static/2013-colfax-alex-medal.jpg"><img src="/static/2013-colfax-alex-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 
-[1]: http://alexanderle.com/blog/2012/100-miles.html
+[1]: /blog/2012/100-miles.html
 [2]: http://www.runcolfax.org/

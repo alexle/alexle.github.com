@@ -15,4 +15,4 @@ You can find me at [http://alexanderle.com][2]. See you there!
 
 [1]: http://alextrle.blogspot.com
 [2]: http://alexanderle.com
-[3]: http://alexanderle.com/blog/2011/money-in-the-bank.html
+[3]: /blog/2011/money-in-the-bank.html

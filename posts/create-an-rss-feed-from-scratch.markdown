@@ -101,6 +101,6 @@ Hopefully, this introduction to creating RSS feeds was useful. The full RSS xml 
 [1]: http://en.wikipedia.org/wiki/RSS
 [2]: http://www.rssboard.org/rss-specification
 [3]: http://validator.w3.org/feed/
-[4]: http://alexanderle.com/feed.xml
-[5]: http://alexanderle.com/blog/2012/02/29/move-to-github.html
+[4]: /feed.xml
+[5]: /blog/2012/02/29/move-to-github.html
 [6]: http://jinja.pocoo.org/docs/

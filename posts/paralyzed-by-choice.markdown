@@ -28,4 +28,4 @@ Few choices we make are ever really that important in the long run. Aside from d
 Hopefully, these ideas will aid in my decision making and ultimately, improve my focus. And if not, well at least **now I know**.
 
 [1]: http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html
-[2]: http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html
+[2]: /blog/2012/neatflix-my-netflix-api-demo.html

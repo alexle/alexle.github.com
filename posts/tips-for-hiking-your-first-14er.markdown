@@ -27,7 +27,7 @@ Hiking up a 14er is an exhilarating experience. It's been a couple days since my
 
 Keep in mind these tips are based on my experiences, and that each person's comfort level is different. Hopefully, this post was able to provide a sense of what one can expect on a 14er hike and how I plan to prepare for one in the future.
 
-[1]: http://alexanderle.com/blog/2012/first-14er-grays-and-torreys-peak.html
+[1]: /blog/2012/first-14er-grays-and-torreys-peak.html
 [2]: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001190/
 [3]: http://en.wikipedia.org/wiki/A_Game_of_Thrones 
 [4]: http://www.clifbar.com/food/products_shot_bloks/

@@ -153,7 +153,7 @@ xml = ET.fromstring(title_data)
 
 This basic tutorial only brushes the surface of what the Netflix API has available. To see the original code, feel free to [fork my Neatflix demo][5] from Github. Try the example above or see if you can gather data from another Netflix resource. The sky is the limit on what cool applications you can conjure up.
 
-[1]: http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html
+[1]: /blog/2012/neatflix-my-netflix-api-demo.html
 [2]: http://neatflix.appspot.com/
 [3]: http://developer.netflix.com/docs/Security
 [4]: http://developer.netflix.com/apps/register/
