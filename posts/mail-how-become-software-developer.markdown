@@ -33,11 +33,13 @@ Here are some steps I would take if I were in your shoes. They can differ from p
 
 I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview. Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in python and java.
 
-Did you fail because of lack of skillset and experience? Then create your own web app on Heroku (free). You'll learn about designing the front end (html/css/javascript), backend (ruby), and bridging the two with the framework (RoR). You may not have a fancy degree, but at least you'll be able to create a working product in front of their eyes in your next interview.
+Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Whatever it is, nothing beats hands-on experience.
 
 ####2) Start a portfolio####
 
-Sign up for an account on Github. Dabble in some open source projects. Create a simple project on google apps that gets the weather. Start a blog that shares your experiences and showcases your side projects.
+Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
+
+Or better yet, try creating your own web app on Heroku (free). You'll learn about designing the front end (html/css/javascript), backend (ruby), and bridging the two with the framework (RoR). You may not have a fancy degree, but at least you'll be able to demonstrate a working product in front of their for your next interview.
 
 ####3) Keep taking the coding classes####
 
@@ -45,7 +47,7 @@ Do them over and over again until you're comfortable with the logic and programm
 
 ####4) Try to get an internship####
 
-You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree.. but I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, Hitachi, and Toshiba?
+You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, and Hitachi?
 
 ####5) Don't stop learning####
 
