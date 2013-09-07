@@ -39,7 +39,7 @@ The short runs were awesome this week at 2, 8, and 4mi. I wish I could have said
 
 I chugged the GU and 8oz water bottle on cue at mile 6. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
 
-Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain.
+Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
 \* Lesson: Don't wait too long to hydrate. Make note of nearby trash cans before you GU.
 
