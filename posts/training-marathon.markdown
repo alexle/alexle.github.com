@@ -29,7 +29,7 @@ With that aside, below is a short log of each training week, with primary focus 
 
 ###Week 1 - 9mi LSD###
 
-I started on track with short runs of 2, 5, and 3mi. Headed into the 9mi LSD, I was a bit overconfident and came out too fast. The first hour (6mi) went pretty well. Then it fell terribly apart afterwards. My pace, form, and motivation to move forward dropped dramatically until the end.
+I started on track with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I was a bit overconfident and came out too fast. The first hour (6mi) went pretty well. Then it fell terribly apart afterwards. My pace, form, and motivation to move forward dropped dramatically until the end.
 
 \* Lesson: Start slower. Bring water and GU next time to practice fueling.
 
@@ -37,17 +37,17 @@ I started on track with short runs of 2, 5, and 3mi. Headed into the 9mi LSD, I 
 
 The short runs were awesome this week at 2, 8, and 4mi. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point, one hour in.
 
-I washed down GU with 8oz water on cue at mile 6. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
+I chugged the GU and 8oz water bottle on cue at mile 6. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
 
-Mile 10 hit me hard. I felt extremely dehyrdated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain.
+Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain.
 
 \* Lesson: Don't wait too long to hydrate. Make note of nearby trash cans before you GU.
 
 ###Week 3 - 13mi LSD###
 
-I kept the short runs light this week at 3, 3, and 3mi. With a new plan to hydrate earlier this time, I set out on the 13mi LSD. This time, I hydrated 36 minutes in, followed by GU and water at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
+I kept the short runs light this week at 3, 3, and 3mi. With a new plan to hydrate earlier this time, I set out on the LSD. This time, I hydrated 36 minutes in, followed by GU and water at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
 
-I began to notice a trend with the LSDs. The final miles each week are really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
+I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
 
 \* Lesson: 10% rule is for reals and a good principle.
 
