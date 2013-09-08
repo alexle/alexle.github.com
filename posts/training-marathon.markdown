@@ -21,7 +21,7 @@ This year, my running has greatly improved. I'm able to run 3 miles comfortably 
 
 After some research online, I settled on an 18-week training plan by [Hal Higdon][3]. It didn't take long to figure out which classification I was under - Novice 2. 
 
-The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. As for frequency, Novice 2 breaks down each week into 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. Week 1 looked manageable at 3, 5, 3, and 8 miles. Week 15 sent shivers up my spine: 5, 5, 5, and 20 miles.
+The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. As for frequency, Novice 2 breaks down each week into 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. 
 
 The tricky part was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, thus cutting out the short runs at the beginning and the long runs in the end. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Some plan, huh? The important aspect to me was building up mileage and endurance, *without* risking injury or burning myself out.
 
@@ -29,7 +29,7 @@ With that aside, below is a short log of each training week, with primary focus 
 
 ###Week 1 - 9mi LSD###
 
-I started on track with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I was a bit overconfident and came out too fast. The first hour (6mi) went ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
+I started on track with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I was a bit overconfident and came out too fast. The first 6mi went ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
 
 \* Lesson: Start slower. Bring water and GU next time to practice fueling.
 
@@ -37,7 +37,7 @@ I started on track with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I
 
 The short runs were awesome this week at 2, 8, and 4mi. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took the GU and 8oz water bottle near mile 6, 60 minutes in. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
+I took the GU and 8oz water bottle near mile 6, about 60 minutes in. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
 
 Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance wasn't such a good plan.
 

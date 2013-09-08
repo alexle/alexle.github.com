@@ -21,9 +21,8 @@ a:hover {
 }
 
 #wrapper {
-   width: 620px;
-   margin-left: auto;
-   margin-right: auto;
+   width: 39em;
+   margin: auto;
 }
 
 #header {
@@ -120,12 +119,11 @@ a.home_title:hover {
 
 #find_me {
    float: left;
-   width: 390px;
+   width: 30em;
 }
 
 #contact_me {
    float: right;
-   width: 144px;
 }
 
 article {
