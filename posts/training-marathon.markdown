@@ -23,29 +23,27 @@ After some research online, I settled on an 18-week training plan by [Hal Higdon
 
 The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. As for frequency, Novice 2 breaks down each week into 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. 
 
-The tricky part was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, thus cutting out the short runs at the beginning and the long runs in the end. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Some plan, huh? The important aspect to me was building up mileage and endurance, *without* risking injury or burning myself out.
-
-With that aside, below is a short log of each training week, with primary focus on the LSD. 
+The tricky part was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, thus cutting out the short runs at the beginning and the long runs in the end. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Some plan, huh? My only concern was building up mileage and endurance, *without* risking injury or burning myself out. Here's how it turned out.
 
 ###Week 1 - 9mi LSD###
 
-I started on track with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I was a bit overconfident and came out too fast. The first 6mi went ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
+The training started with short runs of 2, 5, and 3mi. Heading into the 9mi LSD, I was a bit overconfident and came out too fast. The first 6mi went ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
 
 \* Lesson: Start slower. Bring water and GU next time to practice fueling.
 
 ###Week 2 - 12mi LSD###
 
-The short runs were awesome this week at 2, 8, and 4mi. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
+The short runs were awesome at 2, 8, and 4mi. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took the GU and 8oz water bottle near mile 6, about 60 minutes in. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
+I took the GU and 8oz water bottle on cue at 6mi (60 minutes). It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
 
-Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance wasn't such a good plan.
+Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
 \* Lesson: Don't wait too long to hydrate. Make note of nearby trash cans before you GU.
 
 ###Week 3 - 13mi LSD###
 
-I kept the short runs light this week at 3, 3, and 3mi. With a new plan to hydrate earlier this time, I set out on the LSD. This time, I hydrated at 36 minutes, followed by GU and water at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
+I kept the runs light this week at 3, 3, and 3mi. With a new plan to hydrate earlier this time, I set out on the LSD. This time, I hydrated 30 minutes in, followed by GU and water at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
 
 I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
 
@@ -53,27 +51,33 @@ I began to notice a trend with the LSD's. The final miles each week were really,
 
 ###Week 4 - 14mi LSD###
 
-I logged runs of 4, 5, and 3 miles for the week. Slightly lower than what the training plan suggested, hopefully it won't impact the training too much. This week's LSD was my first run over 2 hours. And the first time I ever hit a "wall".
+I logged runs of 4, 5, and 3 miles for the week. Slightly lower than what the training plan suggested. This week's LSD was my first run over 2 hours. And the first time I ever hit a "wall".
 
 Essentially, hitting the wall is the point when your glycogen (stored energy) is depleted. Your legs turn to stone. Your pace slows to a crawl. Your body has nothing left in the tank. This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and extreme fatigue.
 
-I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not on this run. It felt like a bear jumped on my shoulders. The effort it took for each step was amazing, even though my stride length was less than that of a person walking. All my willpower was sapped out of me.
+I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was amazing, even though my stride length was less than that of a person walking. All my willpower was sapped out of me.
 
-I described my situation to a co-worker (does triathlons). His stance was when doing endurance events, you have to *force* yourself to take in carbohydrates, electrolytes, and sugars at regular intervals, even if you aren't hungry or thristy. Since it takes time to process these fuels, being proactive will allow the energy to be available when your body needs it.
+I described my situation to a co-worker (does triathlons). His stance was when doing endurance events, you must *force* yourself to take in carbohydrates, electrolytes, and sugars at regular intervals, even if you aren't hungry or thirsty. Since it takes time to process these fuels, being proactive will allow the energy to be available when your body needs it.
 
 \* Lesson: Fueling properly is extremely important. If you wait for your body, it's too late.
 
 ###Week 5 - 15mi LSD###
 
-Major setback back this week with short runs of only 4, 3, and 3 miles. I have to put more effort towards them next week. As for the LSD, it was the most painful one yet. Calves, arches, hip flexors, IT band, and a bunch of other leg muscles I never knew existed were on fire. Is this what child birth feels like? It was the first time I had serious doubts about finishing the marathon.
+Major setback back this week with runs of only 4, 3, and 3 miles. I have to put more effort towards them. As for the LSD, it was the most painful one yet. Calves, arches, hip flexors, IT band, and a bunch of other leg muscles I never knew existed were on fire. Is this what child birth feels like? It was the first time I had serious doubts about finishing the marathon.
 
 I stuck to the same plan of water at 30 minutes, GU + water at 60 minutes, and powerade fuel at 90 minutes. Next week, I'll try to GU every 45 minutes and see if that helps.
 
-\* Lesson: When in pain, relax and focus on a couple steps at a time. It's ok to walk too.
+\* Lesson: When in pain, relax and focus on a couple steps at a time.
 
 ###Week 6 - 16mi LSD###
 
-\* To be updated
+Due to massive rainstorms and floods here in Colorado this week, I completed only two short runs - 3 and 4mi. Extreme panic and uncertainty about the marathon has set in. Nonetheless, I forged ahead at the first sign of dry sidewalks.
+
+Traumatized by last week's pain, I decided to add something different to my walk breaks: stretching. It's an uncommon practice for runners to stop mid-run for stretches, but I have to say it helped *tremendously*. The LSD was much more bearable and I was able to hold my form and pace farther.
+
+What also may have helped was fueling more often. This time, I GU'd twice at 45 and 90 minutes, and topped off with a dose of powerade at 120 minutes. I was happy with the overall result, though I felt I needed more energy only 20 minutes after the 90 minute GU. Next week, I'll decrease the time between subsequent GU shots (45 - 80 - 110) to see if that helps.
+
+\* Lesson: Training is a great time to try new things. Don't wait until race day.
 
 ###Week 7 - 17mi LSD###
 
