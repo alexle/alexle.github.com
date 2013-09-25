@@ -22,7 +22,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 
 ###Performing A Non-Authenticated Request###
 
-The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It is a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
+The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It's a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
 
 > http://api-public.netflix.com/catalog/titles/autocomplete?oauth_consumer_key=**CONSUMER_KEY**&term=**SEARCH_STRING**
 

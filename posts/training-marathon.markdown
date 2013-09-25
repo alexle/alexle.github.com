@@ -9,13 +9,13 @@ While the "full" is a (seemingly) logical next step from a half-marathon, my sit
 2. My base mileage is not close to what is needed for surviving a marathon. There are some guides that state you should be running 20 miles/week *before you even start* your training.
 3. The race I signed up for was only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
-Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll see in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
+Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
 
 ###Running Background###
 
 I started running 18 months ago. At the time, I could barely finish a mile. By the end of 2012, I had completed [125 miles][2] averaging 1.6 miles per run. Not bad!
 
-This year, my running has greatly improved. I'm able to run 3 miles comfortably now, and average 10 miles/week. On the days I don't run, I lift weights and do CrossFit exercises at the gym. I've completed one 5k, one 10k, and one half-marathon.
+This year, my running has greatly improved. I'm able to run 3 miles comfortably now, and average 10 miles/week. On the days I don't run, I lift weights and do CrossFit exercises at the gym. I've completed one 5k, one 10k, and one [half-marathon][1].
 
 ###Training Plan###
 
@@ -95,7 +95,7 @@ Due to massive rainstorms and floods here in Colorado this week, I completed onl
 
 Traumatized by last week's pain, I decided to add something different to my walk breaks: stretching. It's an uncommon practice for runners to stop mid-run for them, but I have to say it helped *tremendously*. The LSD was much more bearable and I was able to hold my form and pace farther.
 
-What also may have helped was fueling more often. This time, I GU'ed twice at 45 and 90 minutes, and topped off with powerade at 120 minutes. I was happy with the result, although I felt sluggish shortly after the second GU. Next week, I'll decrease the time between subsequent GU shots (45 - 80 - 110) to see if it makes a difference.
+What also may have helped was fueling more often. This time, I GU'ed twice (45 and 90 minutes) and topped off with powerade at 120 minutes. I was happy with the result, although I felt sluggish shortly after the second GU. Next week, I'll decrease the time between subsequent GU shots (45 - 80 - 110) to see if it makes a difference.
 
 \* Lesson: Training is a great time to try new things. Don't wait until race day.
 
@@ -103,11 +103,11 @@ What also may have helped was fueling more often. This time, I GU'ed twice at 45
 
 Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river. This week's LSD was one of those moments for me.
 
-Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for the grueling 17mi ahead of me. By the end, I eclipsed that distance and reached the magical distance of *20 miles*.
+Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for 17 grueling miles. By the end, I eclipsed that distance and reached the magical distance of *20 miles*.
 
-This number is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond 20mi is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
+This number is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond it is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
 
-As for the run itself, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
+As for the run, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
 
 \* Lesson: Running is as much a mental activity as it is a physical one. Be tough in both.
 

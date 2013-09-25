@@ -39,7 +39,7 @@ Did you get passed over due to lack of experience? Look for ways to expand your 
 
 Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
 
-Or better yet, try creating your own web app on Heroku (free). You'll learn about designing the front end (html/css/javascript), backend (ruby), and bridging the two with the framework (RoR). You may not have a fancy degree, but at least you'll be able to demonstrate a working product in front of their for your next interview.
+Or better yet, try creating your own web app on Heroku (free). You'll learn about designing the front end (html/css/javascript), backend (ruby), and bridging the two with the framework (RoR). You may not have a fancy degree, but at least you'll be able to demonstrate a working product during your next interview.
 
 ####3) Keep taking the coding classes####
 
