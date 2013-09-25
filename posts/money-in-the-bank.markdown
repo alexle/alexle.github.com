@@ -19,7 +19,7 @@ When asked about his success in a later interview, Phelps said:
 
 For most people, success in life requires hard work and dedication. We don't wake up and become programming superstars or master pianists overnight. Even Malcolm Gladwell, in his book ["Outliers"][1], said it takes 10,000 hours of deliberate practice to become an expert in a field.
 
-But putting in the hours, doing drills, and practicing is simply not fun sometimes. There are many days I would rather flip on the TV instead of continuing work on a project. Or pick up Chipotle instead of going to the gym. When that happens, I try to remember Phelp's quote, which is a great motivator and helps keep my eyes on the end-goal.
+But putting in the hours, doing drills, and practicing is simply not fun sometimes. There are many days I would rather flip on the TV instead of continuing work on a project. Or pick up Chipotle instead of going to the gym. When that happens, I try to remember Phelp's quote, which is a great motivator and helps me push forward with the training or task at hand.
 
 Maybe the extra 15 minutes you put towards your project each day won't end up making a difference. Or maybe it will, and be the factor between success and failure. Keep putting money in the bank. You never know when you'll need it.
 

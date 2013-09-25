@@ -55,7 +55,7 @@ Running on Colfax was a blur. All I remember thinking was "wow, they closed down
 
 ###Miles 11-13: The Final Kick###
 
-Reaching this marker was like waking up from a dream and getting hit with a dose of reality. Alex, you really might finish this race. Just three more miles and you never have to run another mile again.
+Reaching this marker was like waking up from a dream and getting hit with a dose of reality. Alex, you really might finish this race. Just three more miles and you never have to [run another mile][3] again.
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
@@ -81,3 +81,4 @@ In the end, the race surpassed all my expectations. It was a perfect day to run,
 
 [1]: /blog/2012/100-miles.html
 [2]: http://www.runcolfax.org/
+[3]: /blog/2013/training-marathon.html

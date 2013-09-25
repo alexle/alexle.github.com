@@ -9,7 +9,7 @@ While the "full" is a (seemingly) logical next step from a half-marathon, my sit
 2. My base mileage is not close to what is needed for surviving a marathon. There are some guides that state you should be running 20 miles/week *before you even start* your training.
 3. The race I signed up for was only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
-Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We will find out in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
+Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll see in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
 
 ###Running Background###
 
@@ -23,7 +23,7 @@ After some research online, I settled on an 18-week training plan by [Hal Higdon
 
 The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. As for frequency, Novice 2 breaks down each week into 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. 
 
-The tricky part was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, thus cutting out the short runs at the beginning and the long runs in the end. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Here's my progress and a brief summary of how each week went:
+The tricky part was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, thus cutting out the short runs at the beginning and the long runs in the end. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Here's my training log and a brief summary of how each week went:
 
 <style>
 table { align: center; border: 1px solid black; }
@@ -41,8 +41,8 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td></tr>
 <tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
 <tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
-<tr><td>8</td><td>4</td><td>-</td><td>-</td><td>17</td></tr>
-<tr><td>9</td><td>-</td><td>-</td><td>-</td><td>13</td></tr>
+<tr><td>8</td><td>4</td><td></td><td></td><td>17</td></tr>
+<tr><td>9</td><td></td><td></td><td></td><td>13</td></tr>
 </table>
 
 ###Week 1 - 9mi LSD###
@@ -53,7 +53,7 @@ Overconfident and eager to prove myself, I came out too fast on the LSD. The fir
 
 ###Week 2 - 12mi LSD###
 
-The short runs were awesome this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
+The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
 I took GU about 6mi into the LSD (60 minutes). It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
 
@@ -103,9 +103,9 @@ What also may have helped was fueling more often. This time, I GU'ed twice at 45
 
 Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river. This week's LSD was one of those moments for me.
 
-Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for the grueling 17mi ahead of me. By the end, I eclipsed that distance and reached the magical number of *20 miles*.
+Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for the grueling 17mi ahead of me. By the end, I eclipsed that distance and reached the magical distance of *20 miles*.
 
-Many experts believe training beyond 20mi is not needed. It increases risk of injury, takes a toll on your body (affects later training), and the "LSD" benefits you gain after 20mi diminishes greatly. For most, running 20mi provides the right amount of physical and *mental* boost to finish a marathon.
+This number is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond 20mi is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
 
 As for the run itself, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
 
