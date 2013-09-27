@@ -11,7 +11,7 @@ Luckily, I went through with it and 4 (grueling) months later, I completed my fi
 
 ###Pre-Race###
 
-The weather conditions couldn't have been any better: grey, overcast, and 50 degrees. Morale was high, and people everywhere were laughing, taking pictures, and doing warm up jogs. With the lively music playing all around, it easily could have been mistaken for a Woodstock concert.
+The weather conditions couldn't have been any better: grey, overcast, and 55 degrees. Morale was high, and people everywhere were laughing, taking pictures, and doing warm up jogs. With the lively music playing all around, it easily could have been mistaken for a Woodstock concert.
 
 My nerves were surprisingly calm. I was running on 3 hours of sleep, a Clif energy bar, and a banana. I don't remember saying or doing much. Just a couple high-fives to my team and it was time for business.
 
