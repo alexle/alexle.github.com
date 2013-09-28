@@ -41,7 +41,7 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td></tr>
 <tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
 <tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
-<tr><td>8</td><td>4</td><td></td><td></td><td>17</td></tr>
+<tr><td>8</td><td>4</td><td>6</td><td></td><td>17</td></tr>
 <tr><td>9</td><td></td><td></td><td></td><td>13</td></tr>
 </table>
 
