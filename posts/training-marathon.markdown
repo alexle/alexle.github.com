@@ -1,7 +1,7 @@
 Training For A Marathon In 9 Weeks
 09-06-2013
 
-It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line. Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a full marathon.
+It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line. Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a *full marathon*.
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
@@ -41,7 +41,7 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td></tr>
 <tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
 <tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
-<tr><td>8</td><td>4</td><td>6</td><td></td><td>17</td></tr>
+<tr><td>8</td><td>4</td><td>6</td><td>3</td><td>15</td></tr>
 <tr><td>9</td><td></td><td></td><td></td><td>13</td></tr>
 </table>
 
@@ -111,9 +111,13 @@ As for the run, it felt like everything finally clicked. I had a better feel of 
 
 \* Lesson: Running is as much a mental activity as it is a physical one. Be tough in both.
 
-###Week 8 - <strike>20mi</strike> 17mi LSD###
+###Week 8 - <strike>20mi</strike> 15mi LSD###
 
-\* To be updated
+With a 20mi run under my belt and three weeks left until race day, I decided to start my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume, but this is just a guide as every person recovers differently.
+
+Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my calves and feet, which I firmly believe is a result of my shoes now. After signing up for the marathon, I purchased a new pair of minimalist "zero-drop" shoes (no height change from heel to toe). Big mistake. This type of shoe encourages a more natural foot strike, but takes time and training to adjust to them. In retrospect, these were not ideal shoes for me to use for the race, given my time constraints and lack of marathon experience.
+
+\* Lesson: Zero-drop shoes are not for newbies. Give yourself time to adjust to them.
 
 ###Week 9 - 12mi LSD###
 
