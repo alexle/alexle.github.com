@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, re, time, os, codecs, getopt, SimpleHTTPServer, BaseHTTPServer, email.utils
+import sys, re, time, os, getopt, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 
@@ -43,11 +43,19 @@ def get_tree(source):
             title = f.readline().rstrip()
             date = time.strptime(f.readline().strip(), ENTRY_TIME_FORMAT)
             year, month, day = date[:3]
+            epoch_time = time.mktime(date)
+
+            # If post is newer than 10-01-2013, use new URL format
+            if epoch_time > 1380607200.0:
+               url = '/'.join([os.path.splitext(name)[0] + ".html"]) 
+            else:
+               url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
+
             files.append({
                 'title': title,
-                'epoch': time.mktime(date),
+                'epoch': epoch_time,
                 'content': FORMAT(''.join(f.readlines()[1:]).decode('UTF-8')),
-                'url': '/'.join([str(year), os.path.splitext(name)[0] + ".html"]),
+                'url': url,
                 'pretty_date': time.strftime(TIME_FORMAT, date),
                 'date': date,
                 'year': year,
