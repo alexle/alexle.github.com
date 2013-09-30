@@ -41,7 +41,7 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td></tr>
 <tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
 <tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
-<tr><td>8</td><td>4</td><td>6</td><td>3</td><td>15</td></tr>
+<tr><td>8</td><td>4</td><td>6</td><td>-</td><td>15</td></tr>
 <tr><td>9</td><td></td><td></td><td></td><td>13</td></tr>
 </table>
 
@@ -55,7 +55,7 @@ Overconfident and eager to prove myself, I came out too fast on the LSD. The fir
 
 The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took GU about 6mi into the LSD (60 minutes). It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station. 
+I took GU about 6mi into the LSD (60 minutes). It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station to deposit the trash.
 
 Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
@@ -113,13 +113,17 @@ As for the run, it felt like everything finally clicked. I had a better feel of 
 
 ###Week 8 - <strike>20mi</strike> 15mi LSD###
 
-With a 20mi run under my belt and three weeks left until race day, I decided to start my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume, but this is just a guide as every person recovers differently.
+With a 20mi run under my belt and two weeks left until race day, I  started my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume, but this is just a guide as every person recovers differently.
 
 Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my calves and feet, which I firmly believe is a result of my shoes now. After signing up for the marathon, I purchased a new pair of minimalist "zero-drop" shoes (no height change from heel to toe). Big mistake. This type of shoe encourages a more natural foot strike, but takes time and training to adjust to them. In retrospect, these were not ideal shoes for me to use for the race, given my time constraints and lack of marathon experience.
 
 \* Lesson: Zero-drop shoes are not for newbies. Give yourself time to adjust to them.
 
 ###Week 9 - 12mi LSD###
+
+<!--
+Most people PR their half during marathon training.
+-->
 
 \* To be updated
 
