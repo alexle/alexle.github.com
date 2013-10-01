@@ -1,6 +1,6 @@
 body {
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   font-size: 16px;
+   font-size: 15px;
    font-weight: lighter;
    line-height: 1.5;
 }
@@ -21,7 +21,7 @@ a:hover {
 }
 
 #wrapper {
-   width: 39em;
+   width: 38.5em;
    margin: auto;
 }
 
