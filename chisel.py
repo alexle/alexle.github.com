@@ -27,9 +27,8 @@ STEPS = []
 
 def step(func):
     def wrapper(*args, **kwargs):
-        print "Starting " + func.__name__ + "...",
+        print "Starting " + func.__name__ + "..."
         func(*args, **kwargs)
-        print "Done."
     STEPS.append(wrapper)
     return wrapper
 
@@ -43,21 +42,20 @@ def get_tree(source):
             title = f.readline().rstrip()
             date = time.strptime(f.readline().strip(), ENTRY_TIME_FORMAT)
             year, month, day = date[:3]
-            epoch_time = time.mktime(date)
+            epoch = time.mktime(date)
 
             # If post is newer than 10-01-2013, use new URL format
-            if epoch_time > 1380607200.0:
-               url = '/'.join([os.path.splitext(name)[0] + ".html"]) 
+            if epoch > 1380607200.0:
+                url = '/'.join([os.path.splitext(name)[0] + ".html"]) 
             else:
-               url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
+                url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
 
             files.append({
                 'title': title,
-                'epoch': epoch_time,
+                'epoch': epoch,
                 'content': FORMAT(''.join(f.readlines()[1:]).decode('UTF-8')),
                 'url': url,
                 'pretty_date': time.strftime(TIME_FORMAT, date),
-                'date': date,
                 'year': year,
                 'month': month,
                 'day': day,
@@ -109,15 +107,13 @@ def generate_rss(f, e):
 
 def chisel():
     print "Chiseling..."
-    print "\tReading files...",
+    print "\tReading files..."
     files = sorted(get_tree(SOURCE), cmp=compare_entries)
     env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_PATH), **TEMPLATE_OPTIONS)
-    print "Done."
     print "\tRunning steps..."
     for step in STEPS:
        print "\t\t",
        step(files, env)
-    print "\tDone."
     print "Done."
 
 def main():
