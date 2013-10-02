@@ -27,7 +27,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 9. It feels like Christmas when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, GPS watches.. Oh yes, more please.
 
-10. You don't mind that your shorts are 3-4 inches shorter than before. Headband and hydration belts suddenly don't look so weird anymore.
+10. You don't mind that your shorts are 3-4 inches shorter than before. Headbands and hydration belts suddenly don't look so weird anymore.
 
 11. The top drawer of your dresser looks like this:
 
