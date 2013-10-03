@@ -113,13 +113,13 @@ As for the run, it felt like everything finally clicked. I had a better feel of 
 
 ###Week 8 - <strike>20mi</strike> 15mi LSD###
 
-With a 20mi run under my belt and two weeks left until race day, I  started my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume, but this is just a guide as every person recovers differently.
+With a 20mi run under my belt and two weeks left until race day, I started my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume. In my case, the decrease will be around 5-10% since I've been playing catch-up from the start.
 
 Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my calves and feet, which I firmly believe is a result of my shoes now. After signing up for the marathon, I purchased a new pair of minimalist "zero-drop" shoes (no height change from heel to toe). Big mistake. This type of shoe encourages a more natural foot strike, but takes time and training to adjust to them. In retrospect, these were not ideal shoes for me to use for the race, given my time constraints and lack of marathon experience.
 
 \* Lesson: Zero-drop shoes are not for newbies. Give yourself time to adjust to them.
 
-###Week 9 - 12mi LSD###
+###Week 9 - 13mi LSD###
 
 <!--
 Most people PR their half during marathon training.
