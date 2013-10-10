@@ -42,7 +42,7 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
 <tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
 <tr><td>8</td><td>4</td><td>6</td><td>-</td><td>15</td></tr>
-<tr><td>9</td><td>7</td><td></td><td></td><td>13</td></tr>
+<tr><td>9</td><td>7</td><td>3</td><td>-</td><td>13</td></tr>
 </table>
 
 ###Week 1 - 9mi LSD###
@@ -121,11 +121,13 @@ Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my 
 
 ###Week 9 - 13mi LSD###
 
-<!--
-Most people PR their half during marathon training.
--->
+I had mixed emotions approaching my last week of training. I was relieved to make it through the 9 weeks intact. I was thrilled with the progress I made. Yet, a part of me had grown accustomed to the weekly LSDs and the challenges each week presented. What was I going to do with my Saturdays now?
 
-\* To be updated
+There was no theme to the final LSD. Some sections were fast. Others were easy and day-dreamy. I even struggled a bit during the end. It was a nice culmination of all the weeks of training.
+
+Looking back, it was a transforming 9 weeks. I found a good fueling and pacing strategy. I ran more miles in a month than I did all [last year][2]. I even PR'd my 5k, 10k, AND half-marathon! In some ways, I've already won and will be happy no matter what the results of the marathon are. Only one week left, I can't wait.
+
+\* Lesson: Life is truly, truly in the journey. Not the destination.
 
 [1]: /blog/2013/first-half-marathon.html
 [2]: /blog/2012/100-miles.html
