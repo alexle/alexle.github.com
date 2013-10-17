@@ -35,7 +35,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
       <div class="separator" style="clear: both; text-align: center;">
 My top dresser drawer. And it looks so delicious.</div>
 
-12. You're out of breath and your heart is pounding. Determined, you fight through the pain and double-over as you reach the finish. People passing by don't comprehend why you're grasping for air. And in this moment, you can't help but smile. Because you gave it everything you possibly could and put your limits and boundaries to the test. That's when you know you're a runner.
+12. You're out on a run and the finish is just ahead. Your body is screaming at you to stop. You fight through the pain and double-over as you reach the end. People passing by don't comprehend why you're grasping for air. And in this moment, you can't help but smile. Because you gave it everything you possibly could and tested your limits and boundaries. That's when you know.
 
 <hr width="75%">
 
