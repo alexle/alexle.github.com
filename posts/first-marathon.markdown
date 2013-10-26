@@ -83,6 +83,8 @@ I've had a chance to reflect on the race and realize that a disappointing perfor
 
 Because without them, I never would have had a chance to test my resolve, my character, and my will. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
 
-Embrace the challenges and obstacles you face in life. Because they really are *opportunities* to grow from. I learned so much about myself from this experience. I can't wait for the next one \*wink\*.
+Embrace the challenges and obstacles you face in life. Because they really are *opportunities* to grow from. I learned so much about myself from this experience.
+
+I can't wait for the next one \*wink\*.
 
 [1]: http://runrocknroll.competitor.com/denver
