@@ -43,7 +43,7 @@ I couldn't get up on my own and had to be helped up. I hobbled along for half a 
 
 A wave of emotions hit me as I sat on the side, watching the other runners and seconds go by. How could this have happened? Why today? I had run *dozens* of 13+ mile runs with less hydration and similar pacing and never cramped once.
 
-I didn't know how I could possibly continue this for another **13 miles**. I seriously considered withdrawing. It's hard to admit, but I broke down at this point. I had trained and sacrificed so much to be here.
+I didn't know how I could possibly continue for another **13 miles**. I seriously considered withdrawing. It's hard to admit, but I broke down at this point. I had trained and sacrificed so much to be here.
 
 And then I thought of my brother and sister waiting for me at the finish, who had woken up early to come support me in the dreary cold. I thought of all the people who would give anything to be in the situation I was in at that moment, but couldn't due to whatever circumstance. I even thought of a quote by Lance Armstrong:
 
