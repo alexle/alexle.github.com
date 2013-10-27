@@ -49,8 +49,8 @@
    <p class="post_content">
       <p>The first time I heard this, my heart stopped for a couple seconds.</p>
 <p>I knew the algorithm. I had reviewed and implemented it the night before. I even slept on my notes to harness the power of osmosis. But implementing one in an interview/test is a different experience.</p>
-<p>Like many other things in life, it's hard to see what all the fuss was about. Linked lists are easy and I hope the walk-through below helps.</p>
-<h3>1) Define a Node class</h3>
+<p>Like many other things in life, it's hard to see what all the fuss was about. Here is a break down of the algorithm and code:</p>
+<h3>1. Define A Node Class</h3>
 <p>Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any other node.</p>
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">Node</font>:<br>
@@ -59,7 +59,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.next = None<br>
 </div>
 
-<h3>2) Define a LinkedList class</h3>
+<h3>2. Define A LinkedList Class</h3>
 <p>The LinkedList class will hold all our nodes. It's responsible for keeping track (via pointers) of the first (head) and last (tail) node in the list. It also contains functions to add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.</p>
 <div id="code">
 <font color="#f0e68c"><b>class</b></font>&nbsp;<font color="#98fb98">LinkedList</font>:<br>
@@ -74,11 +74,11 @@
 &nbsp;&nbsp;def PrintList( self ):<br />
 </div>
 
-<h3>3) Create Add and Remove node methods</h3>
+<h3>3. The Add Node Method</h3>
 <p>Adding a node to a linked list takes a couple steps.</p>
 <ol>
 <li>Create a node. If it is the first node, set the 'head' pointer to it.</li>
-<li>If a Tail exists, update its next pointer to the new node. This keeps the nodes linked.</li>
+<li>If a Tail exists, update its 'next' pointer to the new node. This keeps the nodes linked.</li>
 <li>Assign the new node to be the Tail node.</li>
 </ol>
 <div id="code">
@@ -94,13 +94,15 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail = new_node<br>
 </div>
 
-<p>To remove a node from the linked list, we must keep track of <em>three</em> nodes - the node we're attempting to remove, and the nodes before and after it. This is to be able to re-stitch the list back together after removing a node.</p>
+<h3>4. The Remove Node Method</h3>
+<p>To remove a node from the linked list, we must keep track of <em>two</em> nodes - the node we're attempting to remove, and the previous node before it. This is to be able to re-stitch the list back together after removing a node.</p>
 <ol>
 <li>Iterate through the list to find the node to remove.</li>
 <li>Create pointers to keep track of the previous and current node.</li>
-<li>Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore <em>skipping</em> the index node.</li>
+<li>Once the node to remove is reached, the previous node 'next' pointer is changed to <em>skip</em> the current node and point to the current 'next' instead.</li>
 <li>If the Head node is removed, update the Head to be the 'next' node.</li>
 </ol>
+<p>Note that there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.</p>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">RemoveNode</font>( self, index ):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prev = None<br>
@@ -118,7 +120,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev.next = node.next<br>
 </div>
 
-<h3>4) Printing the Linked List</h3>
+<h3>5. Printing The Linked List</h3>
 <p>To print the list, start at the head pointer. Traverse the list through each node's "next" pointer, displaying its data member, until the node is no longer null.<br /></p>
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">PrintList</font>( self ):<br>

@@ -5,9 +5,9 @@ The first time I heard this, my heart stopped for a couple seconds.
 
 I knew the algorithm. I had reviewed and implemented it the night before. I even slept on my notes to harness the power of osmosis. But implementing one in an interview/test is a different experience.
 
-Like many other things in life, it's hard to see what all the fuss was about. Linked lists are easy and I hope the walk-through below helps.
+Like many other things in life, it's hard to see what all the fuss was about. Here is a break down of the algorithm and code:
 
-###1) Define a Node class###
+###1. Define A Node Class###
 
 Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any other node.
 
@@ -18,7 +18,7 @@ Every Node has a value and a pointer to the next node. When a node is first crea
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.next = None<br>
 </div>
 
-###2) Define a LinkedList class###
+###2. Define A LinkedList Class###
 
 The LinkedList class will hold all our nodes. It's responsible for keeping track (via pointers) of the first (head) and last (tail) node in the list. It also contains functions to add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.
 
@@ -35,12 +35,12 @@ The LinkedList class will hold all our nodes. It's responsible for keeping track
 &nbsp;&nbsp;def PrintList( self ):<br />
 </div>
 
-###3) Create Add and Remove node methods###
+###3. The Add Node Method###
 
 Adding a node to a linked list takes a couple steps.
 
 1. Create a node. If it is the first node, set the 'head' pointer to it.
-2. If a Tail exists, update its next pointer to the new node. This keeps the nodes linked.
+2. If a Tail exists, update its 'next' pointer to the new node. This keeps the nodes linked.
 3. Assign the new node to be the Tail node.
 
 <div id="code">
@@ -56,12 +56,16 @@ Adding a node to a linked list takes a couple steps.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail = new_node<br>
 </div>
 
-To remove a node from the linked list, we must keep track of *three* nodes - the node we're attempting to remove, and the nodes before and after it. This is to be able to re-stitch the list back together after removing a node.
+###4. The Remove Node Method###
+
+To remove a node from the linked list, we must keep track of *two* nodes - the node we're attempting to remove, and the previous node before it. This is to be able to re-stitch the list back together after removing a node.
 
 1. Iterate through the list to find the node to remove.
 2. Create pointers to keep track of the previous and current node.
-3. Adjust the previous's 'next' pointer (currently point to current node) to current's 'next' pointer, therefore *skipping* the index node.
+3. Once the node to remove is reached, the previous node 'next' pointer is changed to *skip* the current node and point to the current 'next' instead.
 4. If the Head node is removed, update the Head to be the 'next' node.
+
+Note that there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.
 
 <div id="code">
 &nbsp;&nbsp; <font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">RemoveNode</font>( self, index ):<br>
@@ -80,7 +84,7 @@ To remove a node from the linked list, we must keep track of *three* nodes - the
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev.next = node.next<br>
 </div>
 
-###4) Printing the Linked List###
+###5. Printing The Linked List###
 
 To print the list, start at the head pointer. Traverse the list through each node's "next" pointer, displaying its data member, until the node is no longer null.<br />
 
