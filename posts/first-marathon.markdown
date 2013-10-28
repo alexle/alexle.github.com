@@ -57,9 +57,9 @@ All the techniques I had gained from doing hill sprints, strides, and tempo runs
 
 The next 10 miles were agonizing. The cramps never stopped, leaving me constantly wondering which step would be the one where my calf muscle would spasm and come off the bone.
 
-I stopped to stretch at more trees, stop signs, and street poles than I can remember. Each time afterwards, I'd take a deep breath, re-focus, and pinpoint the next landmark in sight to aim for.
+I was forced to stretch at more trees, stop signs, and street poles than I can remember. Each time afterwards, I'd take a deep breath, re-focus, and pinpoint the next landmark in sight to aim for.
 
-By Mile 22, everyone had slowed considerably. I was having a tough time at this point and paused to regroup. Moments later, a guy passing by gave me a pat and said, 'Hang in there buddy, you can do it". I really appreciated it, and made it my new mantra for the rest of the race.
+By Mile 22, many people had slowed considerably. I was having a tough time at this point and paused to regroup. Moments later, a guy passing by gave me a pat and said, 'Hang in there buddy, you can do it". I really appreciated it, and made it my new mantra for the rest of the race.
 
 ###Miles 25-26###
 
@@ -83,7 +83,7 @@ I've had a chance to reflect on the race and realize that a disappointing perfor
 
 Because without them, I never would have had a chance to test my resolve, my character, and my will. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
 
-Embrace the challenges and obstacles you face in life. Because they really are *opportunities* to grow from. I learned so much about myself from this experience.
+Embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this experience.
 
 I can't wait for the next one \*wink\*.
 
