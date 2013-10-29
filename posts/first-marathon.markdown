@@ -1,4 +1,4 @@
-Denver Rock N Roll Marathon: My Worst Run Ever
+Denver Rock n Roll Marathon: My Worst Run Ever
 10-26-2013
 
 Few challenges in life have the power to break you down to the point of tears. My recent experience at the [Denver Rock N Roll][1] Marathon was one of them.
