@@ -73,7 +73,7 @@ I crossed the finish line at **4:05:13**. It didn't feel real at first. But when
 
 A little ways ahead, I heard my name being shouted. It turned out to be my family and some friends who had stuck around after finishing their half-marathons earlier. It meant a lot seeing everyone brave the cold and wind to support me. Sometimes, you just don't feel you deserve the amount of love given to you.
 
-<a href="/static/alex_marathon.jpg"><img src="/static/alex_marathon.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+<a href="/static/alex_le_marathon.jpg"><img src="/static/alex_le_marathon.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
 
 When asked how the race was, the impact of everything I endured emotionally and physically over the past 4 hours hit me. It was amazing, it was terrible, and it was.. disappointing. Not that completing a marathon wasn't an accomplishment on its own. But because I felt I was capable of so much more. 
 
@@ -83,8 +83,8 @@ I've had a chance to reflect on the race and realize that a disappointing perfor
 
 Because without them, I never would have had a chance to test my resolve, my character, and my will. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
 
-Embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this experience.
+Embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this race.
 
-I can't wait for the next one \*wink\*.
+At one point, I vowed never to do another one of these again. Who was I kidding. I can't wait for the next one \*wink\*.
 
 [1]: http://runrocknroll.competitor.com/denver

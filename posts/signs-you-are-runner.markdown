@@ -23,7 +23,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 7. Your long runs become so long, you have to check two parts of the weather forecast. The conditions when you start.. and the conditions when you expect to finish.
 
-8. When 45 degrees means you now run with a shirt on (for guys).
+8. When it's 45 degrees outside and you think to yourself, "Dang this is some nice tank-top and shorts weather".
 
 9. It feels like Christmas when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. Oh yes, more please.
 

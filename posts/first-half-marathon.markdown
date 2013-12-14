@@ -67,7 +67,7 @@ Crossing the finish line was overwhelming and surreal. For a second or two, I al
 
 The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and excitement truly helped me along the race, and made the entire experience that much better.
 
-<a href="/static/2013-colfax-alex-finish.jpg"><img src="/static/2013-colfax-alex-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-colfax-alex-le-finish.jpg"><img src="/static/2013-colfax-alex-le-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
 Photo courtesy of the best support group ever.</div>
 
@@ -77,7 +77,7 @@ It was an honor to be a part of all the athletes who competed, and reminds me th
 
 In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
 
-<a href="/static/2013-colfax-alex-medal.jpg"><img src="/static/2013-colfax-alex-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
+<a href="/static/2013-colfax-alex-le-medal.jpg"><img src="/static/2013-colfax-alex-le-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 
 [1]: /blog/2012/100-miles.html
 [2]: http://www.runcolfax.org/
