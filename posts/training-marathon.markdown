@@ -6,7 +6,7 @@ It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
 1. I'm a newbie runner. I haven't been running for very long.
-2. My base mileage is not close to what is needed for surviving a marathon. There are some guides that state you should be running 20 miles/week *before you even start* your training.
+2. My base mileage is nowhere near high enough. Some guides state you should be running 20 miles/week *before you even start* your training.
 3. The race I signed up for was only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
 Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
