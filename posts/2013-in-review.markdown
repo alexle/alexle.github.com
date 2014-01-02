@@ -43,7 +43,7 @@ In other words, I superset almost every lift. And every couple of months I try a
 
 What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 
-It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is. I'm delighted with the results from practicing these new CrossFit movements. On top of that, they've re-energized my workouts and have me new challenges to work towards.
+It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is. I'm delighted with the results from practicing these new CrossFit movements. On top of that, they've re-energized my workouts and have given me new challenges to work towards.
 
 <hr width=75%>
 
