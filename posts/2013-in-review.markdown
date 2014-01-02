@@ -37,13 +37,13 @@ As I've gotten older, I've found it more and more difficult to maintain muscle m
 
 Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit". I'm just a newbie who's incorporated CrossFit's theme of functional, varied, high-intensity movements into my own workouts.
 
-In other words, I superset almost every lift. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts and Kipping Pull-Ups. My most proud achievement, however, is completing my goal of **10 consecutive Muscle-Ups**.
+In other words, I superset almost every lift. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
 <a href="/static/crossfit-games-2012-muscle-up.jpg"><img src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the most advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
+What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 
-It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is.
+It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is. I'm delighted with the results from practicing these new CrossFit movements. On top of that, they've re-energized my workouts and have me new challenges to work towards.
 
 <hr width=75%>
 
