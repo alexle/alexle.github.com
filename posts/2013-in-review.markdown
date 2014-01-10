@@ -11,13 +11,13 @@ For me, 2013 was an amazing year. I overcame new challenges, visited new places,
 
 ###Marathons, Records, And 800 Miles###
 
-Last year, I set a goal to run 100 miles. I ended up completing 166 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
+In 2012, I set a goal to run 100 miles. I ended up completing 166 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
 
-This year, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I've ever participated in, but I wasn't done yet. Four months later, I ran my [first marathon][3]. And by the end of the year, I had amassed a total of **804 miles** in **168 runs**! What a difference a year makes.
+For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I've ever participated in, but I wasn't done yet. Four months later, I ran my [first marathon][3]. And by the end of the year, I had amassed a total of **804 miles** in **168 runs**! What a difference a year makes.
 
 <a href="/static/2013-alex-running-summary.png"><img src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-I also set new Personal Records in almost *every* running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I truly believe distance running is one of the few sports that a person can get *better* at as they get older.
+I also set new Personal Records in almost *every* running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
 <a href="/static/2013-alex-running-records.png"><img src="/static/2013-alex-running-records.png" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
 
@@ -47,7 +47,7 @@ It took me 3 months just to do **one**, and 2 months more to work up to 10. A hu
 
 <hr width=75%>
 
-I have to admit, I'm a bit sad to be putting a close on 2013. At the same time, I'm excited for a fresh start and chance to see what limits I can reach in 2014. In fact, I've already signed up for another [marathon][6]. I have plans to take my career to the next level. I got a speed-rope last month and have begun work on my next CrossFit exercise, Double-Unders. What else will 2014 hold for me? I'm not sure, but I can't wait to find out.
+I have to admit, I'm a bit sad to be putting a close on 2013. At the same time, I'm excited for a fresh start and chance to see what limits I can reach in 2014. In fact, I've already signed up for another [marathon][6]. I have plans to take my career to the next level. I purchased a speed-rope last month and have begun work on my next CrossFit exercise, Double-Unders. What else will 2014 hold for me? I'm not sure, but I can't wait to find out.
 
 Happy New Year everyone, let's make 2014 count.
 
