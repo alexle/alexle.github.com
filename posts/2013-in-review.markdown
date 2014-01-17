@@ -19,7 +19,7 @@ For 2013, my main focus was to complete a [half-marathon][2] in May. It turned o
 
 I also set new Personal Records in almost *every* running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
-<a href="/static/2013-alex-running-records.png"><img src="/static/2013-alex-running-records.png" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
+<a href="/static/2013-alex-running-records.jpg"><img src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
 
 Overall, it was a fantastic and fun year on the road. I never thought I would be saying this, but I've really grown to love running. It has become such a major part of my life, so much so that I want to run forever.
 
@@ -30,6 +30,8 @@ Overall, it was a fantastic and fun year on the road. I never thought I would be
 Outside of work, I made progress on most of my side projects. The one I'm most proud of is [ShouldAlexRun][5]. While not fully finished, it's a lean and working "MVP" (Minimum Viable Product). I hope to flush out the functionality next year. Here's a description of the app.
 
 > Alex likes to run. However, he's very picky and only likes to run when the weather is optimal. This is an app to query current and future weather conditions to find the best time for Alex to run.
+
+<a href="/static/shouldalexrun_1.jpg"><img src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="240px" /></a>
 
 ###Crossfit And Exercise###
 
