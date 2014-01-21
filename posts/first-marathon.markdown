@@ -83,7 +83,7 @@ I've had a chance to reflect on the race and realize that a disappointing perfor
 
 Because without them, I never would have had a chance to test my resolve and my will. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
 
-Embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this race.
+For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this race.
 
 At one point, I vowed never to do another one of these again. Who was I kidding. I can't wait for the next one \*wink\*.
 
