@@ -1,7 +1,7 @@
 2013 In Review: Running, Muscle-Ups, And More
 12-31-2013
 
-Here we are. The end of another year. I can't believe how quickly 2013 went by. I've read that [time passes by faster][1] as we age because our days become more routine and predictable. When we're surrounded by the usual people, work, and experiences - the details stand out less and our days become fleeting moments.
+Here we are. The end of another year. I can't believe how quickly 2013 went by. I've read that [time passes by faster][1] as we age because our days become more routine and predictable. When we're surrounded by the usual people, work, and experiences - the details stand out less and our days merge into fleeting moments.
 
 Or perhaps the older we get, the more disproportionate each unit of time becomes. When we're 5, a year is 20% of our life experience. When we're 40, a year accounts for only 2.5%. Whatever the reason, it often seems like Ryan Seacrest is counting down another giant ball falling down all too soon.
 
@@ -11,13 +11,13 @@ For me, 2013 was an amazing year. I overcame new challenges, visited new places,
 
 ###Marathons, Records, And 800 Miles###
 
-In 2012, I set a goal to run 100 miles. I ended up completing 166 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
+In 2012, I set a goal to run 100 miles. I ended up completing 77 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
 
 For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I've ever participated in, but I wasn't done yet. Four months later, I ran my [first marathon][3]. And by the end of the year, I had amassed a total of **804 miles** in **168 runs**! What a difference a year makes.
 
 <a href="/static/2013-alex-running-summary.png"><img src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-I also set new Personal Records in almost *every* running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
+I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
 <a href="/static/2013-alex-running-records.jpg"><img src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
 
@@ -39,7 +39,7 @@ As I've gotten older, I've found it more and more difficult to maintain muscle m
 
 Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit". I'm just a newbie who's incorporated CrossFit's theme of functional, varied, high-intensity movements into my own workouts.
 
-In other words, I superset almost every lift. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
+In other words, I superset every lift. I concentrate on compound exercises that use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
 <a href="/static/crossfit-games-2012-muscle-up.jpg"><img src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
