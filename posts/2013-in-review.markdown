@@ -31,7 +31,7 @@ Outside of work, I made progress on most of my side projects. The one I'm most p
 
 > Alex likes to run. However, he's very picky and only likes to run when the weather is optimal. This is an app to query current and future weather conditions to find the best time for Alex to run.
 
-<a href="/static/shouldalexrun_1.jpg"><img src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="240px" /></a>
+<a href="/static/shouldalexrun_1.jpg"><img src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ###Crossfit And Exercise###
 
