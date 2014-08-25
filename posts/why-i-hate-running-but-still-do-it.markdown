@@ -1,7 +1,7 @@
 Why I Hate Running But Still Do It Anyways
 05-08-2012
 
-I was never a runner growing up. It was boring, repetitive, and worse of all, pain   Why anyone would put themselves through this torture was beyond my understanding.
+I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
 
 Yet, like other unexplainable decisions we make in life (jumping out of planes, mixing dark and white liquor, starting a 14 page paper the day before it's due), I signed up for the [Bolder Boulder 10k][2] last year. Even though I hadn't run anything significant in over 8 years, I was playing basketball and lifting weights regularly enough to think I could handle it.
 
