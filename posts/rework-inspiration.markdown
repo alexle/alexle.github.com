@@ -17,11 +17,15 @@ But the lesson I remember the most, and the one that has had the largest impact 
 > 
 > Inspiration is a magical thing, a productivity multiplier. But it won't wait for you. If it grabs you, grab it right back and put it to work.
 
-I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished (or started). Now, when I feel the inspiration to do something, I do it.
+I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished (or started). Now, when I feel the inspiration to do something, I simply start it.
 
-Always wanted to create a web app? Sit down and open an account on Google App Engine or Heroku. Need to update your resume? Open it up and make some changes! It may not be perfect, and the plan may not be clear, but you'll get more done now than if you waited until next week/month/year.
+It may not be perfect, and the plan may not be clear, but I've found that I usually get more done in those precious moments than if I put it off until later. Even if a task can't be completed in that minute, the key is just starting.
 
-But what if there isn't enough time? That's phooey. If you like a boy/girl, you make time to call him/her. If you have tickets to a Denver Broncos playoff game, you'll make time for it. There's no such thing as "not having time". Either you truly want to do something, or you don't. It's only a matter of what you make a priority.
+Say you're waiting at the DMV and think, "There should be an app to make this process go faster. I'll work on one this weekend!" Chances are, the excitement fades and you end up watching football or doing some house chores instead.
+
+A better alternative is, in that moment of fervor, you chant "NO MORE DMV" and open an account on Google App Engine or Heroku. Or work through an initial app design. Big or small, it doesn't matter as long as it maintains your inspiration to get it done!
+
+Some may argue that they don't have enough time at that moment. That they are busy working on another task. I believe this is a poor excuse. Because there's no such thing as "not having time". Either you truly want to do something, or you don't. It's only a matter of what you make a priority.
 
 Don't let inspiration go to waste.
 

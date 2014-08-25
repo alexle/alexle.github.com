@@ -13,5 +13,5 @@ All in all, it was a busy, fun, and educational month. While I didn't make much 
 
 See you on the road!
 
-** After some retrospective, this will be my last monthly status update. They haven't been effective as I thought, and became more of a chore to do.
+** After some retrospective, this will be my last monthly status update. They haven't been effective as I thought, and don't provide much value to anyone else but myself.
 
