@@ -48,8 +48,8 @@
 
    <p class="post_content">
       <p>In an earlier <a href="blog/2012/02/07/farewell-blogger.html">post</a>, I expressed my desire to write more. While Blogger was a good platform to start on, it wasn't conducive to my work flow nor management of the site. After much research, I settled on using <a href="https://github.com/dz/chisel">Chisel</a>, a static site generator that is only <strong>104 lines</strong> of python.</p>
-<p><a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">Static site generators</a> are simply programs that generate an HTML website as an output. They usually use template languages that process content into flat, HTML pages that can be served through any web server. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code", which is very cool.</p>
-<p>Here are some reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:</p>
+<p><a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">Static site generators</a> are simply programs that process raw content into an HTML website. This is generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code", which is very cool.</p>
+<p>Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:</p>
 <h3>WYSIWYG Editor Stinks</h3>
 <p>The WYSIWYG, or "what you see is what you get" editor, is the plain text box used in most blogging platforms for inputting content. Some people are ok with using it to edit posts, but the WYSIWYG box is extremely limiting and causes much frustration for me. </p>
 <p>For example, Blogger's editor does not have:</p>
@@ -63,9 +63,12 @@
 </ul>
 <p>Additionally, the act of writing flows much easier using a markup language, which most static site generators use. These languages convert plain text into HTML, avoiding the constant overhead of mixing HTML tags, text, and formatting. I personally use <a href="http://tedwise.com/markdown/">MarkDown</a>, which is lightweight and commonly available. This lets me focus less on editing code/structures/syntax and more on writing text.</p>
 <h3>Control Of Content</h3>
-<p>The major advantage of having your website in static HTML files is that you <strong>own your content</strong>. Your content is separate from the server, allowing you to easily move your website to any host (Amazon S3, Heroku, Github Pages, the server in your home office). Just upload your HTML, re-route the domain name and you're good to go. Virtually all servers are able to serve HTML as well, meaning you rarely have to worry about hosting incompatibilities.</p>
-<p>When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a limited and pain-staking migration process.</p>
-<p>Another plus of having your files reside statically in your workspace, is that you can easily search your entire blog for any files (<em>find -iname ./</em>) or specific text (<em>grep -r</em>) via the command line. You can even do mass replace/rename operations. Having control over your data/files allows you endless levels of editing.</p>
+<p>The major advantage of having my website in static HTML files is that I <strong>own my content</strong>. The code that generates the site. The templates that shape my HTML/CSS. The raw text of each blog post. </p>
+<p>Since my data is separate from the server, it gives me many options: I could switch site generators or template languages. I could easily move my site to another host (just upload static HTML). If a catostrophic event happened, I'm confident I could re-generate page as long as I have a copy of my text files. </p>
+<p>When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a pain-staking migration process.</p>
+<h3>Additional Tools</h3>
+<p>Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files. Power search options via the command line can be used, such as searching my entire blog for any files (<em>find -iname ./</em>) or perhaps a specific group of text (<em>grep -r</em>). Want to change all instances of "volvo" to "Volvo"? It's a one-line operation.</p>
+<p>Having control over your data/files allows you endless levels of editing.</p>
 <h3>Chance For Redesign (Bottom Up)</h3>
 <p>I like building things, even if it's been done before. So when it came to finding a new platform, I jumped at the chance to redesign my blog from scratch and incorporate some new tools.</p>
 <p>I decided on <a href="http://pages.github.com/">Github Pages</a> to host my blog. It's a great service that publishes content from a designated Github repository. The perks include:</p>
@@ -73,7 +76,7 @@
 <li>Version control - I'm able to view every change I've committed, roll files back to any version.</li>
 <li>Redundancy - The source code resides on a central repository, which I can pull to any computer, anywhere. If Github goes down, I still have a copy on my local machine.</li>
 </ol>
-<p>Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" html/css/plugins added in the site's code from a CMS.</p>
+<p>Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.</p>
 <h3>Simplify Workflow</h3>
 <p>Maintaining static HTML files is not for everyone, but it greatly fits my style as a software developer. I love opening a plain text file and typing away, without any regards to HTML tags, having to be online, or my hands leaving the keyboard. I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.</p>
 <p>In the end, moving to a static site has let me concentrate more on my writing, and not on the styling of my content. There are some disadvantages to static site generators, such as lack of dynamic content (comments/plugins) and <a href="blog/2012/create-an-rss-feed-from-scratch.html">RSS feeds</a>. I haven't decided how, or even if, I'll address those yet. For now, my main goal is just to focus on content.</p>

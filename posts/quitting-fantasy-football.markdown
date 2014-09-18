@@ -7,7 +7,7 @@ No longer though, since I have officially quit Fantasy Football.
 
 I don't know how, but Fantasy Football managed to turn my relaxing Sundays into 12 hour marathons of roller-coaster, maddening, torture. It was nice when my team won. But it was worse when my team performed badly and life cease to have meaning.
 
-Exaggerations aside, here are some other reasons why I'm leaving Fantasy Football:
+Exaggerations aside, here are the main reasons why I'm leaving Fantasy Football:
 
 ###Completely alters the way I watch football.###
 I would nitpick every miscue my players made and react irrationally afterwards. I can't believe Colston dropped that pass - $@#%! Throw it to Calvin Johnson, he was wide open! It use to be simply rooting for a team to score and win was good enough. Now it only mattered if certain players scored a TD or kicked a FG.
@@ -26,7 +26,9 @@ Sat - Prepare final roster and make last minute subsitutions.
 This is on top of the time spent listening to sports talk radio, reading "expert" blogs and articles, and watching FFB shows on ESPN. Of course, all this may not even have been necessary, which brings me to my next point.
 
 ###It's mainly a game of luck.###
-It didn't matter how much analysis I did or how risky my moves were. In the end, success in Fantasy Football is 90 percent luck and 10 percent skill. Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets tiresome.
+It didn't matter how much analysis I did or how risky my moves were. In the end, success in Fantasy Football is 90 percent luck and 10 percent skill. There are so many variables that are out of your control: injuries, off-field issues, suspensions.
+
+Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets tiresome.
 
 <hr width="75%">
 

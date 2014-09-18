@@ -25,9 +25,9 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 8. When it's 45 degrees outside and you think to yourself, "Dang this is some nice tank-top and shorts weather".
 
-9. It feels like Christmas when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. Oh yes, more please.
+9. It feels like Christmas when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. 
 
-10. You don't mind that your shorts are 3-4 inches shorter than before. Headbands and hydration belts suddenly don't look so weird anymore.
+10. Your definition of "appropriate style in public" changes. As in, you don't mind that your shorts are 3-4 inches shorter than before. Headbands and hydration belts look natural. And for the guys, you secretly look forward to opportunities to wear your running tights.
 
 11. You have drawers in your house that look like this:
 

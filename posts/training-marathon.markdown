@@ -21,7 +21,7 @@ This year, my running has greatly improved. I'm able to run 3 miles comfortably 
 
 After some research online, I settled on an 18-week training plan by [Hal Higdon][3]. It didn't take long to figure out which classification I was under - Novice 2. 
 
-The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They are the keystone to any training program, since it builds endurance and strength, ability to handle fatigue, and trains your body to burn energy more efficiently.
+The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They're essential to any marathon training, since they build endurance, help handle fatigue, and trains the body to burn energy more efficiently.
 
 Novice 2 breaks down each week as such: 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. Not too bad.
 
@@ -57,7 +57,7 @@ Overconfident and eager to prove myself, I came out too fast on the LSD. The fir
 
 The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took GU about 6mi into the LSD (60 minutes). It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station to deposit the trash.
+I took GU about 60 minutes into the LSD. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station to deposit the trash.
 
 Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
@@ -65,7 +65,7 @@ Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my 
 
 ###Week 3 - 13mi LSD###
 
-With a new plan to hydrate earlier, I set out on the LSD. I took water at 30 minutes, followed by GU at around 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
+With a new plan to hydrate earlier, I set out on the LSD. I took water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
 
 I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
 

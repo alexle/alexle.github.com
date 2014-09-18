@@ -3,9 +3,9 @@ Why I Moved My Blog To Github Pages
 
 In an earlier [post][1], I expressed my desire to write more. While Blogger was a good platform to start on, it wasn't conducive to my work flow nor management of the site. After much research, I settled on using [Chisel][4], a static site generator that is only **104 lines** of python.
 
-[Static site generators][3] are simply programs that generate an HTML website as an output. They usually use template languages that process content into flat, HTML pages that can be served through any web server. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code", which is very cool.
+[Static site generators][3] are simply programs that process raw content into an HTML website. This is generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code", which is very cool.
 
-Here are some reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:
+Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:
 
 ###WYSIWYG Editor Stinks###
 
@@ -24,11 +24,17 @@ Additionally, the act of writing flows much easier using a markup language, whic
 
 ###Control Of Content###
 
-The major advantage of having your website in static HTML files is that you **own your content**. Your content is separate from the server, allowing you to easily move your website to any host (Amazon S3, Heroku, Github Pages, the server in your home office). Just upload your HTML, re-route the domain name and you're good to go. Virtually all servers are able to serve HTML as well, meaning you rarely have to worry about hosting incompatibilities.
+The major advantage of having my website in static HTML files is that I **own my content**. The code that generates the site. The templates that shape my HTML/CSS. The raw text of each blog post. 
 
-When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a limited and pain-staking migration process.
+Since my data is separate from the server, it gives me many options: I could switch site generators or template languages. I could easily move my site to another host (just upload static HTML). If a catostrophic event happened, I'm confident I could re-generate page as long as I have a copy of my text files. 
 
-Another plus of having your files reside statically in your workspace, is that you can easily search your entire blog for any files (*find -iname ./*) or specific text (*grep -r*) via the command line. You can even do mass replace/rename operations. Having control over your data/files allows you endless levels of editing.
+When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a pain-staking migration process.
+
+###Additional Tools###
+
+Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files. Power search options via the command line can be used, such as searching my entire blog for any files (*find -iname ./*) or perhaps a specific group of text (*grep -r*). Want to change all instances of "volvo" to "Volvo"? It's a one-line operation.
+
+Having control over your data/files allows you endless levels of editing.
 
 ###Chance For Redesign (Bottom Up)###
 
@@ -39,7 +45,7 @@ I decided on [Github Pages][2] to host my blog. It's a great service that publis
 1. Version control - I'm able to view every change I've committed, roll files back to any version.
 2. Redundancy - The source code resides on a central repository, which I can pull to any computer, anywhere. If Github goes down, I still have a copy on my local machine.
 
-Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" html/css/plugins added in the site's code from a CMS.
+Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.
 
 ###Simplify Workflow###
 

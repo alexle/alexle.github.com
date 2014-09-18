@@ -13,7 +13,7 @@ For me, 2013 was an amazing year. I overcame new challenges, visited new places,
 
 In 2012, I set a goal to run 100 miles. I ended up completing 77 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
 
-For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I've ever participated in, but I wasn't done yet. Four months later, I ran my [first marathon][3]. And by the end of the year, I had amassed a total of **804 miles** in **168 runs**! What a difference a year makes.
+For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I had ever participated in, but I wasn't done yet. Four months later, I finished my [first marathon][3]! By the end of the year, I had amassed a total of **168 runs** for **804 miles**! What a difference a year makes.
 
 <a href="/static/2013-alex-running-summary.png"><img src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
@@ -21,7 +21,7 @@ I also set new Personal Records in almost every running category. Fastest 1k, 5k
 
 <a href="/static/2013-alex-running-records.jpg"><img src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
 
-Overall, it was a fantastic and fun year on the road. I never thought I would be saying this, but I've really grown to love running. It has become such a major part of my life, so much so that I want to run forever.
+Overall, it was a fantastic and fun year on the road. I never thought I would be saying this, but I've really grown to love running. It has become such a major part of my life, so much so that I want to **run forever**.
 
 ###Career And Side Projects###
 
