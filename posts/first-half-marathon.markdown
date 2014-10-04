@@ -5,7 +5,7 @@ Last December, my girlfriend surprised me with an entry to the [Denver Colfax Ha
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
-Luckily, I went through with it and 4 (grueling) months later, I completed my first half-marathon. I finished in 01:48:12 with a pace of 8:15. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
+Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
 
 <a href="/static/2013-half-nike-map.jpg"><img src="/static/2013-half-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
@@ -59,7 +59,7 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, legs dragging heavily.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was going to save the world with Swedish House Mafia.
+Lungs on fire, legs dragging heavily.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was saving the world with Swedish House Mafia.
 
 ###Finish & Post-Race###
 
@@ -75,7 +75,7 @@ Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Mar
 
 It was an honor to be a part of all the athletes who competed, and reminds me that I still have so far to go. Fifteen months ago, the prospect of running two miles straight was unfathomable to me. Now, that distance is a nice warm up on my longer runs. Anything is truly possible if you put your mind to it.
 
-In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
+In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun. I have a feeling this won't be my last race.
 
 <a href="/static/2013-colfax-alex-le-medal.jpg"><img src="/static/2013-colfax-alex-le-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 

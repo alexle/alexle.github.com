@@ -23,11 +23,11 @@ It may not be perfect, and the plan may not be clear, but I've found that I usua
 
 Say you're waiting at the DMV and think, "There should be an app to make this process go faster. I'll work on one this weekend!" Chances are, the excitement fades and you end up watching football or doing some house chores instead.
 
-A better alternative is, in that moment of fervor, you chant "NO MORE DMV" and open an account on Google App Engine or Heroku. Or work through an initial app design. Big or small, it doesn't matter as long as it maintains your inspiration to get it done!
+A better alternative is, in that moment of fervor, you chant "NO MORE DMV" and sign up for an account on Google App Engine or Heroku for your app. Or doodle down an initial app design. Big or small, it doesn't matter what the action is as long as it maintains your momentum and inspiration to get it done!
 
-Some may argue that they don't have enough time at that moment. That they are busy working on another task. I believe this is a poor excuse. Because there's no such thing as "not having time". Either you truly want to do something, or you don't. It's only a matter of what you make a priority.
+Some may argue that they don't have enough time at that moment. That later will be a better time. I believe this is a poor excuse. Because there's no such thing as "not having time". Either you truly want to do something, or you don't. It's only a matter of what you make a priority.
 
-Don't let inspiration go to waste.
+So take action. And don't let inspiration go to waste.
 
 [1]: http://www.amazon.com/Rework-Jason-Fried/dp/0307463745
 [2]: http://37signals.com/

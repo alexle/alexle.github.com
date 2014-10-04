@@ -1,7 +1,7 @@
 Mail: How Do I Switch To A Career In Software?
 05-21-2013
 
-In their 25th annual Jobs Rated report, CareerCast [ranked Software Engineering][1] as the #3 best job out of 200 for 2013. I've been working as a developer for over 5 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - I love my job.
+In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - it doesn't get much better than this.
 
 It seems the general population is taking notice of this as well. Kevin Systrom, CEO of Instagram, is one of many who has [made the switch to a career in software development][2]. With no formal engineering training, he taught himself how to program at night and ended up creating a one-billion dollar photo app.
 
@@ -19,11 +19,11 @@ Hello aspiring developer!
 
 First off, I'd like to commend you on your decision to change career paths. It takes a lot of guts to enter a new industry, especially one as challenging as computer programming.
 
-I also am impressed by your willingness to learn (codeacademy/stanford) and commitment to succeed, both crucial skills to becoming a good developer. The only thing I don't readily see is your skillset, which brings me to my next point.
+I'm impressed by your initiative to learn (Codeacademy/Stanford Lectures) and commitment to improve. You may not realize it, but these are crucial skills to becoming a good developer! The only item I don't readily see is your skillset, which brings me to my next point.
 
-You want to learn more about RoR, Java, Javascript, and Python, great. You've dedicated hours to learning programming practices and algorithms, even better.
+You want to learn more about RoR, Java, Javascript, and Python - that's great. You've dedicated hours to learning programming practices and algorithms - even better.
 
-But what have you *made*? What can you show me that demonstrates you *know* this stuff? Degrees, GPA's, and certifications are nice, but in the end, I would take someone who has created an iPhone app on their own than someone who passed a course on writing objective-c.
+But what have you *made*? What can you show me that demonstrates you *know* this stuff? Degrees, GPA's, and certifications are nice, but in the end, I would take someone who has created an iPhone app on their own than someone who passed a course on objective-c.
 
 I understand the challenges in front of you. Since you come from a different industry, you have no prior "real-world" coding experience. Since you can't commit to another 4 years of college, a degree is out of the question. The only option I see left is to, for a lack of words, **hustle**. 
 
@@ -31,7 +31,7 @@ Here are some steps I would take if I were in your shoes. They can differ from p
 
 ####1) Address your weaknesses####
 
-I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview. Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in python and java.
+I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview. Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in C or Python or Java.
 
 Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Whatever it is, nothing beats hands-on experience.
 
@@ -39,15 +39,15 @@ Did you get passed over due to lack of experience? Look for ways to expand your 
 
 Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
 
-Or better yet, try creating your own web app on Heroku (free). You'll learn about designing the front end (html/css/javascript), backend (ruby), and bridging the two with the framework (RoR). You may not have a fancy degree, but at least you'll be able to demonstrate a working product during your next interview.
+Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). And it's all free! You may not have a fancy degree, but at least you'll be able to demonstrate a working product during your next interview.
 
 ####3) Keep taking the coding classes####
 
-Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it. Learn how to implement objects and classes, learn about inheritance and encapsulation.
+Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it. Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code.
 
 ####4) Try to get an internship####
 
-You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, and Hitachi?
+You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, or Hitachi?
 
 ####5) Don't stop learning####
 
