@@ -15,7 +15,7 @@ I couldn't be happier with how well this goal played out. To say that it was a s
 
 While I understand that running isn't for everyone, it's hard not to share and endorse something that's had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
 
-As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done. In fact, you have nothing to lose and everything to gain.
+As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done.
 
 [1]: /blog/2012/2012-goals.html
 [2]: /blog/2011/money-in-the-bank.html

@@ -57,7 +57,9 @@ Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The i
 
 I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn. 
 
-I just wanted to provide a different perspective that few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You only need to have a passion for programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3].
+I just wanted to provide a different perspective that few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
+
+For programming, there are no accreditations or formal exams needed. You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3].
 
 I'm open to talk anytime if you have more questions. Good luck!
 

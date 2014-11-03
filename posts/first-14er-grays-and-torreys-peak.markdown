@@ -39,13 +39,13 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 ###The Climb Down###
 
-We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave. On our descent, it began raining lightly. A couple minutes later, we were being pelted by, yes, **hail**. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
+We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave. On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. I couldn't believe it. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
 
 The hail eventually subsided into a steady **rain** shower, making the rocks really slippery while navigating down the trail. It would not have been fun without our trekking poles. Finally, while still navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
 ###Victory###
 
-We made good time on our way down and clocked in at the car around 3:50 pm. Later that night, we went for pizza with friends where our tales of courage were told over and over. We were all smiles at that point and already planning the next 14er.
+We made good time on our way down and clocked in at the car around 3:50 pm. Later that night, we went for pizza with friends where our tales of courage and valor were told over and over. We were all smiles at that point and already planning the next 14er.
 
 I don't think pizza ever tasted so good.
 

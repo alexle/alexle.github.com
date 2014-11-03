@@ -42,6 +42,8 @@ Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit
 In other words, I superset every lift. I concentrate on compound exercises that use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
 <a href="/static/crossfit-games-2012-muscle-up.jpg"><img src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<div class="separator" style="clear: both; text-align: center;">
+Kenneth Leverich and Rich Froning showing how it's done.</div>
 
 What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 

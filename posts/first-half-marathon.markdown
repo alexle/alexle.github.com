@@ -75,7 +75,7 @@ Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Mar
 
 It was an honor to be a part of all the athletes who competed, and reminds me that I still have so far to go. Fifteen months ago, the prospect of running two miles straight was unfathomable to me. Now, that distance is a nice warm up on my longer runs. Anything is truly possible if you put your mind to it.
 
-In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun. I have a feeling this won't be my last race.
+In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
 
 <a href="/static/2013-colfax-alex-le-medal.jpg"><img src="/static/2013-colfax-alex-le-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 

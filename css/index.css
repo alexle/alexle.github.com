@@ -29,7 +29,7 @@ a:hover {
 
 #header {
    height: 60px;
-   margin-bottom: 5px;
+   margin: 10px 0 5px 0;
 }
 
 .header_style {
@@ -65,8 +65,8 @@ pre {
 }
 
 .profile_pic {
-   height: 60px;
-   width: 60px;
+   height: 70px;
+   width: 70px;
    border: 0;
    margin-right: 10px;
    float: left;
@@ -135,6 +135,7 @@ article {
 footer {
    border-top: 1px solid #ccc;
    padding-top: 20px;
+   padding-bottom: 80px;
 }
 
 img.center {
