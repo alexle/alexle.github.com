@@ -13,13 +13,17 @@ We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. T
 
 3/4th of a mile in, the trail began to incline more. After the first steep climb, we were all feeling the burning sensation in our legs, the shortness of breath, and the sweat forming on our backs. The weather had warmed up considerably and we were down to t-shirts and shorts at this point.
 
-As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier had transformed into uneven rocks and boulders. On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
+As we ventured further along, the switchbacks became more frequent and the trail grew steeper. The well groomed gravel we walked on earlier had transformed into uneven rocks and boulders.
+
+On my hikes in the past, I've always been surrounded by trees, mountains, and bugs. It's a cool sight when you look up and just see a rock quarry around you.
 
 <a href="/static/grays_climb.jpg"><img src="/static/grays_climb.jpg" alt="alex le grays climb" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ###At The Top###
 
-We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms? Instead, all we were greeted with were booming sounds of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
+We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms?
+
+Instead, all we were greeted with were booming sounds of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
 
 <a href="/static/grays_victory.jpg"><img src="/static/grays_victory.jpg" alt="alex le grays victory" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
@@ -31,7 +35,9 @@ After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm.
 
 <a href="/static/torreys_climb2.jpg"><img src="/static/torreys_climb2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-A couple hundred feet up, the weather took a drastic turn. It was the beginning of July, Colorado had just gone through a heat wave, and the last thing any of else expected to see was.. **snow**. Yes, the soft fluffy stuff snowmen are built out of. To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
+A couple hundred feet up up Torrey's, the weather took a drastic turn. It was the beginning of July, Colorado had just gone through a heat wave, and the last thing any of us expected to see was.. **snow**. Yes, the soft fluffy stuff snowmen are built out of.
+
+To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
 
 We made a group decision to go on and eventually reached the top at 1:20 pm. We had overcome the distance, elevation, and altitude. It's hard to describe the feeling of accomplishment, joy, and adrenaline that comes from standing at the highest point around you for miles. Maybe a picture *is* worth a thousand words :)
 
@@ -39,9 +45,11 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 ###The Climb Down###
 
-We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave. On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. I couldn't believe it. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
+We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave.
 
-The hail eventually subsided into a steady **rain** shower, making the rocks really slippery while navigating down the trail. It would not have been fun without our trekking poles. Finally, while still navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
+On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. I couldn't believe it. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
+
+The hail eventually subsided into a steady **rain** shower, making the rocks really slippery while navigating down the trail. It wouldn't have been fun without our trekking poles. Finally, while still navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
 ###Victory###
 

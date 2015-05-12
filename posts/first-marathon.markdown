@@ -19,7 +19,7 @@ My overall goal, based on my long runs during training, was to finish in **4:24*
 
 5.. 4.. 3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex. 
 
-The course snaked through Downtown Denver in the beginning. For some reason, I don't pay muchattention to my surroundings while running races. We could have gone through a desert for all I know. I was just focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
+The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. We could have gone through a desert for all I know. I was simply focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
 
 At Mile 13, I caught up to the 3:30 pace group. Surprised, I looked at my watch and saw 1:43. Three thoughts immediately went through my head:
  
@@ -81,7 +81,7 @@ When asked how the race was, the impact of everything I endured emotionally and 
 
 I've had a chance to reflect on the race and realize that a disappointing performance isn't necessarily a bad thing. In some ways, I'm **glad** for the adversity and misfortune I faced that day.
 
-Because without them, I never would have had a chance to test my resolve and my will. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
+Because without them, I never would have had a chance to test my resolve and my will against its limits. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
 
 For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself from this race.
 
