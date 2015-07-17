@@ -19,11 +19,11 @@ Hello aspiring developer!
 
 First off, I'd like to commend you on your decision to change career paths. It takes a lot of guts to enter a new industry, especially one as challenging as computer programming.
 
-I'm impressed by your initiative to learn (Codeacademy/Stanford Lectures) and commitment to improve. You may not realize it, but these are crucial skills to becoming a good developer! The only item I don't readily see is your skillset, which brings me to my next point.
+I'm impressed by your initiative to learn ([Codeacademy][6]/Stanford Lectures) and commitment to improve. You may not realize it, but these are crucial skills to becoming a good developer! The only item I don't readily see is your skillset, which brings me to my next point.
 
 You want to learn more about RoR, Java, Javascript, and Python - that's great. You've dedicated hours to learning programming practices and algorithms - even better.
 
-But what have you *made*? What can you show me that demonstrates you *know* this stuff? Degrees, GPA's, and certifications are nice, but in the end, I would take someone who has created an iPhone app on their own than someone who passed a course on objective-c.
+But what have you *made*? What can you show me that demonstrates you *know* this stuff? Degrees, GPA's, and certifications are nice, but in the end, I would highly consider taking someone who's created an iPhone app on their own than someone who passed a course on objective-c.
 
 I understand the challenges in front of you. Since you come from a different industry, you have no prior "real-world" coding experience. Since you can't commit to another 4 years of college, a degree is out of the question. The only option I see left is to, for a lack of words, **hustle**. 
 
@@ -31,19 +31,23 @@ Here are some steps I would take if I were in your shoes. They can differ from p
 
 ####1) Address your weaknesses####
 
-I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview. Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in C or Python or Java.
+I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview.
 
-Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Whatever it is, nothing beats hands-on experience.
+Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in C or Python or Java.
+
+Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Hands-on experience is *invaluable*.
 
 ####2) Start a portfolio####
 
 Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
 
-Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). And it's all free! You may not have a fancy degree, but at least you'll be able to demonstrate a working product during your next interview.
+Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). The best part is that it's all free! You may not have a degree/certification, but at least you'll be able to demonstrate a working product during your next interview.
 
 ####3) Keep taking the coding classes####
 
-Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it. Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code.
+Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it.
+
+Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code.
 
 ####4) Try to get an internship####
 
@@ -51,7 +55,7 @@ You'll learn more and faster, in my opinion. It'll also provide you an experienc
 
 ####5) Don't stop learning####
 
-Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The industry is always evolving and the more you know, the better. Google everything. StackOverflow is your best friend.
+Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The industry is always evolving and the more you know, the better. Google everything. [StackOverflow][7] is your best friend.
 
 <hr width="75%">
 
@@ -59,7 +63,7 @@ I'm not sure if this was what you were looking for. I unfortunately didn't provi
 
 I just wanted to provide a different perspective that few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
 
-For programming, there are no accreditations or formal exams needed. You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3].
+For programming, there are no accreditations or formal exams needed. You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3]. It's **never** too late to change careers.
 
 I'm open to talk anytime if you have more questions. Good luck!
 
@@ -68,3 +72,5 @@ I'm open to talk anytime if you have more questions. Good luck!
 [3]: http://news.cnet.com/8301-17938_105-20093715-1/meet-connor-a-7-year-old-iphone-app-developer/
 [4]: https://news.ycombinator.com/news
 [5]: http://www.codinghorror.com/blog/
+[6]: https://www.codecademy.com/
+[7]: http://stackoverflow.com/

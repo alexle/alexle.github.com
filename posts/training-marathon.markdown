@@ -19,13 +19,17 @@ This year, my running has greatly improved. I'm able to run 3 miles comfortably 
 
 ###Training Plan###
 
-After some research online, I settled on an 18-week training plan by [Hal Higdon][3]. It didn't take long to figure out which classification I was under - Novice 2. 
+After some research online, I settled on an 18-week training plan by [Hal Higdon][3] - Novice 2.
 
-The key to this program is the "long slow distance" (LSD) run. These build up weekly from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They're essential to any marathon training, since they build endurance, help handle fatigue, and trains the body to burn energy more efficiently.
+The key to this program is the "long slow distance" (LSD) run each week. These ramp up from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They're essential for training, since the runs build endurance and train the body to burn energy more efficiently.
 
-Novice 2 breaks down each week as such: 3 short runs, 1 long run, 1 cross-train day, and 2 rest days. Not too bad.
+For Novice 2, each week consists of:
+1. 3 short runs
+2. 1 long run
+3. 1 cross-train day
+4. 2 rest days.
 
-The tricky part, however, was figuring out how to condense 18 weeks into 9. I decided to focus on the middle bulk of the training, and cut out the beginning and end weeks. My reasoning was that I could tough out the early runs to catch up, and "wing" the longer distances on marathon day. Here's my training log and a brief summary of how each week went:
+To cut the 18 weeks into 9, I decided to skip the beginning/end weeks and focus on the middle bulk of the training. Here's my training log and a brief summary of how each week went:
 
 <style>
 table { align: center; border: 1px solid black; }

@@ -15,11 +15,9 @@ On the other hand, the other 9 months added up to only 51.69 miles (41% of the y
 
 I struggled with runs over a mile for a long time. My body would literally shut down, on cue, after hearing the mile beeper. Until I made **one** change that ultimately allowed my runs to reach new limits. What was that change?
 
-*Run for distance, not time.*
+*Run for time, not distance.*
 
-In high school gym class, we ran a mile every week for fitness. Improving our mile times were viewed as a sign of improvement and effort. So I followed suit. Run fast first, run farther later was my reasoning. However, I was so focused on beating my previous mile time that I'd be A) too exhausted to run further or B) too dejected from not hitting the time and unmotivated to go on.
-
-On a whim one day in Aug, I changed the Nike+ run setting to a "distance-run". It didn't matter how fast, it didn't matter how long. Just a challenge to run 2 miles without stopping. It was a major success and the rest of the graph sums up how well that worked out for me.
+On a whim one day in Aug, I changed the Nike+ run setting to a "time-run". It didn't matter how slow or how far I ran. If I had to crawl home, then I would crawl. Just run 20 minutes. It was a major success and the rest of the graph sums up how well that worked out for me.
 
 <a href="/static/num-runs-each-month.png"><img src="/static/num-runs-each-month.png" alt="alex number runs per month" width="600px" class="center" /></a>
 
