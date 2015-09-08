@@ -29,6 +29,8 @@ Life is an adventure and not perfect. So why set expectations as anything else? 
 ###Is it even going to matter?###
 Few choices we make are ever really that important in the long run. Aside from decisions involving a house, career, who to marry, and investments, I can't think of anything that *really* matters that much after 10 years. It definitely puts things in perspective when laboring over a "life-or-death" decision.
 
+Thirty years from now, am I going to remember what type of bread I chose at the grcoery store? I don't think so.
+
 Hopefully, these ideas will aid in my decision making and ultimately, improve my focus. And if not, well at least **now I know**.
 
 [1]: http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html
