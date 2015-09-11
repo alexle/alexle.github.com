@@ -1,14 +1,29 @@
+/***** BASE *****/
 body {
    /*
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    */
    font-family: "Open Sans", sans-serif;
-   font-size: 15px;
-   line-height: 1.55;
+   font-size: 1.0em;
+   line-height: 1.5em;
 }
 
-h1,h2,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
    display: inline;
+   font-family: "Fjalla One", "Georgia", "Helvetica Neue", Arial, sans-serif;
+   text-rendering: optimizelegibility;
+   margin-bottom: 1em;
+   font-weight:normal;
+}
+
+h1 {
+   font-size: 2.2em;
+   line-height: 1.2em;
+}
+
+h2 {
+   font-size: 1.8em;
+   line-height: 1.2em;
 }
 
 a:link, a:visited {
@@ -22,48 +37,32 @@ a:hover {
    text-decoration: none;
 }
 
+/***** LAYOUT *****/
 #wrapper {
-   width: 39em;
+   width: 40em;
    margin: auto;
 }
 
 #header {
    height: 60px;
-   margin: 10px 0 5px 0;
+   margin: 10px 0 20px 0;
 }
 
 .header_style {
    font-weight: lighter;
 }
 
-blockquote {
-   font-family: courier;
-   border-left: 3px solid #ccc;
-   padding-left: 10px;
-   margin-left: 10px;
-   margin-right: 0px;
-   font-size: 14px;
-   overflow: auto;
+article {
+   padding-bottom: 5px;
 }
 
-pre {
-   font-family: courier;
-   padding: 10px;
-   font-size: 13px;
+footer {
+   border-top: 1px solid #ccc;
+   padding-top: 20px;
+   padding-bottom: 80px;
 }
 
-#code {
-   font-family: monospace;
-   background-color: #333333;
-   color: #ffffff;
-   padding: 10px;
-   font-size: 13px;
-}
-
-#social_buttons {
-   margin-top: 5px;
-}
-
+/***** COMPONENTS *****/
 .profile_pic {
    height: 70px;
    width: 70px;
@@ -93,11 +92,14 @@ img.center {
    float: left;
 }
 
-a.home_title:link, a.home_title:visited {
+h2.home_title {
+}
+
+a.home_title:link, a.home_title:visited, a.header_right_link:link, a.header_right_link:visited {
    color: #333;
 }
 
-a.home_title:hover {
+a.home_title:hover, a.header_right_link:hover {
    color: #0084B4;
    text-decoration: none;
 }
@@ -115,8 +117,30 @@ a.home_title:hover {
    color: #888;
 }
 
-.twitter-share-button {
-   margin-top: 8px;
+/***** CUSTOM *****/
+blockquote {
+   font-family: courier;
+   border-left: 3px solid #ccc;
+   padding-left: 10px;
+   margin-left: 10px;
+   margin-right: 0px;
+   font-size: 14px;
+   overflow: auto;
+}
+
+pre {
+   font-family: courier;
+   padding: 10px;
+   font-size: 13px;
+}
+
+#code {
+   font-family: monospace;
+   background-color: #333333;
+   color: #ffffff;
+   padding: 10px;
+   font-size: 13px;
+   margin-bottom: 1.5em;
 }
 
 #find_me {
@@ -128,18 +152,10 @@ a.home_title:hover {
    float: right;
 }
 
-article {
-   padding-bottom: 5px;
+#social_buttons {
+   margin-top: 5px;
 }
 
-footer {
-   border-top: 1px solid #ccc;
-   padding-top: 20px;
-   padding-bottom: 80px;
-}
-
-img.center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+.twitter-share-button {
+   margin-top: 8px;
 }

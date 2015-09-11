@@ -2,17 +2,20 @@
 {% set title = "Alex Le's Blog" %}
 
 {% block main %}
+   <h2>Blog Archive</h2><br><br>
    {% for year, year_list in entries|groupby('year')|reverse %}
       <h2>{{year}}</h2>
          {% for month, month_list in year_list|groupby('month')|reverse %}
             {% for day, day_list in month_list|groupby('day')|reverse %}
                {% for entry in day_list %}
                   <br clear="all">
-                     <div class="home_title">
-                        <a href="/blog/{{ entry.url }}" class="home_title">{{ entry.title }}</a>
-                     </div>
-                     <div class="home_date">
-                        {{ entry.pretty_date }}
+                     <div class="home_post">
+                        <div class="home_title">
+                           <a href="/blog/{{ entry.url }}" class="home_title">{{ entry.title }}</a>
+                        </div>
+                        <div class="home_date">
+                           {{ entry.pretty_date }}
+                        </div>
                      </div>
                {% endfor %}
             {% endfor %}
