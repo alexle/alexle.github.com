@@ -14,6 +14,7 @@ TEMPLATES = {
    'home': "home.html",
    'post': "post.html",
    'archive': "archive.html",
+   'about': "about.html",
    'rss': "rss.html",
 }
 TIME_FORMAT = "%b %d, %Y"
@@ -98,6 +99,12 @@ def detail_pages(f, e):
    template = e.get_template(TEMPLATES['post'])
    for file in f:
       write_file(file['url'], template.render(entry=file))
+
+@step
+def generate_about(f, e):
+   """Generate about page"""
+   template = e.get_template(TEMPLATES['about'])
+   write_file("../about.html", template.render(entries=f))
 
 @step
 def generate_rss(f, e):
