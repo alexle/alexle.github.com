@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>GPO!</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>GPO!</h2>
+      <h1>GPO!</h1>
    </div>
 
    <p class="post_date">
@@ -51,7 +74,7 @@
 
    <p class="post_content">
       <p>The day has finally come. I now exist in the google universe.</p>
-<p><img src="/static/alex_gpo.jpg" width="580" height="360" style="border:1px solid" /></p>
+<p><img class="pure-img" src="/static/alex_gpo.jpg" width="580" height="360" style="border:1px solid" /></p>
 <p>Google page one - woohoo!</p>
    </p>
 
@@ -65,7 +88,23 @@
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

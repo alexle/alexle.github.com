@@ -1,13 +1,13 @@
 Why I Hate Running But Still Do It Anyways
 05-08-2012
 
-<img src="/static/jogging_worst.jpg" border="0px" class="center" />
+<img class="pure-img" src="/static/jogging_worst.jpg" border="0px" class="center" />
 
 I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
 
 Yet, like other unexplainable decisions we make in life (jumping out of planes, mixing dark and white liquor, starting a 14 page paper the day before it's due), I signed up for the [Bolder Boulder 10k][2] last year. Even though I hadn't run anything significant in over 8 years, I was playing basketball and lifting weights regularly enough to think I could handle it.
 
-### Never. Again.###
+## Never. Again.##
 
 Unfortunately, the race was grueling and reinforced my hatred for running. My lungs were on fire, my legs turned to mush. And all I remember thinking was:
 
@@ -21,13 +21,13 @@ Unfortunately, the race was grueling and reinforced my hatred for running. My lu
 
 I completed the race in 70 minutes and swore off running forever. Even the free beer and goodie bag afterwards couldn't waver my decision.
 
-###The Running Bug###
+##The Running Bug##
 
 A couple days later, I felt an unexpected urge - the urge to do it <u>again</u>. My legs felt stronger, my pace of 11 minutes/mile looked beatable. And that's when I knew I had caught the running bug.
 
 It's strange how something so painful could be so addicting. Each run afterwards, I would try to push myself a *little* bit faster, or a *little* bit further. I wasn't always successful, but failing just motivated me more next time.
 
-###Why I Still Run###
+##Why I Still Run##
 
 To me, the appeal of running isn't about optimal exercise or finishing in the top 10 or feeling good while doing it. It's about pushing my body and mind beyond its comfort zone. It's about doing something challenging and at times, seemingly impossible. And it's about [not quitting][1] when I want to the most, and finding a way to fight through the pain.
 

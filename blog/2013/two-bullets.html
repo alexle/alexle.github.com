@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>A Russian Gangster Kidnaps You..</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>A Russian Gangster Kidnaps You..</h2>
+      <h1>A Russian Gangster Kidnaps You..</h1>
    </div>
 
    <p class="post_date">
@@ -56,12 +79,12 @@
 <hr width="90%">
 
 <p>I came across this question on Business Insider's "<a href="http://www.businessinsider.com/toughest-job-interview-questions-2013-7">20 Toughest Job Interview Questions</a>" this morning. While either choice is a lose-lose situation, it did give me pause on what my answer would be. Naturally, it would depend on which option had the greatest chance of survival. Here is my take on the problem:</p>
-<h3>"Spin It Again and Fire"</h3>
+<h2>"Spin It Again and Fire"</h2>
 <p>The probability of dying is simple to calculate here. There are 6 chambers in the revolver, with 2 chambers containing bullets. Thus, the probability of eating a bullet is 2 (number of given outcomes) divided by 6 (number of total outcomes) or <strong>33%</strong>.</p>
 <p>Note that by spinning the chambers again, the previous "survival" shot has no bearing on the next shot. Also, the fact that the bullets are in consecutive order does not affect the final odds, since it's just a ratio of expected occurrences to total possible occurrences.</p>
-<h3>"Pull The Trigger Again"</h3>
+<h2>"Pull The Trigger Again"</h2>
 <p>In this situation, however, the previous shot AND the fact that the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.</p>
-<p><img src="/static/two_bullets.jpg" class="center" />
+<p><img class="pure-img" src="/static/two_bullets.jpg" class="center" />
 <div class="separator" style="clear: both; text-align: center;">
 Diagram of revolver chamber. The red circles are bullets.</div></p>
 <p>If you are alive at this point, then that means the first shot did NOT contain a bullet and must have come from either locations 1, 2, 3, or 4. So the number of situations you could be in after the first shot is <strong>4</strong>.</p>
@@ -80,7 +103,23 @@ Diagram of revolver chamber. The red circles are bullets.</div></p>
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

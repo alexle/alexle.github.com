@@ -3,7 +3,7 @@ GPO!
 
 The day has finally come. I now exist in the google universe.
 
-<img src="/static/alex_gpo.jpg" width="580" height="360" style="border:1px solid" />
+<img class="pure-img" src="/static/alex_gpo.jpg" width="580" height="360" style="border:1px solid" />
 
 Google page one - woohoo!
 

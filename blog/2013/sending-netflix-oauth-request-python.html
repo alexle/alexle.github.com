@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>Sending Netflix OAuth Requests With Python</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>Sending Netflix OAuth Requests With Python</h2>
+      <h1>Sending Netflix OAuth Requests With Python</h1>
    </div>
 
    <p class="post_date">
@@ -62,12 +85,12 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 .PreProc { color: #cd5c5c; }
 </style>
 
-<h3>Before You Start</h3>
+<h2>Before You Start</h2>
 <ol>
 <li>Register your application at <a href="http://developer.netflix.com/apps/register/">http://developer.netflix.com/apps/register/</a>. A unique consumer key and secret is provided to you afterwards. Keep this for later.</li>
 <li>Go over the Netflix <a href="http://developer.netflix.com/docs/Security">Authentication Overview</a>. This contains all the required info to make Netflix API requests. It also has nice information containing common REST API tasks you can send.</li>
 </ol>
-<h3>Performing A Non-Authenticated Request</h3>
+<h2>Performing A Non-Authenticated Request</h2>
 <p>The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It's a <em>non-authenticated</em> request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:</p>
 <blockquote>
 <p>http://api-public.netflix.com/catalog/titles/autocomplete?oauth_consumer_key=<strong>CONSUMER_KEY</strong>&amp;term=<strong>SEARCH_STRING</strong></p>
@@ -98,7 +121,7 @@ auto_xml = ET.fromstring(auto_data)
      names = i.attrib.get(<span class="Constant">'short'</span>)
 </pre>
 
-<h3>Performing An Authenticated Signed Request</h3>
+<h2>Performing An Authenticated Signed Request</h2>
 <p>The "catalog titles" search returns detailed information on a film and is an example of an <em>authenticated signed</em> request. It involves 4 steps prior to sending the request:</p>
 <ol>
 <li>Setting the base URL</li>
@@ -209,7 +232,23 @@ xml = ET.fromstring(title_data)
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

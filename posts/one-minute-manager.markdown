@@ -5,6 +5,6 @@ Finished this book last week and thought I would write a little about it for fut
 
 Overall, it's not a bad read. I like its simplistic view on what it feels is important to management. The rules are simple to understand and confront important issues such as honest communication and setting [SMART][1] goals. More importantly, the concepts apply to interactions beyond the workplace as well.
 
-<img src="/static/one_minute.jpg" alt="one minute manager game plan" />
+<img class="pure-img" src="/static/one_minute.jpg" alt="one minute manager game plan" />
 
 [1]: http://en.wikipedia.org/wiki/SMART_criteria

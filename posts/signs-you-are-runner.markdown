@@ -17,7 +17,7 @@ What were the signs that let you know you were finally a runner? Here is my list
 
 6. You know the mileage (yes, mileage) on your running shoes. 
 
-      <a href="/static/shoe_mileage.png"><img src="/static/shoe_mileage.png" alt="alex shoe mileage" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+      <a href="/static/shoe_mileage.png"><img class="pure-img" src="/static/shoe_mileage.png" alt="alex shoe mileage" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
       <div class="separator" style="clear: both; text-align: center;">
 It's been a wonderful 8 months Pure Drifts.</div>
 
@@ -31,7 +31,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 11. You have drawers in your house that look like this:
 
-      <a href="/static/gu_drawer.jpg"><img src="/static/gu_drawer.jpg" alt="alex gu drawer" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+      <a href="/static/gu_drawer.jpg"><img class="pure-img" src="/static/gu_drawer.jpg" alt="alex gu drawer" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
       <div class="separator" style="clear: both; text-align: center;">
 My top dresser drawer. And it looks so delicious.</div>
 

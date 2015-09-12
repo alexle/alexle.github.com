@@ -12,7 +12,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 .Comment { color: #87ceeb; }
 </style>
 
-###XML and RSS Element###
+##XML and RSS Element##
 
 To start, create a text file with an .xml extension. Add the `<xml>` declaration (must be the first line), followed by the `<rss>` tags which will encompass the rest of the RSS content.
 
@@ -25,7 +25,7 @@ To start, create a text file with an .xml extension. Add the `<xml>` declaration
 <span class="Identifier">&lt;/rss&gt;</span>
 </pre>
 
-###Channel Element###
+##Channel Element##
 
 The `<channel>` tag describes the characteristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the [RSS specification][2]. The channel has three required elements:
 
@@ -44,7 +44,7 @@ The `<channel>` tag describes the characteristics of the RSS feed. There are man
 <span class="Identifier">&lt;/channel&gt;</span>
 </pre>
 
-###Item Element###
+##Item Element##
 
 Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.
 
@@ -55,7 +55,7 @@ Now comes the real meat. Items are the individual "stories" or posts that are pu
    <span class="Identifier">&lt;/item&gt;</span>
 </pre>
 
-###End Result and Validation###
+##End Result and Validation##
 
 Put it all together and it becomes a valid, basic RSS feed. Notice there are a couple additions, such as `<atom:link>`, `<guid>`, and `<pubDate>`. This is to meet the [W3C Feed Validation Service][3] requirements, which all feeds should be run through to validate.
 
@@ -79,7 +79,7 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
 <span class="Identifier">&lt;/rss&gt;</span>
 </pre>
 
-###Automation###
+##Automation##
 
 While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site ([chisel][5]). I create a [Jinja2][6] template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
 

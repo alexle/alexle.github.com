@@ -9,21 +9,21 @@ Life passing me by is a big fear of mine. I don't want to look back a couple yea
 
 For me, 2013 was an amazing year. I overcame new challenges, visited new places, and had many great laughs and moments with my friends and family. It wasn't a walk in the park, but I'm glad for all the experiences, good and bad. Here are some personal highlights.
 
-###Marathons, Records, And 800 Miles###
+##Marathons, Records, And 800 Miles##
 
 In 2012, I set a goal to run 100 miles. I ended up completing 77 runs for [125 miles][4], far surpassing my expectations and igniting a new passion in the process.
 
 For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I had ever participated in, but I wasn't done yet. Four months later, I finished my [first marathon][3]! By the end of the year, I had amassed a total of **168 runs** for **804 miles**! What a difference a year makes.
 
-<a href="/static/2013-alex-running-summary.png"><img src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-alex-running-summary.png"><img class="pure-img" src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
-<a href="/static/2013-alex-running-records.jpg"><img src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
+<a href="/static/2013-alex-running-records.jpg"><img class="pure-img" src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
 
 Overall, it was a fantastic and fun year on the road. I never thought I would be saying this, but I've really grown to love running. It has become such a major part of my life, so much so that I want to **run forever**.
 
-###Career And Side Projects###
+##Career And Side Projects##
 
 2013 was an active and rewarding year for me at Seagate. I had the chance to work on some key projects for the company, one of which is creating some buzz right now. My proficiency in the code has increased greatly, and I'm more confident in code analysis and decisions.
 
@@ -31,9 +31,9 @@ Outside of work, I made progress on most of my side projects. The one I'm most p
 
 > Alex likes to run. However, he's very picky and only likes to run when the weather is optimal. This is an app to query current and future weather conditions to find the best time for Alex to run.
 
-<a href="/static/shouldalexrun_1.jpg"><img src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/shouldalexrun_1.jpg"><img class="pure-img" src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
-###Crossfit And Exercise###
+##Crossfit And Exercise##
 
 As I've gotten older, I've found it more and more difficult to maintain muscle mass. Cranking out curls and bench presses weren't cutting it anymore, unless I wanted to spend 5 days a week in the gym. No thanks. Last year, a friend suggested some basic [CrossFit exercises][8] to try and I've been hooked ever since.
 
@@ -41,7 +41,7 @@ Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit
 
 In other words, I superset every lift. I concentrate on compound exercises that use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
-<a href="/static/crossfit-games-2012-muscle-up.jpg"><img src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/crossfit-games-2012-muscle-up.jpg"><img class="pure-img" src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
 Kenneth Leverich and Rich Froning showing how it's done.</div>
 

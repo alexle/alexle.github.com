@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>Why I Moved My Blog To Github Pages</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>Why I Moved My Blog To Github Pages</h2>
+      <h1>Why I Moved My Blog To Github Pages</h1>
    </div>
 
    <p class="post_date">
@@ -53,10 +76,10 @@
       <p>In an earlier <a href="blog/2012/02/07/farewell-blogger.html">post</a>, I expressed my desire to write more. While Blogger was a good platform to start on, it wasn't conducive to my work flow nor management of the site. After much research, I settled on using <a href="https://github.com/dz/chisel">Chisel</a>, a static site generator that is only <strong>104 lines</strong> of python.</p>
 <p><a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">Static site generators</a> are simply programs that process raw content into an HTML website. This is generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?</p>
 <p>Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:</p>
-<h3>1. Simple, Minimal</h3>
+<h2>1. Simple, Minimal</h2>
 <p>A main appeal of moving to Github Pages is the simplicity of it. Everything is stripped down to the bare minimum. There's no bloat, no databases.</p>
 <p>Just simple text files that get converted to static HTML pages. Which in most cases, is fast!</p>
-<h3>2. WYSIWYG Editor Stinks</h3>
+<h2>2. WYSIWYG Editor Stinks</h2>
 <p>The WYSIWYG, or "what you see is what you get" editor, is the plain text box used in most blogging platforms for inputting text. Some people are ok with using it to edit posts, but the WYSIWYG box is extremely limiting for me. </p>
 <p>For example, Blogger's editor does not have:</p>
 <ul>
@@ -68,15 +91,15 @@
 <li>and much more..</li>
 </ul>
 <p>Additionally, the act of writing flows much easier using a markup language, which most static site generators use. <a href="http://tedwise.com/markdown/">MarkDown</a>, for example, can easily be converted into HTML. This lets me focus less on editing code/structures/syntax and more on writing text.</p>
-<h3>3. Control Of My Content</h3>
+<h2>3. Control Of My Content</h2>
 <p>The major advantage of having my website in static HTML files is that I <strong>own my content</strong>. The code that generates the site. The templates that shape my HTML/CSS. The contentof each blog post in raw text.</p>
 <p>This gives me the freedom of switching site generators or template languages. Or moving my site to another host (just upload static HTML). Could you migrate a blog from Workdpress over to Tumblr easily?</p>
 <p>When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a pain-staking migration process.</p>
-<h3>4. Additional Tools</h3>
+<h2>4. Additional Tools</h2>
 <p>Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files.</p>
 <p>Power search options via the command line can be used, such as searching my entire blog for any files (<em>find -iname ./</em>) or perhaps a specific group of text (<em>grep -r</em>). Want to change all instances of "volvo" to "Volvo"? It's a one-line operation.</p>
 <p>Having control over your data/files allows you endless levels of editing.</p>
-<h3>5. Chance For Redesign (Bottom Up)</h3>
+<h2>5. Chance For Redesign (Bottom Up)</h2>
 <p>Let's admit, building things is fun. So when it came to finding a new platform, I jumped at the chance to redesign my blog from scratch and learn some new tools.</p>
 <p>I decided on <a href="http://pages.github.com/">Github Pages</a> to host my blog. It's a great service that publishes content from a designated Github repository. The perks include:</p>
 <ol>
@@ -84,7 +107,7 @@
 <li>Redundancy - The source code resides on a central repository, which I can pull to any computer, anywhere. If Github goes down, I still have a copy on my local machine.</li>
 </ol>
 <p>Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.</p>
-<h3>6. Simplify Workflow</h3>
+<h2>6. Simplify Workflow</h2>
 <p>Maintaining static HTML files is not for everyone, but it greatly fits my style as a software developer. I love opening a plain text file and typing away, without any regards to HTML tags, having to be online, or my hands leaving the keyboard.</p>
 <p>I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.</p>
 <hr>
@@ -103,7 +126,23 @@
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

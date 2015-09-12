@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>Create An RSS Feed From Scratch</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>Create An RSS Feed From Scratch</h2>
+      <h1>Create An RSS Feed From Scratch</h1>
    </div>
 
    <p class="post_date">
@@ -60,7 +83,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 .Comment { color: #87ceeb; }
 </style>
 
-<h3>XML and RSS Element</h3>
+<h2>XML and RSS Element</h2>
 <p>To start, create a text file with an .xml extension. Add the <code>&lt;xml&gt;</code> declaration (must be the first line), followed by the <code>&lt;rss&gt;</code> tags which will encompass the rest of the RSS content.</p>
 <pre>
 <span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">&quot;utf-8&quot;</span><span class="Comment">?&gt;</span>
@@ -71,7 +94,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 <span class="Identifier">&lt;/rss&gt;</span>
 </pre>
 
-<h3>Channel Element</h3>
+<h2>Channel Element</h2>
 <p>The <code>&lt;channel&gt;</code> tag describes the characteristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the <a href="http://www.rssboard.org/rss-specification">RSS specification</a>. The channel has three required elements:</p>
 <ol>
 <li><code>&lt;title&gt;</code> - title of RSS feed</li>
@@ -89,7 +112,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 <span class="Identifier">&lt;/channel&gt;</span>
 </pre>
 
-<h3>Item Element</h3>
+<h2>Item Element</h2>
 <p>Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.</p>
 <pre>
    <span class="Identifier">&lt;</span><span class="Identifier">item</span><span class="Identifier">&gt;</span>
@@ -98,7 +121,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
    <span class="Identifier">&lt;/item&gt;</span>
 </pre>
 
-<h3>End Result and Validation</h3>
+<h2>End Result and Validation</h2>
 <p>Put it all together and it becomes a valid, basic RSS feed. Notice there are a couple additions, such as <code>&lt;atom:link&gt;</code>, <code>&lt;guid&gt;</code>, and <code>&lt;pubDate&gt;</code>. This is to meet the <a href="http://validator.w3.org/feed/">W3C Feed Validation Service</a> requirements, which all feeds should be run through to validate.</p>
 <pre>
 <span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">&quot;utf-8&quot;</span><span class="Comment">?&gt;</span>
@@ -120,7 +143,7 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 <span class="Identifier">&lt;/rss&gt;</span>
 </pre>
 
-<h3>Automation</h3>
+<h2>Automation</h2>
 <p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site (<a href="/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
 <pre>
 {% for entry in entries %}
@@ -147,7 +170,23 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

@@ -7,7 +7,7 @@ I knew the algorithm. I had reviewed and implemented it the night before. I even
 
 Like many other things in life, it's hard to see what all the fuss was about. Here is a break down of the algorithm and code:
 
-###1. Define A Node Class###
+##1. Define A Node Class##
 
 Every Node has a value and a pointer to the next node. When a node is first created, it's assigned a given value and does not point to any other node.
 
@@ -18,7 +18,7 @@ Every Node has a value and a pointer to the next node. When a node is first crea
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.next = None<br>
 </div>
 
-###2. Define A LinkedList Class###
+##2. Define A LinkedList Class##
 
 The LinkedList class will hold all our nodes. It's responsible for keeping track (via pointers) of the first (head) and last (tail) node in the list. It also contains functions to add/remove nodes and display the list. A linked list is empty when created; thus there are no "head" or "tail" nodes at this point.
 
@@ -35,7 +35,7 @@ The LinkedList class will hold all our nodes. It's responsible for keeping track
 &nbsp;&nbsp;def PrintList( self ):<br />
 </div>
 
-###3. The Add Node Method###
+##3. The Add Node Method##
 
 Adding a node to a linked list takes a couple steps.
 
@@ -56,7 +56,7 @@ Adding a node to a linked list takes a couple steps.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.tail = new_node<br>
 </div>
 
-###4. The Remove Node Method###
+##4. The Remove Node Method##
 
 To remove a node from the linked list, we must keep track of *two* nodes - the node we're attempting to remove, and the previous node before it. This is to be able to re-stitch the list back together after removing a node.
 
@@ -84,7 +84,7 @@ Note that there are two corner cases here. If the list only has one node, then t
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev.next = node.next<br>
 </div>
 
-###5. Printing The Linked List###
+##5. Printing The Linked List##
 
 To print the list, start at the head pointer. Traverse the list through each node's "next" pointer, displaying its data member, until the node is no longer null.<br />
 

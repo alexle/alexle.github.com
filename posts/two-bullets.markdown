@@ -11,17 +11,17 @@ He then asks you, do you want me to spin it again and fire or pull the trigger a
 
 I came across this question on Business Insider's "[20 Toughest Job Interview Questions][1]" this morning. While either choice is a lose-lose situation, it did give me pause on what my answer would be. Naturally, it would depend on which option had the greatest chance of survival. Here is my take on the problem:
 
-###"Spin It Again and Fire"###
+##"Spin It Again and Fire"##
 
 The probability of dying is simple to calculate here. There are 6 chambers in the revolver, with 2 chambers containing bullets. Thus, the probability of eating a bullet is 2 (number of given outcomes) divided by 6 (number of total outcomes) or **33%**.
 
 Note that by spinning the chambers again, the previous "survival" shot has no bearing on the next shot. Also, the fact that the bullets are in consecutive order does not affect the final odds, since it's just a ratio of expected occurrences to total possible occurrences.
 
-###"Pull The Trigger Again"###
+##"Pull The Trigger Again"##
 
 In this situation, however, the previous shot AND the fact that the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.
 
-<img src="/static/two_bullets.jpg" class="center" />
+<img class="pure-img" src="/static/two_bullets.jpg" class="center" />
 <div class="separator" style="clear: both; text-align: center;">
 Diagram of revolver chamber. The red circles are bullets.</div>
 

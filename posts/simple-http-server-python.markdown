@@ -3,7 +3,7 @@ How To Setup A Simple HTTP Server With Python
 
 There are times when you need to setup a quick web server to test your web applications. For basic applications that don't require database or server-side language support, Python has a [module][1] to run a mini web server on your system. It takes no time to configure and eats up very little system resources!
 
-###SimpleHTTPServer by command line###
+##SimpleHTTPServer by command line##
 
 Open up a terminal and go to the directory you would like to start the web server:
 
@@ -19,7 +19,7 @@ If you wish to change the port, it can be configured as an additional parameter:
 
 > $ python -m SimpleHTTPServer 8200
 
-###SimpleHTTPServer by python script###
+##SimpleHTTPServer by python script##
 
 The SimpleHTTPServer can also be started in a script. Here's a snippet of the code I use:
 

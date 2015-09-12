@@ -11,13 +11,13 @@ While the "full" is a (seemingly) logical next step from a half-marathon, my sit
 
 Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
 
-###Running Background###
+##Running Background##
 
 I started running 18 months ago. At the time, I could barely finish a mile. By the end of 2012, I had completed [125 miles][2] averaging 1.6 miles per run. Not bad!
 
 This year, my running has greatly improved. I'm able to run 3 miles comfortably now, and average 10 miles/week. On the days I don't run, I lift weights and do CrossFit exercises at the gym. I've completed one 5k, one 10k, and one [half-marathon][1].
 
-###Training Plan###
+##Training Plan##
 
 After some research online, I settled on an 18-week training plan by [Hal Higdon][3] - Novice 2.
 
@@ -51,13 +51,13 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>9</td><td>7</td><td>3</td><td>-</td><td>13</td></tr>
 </table>
 
-###Week 1 - 9mi LSD###
+##Week 1 - 9mi LSD##
 
 Overconfident and eager to prove myself, I came out too fast on the LSD. The first 6mi felt ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
 
 \* Lesson: Start slower. Bring water and GU next time to practice fueling.
 
-###Week 2 - 12mi LSD###
+##Week 2 - 12mi LSD##
 
 The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
@@ -67,7 +67,7 @@ Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my 
 
 \* Lesson: Don't wait too long to hydrate. Make note of nearby trash cans before you GU.
 
-###Week 3 - 13mi LSD###
+##Week 3 - 13mi LSD##
 
 With a new plan to hydrate earlier, I set out on the LSD. I took water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
 
@@ -75,7 +75,7 @@ I began to notice a trend with the LSD's. The final miles each week were really,
 
 \* Lesson: 10% rule is for reals and a good principle.
 
-###Week 4 - 14mi LSD###
+##Week 4 - 14mi LSD##
 
 This week's LSD was my first run over 2 hours. And the first time I ever hit a "wall".
 
@@ -87,7 +87,7 @@ I described my situation to a co-worker (does triathlons). His stance was when d
 
 \* Lesson: Fueling properly is extremely important. If you wait for your body, it's too late.
 
-###Week 5 - 15mi LSD###
+##Week 5 - 15mi LSD##
 
 The 15mi LSD was the most painful one yet. Calves, arches, hip flexors, IT band, and a bunch of other leg muscles I never knew existed were on fire. Is this what child birth feels like? It was the first time I had serious doubts about finishing the marathon.
 
@@ -95,7 +95,7 @@ I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and powerade 
 
 \* Lesson: When in pain, relax and focus on a couple steps at a time.
 
-###Week 6 - 16mi LSD###
+##Week 6 - 16mi LSD##
 
 Due to massive rainstorms and floods here in Colorado this week, I completed only two short runs. Extreme panic and uncertainty about the marathon has set in. 
 
@@ -105,7 +105,7 @@ What also may have helped was fueling more often. This time, I GU'ed twice (45 a
 
 \* Lesson: Training is a great time to try new things. Don't wait until race day.
 
-###Week 7 - <strike>17mi</strike> 20mi LSD###
+##Week 7 - <strike>17mi</strike> 20mi LSD##
 
 Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river. This week's LSD was one of those moments for me.
 
@@ -117,7 +117,7 @@ As for the run, it felt like everything finally clicked. I had a better feel of 
 
 \* Lesson: Running is as much a mental activity as it is a physical one. Be tough in both.
 
-###Week 8 - <strike>20mi</strike> 15mi LSD###
+##Week 8 - <strike>20mi</strike> 15mi LSD##
 
 With a 20mi run under my belt and two weeks left until race day, I started my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume. In my case, the decrease will be around 5-10% since I've been playing catch-up from the start.
 
@@ -125,7 +125,7 @@ Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my 
 
 \* Lesson: Zero-drop shoes are not for newbies. Give yourself time to adjust to them.
 
-###Week 9 - 13mi LSD###
+##Week 9 - 13mi LSD##
 
 I had mixed emotions approaching my last week of training. Relieved to make it through the 9 weeks intact. Thrilled with the progress I made. Yet, sad that it was over. A part of me had grown accustomed to the weekly LSDs and the challenges each week presented. What was I going to do with my Saturdays now?
 

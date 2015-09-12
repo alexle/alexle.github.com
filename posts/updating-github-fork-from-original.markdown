@@ -3,7 +3,7 @@ Keeping A Github Fork Updated
 
 I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its original repository.
 
-###Setting up the Clone###
+##Setting up the Clone##
 
 If you haven't cloned your forked repository yet, do so with:
 
@@ -13,7 +13,7 @@ If you haven't cloned your forked repository yet, do so with:
 
 In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your fork, respectively.
 
-###Configuring the Upstream###
+##Configuring the Upstream##
 
 Add another remote repository, one that points to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
 
@@ -21,7 +21,7 @@ Add another remote repository, one that points to the original repository. It ca
 
 Your remote repositories can be viewed with "git remote -v". Note that there should already be an "origin" remote target in your fork.
 
-###Updating the Fork###
+##Updating the Fork##
 
 To pull changes from the main repository into your forked repository:
 

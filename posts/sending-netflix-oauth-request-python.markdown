@@ -15,12 +15,12 @@ pre { font-family: monospace; color: #ffffff; background-color: #333333; }
 .PreProc { color: #cd5c5c; }
 </style>
 
-###Before You Start###
+##Before You Start##
 
 1. Register your application at [http://developer.netflix.com/apps/register/][4]. A unique consumer key and secret is provided to you afterwards. Keep this for later.
 2. Go over the Netflix [Authentication Overview][3]. This contains all the required info to make Netflix API requests. It also has nice information containing common REST API tasks you can send.
 
-###Performing A Non-Authenticated Request###
+##Performing A Non-Authenticated Request##
 
 The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It's a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
 
@@ -54,7 +54,7 @@ auto_xml = ET.fromstring(auto_data)
      names = i.attrib.get(<span class="Constant">'short'</span>)
 </pre>
 
-###Performing An Authenticated Signed Request###
+##Performing An Authenticated Signed Request##
 
 The "catalog titles" search returns detailed information on a film and is an example of an *authenticated signed* request. It involves 4 steps prior to sending the request:
 

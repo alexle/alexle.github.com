@@ -3,45 +3,19 @@
 {% set title = "Alex Le" %}
 
 {% block main %}
-   <h2>Blog</h2>
    {% for entry in entries %}
-   <div class="home_post">
-      <div class="home_title">
-         <a href="blog/{{ entry.url }}" class="home_title">{{ entry.title }}</a>
+   <div class="home-post">
+      <div class="home-title">
+         <h3><a href="blog/{{ entry.url }}" class="home-title">{{ entry.title }}</a></h3>
       </div>
-      <div class="home_date">
+      <div class="home-date">
          {{ entry.pretty_date }}
       </div>
-      <br clear="all">
+      <hr class="hr-post">
    </div>
    {% endfor %}
 
-   <div class="home_post">
-      <a href="/blog/archives.html" class="home_title">Show More..</a>
-   </div>
-   <br><br>
-   <h2>Info</h2><br>
-   <div class="home_post">
-      I live in Colorado, write firmware for disc drives, and try to learn something new every day.
-      I like to read, work out, and tinker with new technology and side projects.<br><br>
-
-      <footer>
-         <div id="find_me">
-            <h4>Find me on:</h4>
-            <div id="social_buttons">
-               <a href="https://twitter.com/alextrle" title="Twitter" target="_blank"><img src="/static/twitter-black.png" alt="alex le twitter" class="thumb_pic" /></a>
-               <a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank"><img src="/static/linkedin-black.png" alt="alex le linkedin" class="thumb_pic" /></a>
-               <a href="https://github.com/alexle" title="Github" target="_blank"><img src="/static/github-black.png" alt="alex le github" class="thumb_pic" /></a>
-               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"><img src="/static/google-plus-black.png" alt="alex le google plus" class="thumb_pic" /></a>
-               <a href="/feed.xml" title="Subscribe RSS" target="_blank"><img src="/static/rss-black.png" alt="alexanderle.com rss" class="thumb_pic" /></a>
-            </div>
-         </div>
-         <div id="contact_me">
-            <h4>Contact me:</h4>
-            <br>
-            <a href="mailto:alex.csm@gmail.com" class="home_title">alex.csm@gmail.com</a>
-         </div>
-      </footer>
-   </div>
+   <br><a href="/blog/archives.html">View Blog Archive &rarr;</a>
+   
 {% endblock %}
 

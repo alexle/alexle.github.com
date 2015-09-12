@@ -7,13 +7,13 @@ In an earlier [post][1], I expressed my desire to write more. While Blogger was 
 
 Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:
 
-###1. Simple, Minimal###
+##1. Simple, Minimal##
 
 A main appeal of moving to Github Pages is the simplicity of it. Everything is stripped down to the bare minimum. There's no bloat, no databases.
 
 Just simple text files that get converted to static HTML pages. Which in most cases, is fast!
 
-###2. WYSIWYG Editor Stinks###
+##2. WYSIWYG Editor Stinks##
 
 The WYSIWYG, or "what you see is what you get" editor, is the plain text box used in most blogging platforms for inputting text. Some people are ok with using it to edit posts, but the WYSIWYG box is extremely limiting for me. 
 
@@ -28,7 +28,7 @@ For example, Blogger's editor does not have:
 
 Additionally, the act of writing flows much easier using a markup language, which most static site generators use. [MarkDown][5], for example, can easily be converted into HTML. This lets me focus less on editing code/structures/syntax and more on writing text.
 
-###3. Control Of My Content###
+##3. Control Of My Content##
 
 The major advantage of having my website in static HTML files is that I **own my content**. The code that generates the site. The templates that shape my HTML/CSS. The contentof each blog post in raw text.
 
@@ -36,7 +36,7 @@ This gives me the freedom of switching site generators or template languages. Or
 
 When Posterous went down, its users lost their settings, page layouts, blog links, and comments. The only data they could salvage were the words in their blog posts, but even that involved a pain-staking migration process.
 
-###4. Additional Tools###
+##4. Additional Tools##
 
 Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files.
 
@@ -44,7 +44,7 @@ Power search options via the command line can be used, such as searching my enti
 
 Having control over your data/files allows you endless levels of editing.
 
-###5. Chance For Redesign (Bottom Up)###
+##5. Chance For Redesign (Bottom Up)##
 
 Let's admit, building things is fun. So when it came to finding a new platform, I jumped at the chance to redesign my blog from scratch and learn some new tools.
 
@@ -55,7 +55,7 @@ I decided on [Github Pages][2] to host my blog. It's a great service that publis
 
 Designing the HTML+CSS was a fun experience as well. The layout is much more simple and pleasing to me now.  And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.
 
-###6. Simplify Workflow###
+##6. Simplify Workflow##
 
 Maintaining static HTML files is not for everyone, but it greatly fits my style as a software developer. I love opening a plain text file and typing away, without any regards to HTML tags, having to be online, or my hands leaving the keyboard.
 

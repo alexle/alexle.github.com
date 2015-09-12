@@ -5,6 +5,7 @@
    <meta charset="utf-8">
    <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+   <meta name="description" content="Alex Le's Blog on software, minimalism, running, and other random thoughts.">
    <title>My .Vimrc Configuration</title>
 
    <!-- Google Analytics -->
@@ -20,29 +21,51 @@
       })();
    </script>
       
+   <!-- Pure -->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+   
+   <!-- Javascript and Stylesheets -->
    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-   <link rel="stylesheet" type="text/css" href="/css/index.css">
-   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" media="screen" />
+   <link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/feed.xml">
 
    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" media="screen" />
    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-   <div id="wrapper">
-   <div id="header">
-      <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile_pic"></a>
-      <h1 class="header_style">Alex Le</h1><br>
-      <h3 class="header_style">Firmware Engineer | Minimalist | Improving Runner</h3>
-   </div>
-   <br clear="all">
+<div id="wrapper">
+<div id="layout" class="pure-g">
+   <div class="sidebar pure-u-1 pure-u-md-1-5">
+      <div class="header">
+         <a href="/"><img src="/static/alex_le_profile.jpg" alt="alex le" class="profile-pic"></a>
+         <h1 class="brand-title">Alex Le</h1>
 
-   <article>
-      
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a class="pure-button" href="/about.html">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/blog/archives.html">BLOG</a>
+               </li>
+               <li class="nav-item">
+                  <a class="pure-button" href="/feed.xml">RSS</a>
+               </li>
+            </ul>
+         </nav>
+      </div> <!-- end header -->
+   </div> <!-- end sidebar -->
+
+   <div class="content pure-u-1 pure-u-md-4-5">
+      <!-- A wrapper for content -->
+      <article>
+         
 <div class="post">
    <div class="post_title">
-      <h2>My .Vimrc Configuration</h2>
+      <h1>My .Vimrc Configuration</h1>
    </div>
 
    <p class="post_date">
@@ -52,27 +75,27 @@
    <p class="post_content">
       <p><a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">VIM</a> is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an <strong>efficient</strong> manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.</p>
 <p>The .vimrc is the configuration file. I consider <a href="https://github.com/alexle/vimrc/blob/master/.vimrc">my .vimrc</a> pretty basic and a good starting point for beginners to VIM. I would suggest to anyone editing their .vimrc to understand each setting before using them. Here are a few of my favorite settings:</p>
-<h3>Remap Command Mode</h3>
+<h2>Remap Command Mode</h2>
 <p><div id="code">
 <font color="#f0e68c"><b>nnoremap</b></font>&nbsp;;&nbsp;:<br>
 </div></p>
 <p>The nnoremap setting remaps : to ; in normal mode and thus, saves a key stroke (shift + ;) when entering command mode. It seems trivial, but when a file is saved a 100 times in a day, it adds up.</p>
-<h3>Remap &lt;esc&gt; to jj</h3>
+<h2>Remap &lt;esc&gt; to jj</h2>
 <p><div id="code">
 <font color="#f0e68c"><b>inoremap</b></font>&nbsp;jj&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">esc</font><font color="#ffdead">&gt;</font><br>
 </div></p>
 <p>Similar to the setting above, this setting remaps the often-used &lt;esc&gt; key to jj key press combo. It's pretty rare for code or text to contain the letters "jj" in succession. Now, a simple jj tap will bring VIM out of insert mode.</p>
-<h3>Map &lt;leader&gt; key</h3>
+<h2>Map &lt;leader&gt; key</h2>
 <p><div id="code">
 <font color="#f0e68c"><b>let</b></font>&nbsp;mapleader&nbsp;<font color="#f0e68c"><b>=</b></font>&nbsp;<font color="#ffa0a0">&quot;,&quot;</font><br>
 </div></p>
 <p>The &lt;leader&gt; key is your own personal modifier key and is default as . This setting allows for easier usage of <leader> macros.</p>
-<h3>Map NERDTree toggle to &lt;leader&gt;</h3>
+<h2>Map NERDTree toggle to &lt;leader&gt;</h2>
 <p><div id="code">
 <font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>n&nbsp;:NERDTreeToggle<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font><br>
 </div></p>
 <p>This allows me to map the &lt;leader&gt; key in conjunction with n to quickly toggle <a href="http://www.vim.org/scripts/script.php?script_id=1658">NERDTree</a>. NERDTree is a VIM plugin used to navigate and control the files in a workspace easier.</p>
-<h3>Add Google Search to VIM command line</h3>
+<h2>Add Google Search to VIM command line</h2>
 <p><div id="code">
 <font color="#87ceeb">&quot; key mapping for google search</font><br>
 <font color="#f0e68c"><b>function</b></font>! Google<font color="#ffdead">()</font><br>
@@ -84,7 +107,7 @@
 <font color="#f0e68c"><b>map</b></font>&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">leader</font><font color="#ffdead">&gt;</font>g&nbsp;<font color="#ffdead">&lt;</font><font color="#ffdead">ESC</font><font color="#ffdead">&gt;</font>:! /usr/bin/open -a &quot;/Applications/Google Chrome.app&quot; '<a href="https://google.com/search?q=">https://google.com/search?q=</a><font color="#ffdead">&lt;</font><font color="#ffdead">C-R</font><font color="#ffdead">&gt;</font>=Google()<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font>'<font color="#ffdead">&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;&lt;</font><font color="#ffdead">CR</font><font color="#ffdead">&gt;</font>
 </div></p>
 <p>With this macro, typing &lt;leader>g brings up the prompt "Google:". Once a search string is entered, a web browser will open (or tab if one is already opened) with a Google search of the string. This is great for those moments when I want to quickly look something up without having to locate my web browswer.</p>
-<h3>Toggle VIM Blog Mode</h3>
+<h2>Toggle VIM Blog Mode</h2>
 <p><div id="code">
 <font color="#87ceeb">&quot; macro for blog writing</font><br>
 <font color="#f0e68c"><b>function</b></font>&nbsp;ToggleBlog<font color="#ffdead">()</font><br>
@@ -134,7 +157,23 @@
    </p>
 </div>
 
-   </article>
-   </div>
+      </article>
+
+      <div class="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul>
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="http://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+            </ul>
+         </div>
+      </div> <!-- end footer -->
+
+   </div> <!-- end content -->
+
+</div><!-- end layout -->
+</div><!-- end wrapper -->
+
 </body>
 </html>

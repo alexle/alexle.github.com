@@ -9,7 +9,7 @@ All in all, it was a busy, fun, and educational month. While I didn't make much 
 * Helped with field day for 30+ kids
 * Fixed up dad's 19 yr old rode bike
 
-<img src="/static/fuji_bike.jpg" height="320" width"480" />
+<img class="pure-img" src="/static/fuji_bike.jpg" height="320" width"480" />
 
 See you on the road!
 

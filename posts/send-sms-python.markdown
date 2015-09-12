@@ -5,14 +5,14 @@ How To Send A SMS Message With Python (easy way)
 
 Can it send text messages? You betcha! Here are the steps to send one easily:
 
-###Load SMTP Module###
+##Load SMTP Module##
 SMTP (simple mail transfer protocol) is the most common protocol for sending e-mail between mail servers. This protocol will be used to send the text message. Fortunately, Python includes a nice library of its basic functions in *smtplib*.
 
 <div id="code">
 <font color="#cd5c5c">import</font>&nbsp;smtplib<br>
 </div>
 
-###Connect to Gmail SMTP Server###
+##Connect to Gmail SMTP Server##
 Next, a secure session with Gmail's outgoing SMTP server needs to be established. A connection can be made with either TLS or SSL. In this example, the STARTTLS connection is used (port 587). The session is complete with the credentials of a valid Gmail account.
 
 <div id="code">
@@ -21,12 +21,12 @@ server.starttls()<br>
 server.login( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;gmail_address&gt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">&lt;gmail_password&gt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;)<br>
 </div>
 
-###Select Phone Destination###
+##Select Phone Destination##
 Now the program is ready to send e-mail. The text message will be sent by taking advantage of each mobile carrier's e-mail to SMS gateway.
 
 For example, to send a text message to a T-Mobile number, you would use &lt;number&gt;@tmomail.net. To send a text message to an AT&T number, you would use &lt;number&gt;@mms.att.net. Here is a list of other [mail-sms gateways][1].
 
-###Send The Message###
+##Send The Message##
 Once the phone destination has been identified, all that's left is to add the message and send the mail.
 
 <div id="code">

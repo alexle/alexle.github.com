@@ -5,7 +5,7 @@ I recently completed my first [CrossFit][1] workout of the day - "Karen". For th
 
 In Crossfit, the "workouts of the day", or [WODs][2], are predescribed exercises that are timed or scored. One WOD may score on how many rounds are completed within a certain time, while another WOD may score on how fast the rounds are completed. This is extremely addicting for those who enjoy measuring progress or have a competitive spirit \*cough\*.
 
-###Who is Karen?###
+##Who is Karen?##
 
 Karen consists of performing 150 [Wall Balls][3] for time. A 20lb medicine ball must be used, as well as hitting a target 10ft off the ground. Failure to hit the target or perform a full squat results in disqualification for that rep. Sound easy? Give it a try, it's been 3 days and I'm still wondering if my legs will ever heal from Karen.
 
@@ -15,7 +15,7 @@ Here is a video demonstrating Wall Balls and how to perform them correctly:
 
 This guy rocked it in 5:00, pretty impressive.
 
-###My Results and Impression###
+##My Results and Impression##
 
 I logged my Karen at 15:25. Unfortunately, I was only using a 16lb ball. And could only hit an 8ft target. So technically, I did not complete a full-Karen. More like a "mini-Karen".
 

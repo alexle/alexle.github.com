@@ -1,0 +1,190 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+
+/* BASE */
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 1.0em;
+   line-height: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: "Fjalla One", "Georgia", "Helvetica Neue", Arial, sans-serif;
+   text-rendering: optimizelegibility;
+   font-weight:normal;
+}
+
+h1 {
+   line-height: 1.5em;
+}
+
+h2 {
+   line-height: 1.2em;
+}
+
+a {
+   cursor: hand;
+}
+
+a:link, a:visited {
+   color: #0084B4;
+   text-decoration: none;
+}
+
+a:hover, a:focus {
+   text-decoration: underline;
+}
+
+a.home-title:link, a.home-title:visited {
+   color: #333;
+}
+
+a.home-title:hover {
+   color: #0084B4;
+   text-decoration: underline;
+}
+
+/* LAYOUT */
+#wrapper {
+}
+
+.pure-img-responsive {
+   max-width: 100%;
+   height: auto;
+}
+
+#layout {
+   padding: 0;
+}
+
+.header {
+   text-align: center;
+   top: auto;
+   margin: 2em 0 1em 0;
+}
+
+.sidebar {
+}
+
+.content {
+   margin: 0 0.8em 0.8em 0.8em;
+   padding: 0 1em 0 0;
+}
+
+.nav-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.nav-item {
+   display: inline-block;
+   *display: inline;
+   zoom: 1;
+}
+
+.nav-item a {
+   background: transparent;
+   border: 2px solid rgb(176, 202, 219);
+   margin-top: 1em;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   font-size: 85%;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+   border: 2px solid rgb(61, 146, 201);
+   text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+
+.footer .pure-menu a:hover, .footer .pure-menu a:focus {
+    background: none;
+}
+
+.footer .pure-menu-link {
+   font-size: 1em;
+}
+
+/* COMPONENTS */
+.post {
+}
+
+.post-title {
+   font-size: 2em;
+   color: #222;
+   margin-bottom: 0.2em;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+
+.home-date {
+   color: #888;
+}
+
+/***** CUSTOM *****/
+.profile-pic {
+   height: 110px;
+   width: 110px;
+   border: 0;
+   border-radius: 10px;
+}
+
+.brand-title, .brand-tagline {
+   margin: 0;
+}
+
+.brand-title {
+   font-size: 2.5em;
+}
+
+.hr-post {
+   border-top: 1px dashed #8c8b8b;
+   width: 100%;
+}
+
+.brand-tagline {
+   font-weight: 300;
+   color: rgb(176, 202, 219);
+}
+
+/* RESPONSIVE */
+@media (min-width: 48em) {
+   .content {
+      padding: 3em auto;
+      margin: 1em 1em 1em 25%;
+   }
+
+   .header {
+      text-align: right;
+   }
+
+   .sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+   }
+}
+

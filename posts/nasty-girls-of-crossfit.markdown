@@ -7,7 +7,7 @@ What are named CrossFit workouts? Some consider them "benchmark workouts" to mea
 
 Here is a list of the different "girl" workouts described on the [CrossFit][2] website. I've got my eyes on Cindy and Kelly for my next WODs. Give one a try.. if you're brave!
 
-###The "Nasty Girls"###
+##The "Nasty Girls"##
 
 __Amanda__ - 9/7/5 for time  
 Muscle Ups  
