@@ -1,7 +1,7 @@
 Why I Hate Running But Still Do It Anyways
 05-08-2012
 
-<img class="pure-img" src="/static/jogging_worst.jpg" border="0px" class="center" />
+<img class="pure-img center" src="/static/jogging_worst.jpg" border="0px"  />
 
 I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
 

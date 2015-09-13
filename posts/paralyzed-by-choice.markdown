@@ -3,7 +3,7 @@ Paralyzed By Choice
 
 This is a picture of my living room:
 
-<img class="pure-img" src="/static/living-room.jpg" width="560px" height="" alt="alex le living room" class="center" border="1px solid" />
+<img class="pure-img center" src="/static/living-room.jpg" width="560px" height="" alt="alex le living room"  border="1px solid" />
 
 Notice the void in the middle of the room? It's been like this for a while now. I've been meaning to get a coffee table for utility and extra storage space, but I haven't been able to decide on one. Each time I shop for one, I get overwhelmed by the number of options and wonder if I'm making the best selection.
 

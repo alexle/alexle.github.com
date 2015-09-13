@@ -7,7 +7,7 @@ Unfortunately, the excitement quickly faded. You see, up to that point, the fart
 
 Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
 
-<a href="/static/2013-half-nike-map.jpg"><img class="pure-img" src="/static/2013-half-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-half-nike-map.jpg"><img class="pure-img center" src="/static/2013-half-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 ##Pre-Race##
 
@@ -23,7 +23,7 @@ It seemed like an eternity in the corral. Thankfully, the "let's-get-ready-to-ru
 
 Each wave was staggered about 3 minutes. Honestly, it was the <u>best</u> start to a race I've ever been a part of. There were no tripping over anyone's feet, or packs to maneuver around. The streets were wide, with no bottle-neck turns early on.
 
-<a href="/static/2013-colfax-start.jpg"><img class="pure-img" src="/static/2013-colfax-start.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-colfax-start.jpg"><img class="pure-img center" src="/static/2013-colfax-start.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
 Photo courtesy of Denver Post.</div>
 
@@ -67,7 +67,7 @@ Crossing the finish line was overwhelming and surreal. For a second or two, I al
 
 The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and excitement truly helped me along the race, and made the entire experience that much better.
 
-<a href="/static/2013-colfax-alex-le-finish.jpg"><img class="pure-img" src="/static/2013-colfax-alex-le-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-colfax-alex-le-finish.jpg"><img class="pure-img center" src="/static/2013-colfax-alex-le-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
 Photo courtesy of the best support group ever.</div>
 
@@ -77,7 +77,7 @@ It was an honor to be a part of all the athletes who competed, and reminds me th
 
 In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
 
-<a href="/static/2013-colfax-alex-le-medal.jpg"><img class="pure-img" src="/static/2013-colfax-alex-le-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
+<a href="/static/2013-colfax-alex-le-medal.jpg"><img class="pure-img center" src="/static/2013-colfax-alex-le-medal.jpg" style="display:block; margin-left:auto; margin-right:auto;" height="560px" /></a>
 
 [1]: /blog/2012/100-miles.html
 [2]: http://www.runcolfax.org/

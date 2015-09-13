@@ -3,7 +3,7 @@ Rework "Inspiration"
 
 I finally got around to reading [Rework][1]. It's a book by [37signals][2] that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.
 
-<center><img class="pure-img" src="/static/rework.png" width="148" height="200" /></center>
+<center><img class="pure-img center" src="/static/rework.png" width="148" height="200" /></center>
 
 There are many great lessons in the book: Learning from mistakes is overrated, Good enough, Scratch your own itch, No time is no excuse, Planning is guessing, Start something. I could write a blog entry for each one.
 

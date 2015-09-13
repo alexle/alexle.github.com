@@ -1,7 +1,7 @@
 10 Tips For Hiking Your First 14er
 07-06-2012
 
-<a href="/static/alex_le_quandary_peak.jpg"><img class="pure-img" src="/static/alex_le_quandary_peak.jpg" alt="alex le 14er quandary peak" style="display:block; margin-left:auto; margin-right:auto;" width="100%" /></a>
+<a href="/static/alex_le_quandary_peak.jpg"><img class="pure-img center" src="/static/alex_le_quandary_peak.jpg" alt="alex le 14er quandary peak" style="display:block; margin-left:auto; margin-right:auto;" width="100%" /></a>
 
 Hiking up a 14er is an exhilarating experience. It's been a couple days since my [memorable hike][1] and I thought I'd share what worked for me on the trip and what I would do differently next time.
 

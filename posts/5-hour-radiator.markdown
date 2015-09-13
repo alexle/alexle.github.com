@@ -9,18 +9,18 @@ A couple hours later, that thought was replaced with "what were you thinking ale
 
 Old radiator, sorry I did not take better care of you.
 
-<a href="/static/rad1.jpg"><img class="pure-img" src="/static/rad1.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/rad1.jpg"><img class="pure-img center" src="/static/rad1.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 Transferring hoses from old radiator to new radiator.
 
-<a href="/static/rad2.jpg"><img class="pure-img" src="/static/rad2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/rad2.jpg"><img class="pure-img center" src="/static/rad2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 Bam! The new radiator ready to go to its new home.
 
-<a href="/static/rad3.jpg"><img class="pure-img" src="/static/rad3.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/rad3.jpg"><img class="pure-img center" src="/static/rad3.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 One last look before installation.
 
-<a href="/static/rad4.jpg"><img class="pure-img" src="/static/rad4.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/rad4.jpg"><img class="pure-img center" src="/static/rad4.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 
 [1]: http://www.youtube.com/watch?v=BPII3yh4btA

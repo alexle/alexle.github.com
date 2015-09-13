@@ -7,7 +7,7 @@ The most memorable moment for me, however, was [Michael Phelp's 100m butterfly][
 
 Phelps won by 1/100th of a second.
 
-<center><img class="pure-img" src="/static/phelps.jpg" width="320" height="242" /></center>
+<center><img class="pure-img center" src="/static/phelps.jpg" width="320" height="242" /></center>
 <div class="separator" style="clear: both; text-align: center;">
 Phelps (left) out reaching Cavic (right).</div>
 

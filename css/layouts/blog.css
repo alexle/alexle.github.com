@@ -19,7 +19,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
    font-family: "Fjalla One", "Georgia", "Helvetica Neue", Arial, sans-serif;
    text-rendering: optimizelegibility;
-   font-weight:normal;
+   font-weight: normal;
 }
 
 h1 {
@@ -54,6 +54,17 @@ a.home-title:hover {
 
 /* LAYOUT */
 #wrapper {
+   max-width: 49em; /* wrapper = sidebar + content */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sidebar {
+   max-width: 8em; /* wrapper = sidebar + content */
+}
+
+.content {
+   max-width: 41em; /* wrapper = sidebar + content */
 }
 
 .pure-img-responsive {
@@ -61,22 +72,13 @@ a.home-title:hover {
    height: auto;
 }
 
-#layout {
-   padding: 0;
-}
-
 .header {
    text-align: center;
    top: auto;
-   margin: 2em 0 1em 0;
+   margin-top: 2em;
 }
 
-.sidebar {
-}
-
-.content {
-   margin: 0 0.8em 0.8em 0.8em;
-   padding: 0 1em 0 0;
+#layout {
 }
 
 .nav-list {
@@ -94,7 +96,8 @@ a.home-title:hover {
 .nav-item a {
    background: transparent;
    border: 2px solid rgb(176, 202, 219);
-   margin-top: 1em;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
    letter-spacing: 0.05em;
    text-transform: uppercase;
    font-size: 85%;
@@ -110,12 +113,12 @@ a.home-title:hover {
 }
 
 .footer a {
-    color: #ccc;
-    font-size: 80%;
+   color: #ccc;
+   font-size: 80%;
 }
 
 .footer .pure-menu a:hover, .footer .pure-menu a:focus {
-    background: none;
+   background: none;
 }
 
 .footer .pure-menu-link {
@@ -127,21 +130,16 @@ a.home-title:hover {
 }
 
 .post-title {
-   font-size: 2em;
-   color: #222;
-   margin-bottom: 0.2em;
 }
 
-.post-category {
-    margin: 0 0.1em;
-    padding: 0.3em 1em;
-    color: #fff;
-    background: #999;
-    font-size: 80%;
-}
-
-.home-date {
+.home-date, .post-date {
    color: #888;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /***** CUSTOM *****/
@@ -161,30 +159,51 @@ a.home-title:hover {
 }
 
 .hr-post {
-   border-top: 1px dashed #8c8b8b;
-   width: 100%;
+   border-top: 1px dashed #E6E6E6;
 }
 
-.brand-tagline {
-   font-weight: 300;
-   color: rgb(176, 202, 219);
+blockquote {
+   font-family: courier;
+   border-left: 3px solid #ccc;
+   padding-left: 10px;
+   margin-left: 10px;
+   margin-right: 0px;
+   font-size: 14px;
+   overflow: auto;
 }
 
-/* RESPONSIVE */
+pre {
+   font-family: courier;
+   padding: 10px;
+   font-size: 13px;
+}
+
+/* RESPONSIVE -- RULES greater 48em */
 @media (min-width: 48em) {
-   .content {
-      padding: 3em auto;
-      margin: 1em 1em 1em 25%;
-   }
-
-   .header {
-      text-align: right;
-   }
-
    .sidebar {
       position: fixed;
       top: 0;
       bottom: 0;
+   }
+
+   .content {
+      margin: 1em;
+      margin-left: 10em;
+   }
+
+   .header {
+   }
+}
+
+/* RESPONSIVE -- RULES less than 48em */
+@media (max-width: 48em) {
+   .sidebar {
+      max-width: 100%;
+   }
+
+   .content {
+      margin: 0.8em;
+      margin-top: 0;
    }
 }
 

@@ -21,7 +21,7 @@ Note that by spinning the chambers again, the previous "survival" shot has no be
 
 In this situation, however, the previous shot AND the fact that the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.
 
-<img class="pure-img" src="/static/two_bullets.jpg" class="center" />
+<img class="pure-img center" src="/static/two_bullets.jpg"  />
 <div class="separator" style="clear: both; text-align: center;">
 Diagram of revolver chamber. The red circles are bullets.</div>
 
