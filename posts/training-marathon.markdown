@@ -1,15 +1,19 @@
 Training For A Marathon In 9 Weeks
 09-06-2013
 
-It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line. Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a *full marathon*.
+It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line.
+
+Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a *full marathon*.
+
+<img class="pure-img center" src="/static/bug_zapper.jpg" border="0px" />
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
 1. I'm a newbie runner. I haven't been running for very long.
-2. My base mileage is nowhere near high enough. Some guides state you should be running 20 miles/week *before you even start* your training.
+2. My current mileage is 10-15 mpw. That's nowhere near enough. Some guides state you should be running 20 miles/week *before you even start* your training.
 3. The race I signed up for was only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
-Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences and what I've learned along the way, in case it might prove useful to someone.
+Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences each week, in case it might prove useful to someone.
 
 ##Running Background##
 
@@ -19,7 +23,7 @@ This year, my running has greatly improved. I'm able to run 3 miles comfortably 
 
 ##Training Plan##
 
-After some research online, I settled on an 18-week training plan by [Hal Higdon][3] - Novice 2.
+After some research, I settled on an 18-week training plan by [Hal Higdon][3] - Novice 2.
 
 The key to this program is the "long slow distance" (LSD) run each week. These ramp up from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They're essential for training, since the runs build endurance and train the body to burn energy more efficiently.
 
@@ -107,11 +111,13 @@ What also may have helped was fueling more often. This time, I GU'ed twice (45 a
 
 ##Week 7 - <strike>17mi</strike> 20mi LSD##
 
-Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river. This week's LSD was one of those moments for me.
+Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river.
+
+This week's LSD was one of those moments for me.
 
 Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for 17 grueling miles. By the end, I eclipsed that distance and reached the magical distance of *20 miles*.
 
-This number is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond it is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
+This distance is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond it is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
 
 As for the run, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
 
@@ -121,7 +127,9 @@ As for the run, it felt like everything finally clicked. I had a better feel of 
 
 With a 20mi run under my belt and two weeks left until race day, I started my taper. This involves scaling down mileage to allow the body to recover from all the hard work thus far. Most runners recommend a 20-25% decrease in total weekly volume. In my case, the decrease will be around 5-10% since I've been playing catch-up from the start.
 
-Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my calves and feet, which I firmly believe is a result of my shoes now. After signing up for the marathon, I purchased a new pair of minimalist "zero-drop" shoes (no height change from heel to toe). Big mistake. This type of shoe encourages a more natural foot strike, but takes time and training to adjust to them. In retrospect, these were not ideal shoes for me to use for the race, given my time constraints and lack of marathon experience.
+Overall, the LSD was relaxing and slow. I did notice a recurring soreness in my calves and feet, which I firmly believe is a result of my shoes now. After signing up for the marathon, I purchased a new pair of minimalist "zero-drop" shoes (no height change from heel to toe).
+
+Big mistake. This type of shoe encourages a more natural foot strike, but takes time and training to adjust to them. In retrospect, these were not ideal shoes for me to use for the race, given my time constraints and lack of marathon experience.
 
 \* Lesson: Zero-drop shoes are not for newbies. Give yourself time to adjust to them.
 

@@ -9,17 +9,23 @@ a {
     color: rgb(61, 146, 201);
 }
 
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+   font-family: 'Open Sans', sans-serif;
+}
+
 /* BASE */
 body {
-   font-family: "Open Sans", sans-serif;
-   font-size: 1.0em;
-   line-height: 1.5em;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.05em;
+   font-weight: lighter;
+   line-height: 1.55em;
 }
 
 h1,h2,h3,h4,h5,h6 {
    font-family: "Fjalla One", "Georgia", "Helvetica Neue", Arial, sans-serif;
-   text-rendering: optimizelegibility;
    font-weight: normal;
+   text-rendering: optimizelegibility;
 }
 
 h1 {
@@ -40,21 +46,25 @@ a:link, a:visited {
 }
 
 a:hover, a:focus {
-   text-decoration: underline;
+   text-decoration: none;
 }
 
-a.home-title:link, a.home-title:visited {
+a.home-title-link:link, a.home-title-link:visited {
    color: #333;
 }
 
-a.home-title:hover {
+a.home-title-link:hover {
    color: #0084B4;
-   text-decoration: underline;
+   text-decoration: none;
+}
+
+h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
+   margin-bottom: 0.2em;
 }
 
 /* LAYOUT */
 #wrapper {
-   max-width: 49em; /* wrapper = sidebar + content */
+   max-width: 46em; /* wrapper = sidebar + content */
    margin-left: auto;
    margin-right: auto;
 }
@@ -64,7 +74,8 @@ a.home-title:hover {
 }
 
 .content {
-   max-width: 41em; /* wrapper = sidebar + content */
+   max-width: 38em; /* wrapper = sidebar + content */
+   margin: 0.8em;
 }
 
 .pure-img-responsive {
@@ -113,7 +124,7 @@ a.home-title:hover {
 }
 
 .footer a {
-   color: #ccc;
+   color: #aaa;
    font-size: 80%;
 }
 
@@ -130,10 +141,12 @@ a.home-title:hover {
 }
 
 .post-title {
+   font-size: 90%;
 }
 
 .home-date, .post-date {
    color: #888;
+   font-size: 80%;
 }
 
 img.center {
@@ -187,7 +200,6 @@ pre {
    }
 
    .content {
-      margin: 1em;
       margin-left: 10em;
    }
 
@@ -202,7 +214,6 @@ pre {
    }
 
    .content {
-      margin: 0.8em;
       margin-top: 0;
    }
 }
