@@ -110,7 +110,8 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
 }
 
 .footer {
-    text-align: center;
+   margin-top: 2em;
+   text-align: center;
 }
 
 .footer a {
