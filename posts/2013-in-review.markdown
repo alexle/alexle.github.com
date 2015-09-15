@@ -51,10 +51,9 @@ It took me 3 months just to do **one**, and 2 months more to work up to 10. A hu
 
 <hr width=75%>
 
-I have to admit, I'm a bit sad to be putting a close on 2013. At the same time, I'm excited for a fresh start and chance to see what limits I can reach in 2014. In fact, I've already signed up for another [marathon][6]. I have plans to take my career to the next level. I purchased a speed-rope last month and have begun work on my next CrossFit exercise, Double-Unders. What else will 2014 hold for me? I'm not sure, but I can't wait to find out.
+I have to admit, I'm a bit sad to be putting a close on 2013. At the same time, I'm excited for a fresh start and chance to see what limits I can reach in 2014. In fact, I've already signed up for another [marathon][6]. I have plans to take my career to the next level. I purchased a speed-rope last month and have begun work on my next CrossFit exercise, Double-Unders.
 
-Happy New Year everyone, let's make 2014 count.
-
+What else will 2014 hold for me? I'm not sure, but I can't wait to find out. Happy New Year everyone, let's make 2014 count.
 
 [1]: http://www.npr.org/blogs/krulwich/2010/02/01/122322542/why-does-time-fly-by-as-you-get-older
 [2]: /blog/2013/first-half-marathon.html
