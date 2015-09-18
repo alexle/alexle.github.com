@@ -217,5 +217,9 @@ pre {
 
    .header {
    }
+
+   h2.home-title {
+      font-size: 120%;
+   }
 }
 
