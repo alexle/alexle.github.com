@@ -199,6 +199,10 @@ pre {
       max-width: 38em; /* wrapper = sidebar + content */
       margin-left: 10em;
    }
+
+   h3.home-title {
+      font-size: 170%;
+   }
 }
 
 /* RESPONSIVE -- RULES less than 48em */
@@ -213,13 +217,6 @@ pre {
    .content {
       max-width: 100%;
       margin-top: 0;
-   }
-
-   .header {
-   }
-
-   h2.home-title {
-      font-size: 120%;
    }
 }
 
