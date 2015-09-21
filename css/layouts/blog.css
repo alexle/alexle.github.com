@@ -59,6 +59,10 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
    margin-bottom: 0.2em;
 }
 
+h1.archive-year {
+   text-align: center;
+}
+
 /* LAYOUT */
 #wrapper {
    margin: 0 auto;
