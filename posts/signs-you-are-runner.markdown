@@ -13,7 +13,7 @@ What were the signs that let you know you were finally a runner? Here is my list
 
 4. You can recite your 5K, 10K, Half-Marathon, and Full Marathon PR down to the exact second. What you did at work yesterday, however, draws a blank.
 
-5. You used to think runners were "crazy" while driving pass them in your car. Now you slow down to A) analyze their foot strike and form B) check out what shoes they're wearing and C) stare longingly, wishing you could be running with them.
+5. You used to think runners were "crazy" while driving pass them in your car. Now you slow down to A) analyze their foot strike and form B) check out what shoes and other gear they're wearing and C) stare longingly, wishing you could be running with them.
 
 6. You know the mileage (yes, mileage) on your running shoes. 
 
@@ -25,7 +25,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 8. When it's 42 degrees outside and you think to yourself, "Dang this is some nice tank-top and shorts weather".
 
-9. It feels like Christmas when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. 
+9. It makes your day when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. 
 
 10. Your definition of "appropriate style in public" changes. As in, you don't mind that your shorts are 3-4 inches shorter than before. Headbands and hydration belts don't look so weird anymore. And for the guys, you secretly look forward to opportunities to wear your running tights.
 
@@ -35,7 +35,7 @@ It's been a wonderful 8 months Pure Drifts.</div>
       <div class="separator" style="clear: both; text-align: center;">
 My top dresser drawer. And it looks so delicious.</div>
 
-12. You finish a run and double-over. People passing by don't comprehend why you voluntary do this to yourself. can't help but smile. That's when you know.
+12. You finish a run, double-over, gasping for air. People passing by don't comprehend why you voluntary do this to yourself. And all you can do is smile how great this is. That's when you know.
 
 <hr width="75%">
 
