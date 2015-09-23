@@ -221,5 +221,10 @@ pre {
       max-width: 100%;
       margin-top: 0;
    }
+
+   body {
+      font-size: 0.98em;
+      line-height: 1.50em;
+   }
 }
 
