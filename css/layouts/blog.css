@@ -18,8 +18,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-   font-family: "Fjalla One", "Georgia", "Helvetica Neue", Arial, sans-serif;
-   font-weight: normal;
+   font-weight: bold;
    text-rendering: optimizelegibility;
 }
 
@@ -152,8 +151,8 @@ img.center {
 
 /***** CUSTOM *****/
 .profile-pic {
-   height: 110px;
-   width: 110px;
+   height: 115px;
+   width: 115px;
    border: 0;
    border-radius: 10px;
 }
@@ -163,7 +162,7 @@ img.center {
 }
 
 .brand-title {
-   font-size: 2.5em;
+   font-size: 2.2em;
 }
 
 .hr-post {
@@ -189,12 +188,12 @@ pre {
 /* RESPONSIVE -- RULES greater 48em */
 @media (min-width: 48em) {
    #wrapper {
-      max-width: 46em; /* wrapper = sidebar + content */
+      max-width: 47em; /* wrapper = sidebar + content */
    }
 
    .sidebar {
       position: fixed;
-      max-width: 8em; /* wrapper = sidebar + content */
+      max-width: 9em; /* wrapper = sidebar + content */
       top: 0;
       bottom: 0;
    }
