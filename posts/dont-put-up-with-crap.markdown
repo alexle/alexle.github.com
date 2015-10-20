@@ -42,7 +42,7 @@ First, was replacing the old sneakers that hurt my feet. Next, came organizing t
 
 At work, I refactored a huge section of code that made me want to Dracarys it every time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
 
-Once you see crap in this light, it isn't hard to fight back. Here are some tips I found helpful:
+Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
 1. **Question Everything** - Every time something annoys you, make a concious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
@@ -50,6 +50,6 @@ Once you see crap in this light, it isn't hard to fight back. Here are some tips
 
 3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with this crap the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this crappy code.. again? No way!
 
-Life's too short to put up with crap. There's already enough of it out there.
+I can honestly say this simple act has added a level of productivity and cheer to my life. Life's too short to put up with crap. There's already enough of it out there.
 
 Let's not put up with anymore than we have to.
