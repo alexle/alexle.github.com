@@ -24,13 +24,13 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 ##We're All Guilty##
 
-Don't be too sure. Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies that have become so entrenched in our lives that we accept them as truths.
+Don't be too sure. Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies all around us. The tragedy is how entrenched they've become in our lives, to the point that we accept them as truths.
 
 Why do we allow this crap to accumulate over time and chip away at our pleasure in living?
 
 Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix dammit.
 
-Whatever the reason, the longer crap lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
+Whatever the reason, the longer these annoyances lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
 
 And that's where the problem lies. Not in that fact that crap exists and happens to us from time to time. But in why we constantly choose to put up with crap we have the power to eliminate.
 
@@ -44,11 +44,11 @@ At work, I refactored a huge section of code that made me want to Dracarys it ev
 
 Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
-1. **Question Everything** - Every time something annoys you, make a concious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
+1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
 2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more. 
 
-3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with this crap the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this crappy code.. again? No way!
+3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with this crap the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
 
 I can honestly say this simple act has added a level of productivity and cheer to my life. Life's too short to put up with crap. There's already enough of it out there.
 
