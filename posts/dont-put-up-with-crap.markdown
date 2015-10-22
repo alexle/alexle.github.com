@@ -26,13 +26,11 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 Don't be too sure. Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
 
-Why do we allow this crap to accumulate over time and chip away at our pleasure in living?
+And that's where the problem lies. Not in that fact that crap exists and happens to us from time to time. But in why we constantly choose to put up with crap we have the power to eliminate.
 
-Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix dammit.
+Why do we allow this happen? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix dammit.
 
 Whatever the reason, the longer these annoyances lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
-
-And that's where the problem lies. Not in that fact that crap exists and happens to us from time to time. But in why we constantly choose to put up with crap we have the power to eliminate.
 
 ##It Has To End##
 
