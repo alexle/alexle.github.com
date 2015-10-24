@@ -28,9 +28,9 @@ Don't be too sure. Odds are, if we looked closer at the annoyances we face each 
 
 And that's where the problem lies. Not in that fact that crap exists and happens to us from time to time. But in why we constantly choose to put up with crap we have the power to eliminate.
 
-Why do we allow this happen? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix dammit.
+Why do we allow this happen? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
 
-Whatever the reason, the longer these annoyances lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
+Whatever the reason, the longer an annoyance lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
 
 ##It Has To End##
 
