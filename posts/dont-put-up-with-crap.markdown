@@ -20,15 +20,15 @@ Perhaps the best way to explain it is through a story I heard at a conference re
 
 *"Gary, last night I had the best sleep in 3 years. I'm so relieved. On the other hand, I'm so damn pissed at myself for not doing this sooner. I don't know why I waited so long."*
 
-It's hard to believe Bob had put up with so many sleepless nights. It seems obvious to make a change or look for help right away. We all would, right?
+It's hard to believe Bob had put up with so many sleepless nights. It seems obvious to make a change or look for help right away. We all would, right? Don't be too sure.
 
 ##We're All Guilty##
 
-Don't be too sure. Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
+Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
 
-And that's where the problem lies. Not in that fact that crap exists and happens to us from time to time. But in why we constantly choose to put up with crap we have the power to eliminate.
+And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how numb we've become to all of it.
 
-Why do we allow this happen? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
+Why do we constantly choose to put up with crap we have the power to eliminate? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
 
 Whatever the reason, the longer an annoyance lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
 
@@ -46,7 +46,7 @@ Once you see crap in this light, it isn't hard to make changes. Here are some ti
 
 2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more. 
 
-3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with this crap the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
+3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with it the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
 
 I can honestly say this simple act has added a level of productivity and cheer to my life. Life's too short to put up with crap. There's already enough of it out there.
 
