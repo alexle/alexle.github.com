@@ -73,7 +73,7 @@ Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my 
 
 ##Week 3 - 13mi LSD##
 
-With a new plan to hydrate earlier, I set out on the LSD. I took water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt great. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it.
+THe plan this week was to hydrate earlier. I took water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt pretty good. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it. What's another 13 miles, I told myself.
 
 I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
 
@@ -83,11 +83,13 @@ I began to notice a trend with the LSD's. The final miles each week were really,
 
 This week's LSD was my first run over 2 hours. And the first time I ever hit a "wall".
 
-Essentially, hitting the wall is the point when your glycogen (stored energy) is depleted. Your legs turn to stone. Your pace slows to a crawl. Your body has nothing left in the tank. This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and extreme fatigue.
+Essentially, hitting the wall is the point when your glycogen (stored energy) is depleted. Your legs turn to stone. Your pace slows to a crawl. Your body has nothing left in the tank.
 
-I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was amazing, even though my stride length was less than that of a person walking. All my willpower was sapped out of me.
+This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and the urge to stop and cry like a baby.
 
-I described my situation to a co-worker (does triathlons). His stance was when doing endurance events, you must *force* yourself to take in carbohydrates, electrolytes, and sugars at regular intervals, even if you aren't hungry or thirsty. It takes time to process the fuel, so being proactive will allow the energy to be available when your body needs it.
+I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was incredible, even though my stride length was less than that of a person walking. All the willpower was sapped out of me.
+
+I described my situation to a co-worker who does triathlons. His stance was when doing endurance events, you must *force* yourself to take in carbohydrates, electrolytes, and sugars at regular intervals, even if you aren't hungry or thirsty. It takes time to process the fuel, so being proactive will allow the energy to be available when your body needs it.
 
 \* Lesson: Fueling properly is extremely important. If you wait for your body, it's too late.
 
@@ -121,7 +123,7 @@ This distance is important because for most runners, 20mi provides the right amo
 
 As for the run, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
 
-\* Lesson: Running is as much a mental activity as it is a physical one. Be tough in both.
+\* Lesson: Sometimes you're running against the wind. And sometimes the wind is at your back. When the latter happens, ride and make the most of it.
 
 ##Week 8 - <strike>20mi</strike> 15mi LSD##
 
