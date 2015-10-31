@@ -149,6 +149,10 @@ img.center {
    margin-right: auto;
 }
 
+.pure-button {
+   width: 7em;
+}
+
 /***** CUSTOM *****/
 .profile-pic {
    height: 115px;
@@ -215,6 +219,10 @@ pre {
 
    .sidebar {
       max-width: 100%;
+   }
+
+   .header {
+      margin-top: 1.4em;
    }
 
    .content {
