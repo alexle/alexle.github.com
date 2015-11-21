@@ -5,7 +5,7 @@ I never know what to do before races. Usually, I find a curb to sit down somewhe
 
 On October 11th, I found myself packed in a corral of the 2015 [Chicago Marathon][1]. And the main thought going through my head was:
 
-<center>**"What am I doing here?"**</center>
+<center>**"How did I end up here?"**</center>
 
 Here's a recap of my incredible Chicago Marathon experience.
 
