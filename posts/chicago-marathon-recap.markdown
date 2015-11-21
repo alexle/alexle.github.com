@@ -39,7 +39,7 @@ We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
-The next step was signing up for a pace group, something I had never tried before. The pace team informed me what their pacing strategy was and how they handled water stations. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
+The next step was signing up for a pace group, something I had never tried before. The pace team informed me what their strategy was and how they handled water stations. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
 
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
 
@@ -52,9 +52,9 @@ Ready to own Chicago!
 
 ##Goal and Strategy##
 
-The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to the finish again.
+The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
 
-When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I for sure wasn't going to leave with any regrets. 
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I wasn't going to leave with any regrets. 
 
 Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end. A 3:50 marathon is an **8:47 min/mi** pace.
 
@@ -205,13 +205,13 @@ All 3314 calories earned were spent with reckless abandon.
 
 ##Final Reflections##
 
-Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
-
-Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
+Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave an imprint on me.
 
 Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. It's about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
-I often remind myself that some miles are bad and some miles are good. You never know which one is coming, so savor the good ones when they come.
+Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
+
+I often remind myself that some miles will be bad and some miles will be good. You never know which one is coming, so savor the good ones when they come.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
