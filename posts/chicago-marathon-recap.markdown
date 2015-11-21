@@ -211,7 +211,7 @@ Training for and running a marathon is hard. Sometimes, it's so terrible I quest
 
 Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. It's about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
-I often remind myself that some miles are bad and some miles are good. You never know which one is coming, so savor the good ones when the come.
+I often remind myself that some miles are bad and some miles are good. You never know which one is coming, so savor the good ones when they come.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
