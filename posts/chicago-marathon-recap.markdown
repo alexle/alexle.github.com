@@ -29,7 +29,7 @@ The views from the boat were spectacular. My favorite was a building currently u
 <p>
 <img class="pure-img center" src="/static/chicago-tour-building.jpg" border="0px" />
 <div class="separator" style="clear: both; text-align: center;">
-View from the boat.
+Up close and personal from the boat.
 </div>
 </p>
 
@@ -54,7 +54,7 @@ Ready to own Chicago!
 
 The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to the finish again.
 
-When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was safe. This was a bucket-list race and I for sure wasn't going to leave with any regrets. 
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I for sure wasn't going to leave with any regrets. 
 
 Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end. A 3:50 marathon is an **8:47 min/mi** pace.
 
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel pretty strong. There's still quite a bit left in the tank. Maybe all the hill and elevation training from home is helping.
+Aside from my legs close to locking up, I feel pretty strong. There's quite a bit left in my tank. Maybe all the hill and elevation training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
