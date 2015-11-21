@@ -1,0 +1,224 @@
+2015 Chicago Marathon Recap
+11-21-2015
+
+I never know what to do before races. Usually, I find a curb to sit down somewhere and just think. Of the course ahead of me. Of how my body will feel at various check points.
+
+On October 11th, I found myself packed in a corral of the 2015 [Chicago Marathon][1]. And the main thought going through my head was:
+
+<center>**"What am I doing here?"**</center>
+
+Here's a recap of my incredible Chicago Marathon experience.
+
+##The Windy City!##
+
+We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Vetra passes. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work that weekend.
+
+<p>
+<img class="pure-img center" src="/static/chicago-ventra.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+My preciouuuus...
+</div>
+</p>
+
+Normally, I like to relax and be off my feet before a race. But this was my first time in Chicago and I wasn't wasting it. So we walked, explored, and did touristy things the whole day.
+
+The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was super knowledgable and made the experience fun, yet informative at the same time.
+
+The views from the boat were spectacular. My favorite was a building currently under construction. There was limited room at this location for a standard-sized building, so the architect designed the base to fit along the waterfront and simply expanded the upper levels. Ingenious.
+
+<p>
+<img class="pure-img center" src="/static/chicago-tour-building.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+View from the boat.
+</div>
+</p>
+
+##The Expo##
+
+We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With over 38,000 people running the marathon, I was prepared for a huge cluster mess inside.
+
+To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
+
+The next step was signing up for a pace group, something I had never tried before. The pace team informed me what their pacing strategy was and how they handled water stations. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
+
+With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
+
+<p>
+<img class="pure-img center" src="/static/chicago-alex-own.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+Ready to own Chicago!
+</div>
+</p>
+
+##Goal and Strategy##
+
+The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to the finish again.
+
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was safe. This was a bucket-list race and I for sure wasn't going to leave with any regrets. 
+
+Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end. A 3:50 marathon is an **8:47 min/mi** pace.
+
+##Pre-Race##
+
+<p>
+<img class="pure-img center" src="/static/chicago-gear.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+The race kit.
+</div>
+</p>
+
+Race day! I woke up around 5am and had a bagel with peanut butter washed down with 32oz of gatorade. In hindsight, I should have eaten more and drank less.
+
+The bus I took to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
+
+Unfortunately, the weather turned out as predicted. 14-17 mi/hr winds. A bit of chill in the morning, then warming to mid 70's rapidly. The Event Alert System level was YELLOW, which basically meant racing conditions were not ideal and to be careful.
+
+I found the 3:50 pace group in my corral and we bonded instantly. We made jokes. Shared nervous smiles. Talked about running and the weather. We all had a common goal, which united us in a strange way.
+
+##Miles 0 - 3.1 (8:45 min/mi)##
+
+The race is kind of crazy at the start, with everybody going out too fast and general chaos everywhere. 1/2 mile in, we go into a short tunnel and a bunch of people are relieving themselves on the side. I shouldn't have drank all that gatorade..
+
+I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
+
+To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. So much for my plan. It takes almost 3 miles and some 8:20's to catch up to the pace group. I hope this doesn't come back to haunt me later..
+
+<p>
+<img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+Photo courtesy of Chicago Marathon.
+</div>
+</p>
+
+##Miles 3.1 - 6.2 (8:44 min/mi)##
+
+Feels great to be back with the group and on pace again. Try to calm myself and settle in, adrenaline is high. The crowds are **insane**. Even though my iPod is turned up, the roars from the spectators drown out my music entirely at times.
+
+My GPS watch goes bananas early, probably from the tunnel or high-rise buildings. I can't trust the accuracy so I give up on it and resign to run the race naked.
+
+It's decently windy so I do my best to tuck in behind the pack and conserve as much energy as possible. The first GU goes down at mile 5.
+
+##Miles 6.2 - 9.3 (8:47 min/mi)##
+
+10k down, that was fast. The pace seems oddly easy, although how many people have had that same thought before gloriously blowing up in a race..
+
+The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". They chat almost the whole time, likely to keep everyone's mind off the pain to come.
+
+The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up. By the time I reach them, the next station is near and the cycle repeats. 
+
+##Miles 9.3 - 12.4 (8:44 min/mi)##
+
+Feeling loose and relaxed at this point. Enjoying the race and the crowd, have never seen cheering like this before. Still in awe at how many people are out watching.
+
+At mile 10, I wonder if I should switch gears. I throw out a quick surge to see how it feels. It's nice to stretch the legs, but the eagle isn't ready to leave the nest. I pop another GU and retreat back in the pace group.
+
+##Miles 12.4 - 15.5 (8:42 min/mi)##
+
+We reach the halfway point at **1:54:39**, about 36 seconds ahead of schedule. The group has thinned out a bit, but I still see a couple familiar faces.
+
+I'm chilling in front of the pack when one of the pace leaders makes a speech. Something about how great this race is. How well we're doing. How this moment is something we should remember forever.
+
+Then, out of thin air, he pulls out a **16oz Pabst Blue Ribbon**.
+
+<p>
+<img class="pure-img center" src="/static/pabst-blue-ribbon.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+Yes, the lager with 4.7% ABV.
+</div>
+</p>
+
+He asks who will be the first to drink. Everyone is silent, probably from shock. One guy finally volunteers and takes a swig. Who's next, the pace leader asks.
+
+Oh why not. I cup my hands and he pours a generous amount in them. I slurp every drop of the delicious liquid. So this is what unicorn tears taste like.
+
+I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. Another GU at mile 14. Forcing myself to take as many calories as I can at each stop.
+
+##Miles 15.5 - 18.6 (8:50 min/mi)##
+
+It's starting to get hot. I leave each aid station with 2 cups of water - one to pour over my head, and one to splash on my face and body.
+
+A quick body scan at mile 16 shows no signs of cramping or tightness. Body feels solid and full of energy. I make the decision to drop the group. It's go-time.
+
+...
+
+At mile 18, I stop for water and my heart is crushed when I see the 3:50 pace group run right pass me. What just happened? My pace must be slipping, crap.
+
+##Miles 18.6 - 21.7 (8:41 min/mi)##
+
+I catch back up to the group and reaccess the situation. The good news is I haven't cramped yet. It's the farthest I've ever gone without cramps. The bad news is I don't know how long it'll last.
+
+The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push it down. Don't let me down now muscles.
+
+I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. At mile 20, I hit the NOS. It's **go-time** (for reals).
+
+##Miles 21.7 - 24.8 (8:05 min/mi)##
+
+Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got this race. The only question is what the finish will be like.
+
+My stomach feels like garbage. I have so much GU and liquid in me that I stop taking fluids. At one point, I actually vomit a little gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
+
+I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn up Michigan Ave and see tall buildings in the distance. It's a straight shot back to downtown from here. My left hamstring is one careless extension away from knotting up. Just hold it together.
+
+##Miles 24.8 - 26.2 (7:45 min/mi)##
+
+Aside from my legs close to locking up, I feel pretty strong. There's still quite a bit left in the tank. Maybe all the hill and elevation training from home is helping.
+
+I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
+
+At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the "dreaded" uphill many people warn about at the end.
+
+It takes less than 10 seconds to charge up the bridge. Wait, that's it? I guess Chicago and Denver have different definitions of what a hill is =)
+
+##The Finish##
+
+I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**, a 4 minute negative. Never in my wildest dreams did I think I could run this fast. My last 1/2 mile splits end up being 7:49, 7:25, 7:11.
+
+I get my medal and almost cry. What a journey. It was worth every second of pain and more.
+
+Since most spectators aren't allowed at the finish, I make my way to the designated area to meet up with my pit crew. I'm scanning the crowds for familiar faces. When I see mine floating on a stick.
+
+<p>
+<img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+Me and my awesome pit crew.
+</div>
+</p>
+
+##Impressions##
+
+1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or the massive energy from the spectators. The entire city itself hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
+
+2. The volunteers, event crew, and security personnel do one heck of a job in making this event possible. I can't praise them enough. Everyone was so nice, encouraging, and helpful. I felt like an elite runner or celebrity at times.
+
+3. Running with a pace group was **awesome**. I would definitely do it again, especially if the pacers were anything like the 3:50 group. It's *absurd* how accurate their splits were. They knew the course very well, down to the best paths to take for maximum shade.
+
+4. The course is pancake-flat and very fast. This was my first race outside Colorado and it felt weird to run that far of distance without any elevation changes. It's a unique experience if you aren't use to it.
+
+5. It's pretty difficult to run the tangents at the Chicago Marathon. Mainly due to the crowds. Parts of the race get really congested as well. My watch bugged out and had me at 27.0 miles, but I suspect it was more around 26.5-26.6 miles. Keep this in mind if you're shooting for a time goal.
+
+<p>
+<img class="pure-img center" src="/static/chicago-marathon-map.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+All 3314 calories earned were spent with reckless abandon.
+</div>
+</p>
+
+##Final Reflections##
+
+Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
+
+Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
+
+Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. It's about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+
+I often remind myself that some miles are bad and some miles are good. You never know which one is coming, so savor the good ones when the come.
+
+<p>
+<img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
+Hanging out at The Bean, all smiles.
+</div>
+</p>
+
+[1]: https://www.chicagomarathon.com/
+[2]: https://www.architecture.org/experience-caf/tours/detail/chicago-architecture-foundation-river-cruise-aboard-chicagos-first-lady-cruises/
