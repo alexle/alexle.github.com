@@ -81,7 +81,7 @@ The race is kind of crazy at the start, with everybody going out too fast and ge
 
 I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
-To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. So much for my plan. It takes almost 3 miles and some 8:20's to catch up to the pace group. I hope this doesn't come back to haunt me later..
+To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. So much for my plan. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 <p>
 <img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel pretty strong. There's quite a bit left in my tank. Maybe all the hill and elevation training from home is helping.
+Aside from my legs close to locking up, I feel pretty strong. Still quite a bit left in my tank. Maybe all the hill and elevation training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
@@ -205,9 +205,9 @@ All 3314 calories earned were spent with reckless abandon.
 
 ##Final Reflections##
 
-Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave an imprint on me.
+Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave its imprint in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. It's about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
