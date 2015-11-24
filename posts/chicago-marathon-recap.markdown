@@ -11,7 +11,7 @@ Here's a recap of my incredible Chicago Marathon experience.
 
 ##The Windy City!##
 
-We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Vetra passes. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work that weekend.
+We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work that weekend.
 
 <p>
 <img class="pure-img center" src="/static/chicago-ventra.jpg" border="0px" />
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel pretty strong. Still quite a bit left in my tank. Maybe all the hill and elevation training from home is helping.
+Aside from my legs close to locking up, I feel pretty strong. Still quite a bit left in my tank. Maybe all the hill and altitude training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
@@ -186,7 +186,7 @@ Me and my awesome pit crew.
 
 ##Impressions##
 
-1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or the massive energy from the spectators. The entire city itself hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
+1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or the massive energy from the spectators. The entire city hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
 
 2. The volunteers, event crew, and security personnel do one heck of a job in making this event possible. I can't praise them enough. Everyone was so nice, encouraging, and helpful. I felt like an elite runner or celebrity at times.
 
@@ -211,7 +211,7 @@ Even though I'm thrilled with my result, I've come to realize that marathons are
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
-I often remind myself that some miles will be bad and some miles will be good. You never know which one is coming, so savor the good ones when they come.
+I often remind myself that some miles will be bad and some miles will be good. You never know which one is coming, so smile and savor the good ones when they come.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
