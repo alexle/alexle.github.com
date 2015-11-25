@@ -81,7 +81,7 @@ The race is kind of crazy at the start, with everybody going out too fast and ge
 
 I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
-To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. So much for my plan. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
+To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 <p>
 <img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
@@ -116,7 +116,7 @@ At mile 10, I wonder if I should switch gears. I throw out a quick surge to see 
 
 We reach the halfway point at **1:54:39**, about 36 seconds ahead of schedule. The group has thinned out a bit, but I still see a couple familiar faces.
 
-I'm chilling in front of the pack when one of the pace leaders makes a speech. Something about how great this race is. How well we're doing. How this moment is something we should remember forever.
+I'm chilling in front of the pack when one of the pace leaders starts saying how great this race is. How well we're doing. How this moment is something we should remember forever.
 
 Then, out of thin air, he pulls out a **16oz Pabst Blue Ribbon**.
 
@@ -205,7 +205,7 @@ All 3314 calories earned were spent with reckless abandon.
 
 ##Final Reflections##
 
-Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave its imprint in me.
+Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
 
 Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
