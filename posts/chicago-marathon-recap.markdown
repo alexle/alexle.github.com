@@ -211,7 +211,7 @@ Even though I'm thrilled with my result, I've come to realize that marathons are
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
-I often remind myself that some miles will be bad and some miles will be good. You never know which one is coming, so smile and savor the good ones when they come.
+Remember that some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know I did.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
