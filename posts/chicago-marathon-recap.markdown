@@ -190,7 +190,7 @@ Me and my awesome pit crew.
 
 2. The volunteers, event crew, and security personnel do one heck of a job in making this event possible. I can't praise them enough. Everyone was so nice, encouraging, and helpful. I felt like an elite runner or celebrity at times.
 
-3. Running with a pace group was **awesome**. I would definitely do it again, especially if the pacers were anything like the 3:50 group. It's *absurd* how accurate their splits were. They knew the course very well, down to the best paths to take for maximum shade.
+3. Running with a pace group was **awesome**. I would definitely do it again, especially if the pacers were anything like the 3:50 group. It's absurd how accurate their splits were. They knew the course very well, down to the best paths to take for maximum shade.
 
 4. The course is pancake-flat and very fast. This was my first race outside Colorado and it felt weird to run that far of distance without any elevation changes. It's a unique experience if you aren't use to it.
 
@@ -207,7 +207,7 @@ All 3314 calories earned were spent with reckless abandon.
 
 Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are so much more than that. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
