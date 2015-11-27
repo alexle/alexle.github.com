@@ -16,7 +16,7 @@ Perhaps the best way to explain it is through a story I heard at a conference re
 
 *"He finally went to the doctor and got one of those air pressure sleep systems. It's basically a mask connected to a machine that helps you breathe properly at night."*
 
-*"I asked him how every thing was the day after. Do you know what he said?"*
+*"I asked him how everything was the day after. Do you know what he said?"*
 
 *"Gary, last night I had the best sleep in 3 years. I'm so relieved. On the other hand, I'm so damn pissed at myself for not doing this sooner. I don't know why I waited so long."*
 
@@ -42,7 +42,7 @@ At work, I refactored a huge section of code that made me want to Dracarys it ev
 
 Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
-1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
+1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. If it is, you don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
 2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more. 
 
