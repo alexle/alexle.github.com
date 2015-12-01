@@ -81,7 +81,7 @@ The race is kind of crazy at the start, with everybody going out too fast and ge
 
 I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
-To make matters worst, I couldn't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
+To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 <p>
 <img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
@@ -137,7 +137,7 @@ I'm pumped up now, which is good because we're pretty much heading straight into
 
 It's starting to get hot. I leave each aid station with 2 cups of water - one to pour over my head, and one to splash on my face and body.
 
-A quick body scan at mile 16 shows no signs of cramping or tightness. Body feels solid and full of energy. I make the decision to drop the group. It's go-time.
+A quick body scan at mile 16 shows no signs of cramping or tightness. Body feels solid and energized. I make the decision to drop the group. It's go-time.
 
 ...
 
@@ -149,7 +149,7 @@ I catch back up to the group and reaccess the situation. The good news is I have
 
 The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push it down. Don't let me down now muscles.
 
-I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. At mile 20, I hit the NOS. It's **go-time** (for reals).
+I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **go-time** (for reals).
 
 ##Miles 21.7 - 24.8 (8:05 min/mi)##
 
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel pretty strong. Still quite a bit left in my tank. Maybe all the hill and altitude training from home is helping.
+Aside from my legs close to locking up, I feel strong surprisingly. Still quite a bit left in my tank. Maybe all the hill and altitude training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
@@ -207,11 +207,11 @@ All 3314 calories earned were spent with reckless abandon.
 
 Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're really about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
-Remember that some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know I did.
+I often remind myself that some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know we did.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
