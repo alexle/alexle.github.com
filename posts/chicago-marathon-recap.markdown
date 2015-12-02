@@ -96,7 +96,7 @@ Feels great to be back with the group and on pace again. Try to calm myself and 
 
 My GPS watch goes bananas early, probably from the tunnel or high-rise buildings. I can't trust the accuracy so I give up on it and resign to run the race naked.
 
-It's decently windy so I do my best to tuck in behind the pack and conserve as much energy as possible. The first GU goes down at mile 5.
+It's decently windy in this section. I do my best to tuck in behind the pack and conserve as much energy as possible. The first GU goes down at mile 5.
 
 ##Miles 6.2 - 9.3 (8:47 min/mi)##
 
@@ -110,7 +110,7 @@ The only issue is how fast they cruise through aid stations. My first attempt to
 
 Feeling loose and relaxed at this point. Enjoying the race and the crowd, have never seen cheering like this before. Still in awe at how many people are out watching.
 
-At mile 10, I wonder if I should switch gears. I throw out a quick surge to see how it feels. It's nice to stretch the legs, but the eagle isn't ready to leave the nest. I pop another GU and retreat back in the pace group.
+At mile 10, I wonder if I should switch gears. I throw out a quick surge. Feels nice to stretch the legs, but it's way too early. I pop another GU and retreat back in the pace group.
 
 ##Miles 12.4 - 15.5 (8:42 min/mi)##
 
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel strong surprisingly. Still quite a bit left in my tank. Maybe all the hill and altitude training from home is helping.
+Aside from my legs close to locking up, I feel surprisingly strong. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
