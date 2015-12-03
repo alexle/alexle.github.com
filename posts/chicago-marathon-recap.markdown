@@ -104,7 +104,7 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 
-The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up. This cycle repeated for most of the race.
+The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up. This cycle repeats for most of the race.
 
 ##Miles 9.3 - 12.4 (8:44 min/mi)##
 
