@@ -175,7 +175,7 @@ I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**,
 
 I get my medal and almost cry. What a journey. It was worth every second of pain and more.
 
-Since the finish is a ridiculously packed with spectators, I make my way to the designated area to meet up with my pit crew. I'm scanning the crowds for familiar face, when I see mine floating on a stick.
+Since the finish is packed with spectators, I make my way to the designated area to meet up with my pit crew. I scan the crowds for a familiar face, when I suddenly see mine floating on a stick.
 
 <p>
 <img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
