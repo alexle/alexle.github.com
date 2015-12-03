@@ -11,9 +11,9 @@ Eventually, I give up and go home to think it over. Which really means do nothin
 
 I've noticed this "paralysis" happening more frequently within the last year. It was annoying at first, but as the unmade decisions piled up, it began to take a toll on my concentration and focus. Oftentimes, I would find my thoughts drifting to my "to-decide" list, throwing off my flow and productivity.
 
-Apparently, this is not a new phenomenon (thank goodness). Psychologist Barry Schwartz did an [interesting TED talk][1] called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied**. The more choices we have, the more regret we have about what we choose.
+Apparently, this is not a new phenomenon (thank goodness). Psychologist Barry Schwartz had an [interesting TED talk][1] called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied**. The more choices we have, the more regret we have about what we choose.
 
-On top of that, each decision made (if lucky) adds up throughout the day. It's surprising how much small daily choices impact our willpower and  efficiency, which already face enough challenges as is. This is commonly known as Decision Fatigue.
+On top of that, the brain gets tired when forced to make decision after decision. These take a toll on our willpower and efficiency throughout the day. This is commonly known as Decision Fatigue.
 
 So what can be done about it? Here are my ideas and plan going forward:
 

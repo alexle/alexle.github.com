@@ -54,7 +54,7 @@ Ready to own Chicago!
 
 The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
 
-When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I wasn't going to leave with any regrets. 
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I din't want to leave with any regrets. 
 
 Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end. A 3:50 marathon is an **8:47 min/mi** pace.
 
@@ -175,7 +175,7 @@ I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**,
 
 I get my medal and almost cry. What a journey. It was worth every second of pain and more.
 
-Since most spectators aren't allowed at the finish, I make my way to the designated area to meet up with my pit crew. I'm scanning the crowds for familiar faces. When I see mine floating on a stick.
+Since the finish is a ridiculously packed with spectators, I make my way to the designated area to meet up with my pit crew. I'm scanning the crowds for familiar face, when I see mine floating on a stick.
 
 <p>
 <img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
@@ -188,7 +188,7 @@ Me and my awesome pit crew.
 
 1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or the massive energy from the spectators. The entire city hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
 
-2. The volunteers, event crew, and security personnel do one heck of a job in making this event possible. I can't praise them enough. Everyone was so nice, encouraging, and helpful. I felt like an elite runner or celebrity at times.
+2. The volunteers and event crew do one heck of a job in making this event so special. I can't praise them enough. Everyone was so nice, encouraging, and helpful. I felt like an elite runner or celebrity at times.
 
 3. Running with a pace group was **awesome**. I would definitely do it again, especially if the pacers were anything like the 3:50 group. It's absurd how accurate their splits were. They knew the course very well, down to the best paths to take for maximum shade.
 
@@ -199,7 +199,7 @@ Me and my awesome pit crew.
 <p>
 <img class="pure-img center" src="/static/chicago-marathon-map.jpg" border="0px" />
 <div class="separator" style="clear: both; text-align: center;">
-All 3314 calories earned were spent with reckless abandon.
+All calories earned were spent with reckless abandon.
 </div>
 </p>
 
@@ -207,7 +207,7 @@ All 3314 calories earned were spent with reckless abandon.
 
 Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're really about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
