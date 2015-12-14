@@ -104,7 +104,7 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 
-The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up. This cycle repeats for most of the race.
+The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
 
 ##Miles 9.3 - 12.4 (8:44 min/mi)##
 
@@ -137,7 +137,7 @@ I'm pumped up now, which is good because we're pretty much heading straight into
 
 It's starting to get hot. I leave each aid station with 2 cups of water - one to pour over my head, and one to splash on my face and body.
 
-A quick body scan at mile 16 shows no signs of cramping or tightness. Body feels solid and energized. I make the decision to drop the group. It's go-time.
+A quick body scan at mile 16 shows no major signs of cramping or tightness. Body feels solid and energized. I make the decision to drop the group. It's go-time.
 
 ...
 
@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Aside from my legs close to locking up, I feel surprisingly strong. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
+Other than my legs close to locking up, I feel surprisingly good. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
@@ -175,7 +175,7 @@ I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**,
 
 I get my medal and almost cry. What a journey. It was worth every second of pain and more.
 
-Since the finish is packed with spectators, I make my way to the designated area to meet up with my pit crew. I scan the crowds for a familiar face, when I see my mine floating on a stick.
+Since the finish is packed with spectators, I make my way to the designated area to meet up with my pit crew. I scan the crowds for a familiar face, when out pops my head floating on a stick.
 
 <p>
 <img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
