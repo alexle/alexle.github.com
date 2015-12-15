@@ -39,7 +39,7 @@ We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
-The next step was signing up for a pace group, something I had never tried before. The pace team informed me what their strategy was and how they handled water stations. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
+The next step was signing up for a pace group, something I had never tried before. They informed me what their strategy was and how water stations were handled. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
 
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
 
@@ -67,7 +67,7 @@ The race kit.
 </div>
 </p>
 
-Race day! I woke up around 5am and had a bagel with peanut butter washed down with 32oz of gatorade. In hindsight, I should have eaten more and drank less.
+Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz gatorade. In hindsight, I should have eaten more and drank less.
 
 The bus I took to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
 
