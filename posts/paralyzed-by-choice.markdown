@@ -13,7 +13,7 @@ I've noticed this "paralysis" happening more frequently within the last year. It
 
 Apparently, this is not a new phenomenon (thank goodness). Psychologist Barry Schwartz had an [interesting TED talk][1] called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied**. The more choices we have, the more we fear making the wrong choice.
 
-On top of that, the brain gets tired when forced to make decision after decision. This takes a toll on our willpower throughout the day. In the end, the "fatigue" leads to inefficient choices or worse, an inclincation to make no decision at all.
+On top of that, the brain gets tired when forced to make decision after decision. This takes a toll on our willpower throughout the day. In the end, the "fatigue" leads to inefficient choices or worse, an inclination to make no decision at all.
 
 So what can be done about it? Here are my ideas and plan going forward:
 
