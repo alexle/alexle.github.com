@@ -207,7 +207,7 @@ All calories earned were spent with reckless abandon.
 
 Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one managed to leave imprints in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are so much more than numbers. They're really about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize that marathons aren't about numbers. They're more about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
