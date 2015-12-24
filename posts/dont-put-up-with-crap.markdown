@@ -46,8 +46,13 @@ Once you see crap in this light, it isn't hard to make changes. Here are some ti
 
 2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more. 
 
-3. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with it the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
+3. **Two Minutes, Do It Now** - It's surprising how many of our annoyances come from putting off things we could [get done in two minutes or less][1]. Like not washing the dishes after dinner, or leaving laundry in the washing machine, or not sharing how we feel to someone. If it's a quick task, just finish it and save Future You unnecessary stress and headache.
+
+4. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with it the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
+
 
 I can honestly say this simple act has added a level of productivity and cheer to my life. Life's too short to put up with crap. There's already enough of it out there.
 
 Let's not put up with anymore than we have to.
+
+[1]: http://gettingthingsdone.com/
