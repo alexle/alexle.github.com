@@ -54,7 +54,7 @@ Ready to own Chicago!
 
 The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
 
-When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but I knew deep down 3:55 was too safe. This was a bucket-list race and I didn't want to leave with any regrets. 
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but this was a bucket-list race and I didn't want to leave with any regrets. I knew deep down 3:55 was too safe.
 
 Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end.
 
@@ -175,12 +175,12 @@ I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**,
 
 I get my medal and almost cry. What a journey. It was worth every second of pain and more.
 
-Since the finish is packed with spectators, I make my way to the designated area to meet up with my pit crew. I scan the crowds for a familiar face, when out pops my head floating on a stick.
+Since the finish is packed with spectators, I make my way to the designated area to meet up with my support crew. I scan the crowds for a familiar face, when out pops my head floating on a stick.
 
 <p>
 <img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
 <div class="separator" style="clear: both; text-align: center;">
-Me and my awesome pit crew.
+Me and my awesome support crew.
 </div>
 </p>
 
