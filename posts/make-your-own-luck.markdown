@@ -15,11 +15,15 @@ We're all capable of making our own luck. And I've found that the harder you wor
 
 <hr width="75%">
 
-In case that isn't enough, here are 4 additional tips to improve your luck. 
+In case that isn't enough, here are some additional tips to improve your "luck". 
 
 ##Add variety to your life##
 
 Instead of hanging out at the same places, or talking to the same types of people, try changing up your environment and activities. You'll meet new people, learn new things, and more importantly, be exposed to more chance opportunities. Try being a [Yes Man][1].
+
+##Try Stuff##
+
+If you lock yourself in your house, how many exciting adventures and stories will happen to you? Will that amazing job or special someone magically appear in front of your door? It's hard to come across good things when they don't even have a chance to happen in the first place. Don't wait until you have all the answers. Get out there and let life happen. You might be surprised.
 
 ##Be generous##
 
