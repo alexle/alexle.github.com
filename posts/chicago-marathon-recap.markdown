@@ -100,7 +100,7 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 ##Miles 6.2 - 9.3 (8:47 min/mi)##
 
-10k down, that was fast. The pace seems oddly easy, although how many people have had that same thought before gloriously blowing up in a race..
+10k down, that was fast. The pace seems oddly easy, although how many people have had that same thought before gloriously hitting The Wall..
 
 The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 

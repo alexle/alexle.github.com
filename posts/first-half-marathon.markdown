@@ -71,7 +71,7 @@ The sweetest part? My friends had made their way to the finish line, and shared 
 <div class="separator" style="clear: both; text-align: center;">
 Photo courtesy of the best support group ever.</div>
 
-Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Marathon medal around my necked. I couldn't take my hands off of it, and still wear it from time to time around the house.
+Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Marathon medal around my neck. I couldn't take my hands off of it, and still wear it from time to time around the house.
 
 It was an honor to be a part of all the athletes who competed, and reminds me that I still have so far to go. Fifteen months ago, the prospect of running two miles straight was unfathomable to me. Now, that distance is a nice warm up on my longer runs. Anything is truly possible if you put your mind to it.
 
