@@ -15,10 +15,11 @@ body {
    font-size: 1.05em;
    font-weight: lighter;
    line-height: 1.55em;
+   color: #333333;
 }
 
 h1,h2,h3,h4,h5,h6 {
-   font-weight: bold;
+   font-weight: normal;
    text-rendering: optimizelegibility;
 }
 
