@@ -161,7 +161,7 @@ I start to see people off to the side stretching out cramps. Many are limping. A
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Other than my legs close to locking up, I feel surprisingly good. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
+Other than the potential cramps, I feel surprisingly good. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
 
 I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
@@ -216,7 +216,7 @@ I often remind myself that some miles will be good and some miles will be bad. Y
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
 <div class="separator" style="clear: both; text-align: center;">
-Hanging out at The Bean, all smiles.
+Hanging out at The Bean after, all smiles.
 </div>
 </p>
 
