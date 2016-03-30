@@ -52,7 +52,7 @@ Ready to own Chicago!
 
 ##Goal and Strategy##
 
-The initial plan was to run with the **3:55** pace group. In my previous marathons (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
+The initial plan was to run with the **3:55** pace group. In my [previous marathons][3] (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
 
 When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but this was a bucket-list race and I didn't want to leave with any regrets. I knew deep down 3:55 was too safe.
 
@@ -216,9 +216,10 @@ I often remind myself that some miles will be good and some miles will be bad. Y
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
 <div class="separator" style="clear: both; text-align: center;">
-Hanging out at The Bean after, all smiles.
+Hanging out at The Bean, all smiles.
 </div>
 </p>
 
 [1]: https://www.chicagomarathon.com/
 [2]: https://www.architecture.org/experience-caf/tours/detail/chicago-architecture-foundation-river-cruise-aboard-chicagos-first-lady-cruises/
+[3]: http://alexanderle.com/blog/first-marathon.html
