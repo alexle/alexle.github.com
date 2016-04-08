@@ -54,7 +54,7 @@ Ready to own Chicago!
 
 The initial plan was to run with the **3:55** pace group. In my [previous marathons][3] (4:05 and 3:58), I had bonked and cramped miserably. So 3:55 seemed reasonable, especially since I didn't want to limp to a finish again.
 
-When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. Maybe it was foolish, but this was a bucket-list race and I didn't want to leave with any regrets. I knew deep down 3:55 was too safe.
+When the volunteer at the expo asked me which pace group I'd like to run with, I YOLO'd and replied **3:50**. This was a *huge* difference in time, and probably foolish. But Chicago was a bucket-list race and I didn't want to leave with any regrets.
 
 Hence, the new plan was to run the race by feel and use the 3:50 group as a "rabbit". If they pulled away, fine. I'd hang on as long as I could. The ideal scenario was to keep them in striking range for the majority of the race, and chase them down at the end.
 
@@ -81,7 +81,7 @@ The race is kind of crazy at the start, with everybody going out too fast and ge
 
 I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
-To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:20 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
+To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:05 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 <p>
 <img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
