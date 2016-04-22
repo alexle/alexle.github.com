@@ -147,7 +147,7 @@ At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pac
 
 I catch back up to the group and reaccess the situation. The good news is I haven't cramped yet. It's the farthest I've ever gone without cramps. The bad news is I don't know how long it'll last.
 
-The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push it down. Don't let me down now muscles.
+The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push the tremors down. Don't let me down now muscles.
 
 I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **go-time** (for reals).
 

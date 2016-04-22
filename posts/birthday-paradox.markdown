@@ -29,23 +29,22 @@ Subtract that from 1 and you get the probability that two people **have** the sa
 
 To make this exercise simpler, I wrote a quick python script for the calculations:
 
-<div id="code">
-<font color="#cd5c5c">from</font>&nbsp;__future__ <font color="#cd5c5c">import</font>&nbsp;division<br>
-<font color="#cd5c5c">import</font>&nbsp;sys, math<br>
-<br>
-<font color="#f0e68c"><b>def</b></font>&nbsp;<font color="#98fb98">CalcProbMatch</font>( n, days ):<br>
-&nbsp;&nbsp; prob_no_match = 1<br>
-<br>
-&nbsp;&nbsp; <font color="#f0e68c"><b>for</b></font>&nbsp;i <font color="#f0e68c"><b>in</b></font>&nbsp;range( n + 1 ):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prob_no_match *= (days - i) / days<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prob_match = 1 - prob_no_match<br>
-<br>
-&nbsp;&nbsp; <font color="#f0e68c"><b>print</b></font>&nbsp;<span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">%02d people - %05.2f percent</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;% ( i, prob_match * 100 )<br>
-<br>
-<font color="#f0e68c"><b>for</b></font>&nbsp;i <font color="#f0e68c"><b>in</b></font>&nbsp;range( 27 ):<br>
-&nbsp;&nbsp; CalcProbMatch( i, 365 )<br>
-</div>
+<pre><code class=language-python>from __future__ import division
+import sys, math
+
+def CalcProbMatch( n, days ):
+   prob_no_match = 1
+
+   for i in range( n + 1 ):
+      prob_no_match *= (days - i) / days
+
+      prob_match = 1 - prob_no_match
+
+   print '%02d people - %05.2f percent' % ( i, prob_match * 100 )
+
+for i in range( 27 ):
+   CalcProbMatch( i, 365 )
+</code></pre>
 
 The output was surprising:
 

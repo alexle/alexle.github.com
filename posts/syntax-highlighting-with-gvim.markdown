@@ -10,6 +10,15 @@ VIM includes a plugin called **TOhtml**. Calling this will convert the current f
 
 The HTML output is created in a split VIM window. Here is a sample python script pasted into this post:
 
+<style type="text/css">
+pre { font-family: monospace; color: #ffffff; background-color: #333333; }
+.Special { color: #ffdead; }
+.Identifier { color: #98fb98; }
+.Constant { color: #ffa0a0; }
+.Type { color: #bdb76b; font-weight: bold; }
+.Comment { color: #87ceeb; }
+</style>
+
 <blockquote>
 import sys<br>
 <br>
