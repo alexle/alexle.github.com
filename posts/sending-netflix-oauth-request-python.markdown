@@ -84,11 +84,9 @@ import hmac, binascii, urllib, time, string, random
 def RandomString( size=6, chars=string.ascii_uppercase + string.digits ):
    return ''.join( random.choice(chars) for x in range(size) )
 
-
 expand_parms = 'synopsis,cast,formats,@episodes,@seasons'
 nonce = RandomString()
 time_stamp = time.time()
-
 
 parameters = [
    ('expand', expand_parms),
@@ -118,12 +116,9 @@ def GenerateSig( base_string ):
    secret =  NET_SECRET + '&'
    hashed = hmac.new(secret, base_string , sha1)
 
-
 signed_sig = binascii.b2a_base64(hashed.digest())[:-1]
 
-
 return signed_sig
-
 
 sign = GenerateSig( base_string )
 </code></pre>
@@ -134,10 +129,8 @@ With the base URL, parameters, and signature set up, all that's left is to combi
 
 full_url = TITLE_URL + '?' + urllib.urlencode(parameters)
 
-
 # Read catalog url
 title_data = urllib.urlopen(full_url)
-
 
 xml = ET.fromstring(title_data)
 </code></pre>
