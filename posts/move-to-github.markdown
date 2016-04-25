@@ -7,7 +7,7 @@ In an earlier [post][1], I expressed my desire to write more. While Google Blogg
 * There are restrictions on what you can customize and how. Most solutions involve wedging in plug-ins that don't quite fit, or purchasing expensive pre-made themes (which are also inflexible themselves).
 * Hosted platforms don't offer methods to back-up your content, nor allow you to switch to a different platform easily.
 
-After some research, I found an interesting alternative for my blog, a static website. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server. 
+After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server. 
 
 Most static sites are created from [static site generators][3]. These are small programs that process text files into into an HTML website. It's generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?  
 
