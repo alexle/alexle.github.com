@@ -8,6 +8,10 @@ There are two kinds of crap in the world:
 
 It's clear there's a difference between the two. Yet, far too often, we confuse one with the other.
 
+<p>
+<img class="pure-img center" src="/static/pile_of_crap.jpg" border="0px" />
+</p>
+
 ##Sleep Apnea##
 
 Perhaps the best way to explain it is through a story I heard at a conference reception earlier this year. It went something like this:
