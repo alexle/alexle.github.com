@@ -20,7 +20,7 @@ My preciouuuus...
 </div>
 </p>
 
-Normally, I like to relax and be off my feet before a race. But this was my first time in Chicago and I wasn't wasting it. So we walked, explored, and did touristy things the whole day.
+Normally, I like to relax and be off my feet before a race. But this was my first time in Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
 
 The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was super knowledgable and made the experience fun, yet informative at the same time.
 
@@ -39,7 +39,7 @@ We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
-The next step was signing up for a pace group, something I had never tried before. They informed me what their strategy was and how water stations were handled. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
+The next step was signing up for a pace group, something I had never tried before. They informed me their strategy and how water stations were handled. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
 
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
 
@@ -71,7 +71,7 @@ Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz gat
 
 The bus I took to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
 
-Unfortunately, the weather turned out as predicted. 14-17 mi/hr winds. A bit of chill in the morning, then warming to mid 70's rapidly. The Event Alert System level was YELLOW, which basically meant racing conditions were not ideal and to be careful.
+The weather turned out as predicted. 12-17 mi/hr winds. A bit of chill in the morning, then warming to mid 70's rapidly. The Event Alert System level was YELLOW, which meant racing conditions were not ideal and to be careful.
 
 I found the 3:50 pace group in my corral and we bonded instantly. We made jokes. Shared nervous smiles. We all had a common goal, which united us in a strange way.
 
@@ -92,7 +92,7 @@ Photo courtesy of Chicago Marathon.
 
 ##Miles 3.1 - 6.2 (8:44 min/mi)##
 
-Feels great to be back with the group and on pace again. Try to calm myself and settle in, adrenaline is high. The crowds are **insane**. Even though my iPod is turned up, the roars from the spectators drown out my music entirely at times.
+Feels great to run with the group again. Try to calm myself and settle in, adrenaline is high. The crowds are **insane**. Even though my iPod is turned up, the roars from the spectators drown out my music entirely at times.
 
 My GPS watch goes bananas early, probably from the tunnel or high-rise buildings. I can't trust the accuracy so I give up on it and resign to run the race naked.
 
@@ -102,7 +102,7 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 10k down, that was fast. The pace seems oddly easy, although how many people have had that same thought before gloriously hitting The Wall..
 
-The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". They chat almost the whole time, likely to keep everyone's mind off the pain to come.
+The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". How they can run within seconds of target pace is beyond me. They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 
 The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
 
@@ -141,7 +141,7 @@ A quick body scan at mile 16 shows no major signs of cramping or tightness. Body
 
 ...
 
-At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run right pass me. How did this happen? My pace must be slipping, not good..
+At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run right pass me. How does this happen? My pace must be slipping, not good..
 
 ##Miles 18.6 - 21.7 (8:41 min/mi)##
 
@@ -157,13 +157,11 @@ Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got 
 
 My stomach feels like garbage. I have so much GU and liquid in me that I stop taking fluids. At one point, I actually vomit a little gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
 
-I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn up Michigan Ave and see tall buildings in the distance. It's a straight shot back to downtown from here. My left hamstring is one careless extension away from knotting up. Just hold it together.
+I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn on Michigan Ave and see tall buildings straight ahead. My thoughts now bounce between my hamstring, which is one careless extension away from knotting up, and how much beer I'm going to drink afterwards.
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-Other than the potential cramps, I feel surprisingly good. Still a bit left in the tank. Maybe all the hill and altitude training from home is helping.
-
-I pick off runner after runner. I even get a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
+I fly down Michigan Ave, picking off runner after runner. I even catch a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
 At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the "dreaded" uphill many people warn about at the end.
 

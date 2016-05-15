@@ -5,9 +5,9 @@ If someone asked me what success was, I really couldn't tell them.
 
 Fancy job title. Big paycheck. To own a nice car and big house. Extravagant lifestyle. That's what pops in my head when I think of success.
 
-But when I think about it, none of the above mean that much to me. Especially when I'm 70 and chilling in a retirement home. It's weird how many of us yearn and work so hard to become "successful", yet do not have a clear definition of what that entails for each of us.
+But when I think about it, none of the above mean that much to me. Especially when I'm 70 and chilling in a retirement home. It's weird how many of us yearn and work so hard to become "successful", yet don't have a clear definition of what that entails for each of us.
 
-I'm not sure what success means to me yet. But for the mean time, I'd like to think it's similar to Ralph Waldo Emerson's take on success:
+I'm not sure what success means to me yet. But for the mean time, Ralph Waldo Emerson's take on success sounds pretty good to me.
 
 > To laugh often and much..
 
