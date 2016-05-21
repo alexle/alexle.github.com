@@ -69,7 +69,7 @@ The race kit.
 
 Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz gatorade. In hindsight, I should have eaten more and drank less.
 
-The bus I took to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
+The bus to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
 
 The weather turned out as predicted. 12-17 mi/hr winds. A bit of chill in the morning, then warming to mid 70's rapidly. The Event Alert System level was YELLOW, which meant racing conditions were not ideal and to be careful.
 
@@ -157,11 +157,11 @@ Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got 
 
 My stomach feels like garbage. I have so much GU and liquid in me that I stop taking fluids. At one point, I actually vomit a little gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
 
-I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn on Michigan Ave and see tall buildings straight ahead. My thoughts now bounce between my hamstring, which is one careless extension away from knotting up, and how much beer I'm going to drink afterwards.
+I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn on Michigan Ave and see tall buildings straight ahead. There are two thoughts in my head now - how my hamstring is one careless extension away from knotting up, and how much beer I'm drinking afterwards.
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-I fly down Michigan Ave, picking off runner after runner. I even catch a couple 3:45 pace group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
+I fly down Michigan Ave, picking off runner after runner. I even catching a couple 3:45 group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
 At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the "dreaded" uphill many people warn about at the end.
 

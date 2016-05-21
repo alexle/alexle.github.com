@@ -38,9 +38,9 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 ##It Has To End##
 
-As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that night, I resolved to eliminate as much crap as I could from my life.
+As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
 
-First, was replacing the old sneakers that hurt my feet. Next, came organizing the messy closet and garage that I couldn't stand to look at each day. Later, I bought a sleek mesh task chair to replace the ancient, tattered leather one.
+First, was replacing the old sneakers that hurt my feet. Next, came organizing the messy closet and garage I couldn't stand to look at each day. Later, I bought a sleek mesh task chair to replace the old, uncomfortable one.
 
 At work, I refactored a huge section of code that made me want to Dracarys it every time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
 
