@@ -1,5 +1,6 @@
 A Russian Gangster Kidnaps You..
 07-26-2013
+/static/two_bullets.jpg
 
 He puts two bullets in consecutive order in an empty six-round revolver, spins it, points it at your head and shoots.
 
@@ -34,4 +35,3 @@ To complete the calculation, the probability of dying here is 1 (number of given
 Therefore, if given a choice, look the gangster in the eye and tell him - "Pull the trigger".
 
 [1]: http://www.businessinsider.com/toughest-job-interview-questions-2013-7
-

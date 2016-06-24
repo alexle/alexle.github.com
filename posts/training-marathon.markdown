@@ -1,5 +1,6 @@
 Training For A Marathon In 9 Weeks
 09-06-2013
+/static/bug_zapper.jpg
 
 It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line.
 
@@ -103,7 +104,7 @@ I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and powerade 
 
 ##Week 6 - 16mi LSD##
 
-Due to massive rainstorms and floods here in Colorado this week, I completed only two short runs. Extreme panic and uncertainty about the marathon has set in. 
+Due to massive rainstorms and floods here in Colorado this week, I completed only two short runs. Extreme panic and uncertainty about the marathon has set in.
 
 Traumatized by last week's pain, I decided to add something different to my walk breaks: stretching. It's an uncommon practice for runners to stop mid-run for them, but I have to say it helped *tremendously*. The LSD was much more bearable and I was able to hold my form and pace farther.
 

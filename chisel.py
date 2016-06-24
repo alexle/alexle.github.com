@@ -22,7 +22,7 @@ ENTRY_TIME_FORMAT = "%m-%d-%Y"
 RSS_TIME_FORMAT = "%a, %d %b %Y 00:00:00 MST"
 
 # FORMAT should be a callable that takes in text and returns formatted text
-FORMAT = lambda text: markdown.markdown(text, ['footnotes',]) 
+FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
 STEPS = []
 
@@ -40,14 +40,18 @@ def get_tree(source):
          if name[0] == ".": continue
          path = os.path.join(root, name)
          f = open(path, "rU")
+
          title = f.readline().rstrip()
-         date = time.strptime(f.readline().strip(), ENTRY_TIME_FORMAT)
+         raw_date = f.readline().strip()
+         img = f.readline().rstrip()
+
+         date = time.strptime(raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
          epoch = time.mktime(date)
 
          # If post is newer than 10-01-2013, use new URL format
          if epoch > 1380607200.0:
-            url = '/'.join([os.path.splitext(name)[0] + ".html"]) 
+            url = '/'.join([os.path.splitext(name)[0] + ".html"])
          else:
             url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
 
@@ -62,6 +66,7 @@ def get_tree(source):
             'day': day,
             'filename': name,
             'rss_date': time.strftime(RSS_TIME_FORMAT, date),
+            'img': img
          })
          f.close()
    return files
@@ -122,7 +127,7 @@ def chisel():
    print "\tDone."
 
 def main():
-   opts, args = getopt.getopt(sys.argv[1:], "s", ["server"]) 
+   opts, args = getopt.getopt(sys.argv[1:], "s", ["server"])
 
    for opt, arg in opts:
       if opt in ("-s", "--server"):

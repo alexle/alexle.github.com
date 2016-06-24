@@ -1,5 +1,10 @@
 Don't Put Up With Crap (If You Can Help It)
 10-19-2015
+/static/porta_potty.jpg
+
+<p>
+<img class="pure-img center" src="/static/porta_potty.jpg" border="0px" />
+</p>
 
 There are two kinds of crap in the world:
 
@@ -7,10 +12,6 @@ There are two kinds of crap in the world:
 2. Crap that is **within** our control, but we put up with anyway.
 
 It's clear there's a difference between the two. Yet, far too often, we confuse one with the other.
-
-<p>
-<img class="pure-img center" src="/static/pile_of_crap.jpg" border="0px" />
-</p>
 
 ##Sleep Apnea##
 
@@ -48,7 +49,7 @@ Once you see crap in this light, it isn't hard to make changes. Here are some ti
 
 1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
-2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more. 
+2. **Start Small** - Even toilets have trouble disposing of large poo at times. Build momentum by starting with something small, like getting rid of your socks that have holes in them or meeting up a friend at Starbucks to clear some air between you two. Once you remove crap from your life, you'll get excited about the possibility of removing more.
 
 3. **Two Minutes, Do It Now** - It's surprising how many of our annoyances come from putting off things we could [get done in two minutes or less][1]. Like not washing the dishes after dinner, or leaving laundry in the washing machine, or not sharing how we feel to someone. If it's a quick task, just finish it and save Future You unnecessary stress and headache.
 

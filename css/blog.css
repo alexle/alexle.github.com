@@ -143,6 +143,11 @@ h1.archive-year {
    font-size: 90%;
 }
 
+.home-image {
+    margin-top: 0.7em;
+    margin-bottom: 1.7em;
+}
+
 img.center {
    display: block;
    margin-left: auto;
@@ -170,7 +175,8 @@ img.center {
 }
 
 .hr-post {
-   border-top: 1px dashed #E6E6E6;
+   //border-top: 1px dashed #E6E6E6;
+   border-top: 1px dashed #999999;
 }
 
 blockquote {
@@ -207,7 +213,7 @@ pre {
    }
 
    h3.home-title {
-      font-size: 135%;
+      font-size: 1.5em;
    }
 }
 
@@ -249,4 +255,3 @@ pre {
       font-size: 1.1em;
    }
 }
-

@@ -11,11 +11,13 @@
       <div class="home-date">
          {{ entry.pretty_date }}
       </div>
+      <div class="home-image">
+         <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" border="1px" /></a>
+      </div>
       <hr class="hr-post">
    </div>
    {% endfor %}
 
    <br><a href="/blog/archives.html">View Blog Archive &rarr;</a>
-   
-{% endblock %}
 
+{% endblock %}

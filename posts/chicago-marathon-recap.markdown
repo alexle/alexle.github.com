@@ -1,5 +1,6 @@
 2015 Chicago Marathon Recap
 11-21-2015
+/static/chicago-marathon-start.jpg
 
 I never know what to do before races. Usually, I find a curb to sit down somewhere and just think. Of the course ahead of me. Of how my body will feel at various check points.
 

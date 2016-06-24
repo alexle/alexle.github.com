@@ -1,28 +1,31 @@
 Rock n Roll Denver Marathon: My Worst Run Ever
 10-26-2013
+/static/2013-full-nike-map.jpg
 
 Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 [Denver Rock N Roll][1] Marathon was one of them.
 
 The course and conditions were tough. It seemed as if you were always facing a 10mph headwind, no matter which direction you ran. The hills were plenty and unforgiving. And the distance was **unreal**. Aside from actually running 26.2 miles, I personally believe that nothing can prepare you for it. Not 20, or 22, or even 24 miles.
 
-<a href="/static/2013-full-nike-map.jpg"><img class="pure-img center" src="/static/2013-full-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<p>
+<a href="/static/2013-full-nike-map.jpg"><img class="pure-img center" src="/static/2013-full-nike-map.jpg" /></a>
+</p>
 
-Here's a recap of my first marathon, or as I consider, the worst run I've ever had. 
+Here's a recap of my first marathon, or as I consider, the worst run I've ever had.
 
 ##Pre-Race##
 
 I got to the race an hour before the start. It was pitch black and around 40 degrees. Warm-up, eat a banana, stand in porto-potty line for 20 minutes. It was the usual routine.
 
-My overall goal, based on my long runs during training, was to finish in **4:24**, which is a 10 min/mile pace. My stretch goal was to finish in **3:59**, since a 9:09 min/mile pace didn't seem *that* bad. And because I thought having the number 3 in front looked cool. 
+My overall goal, based on my long runs during training, was to finish in **4:24**, which is a 10 min/mile pace. My stretch goal was to finish in **3:59**, since a 9:09 min/mile pace didn't seem *that* bad. And because I thought having the number 3 in front looked cool.
 
 ##Miles 1-13##
 
-5.. 4.. 3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex. 
+5.. 4.. 3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex.
 
 The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. We could have gone through a desert for all I know. I was simply focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
 
 At Mile 13, I caught up to the 3:30 pace group. Surprised, I looked at my watch and saw 1:43. Three thoughts immediately went through my head:
- 
+
 1. Woah, I just PR'd my half marathon.
 2. I feel fantastic. I could do this forever. Maybe I can finish in 3:50.
 3. I wonder if getting a PR during a marathon is a good thing...
@@ -69,13 +72,13 @@ To my surprise, the support in this section (and the whole race, as a matter of 
 
 ##The Finish##
 
-I crossed the finish line at **4:05:13**. It didn't feel real at first. But when I had the finisher's medal in my hand, I knew I had made it. I can't describe how happy, proud, and alive I felt at that moment. 
+I crossed the finish line at **4:05:13**. It didn't feel real at first. But when I had the finisher's medal in my hand, I knew I had made it. I can't describe how happy, proud, and alive I felt at that moment.
 
 A little ways ahead, I heard my name being shouted. It turned out to be my family and some friends who had stuck around after finishing their half-marathons earlier. It meant a lot seeing everyone brave the cold and wind to support me. Sometimes, you just don't feel you deserve the amount of love given to you.
 
 <a href="/static/alex_le_marathon.jpg"><img class="pure-img center" src="/static/alex_le_marathon.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
 
-When asked how the race was, the impact of everything I endured emotionally and physically over the past 4 hours hit me. It was amazing, it was terrible, and it was.. disappointing. Not that completing a marathon wasn't an accomplishment on its own. But because I felt I was capable of so much more. 
+When asked how the race was, the impact of everything I endured emotionally and physically over the past 4 hours hit me. It was amazing, it was terrible, and it was.. disappointing. Not that completing a marathon wasn't an accomplishment on its own. But because I felt I was capable of so much more.
 
 ##Reflection Afterwards##
 

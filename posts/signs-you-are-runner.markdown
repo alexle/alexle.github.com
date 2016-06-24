@@ -1,5 +1,6 @@
 12 Signs That You're A Runner
 09-27-2013
+/static/gu_drawer.jpg
 
 I'm three weeks away from my first ever marathon. I'm nervous, yet really excited. During the past couple [weeks of training][3], it occurred to me that I've picked up some weird habits since I first started running over a year ago. I've never considered myself a runner, but a second look at these actions make me wonder if I've finally crossed that line.
 
@@ -15,9 +16,9 @@ What were the signs that let you know you were finally a runner? Here is my list
 
 5. You used to think runners were "crazy" while driving pass them in your car. Now you slow down to A) analyze their foot strike and form B) check out what shoes and other gear they're wearing and C) stare longingly, wishing you could be running with them.
 
-6. You know the mileage (yes, mileage) on your running shoes. 
+6. You know the mileage (yes, mileage) on your running shoes.
 
-      <a href="/static/shoe_mileage.png"><img class="pure-img center" src="/static/shoe_mileage.png" alt="alex shoe mileage" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+      <a href="/static/shoe_mileage.png"><img class="pure-img center" src="/static/shoe_mileage.png" alt="alex shoe mileage" /></a>
       <div class="separator" style="clear: both; text-align: center;">
 It's been a wonderful 8 months Pure Drifts.</div>
 
@@ -25,13 +26,13 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 8. When it's 42 degrees outside and you think to yourself, "Dang this is some nice tank-top and shorts weather".
 
-9. It makes your day when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing.. 
+9. It makes your day when someone wants to talk to you about running. GUs, carbo-loading, pace and taper strategies, hills and tempos, running shoes, what to wear, pronation, GPS watches, chafing..
 
 10. Your definition of "appropriate style in public" changes. As in, you don't mind that your shorts are 3-4 inches shorter than before. Headbands and hydration belts don't look so weird anymore. And for the guys, you secretly look forward to opportunities to wear your running tights.
 
 11. You have drawers in your house that look like this:
 
-      <a href="/static/gu_drawer.jpg"><img class="pure-img center" src="/static/gu_drawer.jpg" alt="alex gu drawer" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+      <a href="/static/gu_drawer.jpg"><img class="pure-img center" src="/static/gu_drawer.jpg" alt="alex gu drawer" /></a>
       <div class="separator" style="clear: both; text-align: center;">
 My top dresser drawer. And it looks so delicious.</div>
 

@@ -1,5 +1,6 @@
 My First Half Marathon: Race Recap And Experience
 06-20-2013
+/static/2013-colfax-start.jpg
 
 Last December, my girlfriend surprised me with an entry to the [Denver Colfax Half-Marathon][2]. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
 
@@ -7,7 +8,7 @@ Unfortunately, the excitement quickly faded. You see, up to that point, the fart
 
 Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
 
-<a href="/static/2013-half-nike-map.jpg"><img class="pure-img center" src="/static/2013-half-nike-map.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-half-nike-map.jpg"><img class="pure-img center" src="/static/2013-half-nike-map.jpg" /></a>
 
 ##Pre-Race##
 
@@ -23,7 +24,7 @@ It seemed like an eternity in the corral. Thankfully, the "let's-get-ready-to-ru
 
 Each wave was staggered about 3 minutes. Honestly, it was the <u>best</u> start to a race I've ever been a part of. There were no tripping over anyone's feet, or packs to maneuver around. The streets were wide, with no bottle-neck turns early on.
 
-<a href="/static/2013-colfax-start.jpg"><img class="pure-img center" src="/static/2013-colfax-start.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-colfax-start.jpg"><img class="pure-img center" src="/static/2013-colfax-start.jpg" /></a>
 <div class="separator" style="clear: both; text-align: center;">
 Photo courtesy of Denver Post.</div>
 

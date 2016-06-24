@@ -1,5 +1,6 @@
 2013 In Review: Running, Muscle-Ups, And More
 12-31-2013
+/static/2013-alex-running-summary.png
 
 Here we are. The end of another year. I can't believe how quickly 2013 went by. I've read that [time passes by faster][1] as we age because our days become more routine and predictable. When we're surrounded by the usual people, work, and experiences - the details stand out less and our days merge into fleeting moments.
 
@@ -15,7 +16,7 @@ In 2012, I set a goal to run 100 miles. I ended up completing 77 runs for [125 m
 
 For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I had ever participated in, but I wasn't done yet. Four months later, I finished my [first marathon][3]! By the end of the year, I had amassed a total of **168 runs** for **804 miles**! What a difference a year makes.
 
-<a href="/static/2013-alex-running-summary.png"><img class="pure-img center" src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<a href="/static/2013-alex-running-summary.png"><img class="pure-img center" src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" /></a>
 
 I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
