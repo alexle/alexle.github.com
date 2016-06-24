@@ -10,22 +10,26 @@ There are many great lessons in the book: Learning from mistakes is overrated, G
 But the lesson I remember the most, and the one that has had the largest impact on me, is about inspiration: **Inspiration is perishable.**
 
 > We all have ideas. Ideas are immortal. They last forever.
-> 
+>
 > What doesn't last forever is inspiration. Inspiration is like fresh fruit or milk: It has an expiration date.
-> 
+>
 > If you want to do something, you've got to do it now. You can't put it on a shelf and wait two months to get around to it. You can't just say you'll do it later. Later, you won't be pumped up about it anymore.
-> 
+>
 > Inspiration is a magical thing, a productivity multiplier. But it won't wait for you. If it grabs you, grab it right back and put it to work.
 
-I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished (or started). Now, when I feel the inspiration to do something, I simply start it.
+I've taken this to heart lately and it's worked wonders for my productivity and butt-kicking. No more writing ideas down on lengthy to-do lists that gather dust and never get finished. Now, when I feel the inspiration to do something, I simply start it.
 
-It may not be perfect, and the plan may not be clear, but I've found that I usually get more done in those precious moments than if I put it off until later. Even if a task can't be completed in that minute, the key is just starting.
+It may not be perfect, and the plan may not be clear, but I've found that I get more done in those precious moments than if it's put off until later.
 
-Say you're waiting at the DMV and think, "There should be an app to make this process go faster. I'll work on one this weekend!" Chances are, the excitement fades and you end up watching football or doing some house chores instead.
+Even if a task can't be completed in its entirety, the key is **just starting**.
 
-A better alternative is, in that moment of fervor, you chant "NO MORE DMV" and sign up for an account on Google App Engine or Heroku for your app. Or doodle down an initial app design. Big or small, it doesn't matter what the action is as long as it maintains your momentum and inspiration to get it done!
+Say you're in the mood for a burrito and think, "There should be an app that tells me where the nearest burrito is. Maybe I'll work on one this weekend".
 
-Some may argue that they don't have enough time at that moment. That later will be a better time. I believe this is a poor excuse. Because there's no such thing as "not having time". Either you truly want to do something, or you don't. It's only a matter of what you make a priority.
+We all know what happens after that. The excitement fades. There are house chores to do. Episodes of Game of Thrones to watch. The app becomes a distant memory.
+
+A better alternative is, in that moment of wanting a burrito app, you sign up for an account on Google App Engine or Heroku. Or doodle down an initial design. Big or small, it doesn't matter what the action is as long as it maintains your momentum and inspiration to get it done!
+
+Some may argue that they don't have enough time at that moment. That there will be a better time later. The truth is there will never be a perfect time. Either you want to do something, or you don't. It's only a matter of what you make a priority.
 
 So take action. And don't let inspiration go to waste.
 
