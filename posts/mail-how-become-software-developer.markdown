@@ -1,5 +1,10 @@
 Mail: How Do I Switch To A Career In Software?
 05-21-2013
+/static/code.jpg
+
+<p>
+<img class="pure-img center" src="/static/code.jpg" border="0px" />
+</p>
 
 In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - it doesn't get much better than this.
 
@@ -25,7 +30,7 @@ You want to learn more about RoR, Java, Javascript, and Python - that's great. Y
 
 But what have you *made*? What can you show me that demonstrates you *know* this stuff? Degrees, GPA's, and certifications are nice, but in the end, I would highly consider taking someone who's created an iPhone app on their own than someone who passed a course on objective-c.
 
-I understand the challenges in front of you. Since you come from a different industry, you have no prior "real-world" coding experience. Since you can't commit to another 4 years of college, a degree is out of the question. The only option I see left is to, for a lack of words, **hustle**. 
+I understand the challenges in front of you. Since you come from a different industry, you have no prior "real-world" coding experience. Since you can't commit to another 4 years of college, a degree is out of the question. The only option I see left is to, for a lack of words, **hustle**.
 
 Here are some steps I would take if I were in your shoes. They can differ from person to person though:
 
@@ -59,7 +64,7 @@ Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The i
 
 <hr width="75%">
 
-I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn. 
+I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn.
 
 I just wanted to provide a different perspective that few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
 

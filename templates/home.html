@@ -10,9 +10,11 @@
       <div class="home-date">
          {{ entry.pretty_date }}
       </div>
-      <div class="home-image">
+      {% if entry.img %}
+      <div class='home-image'>
          <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" border="1px" /></a>
       </div>
+      {% endif %}
       <hr class="hr-post">
    </div>
    {% endfor %}

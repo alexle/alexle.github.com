@@ -7,7 +7,7 @@ from SimpleHTTPServer import SimpleHTTPRequestHandler
 # Settings
 SOURCE = "./posts/"
 DESTINATION = "./blog/"
-HOME_SHOW = 8
+HOME_SHOW = 10 
 TEMPLATE_PATH = "./templates/"
 TEMPLATE_OPTIONS = {}
 TEMPLATES = {
