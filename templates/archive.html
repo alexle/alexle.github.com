@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% set title = "Blog Archive" %}
+{% set title = "Blog Archive | " %}
 
 {% block main %}
    {% for year, year_list in entries|groupby('year')|reverse %}
@@ -23,5 +23,5 @@
    {% endfor %}
 
    <br><a href="/">&larr; back to home page</a>
-   
+
 {% endblock %}
