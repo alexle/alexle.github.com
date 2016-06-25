@@ -7,20 +7,38 @@ Turns out my radiator had a leak. I watched a youtube video called [10 Minute Ra
 
 A couple hours later, that thought was replaced with "what were you thinking alex". I got some help from an old friend and was able to finish around the 5 hour mark. It takes most auto shops 30min to replace a radiator. My back hurts and my hands are scuffed up, but overall it was a satisfying and good learning experience.
 
+<p>
+<img class="pure-img center" src="/static/rad1.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
 Old radiator, sorry I did not take better care of you.
+</div>
+</p>
 
-<a href="/static/rad1.jpg"><img class="pure-img center" src="/static/rad1.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<br>
 
+<p>
+<img class="pure-img center" src="/static/rad2.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
 Transferring hoses from old radiator to new radiator.
+</div>
+</p>
 
-<a href="/static/rad2.jpg"><img class="pure-img center" src="/static/rad2.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<br>
 
+<p>
+<img class="pure-img center" src="/static/rad3.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
 Bam! The new radiator ready to go to its new home.
+</div>
+</p>
 
-<a href="/static/rad3.jpg"><img class="pure-img center" src="/static/rad3.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<br>
 
+<p>
+<img class="pure-img center" src="/static/rad4.jpg" border="0px" />
+<div class="separator" style="clear: both; text-align: center;">
 One last look before installation.
-
-<a href="/static/rad4.jpg"><img class="pure-img center" src="/static/rad4.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+</div>
+</p>
 
 [1]: http://www.youtube.com/watch?v=BPII3yh4btA
