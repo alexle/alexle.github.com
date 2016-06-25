@@ -34,7 +34,7 @@ I understand the challenges in front of you. Since you come from a different ind
 
 Here are some steps I would take if I were in your shoes. They can differ from person to person though:
 
-###1) Address your weaknesses###
+##1) Address your weaknesses##
 
 I don't know what qualifications they were looking for, but if attending Devboot camp is really important to you, then ask yourself why you failed the interview.
 
@@ -42,23 +42,23 @@ Did you stumble through algorithm questions? Then brush up on linked lists, bina
 
 Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Hands-on experience is *invaluable*.
 
-###2) Start a portfolio###
+##2) Start a portfolio##
 
 Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
 
 Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). The best part is that it's all free! You may not have a degree/certification, but at least you'll be able to demonstrate a working product during your next interview.
 
-###3) Keep taking the coding classes###
+##3) Keep taking the coding classes##
 
 Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it.
 
 Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code.
 
-###4) Try to get an internship###
+##4) Try to get an internship##
 
 You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, or Hitachi?
 
-###5) Don't stop learning###
+##5) Don't stop learning##
 
 Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The industry is always evolving and the more you know, the better. Google everything. [StackOverflow][7] is your best friend.
 
