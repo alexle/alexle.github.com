@@ -1,7 +1,10 @@
 Why I Hate Running But Still Do It Anyways
 05-08-2012
+/static/jogging_worst.jpg
 
-<img class="pure-img center" src="/static/jogging_worst.jpg" border="0px"  />
+<p>
+<img class="pure-img center" src="/static/jogging_worst.jpg" alt="parks and recreation jogging is the worst image quote" />
+</p>
 
 I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
 
@@ -37,4 +40,3 @@ I'm already looking forward to my next run, though I have a feeling I'm going to
 
 [1]: /blog/2011/money-in-the-bank.html
 [2]: http://bolderboulder.com/
-

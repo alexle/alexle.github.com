@@ -225,6 +225,10 @@
   <url>
     <loc>http://alexanderle.com/blog/2012/why-i-hate-running-but-still-do-it.html</loc>
     
+    <image:image>
+      <image:loc>http://alexanderle.com//static/jogging_worst.jpg</image:loc>
+    </image:image>
+    
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

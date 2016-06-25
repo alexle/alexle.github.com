@@ -6,7 +6,9 @@ It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I 
 
 Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a *full marathon*.
 
-<img class="pure-img center" src="/static/bug_zapper.jpg" border="0px" />
+<p>
+<img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug life bug zapper purple" />
+</p>
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 

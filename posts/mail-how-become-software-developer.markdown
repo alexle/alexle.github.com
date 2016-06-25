@@ -3,7 +3,7 @@ Mail: How Do I Switch To A Career In Software?
 /static/code.jpg
 
 <p>
-<img class="pure-img center" src="/static/code.jpg" border="0px" />
+<img class="pure-img center" src="/static/code.jpg" alt="alex le code screenshot atom editor" />
 </p>
 
 In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - it doesn't get much better than this.

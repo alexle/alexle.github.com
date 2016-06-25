@@ -7,9 +7,7 @@ One of my [goals this year][1] is to run 100 miles. To keep track, I use the Nik
 [Research has shown][2] that about 80 percent of people who make resolutions on Jan. 1 fall off the wagon by Valentine’s Day. About a third of the year has passed and I'm behind schedule. Do you have any goals you've set for yourself this year? If so, let's not become another statistic in the 80 percent. Time to turn it on!
 
 <p>
-<img class="pure-img center" src="/static/nikeplus1.png" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
+<img class="pure-img center" src="/static/nikeplus1.png" alt="alex le 2012 running progress nike plus miles this year" />
 </p>
 
 [1]: /blog/2012/01/05/2012-goals.html
