@@ -1,7 +1,8 @@
 10 Tips For Hiking Your First 14er
 07-06-2012
+/static/alex_le_quandary_peak.jpg
 
-<a href="/static/alex_le_quandary_peak.jpg"><img class="pure-img center" src="/static/alex_le_quandary_peak.jpg" alt="alex le 14er quandary peak" style="display:block; margin-left:auto; margin-right:auto;" width="100%" /></a>
+<a href="/static/alex_le_quandary_peak.jpg"><img class="pure-img center" src="/static/alex_le_quandary_peak.jpg" alt="alex le 14er quandary peak" /></a>
 
 Hiking up a 14er is an exhilarating experience. It's been a couple days since my [first 14er][1] and I thought I'd share what worked for me on the trip and what I'd do differently next time.
 
@@ -27,7 +28,7 @@ Check the weather report beforehand, but all bets are off when the elevation is 
 Have a map/GPS. Plan and know your route in advance. Are the paths clear of snow? Will you have to take detours? There is a ton of information on [14ers.com][5] and [ProTrails.com][6]. I was always one to scoff at maps and didn't think they were necessary.. until I couldn't determine which path we needed to take on the way down. Luckily, my friend had a GPS map on his phone.
 
 ###8. Safer Than Sorry###
-For most of the [Class 1/2][8] 14ers, you probably won't need any of the traditional hiking safety items. Stuff like a small first aid kit, flint/lighter, and knife. It never hurts to be prepared though. Also, know the signs of [altitude sickness][2]. Rest for a few minutes if you feel lightheaded, the lightheadedness is from a lack of oxygen to your brain. 
+For most of the [Class 1/2][8] 14ers, you probably won't need any of the traditional hiking safety items. Stuff like a small first aid kit, flint/lighter, and knife. It never hurts to be prepared though. Also, know the signs of [altitude sickness][2]. Rest for a few minutes if you feel lightheaded, the lightheadedness is from a lack of oxygen to your brain.
 
 ###9. Account For Personal Needs###
 Most people remember to bring essentials such as sunscreen and bug spray, but don't neglect simple conveniences such as toilet paper, hand sanitizer, and extra socks. Asprin or Ibuprofen also come in handy for minor pains and headaches.
@@ -39,7 +40,7 @@ Keep in mind these tips are based on my experiences, and that each person's comf
 
 [1]: /blog/2012/first-14er-grays-and-torreys-peak.html
 [2]: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001190/
-[3]: http://en.wikipedia.org/wiki/A_Game_of_Thrones 
+[3]: http://en.wikipedia.org/wiki/A_Game_of_Thrones
 [4]: http://www.clifbar.com/food/products_shot_bloks/
 [5]: http://14ers.com/
 [6]: http://protrails.com/
