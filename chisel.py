@@ -7,7 +7,7 @@ from SimpleHTTPServer import SimpleHTTPRequestHandler
 # Settings
 SOURCE = "./posts/"
 DESTINATION = "./blog/"
-HOME_SHOW = 12 
+HOME_SHOW = 12
 TEMPLATE_PATH = "./templates/"
 TEMPLATE_OPTIONS = {}
 TEMPLATES = {
@@ -16,6 +16,7 @@ TEMPLATES = {
    'archive': "archive.html",
    'about': "about.html",
    'rss': "rss.html",
+   'sitemap': "sitemap.html",
 }
 TIME_FORMAT = "%b %d, %Y"
 ENTRY_TIME_FORMAT = "%m-%d-%Y"
@@ -115,7 +116,13 @@ def generate_about(f, e):
 def generate_rss(f, e):
    """Generate rss feed"""
    template = e.get_template(TEMPLATES['rss'])
-   write_file("../feed.xml", template.render(entries=f))
+   write_file("../rss.xml", template.render(entries=f))
+
+@step
+def generate_sitemap(f, e):
+   """Generate sitemap"""
+   template = e.get_template(TEMPLATES['sitemap'])
+   write_file("../sitemap.xml", template.render(entries=f))
 
 def chisel():
    print "Reading files..."

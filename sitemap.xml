@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>http://alexanderle.com/</loc>
+    <image:image>
+      <image:loc>http://alexanderle.com/static/alex_le_profile.jpg</loc>
+    </image:image>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>http://alexanderle.com/about.html</loc>
+    <image:image>
+      <image:loc>http://alexanderle.com/static/alex_100k_triple_c.jpg</loc>
+    </image:image>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>http://alexanderle.com/blog/archives.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://alexanderle.com/blog/chicago-marathon-recap.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/chicago-marathon-start.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/dont-put-up-with-crap.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/porta_potty.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013-in-review.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/2013-alex-running-summary.png</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/first-marathon.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/2013-full-nike-map.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/signs-you-are-runner.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/gu_drawer.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/training-marathon.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/bug_zapper.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/two-bullets.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/two_bullets.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/first-half-marathon.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/2013-colfax-start.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/mail-how-become-software-developer.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/code.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/sending-netflix-oauth-request-python.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2013/run-summary-and-analysis-2012.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/avg-distance-each-month.png</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/100-miles.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/nike-2012-total.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/make-your-own-luck.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/paralyzed-by-choice.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/quitting-fantasy-football.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/updating-github-fork-from-original.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/tips-for-hiking-your-first-14er.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/alex_le_quandary_peak.jpg</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/first-14er-grays-and-torreys-peak.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/nasty-girls-of-crossfit.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/karen-my-new-enemy-crossfit.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/why-i-hate-running-but-still-do-it.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/2012-running-progress-1.html</loc>
+    
+    <image:image>
+      <image:loc>http://alexanderle.com//static/nikeplus1.png</loc>
+    </image:image>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/create-an-rss-feed-from-scratch.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/syntax-highlighting-with-gvim.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/move-to-github.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/simple-http-server-python.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/farewell-blogger.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/my-vimrc.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2012/2012-goals.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2011-year-in-review.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/html5-local-storage.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/scrape-web-page.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/rework-inspiration.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/favorite-program-quote.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/emerson-success.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/tones-vietnamese.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/alphabet-vietnamese.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/money-in-the-bank.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/birthday-paradox.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/send-sms-python.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/linked-list-python.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/learned-from-church.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2011-march.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/5-hour-radiator.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/one-minute-manager.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/gpo.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2011-february.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2011-goals.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2011-year-of-hustle.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2011/2010-year-in-review.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://alexanderle.com/blog/2008/hello-world.html</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+
+</urlset>

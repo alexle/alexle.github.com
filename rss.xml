@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   <title>Alex Le's Blog</title>
+   <description>Alex Le's Blog</description>
+   <link>http://www.alexanderle.com</link>
+   <atom:link href="http://alexanderle.com/feed.xml" rel="self" type="application/rss+xml" />
+   <language>en-us</language>
+   
+   <item>
+   <title>2015 Chicago Marathon Recap</title>
+   <link>http://alexanderle.com/blog/chicago-marathon-recap.html</link>
+   <guid>http://alexanderle.com/blog/chicago-marathon-recap.html</guid>
+   <pubDate>Sat, 21 Nov 2015 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Don't Put Up With Crap (If You Can Help It)</title>
+   <link>http://alexanderle.com/blog/dont-put-up-with-crap.html</link>
+   <guid>http://alexanderle.com/blog/dont-put-up-with-crap.html</guid>
+   <pubDate>Mon, 19 Oct 2015 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2013 In Review: Running, Muscle-Ups, And More</title>
+   <link>http://alexanderle.com/blog/2013-in-review.html</link>
+   <guid>http://alexanderle.com/blog/2013-in-review.html</guid>
+   <pubDate>Tue, 31 Dec 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Rock n Roll Denver Marathon: My Worst Run Ever</title>
+   <link>http://alexanderle.com/blog/first-marathon.html</link>
+   <guid>http://alexanderle.com/blog/first-marathon.html</guid>
+   <pubDate>Sat, 26 Oct 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>12 Signs That You're A Runner</title>
+   <link>http://alexanderle.com/blog/2013/signs-you-are-runner.html</link>
+   <guid>http://alexanderle.com/blog/2013/signs-you-are-runner.html</guid>
+   <pubDate>Fri, 27 Sep 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Training For A Marathon In 9 Weeks</title>
+   <link>http://alexanderle.com/blog/2013/training-marathon.html</link>
+   <guid>http://alexanderle.com/blog/2013/training-marathon.html</guid>
+   <pubDate>Fri, 06 Sep 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>A Russian Gangster Kidnaps You..</title>
+   <link>http://alexanderle.com/blog/2013/two-bullets.html</link>
+   <guid>http://alexanderle.com/blog/2013/two-bullets.html</guid>
+   <pubDate>Fri, 26 Jul 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>My First Half Marathon: Race Recap And Experience</title>
+   <link>http://alexanderle.com/blog/2013/first-half-marathon.html</link>
+   <guid>http://alexanderle.com/blog/2013/first-half-marathon.html</guid>
+   <pubDate>Thu, 20 Jun 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Mail: How Do I Switch To A Career In Software?</title>
+   <link>http://alexanderle.com/blog/2013/mail-how-become-software-developer.html</link>
+   <guid>http://alexanderle.com/blog/2013/mail-how-become-software-developer.html</guid>
+   <pubDate>Tue, 21 May 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Sending Netflix OAuth Requests With Python</title>
+   <link>http://alexanderle.com/blog/2013/sending-netflix-oauth-request-python.html</link>
+   <guid>http://alexanderle.com/blog/2013/sending-netflix-oauth-request-python.html</guid>
+   <pubDate>Sun, 24 Feb 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>A Summary And Analysis Of Running In 2012</title>
+   <link>http://alexanderle.com/blog/2013/run-summary-and-analysis-2012.html</link>
+   <guid>http://alexanderle.com/blog/2013/run-summary-and-analysis-2012.html</guid>
+   <pubDate>Wed, 02 Jan 2013 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>1 Year. 77 Runs. 125 Miles.</title>
+   <link>http://alexanderle.com/blog/2012/100-miles.html</link>
+   <guid>http://alexanderle.com/blog/2012/100-miles.html</guid>
+   <pubDate>Sun, 30 Dec 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Make Your Own Luck</title>
+   <link>http://alexanderle.com/blog/2012/make-your-own-luck.html</link>
+   <guid>http://alexanderle.com/blog/2012/make-your-own-luck.html</guid>
+   <pubDate>Mon, 19 Nov 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Paralyzed By Choice</title>
+   <link>http://alexanderle.com/blog/2012/paralyzed-by-choice.html</link>
+   <guid>http://alexanderle.com/blog/2012/paralyzed-by-choice.html</guid>
+   <pubDate>Sun, 21 Oct 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Quitting Fantasy Football</title>
+   <link>http://alexanderle.com/blog/2012/quitting-fantasy-football.html</link>
+   <guid>http://alexanderle.com/blog/2012/quitting-fantasy-football.html</guid>
+   <pubDate>Mon, 10 Sep 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Keeping A Github Fork Updated</title>
+   <link>http://alexanderle.com/blog/2012/updating-github-fork-from-original.html</link>
+   <guid>http://alexanderle.com/blog/2012/updating-github-fork-from-original.html</guid>
+   <pubDate>Sun, 12 Aug 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Neatflix: A Netflix API Demo</title>
+   <link>http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html</link>
+   <guid>http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html</guid>
+   <pubDate>Fri, 27 Jul 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>10 Tips For Hiking Your First 14er</title>
+   <link>http://alexanderle.com/blog/2012/tips-for-hiking-your-first-14er.html</link>
+   <guid>http://alexanderle.com/blog/2012/tips-for-hiking-your-first-14er.html</guid>
+   <pubDate>Fri, 06 Jul 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Conquering My First 14er (Gray's And Torrey's)</title>
+   <link>http://alexanderle.com/blog/2012/first-14er-grays-and-torreys-peak.html</link>
+   <guid>http://alexanderle.com/blog/2012/first-14er-grays-and-torreys-peak.html</guid>
+   <pubDate>Wed, 04 Jul 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>The "Nasty Girls" of CrossFit</title>
+   <link>http://alexanderle.com/blog/2012/nasty-girls-of-crossfit.html</link>
+   <guid>http://alexanderle.com/blog/2012/nasty-girls-of-crossfit.html</guid>
+   <pubDate>Wed, 06 Jun 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Karen, My Newest Enemy</title>
+   <link>http://alexanderle.com/blog/2012/karen-my-new-enemy-crossfit.html</link>
+   <guid>http://alexanderle.com/blog/2012/karen-my-new-enemy-crossfit.html</guid>
+   <pubDate>Thu, 31 May 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Why I Hate Running But Still Do It Anyways</title>
+   <link>http://alexanderle.com/blog/2012/why-i-hate-running-but-still-do-it.html</link>
+   <guid>http://alexanderle.com/blog/2012/why-i-hate-running-but-still-do-it.html</guid>
+   <pubDate>Tue, 08 May 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Update On 2012 Running Progress</title>
+   <link>http://alexanderle.com/blog/2012/2012-running-progress-1.html</link>
+   <guid>http://alexanderle.com/blog/2012/2012-running-progress-1.html</guid>
+   <pubDate>Mon, 07 May 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Create An RSS Feed From Scratch</title>
+   <link>http://alexanderle.com/blog/2012/create-an-rss-feed-from-scratch.html</link>
+   <guid>http://alexanderle.com/blog/2012/create-an-rss-feed-from-scratch.html</guid>
+   <pubDate>Wed, 11 Apr 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Add Syntax Highlighting To Your Blog With VIM</title>
+   <link>http://alexanderle.com/blog/2012/syntax-highlighting-with-gvim.html</link>
+   <guid>http://alexanderle.com/blog/2012/syntax-highlighting-with-gvim.html</guid>
+   <pubDate>Sat, 17 Mar 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Why I Moved My Blog To Github Pages</title>
+   <link>http://alexanderle.com/blog/2012/move-to-github.html</link>
+   <guid>http://alexanderle.com/blog/2012/move-to-github.html</guid>
+   <pubDate>Wed, 29 Feb 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>How To Setup A Simple HTTP Server With Python</title>
+   <link>http://alexanderle.com/blog/2012/simple-http-server-python.html</link>
+   <guid>http://alexanderle.com/blog/2012/simple-http-server-python.html</guid>
+   <pubDate>Thu, 09 Feb 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Repost: Farewell Blogger</title>
+   <link>http://alexanderle.com/blog/2012/farewell-blogger.html</link>
+   <guid>http://alexanderle.com/blog/2012/farewell-blogger.html</guid>
+   <pubDate>Tue, 07 Feb 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>My .Vimrc Configuration</title>
+   <link>http://alexanderle.com/blog/2012/my-vimrc.html</link>
+   <guid>http://alexanderle.com/blog/2012/my-vimrc.html</guid>
+   <pubDate>Fri, 20 Jan 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2012 Goals</title>
+   <link>http://alexanderle.com/blog/2012/2012-goals.html</link>
+   <guid>http://alexanderle.com/blog/2012/2012-goals.html</guid>
+   <pubDate>Thu, 05 Jan 2012 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2011: Year In Review</title>
+   <link>http://alexanderle.com/blog/2011/2011-year-in-review.html</link>
+   <guid>http://alexanderle.com/blog/2011/2011-year-in-review.html</guid>
+   <pubDate>Fri, 30 Dec 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Store your data with HTML5 local storage</title>
+   <link>http://alexanderle.com/blog/2011/html5-local-storage.html</link>
+   <guid>http://alexanderle.com/blog/2011/html5-local-storage.html</guid>
+   <pubDate>Sun, 27 Nov 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Scrape a web page with python (Criminal Minds)</title>
+   <link>http://alexanderle.com/blog/2011/scrape-web-page.html</link>
+   <guid>http://alexanderle.com/blog/2011/scrape-web-page.html</guid>
+   <pubDate>Tue, 27 Sep 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Rework "Inspiration"</title>
+   <link>http://alexanderle.com/blog/2011/rework-inspiration.html</link>
+   <guid>http://alexanderle.com/blog/2011/rework-inspiration.html</guid>
+   <pubDate>Wed, 07 Sep 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>My Favorite Programming Quotes</title>
+   <link>http://alexanderle.com/blog/2011/favorite-program-quote.html</link>
+   <guid>http://alexanderle.com/blog/2011/favorite-program-quote.html</guid>
+   <pubDate>Thu, 01 Sep 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Ralph Waldo Emerson - Success</title>
+   <link>http://alexanderle.com/blog/2011/emerson-success.html</link>
+   <guid>http://alexanderle.com/blog/2011/emerson-success.html</guid>
+   <pubDate>Tue, 09 Aug 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Operation Learn-To-Read-Vietnamese: Tones</title>
+   <link>http://alexanderle.com/blog/2011/tones-vietnamese.html</link>
+   <guid>http://alexanderle.com/blog/2011/tones-vietnamese.html</guid>
+   <pubDate>Sat, 06 Aug 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Operation Learn-To-Read-Vietnamese: Alphabet</title>
+   <link>http://alexanderle.com/blog/2011/alphabet-vietnamese.html</link>
+   <guid>http://alexanderle.com/blog/2011/alphabet-vietnamese.html</guid>
+   <pubDate>Wed, 03 Aug 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Putting Money In The Bank</title>
+   <link>http://alexanderle.com/blog/2011/money-in-the-bank.html</link>
+   <guid>http://alexanderle.com/blog/2011/money-in-the-bank.html</guid>
+   <pubDate>Tue, 28 Jun 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>The Birthday Paradox</title>
+   <link>http://alexanderle.com/blog/2011/birthday-paradox.html</link>
+   <guid>http://alexanderle.com/blog/2011/birthday-paradox.html</guid>
+   <pubDate>Thu, 09 Jun 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>How To Send A SMS Message With Python (easy way)</title>
+   <link>http://alexanderle.com/blog/2011/send-sms-python.html</link>
+   <guid>http://alexanderle.com/blog/2011/send-sms-python.html</guid>
+   <pubDate>Thu, 05 May 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>"Write a linked list in python.."</title>
+   <link>http://alexanderle.com/blog/2011/linked-list-python.html</link>
+   <guid>http://alexanderle.com/blog/2011/linked-list-python.html</guid>
+   <pubDate>Tue, 26 Apr 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>What I Learned From Going To Church</title>
+   <link>http://alexanderle.com/blog/2011/learned-from-church.html</link>
+   <guid>http://alexanderle.com/blog/2011/learned-from-church.html</guid>
+   <pubDate>Sun, 24 Apr 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>March..</title>
+   <link>http://alexanderle.com/blog/2011/2011-march.html</link>
+   <guid>http://alexanderle.com/blog/2011/2011-march.html</guid>
+   <pubDate>Wed, 06 Apr 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>5 Hour Radiator Replacement</title>
+   <link>http://alexanderle.com/blog/2011/5-hour-radiator.html</link>
+   <guid>http://alexanderle.com/blog/2011/5-hour-radiator.html</guid>
+   <pubDate>Fri, 25 Mar 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>The One Minute Manager</title>
+   <link>http://alexanderle.com/blog/2011/one-minute-manager.html</link>
+   <guid>http://alexanderle.com/blog/2011/one-minute-manager.html</guid>
+   <pubDate>Sun, 13 Mar 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>GPO!</title>
+   <link>http://alexanderle.com/blog/2011/gpo.html</link>
+   <guid>http://alexanderle.com/blog/2011/gpo.html</guid>
+   <pubDate>Tue, 08 Mar 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>February..</title>
+   <link>http://alexanderle.com/blog/2011/2011-february.html</link>
+   <guid>http://alexanderle.com/blog/2011/2011-february.html</guid>
+   <pubDate>Sun, 27 Feb 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2011 Goals For Now</title>
+   <link>http://alexanderle.com/blog/2011/2011-goals.html</link>
+   <guid>http://alexanderle.com/blog/2011/2011-goals.html</guid>
+   <pubDate>Wed, 23 Feb 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2011: The Year Of The Hustle</title>
+   <link>http://alexanderle.com/blog/2011/2011-year-of-hustle.html</link>
+   <guid>http://alexanderle.com/blog/2011/2011-year-of-hustle.html</guid>
+   <pubDate>Tue, 18 Jan 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>2010: Year In Review</title>
+   <link>http://alexanderle.com/blog/2011/2010-year-in-review.html</link>
+   <guid>http://alexanderle.com/blog/2011/2010-year-in-review.html</guid>
+   <pubDate>Sat, 01 Jan 2011 00:00:00 MST</pubDate>
+   </item>
+   
+   <item>
+   <title>Hello World!</title>
+   <link>http://alexanderle.com/blog/2008/hello-world.html</link>
+   <guid>http://alexanderle.com/blog/2008/hello-world.html</guid>
+   <pubDate>Wed, 10 Dec 2008 00:00:00 MST</pubDate>
+   </item>
+   
+</channel>
+</rss>
