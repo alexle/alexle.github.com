@@ -16,11 +16,17 @@ In 2012, I set a goal to run 100 miles. I ended up completing 77 runs for [125 m
 
 For 2013, my main focus was to complete a [half-marathon][2] in May. It turned out to be the best race I had ever participated in, but I wasn't done yet. Four months later, I finished my [first marathon][3]! By the end of the year, I had amassed a total of **168 runs** for **804 miles**! What a difference a year makes.
 
-<a href="/static/2013-alex-running-summary.png"><img class="pure-img center" src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary" /></a>
+<p>
+<img class="pure-img center" src="/static/2013-alex-running-summary.png" alt="alex le 2013 running summary miles graph" />
+<div class="separator"></div>
+</p>
 
 I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
 
-<a href="/static/2013-alex-running-records.jpg"><img class="pure-img center" src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="280px" /></a>
+<p>
+<img class="pure-img center" src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" />
+<div class="separator"></div>
+</p>
 
 Overall, it was a fantastic and fun year on the road. I never thought I would be saying this, but I've really grown to love running. It has become such a major part of my life, so much so that I want to **run forever**.
 
@@ -32,7 +38,12 @@ Outside of work, I made progress on most of my side projects. The one I'm most p
 
 > Alex likes to run. However, he's very picky and only likes to run when the weather is optimal. This is an app to query current and future weather conditions to find the best time for Alex to run.
 
-<a href="/static/shouldalexrun_1.jpg"><img class="pure-img center" src="/static/shouldalexrun_1.jpg" alt="shouldalexrun" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
+<p>
+<a href="/static/shouldalexrun_1.jpg">
+<img class="pure-img center" src="/static/shouldalexrun_1.jpg" alt="alex le shouldalexrun web app" />
+</a>
+<div class="separator"></div>
+</p>
 
 ##Crossfit And Exercise##
 
@@ -42,9 +53,12 @@ Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit
 
 In other words, I superset every lift. I concentrate on compound exercises that use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
-<a href="/static/crossfit-games-2012-muscle-up.jpg"><img class="pure-img center" src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
-<div class="separator" style="clear: both; text-align: center;">
-Kenneth Leverich and Rich Froning showing how it's done.</div>
+<p>
+<a href="/static/crossfit-games-2012-muscle-up.jpg">
+<img class="pure-img center" src="/static/crossfit-games-2012-muscle-up.jpg" alt="alex le 2013 running records" />
+</a>
+<div class="separator">Kenneth Leverich and Rich Froning showing how it's done.</div>
+</p>
 
 What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 

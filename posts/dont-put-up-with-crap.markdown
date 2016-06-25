@@ -3,8 +3,9 @@ Don't Put Up With Crap (If You Can Help It)
 /static/porta_potty.jpg
 
 <p>
-<img class="pure-img center" src="/static/porta_potty.jpg" border="0px" />
-</p>
+<img class="pure-img center" src="/static/porta_potty.jpg" alt="row of porta potty" />
+<div class="separator"></div>
+</p
 
 There are two kinds of crap in the world:
 

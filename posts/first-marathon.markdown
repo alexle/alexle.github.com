@@ -7,7 +7,9 @@ Few challenges in life have the power to break you down to the point of tears. M
 The course and conditions were tough. It seemed as if you were always facing a 10mph headwind, no matter which direction you ran. The hills were plenty and unforgiving. And the distance was **unreal**. Aside from actually running 26.2 miles, I personally believe that nothing can prepare you for it. Not 20, or 22, or even 24 miles.
 
 <p>
-<a href="/static/2013-full-nike-map.jpg"><img class="pure-img center" src="/static/2013-full-nike-map.jpg" /></a>
+<a href="/static/2013-full-nike-map.jpg">
+<img class="pure-img center" src="/static/2013-full-nike-map.jpg" alt="2013 denver rock and roll marathon alex le course gps" />
+</a>
 </p>
 
 Here's a recap of my first marathon, or as I consider, the worst run I've ever had.
@@ -76,7 +78,10 @@ I crossed the finish line at **4:05:13**. It didn't feel real at first. But when
 
 A little ways ahead, I heard my name being shouted. It turned out to be my family and some friends who had stuck around after finishing their half-marathons earlier. It meant a lot seeing everyone brave the cold and wind to support me. Sometimes, you just don't feel you deserve the amount of love given to you.
 
-<a href="/static/alex_le_marathon.jpg"><img class="pure-img center" src="/static/alex_le_marathon.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="400px" /></a>
+<p>
+<a href="/static/alex_le_marathon.jpg">
+<img class="pure-img center" src="/static/alex_le_marathon.jpg" alt="alex le 2013 denver rock and roll marathon medal finish line" /></a>
+</p>
 
 When asked how the race was, the impact of everything I endured emotionally and physically over the past 4 hours hit me. It was amazing, it was terrible, and it was.. disappointing. Not that completing a marathon wasn't an accomplishment on its own. But because I felt I was capable of so much more.
 

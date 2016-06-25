@@ -8,7 +8,7 @@ Turns out my radiator had a leak. I watched a youtube video called [10 Minute Ra
 A couple hours later, that thought was replaced with "what were you thinking alex". I got some help from an old friend and was able to finish around the 5 hour mark. It takes most auto shops 30min to replace a radiator. My back hurts and my hands are scuffed up, but overall it was a satisfying and good learning experience.
 
 <p>
-<img class="pure-img center" src="/static/rad1.jpg" border="0px" />
+<img class="pure-img center" src="/static/rad1.jpg" border="0px" alt="acura car new radiator" />
 <div class="separator" style="clear: both; text-align: center;">
 Old radiator, sorry I did not take better care of you.
 </div>
@@ -17,7 +17,7 @@ Old radiator, sorry I did not take better care of you.
 <br>
 
 <p>
-<img class="pure-img center" src="/static/rad2.jpg" border="0px" />
+<img class="pure-img center" src="/static/rad2.jpg" border="0px" alt="acura car new radiator transfer" />
 <div class="separator" style="clear: both; text-align: center;">
 Transferring hoses from old radiator to new radiator.
 </div>
@@ -26,7 +26,7 @@ Transferring hoses from old radiator to new radiator.
 <br>
 
 <p>
-<img class="pure-img center" src="/static/rad3.jpg" border="0px" />
+<img class="pure-img center" src="/static/rad3.jpg" border="0px" alt="acura car new radiator put together" />
 <div class="separator" style="clear: both; text-align: center;">
 Bam! The new radiator ready to go to its new home.
 </div>
@@ -35,7 +35,7 @@ Bam! The new radiator ready to go to its new home.
 <br>
 
 <p>
-<img class="pure-img center" src="/static/rad4.jpg" border="0px" />
+<img class="pure-img center" src="/static/rad4.jpg" border="0px" alt="acura car new radiator before installation" />
 <div class="separator" style="clear: both; text-align: center;">
 One last look before installation.
 </div>

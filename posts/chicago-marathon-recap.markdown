@@ -15,10 +15,8 @@ Here's a recap of my incredible Chicago Marathon experience.
 We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work that weekend.
 
 <p>
-<img class="pure-img center" src="/static/chicago-ventra.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-My preciouuuus...
-</div>
+<img class="pure-img center" src="/static/chicago-ventra.jpg" alt="chicago ventra pass" />
+<div class="separator">My preciouuuus...</div>
 </p>
 
 Normally, I like to relax and be off my feet before a race. But this was my first time in Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
@@ -28,10 +26,8 @@ The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you
 The views from the boat were spectacular. My favorite was a building currently under construction. There was limited room at this location for a standard-sized building, so the architect designed the base to fit along the waterfront and simply expanded the upper levels. Ingenious.
 
 <p>
-<img class="pure-img center" src="/static/chicago-tour-building.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Up close and personal from the boat.
-</div>
+<img class="pure-img center" src="/static/chicago-tour-building.jpg" alt="chicago architecture boat tour" />
+<div class="separator">Up close and personal from the boat.</div>
 </p>
 
 ##The Expo##
@@ -45,10 +41,8 @@ The next step was signing up for a pace group, something I had never tried befor
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
 
 <p>
-<img class="pure-img center" src="/static/chicago-alex-own.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Ready to own Chicago!
-</div>
+<img class="pure-img center" src="/static/chicago-alex-own.jpg" alt="alex le #ownchicago" />
+<div class="separator">Ready to own Chicago!</div>
 </p>
 
 ##Goal and Strategy##
@@ -62,10 +56,8 @@ Hence, the new plan was to run the race by feel and use the 3:50 group as a "rab
 ##Pre-Race##
 
 <p>
-<img class="pure-img center" src="/static/chicago-gear.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-The race kit.
-</div>
+<img class="pure-img center" src="/static/chicago-gear.jpg" alt="alex le chicago marathon race kit" />
+<div class="separator">The race kit.</div>
 </p>
 
 Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz gatorade. In hindsight, I should have eaten more and drank less.
@@ -85,10 +77,8 @@ I know that's all I'll be thinking about so I join the others. When I finish, my
 To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:05 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 <p>
-<img class="pure-img center" src="/static/chicago-marathon-start.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Photo courtesy of Chicago Marathon.
-</div>
+<img class="pure-img center" src="/static/chicago-marathon-start.jpg" alt="2015 chicago marathon start" />
+<div class="separator">Photo courtesy of Chicago Marathon.</div>
 </p>
 
 ##Miles 3.1 - 6.2 (8:44 min/mi)##
@@ -122,10 +112,8 @@ I'm chilling in front of the pack when one of the pace leaders starts saying how
 Then, out of thin air, he pulls out a **16oz Pabst Blue Ribbon**.
 
 <p>
-<img class="pure-img center" src="/static/pabst-blue-ribbon.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Yes, the lager with 4.7% ABV.
-</div>
+<img class="pure-img center" src="/static/pabst-blue-ribbon.jpg" alt="pabst blue ribbon can 16oz" />
+<div class="separator">Yes, the lager with 4.7% ABV.</div>
 </p>
 
 He asks who will be the first to drink. Everyone is silent, probably from shock. One guy finally volunteers and takes a swig. Who's next, the pace leader asks.
@@ -177,10 +165,8 @@ I get my medal and almost cry. What a journey. It was worth every second of pain
 Since the finish is packed with spectators, I make my way to the designated area to meet up with my support crew. I scan the crowds for a familiar face, when out pops my head floating on a stick.
 
 <p>
-<img class="pure-img center" src="/static/chicago-finish.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Me and my awesome support crew.
-</div>
+<img class="pure-img center" src="/static/chicago-finish.jpg" alt="alex le chicago marathon finish with support crew" />
+<div class="separator">Me and my awesome support crew.</div>
 </p>
 
 ##Impressions##
@@ -196,10 +182,8 @@ Me and my awesome support crew.
 5. It's pretty difficult to run the tangents at the Chicago Marathon. Mainly due to the crowds. Parts of the race get really congested as well. My watch bugged out and had me at 27.0 miles, but I suspect it was more around 26.5-26.6 miles. Keep this in mind if you're shooting for a time goal.
 
 <p>
-<img class="pure-img center" src="/static/chicago-marathon-map.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-All calories earned were spent with reckless abandon.
-</div>
+<img class="pure-img center" src="/static/chicago-marathon-map.jpg" alt="2015 chicago marathon nike gps map" />
+<div class="separator">All calories earned were spent with reckless abandon.</div>
 </p>
 
 ##Final Reflections##
@@ -213,10 +197,8 @@ Training for and running a marathon is hard. Sometimes, it's so terrible I quest
 I often remind myself that some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know we did.
 
 <p>
-<img class="pure-img center" src="/static/chicago-bean.jpg" border="0px" />
-<div class="separator" style="clear: both; text-align: center;">
-Hanging out at The Bean, all smiles.
-</div>
+<img class="pure-img center" src="/static/chicago-bean.jpg" alt="alex le chicago marathon hang out at the bean afterwards" />
+<div class="separator">Hanging out at The Bean, all smiles.</div>
 </p>
 
 [1]: https://www.chicagomarathon.com/

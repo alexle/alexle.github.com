@@ -169,6 +169,11 @@ img.center {
    margin-right: auto;
 }
 
+.separator {
+   clear: both;
+   text-align: center;
+}
+
 .pure-button {
    width: 7em;
 }
