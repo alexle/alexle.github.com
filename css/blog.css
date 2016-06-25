@@ -67,7 +67,6 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 
 .home-image {
     margin: 0.7em 0 1.6em 0;
-    height: 240px;
     overflow: hidden;
     position: relative;
     border: 1px;
@@ -231,6 +230,10 @@ pre {
    h3.home-title {
       font-size: 1.5em;
    }
+
+   .home-image {
+      height: 240px;
+  }
 }
 
 /* RESPONSIVE -- RULES less than 48em */
@@ -270,4 +273,9 @@ pre {
    h3 {
       font-size: 1.1em;
    }
+
+   .home-image {
+      height: 160px;
+  }
+
 }
