@@ -42,9 +42,16 @@ def get_tree(source):
          path = os.path.join(root, name)
          f = open(path, "rU")
 
+         # Read title and date.
          title = f.readline().rstrip()
          raw_date = f.readline().strip()
+
+         # Attempt to read stock image. If not available, rewind back to
+         # original pos.
+         old_pos = f.tell()
          img = f.readline().rstrip()
+         if not img:
+             f.seek(old_pos)
 
          date = time.strptime(raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
