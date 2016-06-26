@@ -5,7 +5,7 @@ Don't Put Up With Crap (If You Can Help It)
 <p>
 <img class="pure-img center" src="/static/porta_potty.jpg" alt="row of porta potty" />
 <div class="separator"></div>
-</p
+</p>
 
 There are two kinds of crap in the world:
 
