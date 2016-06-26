@@ -1,6 +1,6 @@
 A Summary And Analysis Of Running In 2012
 01-02-2013
-/static/avg-distance-each-month.png
+/static/miles-ran-each-month.png
 
 *WARNING: Lots of statistics and graphs below. Proceed at your own risk.*
 
