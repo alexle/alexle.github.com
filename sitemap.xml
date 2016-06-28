@@ -34,7 +34,7 @@
       <image:loc>http://alexanderle.com//static/chicago-marathon-start.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -45,7 +45,7 @@
       <image:loc>http://alexanderle.com//static/porta_potty.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -56,7 +56,7 @@
       <image:loc>http://alexanderle.com//static/2013-alex-running-summary.png</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -67,7 +67,7 @@
       <image:loc>http://alexanderle.com//static/2013-full-nike-map.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -78,7 +78,7 @@
       <image:loc>http://alexanderle.com//static/gu_drawer.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -89,7 +89,7 @@
       <image:loc>http://alexanderle.com//static/bug_zapper.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -100,7 +100,7 @@
       <image:loc>http://alexanderle.com//static/two_bullets.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -111,7 +111,7 @@
       <image:loc>http://alexanderle.com//static/2013-colfax-start.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -122,14 +122,14 @@
       <image:loc>http://alexanderle.com//static/code.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2013/sending-netflix-oauth-request-python.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -140,7 +140,7 @@
       <image:loc>http://alexanderle.com//static/miles-ran-each-month.png</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -151,42 +151,42 @@
       <image:loc>http://alexanderle.com//static/nike-2012-total.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/make-your-own-luck.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/paralyzed-by-choice.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/quitting-fantasy-football.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/updating-github-fork-from-original.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/neatflix-my-netflix-api-demo.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -197,28 +197,28 @@
       <image:loc>http://alexanderle.com//static/alex_le_quandary_peak.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/first-14er-grays-and-torreys-peak.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/nasty-girls-of-crossfit.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/karen-my-new-enemy-crossfit.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -229,7 +229,7 @@
       <image:loc>http://alexanderle.com//static/jogging_worst.jpg</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
@@ -240,210 +240,210 @@
       <image:loc>http://alexanderle.com//static/nikeplus1.png</image:loc>
     </image:image>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/create-an-rss-feed-from-scratch.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/syntax-highlighting-with-gvim.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/move-to-github.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/simple-http-server-python.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/farewell-blogger.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/my-vimrc.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2012/2012-goals.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2011-year-in-review.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/html5-local-storage.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/scrape-web-page.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/rework-inspiration.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/favorite-program-quote.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/emerson-success.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/tones-vietnamese.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/alphabet-vietnamese.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/money-in-the-bank.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/birthday-paradox.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/send-sms-python.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/linked-list-python.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/learned-from-church.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2011-march.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/5-hour-radiator.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/one-minute-manager.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/gpo.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2011-february.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2011-goals.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2011-year-of-hustle.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2011/2010-year-in-review.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://alexanderle.com/blog/2008/hello-world.html</loc>
     
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
