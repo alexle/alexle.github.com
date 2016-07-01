@@ -101,16 +101,13 @@ h1.archive-year {
 }
 
 .sidebar {
+   text-align: center;
+   top: auto;
+   margin-top: 2em;
 }
 
 .content {
    margin: 0.8em;
-}
-
-.header {
-   text-align: center;
-   top: auto;
-   margin-top: 2em;
 }
 
 .pure-img-responsive {
@@ -178,7 +175,7 @@ img.center {
    width: 7em;
 }
 
-/***** CUSTOM *****/
+/* CUSTOM */
 .profile-pic {
    height: 115px;
    width: 115px;
@@ -212,6 +209,24 @@ blockquote {
 pre {
    font-family: courier;
    font-size: 13px;
+}
+
+/* MENU */
+#wrapper, #menu, .menu-link {
+   -webkit-transition: all 0.2s ease-out;
+   -moz-transition: all 0.2s ease-out;
+   -ms-transition: all 0.2s ease-out;
+   -o-transition: all 0.2s ease-out;
+   transition: all 0.2s ease-out;
+}
+
+#wrapper.active #menu {
+   left: 150px;
+   width: 150px;
+ }
+
+#wrapper.active .menu-link {
+   left: 150px;
 }
 
 /* RESPONSIVE -- RULES greater 48em */
@@ -248,9 +263,6 @@ pre {
 
    .sidebar {
       max-width: 100%;
-   }
-
-   .header {
       margin-top: 1.0em;
    }
 
