@@ -211,24 +211,6 @@ pre {
    font-size: 13px;
 }
 
-/* MENU */
-#wrapper, #menu, .menu-link {
-   -webkit-transition: all 0.2s ease-out;
-   -moz-transition: all 0.2s ease-out;
-   -ms-transition: all 0.2s ease-out;
-   -o-transition: all 0.2s ease-out;
-   transition: all 0.2s ease-out;
-}
-
-#wrapper.active #menu {
-   left: 150px;
-   width: 150px;
- }
-
-#wrapper.active .menu-link {
-   left: 150px;
-}
-
 /* RESPONSIVE -- RULES greater 48em */
 @media (min-width: 48em) {
    #wrapper {
