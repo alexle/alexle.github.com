@@ -100,13 +100,13 @@ h1.archive-year {
    margin: 0 auto;
 }
 
-.sidebar {
+#sidebar {
    text-align: center;
    top: auto;
    margin-top: 2em;
 }
 
-.content {
+#content {
    margin: 0.8em;
 }
 
@@ -142,20 +142,20 @@ h1.archive-year {
    text-decoration: none;
 }
 
-.footer {
+#footer {
    margin-top: 2em;
    text-align: center;
 }
 
-.footer a {
+#footer a {
    color: #aaa;
 }
 
-.footer .pure-menu a:hover, .footer .pure-menu a:focus {
+#footer .pure-menu a:hover, .pure-menu a:focus {
    background: none;
 }
 
-.footer .pure-menu-link {
+#footer .pure-menu-link {
    font-size: 0.9em;
 }
 
@@ -235,14 +235,14 @@ pre {
       max-width: 47em; /* wrapper = sidebar + content */
    }
 
-   .sidebar {
+   #sidebar {
       position: fixed;
       max-width: 9em; /* wrapper = sidebar + content */
       top: 0;
       bottom: 0;
    }
 
-   .content {
+   #content {
       max-width: 38em; /* wrapper = sidebar + content */
       margin-left: 10em;
    }
@@ -261,12 +261,12 @@ pre {
    #wrapper {
    }
 
-   .sidebar {
+   #sidebar {
       max-width: 100%;
       margin-top: 1.0em;
    }
 
-   .content {
+   #content {
       max-width: 100%;
       margin-top: 0;
    }
