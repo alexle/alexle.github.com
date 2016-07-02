@@ -173,8 +173,7 @@ img.center {
 }
 
 .hr-post {
-   //border-top: 1px dashed #E6E6E6;
-   border-top: 1px dashed #999999;
+   border-top: 1px solid #dddddd;
 }
 
 blockquote {

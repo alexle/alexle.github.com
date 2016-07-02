@@ -2,23 +2,22 @@
 {% extends "base.html" %}
 
 {% block main %}
-   {% for entry in entries %}
-   <div class="home-post">
-      <div class="home-title">
-         <h2 class="home-title"><a href="blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h2>
-      </div>
-      <div class="home-date">
-         {{ entry.pretty_date }}
-      </div>
-      {% if entry.img %}
-      <div class='home-image'>
-         <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" alt="{{ entry.img }}"/></a>
-      </div>
-      {% endif %}
-      <hr class="hr-post">
+{% for entry in entries %}
+<div class="home-post">
+   <div class="home-title">
+      <h2 class="home-title"><a href="blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h2>
    </div>
-   {% endfor %}
+   <div class="home-date">
+      {{ entry.pretty_date }}
+   </div>
+   {% if entry.img %}
+   <div class='home-image'>
+      <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" alt="{{ entry.img }}"/></a>
+   </div>
+   {% endif %}
+   <hr class="hr-post">
+</div>
+{% endfor %}
 
-   <br><a href="/blog/archives.html">View Blog Archive &rarr;</a>
-
+<br><a href="/blog/archives.html">View Blog Archive &rarr;</a>
 {% endblock %}
