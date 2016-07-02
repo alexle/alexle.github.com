@@ -6,12 +6,12 @@ g* {
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-   font-family: 'Open-Sans', sans-serif;
+   font-family: 'Railway', sans-serif;
 }
 
 /* BASE */
 body {
-   font-family: 'Open-Sans', sans-serif;
+   font-family: 'Railway', sans-serif;
    font-size: 1.02em;
    line-height: 1.55em;
    color: #333333;
