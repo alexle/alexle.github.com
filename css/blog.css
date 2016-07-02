@@ -1,4 +1,4 @@
-* {
+g* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -6,14 +6,13 @@
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 
 /* BASE */
 body {
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Raleway', sans-serif;
    font-size: 1.02em;
-   font-weight: lighter;
    line-height: 1.55em;
    color: #333333;
 }
@@ -23,13 +22,8 @@ h1,h2,h3,h4,h5,h6 {
    text-rendering: optimizelegibility;
 }
 
-h1 {
-   line-height: 1.5em;
-}
-
-h2 {
-   line-height: 1.2em;
-}
+h1 { line-height: 1.5em; }
+h2 { line-height: 1.2em; }
 
 a {
    cursor: hand;
@@ -79,16 +73,8 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
   transform: translate(-50%, -50%);
 }
 
-.crop img {
-}
-
 /* POST CSS */
-.post {
-}
-
-.post-title {
-   font-size: 90%;
-}
+.post-title { font-size: 90%; }
 
 /* ARCHIVE CSS */
 h1.archive-year {
@@ -183,12 +169,9 @@ img.center {
    border-radius: 10px;
 }
 
-.brand-title, .brand-tagline {
-   margin: 0;
-}
-
-.brand-title {
+.profile-title {
    font-size: 2.2em;
+   margin: 0;
 }
 
 .hr-post {
@@ -229,13 +212,7 @@ pre {
       margin-left: 10em;
    }
 
-   h3.home-title {
-      font-size: 1.5em;
-   }
-
-   .home-image {
-      height: 240px;
-  }
+   .home-image { height: 240px; }
 }
 
 /* RESPONSIVE -- RULES less than 48em */
@@ -257,24 +234,10 @@ pre {
       font-size: 0.94em;
    }
 
-   h1, h2, h3 {
-      font-weight: bold;
-   }
+   h1 { font-size: 1.6em; }
+   h2 { font-size: 1.4em; }
+   h3 { font-size: 1.1em; }
 
-   h1 {
-      font-size: 1.5em;
-   }
-
-   h2 {
-      font-size: 1.3em;
-   }
-
-   h3 {
-      font-size: 1.1em;
-   }
-
-   .home-image {
-      height: 160px;
-  }
+   .home-image { height: 160px; }
 
 }
