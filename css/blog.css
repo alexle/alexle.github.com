@@ -215,9 +215,6 @@ pre {
 
 /* RESPONSIVE -- RULES less than 48em */
 @media (max-width: 48em) {
-   #wrapper {
-   }
-
    #sidebar {
       max-width: 100%;
       margin-top: 1.0em;
