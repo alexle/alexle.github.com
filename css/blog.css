@@ -9,6 +9,11 @@ html, button, input, select, textarea,
    font-family: 'Railway', sans-serif;
 }
 
+.pure-img-responsive {
+   max-width: 100%;
+   height: auto;
+}
+
 /* BASE */
 body {
    font-family: 'Railway', sans-serif;
@@ -94,38 +99,6 @@ h1.archive-year {
    margin: 0.8em;
 }
 
-.pure-img-responsive {
-   max-width: 100%;
-   height: auto;
-}
-
-.nav {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-}
-
-.nav-item {
-   display: inline-block;
-   *display: inline;
-   zoom: 1;
-}
-
-.nav-item a {
-   background: transparent;
-   border: 2px solid rgb(176, 202, 219);
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
-   letter-spacing: 0.05em;
-   text-transform: uppercase;
-   font-size: 85%;
-}
-
-.nav-item a:hover, .nav-item a:focus {
-   border: 2px solid rgb(61, 146, 201);
-   text-decoration: none;
-}
-
 #footer {
    margin-top: 2em;
    text-align: center;
@@ -159,6 +132,31 @@ img.center {
    width: 7em;
 }
 
+.menu-list { margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.button-item {
+   display: inline-block;
+   *display: inline;
+   zoom: 1;
+}
+
+.button-item a {
+   background: transparent;
+   border: 2px solid rgb(176, 202, 219);
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   font-size: 85%;
+}
+
+.button-item a:hover, .button-item a:focus {
+   border: 2px solid rgb(61, 146, 201);
+   text-decoration: none;
+}
 /* CUSTOM */
 .profile-pic {
    height: 115px;
