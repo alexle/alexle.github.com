@@ -9,11 +9,6 @@ html, button, input, select, textarea,
    font-family: 'Railway', sans-serif;
 }
 
-.pure-img-responsive {
-   max-width: 100%;
-   height: auto;
-}
-
 /* BASE */
 body {
    font-family: 'Railway', sans-serif;
