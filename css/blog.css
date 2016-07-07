@@ -135,18 +135,16 @@ img.center {
 
 .button-item {
    display: inline-block;
-   *display: inline;
-   zoom: 1;
+   font-size: 85%;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
 }
 
 .button-item a {
    background: transparent;
    border: 2px solid rgb(176, 202, 219);
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   font-size: 85%;
 }
 
 .button-item a:hover, .button-item a:focus {
