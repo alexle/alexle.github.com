@@ -32,7 +32,7 @@ The views from the boat were spectacular. My favorite was a building currently u
 
 ##The Expo##
 
-We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With over 38,000 people running the marathon, I was prepared for a huge cluster mess inside.
+We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With over *45,000* people registered for the marathon, I was prepared for a huge cluster mess inside.
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
