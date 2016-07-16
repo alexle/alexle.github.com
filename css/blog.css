@@ -38,6 +38,19 @@ a:hover, a:focus {
    text-decoration: none;
 }
 
+/* PROFILE CSS */
+.profile-pic {
+   height: 115px;
+   width: 115px;
+   border: 0;
+   border-radius: 10px;
+}
+
+.profile-title {
+   font-size: 2em;
+   margin: 0;
+}
+
 /* HOME CSS */
 a.home-title-link:link, a.home-title-link:visited {
    color: #333;
@@ -54,7 +67,7 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 
 .home-date, .post-date {
    color: #888;
-   font-size: 90%;
+   font-size: 80%;
 }
 
 .home-image {
@@ -150,18 +163,6 @@ img.center {
 .button-item a:hover, .button-item a:focus {
    border: 2px solid rgb(61, 146, 201);
    text-decoration: none;
-}
-/* CUSTOM */
-.profile-pic {
-   height: 115px;
-   width: 115px;
-   border: 0;
-   border-radius: 10px;
-}
-
-.profile-title {
-   font-size: 2em;
-   margin: 0;
 }
 
 .hr-post {
