@@ -64,13 +64,13 @@
    </div>
 
    <p class="post-content">
-      <p>In an earlier <a href="blog/2012/02/07/farewell-blogger.html">post</a>, I expressed my desire to write more. While Google Blogger was a good platform to start on, I quickly realized how closed and limiting it was.</p>
+      <p>In an earlier <a href="/blog/2012/farewell-blogger.html">post</a>, I expressed my desire to write more. While Google Blogger was a good platform to start on, I quickly realized how closed and limiting it was.</p>
 <ul>
 <li>When you use a hosted platform like Wordpress, Blogger, or Tumblr, you don't own the site. The host does. Remember when the blogging site Posterous shut down? Everyone's unique page designs, blog links, and content were gone.</li>
 <li>There are restrictions on what you can customize and how. Most solutions involve wedging in plug-ins that don't quite fit, or purchasing expensive pre-made themes (which are also inflexible themselves).</li>
 <li>Hosted platforms don't offer methods to back-up your content, nor allow you to switch to a different platform easily.</li>
 </ul>
-<p>After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages <strong>as they are stored</strong> on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server. </p>
+<p>After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages <strong>as they are stored</strong> on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server.</p>
 <p>Most static sites are created from <a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">static site generators</a>. These are small programs that process text files into into an HTML website. It's generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?  </p>
 <p>The advantages of static sites are numerous. Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:</p>
 <h2>1. Control Of My Content</h2>
@@ -88,7 +88,7 @@
 </ul>
 <p>Writing page after page using the WYSIWYG is a pain-staking endeavor.</p>
 <h2>3. Simple, Minimal</h2>
-<p>Another appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use. </p>
+<p>Another appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use.</p>
 <h2>4. Additional Tools</h2>
 <p>Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files.</p>
 <p>Power search options via the command line can be used, such as <em>find -iname ./</em> and <em>grep -r</em>. Want to change all instances of "volvo" to "Volvo"? It's a one-line operation. Want to rename all your text files? SED and AWK are at your disposal.</p>
@@ -105,7 +105,7 @@
 <p>I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.</p>
 <hr>
 
-<p>In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the styling of my content. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my own RSS feed, a local server for development, and just recently, custom syntax highlighting.</p>
+<p>In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the styling of my content. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my <a href="/blog/2012/create-an-rss-feed-from-scratch.html">own RSS feed</a>, a local server for development, and just recently, custom syntax highlighting.</p>
 <p>If you're curious, I settled on using <a href="https://github.com/dz/chisel">Chisel</a>, a static site generator that is only <strong>104 lines</strong> of python. Feel free to <a href="https://github.com/alexle/alexle.github.com">fork</a> it on my Github!</p>
    </p>
 

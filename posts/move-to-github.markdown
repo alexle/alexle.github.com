@@ -7,7 +7,7 @@ In an earlier [post][1], I expressed my desire to write more. While Google Blogg
 * There are restrictions on what you can customize and how. Most solutions involve wedging in plug-ins that don't quite fit, or purchasing expensive pre-made themes (which are also inflexible themselves).
 * Hosted platforms don't offer methods to back-up your content, nor allow you to switch to a different platform easily.
 
-After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server. 
+After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application that generates the site dynamically when requested. There's no complicated back-end server.
 
 Most static sites are created from [static site generators][3]. These are small programs that process text files into into an HTML website. It's generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?  
 
@@ -34,7 +34,7 @@ Writing page after page using the WYSIWYG is a pain-staking endeavor.
 
 ##3. Simple, Minimal##
 
-Another appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use. 
+Another appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use.
 
 ##4. Additional Tools##
 
@@ -59,16 +59,16 @@ Maintaining static HTML files is not for everyone, but it greatly fits my style 
 
 I'm able to view my site locally as much as needed, similar to working on a "development" branch. When I'm ready to go live, I simply "git push" my changes and the site is updated.
 
-<hr> 
+<hr>
 
-In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the styling of my content. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my own RSS feed, a local server for development, and just recently, custom syntax highlighting.
+In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the styling of my content. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my [own RSS feed][7], a local server for development, and just recently, custom syntax highlighting.
 
 If you're curious, I settled on using [Chisel][4], a static site generator that is only **104 lines** of python. Feel free to [fork][6] it on my Github!
 
-[1]: blog/2012/02/07/farewell-blogger.html
+[1]: /blog/2012/farewell-blogger.html
 [2]: http://pages.github.com/
 [3]: http://iwantmyname.com/blog/2011/02/list-static-website-generators.html
 [4]: https://github.com/dz/chisel
 [5]: http://tedwise.com/markdown/
 [6]: https://github.com/alexle/alexle.github.com
-[7]: blog/2012/create-an-rss-feed-from-scratch.html
+[7]: /blog/2012/create-an-rss-feed-from-scratch.html
