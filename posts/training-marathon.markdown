@@ -4,7 +4,7 @@ Training For A Marathon In 9 Weeks
 
 It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line.
 
-Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a *full marathon*.
+Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [*full marathon*][4].
 
 <p>
 <img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug life bug zapper purple" />
@@ -36,8 +36,7 @@ For Novice 2, each week consists of:
 3. 1 cross-train day
 4. 2 rest days.
 
-To cut the 18 weeks into 9, I decided to skip the beginning/end weeks and focus on the middle bulk of the training. Here's my training log and a brief summary of how each week went:
-
+To cut the 18 weeks into 9, I decided to skip the beginning/end weeks and focus on the middle bulk of the training. Below is my training log:
 <style>
 table { align: center; border: 1px solid black; }
 td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
@@ -46,17 +45,19 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <center>**9 Week Training Log**</center>
 
 <table align="center">
-<tr><td>Week</td><td>Run</td><td>Run</td><td>Run</td><td>LSD</td></tr>
-<tr><td>1</td><td>2</td><td>5</td><td>3</td><td>9</td></tr>
-<tr><td>2</td><td>2</td><td>8</td><td>4</td><td>12</td></tr>
-<tr><td>3</td><td>3</td><td>3</td><td>3</td><td>13</td></tr>
-<tr><td>4</td><td>4</td><td>5</td><td>3</td><td>14</td></tr>
-<tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td></tr>
-<tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td></tr>
-<tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td></tr>
-<tr><td>8</td><td>4</td><td>6</td><td>-</td><td>15</td></tr>
-<tr><td>9</td><td>7</td><td>3</td><td>-</td><td>13</td></tr>
+<tr><td>Week</td><td>Run</td><td>Run</td><td>Run</td><td>LSD</td><td>Total</td></tr>
+<tr><td>1</td><td>2</td><td>5</td><td>3</td><td>9</td><td>19</td></tr>
+<tr><td>2</td><td>2</td><td>8</td><td>4</td><td>12</td><td>26</td></tr>
+<tr><td>3</td><td>3</td><td>3</td><td>3</td><td>13</td><td>22</td></tr>
+<tr><td>4</td><td>4</td><td>5</td><td>3</td><td>14</td><td>26</td></tr>
+<tr><td>5</td><td>4</td><td>4</td><td>3</td><td>15</td><td>26</td></tr>
+<tr><td>6</td><td>3</td><td>4</td><td>-</td><td>16</td><td>23</td></tr>
+<tr><td>7</td><td>5</td><td>3</td><td>4</td><td>20</td><td>32</td></tr>
+<tr><td>8</td><td>4</td><td>6</td><td>-</td><td>15</td><td>25</td></tr>
+<tr><td>9</td><td>7</td><td>3</td><td>-</td><td>13</td><td>23</td></tr>
 </table>
+
+Yes, my mileage was woefully low.. And I [paid for it dearly][4]. But nonetheless, here's a brief summary of how each week went.
 
 ##Week 1 - 9mi LSD##
 
@@ -151,3 +152,4 @@ Looking back, it was a transforming 9 weeks. I found a good fueling and pacing s
 [1]: /blog/2013/first-half-marathon.html
 [2]: /blog/2012/100-miles.html
 [3]: http://www.halhigdon.com/training/51138/Marathon-Novice-2-Training-Program
+[4]: /blog/first-marathon.html
