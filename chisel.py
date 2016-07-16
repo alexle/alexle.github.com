@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 import sys, re, time, os, getopt, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
@@ -27,6 +26,13 @@ FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
 STEPS = []
 
+def get_img(f):
+    pos = f.tell()
+    img = f.readline().rstrip()
+    if not img:
+        f.seek(pos)
+    return img
+
 def step(func):
    def wrapper(*args, **kwargs):
       print "\tStarting " + func.__name__ + "..."
@@ -44,14 +50,10 @@ def get_tree(source):
 
          # Read title and date.
          title = f.readline().rstrip()
-         raw_date = f.readline().strip()
+         raw_date = f.readline().rstrip()
 
-         # Attempt to read stock image. If not available, rewind back to
-         # original pos.
-         old_pos = f.tell()
-         img = f.readline().rstrip()
-         if not img:
-             f.seek(old_pos)
+         # Attempt to read stock image.
+         img = get_img(f)
 
          date = time.strptime(raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
