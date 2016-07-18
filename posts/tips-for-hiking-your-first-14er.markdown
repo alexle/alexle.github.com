@@ -7,10 +7,10 @@
 Hiking up a 14er is an exhilarating experience. It's been a couple days since my [first 14er][1] and I thought I'd share what worked for me on the trip and what I'd do differently next time.
 
 ###1. Start Early###
-Getting caught in a rain or lightning storm on the top of a mountain is not fun, and frankly quite dangerous. In Colorado, these storms roll in like clockwork after 12pm, even in the summer months. Leaving the trailhead by 6-7am is generally recommended for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
+One of the most important rules of 14ers for reason. Getting caught in a rain or lightning storm with no shelter on top of a mountain is dangerous. In Colorado, these storms roll in like clockwork after 12pm, even in the summer months. Leaving the trailhead by 6-7am is generally recommended for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
 
 ###2. Know Your Water Needs###
-The general rule of thumb is 1 liter (34oz) of water for every 3 miles you hike. I found my sweet spot to be around 10oz for each mile, with maybe 1/2 a liter extra for emergency. Also, pre-hydrating goes a long way and reduces water to carry (each liter weighs 2lbs). Ultimately, water requirements depend on personal needs and how warm/humid the weather is.
+The general rule of thumb is 1 liter (34oz) of water for every 3 miles you hike. I found my sweet spot to be around 10oz for each mile, with maybe 0.5 liter extra for emergency. Pre-hydrating before the hike goes a long way and reduces liquid to carry (each liter weighs 2lbs). Water requirements ultimately depend on personal needs and how warm/humid the weather is.
 
 ###3. Keep Hydrated###
 Drinking when you're thirsty is too late. This puts yourself at risk for dehydration, fatigue, and cramps. One can be a **quart** low on fluids before feeling thirsty! According to [HighAltitudeLife][7], the higher up you are, the more water your body needs to keep functioning. I recommend drinking small amounts of water frequently, which is a reason why a hydration bladder or easily accessible bottle is nice to have.
@@ -22,16 +22,16 @@ On our trip, we only finished *half* the food we brought. Perhaps it was the alt
 Check the weather report beforehand, but all bets are off when the elevation is this high. For warm weather, stick to wool/synthetic fabrics that wick sweat away. Sunglasses and hats offer needed protection from the sun. For rain and wind, be ready with a lightweight shell. My Marmot DriClime Jacket kept me dry and warm when the conditions worsened unexpectedly. My friend used a poncho, but would not recommend it since it flew around in the wind and blocked his vision of where he was stepping. I'd probably bring gloves and a beanie next time.
 
 ###6. Trekking Poles Aren't Necessary..###
-..but definitely make life easier. They may look silly to some, but trekking poles reduce fatigue, lessen impact on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver.
+..but definitely make life easier. They may look silly to some, but trekking poles reduce fatigue, lessen impact on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver. Probably more impactful for all-day hikes.
 
 ###7. Understand The Route And Conditions###
-Have a map/GPS. Plan and know your route in advance. Are the paths clear of snow? Will you have to take detours? There is a ton of information on [14ers.com][5] and [ProTrails.com][6]. I was always one to scoff at maps and didn't think they were necessary.. until I couldn't determine which path we needed to take on the way down. Luckily, my friend had a GPS map on his phone.
+Plan and know your route in advance! Have a map or GPS in case. Are the paths clear of snow? Will you have to take detours? There is a ton of information on [14ers.com][5] and [ProTrails.com][6]. I was always one to scoff at maps and didn't think they were necessary.. until I couldn't determine which path we needed to take on the way down. Luckily, my friend had a GPS map on his phone.
 
 ###8. Safer Than Sorry###
 For most of the [Class 1/2][8] 14ers, you probably won't need any of the traditional hiking safety items. Stuff like a small first aid kit, flint/lighter, and knife. It never hurts to be prepared though. Also, know the signs of [altitude sickness][2]. Rest for a few minutes if you feel lightheaded, the lightheadedness is from a lack of oxygen to your brain.
 
 ###9. Account For Personal Needs###
-Most people remember to bring essentials such as sunscreen and bug spray, but don't neglect simple conveniences such as toilet paper, hand sanitizer, and extra socks. Asprin or Ibuprofen also come in handy for minor pains and headaches.
+Most people remember to bring essentials such as sunscreen and bug spray, but don't neglect simple conveniences such as toilet paper, hand sanitizer, and extra socks. Aspirin or Ibuprofen also come in handy for minor pains and headaches.
 
 ###10. Enjoy it!###
 Completing a 14er is a memorable experience so take your time and "smell the roses". Many focus on just making it to the top, and don't fully appreciate the journey up. Take in the breath-taking views. Focus on the sounds of your steps and breathing as you climb a steep incline. Debate what's going to happen next in [A Game Of Thrones][3] with your friends. And enjoy some of the best air you're ever going to breathe when you're on top.
