@@ -30,7 +30,7 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 ##We're All Guilty##
 
-Odds are, if we looked closer at the annoyances we face each day, we would find a myriad of distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
+Odds are, if we looked closer at the annoyances we face each day, we would find distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
 
 And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how numb we've become to all of it.
 
@@ -40,13 +40,13 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 ##It Has To End##
 
-As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
+As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I went on a mission.
 
-First, was replacing the old sneakers that hurt my feet. Next, came organizing the messy closet and garage I couldn't stand to look at each day. Later, I bought a sleek mesh task chair to replace the old, uncomfortable one.
+First, I replaced the old sneakers that hurt my feet. Then, came organizing the messy closet and garage I couldn't stand to look at each day. Next, was replacing my tattered, uncomfortable desk chair with a sleek mesh task chair.
 
-At work, I refactored a huge section of code that made me want to Dracarys it every time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
+At work, I refactored a huge section of code that made me cry each time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
 
-Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
+Done, done, and done! Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
 1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
@@ -55,7 +55,6 @@ Once you see crap in this light, it isn't hard to make changes. Here are some ti
 3. **Two Minutes, Do It Now** - It's surprising how many of our annoyances come from putting off things we could [get done in two minutes or less][1]. Like not washing the dishes after dinner, or leaving laundry in the washing machine, or not sharing how we feel to someone. If it's a quick task, just finish it and save Future You unnecessary stress and headache.
 
 4. **Imagine The Result** - Sometimes it's hard to gather the energy and willpower to get rid of crap. In this situation, I'd imagine dealing with it the next day, then the day after, and so on. How much energy and joy would that suck from me each day? Do I really want to deal with this terrible code.. again? No way!
-
 
 I can honestly say this simple act has added a level of productivity and cheer to my life. Life's too short to put up with crap. There's already enough of it out there.
 
