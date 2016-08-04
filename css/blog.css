@@ -90,6 +90,7 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 }
 
 /* POST CSS */
+.post-title { font-size: 90%; }
 
 /* ARCHIVE CSS */
 h1.archive-year {
@@ -226,7 +227,7 @@ pre {
 /* RESPONSIVE -- RULES less than 30em */
 @media (max-width: 30em) {
    h1 { font-size: 1.5em; }
-   h2 { font-size: 1.3em; }
+   h2 { font-size: 1.4em; }
    h3 { font-size: 1.1em; }
 
    .home-image { height: 160px; }
