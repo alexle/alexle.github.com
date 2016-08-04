@@ -40,7 +40,7 @@ Another appeal of moving to a static site is the simplicity of it. Markdown text
 
 Another advantage of having the site reside in my workspace is it allows me to use additional tools to navigate/manipulate my files.
 
-Power search options via the command line can be used, such as *find -iname ./* and *grep -r*. Want to change all instances of "volvo" to "Volvo"? It's a one-line operation. Want to rename all your text files? SED and AWK are at your disposal.
+Power search options via the command line can be used, such as *find -iname ./* and *grep -r*. Want to change all instances of "volvo" to "Volvo"? It's a one-line operation in VIM or Bash. Want to rename all your text files? SED and AWK are at your disposal.
 
 ##5. Chance For Redesign (Bottom Up)##
 
@@ -61,7 +61,7 @@ I'm able to view my site locally as much as needed, similar to working on a "dev
 
 <hr>
 
-In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the styling of my content. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my [own RSS feed][7], a local server for development, and just recently, custom syntax highlighting.
+In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the management of unneeded features. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my [own RSS feed][7], a local server for development, and just recently, custom syntax highlighting.
 
 If you're curious, I settled on using [Chisel][4], a static site generator that is only **104 lines** of python. Feel free to [fork][6] it on my Github!
 
