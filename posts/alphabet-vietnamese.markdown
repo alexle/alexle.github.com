@@ -1,9 +1,9 @@
-Operation Learn-To-Read-Vietnamese: Alphabet
+Vietnamese Alphabet Chart
 08-03-2011
 
-One of my goals this year is to learn how to read Vietnamese. I'm able to understand and speak the basics, but a block of vietnamese text could very well be hieroglyphs to me. It's strange this is the case, but I guess reading wasn't "essential" in being able to communicate with my parents at a young age.<br />
+One of my goals this year is to learn how to read Vietnamese. I'm able to understand and speak the basics, but a block of Vietnamese text could very well be hieroglyphs to me. It's strange this is the case, but I guess reading wasn't "essential" in being able to communicate with my parents at a young age.<br />
 
-Like most other languages, learning the alphabet is one of the first steps to reading so this is where I'll start. Here's a vietnamese alphabet <a href="http://mylanguages.org/vietnamese_alphabet.php">list</a> I found online to study:<br />
+Like most other languages, learning the alphabet is one of the first steps to reading so this is where I'll start. Here's a Vietnamese alphabet <a href="http://mylanguages.org/vietnamese_alphabet.php">list</a> I found online to study:<br />
 
 <table border="1" cellpadding="3px" cellspacing="0px" width="520px"><tbody>
 <tr><td width="100px">Vowels</td><td width="400px">Pronunciation Example</td></tr>
@@ -53,4 +53,3 @@ Like most other languages, learning the alphabet is one of the first steps to re
 </tbody></table>
 
 <span style="color: #999999;">* Grayed out items are equivalent to english</span>
-

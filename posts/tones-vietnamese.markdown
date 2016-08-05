@@ -1,4 +1,4 @@
-Operation Learn-To-Read-Vietnamese: Tones
+Vietnamese Tones Chart
 08-06-2011
 
 There are six [tones][1] in Vietnamese:<br />
