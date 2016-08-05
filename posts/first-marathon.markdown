@@ -4,7 +4,7 @@ Rock n Roll Denver Marathon: My Worst Run Ever
 
 Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 [Denver Rock N Roll][1] Marathon was one of them.
 
-The course and conditions were tough. It seemed as if you were always facing a 10mph headwind, no matter which direction you ran. The hills were plenty and unforgiving. And the distance was **unreal**. Aside from actually running 26.2 miles, I personally believe that nothing can prepare you for it. Not 20, or 22, or even 24 miles.
+The course and conditions were tough. It seemed as if you were always facing a 12mph headwind, no matter which direction you ran. The hills were plenty and unforgiving. And the distance was **unreal**. Aside from actually running 26.2 miles, I believe nothing can prepare you for it. Not 20, or 22, or even 24 miles.
 
 <p>
 <a href="/static/2013-full-nike-map.jpg">
@@ -89,7 +89,7 @@ When asked how the race was, the impact of everything I endured emotionally and 
 
 I've had a chance to reflect on the race and realize that a disappointing performance isn't necessarily a bad thing. In some ways, I'm **glad** for the adversity and misfortune I faced that day.
 
-Because without them, I never would have had a chance to test my resolve and my will against its limits. People chuckle when I tell them my marathon was a life-changing experience, but I believe I came out a different person than when I started.
+Because how often in life do we have a chance to test our resolve and will against its limits? To push ourselves farther than we've ever gone before. People chuckle when I tell them my marathon was a life-changing experience, but I came out a different person after this race.
 
 For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself and what I was truly capable of during this race.
 

@@ -12,9 +12,9 @@ Now, like a mosquito drawn to one of those electric zappers, I've somehow signed
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
-1. I'm a newbie runner. I haven't been running for very long.
+1. I'm a newbie runner. I've only been running for 1.5 years.
 2. My current mileage is 10-15 mpw. That's nowhere near enough. Some guides state you should be running 20 miles/week *before you even start* your training.
-3. The race I signed up for was only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
+3. The race I signed up for is only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
 Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences each week, in case it might prove useful to someone.
 
@@ -31,12 +31,13 @@ After some research, I settled on an 18-week training plan by [Hal Higdon][3] - 
 The key to this program is the "long slow distance" (LSD) run each week. These ramp up from 8 to 20 miles, and are meant to be run 30-90 seconds per mile *slower* than your estimated race pace. They're essential for training, since the runs build endurance and train the body to burn energy more efficiently.
 
 For Novice 2, each week consists of:
-1. 3 short runs
-2. 1 long run
-3. 1 cross-train day
-4. 2 rest days.
 
-To cut the 18 weeks into 9, I decided to skip the beginning/end weeks and focus on the middle bulk of the training. Below is my training log:
+- 3 short runs
+- 1 long run
+- 1 cross-train day
+- 2 rest days.
+
+To cut the 18 weeks into 9, I skipped the beginning/end weeks and focused on the middle bulk of the training. Below is my training log:
 <style>
 table { align: center; border: 1px solid black; }
 td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
@@ -69,7 +70,7 @@ Overconfident and eager to prove myself, I came out too fast on the LSD. The fir
 
 The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took GU about 60 minutes into the LSD. It was then that I realized there wasn't a trash can in sight. As a result, I had to run with sticky fingers and trash for another mile before spotting a doggy-poop station to deposit the trash.
+I took GU about 60 minutes into the LSD. It was then that I realized there wasn't a trash can in sight. As a result, I had to hold the sticky wrapper for a mile before spotting a doggy-poop station to deposit the trash.
 
 Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
@@ -77,9 +78,9 @@ Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my 
 
 ##Week 3 - 13mi LSD##
 
-THe plan this week was to hydrate earlier. I took water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt pretty good. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it. What's another 13 miles, I told myself.
+The plan this week was to hydrate earlier. Water at 30 minutes and GU at 60 minutes. The last 1.5mi were tough. Overall, the run felt pretty good. It was my best LSD yet. I secretly wished the marathon was next week so I could obliterate it. What's another 13 miles, I told myself.
 
-I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can now see why many people advise not to increase your weekly mileage by more than 10 percent over the previous week.
+I began to notice a trend with the LSD's. The final miles each week were really, really hard. I can see why many people advise not to increase your weekly mileage by more than 10 percent each week.
 
 \* Lesson: 10% rule is for reals and a good principle.
 
@@ -89,7 +90,7 @@ This week's LSD was my first run over 2 hours. And the first time I ever hit a "
 
 Essentially, hitting the wall is the point when your glycogen (stored energy) is depleted. Your legs turn to stone. Your pace slows to a crawl. Your body has nothing left in the tank.
 
-This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and the urge to stop and cry like a baby.
+This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and the urge to stop and cry.
 
 I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was incredible, even though my stride length was less than that of a person walking. All the willpower was sapped out of me.
 
