@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import sys, re, time, os, getopt, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
