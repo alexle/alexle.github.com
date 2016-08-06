@@ -22,7 +22,7 @@ On a whim one day in Aug, I changed the Nike+ run setting to a "time-run". It di
 
 <a href="/static/num-runs-each-month.png"><img class="pure-img center" src="/static/num-runs-each-month.png" alt="alex number runs per month" /></a>
 
-Next, we have the number of runs I participated in each month. Feb was embarrassing; I think the shock of how hard running was and the cold temperatures traumatized me for a period of time. Otherwise, I'm pleased to see the increasing trend of my attempts to run. Even if they weren't the best runs, I'd like to think that just making it out on the road was something to be proud of. 90% of success is showing up, right?
+Next, we have the number of runs I participated in each month. Feb was embarrassing; the shock of how hard running was and the cold temperatures traumatized me for a period of time. Otherwise, I'm pleased to see the increasing trend of my attempts to run. Even if they weren't the best runs, I'd like to think that just making it out on the road was something to be proud of. 90% of success is showing up, right?
 
 <a href="/static/avg-pace-each-month.png"><img class="pure-img center" src="/static/avg-pace-each-month.png" /></a>
 

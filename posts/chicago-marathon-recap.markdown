@@ -158,7 +158,7 @@ It takes less than 10 seconds to charge up the bridge. Wait, that's it? I guess 
 
 ##The Finish##
 
-I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**, a 4 minute negative. Never in my wildest dreams did I think I could run this fast. My last 1/2 mile splits end up being 7:49, 7:25, 7:11.
+I sprint to the finish, smiling the entire way. I cross the tape at **3:45:45**, a 4 minute negative. Never in my wildest dreams did I believe I could run this fast. My last 1/2 mile splits end up being 7:49, 7:25, 7:11.
 
 I get my medal and almost cry. What a journey. It was worth every second of pain and more.
 

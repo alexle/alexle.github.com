@@ -5,7 +5,7 @@ I've always liked goals. To-Do lists, checkboxes, sticky notes. They give me a f
 
 However, I've noticed a disturbing trend lately. All the crossing-off of tasks and check-marking little boxes were to no avail. My lists were _growing_, despite how much effort I put into them. At one point, I had **132** tasks..
 
-Perhaps it was my GTD system, or discipline in completing tasks. But in retrospect, I think I was simply overwhelmed and spread myself too thin. Brush up the resume? Ok, work on it for 20min. Oh, I really need to add a sign-on for my app. Switch to it for a bit. Hey, Jquery looks cool. Let's try some examples. Ugh, I haven't worked out in a while. Head to the gym to clear my head.
+Perhaps it was my GTD system, or discipline in completing tasks. But in retrospect, I was simply overwhelmed and spread myself too thin. Brush up the resume? Ok, work on it for 20min. Oh, I really need to add a sign-on for my app. Switch to it for a bit. Hey, Jquery looks cool. Let's try some examples. Ugh, I haven't worked out in a while. Head to the gym to clear my head.
 
 I wanted to do everything, but ended up doing "not much". I was busy, but shipped and produced little. It's time for a change and I plan to do it by [cutting back][1] on my obligations.
 
