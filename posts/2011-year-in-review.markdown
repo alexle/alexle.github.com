@@ -10,13 +10,13 @@ Probably my main focus this year. Learned some javascript/jquery, improved my HT
 ###2. Bench 225 &nbsp;&#x2713;###
 Was able to push 225 x 4 successfully. A big feat for me, considering my migration to more "bootcamp" type of workouts.<br />
 ###3. Learn how to read vietnamese &nbsp;&#x2717;###
-A big let-down for me, considering how much I value this skill. Was not prioritized properly, although it was always in the back of my head and conscious. It did not help that the goal was not SMART. Was often passed over for other tasks that were "easier" to complete in a sitting.<br /> 
+A big let-down for me, considering how much I value this skill. Was not prioritized properly, although it was always in the back of my head and conscious. It did not help that the goal was not SMART. Was often passed over for other tasks which were "easier" to complete in a sitting.<br />
 ###4. Buy and play electric guitar &nbsp;&#x2713;###
 Got an electric from a friend and gave it a try for 2 weeks. Did not enjoy it as much as I thought I would.<br />
 ###5. Get Lasik &nbsp;&#x2713;###
 Honestly did not think I was going to go through with it. Got it done though. Best $$ I've <i>ever</i> spent. If I could have done it earlier, I would have.<br />
 ###6. Try Yoga &nbsp;&#x2713;###
-Tried yoga at home a couple times, did not stick with it. Original intent was to find new workout that was easier on body than basketball/football. Goal was semi-successful in that I found a new appreciation for running.<br />
+Tried yoga at home a couple times, did not stick with it. Original intent was to find new workout which was easier on body than basketball/football. Goal was semi-successful since I found a new appreciation for running.<br />
 ###7. Climb 14er &nbsp;&#x2717;###
 Did not get a chance to climb an actual 14er. Did do a gruelling 15 mile hike to Mirror Lake though, so I don't feel too bad about this one.<br />
 ###8. Run Bolder Boulder &nbsp;&#x2713;###

@@ -13,9 +13,9 @@ Eventually, I give up and go home to think it over. Which really means do nothin
 
 I've noticed this "paralysis" happening more frequently within the last year. It was annoying at first, but as the unmade decisions piled up, it began to take a toll on my concentration and focus. Oftentimes, I would find my thoughts drifting to my "to-decide" list, throwing off my productivity.
 
-Apparently, this is not a new phenomenon (thank goodness). Psychologist Barry Schwartz had an [interesting TED talk][1] called "The Paradox of Choice", essentially saying that more choices do not leave us happier, but instead more **dissatisfied**. The more choices we have, the more we fear making the wrong choice.
+Apparently, this is not a new phenomenon (thank goodness). Psychologist Barry Schwartz had an [interesting TED talk][1] called "The Paradox of Choice", essentially saying more choices do not leave us happier, but instead more **dissatisfied**. The more choices we have, the more we fear making the wrong choice.
 
-On top of that, the brain gets tired when forced to make decision after decision. This takes a toll on our willpower throughout the day. In the end, the "fatigue" leads to inefficient choices or worse, an inclination to make no decision at all.
+On top of it, the brain gets tired when forced to make decision after decision. This takes a toll on our willpower throughout the day. In the end, the "fatigue" leads to inefficient choices or worse, an inclination to make no decision at all.
 
 So what can be done about it? Here are my ideas and plan going forward:
 
@@ -29,7 +29,7 @@ Instead of agonizing over whether to get a Sam Adams Octoberfest or Left Hand Bl
 Life is an adventure and not perfect. So why set expectations as anything else? If I travel somewhere and don't like it, now I know. If it's amazing, even better! Either way, it's a lesson learned first-hand and a story to tell my friends. See decisions not as final choices, but as [experiments][3].
 
 ##Is it even going to matter?##
-Few choices we make are ever really that important in the long run. Aside from decisions involving a house, career, who to marry, and investments, I can't think of anything that *really* matters that much after 10 years. It definitely puts things in perspective when laboring over a "life-or-death" decision.
+Few choices we make are ever really important in the long run. Aside from decisions involving a house, career, who to marry, and investments, I can't think of anything which *really* matters that much after 10 years. It definitely puts things in perspective when laboring over a "life-or-death" decision.
 
 Thirty years from now, am I going to remember what type of bread I chose at the grocery store? I don't think so.
 

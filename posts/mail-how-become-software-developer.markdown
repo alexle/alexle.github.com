@@ -14,7 +14,7 @@ I recently received an email from a friend asking for advice on how to switch in
 
 > Hello everyone.
 
-> Over the last year I have been contemplating on the decision of whether to change industries. I have finally decided that computer programming is for me.
+> Over the last year I have been contemplating on the decision of whether to change industries. I have finally decided computer programming is for me.
 
 > I have dedicated hours to Codeacademy and Stanford cs lectures. Recently, I applied for  Devbootcamp (Ruby on Rails) program in SF, but I failed in passing the interview.  I am quiet devastated, but I refuse to give up. However, as of now I am lost, I would like to learn RoR, Java, Javascript and Python. I can't commit another 4 hours to college, but I can commit to programs less than two years. So far the only program I have found in Colorado for RoR is http://davincicoders.com/.
 
@@ -40,13 +40,13 @@ I don't know what qualifications they were looking for, but if attending Devboot
 
 Did you stumble through algorithm questions? Then brush up on linked lists, binary search trees, hash tables, etc.. Google the different algorithms and try to implement them in C or Python or Java.
 
-Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game that involves graphics and game logic. Hands-on experience is *invaluable*.
+Did you get passed over due to lack of experience? Look for ways to expand your skillset in the particular technology you're interested in. Perhaps it's setting up a personal server at home to work with SQL databases. Or making an HTML5 snake game which involves graphics and game logic. Hands-on experience is *invaluable*.
 
 ##2) Start a portfolio##
 
-Sign up for an account on Github. Dabble in some open source projects. Start a blog that shares your experiences and showcases your side projects.
+Sign up for an account on Github. Dabble in some open source projects. Start a blog to share your experiences and showcases your side projects.
 
-Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). The best part is that it's all free! You may not have a degree/certification, but at least you'll be able to demonstrate a working product during your next interview.
+Or better yet, try creating your own web app on Heroku. You'll learn about designing the front end (Html/Css/Javascript), backend (Ruby), and bridging the two with the framework (RoR). The best part is it's all free! You may not have a degree/certification, but at least you'll be able to demonstrate a working product during your next interview.
 
 ##3) Keep taking the coding classes##
 
@@ -56,7 +56,7 @@ Learn how to implement objects and classes. Learn about inheritance and encapsul
 
 ##4) Try to get an internship##
 
-You'll learn more and faster, in my opinion. It'll also provide you an experience that will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, or Hitachi?
+You'll learn more and faster, in my opinion. It'll also provide you an experience which will be 5x more useful for your career and resume. I can't remember the last time I implemented a red-black tree. But I can demonstrate how to shingle tracks on a hard drive. What do you think will be more impressive to a storage company like Seagate, Western Digital, or Hitachi?
 
 ##5) Don't stop learning##
 
@@ -66,7 +66,7 @@ Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The i
 
 I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn.
 
-I just wanted to provide a different perspective that few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
+I just wanted to provide a different perspective which few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
 
 For programming, there are no accreditations or formal exams needed. You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3]. It's **never** too late to change careers.
 

@@ -3,7 +3,7 @@ The "Nasty Girls" of CrossFit
 
 In an earlier [post][1], I described my new interest for Crossfit. I've really enjoyed the exercises I've learned so far (burpees are my favorite) and have found the 'named' WODs fun and challenging.
 
-What are named CrossFit workouts? Some consider them "benchmark workouts" to measure strength, fitness, and overall progress. They consist of common, core exercises that are stressed in CrossFit such as air squats, box jumps, cleans, pull-ups, push-ups, etc.. To differentiate between the workouts, each one is given a "girl name".
+What are named CrossFit workouts? Some consider them "benchmark workouts" to measure strength, fitness, and overall progress. They consist of common, core exercises which are stressed in CrossFit such as air squats, box jumps, cleans, pull-ups, push-ups, etc.. To differentiate between the workouts, each one is given a "girl name".
 
 Here is a list of the different "girl" workouts described on the [CrossFit][2] website. I've got my eyes on Cindy and Kelly for my next WODs. Give one a try.. if you're brave!
 

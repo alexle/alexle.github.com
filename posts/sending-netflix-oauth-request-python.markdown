@@ -1,9 +1,9 @@
 Sending Netflix OAuth Requests With Python
 02-24-2013
 
-Oauth is an authentication protocol that allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.
+Oauth is an authentication protocol which allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.
 
-That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous [post][1], I shared a [demo][2] that uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.
+That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous [post][1], I shared a [demo][2] which uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.
 
 ##Before You Start##
 
@@ -12,7 +12,7 @@ That's because each service can have a different method to "hand-shake" between 
 
 ##Performing A Non-Authenticated Request##
 
-The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It's a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
+The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows which partially match the search string. It's a *non-authenticated* request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:
 
 <pre><code class=language-html>http://api-public.netflix.com/catalog/titles/autocomplete?oauth_consumer_key=CONSUMER_KEY&term=SEARCH_STRING
 </code></pre>
@@ -50,7 +50,7 @@ The "catalog titles" search returns detailed information on a film and is an exa
 1. Setting the base URL
 2. Gathering the parameters
 3. Creating the base string
-4. Calculating the signature 
+4. Calculating the signature
 
 Combining these components produces the signed request, which has the format below:
 
@@ -62,9 +62,9 @@ While this may look daunting, it's not too bad once broken down. First, decide w
 <pre><code class=language-html>TITLE_URL = 'http://api-public.netflix.com/catalog/titles'
 </code></pre>
 
-Second, we gather the required OAuth parameters for the Netflix request. 
+Second, we gather the required OAuth parameters for the Netflix request.
 
-+ **parm** - Optional parameter(s) that specify what data is returned. For the catalog titles search, we use the "term" parameter along with the movie/tv's title to gather the film's details.
++ **parm** - Optional parameter(s) which specify what data is returned. For the catalog titles search, we use the "term" parameter along with the movie/tv's title to gather the film's details.
 
 + **consumer_key** - Your application's consumer key.
 
@@ -76,7 +76,7 @@ Second, we gather the required OAuth parameters for the Netflix request.
 
 + **oauth_version** - This is 1.0 for now.
 
-Although not required for the base string, we'll later need the parameters to be in alphabetical order, so it's easier to keep them in order from the start. 
+Although not required for the base string, we'll later need the parameters to be in alphabetical order, so it's easier to keep them in order from the start.
 
 <pre><code class=language-python>from hashlib import sha1
 import hmac, binascii, urllib, time, string, random
@@ -123,7 +123,7 @@ return signed_sig
 sign = GenerateSig( base_string )
 </code></pre>
 
-With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request: 
+With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request:
 
 <pre><code class=language-python>parameters.append(('oauth_signature', sign))
 

@@ -76,7 +76,7 @@
 </code></pre>
 
 <h2>Channel Element</h2>
-<p>The <code>&lt;channel&gt;</code> tag describes the characteristics of the RSS feed. There are many different tags that can be added to customize the channel, which are listed in the <a href="http://www.rssboard.org/rss-specification">RSS specification</a>. The channel has three required elements:</p>
+<p>The <code>&lt;channel&gt;</code> tag describes the characteristics of the RSS feed. There are many different tags can be added to customize the channel, which are listed in the <a href="http://www.rssboard.org/rss-specification">RSS specification</a>. The channel has three required elements:</p>
 <ol>
 <li><code>&lt;title&gt;</code> - title of RSS feed</li>
 <li><code>&lt;description&gt;</code> - description of RSS feed</li>
@@ -93,7 +93,7 @@
 </code></pre>
 
 <h2>Item Element</h2>
-<p>Now comes the real meat. Items are the individual "stories" or posts that are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.</p>
+<p>Now comes the real meat. Items are the individual "stories" or posts which are published in the feed. All elements of the Item element are optional, as long as at least one title or description is present.</p>
 <pre><code class=language-xml>&lt;item>
    &lt;title>Create An RSS Feed From Scratch&lt;/title>
    &lt;link>http://alexanderle.com/blog/create-an-rss-feed.html&lt;/link>
@@ -108,7 +108,7 @@
    &lt;title>Alex Le's Blog&lt;/title>
    &lt;description>Alex Le's Blog&lt;/description>
    &lt;link>http://www.alexanderle.com&lt;/link>
-   &lt;atom:link href="http://alexanderle.com/feed.xml" 
+   &lt;atom:link href="http://alexanderle.com/feed.xml"
      rel="self" type="application/rss+xml" />
 
    &lt;item>
@@ -122,7 +122,7 @@
 </code></pre>
 
 <h2>Automation</h2>
-<p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code that creates my static site (<a href="/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
+<p>While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code which build my static site (<a href="/blog/2012/02/29/move-to-github.html">chisel</a>). I create a <a href="http://jinja.pocoo.org/docs/">Jinja2</a> template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:</p>
 <pre><code class=language-html>{% for entry in entries %}
 &lt;item>
    &lt;title>{{ entry.title }}&lt;/title>

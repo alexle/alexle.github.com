@@ -116,7 +116,7 @@
 <li>Once the node to remove is reached, the previous node 'next' pointer is changed to <em>skip</em> the current node and point to the current 'next' instead.</li>
 <li>If the Head node is removed, update the Head to be the 'next' node.</li>
 </ol>
-<p>Note that there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.</p>
+<p>Note there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.</p>
 <pre><code class=language-python>def RemoveNode( self, index ):
    prev = None
    node = self.head

@@ -32,7 +32,7 @@ Two years ago, I finished the regular season 12-1 and promptly lost in the first
 
 <hr width="75%">
 
-I understand that for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others. And at the very least, it's a great way to bond and stay in touch with friends.
+I understand for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others. And at the very least, it's a great way to bond and stay in touch with friends.
 
 Perhaps I've outgrown Fantasy Football, if there is such a thing. All I know is, what use to be entertaining and enjoyable is now a chore and stressful. I certainly won't miss being glued to my TV, computer, and phone watching football and checking stat lines all day.
 

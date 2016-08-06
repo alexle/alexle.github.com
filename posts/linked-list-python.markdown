@@ -62,7 +62,7 @@ To remove a node from the linked list, we must keep track of *two* nodes - the n
 3. Once the node to remove is reached, the previous node 'next' pointer is changed to *skip* the current node and point to the current 'next' instead.
 4. If the Head node is removed, update the Head to be the 'next' node.
 
-Note that there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.
+Note there are two corner cases here. If the list only has one node, then there is no "prev" node. Also, if the first item in the list is being removed, there also wouldn't be a "prev" node.
 
 <pre><code class=language-python>def RemoveNode( self, index ):
    prev = None

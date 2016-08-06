@@ -3,7 +3,7 @@ Karen, My Newest Enemy
 
 I recently completed my first [CrossFit][1] workout of the day - "Karen". For those of you who don't know what CrossFit is, it's a high-intensity fitness program that combines a variety of functional movements to improve strength and conditioning. Think of it as P90x or Insanity, but with different workouts and focus.
 
-In Crossfit, the "workouts of the day", or [WODs][2], are predescribed exercises that are timed or scored. One WOD may score on how many rounds are completed within a certain time, while another WOD may score on how fast the rounds are completed. This is extremely addicting for those who enjoy measuring progress or have a competitive spirit \*cough\*.
+In Crossfit, the "workouts of the day", or [WODs][2], are predescribed exercises which are timed or scored. One WOD may score on how many rounds are completed within a certain time, while another WOD may score on how fast the rounds are completed. This is extremely addicting for those who enjoy measuring progress or have a competitive spirit \*cough\*.
 
 ##Who is Karen?##
 

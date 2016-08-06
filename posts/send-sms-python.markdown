@@ -1,7 +1,7 @@
 How To Send A SMS Message With Python (easy way)
 05-05-2011
 
-[Python][2] is a high-level programming language. It's easy to read, has great libraries, and is well documented. On top of that, it's extremely versatile and powerful. Python is my favorite language to work with and I've yet to come across a problem that it could not solve.
+[Python][2] is a high-level programming language. It's easy to read, has great libraries, and is well documented. On top of it, it's extremely versatile and powerful. Python is my favorite language to work with and I've yet to come across a problem it could not solve.
 
 Can it send text messages? You betcha! Here are the steps to send one easily:
 

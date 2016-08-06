@@ -19,7 +19,7 @@ Add another remote repository, one that points to the original repository. It ca
 
 > git remote add upstream git://github.com/twitter/bootstrap.git
 
-Your remote repositories can be viewed with "git remote -v". Note that there should already be an "origin" remote target in your fork.
+Your remote repositories can be viewed with "git remote -v". Note there should already be an "origin" remote target in your fork.
 
 ##Updating the Fork##
 

@@ -19,7 +19,7 @@ Drinking when you're thirsty is too late. This puts yourself at risk for dehydra
 On our trip, we only finished *half* the food we brought. Perhaps it was the altitude, physical exhaustion, or breakfast we had in the morning. What worked well for us was eating small amounts of trail mix, beef jerky, power bars, and [Clif Shot Bloks][4] along the way. That kept our energy levels consistently high. A small lunch on the summit was more than enough. A 14er isn't like backpacking into the wilderness.
 
 ###5. Prepare for ALL the elements###
-Check the weather report beforehand, but all bets are off when the elevation is this high. For warm weather, stick to wool/synthetic fabrics that wick sweat away. Sunglasses and hats offer needed protection from the sun. For rain and wind, be ready with a lightweight shell. My Marmot DriClime Jacket kept me dry and warm when the conditions worsened unexpectedly. My friend used a poncho, but would not recommend it since it flew around in the wind and blocked his vision of where he was stepping. I'd probably bring gloves and a beanie next time.
+Check the weather report beforehand, but all bets are off when the elevation is this high. For warm weather, stick to wool/synthetic fabrics which wick sweat away. Sunglasses and hats offer needed protection from the sun. For rain and wind, be ready with a lightweight shell. My Marmot DriClime Jacket kept me dry and warm when the conditions worsened unexpectedly. My friend used a poncho, but would not recommend it since it flew around in the wind and blocked his vision of where he was stepping. I'd probably bring gloves and a beanie next time.
 
 ###6. Trekking Poles Aren't Necessary..###
 ..but definitely make life easier. They may look silly to some, but trekking poles reduce fatigue, lessen impact on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver. Probably more impactful for all-day hikes.
@@ -36,7 +36,7 @@ Most people remember to bring essentials such as sunscreen and bug spray, but do
 ###10. Enjoy it!###
 Completing a 14er is a memorable experience so take your time and "smell the roses". Many focus on just making it to the top, and don't fully appreciate the journey up. Take in the breath-taking views. Focus on the sounds of your steps and breathing as you climb a steep incline. Debate what's going to happen next in [A Game Of Thrones][3] with your friends. And enjoy some of the best air you're ever going to breathe when you're on top.
 
-Keep in mind these tips are based on my experiences, and that each person's comfort level is different. Hopefully, this post was able to provide a sense of what one can expect on a 14er hike and how I plan to prepare for one in the future.
+Keep in mind these tips are based on my experiences, and each person's comfort level is different. Hopefully, this post was able to provide a sense of what one can expect on a 14er hike and how I plan to prepare for one in the future.
 
 [1]: /blog/2012/first-14er-grays-and-torreys-peak.html
 [2]: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001190/

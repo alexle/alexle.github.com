@@ -12,7 +12,7 @@ Here's a recap of my incredible Chicago Marathon experience.
 
 ##The Windy City!##
 
-We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work that weekend.
+We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work over the weekend.
 
 <p>
 <img class="pure-img center" src="/static/chicago-ventra.jpg" alt="chicago ventra pass" />
@@ -36,7 +36,7 @@ We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
-The next step was signing up for a pace group, something I had never tried before. They informed me their strategy and how water stations were handled. They even provided pace tattoos and an extra bib that you wear on your back that designates which pace you're "supposedly" running at.
+The next step was signing up for a pace group, something I had never tried before. They informed me their strategy and how water stations were handled. They even provided pace tattoos and an extra bib you wear on your back which designates which pace you're "supposedly" running at.
 
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
 
@@ -70,9 +70,9 @@ I found the 3:50 pace group in my corral and we bonded instantly. We made jokes.
 
 ##Miles 0 - 3.1 (8:45 min/mi)##
 
-The race is kind of crazy at the start, with everybody going out too fast and general chaos everywhere. 1/2 mile in, we go into a short tunnel and a bunch of people are relieving themselves on the side. I shouldn't have drank all that gatorade..
+The race is kind of crazy at the start, with everybody going out too fast and general chaos everywhere. 1/2 mile in, we go into a short tunnel and a bunch of people are relieving themselves on the side. I shouldn't have drank so much Gatorade..
 
-I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
+I know it'll be all I think about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
 To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:05 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
@@ -91,11 +91,11 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 ##Miles 6.2 - 9.3 (8:47 min/mi)##
 
-10k down, that was fast. The pace seems oddly easy, although how many people have had that same thought before gloriously hitting The Wall..
+10k down, that was fast. The pace seems oddly easy, although how many people have had the same thoughts before gloriously hitting The Wall..
 
 The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". How they can run within seconds of target pace is beyond me. They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 
-The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after that. That means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
+The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after. Which means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
 
 ##Miles 9.3 - 12.4 (8:44 min/mi)##
 
@@ -144,7 +144,7 @@ I have two gears left if my body holds out. I prepare for another surge. No chan
 
 Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got this race. The only question is what the finish will be like.
 
-My stomach feels like garbage. I have so much GU and liquid in me that I stop taking fluids. At one point, I actually vomit a little gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
+My stomach feels like garbage. I have so much GU and liquid in me I stop taking fluids. At one point, I actually vomit a little Gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
 
 I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn on Michigan Ave and see tall buildings straight ahead. Even though my hamstring is one careless extension away from knotting up, my main concern is how much beer I will drink afterwards.
 
@@ -190,11 +190,11 @@ Since the finish is packed with spectators, I make my way to the designated area
 
 Chicago blew away all my expectations. It's a race I'll never forget. Most experiences come and go, but this one left imprints in me.
 
-Even though I'm thrilled with my result, I've come to realize that marathons are much more than numbers. They're really about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
+Even though I'm thrilled with my result, I've come to realize marathons are much more than numbers. They're really about testing your limits and potential. About not quitting when you want to the most. About finding strength you never knew you had to overcome what you thought was impossible.
 
 Training for and running a marathon is hard. Sometimes, it's so terrible I question why I'm doing it. But each time I finish one, I find myself wondering "If I can do this, what else can I do?". It's extremely empowering and exhilarating.
 
-I often remind myself that some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know we did.
+I often remind myself some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know we did.
 
 <p>
 <img class="pure-img center" src="/static/chicago-bean.jpg" alt="alex le chicago marathon hang out at the bean afterwards" />

@@ -5,17 +5,17 @@ During my last semester of college, I was offered a sys admin internship from a 
 
 The thing is, I didn't feel as if it was luck. But rather the result of studying hard, working at the deli, and keeping a positive attitude each day. When the opportunity presented itself, I was **ready** and able to take advantage of it.
 
-Now you may argue it's just a matter of perspective. But if I had taken out student loans and spent my free time playing Starcraft, I wouldn't have worked at the deli and met my future boss. If I had slacked off in school, I wouldn't have had anything impressive to share with him. If I hadn't made an effort to talk to my customers, the conversation may never even have happened. 
+Now you may argue it's just a matter of perspective. But if I had taken out student loans and spent my free time playing Starcraft, I wouldn't have worked at the deli and met my future boss. If I had slacked off in school, I wouldn't have had anything impressive to share with him. If I hadn't made an effort to talk to my customers, the conversation may never even have happened.
 
-The point is that what we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few. Say hi to the person next to you in the checkout line, maybe it'll open up a network opportunity. Spend time on your tiny side project, it might impress the next person who interviews you.
+The point is what we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few. Say hi to the person next to you in the checkout line, maybe it'll open up a network opportunity. Spend time on your tiny side project, it might impress the next person who interviews you.
 
-I *cringe* when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny. 
+I *cringe* when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny.
 
-We're all capable of making our own luck. And I've found that the harder you work, the **luckier** you get.
+We're all capable of making our own luck. And I've found the harder you work, the **luckier** you get.
 
 <hr width="75%">
 
-In case that isn't enough, here are some additional tips to improve your "luck". 
+If you're still not convinced, then here are some additional tips to improve your "luck".
 
 ##Add variety to your life##
 
@@ -23,7 +23,7 @@ Instead of hanging out at the same places, or talking to the same types of peopl
 
 ##Try Stuff##
 
-If you lock yourself in your house, how many exciting adventures and stories will happen to you? Will that amazing job or special someone magically appear in front of your door? It's hard to come across good things when they don't even have a chance to happen in the first place. Don't wait until you have all the answers. Get out there and let life happen. You might be surprised.
+If you lock yourself in your house, how many exciting adventures and stories will happen to you? Will an amazing job or special someone magically appear in front of your door? It's hard to come across good things when they don't even have a chance to happen in the first place. Don't wait until you have all the answers. Get out there and let life happen. You might be surprised.
 
 ##Be generous##
 
@@ -31,10 +31,10 @@ Go the extra mile for others without expecting anything in return. You'll be hap
 
 ##Concentrate on the present##
 
-Relax, be open-minded, and take in the events around you. Don't become so focused on something that you miss out on other great opportunities in front of you. If you go to a bar only looking for the perfect partner, you may miss the chance to make some good friends. If you're only looking for a specific job on Craigslist, you may overlook other nice jobs out there.
+Relax, be open-minded, and take in the events around you. Don't become so focused on something you miss out on other great opportunities in front of you. If you go to a bar only looking for the perfect partner, you may miss the chance to make some good friends. If you're only looking for a specific job on Craigslist, you may overlook other nice jobs out there.
 
 ##Embrace failure##
 
-Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future. Some people are so disappointed from choosing the wrong fork in a road that they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the next opportunity when it comes.
+Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future. Some people are so disappointed from choosing the wrong fork in a road they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the next opportunity when it comes.
 
 [1]: http://en.wikipedia.org/wiki/Yes_Man_(film)

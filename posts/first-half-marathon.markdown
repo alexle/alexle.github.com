@@ -6,7 +6,7 @@ Last December, my girlfriend surprised me with an entry to the [Denver Colfax Ha
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
-Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one that I'll never forget. Here is a recap of my half-marathon.
+Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one which I'll never forget. Here is a recap of my half-marathon.
 
 <a href="/static/2013-half-nike-map.jpg"><img class="pure-img center" src="/static/2013-half-nike-map.jpg" /></a>
 
@@ -48,7 +48,7 @@ It was the most enjoyable section of the race for me. Just me, my music, and thr
 
 ##Miles 7-10: Gut Check##
 
-I was pumped up and feeling good when I hit Mile 7. Until I realized that everything I did in the last hour, I was going to have to do again.
+I was pumped up and feeling good when I hit Mile 7. Until I realized everything I did in the last hour, I was going to have to do again.
 
 Sticking to the plan, I turned my effort up a notch. If I was doing 70% capacity before, my goal was to do 80% here. For me, this stretch was difficult and more of a mental challenge than physical.
 
@@ -66,7 +66,7 @@ Lungs on fire, legs dragging heavily.. I wanted to stop so many times. But nothi
 
 Crossing the finish line was overwhelming and surreal. For a second or two, I almost forgot where I was. I was filled with so many emotions.
 
-The sweetest part? My friends had made their way to the finish line, and shared that moment with me. Their support and excitement truly helped me along the race, and made the entire experience that much better.
+The sweetest part? My friends had made their way to the finish line, and was able to share the moment with me. Their support and excitement truly helped me along the race, and made the entire experience that much better.
 
 <a href="/static/2013-colfax-alex-le-finish.jpg"><img class="pure-img center" src="/static/2013-colfax-alex-le-finish.jpg" style="display:block; margin-left:auto; margin-right:auto;" width="560px" /></a>
 <div class="separator" style="clear: both; text-align: center;">
@@ -74,7 +74,7 @@ Photo courtesy of the best support group ever.</div>
 
 Past the finish line, I was met by a volunteer who placed a 13.1 Colfax Half-Marathon medal around my neck. I couldn't take my hands off of it, and still wear it from time to time around the house.
 
-It was an honor to be a part of all the athletes who competed, and reminds me that I still have so far to go. Fifteen months ago, the prospect of running two miles straight was unfathomable to me. Now, that distance is a nice warm up on my longer runs. Anything is truly possible if you put your mind to it.
+It was an honor to be a part of all the athletes who competed, and reminds me I still have so far to go. Fifteen months ago, the prospect of running two miles straight was unfathomable to me. Now, the distance is a nice warm up on my longer runs. Anything is truly possible if you put your mind to it.
 
 In the end, the race surpassed all my expectations. It was a perfect day to run, share stories, laugh with friends, and drink beer in the sun.
 

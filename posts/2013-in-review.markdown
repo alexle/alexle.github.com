@@ -2,11 +2,11 @@
 12-31-2013
 /static/2013-alex-running-summary.png
 
-Here we are. The end of another year. I can't believe how quickly 2013 went by. I've read that [time passes by faster][1] as we age because our days become more routine and predictable. When we're surrounded by the usual people, work, and experiences - the details stand out less and our days merge into fleeting moments.
+Here we are. The end of another year. I can't believe how quickly 2013 went by. I've read [time passes by faster][1] as we age because our days become more routine and predictable. When we're surrounded by the usual people, work, and experiences - the details stand out less and our days merge into fleeting moments.
 
 Or perhaps the older we get, the more disproportionate each unit of time becomes. When we're 5, a year is 20% of our life experience. When we're 40, a year accounts for only 2.5%. Whatever the reason, it often seems like Ryan Seacrest is counting down another giant ball falling down all too soon.
 
-Life passing me by is a big fear of mine. I don't want to look back a couple years from now and wonder, "where did the time go". That's why I feel it's important for everyone to take stock of where they've been and what they've done from time to time. To refocus and ensure that their time and energy is spent on stuff that really matter.
+Life passing me by is a big fear of mine. I don't want to look back a couple years from now and wonder, "where did the time go". Which is why I feel it's important for everyone to take stock of where they've been and what they've done from time to time. To refocus and ensure their time and energy is spent on stuff which really matter.
 
 For me, 2013 was an amazing year. I overcame new challenges, visited new places, and had many great laughs and moments with my friends and family. It wasn't a walk in the park, but I'm glad for all the experiences, good and bad. Here are some personal highlights.
 
@@ -21,7 +21,7 @@ For 2013, my main focus was to complete a [half-marathon][2] in May. It turned o
 <div class="separator"></div>
 </p>
 
-I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports that a person can get *better* at as they get older.
+I also set new Personal Records in almost every running category. Fastest 1k, 5k, 10k, 13.1, 26.2. Longest and farthest runs. I even became a Nike Run+ [Blue Belt][7]. I firmly believe distance running is one of the few sports a person can get *better* at as they get older.
 
 <p>
 <img class="pure-img center" src="/static/2013-alex-running-records.jpg" alt="alex le 2013 running records" />
@@ -51,7 +51,7 @@ As I've gotten older, I've found it more and more difficult to maintain muscle m
 
 Just for the record, I don't consider myself a "CrossFitter". Nor do I "CrossFit". I'm just a newbie who's incorporated CrossFit's theme of functional, varied, high-intensity movements into my own workouts.
 
-In other words, I superset every lift. I concentrate on compound exercises that use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
+In other words, I superset every lift. I concentrate on compound exercises which use multiple muscles. And every couple of months I try a new CrossFit movement. First was burpees. Then Wall-Balls. Then Thrusters. This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
 <p>
 <a href="/static/crossfit-games-2012-muscle-up.jpg">
@@ -62,7 +62,7 @@ In other words, I superset every lift. I concentrate on compound exercises that 
 
 What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 
-It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is. I'm delighted with the results from practicing these new CrossFit movements. On top of that, they've re-energized my workouts and have given me new challenges to work towards.
+It took me 3 months just to do **one**, and 2 months more to work up to 10. A huge milestone for me, and reminder that just because something looks easy doesn't mean it is. I'm delighted with the results from practicing these new CrossFit movements. On top of it, they've re-energized my workouts and have given me new challenges to work towards.
 
 <hr width=75%>
 

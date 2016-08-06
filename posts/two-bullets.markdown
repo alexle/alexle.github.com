@@ -16,17 +16,17 @@ I came across this question on Business Insider's "[20 Toughest Job Interview Qu
 
 The probability of dying is simple to calculate here. There are 6 chambers in the revolver, with 2 chambers containing bullets. Thus, the probability of eating a bullet is 2 (number of given outcomes) divided by 6 (number of total outcomes) or **33%**.
 
-Note that by spinning the chambers again, the previous "survival" shot has no bearing on the next shot. Also, the fact that the bullets are in consecutive order does not affect the final odds, since it's just a ratio of expected occurrences to total possible occurrences.
+Note that by spinning the chambers again, the previous "survival" shot has no bearing on the next shot. Also, the fact the bullets are in consecutive order does not affect the final odds, since it's just a ratio of expected occurrences to total possible occurrences.
 
 ##"Pull The Trigger Again"##
 
-In this situation, however, the previous shot AND the fact that the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.
+In this situation, however, the previous shot AND the fact the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.
 
 <img class="pure-img center" src="/static/two_bullets.jpg"  />
 <div class="separator" style="clear: both; text-align: center;">
 Diagram of revolver chamber. The red circles are bullets.</div>
 
-If you are alive at this point, then that means the first shot did NOT contain a bullet and must have come from either locations 1, 2, 3, or 4. So the number of situations you could be in after the first shot is **4**.
+If you are alive at this point, then it means the first shot did NOT contain a bullet and must have come from either locations 1, 2, 3, or 4. So the number of situations you could be in after the first shot is **4**.
 
 Now we calculate the **given outcomes**, or number of ways we could die. Since the revolver moves in a deterministic fashion, death can <u>only</u> occur if the first shot was fired from chamber 4, leading to the second shot being fired from chamber 5 (bullet). If the first shot was fired from either chambers 1, 2, or 3, then the subsequent shot would be blanks from 2, 3, or 4!
 

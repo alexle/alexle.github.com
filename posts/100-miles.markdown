@@ -12,9 +12,9 @@ Fortunately, I kept with it and after much pain, sweat, and tears, I'm proud to 
 
 It doesn't sound very impressive, but completing this goal ranks as one of the **top-five** achievements in my life so far. Not so much for the number of miles or difficulty of the runs. But more for the [commitment][2] required to go through with it. There were so many days I just wanted to sleep in, or relax to a TV show after a long day of work. So many chances to say, "I'll just run tomorrow". And so many moments to simply **stop**.
 
-I couldn't be happier with how well this goal played out. To say that it was a success is an understatement. Running this year has completely transformed my views on health and fitness, and combined with some [CrossFit][3] workouts, helped me become the fittest I've ever been.
+I couldn't be happier with how well this goal played out. To say it was a success is an understatement. Running this year has completely transformed my views on health and fitness, and combined with some [CrossFit][3] workouts, helped me become the fittest I've ever been.
 
-While I understand that running isn't for everyone, it's hard not to share and endorse something that's had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
+While I understand running isn't for everyone, it's hard not to share and endorse something which has had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
 
 As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done.
 

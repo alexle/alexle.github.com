@@ -13,7 +13,7 @@ Now, like a mosquito drawn to one of those electric zappers, I've somehow signed
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
 1. I'm a newbie runner. I've only been running for 1.5 years.
-2. My current mileage is 10-15 mpw. That's nowhere near enough. Some guides state you should be running 20 miles/week *before you even start* your training.
+2. My current mileage is 10-15 mpw. It isn't anywhere near enough. Some guides state you should be running 20 miles/week *before you even start* your training.
 3. The race I signed up for is only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
 Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences each week, in case it might prove useful to someone.
@@ -62,7 +62,7 @@ Yes, my mileage was woefully low.. And I [paid for it dearly][4]. But nonetheles
 
 ##Week 1 - 9mi LSD##
 
-Overconfident and eager to prove myself, I came out too fast on the LSD. The first 6mi felt ok. It fell terribly apart after that. My pace, form, and motivation to move forward dropped dramatically until the end.
+Overconfident and eager to prove myself, I came out too fast on the LSD. The first 6mi felt ok. It fell terribly apart after. My pace, form, and motivation to move forward dropped dramatically until the end.
 
 \* Lesson: Start slower. Bring water and GU next time to practice fueling.
 
@@ -70,7 +70,7 @@ Overconfident and eager to prove myself, I came out too fast on the LSD. The fir
 
 The short runs were great this week. I wish I could have said the same for the 12mi LSD. Before this run, I had never run with water or GU. It sounded like a good idea to fuel at the half-way point.
 
-I took GU about 60 minutes into the LSD. It was then that I realized there wasn't a trash can in sight. As a result, I had to hold the sticky wrapper for a mile before spotting a doggy-poop station to deposit the trash.
+I took GU about 60 minutes into the LSD. It was then I realized there wasn't a trash can in sight. As a result, I had to hold the sticky wrapper for a mile before spotting a doggy-poop station to deposit the trash.
 
 Mile 10 hit me hard. I felt extremely dehydrated for some reason. I shuffled my feet home to rehydrate, and finished the last 2 miles in pain. Perhaps the sudden increase in distance was not a good idea.
 
@@ -92,7 +92,7 @@ Essentially, hitting the wall is the point when your glycogen (stored energy) is
 
 This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and the urge to stop and cry.
 
-I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was incredible, even though my stride length was less than that of a person walking. All the willpower was sapped out of me.
+I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was incredible, even though my stride length was less than person walking. All the willpower was sapped out of me.
 
 I described my situation to a co-worker who does triathlons. His stance was when doing endurance events, you must *force* yourself to take in carbohydrates, electrolytes, and sugars at regular intervals, even if you aren't hungry or thirsty. It takes time to process the fuel, so being proactive will allow the energy to be available when your body needs it.
 
@@ -102,7 +102,7 @@ I described my situation to a co-worker who does triathlons. His stance was when
 
 The 15mi LSD was the most painful one yet. Calves, arches, hip flexors, IT band, and a bunch of other leg muscles I never knew existed were on fire. Is this what child birth feels like? It was the first time I had serious doubts about finishing the marathon.
 
-I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and powerade fuel at 90 minutes. Next week, I'll try to GU every 45 minutes and see if that helps.
+I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and powerade fuel at 90 minutes. Next week, I'll try to GU every 45 minutes and see if it helps.
 
 \* Lesson: When in pain, relax and focus on a couple steps at a time.
 
@@ -122,11 +122,11 @@ Every once in a while, something amazingly unexpected happens. Your item rings u
 
 This week's LSD was one of those moments for me.
 
-Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for 17 grueling miles. By the end, I eclipsed that distance and reached the magical distance of *20 miles*.
+Armed with 3 GU's, a new headband, and a better strategy to hide my water bottles, I set out for 17 grueling miles. By the end, I eclipsed the distance and reached the magical distance of *20 miles*.
 
 This distance is important because for most runners, 20mi provides the right amount of physical and mental boost to finish a marathon. In fact, many experts believe training beyond it is not needed. It increases the chance of injury, takes a toll on your body (affects later training), and the LSD benefits you gain after 20mi diminishes greatly.
 
-As for the run, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after that.
+As for the run, it felt like everything finally clicked. I had a better feel of when to fuel, when to rest, and when to push myself. Fueling earlier and more frequently helped a lot. At 17mi, I imagined how cool it'd be to tell my friends afterwards "Yeah, I ran 20mi this morning". There was no stopping me after.
 
 \* Lesson: Sometimes you're running against the wind. And sometimes the wind is at your back. When the latter happens, ride and make the most of it.
 
@@ -142,7 +142,7 @@ Big mistake. This type of shoe encourages a more natural foot strike, but takes 
 
 ##Week 9 - 13mi LSD##
 
-I had mixed emotions approaching my last week of training. Relieved to make it through the 9 weeks intact. Thrilled with the progress I made. Yet, sad that it was over. A part of me had grown accustomed to the weekly LSDs and the challenges each week presented. What was I going to do with my Saturdays now?
+I had mixed emotions approaching my last week of training. Relieved to make it through the 9 weeks intact. Thrilled with the progress I made. Yet, sad it was over. A part of me had grown accustomed to the weekly LSDs and the challenges each week presented. What was I going to do with my Saturdays now?
 
 There was no theme to the final LSD. Some sections were fast. Others were easy and day-dreamy. I even struggled a bit during the end. It was a nice combination of all the weeks of training.
 

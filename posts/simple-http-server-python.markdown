@@ -1,7 +1,7 @@
 How To Setup A Simple HTTP Server With Python
 02-09-2012
 
-There are times when you need to setup a quick web server to test your web applications. For basic applications that don't require database or server-side language support, Python has a [module][1] to run a mini web server on your system. It takes no time to configure and eats up very little system resources!
+There are times when you need to setup a quick web server to test your web applications. For basic applications which don't require database or server-side language support, Python has a [module][1] to run a mini web server on your system. It takes no time to configure and eats up very little system resources!
 
 ##SimpleHTTPServer by command line##
 
@@ -13,7 +13,7 @@ To start the server, simply type:
 
 > $ python -m SimpleHTTPServer
 
-That's it! Now your HTTP server will run in port 8000. You can access it via [localhost:8000](http://localhost:8000/) or [127.0.0.1:8000](http://127.0.0.1:8000/). If the directory has a file named "index.html", that file will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.
+That's it! Now your HTTP server will run in port 8000. You can access it via [localhost:8000](http://localhost:8000/) or [127.0.0.1:8000](http://127.0.0.1:8000/). If the directory has a file named "index.html", it will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.
 
 If you wish to change the port, it can be configured as an additional parameter:
 

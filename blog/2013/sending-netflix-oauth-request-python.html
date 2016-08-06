@@ -64,15 +64,15 @@
    </div>
 
    <p class="post-content">
-      <p>Oauth is an authentication protocol that allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.</p>
-<p>That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous <a href="/blog/2012/neatflix-my-netflix-api-demo.html">post</a>, I shared a <a href="http://neatflix.appspot.com/">demo</a> that uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.</p>
+      <p>Oauth is an authentication protocol which allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.</p>
+<p>That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous <a href="/blog/2012/neatflix-my-netflix-api-demo.html">post</a>, I shared a <a href="http://neatflix.appspot.com/">demo</a> which uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.</p>
 <h2>Before You Start</h2>
 <ol>
 <li>Register your application at <a href="http://developer.netflix.com/apps/register/">http://developer.netflix.com/apps/register/</a>. A unique consumer key and secret is provided to you afterwards. Keep this for later.</li>
 <li>Go over the Netflix <a href="http://developer.netflix.com/docs/Security">Authentication Overview</a>. This contains all the required info to make Netflix API requests. It also has nice information containing common REST API tasks you can send.</li>
 </ol>
 <h2>Performing A Non-Authenticated Request</h2>
-<p>The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows that partially match the search string. It's a <em>non-authenticated</em> request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:</p>
+<p>The "autocomplete catalog" request searches the Netflix catalog for movies and tv shows which partially match the search string. It's a <em>non-authenticated</em> request and only requires the consumer key and a percent-encoded search string. The format of the request is as follows:</p>
 <pre><code class=language-html>http://api-public.netflix.com/catalog/titles/autocomplete?oauth_consumer_key=CONSUMER_KEY&term=SEARCH_STRING
 </code></pre>
 
@@ -106,7 +106,7 @@ for i in auto_xml.findall('.//title'):
 <li>Setting the base URL</li>
 <li>Gathering the parameters</li>
 <li>Creating the base string</li>
-<li>Calculating the signature </li>
+<li>Calculating the signature</li>
 </ol>
 <p>Combining these components produces the signed request, which has the format below:</p>
 <pre><code class=language-html>http://api-public.netflix.com/PATH?parameter=PARM&oauth_consumer_key=CONSUMER_KEY&oauth_nonce=NONCE&oauth_signature_method=HMAC-SHA1&oauth_timestamp=TIME_STAMP&oauth_version=1.0&oauth_signature=SIGNATURE
@@ -116,10 +116,10 @@ for i in auto_xml.findall('.//title'):
 <pre><code class=language-html>TITLE_URL = 'http://api-public.netflix.com/catalog/titles'
 </code></pre>
 
-<p>Second, we gather the required OAuth parameters for the Netflix request. </p>
+<p>Second, we gather the required OAuth parameters for the Netflix request.</p>
 <ul>
 <li>
-<p><strong>parm</strong> - Optional parameter(s) that specify what data is returned. For the catalog titles search, we use the "term" parameter along with the movie/tv's title to gather the film's details.</p>
+<p><strong>parm</strong> - Optional parameter(s) which specify what data is returned. For the catalog titles search, we use the "term" parameter along with the movie/tv's title to gather the film's details.</p>
 </li>
 <li>
 <p><strong>consumer_key</strong> - Your application's consumer key.</p>
@@ -137,7 +137,7 @@ for i in auto_xml.findall('.//title'):
 <p><strong>oauth_version</strong> - This is 1.0 for now.</p>
 </li>
 </ul>
-<p>Although not required for the base string, we'll later need the parameters to be in alphabetical order, so it's easier to keep them in order from the start. </p>
+<p>Although not required for the base string, we'll later need the parameters to be in alphabetical order, so it's easier to keep them in order from the start.</p>
 <pre><code class=language-python>from hashlib import sha1
 import hmac, binascii, urllib, time, string, random
 
@@ -181,7 +181,7 @@ return signed_sig
 sign = GenerateSig( base_string )
 </code></pre>
 
-<p>With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request: </p>
+<p>With the base URL, parameters, and signature set up, all that's left is to combine them together and make the request:</p>
 <pre><code class=language-python>parameters.append(('oauth_signature', sign))
 
 full_url = TITLE_URL + '?' + urllib.urlencode(parameters)

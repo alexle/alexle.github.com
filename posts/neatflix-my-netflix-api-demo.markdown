@@ -3,9 +3,9 @@ Neatflix: A Netflix API Demo
 
 [Netflix][1] is one of my guilty pleasures in life. *Guilty* because I believe TV is evil and try to limit the amount of time I spend in front of one. Yet, there are good, interesting, and entertaining shows out there which I enjoy watching every now and then and Netflix is an economical way to get some of this content.
 
-A minor issue I have with Netflix, however, is that I never know which titles are available. This is compounded by the fact that I only have the "streaming" plan, which negates all the DVD/Blu-Ray selections. I often find myself wondering if a movie is available on Netflix, and if so, whether or not it is streamable.
+A minor issue I have with Netflix, however, is I never know which titles are available. This is compounded by the fact I only have the "streaming" plan, which negates all the DVD/Blu-Ray selections. I often find myself wondering if a movie is available on Netflix, and if so, whether or not it is streamable.
 
-When I discovered that Netflix has an [API][3], I saw an opportunity to learn something new by creating a web app to solve this problem. Hence, [Neatflix][2] was born.
+When I discovered Netflix had an [API][3], I saw an opportunity to learn something new by creating a web app to solve this problem. Hence, [Neatflix][2] was born.
 
 Neatflix is simple to use. Just enter a search phrase and click on any result to display its information. The search will return the top 10 titles matched in the Netflix libary. Say you wanted to find out more information about the movie "Thor". A search of this phrase would return the following:
 
@@ -27,7 +27,7 @@ Dvd and Blu-Ray only. Darn!
 
 Neatflix is only a demo at this stage, but I hope to add more features in the future. It was fun learning how to make OAuth requests, hide sensitve developer key data, parse xml, and manage data flow in a web app. I plan to share some of my experiences in a future post.
 
-In the meantime, check out [http://neatflix.appspot.com][2] if you want some quick information on a particular Netflix title. The [source code][4] is also available publicly in my Github. 
+In the meantime, check out [http://neatflix.appspot.com][2] if you want some quick information on a particular Netflix title. The [source code][4] is also available publicly in my Github.
 
 [1]: http://www.netflix.com
 [2]: http://neatflix.appspot.com
