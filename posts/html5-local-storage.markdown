@@ -7,42 +7,37 @@ It allows data to be stored on the client-side via a simple key/value database. 
 
 Keys can be initialized with the API, square bracket, or dot notation:
 
-<blockquote>
->> localStorage.setItem('name', 'Alex')<br>
-<br>
->> localStorage['name'] = 'Alex'<br>
-<br>
->> localStorage.name = 'Alex'<br>
-</blockquote>
+<pre><code>$ localStorage.setItem('name', 'Alex')
+
+$ localStorage['name'] = 'Alex'
+
+$ localStorage.name = 'Alex'
+</code></pre>
 
 Keys can be read by the same methods. To retrieve the 'name' key's value:
 
-<blockquote>
->> localStorage.getItem('name')<br>
->> Alex<br>
-<br>
->> localStorage['name']<br>
->> Alex<br>
-<br>
->> localStorage.name<br>
->> Alex<br>
-</blockquote>
+<pre><code>$ localStorage.getItem('name')
+Alex
+
+$ localStorage['name']
+Alex
+
+$ localStorage.name
+Alex
+</code></pre>
 
 .clear() removes all keys and values in the domain's local storage:
 
-<blockquote>
->> localStorage.clear()<br>
->> localStorage.getItem('name'))<br>
->> undefined<br>
-</blockquote>
+<pre><code>$ localStorage.clear()
+$ localStorage.getItem('name'))
+undefined
+</code></pre>
 
 Other API functions include:
 
-<blockquote>
-.removeItem(key)<br>
-.key(index)<br>
-.length<br>
-</blockquote>
+* .removeItem(key)
+* .key(index)
+* .length
 
 Here's a simple [demo][1] I threw together. The code is available at [github][2]. It's an editable list whose values can be saved to local storage. If applicable, the list is populated with these values every time the page is reloaded or re-opened!
 

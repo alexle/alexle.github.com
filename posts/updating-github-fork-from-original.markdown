@@ -7,9 +7,9 @@ I still find myself having to look up how to update my forked Github repositorie
 
 If you haven't cloned your forked repository yet, do so with:
 
-> git clone git@github.com:alexle/bootstrap.git
+<pre><code class=python>git clone git@github.com:alexle/bootstrap.git</code></pre>
 
-> cd bootstrap
+<pre><code class=python>cd bootstrap</code></pre>
 
 In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your fork, respectively.
 
@@ -17,7 +17,7 @@ In the commands above, "alexle" and "bootstrap" should be replaced with your Git
 
 Add another remote repository, one that points to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.
 
-> git remote add upstream git://github.com/twitter/bootstrap.git
+<pre><code class=python>git remote add upstream git://github.com/twitter/bootstrap.git</code></pre>
 
 Your remote repositories can be viewed with "git remote -v". Note there should already be an "origin" remote target in your fork.
 
@@ -25,10 +25,10 @@ Your remote repositories can be viewed with "git remote -v". Note there should a
 
 To pull changes from the main repository into your forked repository:
 
-> git fetch upstream
+<pre><code class=python>git fetch upstream</code></pre>
 
-> git merge upstream/master
+<pre><code class=python>git merge upstream/master</code></pre>
 
-> git push
+<pre><code class=python>git push</code></pre>
 
 And voila! This brings your repo up-to-date.

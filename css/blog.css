@@ -174,13 +174,19 @@ img.center {
 }
 
 blockquote {
-   font-family: courier;
-   border-left: 3px solid #ccc;
-   padding-left: 10px;
-   margin-left: 10px;
-   margin-right: 0px;
-   font-size: 14px;
-   overflow: auto;
+   position: relative;
+   font-size: 22px;
+   font-style: italic;
+   margin-top: 1em;
+   padding-left: 0.2em;
+}
+
+blockquote:before {
+    position: absolute;
+    font-size: 3em;
+    top: 0.25em;
+    left: -0.5em;
+    content: "\201C";
 }
 
 pre {

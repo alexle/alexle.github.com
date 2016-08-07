@@ -6,20 +6,10 @@ One of the challenges [Chisel][1] presents is the lack of syntax highlighting fo
 
 VIM includes a plugin called **TOhtml**. Calling this will convert the current file into HTML, complete with coloring if syntax highlighting is enabled. This works on hightlighted text too. To execute, enter normal mode and type:
 
-> :TOhtml
+`:TOhtml`
 
 The HTML output is created in a split VIM window. Here is a sample python script pasted into this post:
 
-<style type="text/css">
-pre { font-family: monospace; color: #ffffff; background-color: #333333; }
-.Special { color: #ffdead; }
-.Identifier { color: #98fb98; }
-.Constant { color: #ffa0a0; }
-.Type { color: #bdb76b; font-weight: bold; }
-.Comment { color: #87ceeb; }
-</style>
-
-<blockquote>
 import sys<br>
 <br>
 if len(sys.argv) != 2:<br>
@@ -37,11 +27,18 @@ for i in bin_num[::-1]:<br>
       print "Bit " + str(counter)<br>
 <br>
    counter += 1<br>
-</blockquote>
 
 Here is the same code after ran through TOhtml with syntax highlighting:
 
-<div id="code">
+<style type="text/css">
+pre { font-family: monospace; color: #ffffff; background-color: #333333; }
+.Special { color: #ffdead; }
+.Identifier { color: #98fb98; }
+.Constant { color: #ffa0a0; }
+.Type { color: #bdb76b; font-weight: bold; }
+.Comment { color: #87ceeb; }
+</style>
+
 <font color="#cd5c5c">import</font>&nbsp;sys<br>
 <br>
 <font color="#f0e68c"><b>if</b></font>&nbsp;<font color="#98fb98">len</font>(sys.argv) !=&nbsp;<font color="#ffa0a0">2</font>:<br>
@@ -59,9 +56,8 @@ counter =&nbsp;<font color="#ffa0a0">0</font><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#98fb98">print</font>&nbsp;<font color="#ffa0a0">&quot;Bit &quot;</font>&nbsp;+&nbsp;<font color="#98fb98">str</font>(counter)<br>
 <br>
 &nbsp;&nbsp; counter +=&nbsp;<font color="#ffa0a0">1</font><br>
-</div>
 
-Note TOhtml creates a HTML file with **all** tags, which may be overkill for sharing code snippets. My usage simply involves copying the "meat" inbetween the &lt;body&gt; tags and adding the code in my posts.
+Note TOhtml creates a HTML file with **all** tags, which may be overkill for sharing code snippets. My usage simply involves copying the meat between the &lt;body&gt; tags and adding the code in my posts.
 
 The HTML may not be optimal, but it works and provides a quick solution to adding colorized code snippets on your blog.
 

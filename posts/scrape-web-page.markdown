@@ -7,41 +7,38 @@ Luckily for me, ION airs 1-4 episodes almost every day. The only problem is I ca
 
 I got tired of this rather quickly and wrote a python script to "scrape" the webpage for show times. [Web scraping][3] is a technique to extract information from websites using code. There are many different ways to scrape the web; the method I used is crude but simple:
 
-<div id="code">
-<font color="#87ceeb">#!/usr/bin/python</font><br>
-<br>
-<font color="#cd5c5c">from</font>&nbsp;urllib <font color="#cd5c5c">import</font>&nbsp;urlopen<br>
-<font color="#cd5c5c">import</font>&nbsp;re, time<br>
-<br>
-LINK = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0"><a href="http://www.ionline.tv">http://www.ionline.tv</a></font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;<font color="#87ceeb"># url to scrape</font><br>
-SHOW = <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">CRIMINAL MINDS</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># show keyword to search on</font><br>
-msg = SHOW<br>
-show_index = 0<br>
-<br>
-content = urlopen( LINK ).read()<br>
-<br>
-dates_array = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">weekdate&quot;&gt;(.*?)&lt;</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
-<br>
-time = re.findall( <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">title&quot;&gt;(.*?)&lt;.*?eastern&quot;&gt;(.*?)&lt;.*?(/ul|&lt;li)</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>, content )<br>
-<br>
-<font color="#f0e68c"><b>print</b></font>&nbsp;time<br>
-<font color="#f0e68c"><b>for</b></font>&nbsp;date_entry <font color="#f0e68c"><b>in</b></font>&nbsp;range( len(dates_array) - 1 ):<br>
-<br>
-&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ dates_array[date_entry]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#87ceeb"># iterate through dates</font><br>
-<br>
-&nbsp;&nbsp; <font color="#f0e68c"><b>while</b></font>&nbsp;True:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index][0] == SHOW ):&nbsp;&nbsp;&nbsp;&nbsp; <font color="#87ceeb"># check if show is CM</font><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; msg += <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffdead">\n</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;+ time[show_index][1]<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show_index += 1<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f0e68c"><b>if</b></font>&nbsp;( time[show_index-1][2] == <span style="background-color: #333333"><font color="#ffffff">'</font></span><font color="#ffa0a0">/ul</font><span style="background-color: #333333"><font color="#ffffff">'</font></span>&nbsp;):&nbsp;&nbsp;<font color="#87ceeb"># marker for end of day</font><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f0e68c"><b>break</b></font><br>
-<br>
-<font color="#f0e68c"><b>print</b></font>&nbsp;msg<br>
-</div>
+<pre><code class=language-python>from urllib import urlopen
+import re, time
 
-The procedure involves 3 steps: 
+LINK = 'http://www.ionline.tv'  # url to scrape
+SHOW = 'CRIMINAL MINDS'         # show keyword to search on
+msg = SHOW
+show_index = 0
+
+content = urlopen( LINK ).read()
+
+dates_array = re.findall( 'weekdate">(.*?)&lt;', content )
+
+time = re.findall( 'title">(.*?)&lt;.*?eastern">(.*?)&lt;.*?(/ul|&lt;li)', content )
+
+print time
+for date_entry in range( len(dates_array) - 1 ):
+
+   msg += '\n' + dates_array[date_entry]      # iterate through dates
+
+   while True:                         
+      if ( time[show_index][0] == SHOW ):     # check if show is CM
+         msg += '\n' + time[show_index][1]
+
+      show_index += 1
+
+      if ( time[show_index-1][2] == '/ul' ):  # marker for end of day
+         break
+
+print msg
+</code></pre>
+
+The procedure involves 3 steps:
 
 1. Read in the site's data. This is done with **urlopen( LINK ).read()**.
 2. Parse the data I want (date/time) using regular expressions with **re.findall()**.
@@ -49,28 +46,26 @@ The procedure involves 3 steps:
 
 As of 9/27/11, running the script above produces an output of:
 
-<blockquote>
-CRIMINAL MINDS<br />
-September 27<br />
-9<br />
-10<br />
-11<br />
-September 28<br />
-10<br />
-11<br />
-September 29<br />
-8<br />
-9<br />
-10<br />
-11<br />
-September 30<br />
-October 1<br />
-October 2<br />
-October 3<br />
-9<br />
-10<br />
+`CRIMINAL MINDS
+September 27
+9
+10
 11
-</blockquote>
+September 28
+10
+11
+September 29
+8
+9
+10
+11
+September 30
+October 1
+October 2
+October 3
+9
+10
+11`
 
 Time and date of **every** Criminal Mind episode for the next week. Fist pump!
 

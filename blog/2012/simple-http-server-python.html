@@ -67,18 +67,15 @@
       <p>There are times when you need to setup a quick web server to test your web applications. For basic applications which don't require database or server-side language support, Python has a <a href="http://docs.python.org/library/simplehttpserver.html">module</a> to run a mini web server on your system. It takes no time to configure and eats up very little system resources!</p>
 <h2>SimpleHTTPServer by command line</h2>
 <p>Open up a terminal and go to the directory you would like to start the web server:</p>
-<blockquote>
-<p>$ cd /home/somedirectory</p>
-</blockquote>
+<pre><code class=python>$ cd /home/somedirectory</code></pre>
+
 <p>To start the server, simply type:</p>
-<blockquote>
-<p>$ python -m SimpleHTTPServer</p>
-</blockquote>
+<pre><code class=python>$ python -m SimpleHTTPServer</code></pre>
+
 <p>That's it! Now your HTTP server will run in port 8000. You can access it via <a href="http://localhost:8000/">localhost:8000</a> or <a href="http://127.0.0.1:8000/">127.0.0.1:8000</a>. If the directory has a file named "index.html", it will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.</p>
 <p>If you wish to change the port, it can be configured as an additional parameter:</p>
-<blockquote>
-<p>$ python -m SimpleHTTPServer 8200</p>
-</blockquote>
+<pre><code class=python>$ python -m SimpleHTTPServer 8200</code></pre>
+
 <h2>SimpleHTTPServer by python script</h2>
 <p>The SimpleHTTPServer can also be started in a script. Here's a snippet of the code I use:</p>
 <pre><code class="language-python">import sys, SimpleHTTPServer, BaseHTTPServer

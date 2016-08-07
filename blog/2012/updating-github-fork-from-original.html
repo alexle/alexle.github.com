@@ -67,24 +67,24 @@
       <p>I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its original repository.</p>
 <h2>Setting up the Clone</h2>
 <p>If you haven't cloned your forked repository yet, do so with:</p>
-<blockquote>
-<p>git clone git@github.com:alexle/bootstrap.git</p>
-<p>cd bootstrap</p>
-</blockquote>
+<pre><code class=python>git clone git@github.com:alexle/bootstrap.git</code></pre>
+
+<pre><code class=python>cd bootstrap</code></pre>
+
 <p>In the commands above, "alexle" and "bootstrap" should be replaced with your Github name and the name of your fork, respectively.</p>
 <h2>Configuring the Upstream</h2>
 <p>Add another remote repository, one that points to the original repository. It can be any name you choose; I always name mine "upstream" to stay consistent.</p>
-<blockquote>
-<p>git remote add upstream git://github.com/twitter/bootstrap.git</p>
-</blockquote>
+<pre><code class=python>git remote add upstream git://github.com/twitter/bootstrap.git</code></pre>
+
 <p>Your remote repositories can be viewed with "git remote -v". Note there should already be an "origin" remote target in your fork.</p>
 <h2>Updating the Fork</h2>
 <p>To pull changes from the main repository into your forked repository:</p>
-<blockquote>
-<p>git fetch upstream</p>
-<p>git merge upstream/master</p>
-<p>git push</p>
-</blockquote>
+<pre><code class=python>git fetch upstream</code></pre>
+
+<pre><code class=python>git merge upstream/master</code></pre>
+
+<pre><code class=python>git push</code></pre>
+
 <p>And voila! This brings your repo up-to-date.</p>
    </p>
 
