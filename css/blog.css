@@ -141,11 +141,10 @@ img.center {
    text-align: center;
 }
 
-.pure-button {
-   width: 7em;
-}
+.pure-button { width: 7em; }
 
-.menu-list { margin: 0;
+.menu-list {
+   margin: 0;
    padding: 0;
    list-style: none;
 }
@@ -237,4 +236,6 @@ pre {
    h3 { font-size: 1.2em; }
 
    .home-image { height: 160px; }
+
+   .pure-button { width: 6em; }
 }
