@@ -90,7 +90,7 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 }
 
 /* POST CSS */
-.post-title { }
+.post-title { font-size: 94%; }
 
 /* ARCHIVE CSS */
 h1.archive-year {
@@ -224,9 +224,7 @@ pre {
       margin-top: 0;
    }
 
-   body {
-      font-size: 0.98em;
-   }
+   body { font-size: 0.98em; }
 }
 
 /* RESPONSIVE -- RULES less than 30em */
