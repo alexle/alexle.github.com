@@ -30,9 +30,9 @@ The views from the boat were spectacular. My favorite was a building currently u
 <div class="separator">Up close and personal from the boat.</div>
 </p>
 
-##The Expo##
+##Abbott Health & Fitness Expo##
 
-We stopped off at the Abbott Health & Fitness Expo late Saturday afternoon. With over *45,000* people registered for the marathon, I was prepared for a huge cluster mess inside.
+We stopped off at the expo late Saturday afternoon. With over *45,000* people registered for the marathon, I was prepared for a huge cluster mess inside.
 
 To my surprise, it took less than 10 minutes to check-in and get my bib-packet. Talk about smooth and organized!
 
@@ -60,7 +60,7 @@ Hence, the new plan was to run the race by feel and use the 3:50 group as a "rab
 <div class="separator">The race kit.</div>
 </p>
 
-Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz gatorade. In hindsight, I should have eaten more and drank less.
+Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz Gatorade. In hindsight, I should have eaten more and drank less.
 
 The bus to Grant Park filled up quickly with runners. The mood was quiet and reflective. I didn't have a drop bag so it was a breeze to get to the start.
 
@@ -95,7 +95,7 @@ It's decently windy in this section. I do my best to tuck in behind the pack and
 
 The pace leaders are amazing. Each mile, they check their watches and I hear "8:46, nice" or "8:48, right on schedule". How they can run within seconds of target pace is beyond me. They chat almost the whole time, likely to keep everyone's mind off the pain to come.
 
-The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with gatorade all down my face and shirt. I walk each station after. Which means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
+The only issue is how fast they cruise through aid stations. My first attempt to drink while running ends with Gatorade all down my face and shirt. I walk each station after. Which means every 1.5 miles or so, I lose the pace group and have to slowly catch up.
 
 ##Miles 9.3 - 12.4 (8:44 min/mi)##
 
