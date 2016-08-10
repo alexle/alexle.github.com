@@ -18,8 +18,8 @@ body {
 }
 
 h1 { font-size: 1.7em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.3em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.4em; }
 
 h1,h2,h3,h4,h5,h6 {
    font-weight: normal;
@@ -75,22 +75,26 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 }
 
 .home-image {
-    margin: 0.7em 0 1.6em 0;
-    overflow: hidden;
-    position: relative;
-    border: 1px;
-    height: 240px;
+   margin: 0.7em 0 0.7em 0;
+   overflow: hidden;
+   position: relative;
+   border: 1px;
+   height: 240px;
 }
 
 .home-image img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.home-snippet {
+   margin-bottom: 1.2em;
 }
 
 /* POST CSS */
-.post-title { font-size: 94%; }
+.post-title { }
 
 /* ARCHIVE CSS */
 h1.archive-year {
@@ -174,7 +178,7 @@ img.center {
 
 blockquote {
    position: relative;
-   font-size: 20px;
+   font-size: 22px;
    font-style: italic;
    margin-top: 1em;
    padding-left: 0.2em;
@@ -224,13 +228,14 @@ pre {
       margin-top: 0;
    }
 
-   body { font-size: 0.98em; }
+   body { font-size: 0.98em;
+   }
 }
 
 /* RESPONSIVE -- RULES less than 30em */
 @media (max-width: 30em) {
    h1 { font-size: 1.5em; }
-   h2 { font-size: 1.3em; }
+   h2 { font-size: 1.4em; }
    h3 { font-size: 1.2em; }
 
    .home-image { height: 160px; }

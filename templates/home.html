@@ -5,7 +5,7 @@
 {% for entry in entries %}
 <div class="home-post">
    <div class="home-title">
-      <h2 class="home-title"><a href="blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h2>
+      <h1 class="home-title"><a href="blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h1>
    </div>
    <div class="home-date">
       {{ entry.pretty_date }}
@@ -15,6 +15,9 @@
       <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" alt="{{ entry.img }}"/></a>
    </div>
    {% endif %}
+   <div class='home-snippet'>
+   {{ entry.content|striptags|truncate(220,False,"...") }}
+   </div>
    <hr class="hr-post">
 </div>
 {% endfor %}
