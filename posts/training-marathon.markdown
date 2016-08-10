@@ -146,6 +146,8 @@ I had mixed emotions approaching my last week of training. Relieved to make it t
 
 There was no theme to the final LSD. Some sections were fast. Others were easy and day-dreamy. I even struggled a bit during the end. It was a nice combination of all the weeks of training.
 
+##Reflections##
+
 Looking back, it was a transforming 9 weeks. I found a good fueling and pacing strategy. I ran more miles in a month than I did all [last year][2]. I even PR'd my 5k, 10k, AND half-marathon! In some ways, I've already won and will be happy no matter what the results of the marathon are. Only one week left, I can't wait.
 
 \* Lesson: Life is truly, truly in the journey. Not the destination.
