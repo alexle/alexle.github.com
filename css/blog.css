@@ -79,7 +79,7 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
    overflow: hidden;
    position: relative;
    border: 1px;
-   height: 240px;
+   height: 220px;
 }
 
 .home-image img {
@@ -238,7 +238,7 @@ pre {
    h2 { font-size: 1.4em; }
    h3 { font-size: 1.2em; }
 
-   .home-image { height: 160px; }
+   .home-image { height: 150px; }
 
    .pure-button { width: 6em; }
 }
