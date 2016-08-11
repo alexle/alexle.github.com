@@ -234,8 +234,8 @@ pre {
 
 /* RESPONSIVE -- RULES less than 30em */
 @media (max-width: 30em) {
-   h1 { font-size: 1.5em; }
-   h2 { font-size: 1.4em; }
+   h1 { font-size: 1.4em; }
+   h2 { font-size: 1.35em; }
    h3 { font-size: 1.2em; }
 
    .home-image { height: 150px; }
