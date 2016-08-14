@@ -51,15 +51,15 @@ I try to relax and figure out how to pace myself, but I have no idea what I'm do
 
 ##Third 400m - 1:35##
 
-The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. It feels like my body is engulfed in flames. Time slows down to a crawl.
+The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. It feels like my body is engulfed in flames. Time slows down to a crawl. Everything hurts.
 
 I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
 
-If I don't see anyone ahead of me turn off Spruce St onto 14th soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
+If I don't see anyone ahead of me turn off Spruce St soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
 
 ##Final 400m - 1:22##
 
-I finally see people getting off Spruce and I know it's the home stretch. I muster every last ounce of will power and energy left inside me and throw myself into the last turn towards the finish.
+I finally see people getting on 14th and I know it's the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn towards the finish.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
