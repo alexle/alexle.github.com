@@ -42,7 +42,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 ##Second 400m - 1:25##
 
 <p>
-<img class="pure-img center" src="/static/i_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
+<img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
 </p>
 
 We're past all the crazy 90 degree turns and people start to separate from each other, finding their pace. My body realizes what I'm attempting to do and my heart rate and breathing shoot up rapidly.
