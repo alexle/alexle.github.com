@@ -59,7 +59,7 @@ If I don't see anyone ahead of me turn off Spruce St onto 14th soon, I will pass
 
 ##Final 400m - 1:22##
 
-I finally see people getting off Spruce and I know it's the home stretch. I muster every last ounce of will power and energy left inside me and throw myself into the last push to the finish.
+I finally see people getting off Spruce and I know it's the home stretch. I muster every last ounce of will power and energy left inside me and throw myself into the last turn towards the finish.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
