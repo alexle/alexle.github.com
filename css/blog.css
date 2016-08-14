@@ -71,15 +71,15 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 
 .home-date, .post-date {
    color: #888;
-   font-size: 90%;
+   font-size: 85%;
 }
 
 .home-image {
-   margin: 0.7em 0 0.7em 0;
+   margin: 0.7em 0 1.6em 0;
    overflow: hidden;
    position: relative;
    border: 1px;
-   height: 220px;
+   height: 240px;
 }
 
 .home-image img {
@@ -219,7 +219,7 @@ pre {
 /* RESPONSIVE -- RULES less than 48em */
 @media (max-width: 48em) {
    #sidebar {
-      max-width: 100%;
+      max-width: 100%
       margin-top: 1.0em;
    }
 
@@ -238,7 +238,7 @@ pre {
    h2 { font-size: 1.35em; }
    h3 { font-size: 1.2em; }
 
-   .home-image { height: 150px; }
+   .home-image { height: 160px; }
 
    .pure-button { width: 6em; }
 }
