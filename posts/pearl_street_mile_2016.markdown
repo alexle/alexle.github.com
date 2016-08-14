@@ -6,7 +6,7 @@ How long was your run yesterday? How many miles did you log last week? Do you ha
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
 
-Personally, I love endurance events. My last 3 races have been [marathons][3] and I'm running my first Ultra in a couple weeks. I understand that just completing a certain distance is a goal for many people.
+Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first Ultra in a couple weeks. I understand that just completing a certain distance is a goal for many people.
 
 But what happened to *competing* against our peers and ourselves? It is called a race, after all. Why aren't questions like "How *fast* was your run" and "Want to race to the fire hydrant and back" asked anymore?
 
@@ -68,7 +68,7 @@ I finally see people getting off Spruce and I know it's the home stretch. I must
 
 My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see is a young girl who I tried to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
 
-I must have blacked out because I don't remember anything else. I cross the finish and my watch shows **5:42**. Unbelievable.
+I must have blacked out because I don't remember anything else. I cross the finish and my watch shows [**5:42**][3]. Unbelievable.
 
 ##Why You Should Race A Mile (And Other Short Distance Races)##
 
