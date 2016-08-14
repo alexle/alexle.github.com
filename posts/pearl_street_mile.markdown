@@ -55,7 +55,7 @@ The third 400m is a dark and lonely stretch that I would not wish even upon my g
 
 I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
 
-If I don't see anyone ahead of me turn off Spruce soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
+If I don't see anyone ahead of me turn off Spruce soon, I will pass out. I don't know how fast or slow I'm moving anymore.
 
 ##Final 400m - 1:22##
 
