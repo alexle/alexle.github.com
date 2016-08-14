@@ -18,7 +18,7 @@ I had no response. I just knew that I've never dreaded a race as much as I did t
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg" alt="pearl street mile alex le and matt" />
-<div class="separator">Pre-race photo of me and my coworker</div>
+<div class="separator">Pre-race photo in front of the start</div>
 </p>
 
 ##Pearl Street Mile##
@@ -47,7 +47,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 
 We're past all the crazy 90 degree turns and people start to separate from each other, finding their pace. My body realizes what I'm attempting to do and my heart rate and breathing shoot up rapidly.
 
-I try to relax and figure out how to pace myself, but I have no idea what I'm doing so I keep pushing hard. No regrets, YOLO!
+I try to relax and pace myself, but I have no idea what I'm doing so I keep pushing hard. No regrets, YOLO!
 
 ##Third 400m - 1:35##
 
@@ -55,11 +55,11 @@ The third 400m is a dark and lonely stretch that I would not wish even upon my g
 
 I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
 
-If I don't see anyone ahead of me turn off Spruce St soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
+If I don't see anyone ahead of me turn off Spruce soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
 
 ##Final 400m - 1:22##
 
-I finally see people getting on 14th and I know it's the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn towards the finish.
+I finally see people getting on 14th ahead, which means we're on the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn towards the finish.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
@@ -68,17 +68,19 @@ I finally see people getting on 14th and I know it's the home stretch. I muster 
 
 My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see is a girl in front of me who I tried to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
 
-I must have blacked out because I don't remember anything else. I cross the finish and my watch shows [**5:42**][3]. Smashed my PR, oh yeeeahh!!
+I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, oh yeeeah!
 
 ##Why You Should Race A Mile (And Other Short Distance Races)##
 
-When you finish a marathon, you'll likely feel a deep sense of gratitude, happiness, and satisfaction for all the long training put in. There may be tears of joy, and people to be thankful for.
+When you finish a marathon, you'll likely feel a deep sense of gratitude and happiness. There's satisfaction for all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
 
-When you finish a mile race, you'll feel pumped up and *alive*. You may even want to run another one right afterwards like me. It's an amazing rush.
+When you finish a mile race, you'll feel pumped up and *alive*. It's a lot like riding a rollercoaster. You may even want to run another one right afterwards like me. It's an amazing rush.
 
-It's wonderful how people are pushing their limits of going farther and longer. But as you choose your races in the future, don't forget how beneficial short distance races can be too. They boost endurance, speed, and strength. They push your body and mind in different ways.
+It's wonderful how people are pushing their limits of distance and time. But as you choose your races in the future, don't forget how beneficial short distance races can be too.
 
-And they are so, so fun.
+They boost speed and strength, which greatly help endurance and efficiency. They push your body and mind in different ways.
+
+And they are so, so fun. Give one a try, you might be surprised.
 
 [1]: http://flatironsrunningevents.com/races/pearl-street-mile/
 [2]: /blog/chicago-marathon-recap.html
