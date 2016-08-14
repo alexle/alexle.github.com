@@ -78,7 +78,7 @@ When you finish a mile race, you'll feel pumped up and *alive*. It's a lot like 
 
 It's wonderful how people are pushing their limits of distance and time. But as you choose your races in the future, don't forget how beneficial short distance races can be too.
 
-They boost speed and strength, which greatly help endurance and efficiency. They push your body and mind in different ways.
+They boost your speed, strength, and efficiency. They bring out positive physiological changes to your body. They increase your mental toughness.
 
 And they are so, so fun. Give one a try, you might be surprised.
 
