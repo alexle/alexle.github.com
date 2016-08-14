@@ -2,7 +2,7 @@ Pearl Street Mile: Bring Back The Mile!
 08-14-2016
 /static/pearl_street_mile_alex_le.jpg
 
-How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?
+"How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?"
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
 
