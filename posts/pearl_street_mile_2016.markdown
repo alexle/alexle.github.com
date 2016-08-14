@@ -1,0 +1,85 @@
+Pearl Street Mile: Bring Back The Mile!
+08-14-2016
+/static/pearl_street_mile_alex_le.jpg
+
+How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?
+
+For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
+
+Personally, I love endurance events. My last 3 races have been [marathons][3] and I'm running my first Ultra in a couple weeks. I understand that just completing a certain distance is a goal for many people.
+
+But what happened to *competing* against our peers and ourselves? It is called a race, after all. Why aren't questions like "How *fast* was your run" and "Want to race to the fire hydrant and back" asked anymore?
+
+##One Mile, That's It?##
+
+After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I skipped our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
+
+I had no response. I just knew that I've never dreaded a race as much as I did this one.
+
+<p>
+<img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg" alt="pearl street mile alex le and matt" />
+<div class="separator">Pre-race photo of me and my coworker</div>
+</p>
+
+##Pearl Street Mile##
+
+The [Pearl Street Mile][1] is an annual Boulder tradition. There are 4 waves: Kids 880m, Open, Elite Women, and Elite Men. As a result, it draws runners of all levels, ages, and sizes.
+
+Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering *4:10*.
+
+<p>
+<img class="pure-img center" src="/static/pearl_street_mile_2016_course.jpg" alt="pearl street mile 2016 course" />
+</p>
+
+Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo run. Leading up to the race, my 8x400 was 1:30 and 2x800 just under 3:00. So I set my goal at **6:05**.
+
+##First 400m - 1:19##
+
+There are no corrals or staggered start. It's every man, woman, and child for themselves when the announcer says go. Everywhere around you is mass chaos, bodies jockeying for positioning, and legs to trip over. I've never seen anything like it.
+
+Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Every second matters in a mile so there's no point in holding back. If you had a strategy going into the race, 9 times out of 10 it is discarded in this stage.
+
+##Second 400m - 1:25##
+
+<p>
+<img class="pure-img center" src="/static/i_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
+</p>
+
+We're past all the crazy 90 degree turns and people start to separate from each other, finding their pace. My body realizes what I'm attempting to do and my heart rate and breathing shoot up rapidly.
+
+I try to relax and figure out how to pace myself, but I have no idea what I'm doing so I keep pushing hard. No regrets, YOLO!
+
+##Third 400m - 1:35##
+
+The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. It feels like my body is engulfed in flames. Time slows down to a crawl.
+
+I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
+
+If I don't see anyone ahead of me turn off Spruce St onto 14th soon, I will pass out. I have no idea how fast or slow I'm moving anymore.
+
+##Final 400m - 1:22##
+
+I finally see people getting off Spruce and I know it's the home stretch. I muster every last ounce of will power and energy left inside me and throw myself into the last push to the finish.
+
+<p>
+<img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
+<div class="separator">Photo credit to coworker. Short shorts rule!</div>
+</p>
+
+My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see is a young girl who I tried to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
+
+I must have blacked out because I don't remember anything else. I cross the finish and my watch shows **5:42**. Unbelievable.
+
+##Why You Should Race A Mile (And Other Short Distance Races)##
+
+When you finish a marathon, you'll likely feel a deep sense of gratitude, happiness, and satisfaction for all the long training put in. There may be tears of joy, and people to be thankful for.
+
+When you finish a mile race, you'll feel pumped up and *alive*. You may even want to run another one right afterwards like me. It's an amazing rush.
+
+It's wonderful how people are pushing their limits of going farther and longer. But as you choose your races in the future, don't forget how beneficial short distance races can be too. They boost endurance, speed, and strength. They push your body and mind in different ways.
+
+And they are so, so fun.
+
+[1]: http://flatironsrunningevents.com/races/pearl-street-mile/
+[2]: /blog/chicago-marathon-recap.html
+[3]: http://runningbears.com/pearl/Pearl_Street_Mile_Open_2016.HTM
