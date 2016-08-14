@@ -6,7 +6,7 @@ Pearl Street Mile: Bring Back The Mile!
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
 
-Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first Ultra in a couple weeks. I understand that just completing a certain distance is a goal for many people.
+Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first Ultra in a couple weeks. I understand just completing a certain distance is a goal for many people.
 
 But what happened to *competing* against our peers and ourselves? It is called a race, after all. Why aren't questions like "How *fast* was your run" and "Want to race to the fire hydrant and back" asked anymore?
 
@@ -14,7 +14,7 @@ But what happened to *competing* against our peers and ourselves? It is called a
 
 After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I skipped our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
 
-I had no response. I just knew that I've never dreaded a race as much as I did this one.
+I had no response. I just knew I've never dreaded a race as much as I did this one.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg" alt="pearl street mile alex le and matt" />
