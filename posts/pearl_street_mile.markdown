@@ -47,7 +47,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 
 We're past all the crazy 90 degree turns and people start to separate from each other, finding their pace. My body realizes what I'm attempting to do and my heart rate and breathing shoot up to their max.
 
-I try to relax and pace myself, but I have no idea what I'm doing so I keep pushing hard. No regrets, YOLO!
+I try to relax and pace myself, but I have no idea what my speed should be so I keep pushing hard. No regrets!
 
 ##Third 400m - 1:35##
 
@@ -59,7 +59,7 @@ If I don't see anyone ahead of me turn off Spruce soon, I will pass out. I don't
 
 ##Final 400m - 1:22##
 
-I finally see people getting on 14th ahead, which means we're on the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn towards the finish.
+I finally see people getting on 14th ahead, which means we're on the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
@@ -74,7 +74,7 @@ I must have blacked out because I don't remember anything else. I cross the fini
 
 When you finish a marathon, you'll likely feel a deep sense of gratitude and happiness. There's satisfaction for all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
 
-When you finish a mile race, you'll feel pumped up and *alive*. It's a lot like riding a rollercoaster. You may even want to run another one right afterwards like me. It's an amazing rush.
+When you finish a mile race, you'll feel pumped up and *alive*. It's a lot like riding a rollercoaster. It's scary, it's uncomfortable, and it's over before you know it. You may even want to run another one right afterwards like me. It's an amazing rush.
 
 It's wonderful how people are pushing their limits of distance and time. But as you choose your races in the future, don't forget how beneficial short distance races can be too.
 
