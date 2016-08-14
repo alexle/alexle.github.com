@@ -68,7 +68,7 @@ I finally see people getting off Spruce and I know it's the home stretch. I must
 
 My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see is a young girl who I tried to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
 
-I must have blacked out because I don't remember anything else. I cross the finish and my watch shows [**5:42**][3]. Ooh yeeeah!!
+I must have blacked out because I don't remember anything else. I cross the finish and my watch shows [**5:42**][3]. Smashed my PR, oh yeeeahh!!
 
 ##Why You Should Race A Mile (And Other Short Distance Races)##
 
