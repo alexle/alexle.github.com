@@ -59,22 +59,22 @@ If I don't see anyone ahead of me turn off Spruce soon, I will pass out. I don't
 
 ##Final 400m - 1:22##
 
-I finally see people getting on 14th ahead, which means we're on the home stretch. I muster every ounce of energy and will power left inside me and head into the last turn.
+I finally see people turning on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me and head into the last turn.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
 <div class="separator">Photo credit to coworker. Short shorts rule!</div>
 </p>
 
-My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see is a girl in front of me who I tried to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
+My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. All my senses have failed. My vision has tunneled and all I see is the girl I've been trying to catch the entire race in front of me (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old from Longmont).
 
 I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, oh yeeeah!
 
 ##Why You Should Race A Mile (And Other Short Distance Races)##
 
-When you finish a marathon, you'll likely feel a deep sense of gratitude and happiness. There's satisfaction for all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
+When you finish a marathon, you feel a deep sense of gratitude and happiness. There's satisfaction from all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
 
-When you finish a mile race, you'll feel pumped up and *alive*. It's a lot like riding a rollercoaster. It's scary, it's uncomfortable, and it's over before you know it. You may even want to run another one right afterwards like me. It's an amazing rush.
+When you finish a mile race, you feel pumped up and *alive*. It's a lot like riding a rollercoaster. It's scary, it's uncomfortable, and it's over before you know it. You may even want to run another one right afterwards like me. It's an amazing rush.
 
 It's wonderful how people are pushing their limits of distance and time. But as you choose your races in the future, don't forget how beneficial short distance races can be too.
 
