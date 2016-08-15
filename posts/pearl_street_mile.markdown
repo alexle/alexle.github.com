@@ -25,7 +25,7 @@ I had no response. I just knew I've never dreaded a race as much as I did this o
 
 The [Pearl Street Mile][1] is an annual Boulder tradition. There are 4 waves: Kids 880m, Open, Elite Women, and Elite Men. As a result, it draws runners of all levels, ages, and sizes.
 
-Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering *4:10*.
+Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering [*4:10*][4].
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_2016_course.jpg" alt="pearl street mile 2016 course" />
@@ -35,7 +35,7 @@ Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo ru
 
 ##First 400m - 1:19##
 
-There are no corrals or staggered start. It's every man, woman, and child for themselves when the announcer says go. You are instantly enveloped in mass chaos. Bodies jockeying for positioning, legs to trip over, little kids weaving around in front of you. I've never seen anything like it.
+There are no corrals or staggered start. It's every man, woman, and child for themselves when the announcer yells go. Everywhere around you is mass chaos. Bodies jockeying for positioning, legs to trip over, little kids weaving around in front of you. I've never seen anything like it.
 
 Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Every second matters in a mile so there's no point in holding back. If you had a strategy going into the race, 9 times out of 10 it is discarded in this stage.
 
@@ -45,7 +45,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 <img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
 </p>
 
-We're past all the crazy 90 degree turns and people start to separate from each other, finding their pace. My body realizes what I'm attempting to do and my heart rate and breathing shoot up to their max.
+We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. My body realizes what I'm attempting to do and my heart rate and breathing shoot up to their max.
 
 I try to relax and pace myself, but I have no idea what my speed should be so I keep pushing hard. No regrets!
 
@@ -85,3 +85,4 @@ And they are so, so fun. Give one a try, you might be surprised.
 [1]: http://flatironsrunningevents.com/races/pearl-street-mile/
 [2]: /blog/chicago-marathon-recap.html
 [3]: http://runningbears.com/pearl/Pearl_Street_Mile_Open_2016.HTM
+[4]: http://runningbears.com/pearl/Pearl_Street_Mile_Elite_Mens_2016.HTM
