@@ -35,7 +35,7 @@ Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo ru
 
 ##First 400m - 1:19##
 
-There are no corrals or staggered start. It's every man, woman, and child for themselves. When the announcer says go, there is mass chaos everywhere. Bodies jockey for positioning, legs stretch out to trip over, little kids weaving around in front of you. I've never seen anything like it.
+There are no corrals or staggered start. It's every man, woman, and child for themselves. When the announcer says go, there is mass chaos everywhere. Bodies jockey for positioning, legs stretch out to trip over, little kids weave around in front of you. I've never seen anything like it.
 
 Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Every second matters in a mile so there's no point in holding back. If you had a strategy going into the race, 9 times out of 10 it is discarded in this stage.
 
