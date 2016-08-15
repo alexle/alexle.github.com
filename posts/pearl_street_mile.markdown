@@ -66,7 +66,7 @@ I finally see people turning on 14th, which means this madness is almost over. I
 <div class="separator">Photo credit to coworker. Short shorts rule!</div>
 </p>
 
-My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (it was a 61 year old).
+My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
 I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, oh yeeeah!
 
