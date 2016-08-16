@@ -68,9 +68,9 @@ I finally see people turning on 14th, which means this madness is almost over. I
 
 My coworker yells 'Run faster!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
-I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, oh yeeeah!
+I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
 
-##Why You Should Race A Mile (And Other Short Distance Races)##
+##Why You Should Bring Back The Mile (And Other Short Distance Races)##
 
 When you finish a marathon, you feel a deep sense of gratitude and happiness. There's satisfaction from all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
 
