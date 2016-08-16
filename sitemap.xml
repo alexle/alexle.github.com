@@ -290,12 +290,6 @@
   </url>
   
   <url>
-    <loc>http://alexanderle.com/blog/2011/2011-march.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://alexanderle.com/blog/2011/5-hour-radiator.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -309,12 +303,6 @@
   
   <url>
     <loc>http://alexanderle.com/blog/2011/gpo.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexanderle.com/blog/2011/2011-february.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

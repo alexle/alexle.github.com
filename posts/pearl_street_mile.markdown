@@ -6,7 +6,7 @@ Pearl Street Mile: Bring Back The Mile!
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
 
-Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first Ultra in a couple weeks. I understand just completing a certain distance is a goal for many people.
+Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first ultra in a couple weeks. I understand just completing a certain distance is a goal for many people.
 
 But what happened to *competing* against our peers and ourselves? It is called a race, after all. Why aren't questions like "How *fast* was your run" and "Want to race to the fire hydrant and back" asked anymore?
 
@@ -14,7 +14,7 @@ But what happened to *competing* against our peers and ourselves? It is called a
 
 After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I skipped our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
 
-I had no response. I just knew I've never dreaded a race as much as I did this one.
+I had no answer. I just knew I've never dreaded a race as much as I did this one.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg" alt="pearl street mile alex le and matt" />
@@ -35,7 +35,7 @@ Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo ru
 
 ##First 400m - 1:19##
 
-There are no corrals or staggered start. It's every man, woman, and child for themselves. When the race starts, mass chaos arises everywhere. Bodies jockey for positioning, legs stretch out to trip over, little kids weave around in front of you. I've never seen anything like it.
+There are no corrals or staggered start. It's every man, woman, and child for themselves. When the race starts, there is mass chaos everywhere. Bodies jockey for positioning, legs stretch out to trip over, little kids weave around in front of you. I've never seen anything like it.
 
 Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Every second matters in a mile so there's no point in holding back. If you had a strategy going into the race, 9 times out of 10 it is discarded in this stage.
 
@@ -47,7 +47,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 
 We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. My body realizes what I'm attempting to do and my heart rate and breathing shoot up to their max.
 
-I try to relax and pace myself, but I have no idea what my speed should be so I keep pushing hard. No regrets!
+I try to find a pace, but I have no idea what my speed should be so I keep pushing hard. No regrets!
 
 ##Third 400m - 1:35##
 
@@ -66,7 +66,7 @@ I finally see people turning on 14th, which means this madness is almost over. I
 <div class="separator">Photo credit to coworker. Short shorts rule!</div>
 </p>
 
-My coworker yells 'Go Alex!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
+My coworker yells 'Run faster!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
 I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, oh yeeeah!
 

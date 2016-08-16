@@ -9,11 +9,10 @@
 * Went to Nuggets vs Jazz round 1 playoff game - best game ever!
 * Ate at Fogo de Chao for first time.
 * Kathleen graduated from CU Boulder.
-* Benched 225 x 4; strongest I've ever been.
+* Benched 225 x 4, highest ever
 * Bought townhome..
-* Got B+ in Software Engineering class.
 * Saw Bodyworld.
-* Attended MyMy's family field day / Beer Olympics.
+* Attended family field day / Beer Olympics.
 * Hiking with Twin Dragon.
 * Camped at Lake McConnaughy (mymy, huong).
 * Read Dracula, Count of Monte Cristo, Fahrenheit 451.

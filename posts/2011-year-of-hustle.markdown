@@ -11,17 +11,11 @@ To help keep me motivated and on track, I'm going to ask myself this question at
 
 Here's a list of some of the things I did in January:
 
-* Read [The Lost Symbol][2]
-* Read The Girl with the Dragon Tattoo
-* Read The Girl who Played With Fire
-* Read The Girl who Kicked the Hornet's Nest
 * Created app on [google app engine][3]
 * Learned Javascript
 * Worked out 5-6 days a week; can rep 205 x 4 now
-* Improved snowboarding skills
 
 Not too much, but it's a start. In the next post, I'll share some of my goals for this year.
 
 [1]: http://www.iwillteachyoutoberich.com/blog/introducing-2011-the-year-of-the-hustle/
-[2]: http://www.amazon.com/Lost-Symbol-Dan-Brown/dp/1400079144/ref=sr_1_1?ie=UTF8&qid=1305824261&sr=8-1
 [3]: http://code.google.com/appengine/
