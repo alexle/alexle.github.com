@@ -7,7 +7,7 @@ I finally got around to reading [Rework][1]. It's a book by [37signals][2] that 
 
 There are many great lessons in the book: Learning from mistakes is overrated, Good enough, Scratch your own itch, No time is no excuse, Planning is guessing, Start something. I could write a blog entry for each one.
 
-But the lesson I remember the most, and the one that has had the largest impact on me, is about inspiration: **Inspiration is perishable.**
+But the lesson I remember the most, and the one that has had the largest impact on me, is that **inspiration is perishable.**
 
 > We all have ideas. Ideas are immortal. They last forever.
 >
