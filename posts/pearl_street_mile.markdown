@@ -59,7 +59,7 @@ If people ahead of me don't turn off Spruce soon, I will pass out at this rate. 
 
 ##Final 400m - 1:22##
 
-I finally see people turning on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me and head into the last turn.
+I finally see people turning on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me for the home-stretch.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
