@@ -45,9 +45,9 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 <img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
 </p>
 
-We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. My body realizes what I'm attempting to do and my heart rate and breathing shoot up to their max.
+We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. My body realizes what I'm attempting to do and maxes out my heart rate and breathing.
 
-I try to find a pace, but I have no idea what my speed should be so I keep pushing hard. No regrets!
+I try to find a pace, but have no idea what my speed should be so I keep pushing hard. No regrets!
 
 ##Third 400m - 1:35##
 
