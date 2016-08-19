@@ -2,9 +2,9 @@ Training For A Marathon In 9 Weeks
 09-06-2013
 /static/bug_zapper.jpg
 
-It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body it would never have to run another mile again if it could just hang on until the finish line.
+It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body if it could hang on until the finish line, it would never have to run another mile again.
 
-Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [*full marathon*][4].
+Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [**full marathon**][4].
 
 <p>
 <img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug life bug zapper purple" />
@@ -12,15 +12,15 @@ Now, like a mosquito drawn to one of those electric zappers, I've somehow signed
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:
 
-1. I'm a newbie runner. I've only been running for 1.5 years.
-2. My current mileage is 10-15 mpw. It isn't anywhere near enough. Some guides state you should be running 20 miles/week *before you even start* your training.
+1. I'm a newbie runner.
+2. My current mileage is 10-15 mpw. It isn't anywhere near enough. Some guides state you should be running 20 miles/week before you even *start* your training.
 3. The race I signed up for is only 10 weeks away. Most training programs are 12-30 weeks in length, depending on existing fitness and running levels.
 
 Could one adequately prepare for 26.2 miles in 9 weeks, given the above conditions? We'll find out in a couple of weeks. In the meantime, I thought I'd share my experiences each week, in case it might prove useful to someone.
 
 ##Running Background##
 
-I started running 18 months ago. At the time, I could barely finish a mile. By the end of 2012, I had completed [125 miles][2] averaging 1.6 miles per run. Not bad!
+I started running 18 months ago. At the time, I could barely finish a mile. By the end of 2012, I completed [125 total miles][2] averaging 1.6 miles per run. Not bad!
 
 This year, my running has greatly improved. I'm able to run 3 miles comfortably now, and average 10 miles/week. On the days I don't run, I lift weights and do CrossFit exercises at the gym. I've completed one 5k, one 10k, and one [half-marathon][1].
 
@@ -58,7 +58,7 @@ td { text-align: center; padding-left: 0.7em; padding-right: 0.7em; }
 <tr><td>9</td><td>7</td><td>3</td><td>-</td><td>13</td><td>23</td></tr>
 </table>
 
-Yes, my mileage was woefully low.. And I [paid for it dearly][4]. But nonetheless, here's a brief summary of how each week went.
+Yes, my mileage was woefully low.. And I [paid for it dearly][4]. Nonetheless, here's a brief summary of how each week went.
 
 ##Week 1 - 9mi LSD##
 
@@ -90,7 +90,7 @@ This week's LSD was my first run over 2 hours. And the first time I ever hit a "
 
 Essentially, hitting the wall is the point when your glycogen (stored energy) is depleted. Your legs turn to stone. Your pace slows to a crawl. Your body has nothing left in the tank.
 
-This uncomfortable feeling happens because your body starts burning fat for energy instead - which causes pain, dizziness, and the urge to stop and cry.
+This uncomfortable feeling happens because your body starts burning fat for energy - which causes pain, dizziness, and the urge to stop and cry.
 
 I usually get a surge of energy and excitement when I'm near my home. Just another .75 miles, yes! Not this time. It felt like a bear jumped on my shoulders. The effort it took for each step was incredible, even though my stride length was less than person walking. All the willpower was sapped out of me.
 
@@ -102,7 +102,7 @@ I described my situation to a co-worker who does triathlons. His stance was when
 
 The 15mi LSD was the most painful one yet. Calves, arches, hip flexors, IT band, and a bunch of other leg muscles I never knew existed were on fire. Is this what child birth feels like? It was the first time I had serious doubts about finishing the marathon.
 
-I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and powerade fuel at 90 minutes. Next week, I'll try to GU every 45 minutes and see if it helps.
+I stuck to the same plan of water at 30 minutes, GU at 60 minutes, and Powerade fuel at 90 minutes. Next week, I'll try to GU every 45 minutes and see if it helps.
 
 \* Lesson: When in pain, relax and focus on a couple steps at a time.
 
@@ -112,13 +112,13 @@ Due to massive rainstorms and floods here in Colorado this week, I completed onl
 
 Traumatized by last week's pain, I decided to add something different to my walk breaks: stretching. It's an uncommon practice for runners to stop mid-run for them, but I have to say it helped *tremendously*. The LSD was much more bearable and I was able to hold my form and pace farther.
 
-What also may have helped was fueling more often. This time, I GU'ed twice (45 and 90 minutes) and topped off with powerade at 120 minutes. I was happy with the result, although I felt sluggish shortly after the second GU. Next week, I'll decrease the time between subsequent GU shots (45 - 80 - 110) to see if it makes a difference.
+What also may have helped was fueling more often. This time, I GU'ed twice (45 and 90 minutes) and topped off with Powerade at 120 minutes. I was happy with the result, although I felt sluggish shortly after the second GU. Next week, I'll decrease the time between subsequent GU shots (45 - 80 - 110) to see if it makes a difference.
 
 \* Lesson: Training is a great time to try new things. Don't wait until race day.
 
 ##Week 7 - <strike>17mi</strike> 20mi LSD##
 
-Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make your gutshot straight draw on the river.
+Every once in a while, something amazingly unexpected happens. Your item rings up lower than listed at the register. You get an 88 on the final you thought you bombed. You make a gutshot straight draw on the river.
 
 This week's LSD was one of those moments for me.
 
