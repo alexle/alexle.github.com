@@ -45,9 +45,9 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 <img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
 </p>
 
-We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. My body realizes what I'm attempting to do and maxes out my heart rate and breathing.
+This is when your body realizes what you're attempting to do and things become unpleasant. As in "what did we get ourselves into" unpleasant. My heart rate and breathing quickly max out.
 
-I try to find a pace, but have no idea what my speed should be so I keep pushing hard. No regrets!
+We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. I have no idea what my speed should be so I keep pushing hard. No regrets!
 
 ##Third 400m - 1:35##
 
@@ -59,7 +59,7 @@ If people ahead of me don't turn off Spruce soon, I will pass out at this rate. 
 
 ##Final 400m - 1:22##
 
-I finally see people turning on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me for the home-stretch.
+I finally see people getting on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me for the home-stretch.
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
@@ -80,7 +80,7 @@ It's wonderful how people are pushing their limits of distance and time. But as 
 
 They boost your speed, strength, and efficiency. They bring out positive physiological changes to your body. They increase your mental toughness.
 
-And they are so, so fun. Give one a try, you might be surprised.
+And they are so, so fun. Let's give short distance events the respect they deserve again. Bring one back into your racing plans, you might be surprised.
 
 [1]: http://flatironsrunningevents.com/races/pearl-street-mile/
 [2]: /blog/chicago-marathon-recap.html
