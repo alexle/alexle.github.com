@@ -45,7 +45,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 <img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
 </p>
 
-This is when your body realizes what you're attempting to do and things become unpleasant. As in "what did we get ourselves into" unpleasant. My heart rate and breathing quickly max out.
+This is when things become unpleasant. As in "what did we get ourselves into" unpleasant. My body realizes what I'm attempting to do and quickly maxes out my heart rate and breathing.
 
 We're past all the crazy 90 degree turns and people start to separate from each other, finding their groove. I have no idea what my speed should be so I keep pushing hard. No regrets!
 
