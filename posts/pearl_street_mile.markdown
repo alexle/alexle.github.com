@@ -66,13 +66,13 @@ I finally see people getting on 14th, which means this madness is almost over. I
 <div class="separator">Photo credit to my coworker. Short shorts rule!</div>
 </p>
 
-My coworker yells 'Run faster!', but I don't hear him or anyone else around me. My vision has tunneled and all I see in front of me is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
+My coworker yells 'Run faster!', but I don't hear him or anyone else around me. My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows me, but my mind is probably playing tricks on me (he was 61 years old).
 
 I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
 
 ##Why You Should Bring Back The Mile (And Other Short Distance Races)##
 
-When you finish a marathon, you feel a deep sense of gratitude and happiness. There's satisfaction from all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
+When you finish a marathon, you feel a deep sense of gratitude and happiness. There's satisfaction and pride from all the long training put in. There may be tears of joy, and people who supported you to be thankful for.
 
 When you finish a mile race, you feel pumped up and *alive*. Kind of like riding a rollercoaster. It's scary, it's uncomfortable, and it's over before you know it. You may even want to run another one right afterwards like me. It's an amazing rush.
 

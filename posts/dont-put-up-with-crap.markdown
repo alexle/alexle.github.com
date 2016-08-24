@@ -32,7 +32,7 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 Odds are, if we looked closer at the annoyances we face each day, we would find distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
 
-And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how numb we've become to all of it.
+And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how **numb** we've become to all of it.
 
 Why do we constantly choose to put up with crap we have the power to eliminate? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
 
@@ -40,13 +40,13 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 ##It Has To End##
 
-As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I went on a mission.
+As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
 
 First, I replaced the old sneakers that hurt my feet. Then, came organizing the messy closet and garage I couldn't stand to look at each day. Next, was replacing my tattered, uncomfortable desk chair with a sleek mesh task chair.
 
 At work, I refactored a huge section of code that made me cry each time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
 
-Done, done, and done! Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
+Why did I put this off, when it was so easy to remove? There was nothing to dread. Just like squishing a bug. Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
 1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
