@@ -19,11 +19,44 @@ TEMPLATES = {
 TIME_FORMAT = "%b %d, %Y"
 ENTRY_TIME_FORMAT = "%m-%d-%Y"
 RSS_TIME_FORMAT = "%a, %d %b %Y 00:00:00 MST"
+STEPS = []
 
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
-STEPS = []
+# Temporary counters
+NewEntries = 0
+OldEntries = 0
+
+# Post Header Info
+class PostHeaderInfo:
+    title = ''
+    raw_date = ''
+    image = ''
+    meta = ''
+
+def CheckForPostHeader( f ):
+    pos = f.tell()
+    if '---' in f.readline().rstrip():
+        return True
+    else:
+        f.seek(pos)
+        return False
+
+def ParsePostHeader( f ):
+    H = PostHeaderInfo()
+    line = ''
+    while '---' not in line:
+        line = f.readline().rstrip()
+        if 'title:' in line:
+            H.title = line.replace('title: ', '')
+        if 'date:' in line:
+            H.raw_date = line.replace('date: ', '')
+        if 'image:' in line:
+            H.image = line.replace('image: ', '')
+        if 'meta:' in line:
+            H.meta = line.replace('meta: ', '')
+    return H
 
 def get_img(f):
     pos = f.tell()
@@ -47,14 +80,22 @@ def get_tree(source):
          path = os.path.join(root, name)
          f = open(path, "rU")
 
-         # Read title and date.
-         title = f.readline().rstrip()
-         raw_date = f.readline().rstrip()
+         if CheckForPostHeader( f ) == True:
+             Header = ParsePostHeader( f )
+             global NewEntries
+             NewEntries += 1
+         else:
+             Header = PostHeaderInfo()
 
-         # Attempt to read stock image.
-         img = get_img(f)
+             # Read title, date, and image if availble
+             Header.title = f.readline().rstrip()
+             Header.raw_date = f.readline().rstrip()
+             Header.image = get_img( f )
+             Header.meta = ''
+             global OldEntries
+             OldEntries += 1
 
-         date = time.strptime(raw_date, ENTRY_TIME_FORMAT)
+         date = time.strptime(Header.raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
          epoch = time.mktime(date)
 
@@ -65,7 +106,7 @@ def get_tree(source):
             url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
 
          files.append({
-            'title': title,
+            'title': Header.title,
             'epoch': epoch,
             'content': FORMAT(''.join(f.readlines()[1:]).decode('UTF-8')),
             'url': url,
@@ -75,7 +116,8 @@ def get_tree(source):
             'day': day,
             'filename': name,
             'rss_date': time.strftime(RSS_TIME_FORMAT, date),
-            'img': img
+            'img': Header.image,
+            'meta': Header.meta
          })
          f.close()
    return files
@@ -140,6 +182,7 @@ def chisel():
    for step in STEPS:
       step(files, env)
    print "\tDone."
+   print "\t+ NewEntries %X OldEntries %X" % ( NewEntries, OldEntries )
 
 def main():
    opts, args = getopt.getopt(sys.argv[1:], "s", ["server"])
