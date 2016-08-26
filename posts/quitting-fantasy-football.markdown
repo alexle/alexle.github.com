@@ -1,5 +1,9 @@
-Quitting Fantasy Football
-09-10-2012
+---
+title: Quitting Fantasy Football
+date: 09-10-2012
+image:
+meta: alex le quitting fantasy football relaxing sundays too much tv august cheat sheets part-time job game of luck
+---
 
 For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. The slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.
 
@@ -21,7 +25,7 @@ Tue - Research players to add/drop.
 Wed - View waivers, scour free agents to pick ups.  
 Thu - Adjust roster for Thu night game. Keep track of game.  
 Fri - Day off.  
-Sat - Prepare final roster and make last minute subsitutions.
+Sat - Prepare final roster and make last minute substitutions.
 
 This is on top of the time spent listening to sports talk radio, reading "expert" blogs and articles, and watching FFB shows on ESPN. Of course, all this may not even have been necessary, which brings me to my next point.
 

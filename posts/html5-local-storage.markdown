@@ -1,5 +1,9 @@
-Store your data with HTML5 local storage
-11-27-2011    
+---
+title: Store your data with HTML5 local storage
+date: 11-27-2011    
+image:
+meta: html5 local storage getitem name localstorage removeitem key
+---
 
 [Local storage][3] is a pretty cool feature included in HTML5.
 

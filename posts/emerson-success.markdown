@@ -1,5 +1,9 @@
-Ralph Waldo Emerson - Success
-08-09-2011
+---
+title: Ralph Waldo Emerson - Success
+date: 08-09-2011
+image:
+meta: what is success what success means to me ralph waldo emerson fancy job money nice car big house to laugh to appreciate beauty
+---
 
 If someone asked me what success was, I really couldn't tell them.
 

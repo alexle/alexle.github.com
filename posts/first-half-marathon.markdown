@@ -1,6 +1,9 @@
-My First Half Marathon: Race Recap And Experience
-06-20-2013
-/static/2013-colfax-start.jpg
+---
+title: My First Half Marathon: Race Recap And Experience
+date: 06-20-2013
+image: /static/2013-colfax-start.jpg
+meta: alex le first half marathon race recap colfax marathon pre race the start corral race medals overcome with emotion running beer
+---
 
 Last December, my girlfriend surprised me with an entry to the [Denver Colfax Half-Marathon][2]. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
 

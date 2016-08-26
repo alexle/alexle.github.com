@@ -1,5 +1,9 @@
-Hello World!
-12-10-2008
+---
+title: Hello World!
+date: 12-10-2008
+image:
+meta: alex le alexander le hello word printf
+---
 
 
 <pre><code class=language-c>#include &lt;stdio.h>

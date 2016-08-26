@@ -1,6 +1,9 @@
-Mail: How Do I Switch To A Career In Software?
-05-21-2013
-/static/code.jpg
+---
+title: Mail: How Do I Switch To A Career In Software?
+date: 05-21-2013
+image: /static/code.jpg
+meta: how to switch to career in software programming development finance code school hustle github
+---
 
 <p>
 <img class="pure-img center" src="/static/code.jpg" alt="alex le code screenshot atom editor" />

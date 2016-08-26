@@ -1,5 +1,9 @@
-The Birthday Paradox
-06-09-2011    
+---
+title: The Birthday Paradox
+date: 06-09-2011    
+image:
+meta: In a random gathering of 23 people, there is a 50% chance that two people will have the same birthday. Is this true?
+---
 
 I read something the other day that piqued my curiosity:
 
@@ -48,7 +52,7 @@ for i in range( 27 ):
 
 The output was surprising:
 
-> 01 people - 00.00 percent  
+<pre><code class=language-python>01 people - 00.00 percent  
 02 people - 00.27 percent  
 03 people - 00.82 percent  
 04 people - 01.64 percent  
@@ -75,6 +79,7 @@ The output was surprising:
 25 people - 56.87 percent    
 26 people - 59.82 percent  
 27 people - 62.69 percent  
+</code></pre>
 
 **23 people** in a room, **50.73%** chance for a same birthday. It's really true.
 

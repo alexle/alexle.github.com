@@ -182,7 +182,7 @@ def chisel():
    for step in STEPS:
       step(files, env)
    print "\tDone."
-   print "\t+ NewEntries %X OldEntries %X" % ( NewEntries, OldEntries )
+   print "\t+ NewEntries %d OldEntries %d" % ( NewEntries, OldEntries )
 
 def main():
    opts, args = getopt.getopt(sys.argv[1:], "s", ["server"])

@@ -1,5 +1,9 @@
-The "Nasty Girls" of CrossFit
-06-06-2012
+---
+title: The "Nasty Girls" of CrossFit
+date: 06-06-2012
+image:
+meta: The nasty girls of Crossfit are benchmark workouts to measure strength, fitness, and improvement.
+---
 
 In an earlier [post][1], I described my new interest for Crossfit. I've really enjoyed the exercises I've learned so far (burpees are my favorite) and have found the 'named' WODs fun and challenging.
 

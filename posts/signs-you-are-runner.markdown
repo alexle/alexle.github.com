@@ -1,6 +1,9 @@
-12 Signs That You're A Runner
-09-27-2013
-/static/gu_drawer.jpg
+---
+title: 12 Signs That You're A Runner
+date: 09-27-2013
+image: /static/gu_drawer.jpg
+meta: I've never considered myself a runner, but am I? Here are 12 signs that I've become a runner.
+---
 
 I'm three weeks away from my first ever marathon. I'm nervous, yet really excited. During the past couple [weeks of training][3], it occurred to me I've picked up some weird habits since I first started running over a year ago. I've never considered myself a runner, but a second look at these actions make me wonder if I've finally crossed that line.
 

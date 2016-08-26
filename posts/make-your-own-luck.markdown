@@ -1,5 +1,9 @@
-Make Your Own Luck
-11-19-2012
+---
+title: Make Your Own Luck
+date: 11-19-2012
+image:
+meta: make your own luck destiny work hard yes man
+---
 
 During my last semester of college, I was offered a sys admin internship from a customer at the deli I worked at. To this day, my parents still tell me how I lucky I was for that to happen.
 

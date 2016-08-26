@@ -1,5 +1,9 @@
-Paralyzed By Choice
-10-21-2012
+---
+title: Paralyzed By Choice
+date: 10-21-2012
+image: /static/living-room.jpg
+meta: paralyzed by choice alex le living room barry schwartz ted talk paradox of choice dissatisfied decision fatigue
+---
 
 This is a picture of my living room:
 

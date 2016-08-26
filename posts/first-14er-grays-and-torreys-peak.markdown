@@ -1,5 +1,9 @@
-Conquering My First 14er (Gray's And Torrey's)
-07-04-2012
+---
+title: Conquering My First 14er (Gray's And Torrey's)
+date: 07-04-2012
+image: /static/grays_climb.jpg
+meta: alex le first 14er conquering gray's and torrey's peak snow rain wind elevation hiking
+---
 
 Last weekend, I hiked my first 14er. The term '14er' refers to any mountain peak that rises above 14,000 feet above sea level. While I've hiked trails in Colorado before (sub-12.5k feet), I didn't realize how different and challenging a 14er can be!
 

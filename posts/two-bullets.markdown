@@ -1,6 +1,9 @@
-A Russian Gangster Kidnaps You..
-07-26-2013
-/static/two_bullets.jpg
+---
+title: A Russian Gangster Kidnaps You..
+date: 07-26-2013
+image: /static/two_bullets.jpg
+meta: a russian gangster kidnaps you interview question business insider pull trigger spin it again and fire two bullets and fires
+---
 
 He puts two bullets in consecutive order in an empty six-round revolver, spins it, points it at your head and shoots.
 

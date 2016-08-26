@@ -1,6 +1,9 @@
-Rock n Roll Denver Marathon: My Worst Run Ever
-10-26-2013
-/static/2013-full-nike-map.jpg
+---
+title: Rock n Roll Denver Marathon: My Worst Run Ever
+date: 10-26-2013
+image: /static/2013-full-nike-map.jpg
+meta: rock n roll denver marathon recap worst run ever hit wall nightmare pain lance armstrong
+---
 
 Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 [Denver Rock N Roll][1] Marathon was one of them.
 

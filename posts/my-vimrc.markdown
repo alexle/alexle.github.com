@@ -1,5 +1,9 @@
-My .Vimrc Configuration
-01-20-2012    
+---
+title: My .Vimrc Configuration
+date: 01-20-2012    
+image:
+meta: my vimrc configuration alex le alexander noremap mapleader VIM text editor powerful customizable efficient power command
+---
 
 [VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
 
@@ -50,7 +54,7 @@ function ToggleBlog()
     setlocal nowrap
     set virtualedit=all
     setlocal lines=50 columns=200
-    color desert 
+    color desert
     setlocal guifont=menlo:h11
     silent! nunmap <buffer> k
     silent! nunmap <buffer> j
@@ -66,7 +70,7 @@ function ToggleBlog()
     set virtualedit=
     setlocal display+=lastline
     setlocal lines=50 columns=90
-    color morning 
+    color morning
     setlocal guifont=menlo:h14
     noremap <buffer> <silent> k gk
     noremap <buffer> <silent> j gj

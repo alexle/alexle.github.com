@@ -2,7 +2,7 @@
 title: 2015 Chicago Marathon Recap
 date: 11-21-2015
 image: /static/chicago-marathon-start.jpg
-meta: Chicago Marathon Recap Alex Le
+meta: On October 11th, I found myself in a corral of the 2015 Chicago Marathon. Here is a recap of my race and experience.
 ---
 
 I never know what to do before races. Usually, I find a curb to sit down somewhere and just think. Of the course ahead of me. Of how my body will feel at various check points.

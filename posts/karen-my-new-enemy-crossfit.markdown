@@ -1,5 +1,9 @@
-Karen, My Newest Enemy
-05-31-2012
+---
+title: Karen, My Newest Enemy
+date: 05-31-2012
+image:
+meta: crossfit wod workout of the day karen 150 wall balls 20lb medicine ball 10ft target youtube hard workout lifting weights strength and conditioning
+---
 
 I recently completed my first [CrossFit][1] workout of the day - "Karen". For those of you who don't know what CrossFit is, it's a high-intensity fitness program that combines a variety of functional movements to improve strength and conditioning. Think of it as P90x or Insanity, but with different workouts and focus.
 

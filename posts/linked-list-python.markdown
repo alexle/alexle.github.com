@@ -1,5 +1,9 @@
-"Write a linked list in python.."
-04-26-2011
+---
+title: "Write a linked list in python.."
+date: 04-26-2011
+image:
+meta: python linked list node class head tail add node delete node traverse
+---
 
 The first time I heard this, my heart stopped for a couple seconds.
 

@@ -1,5 +1,9 @@
-Repost: Farewell Blogger
-02-07-2012
+---
+title: Repost: Farewell Blogger
+date: 02-07-2012
+image:
+meta: farewell blogger move to gibhut rss feed presence on web blogging alex le alextrle.blogspot.com alextrle alexanerle.com
+---
 
 \* *reposted from [http://alextrle.blogspot.com][1]*
 

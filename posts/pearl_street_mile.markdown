@@ -1,6 +1,9 @@
-Pearl Street Mile: Bring Back The Mile!
-08-14-2016
-/static/pearl_street_mile_alex_le.jpg
+---
+title: Pearl Street Mile: Bring Back The Mile!
+date: 08-14-2016
+image: /static/pearl_street_mile_alex_le.jpg
+meta: pearl street mile boulder colorado bring back the mile alex le
+---
 
 "How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?"
 
