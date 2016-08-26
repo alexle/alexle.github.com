@@ -1,5 +1,9 @@
-2011 Goals For Now
-02-23-2011
+---
+title: 2011 Goals For Now
+date: 02-23-2011
+image:
+meta: My 2011 goals for now. Will I be able to achieve them all?
+---
 
 * Make something (i.e. website, business/startup)
 * Bench 225
@@ -13,4 +17,3 @@
 * Improve wardrobe
 * Make GPO (google page one)
 * Advance career (promotion, duties/responsibilities)
-

@@ -2,7 +2,7 @@
 title: What I Learned From Going To Church
 date: 04-24-2011
 image:
-meta: what i learned from church alex le sunday lent concentration mass devout catholic bible study discussion groups real life time slows down
+meta: My experience going back to church after now going for five years.
 ---
 
 I'd like to think I was once a devout Catholic.

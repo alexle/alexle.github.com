@@ -24,10 +24,6 @@ STEPS = []
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
-# Temporary counters
-NewEntries = 0
-OldEntries = 0
-
 # Post Header Info
 class PostHeaderInfo:
     title = ''
@@ -35,16 +31,12 @@ class PostHeaderInfo:
     image = ''
     meta = ''
 
-def CheckForPostHeader( f ):
-    pos = f.tell()
-    if '---' in f.readline().rstrip():
-        return True
-    else:
-        f.seek(pos)
-        return False
-
 def ParsePostHeader( f ):
+    # Read off first '---' tag.
+    f.readline().rstrip()
+
     H = PostHeaderInfo()
+
     line = ''
     while '---' not in line:
         line = f.readline().rstrip()
@@ -53,9 +45,13 @@ def ParsePostHeader( f ):
         if 'date:' in line:
             H.raw_date = line.replace('date: ', '')
         if 'image:' in line:
-            H.image = line.replace('image: ', '')
+            H.image = line.replace('image:', '').lstrip()
+            #H.image = line.partition(" ")[2]
         if 'meta:' in line:
-            H.meta = line.replace('meta: ', '')
+            H.meta = line.replace('meta: ', '').lstrip()
+        if '\s' in H.image:
+            print H.title
+
     return H
 
 def get_img(f):
@@ -80,20 +76,7 @@ def get_tree(source):
          path = os.path.join(root, name)
          f = open(path, "rU")
 
-         if CheckForPostHeader( f ) == True:
-             Header = ParsePostHeader( f )
-             global NewEntries
-             NewEntries += 1
-         else:
-             Header = PostHeaderInfo()
-
-             # Read title, date, and image if availble
-             Header.title = f.readline().rstrip()
-             Header.raw_date = f.readline().rstrip()
-             Header.image = get_img( f )
-             Header.meta = ''
-             global OldEntries
-             OldEntries += 1
+         Header = ParsePostHeader( f )
 
          date = time.strptime(Header.raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
@@ -182,7 +165,6 @@ def chisel():
    for step in STEPS:
       step(files, env)
    print "\tDone."
-   print "\t+ NewEntries %d OldEntries %d" % ( NewEntries, OldEntries )
 
 def main():
    opts, args = getopt.getopt(sys.argv[1:], "s", ["server"])

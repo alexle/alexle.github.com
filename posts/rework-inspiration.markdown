@@ -2,7 +2,7 @@
 title: Rework "Inspiration"
 date: 09-07-2011    
 image: /static/rework.png
-meta: rework 37 signals business lessons inspiration is perishable expiration date got to do it now productivity
+meta: We all have ideas. Ideas are immortal. But inspiration is perishable. Don't let it go to waste.
 ---
 
 I finally got around to reading [Rework][1]. It's a book by [37signals][2] that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.

@@ -1,5 +1,9 @@
-2011: The Year Of The Hustle
-01-18-2011
+---
+title: 2011: The Year Of The Hustle
+date: 01-18-2011
+image:
+meta: 2010 was a year of enjoying life to the fullest, personal growth, and fulfilling old dreams. 2011 will be a year of the Hustle.
+---
 
 2010 was a year of enjoying life to the fullest, personal growth, and fulfilling old dreams.
 

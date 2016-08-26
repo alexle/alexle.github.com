@@ -1,5 +1,9 @@
-2011: Year In Review
-12-30-2011    
+---
+title: 2011: Year In Review
+date: 12-30-2011    
+image:
+meta: A review of my 2011 goals and how well I accomplished them.
+---
 
 The end of the year always comes with mixed emotions for me. On one hand, it's a chance to celebrate accomplishments, growth, and lessons learned. On the other hand, it's a reminder that another year has passed, another year of opportunities that were missed.
 

@@ -1,5 +1,9 @@
-Vietnamese Alphabet Chart
-08-03-2011
+---
+title: Vietnamese Alphabet Chart
+date: 08-03-2011
+image:
+meta: A Vietnamese alphabet chart for reference.
+---
 
 One of my goals this year is to learn how to read Vietnamese. I'm able to understand and speak the basics, but a block of Vietnamese text could very well be hieroglyphs to me. It's strange this is the case, but I guess reading wasn't "essential" in being able to communicate with my parents at a young age.<br />
 

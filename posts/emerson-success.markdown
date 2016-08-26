@@ -2,7 +2,7 @@
 title: Ralph Waldo Emerson - Success
 date: 08-09-2011
 image:
-meta: what is success what success means to me ralph waldo emerson fancy job money nice car big house to laugh to appreciate beauty
+meta: What is success? Maybe Ralph Waldo Emerson's perspective on success is a good guideline.
 ---
 
 If someone asked me what success was, I really couldn't tell them.

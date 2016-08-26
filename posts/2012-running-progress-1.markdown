@@ -1,6 +1,9 @@
-Update On 2012 Running Progress
-05-07-2012
-/static/nikeplus1.png
+---
+title: Update On 2012 Running Progress
+date: 05-07-2012
+image: /static/nikeplus1.png
+meta: An update on my running progres for 2012 so far.
+---
 
 One of my [goals this year][1] is to run 100 miles. To keep track, I use the Nike+ app on my iPhone and enable it on every run. It's pretty cool seeing the route, elevation, and pace of past runs. Plus it's fairly accurate.
 

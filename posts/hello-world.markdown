@@ -2,7 +2,7 @@
 title: Hello World!
 date: 12-10-2008
 image:
-meta: alex le alexander le hello word printf
+meta: printf("Hello World!\n);
 ---
 
 

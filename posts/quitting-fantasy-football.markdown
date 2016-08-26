@@ -2,7 +2,7 @@
 title: Quitting Fantasy Football
 date: 09-10-2012
 image:
-meta: alex le quitting fantasy football relaxing sundays too much tv august cheat sheets part-time job game of luck
+meta: I didn't think I'd ever say this, but I quit fantasy football. This is why.
 ---
 
 For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. The slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.

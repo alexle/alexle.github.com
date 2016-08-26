@@ -2,7 +2,7 @@
 title: Why I Moved My Blog To Github Pages
 date: 02-29-2012
 image:
-meta: why i moved my blog to github pages static site generator control WYSIWYG wordpress blogger jekyll python
+meta: Blogging should be easy. You should also own your own content. Here's why I moved my blog to Github Pages and used a Static Site Generator.
 ---
 
 In an earlier [post][1], I expressed my desire to write more. While Google Blogger was a good platform to start on, I quickly realized how closed and limiting it was.

@@ -1,8 +1,8 @@
 ---
 title: Training For A Marathon In 9 Weeks
 date: 09-06-2013
-image: /static/bug_zapper.jpu
-meta: training for a marathon 9 weeks new runner running tips half marathon hal higdon trianing plan long run hydration gu enjoy the journey
+image: /static/bug_zapper.jpg
+meta: My experience training for a marathon in 9 weeks. Would it be possible?
 ---
 
 It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body if it could hang on until the finish line, it would never have to run another mile again.

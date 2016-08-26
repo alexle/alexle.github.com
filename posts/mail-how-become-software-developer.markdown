@@ -2,7 +2,7 @@
 title: Mail: How Do I Switch To A Career In Software?
 date: 05-21-2013
 image: /static/code.jpg
-meta: how to switch to career in software programming development finance code school hustle github
+meta: Here are my tips on how to switch to career in software programming.
 ---
 
 <p>

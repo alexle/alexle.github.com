@@ -2,7 +2,7 @@
 title: Repost: Farewell Blogger
 date: 02-07-2012
 image:
-meta: farewell blogger move to gibhut rss feed presence on web blogging alex le alextrle.blogspot.com alextrle alexanerle.com
+meta: Here's my farewell post on leaving Google Blogger for a Github Pages.
 ---
 
 \* *reposted from [http://alextrle.blogspot.com][1]*

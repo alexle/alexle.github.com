@@ -1,5 +1,9 @@
-The One Minute Manager
-03-13-2011
+---
+title: The One Minute Manager
+date: 03-13-2011
+image: /static/one_minute.jpg
+meta: A brief review of The One Minute Manager and my thoughts on it.
+---
 
 Finished this book last week and thought I would write a little about it for future reference. It's a pretty short read (106 pages) which follows a man's search for an effective manager. Neither "tough" managers (bottom-lined, realistic, profit-minded) or "nice" managers (participative, supportive, humanistic) seem ideal to him. His search ends when he meets the One Minute Manager, who shares his secrets to increased efficiency and productivity in the workplace.
 

@@ -2,7 +2,7 @@
 title: Putting Money In The Bank
 date: 06-28-2011
 image: /static/phelps.jpg
-meta: michael phelps putting money in the bank working hard malcolm gladwell 10000 hours dedication swimming
+meta: Michael Phelps is the most decorated swimming Olympian ever. His approach to work is why he's so successful.
 ---
 
 The 2008 Beijing Olympics were awesome. Usain Bolt, Team USA basketball, Phelps, Walsh & May volleyball. I was glued to the TV every night for a week.

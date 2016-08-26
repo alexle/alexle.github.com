@@ -2,7 +2,7 @@
 title: Make Your Own Luck
 date: 11-19-2012
 image:
-meta: make your own luck destiny work hard yes man
+meta: What we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few.
 ---
 
 During my last semester of college, I was offered a sys admin internship from a customer at the deli I worked at. To this day, my parents still tell me how I lucky I was for that to happen.

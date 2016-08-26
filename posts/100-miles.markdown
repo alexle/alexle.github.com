@@ -1,6 +1,9 @@
-1 Year. 77 Runs. 125 Miles.
-12-30-2012
-/static/nike-2012-total.jpg
+---
+title: 1 Year. 77 Runs. 125 Miles.
+date: 12-30-2012
+image: /static/nike-2012-total.jpg
+meta: I set a goal to run 100 miles in 2012. Here's how that goal went.
+---
 
 I set a [goal][1] to run 100 miles in 2012. At the time, I thought it was going to be a breeze. 100 miles came out to a little over 8 miles a month, or a 2 mile run every week. It seemed so easy..
 

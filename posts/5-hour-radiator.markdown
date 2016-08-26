@@ -1,5 +1,9 @@
-5 Hour Radiator Replacement
-03-25-2011
+---
+title: 5 Hour Radiator Replacement
+date: 03-25-2011
+image: /static/rad1.jpg
+meta: Turns out my radiator had a leak. Would I be able to fix this by myself?
+---
 
 I was driving home from work the other day when I noticed my car's heat gauge slowly past the 50% mark. This odd behavior was more alarming due to the puddles of liquid seen beneath my engine recently. And to the check engine light  which had been on for over 5 weeks..
 
