@@ -40,18 +40,14 @@ def ParsePostHeader( f ):
     line = ''
     while '---' not in line:
         line = f.readline().rstrip()
-        if 'title:' in line:
-            H.title = line.replace('title: ', '')
-        if 'date:' in line:
-            H.raw_date = line.replace('date: ', '')
-        if 'image:' in line:
+        if line.startswith('title'):
+            H.title = line.replace('title:', '').lstrip()
+        if line.startswith('date'):
+            H.raw_date = line.replace('date:', '').lstrip()
+        if line.startswith('image'):
             H.image = line.replace('image:', '').lstrip()
-            #H.image = line.partition(" ")[2]
-        if 'meta:' in line:
-            H.meta = line.replace('meta: ', '').lstrip()
-        if '\s' in H.image:
-            print H.title
-
+        if line.startswith('meta'):
+            H.meta = line.replace('meta:', '').lstrip()
     return H
 
 def get_img(f):
