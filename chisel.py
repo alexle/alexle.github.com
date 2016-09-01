@@ -50,13 +50,6 @@ def ParsePostHeader( f ):
             H.meta = line.replace('meta:', '').lstrip()
     return H
 
-def get_img(f):
-    pos = f.tell()
-    img = f.readline().rstrip()
-    if not img:
-        f.seek(pos)
-    return img
-
 def step(func):
    def wrapper(*args, **kwargs):
       print "\tStarting " + func.__name__ + "..."
