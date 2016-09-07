@@ -31,6 +31,15 @@ class PostHeaderInfo:
     image = ''
     meta = ''
 
+'''
+Header format
+---
+title:
+date:
+image:
+meta:
+---
+'''
 def ParsePostHeader( f ):
     # Read off first '---' tag.
     f.readline().rstrip()
