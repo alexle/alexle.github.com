@@ -5,11 +5,11 @@ image:
 meta: What we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few.
 ---
 
-During my last semester of college, I was offered a sys admin internship from a customer at the deli I worked at. To this day, my parents still tell me how I lucky I was for that to happen.
+During my last semester of college, I was offered a sys admin internship from a customer at the deli I worked at. To this day, my parents still tell me how lucky I was for that to happen.
 
-The thing is, I didn't feel as if it was luck. But rather the result of studying hard, working at the deli, and keeping a positive attitude each day. When the opportunity presented itself, I was **ready** and able to take advantage of it.
+The thing is, I didn't feel it was luck. But rather the result of studying hard, working at the deli, and keeping a positive attitude each day. When the opportunity presented itself, I was **ready** and able to take advantage of it.
 
-Now you may argue it's just a matter of perspective. But if I had taken out student loans and spent my free time playing Starcraft, I wouldn't have worked at the deli and met my future boss. If I had slacked off in school, I wouldn't have had anything impressive to share with him. If I hadn't made an effort to talk to my customers, the conversation may never even have happened.
+Now you may argue it's just a matter of perspective. But if I had taken out student loans and spent my free time playing Starcraft, I wouldn't have worked at the deli and met my future boss. If I had slacked off in school, I wouldn't have had anything impressive to share with him. And if I hadn't made an effort to talk to my customers, the conversation may never even have happened.
 
 The point is what we put out in the universe determines our luck. It isn't some magical force that comes and goes, bestowing itself on a select few. Say hi to the person next to you in the checkout line, maybe it'll open up a network opportunity. Spend time on your tiny side project, it might impress the next person who interviews you.
 
