@@ -15,7 +15,7 @@ Here's a recap of my incredible Chicago Marathon experience.
 
 ##The Windy City!##
 
-We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a ton of work over the weekend.
+We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a lot of work over the weekend.
 
 <p>
 <img class="pure-img center" src="/static/chicago-ventra.jpg" alt="chicago ventra pass" />
@@ -75,7 +75,7 @@ I found the 3:50 pace group in my corral and we bonded instantly. We made jokes.
 
 The race is kind of crazy at the start, with everybody going out too fast and general chaos everywhere. 1/2 mile in, we go into a short tunnel and a bunch of people are relieving themselves on the side. I shouldn't have drank so much Gatorade..
 
-I know it'll be all I think about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
+I know that's all I'll be thinking about so I join the others. When I finish, my watch shows my average pace at 10:18 min/mi.
 
 To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:05 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
@@ -90,7 +90,7 @@ Feels great to run with the group again. Try to calm myself and settle in, adren
 
 My GPS watch goes bananas early, probably from the tunnel or high-rise buildings. I can't trust the accuracy so I give up on it and resign to run the race naked.
 
-It's decently windy in this section. I do my best to tuck in behind the pack and conserve as much energy as possible. Chocolate GU at mile 5, so yummy.
+It's decently windy in this section. I do my best to tuck in behind the pack and conserve as much energy as possible. Chocolate GU at mile 5, yum.
 
 ##Miles 6.2 - 9.3 (8:47 min/mi)##
 
@@ -104,7 +104,7 @@ The only issue is how fast they cruise through aid stations. My first attempt to
 
 Feeling loose and relaxed at this point. Enjoying the race and the crowd, have never seen cheering like this before. Still in awe at how many people are out watching.
 
-At mile 10, I wonder if I should switch gears. I throw out a quick surge. Feels nice to stretch the legs, but it's way too early. I pop another GU and retreat to the pace group with my tail behind my legs.
+At mile 10, I wonder if I should switch gears. I throw out a quick surge. Feels nice to stretch the legs, but it's way too early. I pop another GU and sullenly retreat back to the pace group.
 
 ##Miles 12.4 - 15.5 (8:42 min/mi)##
 
@@ -123,7 +123,7 @@ He asks who will be the first to drink. Everyone is silent, probably from shock.
 
 Oh why not. I cup my hands and he pours a generous amount in them. I slurp every drop of the delicious liquid. So this is what unicorn tears taste like.
 
-I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. Another GU at mile 14. Stuffing my face with as much calories as I can now.
+I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. Another GU at mile 14. Stuffing my face with as many calories as I can now.
 
 ##Miles 15.5 - 18.6 (8:50 min/mi)##
 
@@ -133,13 +133,13 @@ A quick body scan at mile 16 shows no major signs of cramping or tightness. Body
 
 ...
 
-At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run right pass me. How did this happen? My pace must be slipping, crap.
+At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run right pass me. What just happened? My pace must be slipping.
 
 ##Miles 18.6 - 21.7 (8:41 min/mi)##
 
 I catch back up to the group and reaccess the situation. The good news is I haven't cramped yet. It's the farthest I've ever gone without cramps. The bad news is I don't know how long it'll last.
 
-The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push the tremors down. Don't let me down now muscles.
+The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push the tremors down.
 
 I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **GO-TIME**.
 
@@ -149,7 +149,7 @@ Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got 
 
 My stomach feels like garbage. I have so much GU and liquid in me I stop taking fluids. At one point, I actually vomit a little Gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
 
-I start to see people off to the side stretching out cramps. Many are limping. Around mile 23 I turn on Michigan Ave and see tall buildings straight ahead. Even though my hamstring is one careless extension away from knotting up, my main concern is how much beer I will drink afterwards.
+I start to see people off to the side stretching out cramps. Many are limping. There is carnage everywhere. Around mile 23, I turn on Michigan Ave and see tall buildings straight ahead. That's where the park and finish is, along with my free beer. 
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
