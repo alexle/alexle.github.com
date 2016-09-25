@@ -103,16 +103,16 @@ h1.archive-year {
 
 /* PHOTO CSS */
 .pure-g.gutters{
-  margin: 0 -0.3em;
+  margin: 0 -0.2em;
 }
 
 .pure-g.gutters > [class *=pure-u]{
   box-sizing: border-box;
-  padding: 0em 0.3em;
+  padding: 0em 0.2em;
 }
 
 .album {
-   padding: 0.3em 0 0.3em 0;
+   padding: 0.2em 0 0.2em 0;
 }
 
 /* LAYOUT */
@@ -243,7 +243,7 @@ pre {
       margin-top: 0;
    }
 
-   body { font-size: 0.90em;
+   body { font-size: 0.95em;
    }
 }
 
