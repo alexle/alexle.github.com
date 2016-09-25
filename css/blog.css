@@ -6,13 +6,13 @@ g* {
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-   font-family: 'Railway', sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 
 /* BASE */
 body {
-   font-family: 'Railway', sans-serif;
-   font-size: 1.05em;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.0em;
    line-height: 1.55em;
    color: #333333;
 }
@@ -79,7 +79,7 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
    overflow: hidden;
    position: relative;
    border: 1px;
-   height: 240px;
+   height: 220px;
 }
 
 .home-image img {
@@ -99,6 +99,20 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 /* ARCHIVE CSS */
 h1.archive-year {
    text-align: center;
+}
+
+/* PHOTO CSS */
+.pure-g.gutters{
+  margin: 0 -0.3em;
+}
+
+.pure-g.gutters > [class *=pure-u]{
+  box-sizing: border-box;
+  padding: 0em 0.3em;
+}
+
+.album {
+   padding: 0.3em 0 0.3em 0;
 }
 
 /* LAYOUT */
@@ -229,7 +243,7 @@ pre {
       margin-top: 0;
    }
 
-   body { font-size: 0.98em;
+   body { font-size: 0.90em;
    }
 }
 

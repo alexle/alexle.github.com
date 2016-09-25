@@ -13,6 +13,7 @@ TEMPLATES = {
    'post': "post.html",
    'archive': "archive.html",
    'about': "about.html",
+   'photos': "photos.html",
    'rss': "rss.html",
    'sitemap': "sitemap.html",
 }
@@ -31,15 +32,6 @@ class PostHeaderInfo:
     image = ''
     meta = ''
 
-'''
-Header format
----
-title:
-date:
-image:
-meta:
----
-'''
 def ParsePostHeader( f ):
     # Read off first '---' tag.
     f.readline().rstrip()
@@ -142,6 +134,12 @@ def generate_about(f, e):
    """Generate about page"""
    template = e.get_template(TEMPLATES['about'])
    write_file("../about.html", template.render(entries=f))
+
+@step
+def generate_photos(f, e):
+   """Generate photos page"""
+   template = e.get_template(TEMPLATES['photos'])
+   write_file("../photos.html", template.render(entries=f))
 
 @step
 def generate_rss(f, e):
