@@ -215,7 +215,7 @@ pre {
 /* RESPONSIVE -- RULES greater 48em */
 @media (min-width: 48em) {
    #wrapper {
-      max-width: 45em; /* wrapper = sidebar + content */
+      max-width: 46em; /* wrapper = sidebar + content */
    }
 
    #sidebar {
@@ -226,7 +226,7 @@ pre {
    }
 
    #content {
-      max-width: 36em; /* wrapper = sidebar + content */
+      max-width: 37em; /* wrapper = sidebar + content */
       margin-left: 10em;
    }
 }
