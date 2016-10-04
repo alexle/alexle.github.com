@@ -15,7 +15,7 @@ But what happened to *competing* against our peers and ourselves? It is called a
 
 ##One Mile, That's It?##
 
-After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I skipped our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
+After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I would skip our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
 
 I had no answer. I just knew I've never dreaded a race as much as I did this one.
 
