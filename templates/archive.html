@@ -12,13 +12,12 @@
             <hr class="hr-post">
             <div class="home-post">
                <div class="home-title">
-                  <h2 class="home-title"><a href="/blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h2>
+                  <h3 class="home-title">
+                     <a href="/blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a>
+                  </h3>
                </div>
                <div class="home-date">
                   {{ entry.pretty_date }}
-               </div>
-               <div class='home-snippet'>
-                  {{ entry.content|striptags|truncate(140,False,"...") }}
                </div>
             </div>
          {% endfor %}
