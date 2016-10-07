@@ -244,8 +244,7 @@ pre {
       margin-top: 0;
    }
 
-   body { font-size: 0.95em;
-   }
+   body { font-size: 0.95em; }
 }
 
 /* RESPONSIVE -- RULES less than 30em */

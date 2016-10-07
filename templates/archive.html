@@ -9,6 +9,7 @@
    {% for month, month_list in year_list|groupby('month')|reverse %}
       {% for day, day_list in month_list|groupby('day')|reverse %}
          {% for entry in day_list %}
+            <hr class="hr-post">
             <div class="home-post">
                <div class="home-title">
                   <h2 class="home-title"><a href="/blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h2>
@@ -20,10 +21,10 @@
                   {{ entry.content|striptags|truncate(140,False,"...") }}
                </div>
             </div>
-            <hr class="hr-post">
          {% endfor %}
       {% endfor %}
    {% endfor %}
+   <br>
 {% endfor %}
 
 <br><a href="/">&larr; back to home page</a>
