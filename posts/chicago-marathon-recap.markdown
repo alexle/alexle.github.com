@@ -15,14 +15,14 @@ Here's a recap of my incredible Chicago Marathon experience.
 
 ##The Windy City!##
 
-We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy. After checking in, we went to the nearest Red Line and picked up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a lot of work over the weekend.
+We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy! We checked in and went to the nearest Red Line to pick up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a lot of work over the weekend.
 
 <p>
 <img class="pure-img center" src="/static/chicago-ventra.jpg" alt="chicago ventra pass" />
 <div class="separator">My preciouuuus...</div>
 </p>
 
-Normally, I like to relax and be off my feet before a race. But this was my first time in Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
+Normally, I like to relax and be off my feet before a race. But this was Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
 
 The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was super knowledgable and made the experience fun, yet informative at the same time.
 
@@ -41,7 +41,7 @@ To my surprise, it took less than 10 minutes to check-in and get my bib-packet. 
 
 The next step was signing up for a pace group, something I had never tried before. They informed me their strategy and how water stations were handled. They even provided pace tattoos and an extra bib you wear on your back which designates which pace you're "supposedly" running at.
 
-With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. They also had a neat area set up that displays your name on a screen when you scan your race bib.
+With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. There also was a neat area set up that displays your name on a screen when you scan your race bib.
 
 <p>
 <img class="pure-img center" src="/static/chicago-alex-own.jpg" alt="alex le #ownchicago" />
@@ -149,7 +149,7 @@ Hammer out splits of 8:05, 7:57, 7:54. When I get to Chinatown, I know I've got 
 
 My stomach feels like garbage. I have so much GU and liquid in me I stop taking fluids. At one point, I actually vomit a little Gatorade in my mouth and force it back down. Oh well, 2 for price of 1.
 
-I start to see people off to the side stretching out cramps. Many are limping. There is carnage everywhere. Around mile 23, I turn on Michigan Ave and see tall buildings straight ahead. That's where the park and finish is, along with my free beer. 
+I start to see people off to the side stretching out cramps. Many are limping. There is carnage everywhere. Around mile 23, I turn on Michigan Ave and see tall buildings straight ahead. That's where the park and finish is, along with my free beer.
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
