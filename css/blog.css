@@ -173,7 +173,7 @@ img.center {
 .button-list { text-align: center; }
 
 .button-item {
-   font-size: 80%;
+   font-size: 90%;
    margin: 0 0.8em 0 0.8em;
 }
 
@@ -231,4 +231,5 @@ pre {
    h3 { font-size: 1.2em; }
 
    .home-image { height: 160px; }
+   .button-item { font-size: 100%; }
 }
