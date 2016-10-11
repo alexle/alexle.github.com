@@ -1,15 +1,12 @@
 <!-- home template -->
 {% extends "base.html" %}
-{% set meta = "A blog on software, running, and life in general." %}
+{% set meta = "A blog on software, running, and random thoughts." %}
 
 {% block main %}
 {% for entry in entries %}
 <div class="home-post">
    <div class="home-title">
       <h1 class="home-title"><a href="blog/{{ entry.url }}" class="home-title-link">{{ entry.title }}</a></h1>
-   </div>
-   <div class="home-date">
-      {{ entry.pretty_date }}
    </div>
    {% if entry.img %}
    <div class='home-image'>

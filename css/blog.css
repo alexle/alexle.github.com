@@ -9,17 +9,72 @@ html, button, input, select, textarea,
    font-family: 'Open Sans', sans-serif;
 }
 
-/* BASE */
+/* LAYOUT */
+#wrapper {
+   max-width: 37em;
+   margin: 0 auto;
+}
+
+#header h1 {
+   font-family: 'Raleway';
+   font-size: 3em;
+   font-weight: 400;
+   text-align: center;
+   line-height: 1.4em;
+   margin: 0em;
+}
+
+#header a { color: #333333; }
+
+#subheader h2 {
+   font-family: 'Raleway';
+   font-size: 1.4em;
+   font-weight: 200;
+   text-align: center;
+   line-height: 1.4em;
+   margin: 0 0 0.2em 0;
+}
+
+#header_hr {
+   border-bottom: 1px solid #eeeeee;
+   margin-top: 1em;
+}
+
+#sidebar {
+   text-align: center;
+   top: auto;
+   margin-top: 2em;
+}
+
+#content { margin: 1.0em; }
+
+#footer {
+   margin-top: 2em;
+   text-align: center;
+}
+
+#footer a { color: #999999; }
+
+#footer .pure-menu a:hover, .pure-menu a:focus {
+   background: none;
+}
+
+#footer .pure-menu-link {
+   font-size: 0.9em;
+   padding: 0.5em 0.5em;
+}
+
+/* BASE CSS */
 body {
-   font-family: 'Open Sans', sans-serif;
-   font-size: 1.0em;
+   font-size: 1.1em;
    line-height: 1.55em;
    color: #333333;
 }
 
 h1 { font-size: 1.6em; }
 h2 { font-size: 1.5em; }
-h3 { font-size: 1.4em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.1em; }
 
 h1,h2,h3,h4,h5,h6 {
    font-weight: normal;
@@ -42,22 +97,9 @@ a:hover, a:focus {
    text-decoration: none;
 }
 
-/* PROFILE CSS */
-.profile-pic {
-   height: 115px;
-   width: 115px;
-   border: 0;
-   border-radius: 10px;
-}
-
-.profile-title {
-   font-size: 2em;
-   margin: 0;
-}
-
 /* HOME CSS */
 a.home-title-link:link, a.home-title-link:visited {
-   color: #333;
+   color: #333333;
 }
 
 a.home-title-link:hover {
@@ -65,7 +107,7 @@ a.home-title-link:hover {
    text-decoration: none;
 }
 
-h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
+h1.home-title, h1.post-title-link {
    margin-bottom: 0.2em;
 }
 
@@ -98,56 +140,17 @@ h1.home-title, h2.home-title, h3.home-title, h4.home-title, h1.post-title-link {
 .post-title { }
 
 /* ARCHIVE CSS */
-h1.archive-year {
-   text-align: center;
-}
+.archive-year { text-align: center; }
 
 /* PHOTO CSS */
-.pure-g.gutters{
-  margin: 0 -0.2em;
-}
+.pure-g.gutters { margin: 0 -0.2em; }
 
 .pure-g.gutters > [class *=pure-u]{
   box-sizing: border-box;
   padding: 0em 0.2em;
 }
 
-.album {
-   padding: 0.2em 0 0.2em 0;
-}
-
-/* LAYOUT */
-#wrapper {
-   margin: 0 auto;
-}
-
-#sidebar {
-   text-align: center;
-   top: auto;
-   margin-top: 2em;
-}
-
-#content {
-   margin: 1.0em;
-}
-
-#footer {
-   margin-top: 2em;
-   text-align: center;
-}
-
-#footer a {
-   color: #999;
-}
-
-#footer .pure-menu a:hover, .pure-menu a:focus {
-   background: none;
-}
-
-#footer .pure-menu-link {
-   font-size: 0.9em;
-   padding: 0.5em 0.5em;
-}
+.album { padding: 0.2em 0 0.2em 0; }
 
 /* COMPONENTS */
 img.center {
@@ -161,36 +164,22 @@ img.center {
    text-align: center;
 }
 
-.pure-button { width: 7em; }
-
 .menu-list {
    margin: 0;
    padding: 0;
    list-style: none;
 }
 
+.button-list { text-align: center; }
+
 .button-item {
-   display: inline-block;
-   font-size: 85%;
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
+   font-size: 80%;
+   margin: 0 0.8em 0 0.8em;
 }
 
-.button-item a {
-   background: transparent;
-   border: 2px solid rgb(176, 202, 219);
-   letter-spacing: 0.05em;
-   text-transform: uppercase;
-}
+a.button-item { color: #e87000; }
 
-.button-item a:hover, .button-item a:focus {
-   border: 2px solid rgb(61, 146, 201);
-   text-decoration: none;
-}
-
-.hr-post {
-   border-top: 1px solid #eeeeee;
-}
+.hr-post { border-top: 1px solid #eeeeee; }
 
 blockquote {
    position: relative;
@@ -213,47 +202,33 @@ pre {
    font-size: 13px;
 }
 
-/* RESPONSIVE -- RULES greater 48em */
+/* RESPONSIVE -- Rules GREATER 48em */
 @media (min-width: 48em) {
-   #wrapper {
-      max-width: 46em; /* wrapper = sidebar + content */
-   }
-
-   #sidebar {
-      position: fixed;
-      max-width: 9em; /* wrapper = sidebar + content */
-      top: 0;
-      bottom: 0;
-   }
-
-   #content {
-      max-width: 37em; /* wrapper = sidebar + content */
-      margin-left: 10em;
-   }
 }
 
-/* RESPONSIVE -- RULES less than 48em */
+/* RESPONSIVE -- Rules LESS 48em */
 @media (max-width: 48em) {
-   #sidebar {
-      max-width: 100%
-      margin-top: 1.0em;
-   }
-
    #content {
       max-width: 100%;
-      margin-top: 0;
+      margin-top: 0.5em;
    }
 
    body { font-size: 0.95em; }
 }
 
-/* RESPONSIVE -- RULES less than 30em */
+/* RESPONSIVE -- Rules LESS 30em */
 @media (max-width: 30em) {
+   #header h1 {
+      font-size: 2.8em;
+   }
+
+   #subheader h2 {
+      font-size: 1.2em;
+   }
+
    h1 { font-size: 1.4em; }
    h2 { font-size: 1.35em; }
    h3 { font-size: 1.2em; }
 
    .home-image { height: 160px; }
-
-   .pure-button { width: 6.7em; }
 }
