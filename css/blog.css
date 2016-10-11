@@ -107,7 +107,7 @@ a.home-title-link:hover {
    text-decoration: none;
 }
 
-h1.home-title, h1.post-title-link {
+h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
    margin-bottom: 0.2em;
 }
 
