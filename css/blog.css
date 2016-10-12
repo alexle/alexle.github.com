@@ -40,12 +40,6 @@ html, button, input, select, textarea,
    margin-top: 1em;
 }
 
-#sidebar {
-   text-align: center;
-   top: auto;
-   margin-top: 2em;
-}
-
 #content { margin: 1.0em; }
 
 #footer {
@@ -53,7 +47,7 @@ html, button, input, select, textarea,
    text-align: center;
 }
 
-#footer a { color: #999999; }
+#footer a, .copyright { color: #999999; }
 
 #footer .pure-menu a:hover, .pure-menu a:focus {
    background: none;
@@ -61,6 +55,11 @@ html, button, input, select, textarea,
 
 #footer .pure-menu-link {
    font-size: 0.9em;
+   padding: 0.5em 0.5em;
+}
+
+#footer .copyright {
+   font-size: 0.7em;
    padding: 0.5em 0.5em;
 }
 
@@ -82,6 +81,7 @@ h1,h2,h3,h4,h5,h6 {
    line-height: 1.4em;
 }
 
+/* LINK CSS */
 a {
    cursor: hand;
    text-decoration: none;
@@ -107,7 +107,7 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
 }
 
 .home-date, .post-date {
-   color: #888;
+   color: #888888;
    font-size: 85%;
 }
 
@@ -157,12 +157,6 @@ img.center {
 .separator {
    clear: both;
    text-align: center;
-}
-
-.menu-list {
-   margin: 0;
-   padding: 0;
-   list-style: none;
 }
 
 .button-list { text-align: center; }
