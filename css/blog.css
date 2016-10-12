@@ -16,7 +16,7 @@ html, button, input, select, textarea,
 }
 
 #header h1 {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-size: 3em;
    font-weight: 400;
    text-align: center;
@@ -27,7 +27,7 @@ html, button, input, select, textarea,
 #header a { color: #333333; }
 
 #subheader h2 {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-size: 1.4em;
    font-weight: 200;
    text-align: center;
@@ -98,13 +98,8 @@ a:hover, a:focus {
 }
 
 /* HOME CSS */
-a.home-title-link:link, a.home-title-link:visited {
+a.home-title-link:link, a.home-title-link:visited, a.home-title-link:hover {
    color: #333333;
-}
-
-a.home-title-link:hover {
-   color: #0084B4;
-   text-decoration: none;
 }
 
 h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {

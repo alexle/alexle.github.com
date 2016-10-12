@@ -9,7 +9,7 @@ meta: A race recap of my experience at the Pearl Street Mile. Bring back the mil
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
 
-Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first 50k in a couple weeks. I understand just completing a certain distance is a goal for many people.
+Personally, I love endurance events. My last 3 races have been [marathons][2] and I'm running my first 50k in a couple weeks. I understand just completing a certain distance is a worthy goal for many people.
 
 But what happened to *competing* against our peers and ourselves? It is called a race, after all. Why aren't questions like "How *fast* was your run" and "Want to race to the fire hydrant and back" asked anymore?
 
