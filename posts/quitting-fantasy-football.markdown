@@ -14,7 +14,9 @@ I don't know how, but Fantasy Football managed to turn my relaxing Sundays into 
 Exaggerations aside, here are the main reasons why I'm leaving Fantasy Football:
 
 ##Completely alters the way I watch football.##
-I would nitpick every miscue my players made and react irrationally afterwards. I can't believe Colston dropped that pass - $@#%! Throw it to Calvin Johnson, he was wide open! It use to be simply rooting for a team to score and win was good enough. Now it only mattered if certain players scored a TD or kicked a FG.
+I would nitpick every miscue my players made and react irrationally afterwards. I can't believe Calvin Johnson dropped that pass! Come on Peyton, your tight end was WIDE open and you decided to throw into double-coverage? Okay, this time hand the ball off or take a sack as long as you stay in field goal range or throw it to anyone EXCEPT Reggie Wayne.
+
+It use to be simply rooting for a team to score and win was good enough. Now it only mattered if certain players scored or touched the ball.
 
 ##It's a part-time job.##
 Fantasy Football has evolved over the years and the work required to stay competitive is ridiculous. A typical week for me would look something like this:
@@ -36,7 +38,9 @@ Two years ago, I finished the regular season 12-1 and promptly lost in the first
 
 <hr width="75%">
 
-I understand for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others. And at the very least, it's a great way to bond and stay in touch with friends.
+I understand for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others.
+
+At the very least, it's a good way to bond and stay in touch with friends.
 
 Perhaps I've outgrown Fantasy Football, if there is such a thing. All I know is, what use to be entertaining and enjoyable is now a chore and stressful. I certainly won't miss being glued to my TV, computer, and phone watching football and checking stat lines all day.
 
