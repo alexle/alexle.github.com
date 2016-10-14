@@ -97,6 +97,9 @@ a:hover, a:focus {
    text-decoration: none;
 }
 
+/* ABOUT CSS */
+.about-title, .photo-title { font-size: 1.7em; }
+
 /* HOME CSS */
 a.home-title-link:link, a.home-title-link:visited, a.home-title-link:hover {
    color: #333333;
@@ -135,7 +138,10 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
 .post-title { }
 
 /* ARCHIVE CSS */
-.archive-year { text-align: center; }
+.archive-year {
+   font-size: 2em;
+   text-align: center;
+}
 
 /* PHOTO CSS */
 .pure-g.gutters { margin: 0 -0.2em; }

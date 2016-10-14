@@ -6,7 +6,6 @@
 
 {% for year, year_list in entries|groupby('year')|reverse %}
 <h1 class="archive-year">{{year}}</h1>
-   <hr class="hr-post">
    {% for month, month_list in year_list|groupby('month')|reverse %}
       {% for day, day_list in month_list|groupby('day')|reverse %}
          {% for entry in day_list %}
