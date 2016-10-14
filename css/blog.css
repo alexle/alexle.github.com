@@ -226,5 +226,9 @@ pre {
    h3 { font-size: 1.2em; }
 
    .home-image { height: 160px; }
+
    .button-item { font-size: 100%; }
+
+   .about-title, .photo-title { font-size: 1.5em; }
+   .archive-year {font-size: 1.8em; }
 }
