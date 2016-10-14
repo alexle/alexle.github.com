@@ -10,7 +10,7 @@ meta: Hiking up a 14er is an exhilarating experience. Here are 10 tips for hikin
 Hiking up a 14er is an exhilarating experience. It's been a couple days since my [first 14er][1] and I thought I'd share what worked for me on the trip and what I'd do differently next time.
 
 ###1. Start Early###
-One of the most important rules of 14ers for reason. Getting caught in a rain or lightning storm with no shelter on top of a mountain is dangerous. In Colorado, these storms roll in like clockwork after 12pm, even in the summer months. Leaving the trailhead by 6-7am is generally recommended for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
+It's one of the most important rules of 14ers for reason. In Colorado, these storms roll in like clockwork after 12pm, even in the summer months. Getting caught in a rain or lightning storm with no shelter on top of a mountain is dangerous. Leaving the trailhead by 6-7am is generally recommended for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
 
 ###2. Know Your Water Needs###
 The general rule of thumb is 1 liter (34oz) of water for every 3 miles you hike. I found my sweet spot to be around 10oz for each mile, with maybe 0.5 liter extra for emergency. Pre-hydrating before the hike goes a long way and reduces liquid to carry (each liter weighs 2lbs). Water requirements ultimately depend on personal needs and how warm/humid the weather is.
