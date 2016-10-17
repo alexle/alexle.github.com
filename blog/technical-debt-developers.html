@@ -1,0 +1,150 @@
+<!-- post template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+   <meta name="msvalidate.01" content="8F7A5DB489A40721CBADB9FED30E8A1D" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Technical debt is a necessary step in software engineering. However, it can take its toll on your developer's productivity, morale, and skills." />
+   <meta name="robots" content="index, follow" />
+   <title>How Technical Debt Affects Your Developers | Alex Le</title>
+
+   <!-- Google Analytics -->
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-28947728-1', 'auto');
+     ga('send', 'pageview');
+   </script>
+
+   <!-- Pure -->
+   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+   <!-- Javascript and Stylesheets -->
+   <script type="text/javascript" src="https://apis.google.com/js/plusone.js" async defer></script>
+   <script type="text/javascript" src="/css/prism.js"></script>
+   <link rel="stylesheet" type="text/css" href="/css/blog.css">
+   <link rel="stylesheet" type="text/css" href="/css/prism.css">
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/rss.xml">
+
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+   <link href="http://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper" class="pure-g">
+   <!-- CONTENT -->
+   <div id="content" class="pure-u-1-1">
+      <!-- HEADER -->
+      <div id="header">
+         <h1><a href="/">Alex Le</a></h1>
+      </div>
+      <div id="subheader">
+         <h2>Firmware Engineer, Minimalist, Improving Runner</h2>
+      </div>
+      <ul class="button-list pure-menu-list">
+         <a class="button-item" href="/about.html">About</a>
+         <a class="button-item" href="/blog/archives.html">Blog</a>
+         <a class="button-item" href="/photos.html">Photos</a>
+      </ul>
+      <div id="header_hr"></div>
+
+      <!-- BODY -->
+      <article>
+         
+<div class="post">
+   <div class="post-title">
+      <h1 class="post-title-link">How Technical Debt Affects Your Developers</h1>
+   </div>
+
+   <div class="post-date">
+      Oct 16, 2016
+   </div>
+
+   <p class="post-content">
+      <p>
+<img class="pure-img center" src="/static/coin-stack.jpg" alt="stack of coins" />
+</p>
+
+<p>Everyone knows what debt is. It's something you owe in exchange for acquiring something now. Get a house today and owe the bank a bunch of money for 30 years.</p>
+<p>The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold this debt, the larger the interest payments grow.</p>
+<p><a href="https://en.wikipedia.org/wiki/Technical_debt">Technical Debt</a>, a concept invented by Ward Cunningham, is a similar concept in programming. Get your product to market faster, ship your software today, in return for cutting corners or using a quick &amp; dirty design. This "debt" is cost that has to be paid eventually, and with <strong>interest</strong>.</p>
+<p>For example, a global variable is used to save a day's work in order to make a code release deadline. But it'll cost more than a day's work to fix it later. The longer debt stays in your code, the more expensive it'll be make changes.</p>
+<h2>Is Technical Debt Bad Then?</h2>
+<p>9 years ago, I would have answered with an emphatic <strong>yes</strong>. Technical debt is evil! We need to purge all of it from our codebase and we can't take on ANY new debt.</p>
+<p>Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical debt. At the same time, I've learned that businesses aren't successful because they had perfect code.</p>
+<p>They were successful because they got a product to market <strong>fast</strong> and <strong>at the right time</strong>. It doesn't matter how beautiful your state machine is or how efficient your algorithms are if your product ships late and no one buys it.</p>
+<p>There are many arguments for and against technical debt. This post explores a different angle on the topic - the negative effects it has on developers. Yes, we have feelings too!</p>
+<h2>Tough Work Environment</h2>
+<p>I'm a firm believer that without routine cleanup (i.e. refactoring), software will atrophy. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.</p>
+<p>However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even faster. Something that would have been a 2 point story a couple months ago is now an 8 point story.</p>
+<p>This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.</p>
+<h2>Decreases Productivity</h2>
+<p>Most people I know despise inefficiencies. Me especially. Our time on this planet is fleeting, why put up with crap if you <a href="/blog/dont-put-up-with-crap.html">don't have to</a>?</p>
+<p>A codebase high in technical debt means that feature delivery slows to a <strong>crawl</strong>. It's frustrating when a simple task ends up being 10x more difficult than it has to be, due to working around existing hacks and hooks.</p>
+<p>No one likes to be unproductive day after day. It's defeating and stressful. The worst part is how vicious this cycle is:</p>
+<ul>
+<li>More debt -&gt; Lower productivity</li>
+<li>Lower productivity -&gt; Less features delivered</li>
+<li>Less features delivered -&gt; Fall behind schedule</li>
+<li>Fall behind schedule -&gt; Take on more debt..</li>
+</ul>
+<h2>Lowers Morale</h2>
+<p>We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the <strong>@#!$</strong> is this mess".</p>
+<p>This is demoralizing to developers, who are usually the ones who have to carry this extra burden. It's like being asked to run a race, but your lane is filled with sand. Then you have to explain afterwards why you weren't able to run as fast as before.</p>
+<p>The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.</p>
+<h2>Making Changes Become Difficult</h2>
+<p>From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Everything becomes <em>difficult</em>, because the code has too many dependencies, lacks documentation, or is missing adequate unit-testing. All because of technical debt.</p>
+<p>No one wants to touch XYZ module, because they know it'll cause a cascade of subsequent changes in other areas of the code. Every fix introduces more bugs. Faced with deadlines, developers may even resort to the "check-in code, throw it over the wall, and hope nothing breaks" approach.</p>
+<p>What's worse is when adding new features or upgrading to next-gen hardware becomes <em>risky</em>. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.</p>
+<h2>Skills Stop Improving</h2>
+<p>Technical debt slows down progress and innovation in your software. This also applies directly to your developers. More time spent on working through debt means less time improving skills or learning new practices.</p>
+<p>It's demotivating when your peers are talking about applying new coding languages, design practices, and frameworks to their exciting projects, while you know what waits for you at work tomorrow will be the same problems in a crippling codebase.</p>
+<p>This can lead to disgruntled and unhappy developers. Eventually, the ones who want to make improvements, contribute their ideas, and add impactful solutions will leave. And these are the ones the business can least afford to lose.</p>
+<h2>Technical Debt Is Not Just About Code</h2>
+<p>Technical debt is a <a href="http://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/">positive and necessary step</a> in software engineering. You can capture time-bound market opportunities, meet aggressive deadlines, or quickly gather early feedback from customers. The key is paying it down periodically.</p>
+<p>It's difficult to quantify the cost of technical debt. Especially to the business, who may not see tangible results from resources used. But every successful software company needs to have a strategy on how they prioritize and reconcile their debt.</p>
+<p>Many people view technical debt as a business or code problem, without realizing the toll it has on its developers. Mismanaging this leverage is not only costly to a company's agility and software quality, but also to its employees.</p>
+   </p>
+
+   <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="How Technical Debt Affects Your Developers" data-via="alextrle">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      &nbsp;&nbsp;
+      <g:plusone size="medium"></g:plusone>
+      <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+      <span style="float: right;"><a href="/">&larr; back to home page</a></span>
+   </p>
+</div>
+
+      </article>
+
+      <!-- FOOTER -->
+      <div id="footer">
+         <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+               <li class="pure-menu-item"><a href="https://twitter.com/alextrle" title="Twitter" target="_blank" class="pure-menu-link">Twitter</a></li>
+               <li class="pure-menu-item"><a href="https://www.linkedin.com/in/alexle" title="LinkedIn" target="_blank" class="pure-menu-link">LinkedIn</a></li>
+               <li class="pure-menu-item"><a href="https://github.com/alexle" title="Github" target="_blank" class="pure-menu-link">GitHub</a></li>
+               <li class="pure-menu-item"><a href="http://www.strava.com/athletes/alexle" title="Strava" target="_blank" class="pure-menu-link">Strava</a></li>
+               <li class="pure-menu-item"><a href="/rss.xml" title="RSS" target="_blank" class="pure-menu-link">RSS</a></li>
+               <li class="pure-menu-item"><a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a></li>
+            </ul>
+         </div> <!-- end pure-menu -->
+         <script type="text/javascript">
+            var d = new Date()
+            document.write("<div class='copyright'>Copyright &copy; " + d.getFullYear() + " Alex Le</div>")
+         </script>
+      </div> <!-- end FOOTER -->
+   </div> <!-- end CONTENT -->
+
+</div> <!-- end WRAPPER -->
+
+</body>
+</html>
