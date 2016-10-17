@@ -62,7 +62,7 @@ From my experience, it's clear software has taken on too much debt when develope
 
 The result is no one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. In this environment, fixes often introduce more bugs.
 
-The worst is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
+The clincher is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
 
 ##Skills Stop Improving##
 
