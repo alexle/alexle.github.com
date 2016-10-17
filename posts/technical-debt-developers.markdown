@@ -13,7 +13,7 @@ Everyone knows what debt is. It's something you owe in exchange for acquiring so
 
 The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold this debt, the larger the interest payments grow.
 
-[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Get your product to market faster, ship your software today, in return for cutting corners or using a quick & dirty design. This "debt" is cost that has to be paid eventually, and with **interest**.
+[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Cut corners or use a quick & dirty design to get your product to market faster, to ship your software today. This "debt" is cost that has to be paid eventually, and with **interest**.
 
 For example, use a global variable to save a day's work in order to make a code release deadline. But it'll cost more than a day's work to fix it later. The longer debt stays in your code, the more expensive it'll be make changes.
 
@@ -60,7 +60,7 @@ The relationship among teams can also be affected by technical debt. Resentment 
 
 From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing. Everything just becomes *difficult*.
 
-It's terrible when no one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. In this environment, fixes often introduce more bugs.
+The result is no one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. In this environment, fixes often introduce more bugs.
 
 The worst is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
 
