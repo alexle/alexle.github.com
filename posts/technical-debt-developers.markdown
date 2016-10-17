@@ -31,7 +31,7 @@ There are many arguments for and against technical debt. This post explores a di
 
 I'm a firm believer that without routine cleanup (i.e. refactoring), software will **atrophy**. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
 
-However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even *quicker* and complexity increases. Something that would have been a 2 point story a couple months ago is now an 8 point story.
+However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even quicker and complexity increases. Something that would have been a 2 point story a couple months ago is now an 8 point story.
 
 This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.
 
@@ -60,9 +60,9 @@ The relationship among teams can also be affected by technical debt. Resentment 
 
 From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing. Everything just becomes *difficult*.
 
-No one wants to touch XYZ module, because they know it'll cause a cascade of subsequent changes in other areas of the code. Every fix introduces more bugs. Faced with deadlines, developers may even resort to the "check-in code, throw it over the wall, and hope nothing breaks" approach.
+It's terrible when no one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. In this environment, fixes often introduce more bugs.
 
-What's worse is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
+The worst is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, leaving this strain for the next person under the believe that "the next guy/girl will make this right". Clearly, this is not a good culture to cultivate.
 
 ##Skills Stop Improving##
 
