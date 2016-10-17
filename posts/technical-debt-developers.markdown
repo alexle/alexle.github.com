@@ -15,7 +15,7 @@ The price for this service is your debt incurs "interest" - a percentage charged
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Get your product to market faster, ship your software today, in return for cutting corners or using a quick & dirty design. This "debt" is cost that has to be paid eventually, and with **interest**.
 
-For example, a global variable is used to save a day's work in order to make a code release deadline. But it'll cost more than a day's work to fix it later. The longer debt stays in your code, the more expensive it'll be make changes.
+For example, use a global variable to save a day's work in order to make a code release deadline. But it'll cost more than a day's work to fix it later. The longer debt stays in your code, the more expensive it'll be make changes.
 
 ##Is Technical Debt Bad Then?##
 
