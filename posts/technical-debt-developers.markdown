@@ -25,7 +25,7 @@ Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical 
 
 They were successful because they got a product to market **fast** and **at the right time**. It doesn't matter how beautiful your state machine is or how efficient your algorithms are if your product ships late and no one buys it.
 
-Technical debt can actually be a very powerful tool, if leveraged and managed correctly. This post explores debt from a different angle - the negative effects it has on developers. Yes, we have feelings too!
+Technical debt can be a powerful tool, if leveraged and managed correctly. This post explores debt from a different angle - the negative effects it has on developers. Yes, we have feelings too!
 
 ##Tough Work Environment##
 
