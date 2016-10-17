@@ -19,7 +19,7 @@ For example, use a global variable to save a day's work in order to make a code 
 
 ##Is Technical Debt Bad Then?##
 
-9 years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge all of it from our codebase and we can't take on ANY new debt.
+Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge all of it from our codebase and we can't take on ANY new debt.
 
 Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical debt. At the same time, I've learned that businesses aren't successful because they had perfect code.
 
@@ -29,9 +29,9 @@ There are many arguments for and against technical debt. This post explores a di
 
 ##Tough Work Environment##
 
-I'm a firm believer that without routine cleanup (i.e. refactoring), software will atrophy. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
+I'm a firm believer that without routine cleanup (i.e. refactoring), software will **atrophy**. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
 
-However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even *quicker*. Something that would have been a 2 point story a couple months ago is now an 8 point story.
+However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even *quicker* and complexity increases. Something that would have been a 2 point story a couple months ago is now an 8 point story.
 
 This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.
 
