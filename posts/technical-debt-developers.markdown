@@ -58,15 +58,17 @@ The relationship among teams can also be affected by technical debt. Resentment 
 
 ##Making Changes Become Difficult##
 
-From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing. Everything just becomes *difficult*.
+From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing.
 
-The result is no one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. In this environment, fixes often introduce more bugs.
+Everything just becomes *difficult*.
+
+No one wants to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. Fixes can even introduce more bugs.
 
 The clincher is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
 
 ##Skills Stop Improving##
 
-Technical debt slows down progress and innovation in your software. This also applies directly to your developers. More time spent on working through debt means less time improving skills or learning new practices.
+Technical debt slows down progress and innovation in your software. This also applies directly to your developers. More time spent on working through debt means less time improving skills or learning new technology.
 
 It's demotivating when your peers are talking about applying new coding languages, design practices, and frameworks to their exciting projects, while you know what waits for you at work tomorrow will be the same problems in a crippling codebase.
 
@@ -78,7 +80,7 @@ Technical debt is a [positive and necessary step][3] in software engineering. Yo
 
 It's difficult to quantify the cost of technical debt. Especially to the business, who may not see tangible results from resources used. But every successful software company needs to have a strategy on how they prioritize and reconcile their debt.
 
-Many people view technical debt as a business or code problem, without realizing the toll it has on its developers. Mismanaging this leverage is not only costly to a company's agility and software quality, but also to its employees.
+Many people view technical debt as a business or code problem, without realizing the toll it has on its developers. Mismanaging this leverage not only hampers a company's agility and software quality, but also its employees.
 
 [1]: https://en.wikipedia.org/wiki/Technical_debt
 [2]: /blog/dont-put-up-with-crap.html
