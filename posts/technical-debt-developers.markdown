@@ -11,11 +11,11 @@ meta: Technical debt is a necessary step in software engineering. However, it ca
 
 Everyone knows what debt is. It's something you owe in exchange for acquiring something now. Get a house today and owe the bank a bunch of money for 30 years.
 
-The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold this debt, the larger the interest payments grow.
+The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold it, the more interest you pay.
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain some market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software. This "debt" has to be paid eventually though - and with **interest**.
 
-An example is using a global variable that saves a day's work in order to make a code deadline. But it'll cost more than a day's work to fix it later. The longer debt stays in your code, the more expensive it'll be make changes.
+In other words, use a global variable and save a day's work in order to make a code deadline. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design. The longer debt stays in your code, the more expensive it is to make changes.
 
 ##Is Technical Debt Bad Then?##
 
