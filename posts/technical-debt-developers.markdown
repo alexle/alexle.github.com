@@ -13,7 +13,7 @@ Everyone knows what debt is. It's something you owe in exchange for acquiring so
 
 The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold it, the more interest you pay.
 
-[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain some market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software. This "debt" has to be paid eventually though - and with **interest**.
+[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software. This "debt" has to be paid eventually though - and with **interest**.
 
 In other words, use a global variable and save a day's work in order to make a code deadline. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design. The longer debt stays in your code, the more expensive it is to make changes.
 
