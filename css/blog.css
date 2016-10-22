@@ -179,16 +179,17 @@ a.button-item { color: #e87000; }
 
 blockquote {
    position: relative;
-   font-size: 22px;
    font-style: italic;
+   font-size: 1.2em;
+   line-height: 1.4em;
    margin-top: 1em;
    padding-left: 0.2em;
 }
 
 blockquote:before {
     position: absolute;
-    font-size: 3em;
-    top: 0.25em;
+    font-size: 2.8em;
+    top: 0.20em;
     left: -0.5em;
     content: "\201C";
 }
