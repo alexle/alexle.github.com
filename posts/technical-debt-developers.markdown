@@ -35,7 +35,7 @@ However, when shortcuts are constantly taken and proper designs are skipped, the
 
 This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.
 
-##Decreases Productivity##
+##Debt Decreases Productivity##
 
 Most people I know despise inefficiencies. Me especially. Our time on this planet is fleeting, why put up with crap if you [don't have to][2]?
 
@@ -48,7 +48,7 @@ No one likes to be unproductive day after day. It's defeating and stressful. The
 * Less features delivered -> Fall behind schedule
 * Fall behind schedule -> Take on more debt..
 
-##Lowers Morale##
+##Debt Lowers Morale##
 
 We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the **@#!$** is this mess".
 
@@ -56,7 +56,7 @@ This is demoralizing to developers, who are usually the ones who have to carry t
 
 The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.
 
-##Making Changes Become Difficult##
+##Debt Makes Change Difficult##
 
 From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing.
 
