@@ -15,11 +15,11 @@ The price for this service is your debt incurs "interest" - a percentage charged
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software. This "debt" has to be paid eventually though - and with **interest**.
 
-In other words, use a global variable and save a day's work in order to make a code deadline. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design. The longer debt stays in your code, the more expensive it is to make changes.
+In other words, use a global variable and save a day's work so you can make a code release. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design. The longer debt stays in your code, the more expensive it is to make changes.
 
 ##Is Technical Debt Bad Then?##
 
-Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge all of it from our codebase and we can't take on ANY new debt.
+Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge it from our codebase. We can't take on ANY new debt.
 
 Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical debt. At the same time, I've learned that businesses aren't successful because they had perfect code.
 
