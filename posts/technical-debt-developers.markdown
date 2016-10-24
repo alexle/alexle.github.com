@@ -52,7 +52,7 @@ No one likes to be unproductive day after day. It's defeating and stressful. The
 
 We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the **@#!$** is this mess".
 
-This is demoralizing to developers, who are usually the ones who have to carry this extra burden. It's like being asked to run a race, but your lane is filled with sand. Then you have to explain afterwards why you weren't able to run as fast as before.
+This is demoralizing to developers, who are the ones who have to carry this burden. It's like running a race, but your lane is filled with sand. Then you have to explain afterwards why you weren't able to run as fast as before.
 
 The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.
 
