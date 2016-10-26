@@ -7,13 +7,17 @@ meta: Blogging should be easy. You should also own your own content. Here's why 
 
 In an earlier [post][1], I expressed my desire to write more. While Google Blogger was a good platform to start on, I quickly realized how closed and limiting it was.
 
-*  When you use a hosted platform like Wordpress, Blogger, or Tumblr, you don't own the site. The host does. Remember when the blogging site Posterous shut down? Everyone's unique page designs, blog links, and content were gone.
-* There are restrictions on what you can customize and how. Most solutions involve wedging in plug-ins which don't quite fit, or purchasing expensive pre-made themes (which are also inflexible themselves).
+*  When you use a hosted platform like Wordpress, Blogger, or Tumblr, you don't own the site. The host does. Remember when the blogging site Posterous shut down? Everyone'custom page designs, blog links, and content disappeared.
+* There are restrictions on what you can customize and how. Most solutions involve wedging using plug-ins which don't quite fit, or purchasing expensive pre-made themes (which are also inflexible themselves).
 * Hosted platforms don't offer methods to back-up your content, nor allow you to switch to a different platform easily.
 
-After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms? Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application which generates the site dynamically when requested. There's no complicated back-end server.
+After some research, I found an interesting alternative for my blog -- static websites. How do these differ from traditional blogging platforms?
 
-Most static sites are created from [static site generators][3]. These are small programs which process text files into an HTML website. It's generally done through the use of template languages. As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?  
+Well, static websites serve simple html/css pages **as they are stored** on the webserver's file system. Think of accessing FTP files in the old days. There's no application which generates the site dynamically when requested. There's no complicated back-end server.
+
+Most static sites are created from [static site generators][3]. These are small programs which convert text files into an HTML website. It's generally done through the use of template languages.
+
+As an added bonus, static site generators follow rule #29 of The Pragmatic Programmer, "Write code that writes code" -- How cool is that?  
 
 The advantages of static sites are numerous. Here are the main reasons why server-side content management systems like WordPress, Tumblr, and Blogger didn't work for me:
 
@@ -25,7 +29,9 @@ This gives me much freedom in creating and hosting my blog. Want to switch ito a
 
 ##2. WYSIWYG Editor Stinks##
 
-The WYSIWYG, or "what you see is what you get" editor, is the plain text box used in most blogging platforms for inputting text. Some people are ok with using it to edit posts, but the WYSIWYG box is extremely limiting for me. As a software developer, I live in my VIM text editor. This includes:
+The WYSIWYG, or "what you see is what you get" editor, is the plain text box used in most blogging platforms for inputting text. Some people are ok with using it to edit posts, but the WYSIWYG box is extremely limiting for me.
+
+As a software developer, I live in my VIM text editor. This includes:
 
 + efficient text movement (VIM)
 + easy text manipulation (dw, yy)
@@ -38,7 +44,7 @@ Writing page after page using the WYSIWYG is a pain-staking endeavor.
 
 ##3. Simple, Minimal##
 
-Another appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use.
+An appeal of moving to a static site is the simplicity of it. Markdown text file goes in, HTML file comes out. Everything is stripped down to the bare minimum. There's no complicated databases, no hard to navigate GUI's, no extra bells and whistles I won't use.
 
 ##4. Additional Tools##
 
@@ -55,7 +61,7 @@ I decided on [Github Pages][2] to host my blog. It's a great service which publi
 1. Version control - I'm able to view every change I've committed, roll files back to any version.
 2. Redundancy - The source code resides on a central repository, which I can pull to any computer, anywhere. If Github goes down, I still have a copy on my local machine.
 
-Designing the HTML/CSS was a fun experience as well. The layout is much more simple and maintainable now. If I want And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.
+Designing the HTML/CSS was a fun experience as well. The layout is much more simple and maintainable now. And I certainly don't miss the "magic" HTML/CSS/plugins added in the site's code from a CMS.
 
 ##6. Simplify Workflow##
 
@@ -65,7 +71,9 @@ I'm able to view my site locally as much as needed, similar to working on a "dev
 
 <hr>
 
-In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the management of unneeded features. Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my [own RSS feed][7], a local server for development, and just recently, custom syntax highlighting.
+In the end, moving to a static site gave me the freedom and control I was looking for in a blogging platform. It has let me concentrate more on my writing, and not on the management of unneeded features.
+
+Also, I've greatly enjoyed starting from a minimal setup and adding in new features as I go, such as my [own RSS feed][7], a local server for development, and just recently, custom syntax highlighting.
 
 If you're curious, I settled on using [Chisel][4], a static site generator which is only **104 lines** of python. Feel free to [fork][6] it on my Github!
 
