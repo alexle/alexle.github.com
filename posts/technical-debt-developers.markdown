@@ -13,9 +13,13 @@ Everyone knows what debt is. It's something you owe in exchange for acquiring so
 
 The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold it, the more interest you pay.
 
-[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software. This "debt" has to be paid eventually though - and with **interest**.
+[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain market advantage, ship your product today, in exchange for a quick & dirty design or some corners cut in your software.
 
-In other words, use a global variable and save a day's work so you can make a code release. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design. The longer debt stays in your code, the more expensive it is to make changes.
+This "debt" has to be paid eventually though - and with **interest**.
+
+In other words, use a global variable and save a day's work so you can make a code release. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design.
+
+The longer debt stays in your code, the more expensive it is to make changes.
 
 ##Is Technical Debt Bad Then?##
 
@@ -52,7 +56,7 @@ No one likes to be unproductive day after day. It's defeating and stressful. The
 
 We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the **@#!$** is this mess".
 
-This is demoralizing to developers, who are the ones who have to carry this burden. It's like running a race, but your lane is filled with sand. Then you have to explain afterwards why you weren't able to run as fast as before.
+This is demoralizing to developers, who are the ones who have to carry this burden. It's like running a race, but your lane is filled with sand. Then you have to explain why you weren't able to run as fast as before.
 
 The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.
 
@@ -76,7 +80,9 @@ This can lead to disgruntled and unhappy developers. Eventually, the ones who wa
 
 ##Technical Debt Is Not Just About Code##
 
-Technical debt is a [positive and necessary step][3] in software engineering. You can capture time-bound market opportunities, meet aggressive deadlines, or quickly gather early feedback from customers. The key is paying it down periodically.
+Technical debt is a [positive and necessary step][3] in software engineering. You can capture time-bound market opportunities, meet aggressive deadlines, or quickly gather early feedback from customers.
+
+The key is paying it down periodically.
 
 It's difficult to quantify the cost of technical debt. Especially to the business, who may not see tangible results from resources used. But every successful software company needs to have a strategy on how they prioritize and reconcile their debt.
 
