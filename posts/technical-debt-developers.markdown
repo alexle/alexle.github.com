@@ -19,8 +19,6 @@ This "debt" has to be paid eventually though - and with **interest**.
 
 In other words, use a global variable and save a day's work so you can make a code release. But left unchecked, it'll add more effort and complexity to your future development, since you didn't choose the best design.
 
-The longer debt stays in your code, the more expensive it is to make changes.
-
 ##Is Technical Debt Bad Then?##
 
 Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge it from our codebase. We can't take on ANY new debt.
@@ -44,6 +42,8 @@ This leads to schedules slipping and deadlines missed. Which leads to painful di
 Most people I know despise inefficiencies. Me especially. Our time on this planet is fleeting, why put up with crap if you [don't have to][2]?
 
 A codebase high in technical debt means that feature delivery slows to a **crawl**. It's frustrating when a simple task ends up being 10x more difficult than it has to be, due to working around existing hacks and hooks.
+
+The longer debt stays in your code, the more expensive it is make changes or add features.
 
 No one likes to be unproductive day after day. It's defeating and stressful. The worst part is how vicious this cycle is:
 
