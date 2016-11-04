@@ -15,7 +15,7 @@ The price for this service is your debt incurs "interest" - a percentage charged
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain instant market advantage, ship your product today!
 
-All it takes is a quick & dirty design or some corners cut in your software. The problem is this "debt" has to be paid eventually - and with **interest**.
+All it costs you are some corners cut in your software or moving ahead with a quick & dirty design. The problem is this "debt" has to be paid eventually - and with **interest**.
 
 In other words, use a global variable and save a day's work to make a code release. But left unchecked, it adds **more effort and complexity** to your future development, since you didn't choose the best design.
 
@@ -66,7 +66,7 @@ From my experience, it's clear software has taken on too much debt when develope
 
 Everything just becomes *difficult*.
 
-People don't want to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. Fixes can even introduce more bugs.
+People become hesitant to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. Fixes can even introduce more bugs.
 
 The clincher is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
 
