@@ -15,9 +15,9 @@ The price for this service is your debt incurs "interest" - a percentage charged
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain instant market advantage, ship your product today!
 
-All it costs you are some corners cut in your software or moving ahead with a quick & dirty design. The problem is this "debt" has to be paid eventually - and with **interest**.
+All it costs you are some corners cut in your software or using a quick & dirty design. The problem is this "debt" has to be paid eventually - and with **interest**.
 
-In other words, use a global variable and save a day's work to make a code release. But left unchecked, it adds **more effort and complexity** to your future development, since you didn't choose the best design.
+In other words, use a global variable and save a day's work to make a code release. But left unchecked, it'll add **more effort and complexity** to your future development, since you didn't choose the best design.
 
 ##Is Technical Debt Bad Then?##
 
@@ -33,7 +33,7 @@ Technical debt can be a powerful tool, if leveraged and managed correctly. This 
 
 I'm a firm believer that without routine cleanup (i.e. refactoring), software will **atrophy**. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
 
-However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even quicker and complexity increases. Something that would have been a 2 point story a couple months ago is now an 8 point story.
+However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even quicker. Something that would have been a 2 point story a couple months ago is now an 8 point story.
 
 This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.
 
