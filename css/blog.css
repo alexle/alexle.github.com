@@ -164,6 +164,8 @@ img.center {
 .separator {
    clear: both;
    text-align: center;
+   font-size: 80%;
+   color: #777;
 }
 
 .button-list { text-align: center; }

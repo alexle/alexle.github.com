@@ -5,6 +5,11 @@ image: /static/pearl_street_mile_alex_le.jpg
 meta: A race recap of my experience at the Pearl Street Mile. Bring back the mile!
 ---
 
+<p>
+<img class="pure-img center" src="/static/daniel_joder_pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le image by daniel joder" />
+<div class="separator">Photo by <a href="http://www.danieljoderphotography.com/">Daniel Joder</a></div>
+</p>
+
 "How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?"
 
 For most runners, it's all about how far and how long you go nowadays. Anything shorter than a half-marathon gets tossed in the "not-impressive" category.
@@ -66,10 +71,10 @@ I finally see people getting on 14th, which means this madness is almost over. I
 
 <p>
 <img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
-<div class="separator">Photo credit to my coworker. Short shorts rule!</div>
+<div class="separator">Photo by Coworker | Look at those shorts!</div>
 </p>
 
-My coworker yells 'Run faster!', but I don't hear him or anyone else around me. My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
+My coworker yells 'Run faster!' but I don't hear him or anyone else around me. My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
 I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
 
