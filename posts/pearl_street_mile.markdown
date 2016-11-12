@@ -6,7 +6,7 @@ meta: A race recap of my experience at the Pearl Street Mile. Bring back the mil
 ---
 
 <p>
-<img class="pure-img center" src="/static/alex_le_pearl_street_mile_daniel_joder_crop2.jpg" alt="pearl street mile alex le image by daniel joder" />
+<img class="pure-img center" src="/static/alex_le_pearl_street_mile_daniel_joder_crop.jpg" alt="pearl street mile alex le image by daniel joder" />
 <div class="separator">Photo by <a href="http://www.danieljoderphotography.com/">Daniel Joder</a></div>
 </p>
 
