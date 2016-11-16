@@ -27,9 +27,9 @@ Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical 
 
 They were successful because they got a product to market **fast** and **at the right time**. It doesn't matter how beautiful your state machine is or how efficient your algorithms are if your product ships late and no one buys it.
 
-Technical debt can be a powerful tool, if leveraged and managed correctly. This post explores debt from a different angle - the negative effects it has on developers. Yes, we have feelings too!
+Technical debt can be a powerful tool, if managed correctly. This post explores debt from a different angle - the negative effects it has on developers. Here are 5 ways debt affects developers.
 
-##Tough Work Environment##
+##1. Tough Work Environment##
 
 I'm a firm believer that without routine cleanup (i.e. refactoring), software will **atrophy**. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
 
@@ -37,7 +37,7 @@ However, when shortcuts are constantly taken and proper designs are skipped, the
 
 This leads to schedules slipping and deadlines missed. Which leads to painful discussions and finger-pointing between developers, managers, and the business group. It's not a fun environment to be in when everyone has different views on reality.
 
-##Debt Decreases Productivity##
+##2. Debt Decreases Productivity##
 
 Most people I know despise inefficiencies. Me especially. Our time on this planet is fleeting, why put up with crap if you [don't have to][2]?
 
@@ -52,7 +52,7 @@ No one likes to be unproductive day after day. It's defeating and stressful. The
 * Less features delivered -> Fall behind schedule
 * Fall behind schedule -> Take on more debt..
 
-##Debt Lowers Morale##
+##3. Debt Lowers Morale##
 
 We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the **@#!$** is this mess".
 
@@ -60,7 +60,7 @@ This is demoralizing to developers, who are the ones who have to carry this burd
 
 The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.
 
-##Debt Makes Change Difficult##
+##4. Debt Makes Change Difficult##
 
 From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing.
 
@@ -68,9 +68,9 @@ Everything just becomes *difficult*.
 
 People become hesitant to touch module XYZ, because they know it'll cause a cascade of subsequent changes in other areas of the code. Fixes can even introduce more bugs.
 
-The clincher is when adding new features or upgrading to next-gen hardware become *risky*. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
+The clincher is when adding new features or upgrading to next-gen hardware become **risky**. This leads to developers touching things as little as possible, saying to themselves that "the next person will make this right". Clearly, this is not a good culture to cultivate.
 
-##Skills Stop Improving##
+##5. Skills Stop Improving##
 
 Technical debt slows down progress and innovation in your software. This also applies directly to your developers. More time spent on working through debt means less time improving skills or learning new technology.
 
