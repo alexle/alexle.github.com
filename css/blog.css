@@ -9,6 +9,10 @@ html, button, input, select, textarea,
    font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+   --main_color: #333333;
+}
+
 /* LAYOUT */
 #wrapper {
    max-width: 37em;
@@ -24,7 +28,7 @@ html, button, input, select, textarea,
    margin: 0em;
 }
 
-#header a { color: #333333; }
+#header a { color: var(--main_color); }
 
 #subheader h2 {
    font-family: 'Raleway', sans-serif;
@@ -67,7 +71,7 @@ html, button, input, select, textarea,
 body {
    font-size: 1.1em;
    line-height: 1.55em;
-   color: #333333;
+   color: var(--main_color);
 }
 
 h1 { font-size: 1.6em; }
@@ -89,8 +93,7 @@ a {
 }
 
 a:link, a:visited {
-   color: #0084B4;
-   color: #e87000;
+   color: #E87000;
    text-decoration: none;
 }
 
@@ -103,7 +106,7 @@ a:hover, a:focus {
 
 /* HOME CSS */
 a.home-title-link:link, a.home-title-link:visited, a.home-title-link:hover {
-   color: #333333;
+   color: var(--main-color);
 }
 
 h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
@@ -175,7 +178,7 @@ img.center {
    margin: 0 0.8em 0 0.8em;
 }
 
-a.button-item { color: #e87000; }
+a.button-item { color: #E87000; }
 
 .hr-post { border-top: 1px solid #eeeeee; }
 
