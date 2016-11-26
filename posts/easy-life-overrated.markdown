@@ -1,6 +1,6 @@
 ---
 title: Why An Easy Life Is Overrated
-date: 11-26-2016
+date: 11-25-2016
 image: /static/wall_e_couch.jpg
 meta: We all strive for an easy life. But is it really all it's made out to be?
 ---
