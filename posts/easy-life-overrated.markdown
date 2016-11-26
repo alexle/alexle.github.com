@@ -64,7 +64,7 @@ More importantly, a challenging life shapes and defines you in other positive wa
 * It allows you to grow
 * It exposes you to life's highs and lows
 
-Challenges give you purpose. And overcoming them makes life **meaningful**. I love this quote by Sheryl Sandberg, COO of Facebook, which I feel sums it up best:
+Challenges give you purpose. And overcoming them makes life **meaningful**. Sheryl Sandberg, COO of Facebook, sums it up best:
 
 > It is the hard days, the times that challenge you to your very core, that will determine who you are.
 
@@ -72,7 +72,7 @@ Challenges give you purpose. And overcoming them makes life **meaningful**. I lo
 
 Don't get me wrong. I'm all for easy days as much as the next person. Our bodies and minds need time to rest, recharge, and reflect.
 
-I'm merely stating that there is value in hardship. Instead of seeking out a life of ease, we should embrace the **hard paths** in front in front of us. They are golden opportunities to grow and learn from.
+I'm merely stating that there is value in hardship. Instead of seeking out a life of ease, we should embrace the **hard** paths in front of us. To use them as opportunities to grow and expand.
 
 If it's one thing I've learned in 2016, it's that we are capable of much, *much* more than we think we can do.
 
