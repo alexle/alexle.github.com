@@ -7,10 +7,11 @@ meta: My experience training for a marathon in 9 weeks. Would it be possible?
 
 It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I told my body if it could hang on until the finish line, it would never have to run another mile again.
 
-Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [**full marathon**][4].
+Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [full marathon][4].
 
 <p>
-<img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug life bug zapper purple" />
+<img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug zapper from disney's a bug life" />
+<div class="separator">Photo from Disney's <a href="http://movies.disney.com/a-bugs-life">A Bug's Life</a></div>
 </p>
 
 While the "full" is a (seemingly) logical next step from a half-marathon, my situation is slightly unconventional for a couple of reasons:

@@ -11,6 +11,8 @@ html, button, input, select, textarea,
 
 :root {
    --main_color: #333333;
+   --home_post_caption_color: #777;
+   --home_post_caption_size: 80%;
 }
 
 /* LAYOUT */
@@ -114,8 +116,8 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
 }
 
 .home-date, .post-date {
-   color: #888888;
-   font-size: 85%;
+   color: var(--home_post_caption_color);
+   font-size: var(--home_post_caption_size);
 }
 
 .home-image {
@@ -167,8 +169,8 @@ img.center {
 .separator {
    clear: both;
    text-align: center;
-   font-size: 80%;
-   color: #777;
+   color: var(--home_post_caption_color);
+   font-size: var(--home_post_caption_size);
 }
 
 .button-list { text-align: center; }
@@ -185,8 +187,8 @@ a.button-item { color: #E87000; }
 blockquote {
    position: relative;
    font-style: italic;
-   font-size: 1.2em;
-   line-height: 1.4em;
+   font-size: 1.15em;
+   line-height: 1.5em;
    margin-top: 1em;
    padding-left: 0.2em;
 }
