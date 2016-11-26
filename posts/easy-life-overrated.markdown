@@ -60,11 +60,11 @@ More importantly, a challenging life shapes and defines you in other positive wa
 
 * It stretches your limits
 * It builds character and strength
-* It makes you more resilient and resourceful
+* It makes you resilient and resourceful
 * It allows you to grow
 * It exposes you to life's highs and lows
 
-Challenges give you purpose. And overcoming them makes life **meaningful**. Sheryl Sandberg, COO of Facebook, sums it up best:
+Challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
 
 > It is the hard days, the times that challenge you to your very core, that will determine who you are.
 
