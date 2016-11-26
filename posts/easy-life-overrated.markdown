@@ -56,7 +56,7 @@ It's like those people who win the lottery and throw it all away in a couple yea
 
 Conversely, when you put your heart and soul into a goal, you're going to appreciate that success more. You'll take pride and satisfaction in your accomplishment, knowing the sweat and work it took.
 
-More importantly, a challenging life shapes and defines you in many positive ways:
+More importantly, a challenging life shapes and defines you in other positive ways:
 
 * It stretches your limits
 * It builds character and strength
