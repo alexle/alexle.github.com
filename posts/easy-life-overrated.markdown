@@ -56,7 +56,7 @@ It's like those people who win the lottery and throw it all away in a couple yea
 
 Conversely, when you put your heart and soul into a goal, you're going to appreciate that success more. You'll take pride and satisfaction in your accomplishment, knowing the sweat and work it took.
 
-More importantly, a challenging life shapes and defines you in other positive ways:
+A challenging life also shapes and defines you in other positive ways:
 
 * It stretches your limits
 * It builds character and strength
@@ -64,7 +64,7 @@ More importantly, a challenging life shapes and defines you in other positive wa
 * It allows you to grow
 * It exposes you to life's highs and lows
 
-Challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
+Most importantly, challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
 
 > It is the hard days, the times that challenge you to your very core, that will determine who you are.
 
