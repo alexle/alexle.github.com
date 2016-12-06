@@ -13,15 +13,15 @@ Everyone knows what debt is. It's something you owe in exchange for acquiring so
 
 The price for this service is your debt incurs "interest" - a percentage charged to your debt. The longer you hold it, the more interest you pay.
 
-[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain instant market advantage, ship your product today!
+[Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Gain valuable market advantage. Ship your product early.
 
-All it costs you are some corners cut in your software or using a quick & dirty design. The problem is this "debt" has to be paid eventually - and with **interest**.
+All it costs are some corners cut in your software or using a quick & dirty design. The problem is this "debt" has to be paid eventually - and with **interest**.
 
-In other words, use a global variable and save a day's work to make a code release. But left unchecked, it'll add **more effort and complexity** to your future development, since you didn't choose the best design.
+In other words, use a global variable and save a day's work to make a code release. But left unchecked, it will add **more effort and complexity** to your future development, since you didn't choose the best design.
 
 ##Is Technical Debt Bad Then?##
 
-Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We need to purge it from our codebase. We can't take on ANY new debt.
+Many years ago, I would have answered with an emphatic **yes**. Technical debt is evil! We must purge all of it from our codebase. We can't take on ANY new debt.
 
 Nowadays, my views have somewhat changed. Yes, it isn't good to carry technical debt. At the same time, I've learned that businesses aren't successful because they had perfect code.
 
@@ -31,7 +31,7 @@ Technical debt can be a powerful tool, if managed correctly. This post explores 
 
 ##1. Tough Work Environment##
 
-I'm a firm believer that without routine cleanup (i.e. refactoring), software will **atrophy**. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
+I'm a firm believer that without routine cleanup (i.e. refactoring), software will atrophy. It's just a natural effect when changes are added. Keeping up with this maintenance is hard enough.
 
 However, when shortcuts are constantly taken and proper designs are skipped, the quality of code degrades even quicker. Something that would have been a 2 point story a couple months ago is now an 8 point story.
 
@@ -41,7 +41,7 @@ This leads to schedules slipping and deadlines missed. Which leads to painful di
 
 Most people I know despise inefficiencies. Me especially. Our time on this planet is fleeting, why put up with crap if you [don't have to][2]?
 
-A codebase high in technical debt means that feature delivery slows to a **crawl**. It's frustrating when a simple task ends up being 10x more difficult than it has to be, due to working around existing hacks and hooks.
+A codebase high in technical debt means that feature delivery slows to a crawl. It's frustrating when a simple task ends up being 10x more difficult than it has to be, due to working around existing hacks and hooks.
 
 The longer debt stays in your code, the more expensive it is make changes or add features.
 
@@ -56,13 +56,13 @@ No one likes to be unproductive day after day. It's defeating and stressful. The
 
 We've all faced our share of bad code. Usually, it's "this is awful, but I can work around this". But when technical debt is rampant in the code, it can easily become "what the **@#!$** is this mess".
 
-This is demoralizing to developers, who are the ones who have to carry this burden. It's like running a race, but your lane is filled with sand. Then you have to explain why you weren't able to run as fast as before.
+This is demoralizing to developers, who are the ones who have to carry this burden. Instead of excitement and willingness to work on the project, technical debt is a grind that can quickly cause developers to become disengaged and unmotivated.
 
 The relationship among teams can also be affected by technical debt. Resentment and animosity can arise if one group is always stuck with legacy code, while another gets the fresh, blemish-free projects.
 
 ##4. Debt Makes Change Difficult##
 
-From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, or lacks documentation, or is missing adequate unit-testing.
+From my experience, it's clear software has taken on too much debt when developers are afraid or unwilling to make changes. Maybe the code has too many dependencies, lacks documentation, or has inadequate unit-testing.
 
 Everything just becomes *difficult*.
 
@@ -80,7 +80,7 @@ This can lead to disgruntled and unhappy developers. Eventually, the ones who wa
 
 ##Technical Debt Is Not Just About Code##
 
-Technical debt is a [positive and necessary step][3] in software engineering. You can capture time-bound market opportunities, meet aggressive deadlines, or quickly gather early feedback from customers.
+Technical debt is a [positive and necessary step][3] in software engineering. You can capture time-bound market opportunities. Meet aggressive deadlines. Quickly gather early feedback from customers.
 
 The key is paying it down periodically.
 
