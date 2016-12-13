@@ -70,9 +70,9 @@ Most importantly, challenges give you purpose. And overcoming them makes life **
 
 ## Do You Still Want An Easy Life? ##
 
-Don't get me wrong. I'm all for easy days as much as the next person. Our bodies and minds need time to rest, recharge, and reflect.
+Don't get me wrong. I'm all for easy days as much as the next person. Some of life's best moments happen when we're simply taking life in. Our bodies and minds need time to rest, recharge, and reflect as well.
 
-I'm merely stating that there is value in hardship. Instead of seeking out a life of ease, we should embrace the **hard** paths in front of us. To use them as opportunities to grow and expand.
+I'm merely stating that there is value in hardship. Instead of seeking out a life of ease, why not embrace the **hard** paths in front of us? To use them as opportunities to grow and expand.
 
 If it's one thing I've learned in 2016, it's that we are capable of much, *much* more than we think we can do.
 
