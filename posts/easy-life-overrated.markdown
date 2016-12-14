@@ -56,6 +56,8 @@ It's like those people who win the lottery and throw it all away in a couple yea
 
 Conversely, when you put your heart and soul into a goal, you're going to appreciate that success more. You'll take pride and satisfaction in your accomplishment, knowing the sweat and work it took.
 
+## The Benefits Of Challenges ##
+
 A challenging life also shapes and defines you in other positive ways:
 
 * It stretches your limits
@@ -64,15 +66,17 @@ A challenging life also shapes and defines you in other positive ways:
 * It allows you to grow
 * It exposes you to life's highs and lows
 
-Most importantly, challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
+Think of a kid that was given everything growing up. Compare that to the kid who's had to work and earn everything for him or herself. Who would you guess is more prepared to succeed in life?
+
+More importantly, challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
 
 > It is the hard days, the times that challenge you to your very core, that will determine who you are.
 
 ## Do You Still Want An Easy Life? ##
 
-Don't get me wrong. I'm all for easy days as much as the next person. Some of life's best moments happen when we're simply taking life in. Our bodies and minds need time to rest, recharge, and reflect as well.
+Don't get me wrong. I'm all for easy days as much as the next person. Some of life's best moments happen when we're simply taking life in. Our bodies and minds need time to rest as well.
 
-I'm merely stating that there is value in hardship. Instead of seeking out a life of ease, why not embrace the **hard** paths in front of us? To use them as opportunities to grow and expand.
+I'm merely stating that there is **value** in hardship. Instead of seeking out a life of ease, why not embrace the hard paths in front of us? To use them as opportunities to grow and expand.
 
 If it's one thing I've learned in 2016, it's that we are capable of much, *much* more than we think we can do.
 
