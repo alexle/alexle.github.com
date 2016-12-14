@@ -33,11 +33,15 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 ##We're All Guilty##
 
-Odds are, if we looked closer at the annoyances we face each day, we would find distractions, energy-drainers, and inefficiencies all around us. The sad part is how entrenched they've become in our lives, to the point that we accept them as truths.
+If we take a closer look at our daily routines, odds are there are distractions and annoyances all around us.
+
+The sad part is how entrenched they've become in our lives. We barely notice them, to the point that we actually accept them as truths.
 
 And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how **numb** we've become to all of it.
 
-Why do we constantly choose to put up with crap we have the power to eliminate? Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
+Why do we constantly choose to put up with crap we have the power to eliminate?
+
+Perhaps there are more important things to focus on. Or it isn't that big of a problem yet. Or we simply just want to put on our sweatpants and watch Netflix.
 
 Whatever the reason, the longer an annoyance lingers around, the more familiar and normal it becomes in our lives. Until gradually, it ends up as just another blip in our daily routine.
 
@@ -45,11 +49,13 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
 
-First, I replaced the old sneakers that hurt my feet. Then, came organizing the messy closet and garage I couldn't stand to look at each day. Next, was replacing my tattered, uncomfortable desk chair with a sleek mesh task chair.
+I replaced the old sneakers that hurt my feet each day. I organized my messy closet and garage that bugged me each morning. The tattered, uncomfortable desk chair? Replaced with a sleek, mesh task chair that improved my posture.
 
-At work, I refactored a huge section of code that made me cry each time I opened the file. I even spoke to my boss and got out of a couple pointless meetings each week.
+At work, I refactored a huge section of code that made me cringe each time I worked on it. I spoke to my boss and got out of a couple pointless meetings each week.
 
-Why did I put this off, when it was so easy to remove? There was nothing to dread. Just like squishing a bug. Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
+When it was done, I felt *relieved*. Why had I put all this off, when it was so simple to remove? There was nothing to dread. Just like squishing a bug.
+
+Once you see crap in this light, it isn't hard to make changes. Here are some tips I found helpful:
 
 1. **Question Everything** - Every time something annoys you, make a conscious effort to decide if it's within your control. You don't have to fix it in that moment. Just acknowledge the fact that you are choosing to put up with this torment. This avoids letting it merge into your life.
 
