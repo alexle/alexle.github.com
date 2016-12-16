@@ -7,7 +7,9 @@ meta: Some runs are good. Some runs are bad. My first marathon was my worst run 
 
 Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 [Denver Rock N Roll][1] Marathon was one of them.
 
-The course and conditions were tough. It seemed as if you were always facing a 12mph headwind, no matter which direction you ran. The hills were plenty and unforgiving. And the distance was **unreal**. Aside from actually running 26.2 miles, I believe nothing can prepare you for it. Not 20, or 22, or even 24 miles.
+The course and conditions were tough. It seemed as if you were always facing a 12mph headwind, no matter which direction you ran. The hills were plenty and unforgiving.
+
+And the distance was **unreal**. Aside from actually running 26.2 miles, I believe nothing can prepare you for it. Not 20, or 22, or even 24 miles.
 
 <p>
 <a href="/static/2013-full-nike-map.jpg">
@@ -25,9 +27,11 @@ My overall goal, based on my long runs during training, was to finish in **4:24*
 
 ##Miles 1-13##
 
-5.. 4.. 3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex.
+3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex.
 
-The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. We could have gone through a desert for all I know. I was simply focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
+The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. We could have gone through a desert for all I know.
+
+I was simply focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
 
 At Mile 13, I caught up to the 3:30 pace group. Surprised, I looked at my watch and saw 1:43. Three thoughts immediately went through my head:
 
@@ -53,7 +57,9 @@ A wave of emotions hit me as I sat on the side, watching the other runners and s
 
 I didn't know how I could possibly continue for another **13 miles**. I seriously considered withdrawing. It's hard to admit, but I broke down at this point. I had trained and sacrificed so much to be here.
 
-And then I thought of my brother and sister waiting for me at the finish, who had woken up early to come support me in the dreary cold. I thought of all the people who would give anything to be in the situation I was in at that moment, but couldn't due to whatever circumstance. I even thought of a quote by Lance Armstrong:
+And then I thought of my brother and sister waiting for me at the finish, who had woken up early to come support me in the dreary cold.
+
+I thought of all the people who would give anything to be in the situation I was in at that moment, but couldn't due to whatever circumstance. I even thought of a quote by Lance Armstrong:
 
 > Pain is temporary. It may last a minute, or an hour, or a day, or a year, but eventually it will subside and something else will take its place. If I quit, however, it lasts forever.
 
