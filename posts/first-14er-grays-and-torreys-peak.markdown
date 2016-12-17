@@ -7,11 +7,15 @@ meta: A recap of my first 14er, hiking up Gray's and Torrey's.
 
 Last weekend, I hiked my first 14er. The term '14er' refers to any mountain peak that rises above 14,000 feet above sea level. While I've hiked trails in Colorado before (sub-12.5k feet), I didn't realize how different and challenging a 14er can be!
 
-The group consisted of myself and two friends from California visiting for the weekend. Since we had no experience with 14er's, we settled on a Class I route involving Gray's Peak first, with a second climb to Torrey's Peak after. According to [ProTrails][1], the hike was 8.4 miles round-trip with a net elevation gain of 3,011 feet. The trailhead started at 11,259' and the peaks topped out at 14,270' and 14,267'.
+The group consisted of myself and two friends from California visiting for the weekend. Since we had no experience with 14er's, we settled on a Class I route involving Gray's Peak first, with a second climb to Torrey's Peak after.
+
+According to [ProTrails][1], the hike was 8.4 miles round-trip with a net elevation gain of 3,011 feet. The trailhead started at 11,259' and the peaks topped out at 14,270' and 14,267'.
 
 ##The Climb Up##
 
-We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. The first section through the valley was relatively even and it was easy to keep a steady pace. Since high altitude compounds the body's need for water, we all reminded each other to stay hydrated. Having CamelBaks were handy in that we didn't have to stop to pull out water along the way.
+We began the trek at 8:12 am. The weather was cool, maybe low 60's at the car. The first section through the valley was relatively even and it was easy to keep a steady pace.
+
+Since high altitude compounds the body's need for water, we all reminded each other to stay hydrated. Having CamelBaks were handy in that we didn't have to stop to pull out water along the way.
 
 <p>
 <a href="/static/grays_valley.jpg">
@@ -55,7 +59,7 @@ After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm.
 </a>
 </p>
 
-A couple hundred feet up up Torrey's, the weather took a drastic turn. It was the beginning of July, Colorado had just gone through a heat wave, and the last thing any of us expected to see was.. **snow**. Yes, the soft fluffy stuff snowmen are built out of.
+A couple hundred feet up up Torrey's, the weather took a drastic turn. It was the beginning of July, Colorado had just gone through a heat wave, and the last thing any of us expected to see was.. **snow**. Yes, the soft fluffy stuff snowmen are made of.
 
 To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
 
@@ -73,7 +77,7 @@ We didn't spend too much time at Torrey's with the skies flashing and thundering
 
 On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. I couldn't believe it. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
 
-The hail eventually subsided into a steady **rain** shower, making the rocks really slippery while navigating down the trail. It wouldn't have been fun without our trekking poles. Finally, while still navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
+The hail eventually subsided into a steady **rain** shower, which made navigating the rocky terrain slippery and challenging. Our trekking poles helped tremendously. Finally, while navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
 ##Victory##
 
