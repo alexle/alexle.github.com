@@ -50,11 +50,11 @@ Here's an email I received email from a reader:
 
 > I was working on a project where I need to use python to send messages to a phone. I read your blog and found that it's extremely simple to do this with the short message gateway.
 
-> However, I've met a problem with this method. Sometimes when I send a message my phone instantly receives it. Other times it will take longer to received a message. I wonder if there is any way to make this more stable.
+> However, I've met a problem with this method. Sometimes when I send a message my phone instantly receives it. Other times it will take longer to receive a message. I wonder if there is any way to make this more stable.
 
 Hello reader!
 
-Unfortunately, using e-mail to SMS gateway have many limitations. Here are some that I know of, including the "extended period to receive" issue you mentioned:
+Unfortunately, using e-mail to SMS gateway has some limitations. Here are some that I know of, including the "extended period to receive" issue you mentioned:
 
 1. You have no control over your text format. Each carrier seems to have its own formatting (email address, subject, names, etc..)
 
