@@ -18,7 +18,7 @@ Imagine two days:
 
 Which day would you prefer? Most people would choose the first day.
 
-I've lived both of these days. They're nice in their own ways. But given the option, I'd choose the **second** day nine times out of ten.
+I've lived both of these days. They're nice in their own ways. But given the option, I'd choose the **second** day 9 times out of 10.
 
 ## Is An Easy Life Really That Great? ##
 
@@ -26,11 +26,11 @@ Let's see. The first day was easy and relaxing. It required no mental or physica
 
 In terms of comfort, it was a 10/10. Just sit back and enjoy life. It's what we worked hard all week for.
 
-Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollow**. My senses were dulled. There was no substance. No feeling of life. Just mindless zombie-consumption of food and entertainment.
+Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollow**. My senses were dulled. There was no substance. No achievement, no value added. Nothing created. Just mindless consumption of food and entertainment.
 
 Contrast that to the second day, which had punished my body and mind to an absurd level. My legs were wrecked. My toenails had turned black. I had aches in places I didn't even know could ache.
 
-But the burger and fries never tasted better. The company of my friends never more appreciated. Everything was more vibrant. And I felt genuinely **alive**.
+But the burger and fries never tasted better. The company of my friends never more appreciated. Everything was more vibrant. I felt genuinely **alive**.
 
 When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life and overall happiness more.
 
