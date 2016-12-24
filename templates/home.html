@@ -17,7 +17,9 @@
    {{ entry.content|striptags|truncate(180,False,"...") }}
    </div>
    {% endif %}
+   {% if loop.index != entries|length %}
    <hr class="hr-post">
+   {% endif %}
 </div>
 {% endfor %}
 
