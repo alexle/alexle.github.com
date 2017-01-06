@@ -6,7 +6,11 @@ meta: There are two kinds of crap in the world. Stuff that is beyond our control
 ---
 
 <p>
-<img class="pure-img center" src="/static/porta_potty.jpg" alt="row of porta potty" />
+<amp-img class="pure-img center" src="/static/porta_potty.jpg"
+   alt="row of porta potty"
+   layout="responsive",
+   width=600
+   height=430 />
 <div class="separator"></div>
 </p>
 

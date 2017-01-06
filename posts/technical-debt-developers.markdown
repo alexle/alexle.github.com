@@ -6,7 +6,11 @@ meta: Technical debt is a necessary step in software engineering. However, it ca
 ---
 
 <p>
-<img class="pure-img center" src="/static/coin-stack.jpg" alt="stack of coins" />
+<amp-img class="pure-img center" src="/static/coin-stack.jpg"
+   alt="stack of coins"
+   layout="responsive"
+   width=900
+   height=500 />
 </p>
 
 Everyone knows what debt is. It's something you owe in exchange for acquiring something now. Get a house today and owe the bank a bunch of money for 30 years.
