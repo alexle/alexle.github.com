@@ -142,6 +142,8 @@ h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
 
 /* POST CSS */
 .post-title { }
+.post-footer-left { float: left; }
+.post-footer-right { float: right; }
 
 /* ARCHIVE CSS */
 .archive-year {

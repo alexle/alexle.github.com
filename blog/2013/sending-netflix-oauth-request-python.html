@@ -1,4 +1,3 @@
-<!-- post template -->
 <!DOCTYPE html>
 <html amp lang="en">
 <head>
@@ -72,7 +71,7 @@
       Feb 24, 2013
    </div>
 
-   <p class="post-content">
+   <p>
       <p>Oauth is an authentication protocol which allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.</p>
 <p>That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous <a href="/blog/2012/neatflix-my-netflix-api-demo.html">post</a>, I shared a <a href="http://neatflix.appspot.com/">demo</a> which uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.</p>
 <h2>Before You Start</h2>
@@ -204,14 +203,19 @@ xml = ET.fromstring(title_data)
 <p>This basic tutorial only brushes the surface of what the Netflix API has available. To see the original code, feel free to <a href="https://github.com/alexle/Neatflix">fork my Neatflix demo</a> from Github. Try the example above or see if you can gather data from another Netflix resource. The sky is the limit on what cool applications you can conjure up.</p>
    </p>
 
-   <p>
+   <div class="post-footer-left">
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="Sending Netflix OAuth Requests With Python" data-via="alextrle">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       &nbsp;&nbsp;
       <g:plusone size="medium"></g:plusone>
       <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
-      <span style="float: right;"><a href="/">&larr; back to home page</a></span>
-   </p>
+   </div>
+   <div class="post-footer-right">
+      <a href="/">&larr; back to home page</a>
+   </div>
+   <div class="separator">
+   </div>
+   
 </div>
 
       </article>
