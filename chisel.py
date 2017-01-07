@@ -1,6 +1,7 @@
 import sys, re, time, os, getopt, datetime, glob, itertools, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
+from PIL import Image
 
 # Settings
 SOURCE = "./posts/"
@@ -26,6 +27,15 @@ STEPS = []
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
+# Post Header Info
+class PostHeaderInfo:
+    title = ''
+    raw_date = ''
+    meta = ''
+    img = ''
+    img_w = ''
+    img_h = ''
+
 # Template Blog Info
 class TemplateBlogInfo:
     def __init__( self, css_raw ):
@@ -33,22 +43,26 @@ class TemplateBlogInfo:
     cp_year = datetime.datetime.now().year
     incl_prism = True
 
+def CreateCropImage():
+    os.chdir('./static')
+    for infile in glob.glob('*zapper.jpg'):
+        file, ext = os.path.splitext(infile)
+        im = Image.open(infile)
+        im.thumbnail('300,400')
+        #im.save('/x' + file + ".thumbnail", ext)
+        os.chdir('./thumbs')
+        im.save('test-' + file + '.jpg')
+        os.chdir('../')
+    os.chdir('../')
+
 def CreateCSSRaw( ):
     css_raw = []
-    files = glob.glob('./css/*.css')
-    for file in files:
+    for file in glob.glob('./css/*.css'):
         f = open(file, 'r')
         css_raw.append( f.read().split('\n') )
         f.close()
     css_raw_flat = list(itertools.chain.from_iterable(css_raw))
     return ''.join(css_raw_flat)
-
-# Post Header Info
-class PostHeaderInfo:
-    title = ''
-    raw_date = ''
-    image = ''
-    meta = ''
 
 def ParsePostHeader( f ):
     # Read off first '---' tag.
@@ -62,7 +76,12 @@ def ParsePostHeader( f ):
         if line.startswith('date'):
             H.raw_date = line.replace('date:', '').lstrip()
         if line.startswith('image'):
-            H.image = line.replace('image:', '').lstrip()
+            H.img = line.replace('image:', '').lstrip()
+            if H.img:
+                img_split = H.img.split('/')
+                img_path = os.path.join(os.path.dirname(__file__), img_split[1], img_split[2])
+                im = Image.open(img_path)
+                H.img_w, H.img_h = im.size
         if line.startswith('meta'):
             H.meta = line.replace('meta:', '').lstrip()
     return H
@@ -104,8 +123,10 @@ def get_tree(source):
             'day': day,
             'filename': name,
             'rss_date': time.strftime(RSS_TIME_FORMAT, date),
-            'img': Header.image,
-            'meta': Header.meta
+            'meta': Header.meta,
+            'img': Header.img,
+            'img_w': Header.img_w,
+            'img_h': Header.img_h
          })
          f.close()
    return files
