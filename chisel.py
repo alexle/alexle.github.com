@@ -27,8 +27,10 @@ FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
 # Template Blog Info
 class TemplateBlogInfo:
-    cp_year = ''
-    css_raw = ''
+    def __init__( self, css_raw ):
+        self.css_raw = css_raw
+    cp_year = datetime.datetime.now().year
+    incl_prism = True
 
 def CreateCSSRaw( ):
     css_raw = ''
@@ -126,12 +128,14 @@ def write_file(url, data):
 
 @step
 def generate_homepage(f, e, b):
+   b.incl_prism = False
    """Generate homepage"""
    template = e.get_template(TEMPLATES['home'])
    write_file("../index.html", template.render(entries=f[:HOME_SHOW], blog_info=b))
 
 @step
 def master_archive(f, e, b):
+   b.incl_prism = False
    """Generate master archive list of all entries"""
    template = e.get_template(TEMPLATES['archive'])
    write_file("archives.html", template.render(entries=f, blog_info=b))
@@ -145,12 +149,14 @@ def detail_pages(f, e, b):
 
 @step
 def generate_about(f, e, b):
+   b.incl_prism = False
    """Generate about page"""
    template = e.get_template(TEMPLATES['about'])
    write_file("../about.html", template.render(entries=f, blog_info=b))
 
 @step
 def generate_photos(f, e, b):
+   b.incl_prism = False
    """Generate photos page"""
    template = e.get_template(TEMPLATES['photos'])
    write_file("../photos.html", template.render(entries=f, blog_info=b))
@@ -171,11 +177,7 @@ def chisel():
    print "Reading files..."
    files = sorted(get_tree(SOURCE), cmp=compare_entries)
    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_PATH), **TEMPLATE_OPTIONS)
-
-   blog_info = TemplateBlogInfo()
-   blog_info.cp_year = datetime.datetime.now().year
-   blog_info.css_raw = CreateCSSRaw()
-
+   blog_info = TemplateBlogInfo( CreateCSSRaw() )
    print "Running steps..."
    for step in STEPS:
       step(files, env, blog_info)
