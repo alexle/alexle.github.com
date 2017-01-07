@@ -1,4 +1,4 @@
-import sys, re, time, os, getopt, datetime, BaseHTTPServer
+import sys, re, time, os, getopt, datetime, glob, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 
@@ -25,7 +25,14 @@ STEPS = []
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
-COPYRIGHT_YEAR= datetime.datetime.now().year
+COPYRIGHT_YEAR = datetime.datetime.now().year
+
+CSS_RAW = ""
+files = glob.glob('./css/*.css')
+for file in files:
+    f = open(file, 'r')
+    CSS_RAW += f.read()
+    f.close()
 
 # Post Header Info
 class PostHeaderInfo:
@@ -116,32 +123,32 @@ def write_file(url, data):
 def generate_homepage(f, e):
    """Generate homepage"""
    template = e.get_template(TEMPLATES['home'])
-   write_file("../index.html", template.render(entries=f[:HOME_SHOW], copy=COPYRIGHT_YEAR))
+   write_file("../index.html", template.render(entries=f[:HOME_SHOW], copy=COPYRIGHT_YEAR, css=CSS_RAW))
 
 @step
 def master_archive(f, e):
    """Generate master archive list of all entries"""
    template = e.get_template(TEMPLATES['archive'])
-   write_file("archives.html", template.render(entries=f, copy=COPYRIGHT_YEAR))
+   write_file("archives.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
 
 @step
 def detail_pages(f, e):
    """Generate detail pages of individual posts"""
    template = e.get_template(TEMPLATES['post'])
    for file in f:
-      write_file(file['url'], template.render(entry=file, copy=COPYRIGHT_YEAR))
+      write_file(file['url'], template.render(entry=file, copy=COPYRIGHT_YEAR, css=CSS_RAW))
 
 @step
 def generate_about(f, e):
    """Generate about page"""
    template = e.get_template(TEMPLATES['about'])
-   write_file("../about.html", template.render(entries=f, copy=COPYRIGHT_YEAR))
+   write_file("../about.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
 
 @step
 def generate_photos(f, e):
    """Generate photos page"""
    template = e.get_template(TEMPLATES['photos'])
-   write_file("../photos.html", template.render(entries=f, copy=COPYRIGHT_YEAR))
+   write_file("../photos.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
 
 @step
 def generate_rss(f, e):

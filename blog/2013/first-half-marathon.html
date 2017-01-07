@@ -11,40 +11,403 @@
    <link rel="canonical" href="http://alexanderle.com/blog/2013/first-half-marathon.html" />
    <title>My First Half Marathon: Race Recap And Experience | Alex Le</title>
 
-   <!-- Google Analytics -->
-   <!--
-   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-     ga('create', 'UA-28947728-1', 'auto');
-     ga('send', 'pageview');
-   </script>
--->
-
    <!-- AMP -->
    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-   <!-- AMP Google Analytics -->
-    <script async custom-element="amp-analytics"
-        src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+   <!-- AMP Components -->
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
 
    <!-- Pure -->
    <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
    <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 
    <!-- Javascript and Stylesheets -->
-   <script type="text/javascript" src="https://apis.google.com/js/plusone.js" async defer></script>
    <script type="text/javascript" src="/css/prism.js"></script>
+   <!--
    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+   -->
+   <!--
    <link rel="stylesheet" type="text/css" href="/css/prism.css">
+   -->
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alexanderle.com/rss.xml">
 
    <!-- Fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-   <link href="http://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet" type="text/css">
+
+   <!-- AMP Custom CSS -->
+   <style amp-custom>
+   g* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+   font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+   --main_color: #333333;
+   --home_post_caption_color: #777;
+   --home_post_caption_size: 80%;
+}
+
+/* LAYOUT */
+#wrapper {
+   max-width: 37em;
+   margin: 0 auto;
+}
+
+#header h1 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 3em;
+   font-weight: 400;
+   text-align: center;
+   line-height: 1.4em;
+   margin: 0em;
+}
+
+#header a { color: var(--main_color); }
+
+#subheader h2 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.4em;
+   font-weight: 200;
+   text-align: center;
+   line-height: 1.4em;
+   margin: 0 0 0.2em 0;
+}
+
+#hr-header {
+   border-bottom: 1px solid #eeeeee;
+   margin-top: 1em;
+}
+
+#content { margin: 1.0em; }
+
+#footer {
+   margin: 1.5em 0 1em 0;
+   text-align: center;
+}
+
+#footer a, .copyright { color: #999999; }
+
+#footer .pure-menu a:hover, .pure-menu a:focus {
+   background: none;
+}
+
+#footer .pure-menu-link {
+   font-size: 0.9em;
+   padding: 0.5em 0.5em;
+}
+
+#footer .copyright {
+   font-size: 0.7em;
+   padding: 0.5em 0.5em;
+}
+
+/* BASE CSS */
+body {
+   font-size: 1.1em;
+   line-height: 1.55em;
+   color: var(--main_color);
+}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.1em; }
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight: normal;
+   text-rendering: optimizelegibility;
+   line-height: 1.4em;
+}
+
+/* LINK CSS */
+a {
+   cursor: hand;
+   text-decoration: none;
+   color: rgb(61, 146, 201);
+}
+
+a:link, a:visited {
+   color: #E87000;
+   text-decoration: none;
+}
+
+a:hover, a:focus {
+   text-decoration: none;
+}
+
+/* ABOUT CSS */
+.about-title, .photo-title { font-size: 1.7em; }
+
+/* HOME CSS */
+a.home-title-link:link, a.home-title-link:visited, a.home-title-link:hover {
+   color: var(--main-color);
+}
+
+h1.home-title, h2.home-title, h3.home-title, h1.post-title-link {
+   margin-bottom: 0.2em;
+}
+
+.home-date, .post-date {
+   color: var(--home_post_caption_color);
+   font-size: var(--home_post_caption_size);
+}
+
+.home-image {
+   margin: 0.7em 0 1.6em 0;
+   overflow: hidden;
+   position: relative;
+   border: 1px;
+   height: 220px;
+}
+
+.home-image img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.home-snippet {
+   margin-top: 0.6em;
+   margin-bottom: 1.2em;
+}
+
+/* POST CSS */
+.post-title { }
+.post-footer-left { float: left; }
+.post-footer-right { float: right; }
+
+/* ARCHIVE CSS */
+.archive-year {
+   font-size: 2em;
+   text-align: center;
+}
+
+/* PHOTO CSS */
+.pure-g.gutters { margin: 0 -0.2em; }
+
+.pure-g.gutters > [class *=pure-u]{
+  box-sizing: border-box;
+  padding: 0em 0.2em;
+}
+
+.album { padding: 0.2em 0 0.2em 0; }
+
+/* COMPONENTS */
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.separator {
+   clear: both;
+   text-align: center;
+   color: var(--home_post_caption_color);
+   font-size: var(--home_post_caption_size);
+}
+
+.button-list { text-align: center; }
+
+.button-item {
+   font-size: 90%;
+   margin: 0 0.8em 0 0.8em;
+}
+
+a.button-item { color: #E87000; }
+
+.hr-post { border-top: 1px solid #eeeeee; }
+
+blockquote {
+   position: relative;
+   font-style: italic;
+   font-size: 1.15em;
+   line-height: 1.5em;
+   margin-top: 1em;
+   padding-left: 0.2em;
+}
+
+blockquote:before {
+    position: absolute;
+    font-size: 2.8em;
+    top: 0.20em;
+    left: -0.5em;
+    content: "\201C";
+}
+
+pre {
+   font-family: courier;
+   font-size: 13px;
+}
+
+/* RESPONSIVE -- Rules GREATER 48em */
+@media (min-width: 48em) {
+}
+
+/* RESPONSIVE -- Rules LESS 48em */
+@media (max-width: 48em) {
+   #content {
+      max-width: 100%;
+      margin-top: 0.5em;
+   }
+
+   body { font-size: 0.95em; }
+}
+
+/* RESPONSIVE -- Rules LESS 30em */
+@media (max-width: 30em) {
+   #header h1 {
+      font-size: 2.8em;
+   }
+
+   #subheader h2 {
+      font-size: 1.2em;
+   }
+
+   h1 { font-size: 1.4em; }
+   h2 { font-size: 1.35em; }
+   h3 { font-size: 1.2em; }
+
+   .home-image { height: 160px; }
+
+   .button-item { font-size: 100%; }
+
+   .about-title, .photo-title { font-size: 1.5em; }
+   .archive-year {font-size: 1.8em; }
+}
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+autohotkey+bash+c+csharp+cpp+coffeescript+ruby+git+haml+http+java+json+less+makefile+markdown+objectivec+perl+php+pure+python+typescript+vim+wiki+yaml */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+
+   </style>
 </head>
 
 <body>
@@ -148,18 +511,17 @@ Photo courtesy of the best support group ever.</div></p>
    </p>
 
    <div class="post-footer-left">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-text="My First Half Marathon: Race Recap And Experience" data-via="alextrle">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      &nbsp;&nbsp;
-      <g:plusone size="medium"></g:plusone>
-      <a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a>
+      <amp-social-share type="twitter" width="2em" height="1.8em"></amp-social-share>
+      <amp-social-share type="gplus" width="2em" height="1.8em"></amp-social-share>
+      <amp-social-share type="linkedin" width="2em" height="1.8em"></amp-social-share>
+      <amp-social-share type="facebook" width="2em" height="1.8em" data-param-app_id="822338341250063"></amp-social-share>
    </div>
+
    <div class="post-footer-right">
       <a href="/">&larr; back to home page</a>
    </div>
-   <div class="separator">
-   </div>
-   
+
+   <div class="separator"> </div>
 </div>
 
       </article>
