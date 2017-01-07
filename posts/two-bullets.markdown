@@ -11,9 +11,11 @@ Click. You're still alive.
 
 He then asks you, do you want me to spin it again and fire or pull the trigger again. What option do you choose?
 
-<hr width="90%">
+<br>
 
-I came across this question on Business Insider's "[20 Toughest Job Interview Questions][1]" this morning. While either choice is a lose-lose situation, it did give me pause on what my answer would be. Naturally, it would depend on which option had the greatest chance of survival. Here is my take on the problem:
+I came across this question on Business Insider's "[20 Toughest Job Interview Questions][1]" this morning. While either choice is a lose-lose situation, it did give me pause on what my answer would be.
+
+Naturally, it would depend on which option had the greatest chance of survival. Here is my take on the problem:
 
 ##"Spin It Again and Fire"##
 
@@ -25,9 +27,11 @@ Note that by spinning the chambers again, the previous "survival" shot has no be
 
 In this situation, however, the previous shot AND the fact the bullets are in consecutive order do matter in the calculation. Bang! The first shot goes off.
 
-<img class="pure-img center" src="/static/two_bullets.jpg"  />
-<div class="separator" style="clear: both; text-align: center;">
-Diagram of revolver chamber. The red circles are bullets.</div>
+<amp-img class="pure-img center" src="/static/two_bullets.jpg"
+   alt="picture of two bullets in consecutive order in six-round revolver"
+   width=300
+   height=282></amp-img>
+<div class="separator">Diagram of revolver chamber. The red circles are bullets.</div>
 
 If you are alive at this point, then it means the first shot did NOT contain a bullet and must have come from either locations 1, 2, 3, or 4. So the number of situations you could be in after the first shot is **4**.
 

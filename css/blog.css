@@ -184,6 +184,8 @@ img.center {
 
 a.button-item { color: #E87000; }
 
+amp-img.center { display: block; margin: 0 auto }
+
 .hr-post { border-top: 1px solid #eeeeee; }
 
 blockquote {

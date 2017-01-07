@@ -8,7 +8,7 @@ meta: There are two kinds of crap in the world. Stuff that is beyond our control
 <p>
 <amp-img class="pure-img center" src="/static/porta_potty.jpg"
    alt="row of porta potty"
-   layout="responsive",
+   layout="responsive"
    width=600
    height=430 />
 <div class="separator"></div>

@@ -10,7 +10,11 @@ It's strange how quickly the mind forgets about pain. Just [3 months ago][1], I 
 Now, like a mosquito drawn to one of those electric zappers, I've somehow signed up for another race - this time a [full marathon][4].
 
 <p>
-<img class="pure-img center" src="/static/bug_zapper.jpg" alt="bug zapper from disney's a bug life" />
+<amp-img class="pure-img center" src="/static/bug_zapper.jpg"
+   alt="bug zapper from disney's a bug life"
+   layout="responsive"
+   width=600
+   height=408></amp-img>
 <div class="separator">Photo from Disney's <a href="http://movies.disney.com/a-bugs-life">A Bug's Life</a></div>
 </p>
 

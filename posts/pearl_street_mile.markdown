@@ -6,7 +6,11 @@ meta: A race recap of my experience at the Pearl Street Mile. Bring back the mil
 ---
 
 <p>
-<img class="pure-img center" src="/static/alex_le_pearl_street_mile_daniel_joder_crop.jpg" alt="pearl street mile alex le image by daniel joder" />
+<amp-img class="pure-img center" src="/static/alex_le_pearl_street_mile_daniel_joder_crop.jpg"
+   alt="pearl street mile alex le image by daniel joder"
+   layout="responsive"
+   width=909
+   height=607></amp-img>
 <div class="separator">Photo by <a href="http://www.danieljoderphotography.com/">Daniel Joder</a></div>
 </p>
 
@@ -25,7 +29,11 @@ After much debate, I signed up for a one mile race. Yes, it would take me longer
 I had no answer. I just knew I've never dreaded a race as much as I did this one.
 
 <p>
-<img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg" alt="pearl street mile alex le and matt" />
+<amp-img class="pure-img center" src="/static/pearl_street_mile_alex_matt.jpg"
+   alt="pearl street mile alex le and matt"
+   layout="responsive"
+   width=1024
+   height=768></amp-img>
 <div class="separator">Pre-race photo in front of the start</div>
 </p>
 
@@ -36,7 +44,11 @@ The [Pearl Street Mile][1] is an annual Boulder tradition. There are 4 waves: Ki
 Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering [*4:10*][4].
 
 <p>
-<img class="pure-img center" src="/static/pearl_street_mile_2016_course.jpg" alt="pearl street mile 2016 course" />
+<amp-img class="pure-img center" src="/static/pearl_street_mile_2016_course.jpg"
+   alt="pearl street mile 2016 course"
+   layout="responsive"
+   width=884
+   height=437></amp-img>
 </p>
 
 Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo run. Leading up to the race, my 8x400 was 1:30 and 2x800 just under 3:00. So I set my goal at **6:05**.
@@ -50,7 +62,11 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 ##Second 400m - 1:25##
 
 <p>
-<img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif" alt="anchorman ron burgundy i immediately regret this decision" />
+<amp-img class="pure-img center" src="/static/I_immediately_regret_this_decision_anchorman.gif"
+   alt="anchorman ron burgundy i immediately regret this decision"
+   layout="responsive"
+   width=640
+   height=360></amp-img>
 </p>
 
 This is when things become unpleasant. As in "what did we get ourselves into" unpleasant. My body realizes what I'm attempting to do and quickly maxes out my heart rate and breathing.
@@ -70,7 +86,11 @@ If people ahead of me don't turn off Spruce soon, I will pass out at this rate. 
 I finally see people getting on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me for the home-stretch.
 
 <p>
-<img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg" alt="pearl street mile alex le" />
+<amp-img class="pure-img center" src="/static/pearl_street_mile_alex_le.jpg"
+   alt="pearl street mile alex le"
+   layout="responsive"
+   width=1024
+   height=602></amp-img>
 <div class="separator">Photo by Coworker | Look at those shorts!</div>
 </p>
 
