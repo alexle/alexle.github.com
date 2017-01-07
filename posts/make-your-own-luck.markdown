@@ -23,8 +23,6 @@ I *cringe* when I hear people claim how unlucky they are. To me, it's just a con
 
 We're all capable of making our own luck. And I've found the harder you work, the **luckier** you get.
 
-<hr width="75%">
-
 If you're still not convinced, then here are some additional tips to improve your "luck".
 
 ##Add variety to your life##

@@ -3,6 +3,7 @@ title: Create An RSS Feed From Scratch
 date: 04-11-2012
 image:
 meta: A tutorial on how to create and RSS Feed from scratch. Create your own rss.xml file.
+code: True
 ---
 
 [RSS feeds][1] are a great way to stay updated with the barrage of content on the web. Unfortunately, not all websites have one available - including this one (until now). Here's a quick guide to the basic components of an RSS feed and how to create one from scratch.

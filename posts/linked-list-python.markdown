@@ -3,6 +3,7 @@ title: "Write a linked list in python.."
 date: 04-26-2011
 image:
 meta: A tutorial on writing a linked list in Python.
+code: True
 ---
 
 The first time I heard this, my heart stopped for a couple seconds.

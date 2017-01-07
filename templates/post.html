@@ -2,6 +2,9 @@
 {% set title = entry.title + " | " %}
 {% set meta = entry.meta %}
 {% set url = "blog/" + entry.url %}
+{% if entry.code_snip %}
+   {% set prism_js = '<script type="text/javascript" src="/css/prism.js"></script>' %}
+{% endif %}
 
 {% block main %}
 <div class="post">

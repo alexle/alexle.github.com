@@ -3,6 +3,7 @@ title: The Birthday Paradox
 date: 06-09-2011    
 image:
 meta: In a random gathering of 23 people, there is a 50% chance that two people will have the same birthday. Is this true?
+code: True
 ---
 
 I read something the other day that piqued my curiosity:

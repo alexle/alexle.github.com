@@ -2,7 +2,8 @@
 title: Hello World!
 date: 12-10-2008
 image:
-meta: printf("Hello World!\n);
+meta: Hello World!
+code: True
 ---
 
 

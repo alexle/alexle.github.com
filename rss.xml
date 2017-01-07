@@ -428,7 +428,7 @@
    <link>http://alexanderle.com/blog/2008/hello-world.html</link>
    <guid>http://alexanderle.com/blog/2008/hello-world.html</guid>
    <pubDate>Wed, 10 Dec 2008 00:00:00 MST</pubDate>
-   <description>printf("Hello World!\n);</description>
+   <description>Hello World!</description>
    </item>
    
 </channel>

@@ -35,13 +35,13 @@ class PostHeaderInfo:
     img = ''
     img_w = ''
     img_h = ''
+    code_snip = False
 
 # Template Blog Info
 class TemplateBlogInfo:
     def __init__( self, css_raw ):
         self.css_raw = css_raw
     cp_year = datetime.datetime.now().year
-    incl_prism = True
 
 def CreateCropImage():
     os.chdir('./static')
@@ -84,6 +84,8 @@ def ParsePostHeader( f ):
                 H.img_w, H.img_h = im.size
         if line.startswith('meta'):
             H.meta = line.replace('meta:', '').lstrip()
+        if line.startswith('code'):
+            H.code_snip = line.replace('code:', '').lstrip()
     return H
 
 def step(func):
@@ -101,8 +103,8 @@ def get_tree(source):
          path = os.path.join(root, name)
          f = open(path, "rU")
 
-         Header = ParsePostHeader( f )
-         date = time.strptime(Header.raw_date, ENTRY_TIME_FORMAT)
+         H = ParsePostHeader( f )
+         date = time.strptime(H.raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
          epoch = time.mktime(date)
 
@@ -113,7 +115,7 @@ def get_tree(source):
             url = '/'.join([str(year), os.path.splitext(name)[0] + ".html"])
 
          files.append({
-            'title': Header.title,
+            'title': H.title,
             'epoch': epoch,
             'content': FORMAT(''.join(f.readlines()[1:]).decode('UTF-8')),
             'url': url,
@@ -123,10 +125,11 @@ def get_tree(source):
             'day': day,
             'filename': name,
             'rss_date': time.strftime(RSS_TIME_FORMAT, date),
-            'meta': Header.meta,
-            'img': Header.img,
-            'img_w': Header.img_w,
-            'img_h': Header.img_h
+            'meta': H.meta,
+            'code_snip': H.code_snip,
+            'img': H.img,
+            'img_w': H.img_w,
+            'img_h': H.img_h
          })
          f.close()
    return files
@@ -148,14 +151,12 @@ def write_file(url, data):
 
 @step
 def generate_homepage(f, e, b):
-   b.incl_prism = False
    """Generate homepage"""
    template = e.get_template(TEMPLATES['home'])
    write_file("../index.html", template.render(entries=f[:HOME_SHOW], blog_info=b))
 
 @step
 def master_archive(f, e, b):
-   b.incl_prism = False
    """Generate master archive list of all entries"""
    template = e.get_template(TEMPLATES['archive'])
    write_file("archives.html", template.render(entries=f, blog_info=b))
@@ -169,14 +170,12 @@ def detail_pages(f, e, b):
 
 @step
 def generate_about(f, e, b):
-   b.incl_prism = False
    """Generate about page"""
    template = e.get_template(TEMPLATES['about'])
    write_file("../about.html", template.render(entries=f, blog_info=b))
 
 @step
 def generate_photos(f, e, b):
-   b.incl_prism = False
    """Generate photos page"""
    template = e.get_template(TEMPLATES['photos'])
    write_file("../photos.html", template.render(entries=f, blog_info=b))
