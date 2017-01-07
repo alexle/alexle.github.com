@@ -51,9 +51,7 @@ class PostHeaderInfo:
 def ParsePostHeader( f ):
     # Read off first '---' tag.
     f.readline().rstrip()
-
     H = PostHeaderInfo()
-
     line = ''
     while '---' not in line:
         line = f.readline().rstrip()

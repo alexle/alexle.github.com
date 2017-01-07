@@ -9,7 +9,9 @@
    </div>
    {% if entry.img %}
    <div class='home-image'>
-      <a href="blog/{{ entry.url }}"><img class="pure-img center" src="{{ entry.img }}" alt="{{ entry.img }}"/></a>
+      <a href="blog/{{ entry.url }}">
+         <img class="pure-img center" src="{{ entry.img }}"
+            alt="{{ entry.img }}"></img></a>
    </div>
    {% else %}
    <div class='home-snippet'>
