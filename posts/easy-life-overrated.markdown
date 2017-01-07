@@ -10,7 +10,7 @@ meta: We all strive for an easy life. But is it really all it's made out to be?
    alt="wall-e humans on floating chairs"
    layout="responsive"
    width=900
-   height=374 />
+   height=374></amp-img>
 <div class="separator">Photo from Pixar's <a href="http://www.pixar.com/features_films/WALLE">Wall-E</a></div>
 </p>
 
