@@ -16,6 +16,7 @@ TEMPLATES = {
    'photos': "photos.html",
    'rss': "rss.html",
    'sitemap': "sitemap.html",
+   'htaccess': "htaccess.txt",
 }
 TIME_FORMAT = "%b %d, %Y"
 ENTRY_TIME_FORMAT = "%m-%d-%Y"
@@ -170,6 +171,12 @@ def generate_sitemap(f, e, b):
    """Generate sitemap"""
    template = e.get_template(TEMPLATES['sitemap'])
    write_file("../sitemap.xml", template.render(entries=f))
+
+@step
+def generate_htaccess(f, e, b):
+   """Generate htaccess"""
+   template = e.get_template(TEMPLATES['htaccess'])
+   write_file("../.htaccess", template.render(entries=f))
 
 def chisel():
    print "Reading files..."
