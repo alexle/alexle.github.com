@@ -1,4 +1,4 @@
-import sys, re, time, os, getopt, datetime, glob, BaseHTTPServer
+import sys, re, time, os, getopt, datetime, glob, itertools, BaseHTTPServer
 import jinja2, markdown
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 
@@ -33,13 +33,14 @@ class TemplateBlogInfo:
     incl_prism = True
 
 def CreateCSSRaw( ):
-    css_raw = ''
+    css_raw = []
     files = glob.glob('./css/*.css')
     for file in files:
         f = open(file, 'r')
-        css_raw += f.read()
+        css_raw.append( f.read().split('\n') )
         f.close()
-    return css_raw
+    css_raw_flat = list(itertools.chain.from_iterable(css_raw))
+    return ''.join(css_raw_flat)
 
 # Post Header Info
 class PostHeaderInfo:
@@ -81,7 +82,6 @@ def get_tree(source):
          f = open(path, "rU")
 
          Header = ParsePostHeader( f )
-
          date = time.strptime(Header.raw_date, ENTRY_TIME_FORMAT)
          year, month, day = date[:3]
          epoch = time.mktime(date)
