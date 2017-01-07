@@ -13,8 +13,11 @@ And the distance was **unreal**. Aside from actually running 26.2 miles, I belie
 
 <p>
 <a href="/static/2013-full-nike-map.jpg">
-<img class="pure-img center" src="/static/2013-full-nike-map.jpg" alt="2013 denver rock and roll marathon alex le course gps" />
-</a>
+<amp-img class="pure-img center" src="/static/2013-full-nike-map.jpg"
+   alt="2013 denver rock and roll marathon alex le course gps"
+   layout="responsive"
+   width=900
+   height=504></amp-img></a>
 </p>
 
 Here's a recap of my first marathon, or as I consider, the worst run I've ever had.
@@ -89,7 +92,11 @@ A little ways ahead, I heard my name being shouted. It turned out to be my famil
 
 <p>
 <a href="/static/alex_le_marathon.jpg">
-<img class="pure-img center" src="/static/alex_le_marathon.jpg" alt="alex le 2013 denver rock and roll marathon medal finish line" /></a>
+<amp-img class="pure-img center" src="/static/alex_le_marathon.jpg"
+   alt="alex le 2013 denver rock and roll marathon medal finish line"
+   layout="responsive"
+   width=500
+   height=500></amp-img></a>
 </p>
 
 When asked how the race was, the impact of everything I endured emotionally and physically over the past 4 hours hit me. It was amazing, it was terrible, and it was.. disappointing. Not that completing a marathon wasn't an accomplishment on its own. But because I felt I was capable of so much more.
