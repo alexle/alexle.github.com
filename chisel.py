@@ -25,14 +25,19 @@ STEPS = []
 # FORMAT should be a callable that takes in text and returns formatted text
 FORMAT = lambda text: markdown.markdown(text, ['footnotes',])
 
-COPYRIGHT_YEAR = datetime.datetime.now().year
+# Template Blog Info
+class TemplateBlogInfo:
+    cp_year = ''
+    css_raw = ''
 
-CSS_RAW = ""
-files = glob.glob('./css/*.css')
-for file in files:
-    f = open(file, 'r')
-    CSS_RAW += f.read()
-    f.close()
+def CreateCSSRaw( ):
+    css_raw = ''
+    files = glob.glob('./css/*.css')
+    for file in files:
+        f = open(file, 'r')
+        css_raw += f.read()
+        f.close()
+    return css_raw
 
 # Post Header Info
 class PostHeaderInfo:
@@ -120,44 +125,44 @@ def write_file(url, data):
    file.close()
 
 @step
-def generate_homepage(f, e):
+def generate_homepage(f, e, b):
    """Generate homepage"""
    template = e.get_template(TEMPLATES['home'])
-   write_file("../index.html", template.render(entries=f[:HOME_SHOW], copy=COPYRIGHT_YEAR, css=CSS_RAW))
+   write_file("../index.html", template.render(entries=f[:HOME_SHOW], blog_info=b))
 
 @step
-def master_archive(f, e):
+def master_archive(f, e, b):
    """Generate master archive list of all entries"""
    template = e.get_template(TEMPLATES['archive'])
-   write_file("archives.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
+   write_file("archives.html", template.render(entries=f, blog_info=b))
 
 @step
-def detail_pages(f, e):
+def detail_pages(f, e, b):
    """Generate detail pages of individual posts"""
    template = e.get_template(TEMPLATES['post'])
    for file in f:
-      write_file(file['url'], template.render(entry=file, copy=COPYRIGHT_YEAR, css=CSS_RAW))
+      write_file(file['url'], template.render(entry=file, blog_info=b))
 
 @step
-def generate_about(f, e):
+def generate_about(f, e, b):
    """Generate about page"""
    template = e.get_template(TEMPLATES['about'])
-   write_file("../about.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
+   write_file("../about.html", template.render(entries=f, blog_info=b))
 
 @step
-def generate_photos(f, e):
+def generate_photos(f, e, b):
    """Generate photos page"""
    template = e.get_template(TEMPLATES['photos'])
-   write_file("../photos.html", template.render(entries=f, copy=COPYRIGHT_YEAR, css=CSS_RAW))
+   write_file("../photos.html", template.render(entries=f, blog_info=b))
 
 @step
-def generate_rss(f, e):
+def generate_rss(f, e, b):
    """Generate rss feed"""
    template = e.get_template(TEMPLATES['rss'])
    write_file("../rss.xml", template.render(entries=f))
 
 @step
-def generate_sitemap(f, e):
+def generate_sitemap(f, e, b):
    """Generate sitemap"""
    template = e.get_template(TEMPLATES['sitemap'])
    write_file("../sitemap.xml", template.render(entries=f))
@@ -166,9 +171,14 @@ def chisel():
    print "Reading files..."
    files = sorted(get_tree(SOURCE), cmp=compare_entries)
    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_PATH), **TEMPLATE_OPTIONS)
+
+   blog_info = TemplateBlogInfo()
+   blog_info.cp_year = datetime.datetime.now().year
+   blog_info.css_raw = CreateCSSRaw()
+
    print "Running steps..."
    for step in STEPS:
-      step(files, env)
+      step(files, env, blog_info)
    print "\tDone."
 
 def main():

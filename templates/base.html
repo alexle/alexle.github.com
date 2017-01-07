@@ -38,7 +38,7 @@
 
    <!-- AMP Custom CSS -->
    <style amp-custom>
-   {{ css }}
+   {{ blog_info.css_raw }}
    </style>
 </head>
 
@@ -104,7 +104,7 @@
                <li class="pure-menu-item"><a rel="author" href="https://plus.google.com/u/0/101315815319989778966?rel=author" title="Google+" target="_blank"></a></li>
             </ul>
          </div> <!-- end pure-menu -->
-         <div class='copyright'>Copyright &copy; {{ copy }} Alex Le</div>
+         <div class='copyright'>Copyright &copy; {{ blog_info.cp_year }} Alex Le</div>
       </div> <!-- end FOOTER -->
 
    </div> <!-- end CONTENT -->
