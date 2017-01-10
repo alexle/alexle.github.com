@@ -43,15 +43,19 @@ class TemplateBlogInfo:
         self.css_raw = css_raw
     cp_year = datetime.datetime.now().year
 
-def CreateCropImage():
+def CropImage( ):
     os.chdir('./static')
     for infile in glob.glob('*zapper.jpg'):
         file, ext = os.path.splitext(infile)
-        im = Image.open(infile)
-        im.thumbnail('300,400')
-        #im.save('/x' + file + ".thumbnail", ext)
+        img = Image.open(infile)
+        img_w, img_h = img.size
+        start_y = img
+
+        box = (0, 0, 600, 220)
+        out_img = img.crop(box)
+
         os.chdir('./thumbs')
-        im.save('test-' + file + '.jpg')
+        out_img.save(file + '.jpg')
         os.chdir('../')
     os.chdir('../')
 
