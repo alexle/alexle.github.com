@@ -8,7 +8,11 @@ meta: Do you have trouble making decisions? Me too. Here's how I'm overcoming de
 This is a picture of my living room:
 
 <p>
-<img class="pure-img center" src="/static/living-room.jpg" alt="alex le empty living room picture" />
+<amp-img class="pure-img center" src="/static/living-room.jpg"
+   alt="alex le empty living room picture"
+   layout="responsive"
+   width=600
+   height=450></amp-img>
 </p>
 
 Notice the void in the middle of the room? It's been like this for a while now. I've been meaning to get a coffee table for utility and extra storage space, but I haven't been able to decide on one. Each time I shop for one, I get overwhelmed by the number of options and wonder if I'm making the best selection.

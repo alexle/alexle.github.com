@@ -36,7 +36,7 @@ It didn't matter how much analysis I did or how risky my moves were. In the end,
 
 Two years ago, I finished the regular season 12-1 and promptly lost in the first round of the playoffs to the worst team. Suffice to say, I was irked. In any given week, anything and everything could happen, which gets tiresome.
 
-<hr width="75%">
+<hr class="break">
 
 I understand for most people, Fantasy Football gets them more into football. It makes meaningless, unwatchable games interesting and fun. It allows people to compete and measure themselves against others.
 

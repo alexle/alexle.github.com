@@ -7,7 +7,11 @@ meta: We all have ideas. Ideas are immortal. But inspiration is perishable. Don'
 
 I finally got around to reading [Rework][1]. It's a book by [37signals][2] that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.
 
-<center><img class="pure-img center" src="/static/rework.png" width="148" height="200" /></center>
+<amp-img class="pure-img center" src="/static/rework.png"
+   alt="rework book cover"
+   layout="fixed"
+   width=197
+   height=300></amp-img>
 
 There are many great lessons in the book: Learning from mistakes is overrated, Good enough, Scratch your own itch, No time is no excuse, Planning is guessing, Start something. I could write a blog entry for each one.
 

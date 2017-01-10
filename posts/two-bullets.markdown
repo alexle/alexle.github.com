@@ -11,7 +11,7 @@ Click. You're still alive.
 
 He then asks you, do you want me to spin it again and fire or pull the trigger again. What option do you choose?
 
-<br>
+<hr class="break">
 
 I came across this question on Business Insider's "[20 Toughest Job Interview Questions][1]" this morning. While either choice is a lose-lose situation, it did give me pause on what my answer would be.
 
