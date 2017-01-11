@@ -21,9 +21,14 @@ What were the signs that let you know you were finally a runner? Here is my list
 
 6. You know the mileage (yes, mileage) on your running shoes.
 
-      <a href="/static/shoe_mileage.png"><img class="pure-img center" src="/static/shoe_mileage.png" alt="alex shoe mileage" /></a>
-      <div class="separator" style="clear: both; text-align: center;">
-It's been a wonderful 8 months Pure Drifts.</div>
+<a href="/static/shoe_mileage.png">
+<amp-img class="pure-img center vertimg400" src="/static/shoe_mileage.png"
+   alt="alex shoe mileage"
+   layout="responsive"
+   width=400
+   height=268></amp-img>
+</a>
+<div class="separator">It's been a wonderful 8 months Pure Drifts</div>
 
 7. Your long runs become so long, you have to check two parts of the weather forecast. The conditions when you start.. and the conditions when you expect to finish.
 
@@ -35,13 +40,18 @@ It's been a wonderful 8 months Pure Drifts.</div>
 
 11. You have drawers in your house which look like this:
 
-      <a href="/static/gu_drawer.jpg"><img class="pure-img center" src="/static/gu_drawer.jpg" alt="alex gu drawer" /></a>
-      <div class="separator" style="clear: both; text-align: center;">
-My top dresser drawer, yummy.</div>
+<a href="/static/gu_drawer.jpg">
+<amp-img class="pure-img center" src="/static/gu_drawer.jpg"
+   alt="alex gu drawer"
+   layout="responsive"
+   width=600
+   height=450></amp-img>
+</a>
+<div class="separator">My top dresser drawer, yum</div>
 
 12. You finish a run, double-over, gasping for air. People passing by don't comprehend why you voluntary do this to yourself. And all you can do is smile how great this is. That's when you know.
 
-<hr width="75%">
+<hr class="break">
 
 I shared this list on the [Runner's World forum][2] and received some great (and funny) responses. Here are some bonus ones which I can relate to:
 
