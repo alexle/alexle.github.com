@@ -186,7 +186,10 @@ img.center {
 
 a.button-item { color: #E87000; }
 
-amp-img.center { display: block; margin: 0 auto }
+amp-img.center { display: block; margin: 0 auto; }
+amp-img.vertimg400 { max-width: 400px; }
+amp-img.vertimg300 { max-width: 300px; }
+amp-img.vertimg200 { max-width: 200px; }
 
 hr.break { width: 75%; }
 
