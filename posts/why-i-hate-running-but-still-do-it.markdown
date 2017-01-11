@@ -6,7 +6,11 @@ meta: Running is hard. I was never a runner growing up. Yet, I still do it anywa
 ---
 
 <p>
-<img class="pure-img center" src="/static/jogging_worst.jpg" alt="parks and recreation jogging is the worst image quote" />
+<amp-img class="pure-img center" src="/static/jogging_worst.jpg"
+   alt="parks and recreation jogging is the worst image quote"
+   layout="responsive"
+   width=500
+   height=269></amp-img>
 </p>
 
 I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
