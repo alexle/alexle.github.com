@@ -15,9 +15,11 @@ Karen consists of performing 150 [Wall Balls][3] for time. A 20lb medicine ball 
 
 Here is a video demonstrating Wall Balls and how to perform them correctly:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/TC2FmcPH64o" frameborder="0" allowfullscreen></iframe>
-
-This guy rocked it in 5:00, pretty impressive.
+<amp-youtube
+   data-videoid="TC2FmcPH64o"
+   layout="responsive"
+   width="480" height="370"></amp-youtube>
+<div class="separator">This guy rocked it in 5:00, pretty impressive!</div>
 
 ##My Results and Impression##
 

@@ -6,7 +6,11 @@ meta: Here are my tips on how to switch to career in software programming.
 ---
 
 <p>
-<img class="pure-img center" src="/static/code.jpg" alt="alex le code screenshot atom editor" />
+<amp-img class="pure-img center" src="/static/code.jpg"
+   alt="alex le code screenshot atom editor"
+   layout="responsive"
+   width=849
+   height=445></amp-img>
 </p>
 
 In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - it doesn't get much better than this.
@@ -65,7 +69,7 @@ You'll learn more and faster, in my opinion. It'll also provide you an experienc
 
 Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The industry is always evolving and the more you know, the better. Google everything. [StackOverflow][7] is your best friend.
 
-<hr width="75%">
+<hr class="break">
 
 I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn.
 

@@ -11,7 +11,11 @@ Six months later, I had logged only 25 miles and was ready to throw in the towel
 
 Fortunately, I kept with it and after much pain, sweat, and tears, I'm proud to present the final mile tally of my runs this year:
 
-<img class="pure-img center" src="/static/nike-2012-total.jpg" />
+<amp-img class="pure-img center vertimg300" src="/static/nike-2012-total.jpg"
+   alt="alex le nike 2012 running miles total"
+   layout="responsive"
+   width=300
+   height=227></amp-img>
 
 It doesn't sound very impressive, but completing this goal ranks as one of the **top-five** achievements in my life so far. Not so much for the number of miles or difficulty of the runs. But more for the [commitment][2] required to go through with it. There were so many days I just wanted to sleep in, or relax to a TV show after a long day of work. So many chances to say, "I'll just run tomorrow". And so many moments to simply **stop**.
 
