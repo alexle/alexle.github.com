@@ -36,7 +36,7 @@ Contrast that to the second day, which had punished my body and mind to an absur
 
 But the burger and fries never tasted better. The company of my friends never more appreciated. Everything was more vibrant. I felt genuinely **alive**.
 
-When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life and overall happiness more.
+When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life more.
 
 Maybe an easy life isn't as perfect as we think it is. Pope Francis of the Roman Catholic Church certainly doesn't think so:
 
@@ -46,7 +46,7 @@ Maybe an easy life isn't as perfect as we think it is. Pope Francis of the Roman
 
 Another reason why an easy life isn't all it's made out to be is nothing good in life comes easy.
 
-Take a moment to think of the biggest accomplishments in your life. Good. Now think of the hardest things you've done.
+Take a moment to think of the biggest accomplishments in your life. Now think of the hardest things you've done.
 
 Odds are many of them are the same. Isn't that weird?
 
@@ -58,7 +58,7 @@ But how good is anything if it comes easy? If we don't sacrifice, struggle, or w
 
 It's like those people who win the lottery and throw it all away in a couple years.
 
-Conversely, when you put your heart and soul into a goal, you're going to appreciate that success more. You'll take pride and satisfaction in your accomplishment, knowing the sweat and work it took.
+Conversely, when you put your heart and soul into a goal, you're going to appreciate that success more. You'll take pride and satisfaction in your accomplishment, knowing all the work it took.
 
 ## The Benefits Of Challenges ##
 
@@ -80,7 +80,7 @@ More importantly, challenges give you purpose. And overcoming them makes life **
 
 Don't get me wrong. I'm all for easy days as much as the next person. Some of life's best moments happen when we're simply taking life in. Our bodies and minds need time to rest as well.
 
-I'm merely stating that there is **value** in hardship. Instead of seeking out a life of ease, why not embrace the hard paths in front of us? To use them as opportunities to grow and expand.
+I'm merely stating that there is **value** in hardship. Instead of always seeking out a life of ease, why not embrace the hard paths in front of us? To use them as opportunities to grow and expand.
 
 If it's one thing I've learned in 2016, it's that we are capable of much, *much* more than we think we can do.
 
