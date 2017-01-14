@@ -55,7 +55,9 @@ Two years ago, my mile PR was 6:30. Last year, I hit **6:14** on a fast tempo ru
 
 ##First 400m - 1:19##
 
-There are no corrals or staggered start. It's every man, woman, and child for themselves. When the race starts, mass chaos erupts. Bodies jockey for positioning, legs stretch out to trip over, little kids weave around in front of you. I've never seen anything like it.
+There are no corrals or staggered start. It's every man, woman, and child for themselves. When the race starts, mass chaos erupts. Bodies jockey for positioning, legs stretch out to trip over, little kids weave around in front of you.
+
+I've never seen anything like it.
 
 Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Every second matters in a mile so there's no point in holding back. If you had a strategy going into the race, 9 times out of 10 it is discarded in this stage.
 
@@ -75,7 +77,7 @@ We're past all the crazy 90 degree turns and people start to separate from each 
 
 ##Third 400m - 1:35##
 
-The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. It feels like my body is engulfed in flames. Time slows down to a crawl. Everything hurts.
+The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. My body is screaming at me to stop. Time slows down. Everything hurts.
 
 I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
 
@@ -94,9 +96,11 @@ I finally see people getting on 14th, which means this madness is almost over. I
 <div class="separator">Photo by Coworker | Look at those shorts!</div>
 </p>
 
-My coworker yells 'Run faster!' but I don't hear him or anyone else around me. My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
+My coworker yells 'Run faster!' but I don't hear him or anyone else around me.
 
-I must have blacked out because I don't remember anything else. I cross the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
+My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
+
+It feels like I blacked out because I don't remember anything else. Suddenly, I'm across the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
 
 ##Why You Should Bring Back The Mile (And Other Short Distance Races)##
 
