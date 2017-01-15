@@ -34,7 +34,7 @@ Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollo
 
 Contrast that to the second day, which had punished my body and mind to an absurd level. My legs were wrecked. My toenails had turned black. I had aches in places I didn't even know could ache.
 
-But the burger and fries never tasted better. The company of my friends never more appreciated. Everything around me was vibrant. Life was more full. I felt genuinely **alive**.
+But the burger and fries never tasted better. The company of my friends never more appreciated. The sun was brighter. Life was more full. And I felt genuinely **alive**.
 
 When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life more.
 
