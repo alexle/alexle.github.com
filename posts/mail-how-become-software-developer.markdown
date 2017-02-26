@@ -65,7 +65,7 @@ Do them over and over again until you're comfortable with the logic and programm
 
 Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code. There are many resources online.
 
-For example, [CS50x][8] is a free course from Harvard provided by Edx. It will teach you the basics of how computers, programming languages, algorithms and data-structures work and pave the way for the rest of your journey.
+For example, [CS50x][8] is a free course from Harvard provided by Edx. It goes over the basics of how computers, programming languages, algorithms and data-structures work.
 
 ##4) Try to get an internship##
 
@@ -77,7 +77,7 @@ Subscribe to sites like [HackerNews][4] and blogs like [Coding Horror][5]. The i
 
 <hr class="break">
 
-I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is *no* right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn.
+I'm not sure if this was what you were looking for. I unfortunately didn't provide much specifics either. In the end, there is no right way to proceed. Perhaps RoR programs like the one you mentioned are the best way for you to learn.
 
 I just wanted to provide a different perspective which few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
 
