@@ -13,17 +13,21 @@ meta: Here are my tips on how to switch to career in software programming.
    height=445></amp-img>
 </p>
 
-In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air - it doesn't get much better than this.
+In their 25th annual Jobs Rated report, CareerCast ranked Software Engineering as the [#3 best job out of 200][1] for 2013. I've been working as a developer for 6 years now, and I couldn't agree more. Nothing beats designing and creating working applications out of thin air. It's extremely rewarding.
 
 It seems the general population is taking notice of this as well. Kevin Systrom, CEO of Instagram, is one of many who has [made the switch to a career in software development][2]. With no formal engineering training, he taught himself how to program at night and ended up creating a one-billion dollar photo app.
 
-I recently received an email from a friend asking for advice on how to switch industries. He currently works in finance, and as far as I know, is good at his job. Yet, he's unsatisfied and struggles with how to transition to programming. While I'm no expert on this topic, I'd thought I share his email and my (slightly modified) response to him:
+I recently received an email from a friend asking for advice on how to switch industries. He currently works in finance, and as far as I know, is good at his job.
+
+Yet, he's unsatisfied and struggles with how to transition to programming. While I'm no expert on this topic, I'd thought I share his email and my (slightly modified) response to him:
 
 > Hello everyone.
 
 > Over the last year I have been contemplating on the decision of whether to change industries. I have finally decided computer programming is for me.
 
-> I have dedicated hours to Codeacademy and Stanford cs lectures. Recently, I applied for  Devbootcamp (Ruby on Rails) program in SF, but I failed in passing the interview.  I am quiet devastated, but I refuse to give up. However, as of now I am lost, I would like to learn RoR, Java, Javascript and Python. I can't commit another 4 hours to college, but I can commit to programs less than two years. So far the only program I have found in Colorado for RoR is http://davincicoders.com/.
+> I have dedicated hours to Codeacademy and Stanford cs lectures. Recently, I applied for  Devbootcamp (Ruby on Rails) program in SF, but I failed in passing the interview.  I am quiet devastated, but I refuse to give up.
+
+> However, as of now I am lost, I would like to learn RoR, Java, Javascript and Python. I can't commit another 4 hours to college, but I can commit to programs less than two years. So far the only program I have found in Colorado for RoR is http://davincicoders.com/.
 
 > If you have an recommendations I would love to hear. Eventually I would love to work as developer while designing my own things at home in parallel.
 
@@ -77,7 +81,9 @@ I'm not sure if this was what you were looking for. I unfortunately didn't provi
 
 I just wanted to provide a different perspective which few realize when they enter the tech industry. You need to attend pharmacy school to become a pharmacist. You need to have an MBA to get the investment banker position at a big firm. You need to pass the bar exam to become a lawyer.
 
-For programming, there are no accreditations or formal exams needed. You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3]. It's **never** too late to change careers.
+For programming, there are **no accreditations or formal exams needed**.
+
+You only need to have a passion in programming to be successful. Case in point: Bill Gates, Mark Zuckerberg, and Conner, [the 7-year old who creates iPhone apps][3]. It's **never** too late to change careers.
 
 I'm open to talk anytime if you have more questions. Good luck!
 
