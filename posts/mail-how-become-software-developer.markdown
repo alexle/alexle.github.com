@@ -59,7 +59,9 @@ Or better yet, try creating your own web app on Heroku. You'll learn about desig
 
 Do them over and over again until you're comfortable with the logic and programming. The language itself is less relevant than understanding how simple data structures and code flow works, so pick your favorite and run with it.
 
-Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code.
+Learn how to implement objects and classes. Learn about inheritance and encapsulation. Incorporate basic design patterns into your code. There are many resources online.
+
+For example, [CS50x][8] is a free course from Harvard provided by Edx. It will teach you the basics of how computers, programming languages, algorithms and data-structures work and pave the way for the rest of your journey.
 
 ##4) Try to get an internship##
 
@@ -86,3 +88,4 @@ I'm open to talk anytime if you have more questions. Good luck!
 [5]: http://www.codinghorror.com/blog/
 [6]: https://www.codecademy.com/
 [7]: http://stackoverflow.com/
+[8]: https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!
