@@ -337,12 +337,6 @@
   </url>
   
   <url>
-    <loc>http://alexanderle.com/blog/2011/2010-year-in-review.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://alexanderle.com/blog/2008/hello-world.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

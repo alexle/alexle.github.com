@@ -51,7 +51,7 @@ The procedure involves 3 steps:
 
 As of 9/27/11, running the script above produces an output of:
 
-`CRIMINAL MINDS
+<pre><code class=language-python>CRIMINAL MINDS
 September 27
 9
 10
@@ -70,7 +70,8 @@ October 2
 October 3
 9
 10
-11`
+11
+</code></pre>
 
 Time and date of **every** Criminal Mind episode for the next week. Fist pump!
 

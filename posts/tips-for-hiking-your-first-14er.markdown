@@ -12,11 +12,12 @@ meta: Hiking up a 14er is an exhilarating experience. Here are 10 tips for hikin
    width=600
    height=319></amp-img>
 </a>
+<div class="separator">Picture of summit on my hike up Quandary Peak</a></div>
 
 Hiking up a 14er is an exhilarating experience. It's been a couple days since my [first 14er][1] and I thought I'd share what worked for me on the trip and what I'd do differently next time.
 
 ###1. Start Early###
-It's one of the most important rules of 14ers for reason. In Colorado, these storms roll in like clockwork after 12pm, even in the summer months. Getting caught in a rain or lightning storm with no shelter on top of a mountain is dangerous. Leaving the trailhead by 6-7am is generally recommended for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
+It's the most important 14ers rule for a reason. In Colorado, storms roll in like clockwork after 12pm, even in the summer months. Getting caught in a rain or lightning storm with no shelter on top of a mountain is dangerous. Plan to leave the trailhead by 6-7am for an average length hike to ensure you're off the summit in time. Most hikers estimate one hour per 1000 feet of elevation gain.
 
 ###2. Know Your Water Needs###
 The general rule of thumb is 1 liter (34oz) of water for every 3 miles you hike. I found my sweet spot to be around 10oz for each mile, with maybe 0.5 liter extra for emergency. Pre-hydrating before the hike goes a long way and reduces liquid to carry (each liter weighs 2lbs). Water requirements ultimately depend on personal needs and how warm/humid the weather is.
@@ -31,7 +32,7 @@ On our trip, we only finished *half* the food we brought. Perhaps it was the alt
 Check the weather report beforehand, but all bets are off when the elevation is this high. For warm weather, stick to wool/synthetic fabrics which wick sweat away. Sunglasses and hats offer needed protection from the sun. For rain and wind, be ready with a lightweight shell. My Marmot DriClime Jacket kept me dry and warm when the conditions worsened unexpectedly. My friend used a poncho, but would not recommend it since it flew around in the wind and blocked his vision of where he was stepping. I'd probably bring gloves and a beanie next time.
 
 ###6. Trekking Poles Aren't Necessary..###
-..but definitely make life easier. They may look silly to some, but trekking poles reduce fatigue, lessen impact on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver. Probably more impactful for all-day hikes.
+..but definitely make life easier. They may look silly to some, but trekking poles reduce fatigue, lessen impact on knees, and are a great help when negotiating slippery terrain. It's like having 4 legs to help you balance and maneuver. Probably more useful for all-day hikes.
 
 ###7. Understand The Route And Conditions###
 Plan and know your route in advance! Have a map or GPS in case. Are the paths clear of snow? Will you have to take detours? There is a ton of information on [14ers.com][5] and [ProTrails.com][6]. I was always one to scoff at maps and didn't think they were necessary.. until I couldn't determine which path we needed to take on the way down. Luckily, my friend had a GPS map on his phone.

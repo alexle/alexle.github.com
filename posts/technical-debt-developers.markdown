@@ -19,7 +19,7 @@ The price for this service is your debt incurs interest - a percentage charged t
 
 [Technical Debt][1], a concept invented by Ward Cunningham, is a similar concept in programming. Ship your product now! Gain an advantage in the market today.
 
-All it costs you are some corners cut in your software. Or using a quick & dirty design. The caveat is this "debt" has to be paid eventually - and with **interest**.
+All it costs are some corners cut in your software. Or using a quick & dirty design. The caveat is this "debt" has to be paid eventually - and with **interest**.
 
 In other words, use a global variable and save a day's work to make a code release. But left unchecked, it'll add **more effort and complexity** to your future development, since you didn't choose the best design.
 

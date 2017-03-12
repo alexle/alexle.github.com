@@ -7,9 +7,9 @@ meta: 2010 was a year of enjoying life to the fullest, personal growth, and fulf
 
 2010 was a year of enjoying life to the fullest, personal growth, and fulfilling old dreams.
 
-2011 will be a year of [Hustle][1]. I have so many things I want to do and accomplish. And I'm going to do as much of it as I can. People always talk about what they want to do, or what they should do, or what they will do.. but they never do it. I don't want to be one of those people. When I look back on this year, I want to be able to say, "Dam Alex, you kicked some ass this year".
+2011 will be a year of [Hustle][1]. I have so many things I want to do and accomplish. People always talk about what they want to do, or what they should do, or what they will do.. but they never do it. I don't want to be one of those people.
 
-To help keep me motivated and on track, I'm going to ask myself this question at the end of every month:
+When I look back on this year, I want to be able to say, "Dam Alex, you kicked some ass this year". To help keep me motivated and on track, I'm going to ask myself this question at the end of every month:
 
 > What have you accomplished this month?
 
