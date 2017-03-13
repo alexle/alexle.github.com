@@ -20,6 +20,7 @@ Instead of blindly trying to live up to these expectations, we should stop and a
 * Why are we doing this right now?
 * Will this truly make us successful?
 * Does this make us happy?
+* What do we want to accomplish?
 
 I'm not sure what success means to me yet. But for the mean time, Ralph Waldo Emerson's take on success sounds pretty good to me.
 
