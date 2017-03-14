@@ -24,7 +24,7 @@ But what happened to *competing* against our peers and ourselves? It is called a
 
 ##One Mile, That's It?##
 
-After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I would skip our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
+After much debate, I signed up for a one mile race. Yes, it would take me longer to walk from the parking lot to the starting line than to finish the race. When I told a coworker I was skipping our weekly Bootcamp class to run the race, her response was "One mile, that's it? It's so easy".
 
 I had no answer. I just knew I've never dreaded a race as much as I did this one.
 
@@ -77,7 +77,7 @@ We're past all the crazy 90 degree turns and people start to separate from each 
 
 ##Third 400m - 1:35##
 
-The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. My body is screaming at me to stop. Time slows down. Everything hurts.
+The third 400m is a dark and lonely stretch that I would not wish even upon my greatest enemy. My body screams at me to stop. Time slows down. Everything hurts.
 
 I try to find a pack to tuck behind to escape the massive headwind, but there is none. I try to find someone to hang on to, but my vision is getting blurry.
 
@@ -93,10 +93,10 @@ I finally see people getting on 14th, which means this madness is almost over. I
    layout="responsive"
    width=1024
    height=602></amp-img>
-<div class="separator">Photo by Coworker | Look at those shorts!</div>
+<div class="separator">Photo by Coworker</div>
 </p>
 
-My coworker yells 'Run faster!' but I don't hear him or anyone else around me.
+My coworker yells 'Run faster!',  but I don't hear him or anyone else around me.
 
 My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
