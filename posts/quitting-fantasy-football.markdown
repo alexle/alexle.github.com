@@ -44,4 +44,6 @@ At the very least, it's a good way to bond and stay in touch with friends.
 
 Perhaps I've outgrown Fantasy Football, if there is such a thing. All I know is, what use to be entertaining and enjoyable is now a chore and stressful. I certainly won't miss being glued to my TV, computer, and phone watching football and checking stat lines all day.
 
-I use to laugh at all my friends who had to go to the mall or run errands with their significant others on Sundays. Now that I look back on it, they were probably laughing at me too. I hope to wean myself off the addiction that is football one day. For now, I'll enjoy watching football games casually, and acknowledge it as a step towards reclaiming my Sundays back.
+I use to laugh at all my friends who had to go to the mall or run errands with their significant others on Sundays. Now that I look back on it, they were probably laughing at me too.
+
+I hope to wean myself off the addiction that is football one day. For now, I'll enjoy watching football games casually, and acknowledge it as a step towards reclaiming my Sundays back.
