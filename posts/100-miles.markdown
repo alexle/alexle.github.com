@@ -5,7 +5,9 @@ image: /static/nike-2012-total.jpg
 meta: I set a goal to run 100 miles in 2012. Here's how that goal went.
 ---
 
-I set a [goal][1] to run 100 miles in 2012. At the time, I thought it was going to be a breeze. 100 miles came out to a little over 8 miles a month, or a 2 mile run every week. It seemed so easy..
+I set a [goal][1] to run 100 miles in 2012. At the time, I thought it was going to be a breeze. 100 miles came out to a little over 8 miles a month, or a 2 mile run every week.
+
+It seemed so easy..
 
 Six months later, I had logged only 25 miles and was ready to throw in the towel. Sub-35 degree and windy runs were miserable. Runs over 1.25 miles were tortuous and aching. And for reasons I couldn't explain, it felt as if I was getting **worse**. More [details][4] about this later.
 
@@ -17,11 +19,15 @@ Fortunately, I kept with it and after much pain, sweat, and tears, I'm proud to 
    width=300
    height=227></amp-img>
 
-It doesn't sound very impressive, but completing this goal ranks as one of the **top-five** achievements in my life so far. Not so much for the number of miles or difficulty of the runs. But more for the [commitment][2] required to go through with it. There were so many days I just wanted to sleep in, or relax to a TV show after a long day of work. So many chances to say, "I'll just run tomorrow". And so many moments to simply **stop**.
+It doesn't sound very impressive, but completing this goal ranks as one of the better achievements in my life. Not so much for the number of miles or difficulty of the runs. But more for the [commitment][2] required to go through with it.
 
-I couldn't be happier with how well this goal played out. To say it was a success is an understatement. Running this year has completely transformed my views on health and fitness, and combined with some [CrossFit][3] workouts, helped me become the fittest I've ever been.
+There were so many days I just wanted to sleep in, or relax to a TV show after a long day of work. So many chances to say, "I'll just run tomorrow". And so many moments to simply **stop**.
 
-While I understand running isn't for everyone, it's hard not to share and endorse something which has had such a positive impact on your life. I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
+I'm ecstatic with how well this goal played out. To say it was a success is an understatement. Running this year has completely transformed my views on health and fitness, and combined with some [CrossFit][3] workouts, helped me become the fittest I've ever been.
+
+While I understand running isn't for everyone, it's hard not to share and endorse something which has had such a positive impact on your life.
+
+I use to be one of those people who believed "running was [boring][5]" and "running was bad for your knees". Now, I  think differently and actually look forward to it.
 
 As the year comes to a close, give some thought to some positive activities you dread or dislike (waking up early, making a budget, working out). With a plan and some focus, your view and life may change when all is said and done.
 

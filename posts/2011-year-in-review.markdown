@@ -7,9 +7,9 @@ meta: A review of my 2011 goals and how well I accomplished them.
 
 The end of the year always comes with mixed emotions for me. On one hand, it's a chance to celebrate accomplishments, growth, and lessons learned. On the other hand, it's a reminder that another year has passed, another year of opportunities that were missed.
 
-I set out to kick some ass in 2011. While I didn't put quite the dent I wanted on the universe, I couldn't be happier with what how 2011 went. Here's a recap of the goals I set for myself and how they went:
+I set out to kick some ass in 2011. While I didn't quite make the dent I wanted, I'm extremely satisfied with what how 2011 went. Here's a recap of the goals I set for myself and how they went:
 
-###1. Make something (i.e. website, business/startup &nbsp;&#x2713;###
+###1. Make something (i.e. website, business/startup) &nbsp;&#x2713;###
 Probably my main focus this year. Learned some javascript/jquery, improved my HTML/CSS. Created my first <a href="http://wwww.feedblast.me/">web app</a> using Python and Google App Engine. More details to come.<br />
 ###2. Bench 225 &nbsp;&#x2713;###
 Was able to push 225 x 4 successfully. A big feat for me, considering my migration to more "bootcamp" type of workouts.<br />

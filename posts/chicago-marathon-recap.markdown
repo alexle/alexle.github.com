@@ -157,7 +157,7 @@ A quick body scan at mile 16 shows no major signs of cramping or tightness. Body
 
 ...
 
-At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run right pass me. What just happened? My pace must be slipping.
+At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run past me. Was that real? My pace must be slipping..
 
 ##Miles 18.6 - 21.7 (8:41 min/mi)##
 
@@ -165,7 +165,7 @@ I catch back up to the group and reaccess the situation. The good news is I have
 
 The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push the tremors down.
 
-I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **GO-TIME**.
+I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **GO-TIME**.
 
 ##Miles 21.7 - 24.8 (8:05 min/mi)##
 
@@ -179,7 +179,7 @@ I start to see people off to the side stretching out cramps. Many are limping. T
 
 I fly down Michigan Ave, picking off runner after runner. I even catching a couple 3:45 group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
 
-At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the "dreaded" uphill many people warn about at the end.
+At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the dreaded uphill many people warn about at the end.
 
 It takes less than 10 seconds to charge up the bridge. Wait, that's it? I guess Chicago and Denver have different definitions of what a hill is =)
 

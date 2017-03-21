@@ -51,11 +51,11 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 ##It Has To End##
 
-As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
+As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I went on a mission.
 
-I replaced the old sneakers that hurt my feet each day. I organized my messy closet and garage that bugged me each morning. The tattered, uncomfortable desk chair? Replaced with a sleek, mesh task chair that improved my posture.
+I replaced the old sneakers that hurt my feet each day. I organized my messy closet and garage that bugged me each morning. The tattered, uncomfortable desk chair? Replaced with a sleek, mesh chair that helped my posture.
 
-At work, I refactored a huge section of code that made me cringe each time I worked on it. I spoke to my boss and got out of a couple pointless meetings each week.
+At work, I refactored a large section of code that made me cringe each time I touched it. I spoke to my boss and got out of a couple pointless meetings each week.
 
 When it was done, I felt *relieved*. Why had I put all this off, when it was so simple to remove? There was nothing to dread. Just like squishing a bug.
 
