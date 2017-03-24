@@ -39,7 +39,7 @@ Once I grasped this fact, my view of the race changed dramatically. It helped me
 
 ## You Don't Have To, You Get To ##
 
-So that's the secret. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
+It's as simple as it looks. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
@@ -55,7 +55,7 @@ It seems silly at first. I get to do college homework? Why would I be happy abou
 
 Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving the linear equations now. You revel in awe when you finally figure out Fourier Transfer functions.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your linear equations now. You revel in awe when you finally figure out Fourier Transfer functions.
 
 What a difference a word makes.
 
@@ -67,7 +67,7 @@ That's why this technique has helped so much. Because it gives me the chance to 
 
 As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily). Instead, I found myself smiling more. Feeling lighter and happier.
 
-When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza at a rooftop bar after a group run feels like winning the lottery.
+When you're grateful for what you have, your perspective on life changes for the better. Just sharing a pizza after a group run can feel like winning the lottery.
 
 It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light now.
 
@@ -81,9 +81,9 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 ## Give It A Try ##
 
-Life doesn't always go as planned. There will be many situations we can't change.
+Life doesn't always go as planned. There will be many situations you can't change.
 
-We can, however, control how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate that moment.
+You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and appreciate that moment.
 
 People often ask me why I like running so much. I usually throw out a bunch of reasons, depending on my mood or how my runs have been.
 
