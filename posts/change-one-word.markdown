@@ -35,11 +35,11 @@ The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a c
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
-Once I grasped that fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered and ultimately finish in [6:57][1].
+Once I grasped this fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered and ultimately was able to finish in [6:57][1].
 
 ## You Don't Have To, You Get To ##
 
-That's all there is to it. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
+And that's the secret. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
@@ -65,9 +65,9 @@ Sometimes, I get so caught up in the day-to-day routine that I fail to appreciat
 
 That's why this technique has helped so much. Because it gives me the chance to be thankful for whatever I'm doing. A moment to subconsciously practice gratitude without all the journals and rituals.
 
-As I applied this technique to more situations, I began to feel a calm and positive spirit in how I went about life. No longer did little things ruin my day (as easily, I'm still human). Instead, I found myself smiling more. Feeling lighter and happier.
+As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily, I'm still human). Instead, I found myself smiling more. Feeling lighter and happier.
 
-When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza after a group run can feel like winning the lottery.
+When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza at a rooftop bar after a group run feels like winning the lottery.
 
 It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light now.
 
@@ -81,9 +81,9 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 ## Give It A Try ##
 
-Life doesn't always go as planned. There will be many situations you can't change.
+Life doesn't always go as planned. There will be many situations we can't change.
 
-You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and enjoy it.
+We can, however, control how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate that moment.
 
 People often ask me what my favorite part of running is. I usually list out a bunch of reasons, depending how my runs have been.
 
