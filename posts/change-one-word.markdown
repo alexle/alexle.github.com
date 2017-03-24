@@ -25,9 +25,9 @@ Let me illustrate it with a story.
 
 Last summer I ran my first 50k. It was an incredible and memorable experience. But not all of it was rainbows and unicorns.
 
-I bonked absurdly hard at Mile 22. I could barely move. I had no energy. Completely wiped out. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
+I bonked absurdly hard at Mile 22. I had no energy and could barely move. Completely wiped out. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
 
-This is so terrible, I told myself. I have to keep running though. I have to keep suffering. I have to finish.
+This is so terrible, I told myself. I have to keep running though. I have to keep suffering. I have to push through.
 
 Then I laughed at how silly that sounded. Because there I was, in the middle of the freaking Rocky Mountains, experiencing Colorado in a way that very few people get to.
 
@@ -35,11 +35,11 @@ The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a c
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
-And that's the secret. Once I harnessed it, my view of the race changed dramatically. It enabled me to overcome any hill and dark place I encountered to finish in [6:57][1].
+Once I grasped that fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered and ultimately finish in [6:57][1].
 
-## Change One Word ##
+## You Don't Have To, You Get To ##
 
-Instead of always thinking you "have" to do something, switch the word with "get".
+That's all there is to it. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
@@ -53,9 +53,9 @@ Instead of always thinking you "have" to do something, switch the word with "get
 
 It seems silly at first. I get to do college homework? Why would I be happy about that.
 
-Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck providing for their loved ones.
+Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**! You savor solving the differential equations now. You revel in awe when you finally make sense of Fourier Transfer functions.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving the differential equations now. You revel in awe when you finally make sense of Fourier Transfer functions.
 
 What a difference a word makes.
 
@@ -65,11 +65,11 @@ Sometimes, I get so caught up in the day-to-day routine that I fail to appreciat
 
 That's why this technique has helped so much. Because it gives me the chance to be thankful for whatever I'm doing. A moment to subconsciously practice gratitude without all the journals and rituals.
 
-As I used this technique in more situations, I slowly felt a calm and positive spirit in how I went about things. No longer did little things ruin my day as easily (I'm still human). Instead, I found myself smiling more. Feeling lighter and happier.
+As I applied this technique to more situations, I began to feel a calm and positive spirit in how I went about life. No longer did little things ruin my day (as easily, I'm still human). Instead, I found myself smiling more. Feeling lighter and happier.
 
-When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza on a rooftop after a group run can feel like winning the lottery.
+When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza after a group run can feel like winning the lottery.
 
-It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light.
+It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light now.
 
 <amp-img class="pure-img center" src="/static/neo_matrix.gif"
    alt="neo matrix slomo fight gif"
@@ -81,7 +81,9 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 ## Give It A Try ##
 
-Life doesn't always go as planned. There will be situations I can't change. I can, however, control how I react to them. I can choose to get mad, to suffer, to complain. Or I can choose to change my perspective and enjoy it.
+Life doesn't always go as planned. There will be many situations you can't change.
+
+You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and enjoy it.
 
 People often ask me what my favorite part of running is. I usually list out a bunch of reasons, depending how my runs have been.
 
