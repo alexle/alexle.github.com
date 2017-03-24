@@ -35,7 +35,7 @@ The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a c
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
-And that's the secret. That's how I was able to push through the wall and complete my first 50k.
+And that's the secret. Once I harnessed it, my view of the race changed dramatically. It enabled me to overcome any hill and dark place I encountered to finish in [6:57][1].
 
 ## Change One Word ##
 
@@ -77,7 +77,7 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
    width=500
    height=216></amp-img>
 </a>
-<div class="separator">Neo decoding The Matrix</div>
+<div class="separator">Neo decoding [The Matrix][2]</div>
 
 ## Give It A Try ##
 
@@ -86,3 +86,6 @@ Life doesn't always go as planned. There will be situations I can't change. I ca
 People often ask me what my favorite part of running is. I usually list out a bunch of reasons, depending how my runs have been.
 
 But the simple truth is always because, "I get to".
+
+[1]: http://ultrasignup.com/results_event.aspx?did=35808
+[2]: http://www.imdb.com/title/tt0133093/
