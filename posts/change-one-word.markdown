@@ -35,11 +35,11 @@ The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a c
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
-Once I grasped this fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered and ultimately was able to finish in [6:57][1].
+Once I grasped this fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered, and ultimately led to a [6:57][1] finish.
 
 ## You Don't Have To, You Get To ##
 
-And that's the secret. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
+So that's the secret. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
@@ -55,7 +55,7 @@ It seems silly at first. I get to do college homework? Why would I be happy abou
 
 Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving the differential equations now. You revel in awe when you finally make sense of Fourier Transfer functions.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving the linear equations now. You revel in awe when you finally figure out Fourier Transfer functions.
 
 What a difference a word makes.
 
@@ -65,7 +65,7 @@ Sometimes, I get so caught up in the day-to-day routine that I fail to appreciat
 
 That's why this technique has helped so much. Because it gives me the chance to be thankful for whatever I'm doing. A moment to subconsciously practice gratitude without all the journals and rituals.
 
-As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily, I'm still human). Instead, I found myself smiling more. Feeling lighter and happier.
+As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily). Instead, I found myself smiling more. Feeling lighter and happier.
 
 When you're grateful for the small things in life, your perspective changes for the better. Just eating pizza at a rooftop bar after a group run feels like winning the lottery.
 
@@ -85,9 +85,9 @@ Life doesn't always go as planned. There will be many situations we can't change
 
 We can, however, control how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate that moment.
 
-People often ask me what my favorite part of running is. I usually list out a bunch of reasons, depending how my runs have been.
+People often ask me why I like running so much. I usually throw out a bunch of reasons, depending on my mood or how my runs have been.
 
-But the simple truth is always because, "I get to".
+But the truth has always been simply because, "I get to".
 
 [1]: http://ultrasignup.com/results_event.aspx?did=35808
 [2]: http://www.imdb.com/title/tt0133093/
