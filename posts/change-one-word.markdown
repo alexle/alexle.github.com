@@ -85,7 +85,7 @@ Words make a huge difference in our attitude and behavior. Using the right ones 
 
 And life doesn't always go as planned. There will be many situations we can't change.
 
-What we can change, however, is how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate those moments.
+What we can control, however, is how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate those moments.
 
 People often ask me why I like running so much. There's so many reasons, I usually say. Then I throw out a bunch, depending on my mood or how my runs have been.
 
