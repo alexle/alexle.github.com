@@ -81,13 +81,15 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 ## Give It A Try ##
 
-Life doesn't always go as planned. There will be many situations you can't change.
+Words make a huge difference in our attitude and behavior. Using the right ones can provide gratitude and humility to shape any endeavor we face in a positive way.
 
-You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and appreciate those moments.
+Life doesn't always go as planned. There will be many situations we can't change.
 
-People often ask me why I like running so much. Oh there's so many reason, I usually say. Then I list out a bunch of reasons, depending on my mood or how my runs have been.
+We can, however, control how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate those moments.
 
-But the true answer is simply because "I get to".
+People often ask me why I like running so much. There's so many reasons, I usually say. Then I throw out a bunch, depending on my mood or how my runs have been.
+
+But the true and honest answer is simply because, "I get to".
 
 [1]: http://ultrasignup.com/results_event.aspx?did=35808
 [2]: http://www.imdb.com/title/tt0133093/
