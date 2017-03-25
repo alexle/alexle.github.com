@@ -89,7 +89,7 @@ What we can control, however, is how we react to them. We can choose to get angr
 
 People often ask me why I like running so much. There's so many reasons, I usually say. Then I throw out a bunch, depending on my mood or how my runs have been.
 
-But the true and honest answer is simply because, "I get to".
+But the true and honest answer every time, is simply because "I get to".
 
 [1]: http://ultrasignup.com/results_event.aspx?did=35808
 [2]: http://www.imdb.com/title/tt0133093/
