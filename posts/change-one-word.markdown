@@ -29,17 +29,17 @@ I bonked absurdly hard at Mile 22. I had no energy and could barely move. Comple
 
 This is so terrible, I told myself. I have to keep running though. I have to keep suffering. I have to push through.
 
-Then I laughed at how silly that sounded. Because there I was, in the middle of the freaking Rocky Mountains, experiencing Colorado in a way that very few people get to.
+Then I laughed at how silly that sounded. Because there I was, in the middle of the Rocky Mountains, experiencing Colorado in a way that very few people get to.
 
 The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a capable body. Even my siblings were waiting for me at the finish!
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
-Once I grasped this fact, my view of the race changed dramatically. It helped me overcome any hill and dark place I encountered, and ultimately led to a [6:57][1] finish.
+Once I grasped this fact, my view of the race changed dramatically. It helped me overcome any hill or low points I encountered, and ultimately led to a [6:57][1] finish.
 
 ## You Don't Have To, You Get To ##
 
-It's as simple as it looks. Instead of always thinking you "have" to do something, switch it to you "get" to do it.
+It's as simple as it sounds. Instead of always thinking you "have" to do something, switch the words to you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
@@ -83,11 +83,11 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 Life doesn't always go as planned. There will be many situations you can't change.
 
-You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and appreciate that moment.
+You can, however, control how you react to them. You can choose to get angry, to suffer, to complain. Or you can choose to change your perspective and appreciate those moments.
 
-People often ask me why I like running so much. I usually throw out a bunch of reasons, depending on my mood or how my runs have been.
+People often ask me why I like running so much. Oh there's so many reason, I usually say. Then I list out a bunch of reasons, depending on my mood or how my runs have been.
 
-But the truth has always been simply because, "I get to".
+But the true answer is simply because "I get to".
 
 [1]: http://ultrasignup.com/results_event.aspx?did=35808
 [2]: http://www.imdb.com/title/tt0133093/
