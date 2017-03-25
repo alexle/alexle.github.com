@@ -25,7 +25,7 @@ Let me illustrate it with a story.
 
 Last summer I ran my first 50k. It was an incredible and memorable experience. But not all of it was rainbows and unicorns.
 
-I bonked absurdly hard at Mile 24. All my energy had left me and my legs could barely move. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
+I bonked absurdly hard at Mile 24. All my energy was gone. My legs could barely move. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
 
 This is so terrible, I told myself. I have to keep running though. I have to keep suffering. I have to push through.
 
