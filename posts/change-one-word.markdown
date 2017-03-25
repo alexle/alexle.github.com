@@ -77,7 +77,7 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
    width=500
    height=216></amp-img>
 </a>
-<div class="separator">Neo decoding [The Matrix][2]</div>
+<div class="separator">Did Neo find the secret in [The Matrix][2] too?</div>
 
 ## Give It A Try ##
 
@@ -87,7 +87,7 @@ And life doesn't always go as planned. There will be many situations we can't ch
 
 What we can control, however, is how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate those moments.
 
-People often ask me why I like running so much. There's so many reasons, I usually say, before listing a couple out loud.
+People often ask me why I like running so much. There's so many reasons, I usually say, before sharing a couple.
 
 But the true and honest answer every time, is simply because "I get to".
 
