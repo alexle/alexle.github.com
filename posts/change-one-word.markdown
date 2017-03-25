@@ -67,7 +67,7 @@ That's why this technique has helped so much. Because it gives me the chance to 
 
 As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily). Instead, I found myself smiling more. Feeling lighter and happier.
 
-When you're grateful for what you have, your perspective on life changes for the better. Just sharing a pizza with a friend after a group run feels like winning the lottery.
+When you're grateful for what you have, your perspective on life changes for the better. Just sharing a pizza with a friend after a run can feel like winning the lottery.
 
 It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light now.
 
