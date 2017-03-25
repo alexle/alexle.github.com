@@ -72,7 +72,7 @@ When you're grateful for what you have, your perspective on life changes for the
 It's been so impactful, that sometimes I feel I've unlocked one of life's great secrets. Like I'm seeing things in a different light now.
 
 <amp-img class="pure-img center" src="/static/neo_matrix.gif"
-   alt="neo matrix slomo fight gif"
+   alt="neo matrix i am the one fight gif"
    layout="responsive"
    width=500
    height=216></amp-img>
