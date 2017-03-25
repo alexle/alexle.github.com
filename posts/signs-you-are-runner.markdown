@@ -5,13 +5,15 @@ image: /static/gu_drawer.jpg
 meta: I've never considered myself a runner, but am I? Here are 12 signs that I've become a runner.
 ---
 
-I'm three weeks away from my first ever marathon. I'm nervous, yet really excited. During the past couple [weeks of training][3], it occurred to me I've picked up some weird habits since I first started running over a year ago. I've never considered myself a runner, but a second look at these actions make me wonder if I've finally crossed that line.
+I'm three weeks away from my [first ever marathon][4]. I'm nervous, yet really excited.
+
+During the past couple [weeks of training][3], it occurred to me I've picked up some weird habits since I first started running over a year ago. I've never considered myself a runner, but a second look at these actions make me wonder if I've finally crossed that line.
 
 What were the signs that let you know you were finally a runner? Here is my list:
 
-1. You immediately plan which days you're going to run when looking at the weather forecast. You start checking the [weather report][1] hourly instead of daily. Precipitation, wind speeds, and cloud cover are closely monitored.
+1. You immediately plan which days you're going to run when looking at the weather forecast. You start checking the [weather report][1] hourly instead of daily. Precipitation, wind speeds, cloud cover, and UV index are closely monitored.
 
-2. Carbs are your favorite food group.
+2. Carbs are your new favorite food group.
 
 3. You spend more time researching running routes than local restaurants when traveling to a new city.
 
@@ -49,7 +51,7 @@ What were the signs that let you know you were finally a runner? Here is my list
 </a>
 <div class="separator">My top dresser drawer, yum</div>
 
-12. You finish a run, double-over, gasping for air. People passing by don't comprehend why you voluntary do this to yourself. And all you can do is smile how great this is. That's when you know.
+12. You finish a run, double-over, gasping for air. People passing by don't comprehend why you voluntary do this to yourself. And all you can manage is smile from how great this is. That's when you know.
 
 <hr class="break">
 
@@ -64,3 +66,4 @@ I shared this list on the [Runner's World forum][2] and received some great (and
 [1]: http://shouldalexrun.appspot.com
 [2]: http://community.runnersworld.com/topic/12-signs-that-you-are-a-runner
 [3]: /blog/2013/training-marathon.html
+[4]: /blog/first-marathon.html
