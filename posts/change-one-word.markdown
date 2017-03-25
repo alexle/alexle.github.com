@@ -65,7 +65,7 @@ Sometimes, I get so caught up in the day-to-day routine that I fail to appreciat
 
 That's why this technique has helped so much. Because it gives me the chance to be thankful for whatever I'm doing. A moment to subconsciously practice gratitude without all the journals and rituals.
 
-As I applied this technique to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily). Instead, I found myself smiling more. Feeling lighter and happier.
+As I applied it to more situations, I began to feel a calm and positive flow in how I went about life. No longer did little things ruin my day (as easily). Instead, I found myself smiling more. Feeling lighter and happier.
 
 When you're grateful for what you have, your perspective on life changes for the better. Just sharing a pizza with a friend after a run can feel like winning the lottery.
 
@@ -81,13 +81,13 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 
 ## Give It A Try ##
 
-Words make a huge difference in our attitude and behavior. Using the right ones can provide gratitude and humility to shape any endeavor we face in a positive way.
+Words make a huge difference in our attitude and behavior. Using the right ones can provide gratitude and humility to shape any endeavor we face in positive ways.
 
 And life doesn't always go as planned. There will be many situations we can't change.
 
 What we can control, however, is how we react to them. We can choose to get angry, to suffer, to complain. Or we can choose to change our perspective and appreciate those moments.
 
-People often ask me why I like running so much. There's so many reasons, I usually say. Then I throw out a bunch, depending on my mood or how my runs have been.
+People often ask me why I like running so much. There's so many reasons, I usually say, before listing a couple out loud.
 
 But the true and honest answer every time, is simply because "I get to".
 
