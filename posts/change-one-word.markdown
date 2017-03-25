@@ -39,7 +39,7 @@ Once I grasped this fact, my view of the race changed dramatically. It helped me
 
 ## You Don't Have To, You Get To ##
 
-It's as simple as it sounds. Instead of always thinking you "have" to do something, switch the words to you "get" to do it.
+It's as simple as it sounds. Instead of always thinking you "have" to do something, switch the word with you "get" to do it.
 
 * I get to go to the gym
 * I get to do homework for college
