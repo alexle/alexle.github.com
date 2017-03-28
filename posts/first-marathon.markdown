@@ -30,9 +30,9 @@ My overall goal, based on my long runs during training, was to finish in **4:24*
 
 ##Miles 1-13##
 
-3.. 2.. 1.. Go! With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex.
+With tons of adrenaline and freshly rested legs, I came out strong. I wasn't sure what my pace was, but it felt like any other LSD (long slow distance) run during my training. Just another Sunday run, Alex.
 
-The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. We could have gone through a desert for all I know.
+The course snaked through Downtown Denver in the beginning. For some reason, I don't pay much attention to my surroundings while running races. I honestly don't remember what streets or landmarks I was near.
 
 I was simply focused on my form and breathing, turning my legs over, and weaving through the masses. Downtown looked great in the post-run pictures though.
 
@@ -66,7 +66,7 @@ I thought of all the people who would give anything to be in the situation I was
 
 > Pain is temporary. It may last a minute, or an hour, or a day, or a year, but eventually it will subside and something else will take its place. If I quit, however, it lasts forever.
 
-I decided that if I couldn't do this for myself, then at least I could finish for my family and others. Also, there was no way in hell I was going to let this pain last forever.
+I decided that if I couldn't do this for myself, then at least I could finish for my family and others. Also, there was no way in hell I was letting this pain last forever.
 
 ##Miles 14-24##
 
@@ -107,7 +107,7 @@ I've had a chance to reflect on the race and realize that a disappointing perfor
 
 Because how often in life do we have a chance to test our resolve and will against its limits? To push ourselves farther than we've ever gone before. People chuckle when I tell them my marathon was a life-changing experience, but I came out a different person after this race.
 
-For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself and what I was truly capable of during this race.
+For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself and what I was capable of during this race.
 
 At one point, I vowed never to do another one of these again. But who was I kidding. I can't wait for the next one \*wink\*.
 
