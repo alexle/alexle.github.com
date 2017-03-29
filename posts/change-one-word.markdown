@@ -31,7 +31,7 @@ This is so terrible, I told myself. I have to keep running though. I have to kee
 
 Then I laughed at how silly that sounded. Because there I was, in the middle of the Rocky Mountains, experiencing Colorado in a way that very few people get to.
 
-The weather was gorgeous. The air was remarkably fresh. I was healthy. I had a capable body. Even my siblings were waiting for me at the finish!
+The weather was gorgeous. The air was remarkably fresh. I was healthy with a capable body. Even my siblings were waiting for me at the finish!
 
 How many people would give anything to switch spots with me? To them, they'd probably feel this moment was a gift. Something to be appreciated. That they **get** to run this race.
 
@@ -55,7 +55,7 @@ It seems silly at first. I get to do college homework? Why would I be happy abou
 
 Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your linear equations now. You revel in awe when you finally make sense of Fourier Transfer functions.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your linear equations now. You revel in awe when you finally understand Fourier Transfer functions.
 
 What a difference a word makes.
 
