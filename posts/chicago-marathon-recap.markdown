@@ -28,7 +28,7 @@ We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace th
 
 Normally, I like to relax and be off my feet before a race. But this was Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
 
-The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was super knowledgable and made the experience fun, yet informative at the same time.
+The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was very knowledgeable and made the experience fun, yet informative at the same time.
 
 The views from the boat were spectacular. My favorite was a building currently under construction. There was limited room at this location for a standard-sized building, so the architect designed the base to fit along the waterfront and simply expanded the upper levels. Ingenious.
 
@@ -124,7 +124,7 @@ The only issue is how fast they cruise through aid stations. My first attempt to
 
 Feeling loose and relaxed at this point. Enjoying the race and the crowd, have never seen cheering like this before. Still in awe at how many people are out watching.
 
-At mile 10, I wonder if I should switch gears. I throw out a quick surge. Feels nice to stretch the legs, but it's way too early. I pop another GU and sullenly retreat back to the pace group.
+At mile 10, I wonder if I should switch gears. I throw out a quick surge. Feels nice to stretch the legs, but it's way too early. I pop another GU and sullenly retreat behind the group.
 
 ##Miles 12.4 - 15.5 (8:42 min/mi)##
 
@@ -147,7 +147,7 @@ He asks who will be the first to drink. Everyone is silent, probably from shock.
 
 Oh why not. I cup my hands and he pours a generous amount in them. I slurp every drop of the delicious liquid. So this is what unicorn tears taste like.
 
-I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. Another GU at mile 14. Stuffing my face with as many calories as I can now.
+I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. GU at mile 14. Stuffing my face with as much calories as I can now.
 
 ##Miles 15.5 - 18.6 (8:50 min/mi)##
 
@@ -157,15 +157,17 @@ A quick body scan at mile 16 shows no major signs of cramping or tightness. Body
 
 ...
 
-At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run past me. Was that real? My pace must be slipping..
+At mile 18, I stop for water and my heart is **crushed** when I see the 3:50 pace group run past me. What just happened? My pace must be slipping..
 
 ##Miles 18.6 - 21.7 (8:41 min/mi)##
 
-I catch back up to the group and reaccess the situation. The good news is I haven't cramped yet. It's the farthest I've ever gone without cramps. The bad news is I don't know how long it'll last.
+I catch back up to the group and reassess the situation. The good news is I haven't cramped yet. It's the farthest I've ever gone without cramps. The bad news is I don't know how long it'll last.
 
 The sun is out and the heat is a major factor now. I try to stay cool by running on the shady side of streets and through any fire hydrants or sprinklers. Hamstrings and calves are getting tight. I almost pull one, but I adjust my form and push the tremors down.
 
-I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20. It's **GO-TIME**.
+I know I have two gears left if my body holds out. I prepare for another surge. No chances this time, pace group. I hit the NOS at mile 20.
+
+It's **GO-TIME**.
 
 ##Miles 21.7 - 24.8 (8:05 min/mi)##
 
@@ -177,7 +179,7 @@ I start to see people off to the side stretching out cramps. Many are limping. T
 
 ##Miles 24.8 - 26.2 (7:45 min/mi)##
 
-I fly down Michigan Ave, picking off runner after runner. I even catching a couple 3:45 group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it's going to hurt forever.
+I fly down Michigan Ave, picking off runner after runner. I even catch a few 3:45 group members. At mile 25, I unleash my final gear -- Beastmode. Everything hurts but I tell myself if I stop now, it will hurt forever.
 
 At mile 26, I see signs for 800m and 400m remaining. I prepare myself for the dreaded uphill many people warn about at the end.
 
@@ -202,9 +204,9 @@ Since the finish is packed with spectators, I make my way to the designated area
 
 ##Impressions##
 
-1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or the massive energy from the spectators. The entire city hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
+1. Of all the races I've run so far, Chicago is on a whole other level. It isn't just the top-notch organization or massive energy from the spectators. The entire city hums with excitement and electricity that weekend. It makes you want to run even more than you already do.
 
-2. The volunteers and event crew do one heck of a job in making this event special. I can't praise them enough. Everyone was so nice, encouraging, and helpful.
+2. The volunteers and event crew do one heck of a job in making the event special. I can't praise them enough. Everyone was so nice, encouraging, and helpful.
 
 3. Running with a pace group was great! I would definitely do it again, especially if the pacers were anything like the 3:50 group. It's absurd how accurate their splits were. They knew the course very well, down to the best paths to take for maximum shade.
 
