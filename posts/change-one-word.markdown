@@ -55,7 +55,7 @@ It seems silly at first. I get to do college homework? Why would I be happy abou
 
 Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your Linear Equations now. You buzz with excitement when you reach a problem that requires a Fourier Transform.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your Linear Equations now. You buzz with excitement when you have a chance to use a Fourier Transform.
 
 What a difference a word makes.
 
