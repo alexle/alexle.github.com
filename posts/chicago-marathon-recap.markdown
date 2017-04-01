@@ -147,7 +147,7 @@ He asks who will be the first to drink. Everyone is silent, probably from shock.
 
 Oh why not. I cup my hands and he pours a generous amount in them. I slurp every drop of the delicious liquid. So this is what unicorn tears taste like.
 
-I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. GU at mile 14. Stuffing my face with as much calories as I can now.
+I'm pumped up now, which is good because we're pretty much heading straight into the wind. The pack is providing some nice shelter. GU at mile 14. Stuffing my face with all the calories now.
 
 ##Miles 15.5 - 18.6 (8:50 min/mi)##
 
