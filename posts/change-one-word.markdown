@@ -15,7 +15,7 @@ image: /static/alex_le_mesa_trail_morning.jpg
 
 I'm going to let you in on a secret technique of mine.
 
-It's one which has helped me overcome many difficult moments in life. When I get stuck in soul-crushing traffic. When I'm burnt out at work. When the schedule calls for 18 miles and I want to quit after the second one.
+It's one which has helped me overcome many difficult moments in life. When I get stuck in soul-crushing traffic. When I'm burnt out at work. When the schedule calls for 15 miles and I want to quit after the second one.
 
 All it takes is changing **ONE** word. One word to change your entire view of any situation. I came across it a couple years ago and only wish I had known about it sooner.
 
@@ -25,7 +25,7 @@ Let me illustrate it with a story.
 
 Last summer I ran my first 50k. It was an incredible and memorable experience. But not all of it was rainbows and unicorns.
 
-I bonked absurdly hard at Mile 24. All my energy was gone. My legs could barely move. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
+I bonked absurdly hard at Mile 24. All my energy had vanished. My legs could barely move. I just wanted it to end and to lay in bed somewhere with a bag of Cheetos.
 
 This is so terrible, I told myself. I have to keep running though. I have to keep suffering. I have to push through.
 
@@ -55,7 +55,7 @@ It seems silly at first. I get to do college homework? Why would I be happy abou
 
 Then you realize there are people who'd love the opportunity and chance to attend college, but can't due to finances or a life situation. People who have a desperate desire to learn, but are stuck working long shifts to provide for their loved ones.
 
-Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your Linear Equations now. You buzz with excitement when you have a chance to use a Fourier Transform.
+Suddenly, what seemed like a chore just 5 minutes ago has transformed into a **reward**. You savor solving your Linear Equations now. There's a new excitement when you attempt a Fourier Transform.
 
 What a difference a word makes.
 

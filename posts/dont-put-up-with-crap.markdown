@@ -39,9 +39,9 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 If we take a closer look at our daily routines, odds are there are distractions and annoyances all around us.
 
-The sad part is how entrenched they've become in our lives. We barely notice them, to the point that we actually accept them as truths.
+We may not notice them at first. Maybe it's a slow computer at work. Or slight pain in the knees when we go up stairs. Or a loud refrigerator. Whatever the annoyances are, they point is how entrenched they've become in our lives.
 
-And that's where the problem lies. Not in the fact that crap exists and happens to us from time to time. But in how **numb** we've become to all of it.
+And that's where the problem lies. Not in the fact that crap exists and happens to us. But in how **numb** we've become to all of it. To the point that we actually accept them as truths.
 
 Why do we constantly choose to put up with crap we have the power to eliminate?
 
@@ -51,11 +51,11 @@ Whatever the reason, the longer an annoyance lingers around, the more familiar a
 
 ##It Has To End##
 
-As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I went on a mission.
+As you can guess, the lesson of Bob's sleep apnea stayed with me. When I returned home that weekend, I was on a mission.
 
-I replaced the old sneakers that hurt my feet each day. I organized my messy closet and garage that bugged me each morning. The tattered, uncomfortable desk chair? Replaced with a sleek, mesh chair that helped my posture.
+I replaced the old sneakers that hurt my feet each day. I organized my messy closet and garage that bugged me each morning. The tattered, uncomfortable desk chair? Replaced with a sleek, mesh chair which improved my posture.
 
-At work, I refactored a large section of code that made me cringe each time I touched it. I spoke to my boss and got out of a couple pointless meetings each week.
+At work, I refactored a large section of code that made me cringe each time I looked at it. I even spoke to my boss and got out of a couple pointless meetings each week.
 
 When it was done, I felt *relieved*. Why had I put all this off, when it was so simple to remove? There was nothing to dread. Just like squishing a bug.
 
