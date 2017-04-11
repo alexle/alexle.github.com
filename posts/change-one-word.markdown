@@ -42,14 +42,14 @@ Once I grasped this fact, my view of the race changed dramatically. It helped me
 It's as simple as it sounds. Instead of always thinking you "have" to do something, switch the word with you "get" to do it.
 
 * I get to go to the gym
-* I get to do homework for college
 * I get to drive to work
+* I get to eat vegetables
 * I get to practice the piano
 * I get to write code all day
 * I get to take care of and raise my kids
 * I get to see my parents each week
 * I get to celebrate Valentine's day with my significant other
-* I get to eat vegetables
+* I get to do homework for college
 
 It seems silly at first. I get to do college homework? Why would I be happy about that.
 
@@ -74,8 +74,8 @@ It's been so impactful, that sometimes I feel I've unlocked one of life's great 
 <amp-img class="pure-img center" src="/static/neo_matrix.gif"
    alt="neo matrix i am the one fight gif"
    layout="responsive"
-   width=500
-   height=216></amp-img>
+   width=480
+   height=205></amp-img>
 </a>
 <div class="separator">Did Neo find the secret in [The Matrix][2] too?</div>
 
