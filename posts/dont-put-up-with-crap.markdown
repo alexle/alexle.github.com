@@ -39,7 +39,7 @@ It's hard to believe Bob had put up with so many sleepless nights. It seems obvi
 
 If we take a closer look at our daily routines, odds are there are distractions and annoyances all around us.
 
-We may not notice them at first. Maybe it's a slow computer at work. Or slight pain in the knees when we go up stairs. Or a loud refrigerator. Whatever the annoyances are, they point is how entrenched they've become in our lives.
+We may not notice them at first. Maybe it's a slow computer at work. A loud refrigerator. Or slight pain in the knees when we go up stairs. Whatever the annoyances are, the point is how entrenched they've become in our lives.
 
 And that's where the problem lies. Not in the fact that crap exists and happens to us. But in how **numb** we've become to all of it. To the point that we actually accept them as truths.
 

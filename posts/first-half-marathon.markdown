@@ -9,7 +9,7 @@ Last December, my friend surprised me with an entry to the [Denver Colfax Half-M
 
 Unfortunately, the excitement quickly faded. You see, up to that point, the farthest I had ever run was 3 miles. A half-marathon is 13.1 miles. Fear and anxiety sank in. I even tried to think of an excuse to get out of the race.
 
-Luckily, I went through with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience, one which I'll never forget. Here is a recap of my half-marathon.
+Luckily, I stuck with it and 4 grueling months later, I completed my first half-marathon. I finished in **01:48:12** with a pace of **8:15**. It was an extraordinary experience. Here is the recap of my half-marathon.
 
 <a href="/static/2013-half-nike-map.jpg">
 <amp-img class="pure-img center" src="/static/2013-half-nike-map.jpg"
@@ -28,7 +28,7 @@ My nerves were surprisingly calm. I was running on 3 hours of sleep, a Clif ener
 
 With thirty minutes to go, they steered us into our respected corrals. I was in Group D which, judging by the pace groups around me, looked to be the 9:15 minute/mile group. This was good by me, since I was on a mission and didn't want anyone in my way.
 
-It seemed like an eternity in the corral. Thankfully, the "let's-get-ready-to-rumble" announcer kept energy levels high with motivational dialogue and jokes. When the national anthem finished, the headphones went in..
+It seemed like an eternity in the corral. Thankfully, the "let's-get-ready-to-rumble" announcer kept energy levels high with motivational dialogue and jokes. When the national anthem finished, the headphones went in.
 
 Each wave was staggered about 3 minutes. Honestly, it was the <u>best</u> start to a race I've ever been a part of. There were no tripping over anyone's feet, or packs to maneuver around. The streets were wide, with no bottle-neck turns early on.
 
@@ -72,7 +72,7 @@ Reaching this marker was like waking up from a dream and getting hit with a dose
 
 I ramped my engines up to 90% and pushed forward with the hardest part of the race. I focused on how many people I could pick off, with my (supposedly) extra energy.
 
-Lungs on fire, legs dragging heavily.. I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was saving the world with Swedish House Mafia.
+Lungs on fire, legs dragging heavily, I wanted to stop so many times. But nothing else mattered, because with a couple clicks on my iPod, I was saving the world with Swedish House Mafia.
 
 ##Finish & Post-Race##
 
