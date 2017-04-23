@@ -30,7 +30,7 @@ Let's see. The first day was easy and relaxing. It required no mental or physica
 
 In terms of comfort, it was a 10/10. Just sit back and enjoy life. It's what we worked hard all week for.
 
-Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollow**. My senses were dulled. There was no substance. No achievement, no value added. Nothing created. Just mindless consumption of food and entertainment.
+Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollow**. My senses were dulled. There was no substance. No achievement, no value created. Just mindless consumption of food and entertainment.
 
 Contrast that to the second day, which had punished my body and mind to an absurd level. My legs were wrecked. My toenails had turned black. I had aches in places I didn't even know could ache.
 

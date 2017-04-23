@@ -45,7 +45,6 @@ It's as simple as it sounds. Instead of always thinking you "have" to do somethi
 * I get to drive to work
 * I get to eat vegetables
 * I get to practice the piano
-* I get to write code all day
 * I get to take care of and raise my kids
 * I get to see my parents each week
 * I get to celebrate Valentine's day with my significant other

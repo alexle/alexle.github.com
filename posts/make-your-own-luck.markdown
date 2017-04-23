@@ -29,7 +29,7 @@ If you're still not convinced, then here are some additional tips to improve you
 
 Instead of hanging out at the same places, or talking to the same types of people, try changing up your environment and activities. You'll meet new people, learn new things, and more importantly, be exposed to more chance opportunities. Try being a [Yes Man][1].
 
-##Try Stuff##
+##Try stuff##
 
 If you lock yourself in your house, how many exciting adventures and stories will happen to you? Will an amazing job or special someone magically appear in front of your door?
 
@@ -47,6 +47,8 @@ If you go to a bar only looking for the perfect partner, you may miss the chance
 
 ##Embrace failure##
 
-Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future. Some people are so disappointed from choosing the wrong fork in a road they dwell on it and don't go anywhere. Lucky people brush it off and move on, prepared for the next opportunity when it comes.
+Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future.
+
+Some people so disappointed from failing that they dwell on it and don't go anywhere. Lucky people realize that any ill fortune in their lives will, in the long run, work out of the best. They brush it off and move on, prepared for the next opportunity when it comes.
 
 [1]: http://en.wikipedia.org/wiki/Yes_Man_(film)
