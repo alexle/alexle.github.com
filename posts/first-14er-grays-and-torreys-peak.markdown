@@ -37,7 +37,7 @@ On my hikes in the past, I've always been surrounded by trees, mountains, and bu
 
 ##At The Top##
 
-We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. majestic. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms?
+We made it to the top of Gray's Peak around 11:20 am. For some reason, I expected it to be more.. **majestic**. Where were the rays of light from heaven, the singing angels, and the friendly animals that ate from our palms?
 
 Instead, all we were greeted with were booming sounds of thunder from the rain clouds heading towards us. Nonetheless, the view was breathtaking and I couldn't have been more proud of us making it up there.
 
@@ -47,7 +47,7 @@ Instead, all we were greeted with were booming sounds of thunder from the rain c
 </a>
 </p>
 
-I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. I believe that now. And with how windy it was on the summit and the rain clouds blocking the sun, it turned chilly fast.
+I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. It felt pretty true. Combined with strong winds and cloud cover, and it definitely turned chilly quickly on the summit. 
 
 ##To The Next Peak##
 
@@ -61,7 +61,7 @@ After a quick snack and some pictures, we pushed on to Torrey's around 12:00 pm.
 
 A couple hundred feet up up Torrey's, the weather took a drastic turn. It was the beginning of July, Colorado had just gone through a heat wave, and the last thing any of us expected to see was.. **snow**. Yes, the soft fluffy stuff snowmen are made of.
 
-To make matters worse, the ominous thunder clouds were moving in fast and there was the chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
+To make matters worse, the ominous thunder clouds were moving in fast. There was a chance we were going to be stuck in a thunderstorm near the top of 14er. Not good.
 
 We made a group decision to go on and eventually reached the top at 1:20 pm. We had overcome the distance, elevation, and altitude. It's hard to describe the feeling of accomplishment, joy, and adrenaline that comes from standing at the highest point around you for miles. Maybe a picture *is* worth a thousand words :)
 
@@ -75,7 +75,7 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave.
 
-On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. I couldn't believe it. Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
+On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. Is this for real? Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
 
 The hail eventually subsided into a steady **rain** shower, which made navigating the rocky terrain slippery and challenging. Our trekking poles helped tremendously. Finally, while navigating the switchbacks down, super **winds** hit us, making our trek along the narrow paths even more dangerous.
 
