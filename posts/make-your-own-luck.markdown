@@ -19,7 +19,7 @@ The point is **what we put out** in the universe determines our luck. It isn't s
 
 Say hi to the person next to you in the checkout line, maybe it'll open up a network opportunity. Spend time on your tiny side project, it might impress the next person who interviews you.
 
-I *cringe* when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny.
+I **cringe** when I hear people claim how unlucky they are. To me, it's just a convenient excuse to take responsibility off themselves, rather than try to exert some control over their destiny.
 
 We're all capable of making our own luck. And I've found the harder you work, the **luckier** you get.
 
@@ -49,6 +49,6 @@ If you go to a bar only looking for the perfect partner, you may miss the chance
 
 Don't be afraid of taking risks and failing. Everything that happens in life is a lesson, and the sooner you learn what the lesson is, the better prepared you'll be for the future.
 
-Some people so disappointed from failing that they dwell on it and don't go anywhere. Lucky people realize that any ill fortune in their lives will, in the long run, work out of the best. They brush it off and move on, prepared for the next opportunity when it comes.
+Some people dwell on their disappointments and don't go anywhere. Lucky people realize that any ill fortune in their lives will work out for the best. They brush it off and move on, prepared for the next opportunity when it comes.
 
 [1]: http://en.wikipedia.org/wiki/Yes_Man_(film)
