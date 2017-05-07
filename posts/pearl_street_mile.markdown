@@ -11,7 +11,7 @@ meta: A race recap of my experience at the Pearl Street Mile. Bring back the mil
    layout="responsive"
    width=909
    height=607></amp-img>
-<div class="separator">Photo by <a href="http://www.danieljoderphotography.com/">Daniel Joder</a></div>
+<div class="separator">Photo by <a href="http://www.danieljoderphotography.com/the-pearl-street-mile/">Daniel Joder</a></div>
 </p>
 
 "How long was your run yesterday? How many miles did you log last week? Do you have any big races coming up?"
