@@ -36,7 +36,7 @@ Contrast that to the second day, which had punished my body and mind to an absur
 
 But the burger and fries never tasted better. The company of my friends never more appreciated. The sun was brighter. Life was more full. And I felt genuinely **alive**.
 
-When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life more.
+When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life more. An easy day pales in comparison to a day like this.
 
 Maybe an easy life isn't as perfect as we think it is. Pope Francis of the Roman Catholic Church certainly doesn't think so:
 
