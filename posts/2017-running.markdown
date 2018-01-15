@@ -314,7 +314,7 @@ It's hard to pinpoint how I got to this point. But if I had to say, I'd attribut
 
 4. **Run without limits** - Take a leap of faith once in a while. Take a chance on something scary. And believe in yourself. If I can do it, you can too.
 
-Cheers to another sweat-soaked, lactate-burning, lung-gasping year =)
+Here's to another sweat-soaked, lactate-burning, lung-gasping year - cheers!
 
 [1]: https://alexanderle.com/blog/2012/100-miles.html
 [2]: https://alexanderle.com/blog/chicago-marathon-recap.html
