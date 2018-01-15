@@ -68,11 +68,6 @@ def CreateCSSRaw( ):
     css_raw_flat = list(itertools.chain.from_iterable(css_raw))
     return ''.join(css_raw_flat)
 
-def StripSQ( s ):
-    if s.startswith('\'') and s.endswith('\''):
-        s = s[1:-1]
-    return s
-
 def ParsePostHeader( f ):
     # Read off first '---' tag.
     f.readline().rstrip()
@@ -82,11 +77,9 @@ def ParsePostHeader( f ):
         line = f.readline().rstrip()
         if line.startswith('title'):
             H.title = line.replace('title:', '').lstrip()
-            H.title = StripSQ(H.title)
             print H.title
         if line.startswith('date'):
             H.raw_date = line.replace('date:', '').lstrip()
-            H.raw_date = StripSQ(H.raw_date)
         if line.startswith('image'):
             H.img = line.replace('image:', '').lstrip()
             if H.img:
