@@ -33,7 +33,7 @@ Instead of hanging out at the same places, or talking to the same types of peopl
 
 If you lock yourself in your house, how many exciting adventures and stories will happen to you? Will an amazing job or special someone magically appear in front of your door?
 
-It's hard to come across good things when they don't even have a chance to happen in the first place. Don't wait until you have all the answers. Get out there and let life happen. You might be surprised.
+It's hard to come across good things when they don't even have a chance to happen in the first place. Don't wait until you have all the answers. Get out there and let life happen. Be open to new experiences. You might be surprised.
 
 ##Be generous##
 
