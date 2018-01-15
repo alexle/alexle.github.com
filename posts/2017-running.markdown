@@ -22,16 +22,16 @@ So here's a look back on my **best** year of running ever, and how I managed to 
 
 ## Background ##
 
-I started running in [2012][1]. I'm not a natural runner, and am by no means fast. I run simply because I enjoy it. After climbing the race distance ladder, I topped off at a couple [marathons][2] and even my first ultra-marathon.
+I started running in [2012][1]. I'm not a natural runner, and am by no means fast. I run simply because I enjoy it. After climbing the race distance ladder, I topped off at a couple [marathons][2] and even added an ultra-marathon to my belt.
 
 Looking for a change, I decided to try my hand (or legs I should say) at some shorter distances. After two unsuccessful attempts to go sub-20 in the 5k, I put that milestone on hold for 2017.
 
-Thus, my only two goals for 2017 were:
+Thus, my only two goals last year were:
 
 1. Break 20:00 in the 5k
 2. Finish another ultra-marathon
 
-Below are my previous race PRs heading into 2017:
+Below were my previous race PRs heading in:
 
 * Mile - 5:42
 * 5k - 20:15, 20:18
@@ -127,7 +127,7 @@ A neat thing about the Bolder Boulder is if you go sub-40, they give you a comme
 
 People have asked if I planned my pace or had this goal in mind. No, I answer. Truthfully, something changed inside of me after going sub-20. Like the limits I had set for myself and what I thought was possible had been a mirage.
 
-Each workout I nailed gave me more confidence in my abilities. Each barrier I broke has me questioning the next one. **Don't let fear prevent you from reaching your potential**.
+Each workout I nailed gave me more confidence in my abilities. Each barrier I broke had me questioning the next one. **Don't let fear prevent you from reaching your potential**.
 
 ## June: North Fork 50k ##
 
@@ -160,7 +160,7 @@ I'm a sucker for good deals. And free stuff. Which makes this race coincidental,
 
 When I saw the race was only $20, and included UNLIMITED pancakes, bacon, bagels, and yogurt.. Well, it was a transgression to turn that down.
 
-The race's inaugural event was quite small, maybe 120-130 people. Which was fine because it meant more pancakes for me.
+The race's inaugural event was quite small, maybe 120-130 people. Which was fine because it only meant more pancakes for me.
 
 I lined up in front. When the gun went off, I was right on the bike pacer. You know how you turn on the TV and see elite marathoners and cyclists follow flashing motorcycle or car pacers? Well, that was me! It's quite surreal. I probably grinned the entire first mile at how cool it was.
 
@@ -293,7 +293,7 @@ Some time ago, I saw a picture where hundreds of Santas lined up for a race. It 
 
 Unfortunately, these races aren't very common and I grew weary of waiting for one. Wait, why couldn't I organize my own Santa run? It'd also be a fun way to spread holiday cheer.
 
-The number of car honks, smiles, and compliments I received on the way to the track was overwhelming. People were ready for Santa!
+The number of car honks, smiles, and compliments I received on the way to the track were overwhelming. People were ready for Santa!
 
 Check out the outcome below. It was the perfect ending to an incredible year.
 
@@ -310,11 +310,11 @@ It's hard to pinpoint how I got to this point. But if I had to say, I'd attribut
 
 2. **Running is FUN** - First graders don't count their steps, or weekly mileage, or know their 10k pace. They run to feel free, to be outside. For the thrill and excitement it brings. Can you make it to the top of the hill? What's down this street? Be a kid once in a while!
 
-3. **Consistency** - The single most important thing that leads to success. Want to run faster? Just run more. It's really that simple. If you focus on improving 1% every day, I promise you'll be surprised with what you can accomplish.
+3. **Consistency** - It's the single most important thing that leads to success. Want to run faster? Just make it a habit and run more. It's really that simple. If you focus on improving 1% every day, I promise you'll be surprised with what you can accomplish.
 
-4. **Run without limits** - Take a leap of faith. Take a chance on something scary. And believe in yourself. If I can do it, you can too.
+4. **Run without limits** - Take a leap of faith once in a while. Take a chance on something scary. And believe in yourself. If I can do it, you can too.
 
-What a year. Cheers to another sweat-soaked, lactate-burning, lung-gasping year =)
+Cheers to another sweat-soaked, lactate-burning, lung-gasping year =)
 
 [1]: https://alexanderle.com/blog/2012/100-miles.html
 [2]: https://alexanderle.com/blog/chicago-marathon-recap.html
