@@ -125,7 +125,7 @@ A neat thing about the Bolder Boulder is if you go sub-40, they give you a comme
 <div class="separator"></div>
 </p>
 
-People have asked if I planned the pace or had this goal in mind. No, I answer. Truthfully, something changed inside of me after going sub-20. Like the limits I had set for myself and what I thought was possible had been a mirage.
+People have asked if I planned my pace or had this goal in mind. No, I answer. Truthfully, something changed inside of me after going sub-20. Like the limits I had set for myself and what I thought was possible had been a mirage.
 
 Each workout I nailed gave me more confidence in my abilities. Each barrier I broke let me questioning the next one. **Don't let fear prevent you from reaching your potential. Take a chance, and believe in yourself**.
 
