@@ -1,9 +1,9 @@
----
+----
 title: Don't Put Up With Crap (If You Can Help It)
 date: 10-19-2015
 image: /static/porta_potty.jpg
 meta: There are two kinds of crap in the world. Stuff that is beyond our control, and stuff that is within. Don't confuse the two.
----
+----
 
 <p>
 <amp-img class="pure-img center" src="/static/porta_potty.jpg"

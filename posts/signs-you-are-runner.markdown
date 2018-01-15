@@ -1,9 +1,9 @@
----
+----
 title: 12 Signs That You're A Runner
 date: 09-27-2013
 image: /static/gu_drawer.jpg
 meta: I've never considered myself a runner, but am I? Here are 12 signs that I've become a runner.
----
+----
 
 I'm three weeks away from my [first ever marathon][4]. I'm nervous, yet really excited.
 

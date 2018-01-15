@@ -1,10 +1,10 @@
----
+----
 title: Hello World!
 date: 12-10-2008
 image:
 meta: Hello World!
 code: True
----
+----
 
 
 <pre><code class=language-c>#include &lt;stdio.h>

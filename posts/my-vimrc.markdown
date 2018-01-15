@@ -1,10 +1,10 @@
----
+----
 title: My .Vimrc Configuration
 date: 01-20-2012    
 image:
 meta: My .vimrc configuration.
 code: True
----
+----
 
 [VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
 

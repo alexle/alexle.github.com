@@ -1,9 +1,9 @@
----
+----
 title: How Technical Debt Affects Your Developers
 date: 10-16-2016
 image: /static/coin-stack.jpg
 meta: Technical debt is a necessary step in software engineering. However, it can take its toll on your developer's productivity, morale, and skills.
----
+----
 
 <p>
 <amp-img class="pure-img center" src="/static/coin-stack.jpg"

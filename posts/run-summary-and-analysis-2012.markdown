@@ -1,9 +1,9 @@
----
+----
 title: A Summary And Analysis Of Running In 2012
 date: 01-02-2013
 image: /static/miles-ran-each-month.png
 meta: A brief summary and analysis of my year of running.
----
+----
 
 *WARNING: Lots of statistics and graphs below. Proceed at your own risk.*
 

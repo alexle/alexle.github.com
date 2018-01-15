@@ -1,9 +1,9 @@
----
+----
 title: Add Syntax Highlighting To Your Blog With VIM
 date: 03-17-2012
 image:
 meta: A tutorial on how to add syntax highlighting to your blog using GVIM and the TOHtml method.
----
+----
 
 One of the challenges [Chisel][1] presents is the lack of syntax highlighting for code snippets. Luckily, this can be solved with -- surprise, surprise -- VIM!
 

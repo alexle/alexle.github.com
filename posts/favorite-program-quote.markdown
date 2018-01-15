@@ -1,9 +1,9 @@
----
+----
 title: My Favorite Programming Quotes
 date: 09-01-2011
 image:
 meta: Here are some programming quotes I've come across I've enjoyed.
----
+----
 
 Every profession has their own "inside" jokes. Those which only others in their industry can relate to and understand. Here are some programming quotes I've come across I've enjoyed:
 

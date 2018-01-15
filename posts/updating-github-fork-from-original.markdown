@@ -1,10 +1,10 @@
----
+----
 title: Keeping A Github Fork Updated
 date: 08-12-2012
 image:
 meta: It's hard to remember all the Github commands. Here's how to keep your Gibhub Fork updated.
 code: True
----
+----
 
 I still find myself having to look up how to update my forked Github repositories so I'm creating a quick post for future use. The steps below are what I use to keep the code I've forked current with its original repository.
 

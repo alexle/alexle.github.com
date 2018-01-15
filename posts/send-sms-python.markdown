@@ -1,10 +1,10 @@
----
+----
 title: How To Send A SMS Message With Python (easy way)
 date: 05-05-2011
 image:
 meta: Python is extremely versatile and powerful. Here's an easy way to send SMS messages using the Gmail Gateway.
 code: True
----
+----
 
 *\*Updated 12/17/2016*
 

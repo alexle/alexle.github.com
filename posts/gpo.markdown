@@ -1,9 +1,9 @@
----
+----
 title: GPO!
 date: 03-08-2011
 image: /static/alex_gpo.jpg
 meta: Google Page One! I now exist in the Google Universe.
----
+----
 
 The day has finally come. I now exist in the google universe.
 

@@ -1,9 +1,9 @@
----
+----
 title: 2012 Goals
 date: 01-05-2012    
 image:
 meta: My 2012 goals. This year will be a year of Focus.
----
+----
 
 I've always liked goals. To-Do lists, checkboxes, sticky notes. They give me a feeling of moving <s>forward</s> somewhere and comfort in knowing I'm not stagnant.
 

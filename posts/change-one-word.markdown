@@ -1,9 +1,9 @@
----
+----
 title: Change How You See The World With One Word
 date: 03-24-2017
 meta: Life doesn't always go as planned. Here's a simple way to change your perspective of any situation.
 image: /static/alex_le_mesa_trail_morning.jpg
----
+----
 
 <amp-img class="pure-img center" src="/static/alex_le_mesa_trail_morning.jpg"
    alt="alex le mesa trail morning"

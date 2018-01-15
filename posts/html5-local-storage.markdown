@@ -1,9 +1,9 @@
----
+----
 title: Store your data with HTML5 local storage
 date: 11-27-2011    
 image:
 meta: A tutorial on how to store data using HTML5 Local Storage.
----
+----
 
 [Local storage][3] is a pretty cool feature included in HTML5.
 

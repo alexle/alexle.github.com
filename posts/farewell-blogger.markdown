@@ -1,9 +1,9 @@
----
+----
 title: Repost: Farewell Blogger
 date: 02-07-2012
 image:
 meta: Here's my farewell post on leaving Google Blogger for a Github Pages.
----
+----
 
 \* *reposted from [http://alextrle.blogspot.com][1]*
 

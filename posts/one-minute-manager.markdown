@@ -1,9 +1,9 @@
----
+----
 title: The One Minute Manager
 date: 03-13-2011
 image: /static/one_minute.jpg
 meta: A brief review of The One Minute Manager and my thoughts on it.
----
+----
 
 Finished this book last week and thought I would write a little about it for future reference.
 

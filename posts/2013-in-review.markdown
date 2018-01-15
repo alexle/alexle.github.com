@@ -1,9 +1,9 @@
----
+----
 title: 2013 In Review: Running, Muscle-Ups, And More
 date: 12-31-2013
 image: /static/2013-alex-running-summary.png
 meta: My 2013 year in review: Running, Muscle-Ups, and overcoming new challenges.
----
+----
 
 Here we are. The end of another year. I can't believe how quickly 2013 went by.
 

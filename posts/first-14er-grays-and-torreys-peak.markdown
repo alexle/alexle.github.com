@@ -1,9 +1,9 @@
----
+----
 title: Conquering My First 14er (Gray's And Torrey's)
 date: 07-04-2012
 image: /static/grays_climb.jpg
 meta: A recap of my first 14er, hiking up Gray's and Torrey's.
----
+----
 
 Last weekend, I hiked my first 14er. The term '14er' refers to any mountain peak that rises above 14,000 feet above sea level. While I've hiked trails in Colorado before (sub-12.5k feet), I didn't realize how different and challenging a 14er can be!
 
@@ -47,7 +47,7 @@ Instead, all we were greeted with were booming sounds of thunder from the rain c
 </a>
 </p>
 
-I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. It felt pretty true. Combined with strong winds and cloud cover, and it definitely turned chilly quickly on the summit. 
+I read somewhere that air temperature drops an average of 5 degrees for every 1000 feet gained. It felt pretty true. Combined with strong winds and cloud cover, and it definitely turned chilly quickly on the summit.
 
 ##To The Next Peak##
 

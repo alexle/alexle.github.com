@@ -1,9 +1,9 @@
----
+----
 title: Why I Hate Running But Still Do It Anyways
 date: 05-08-2012
 image: /static/jogging_worst.jpg
 meta: Running is hard. I was never a runner growing up. Yet, I still do it anyways.
----
+----
 
 <p>
 <amp-img class="pure-img center" src="/static/jogging_worst.jpg"

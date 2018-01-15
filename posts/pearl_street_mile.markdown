@@ -1,9 +1,9 @@
----
+----
 title: Pearl Street Mile: Bring Back The Mile!
 date: 08-14-2016
 image: /static/pearl_street_mile_alex_le.jpg
 meta: A race recap of my experience at the Pearl Street Mile. Bring back the mile!
----
+----
 
 <p>
 <amp-img class="pure-img center" src="/static/alex_le_pearl_street_mile_daniel_joder_crop.jpg"

@@ -1,9 +1,9 @@
----
+----
 title: Neatflix: A Netflix API Demo
 date: 07-27-2012
 image: /static/neatflix2.png
 meta: A tutorial and demo of how to use the Netflix API. Includes brief OAuth guide.
----
+----
 
 [Netflix][1] is one of my guilty pleasures in life. *Guilty* because I believe TV is evil and try to limit the amount of time I spend in front of one. Yet, there are good, interesting, and entertaining shows out there which I enjoy watching every now and then and Netflix is an economical way to get some of this content.
 
