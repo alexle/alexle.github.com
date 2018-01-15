@@ -28,7 +28,7 @@ Looking for a change, I decided to try my hand (or legs I should say) at some sh
 
 Thus, my only two goals for 2017 were:
 
-1. Break 20:00 in the 5k. I planned to race a 5k **every month** if I had to
+1. Break 20:00 in the 5k
 2. Finish another ultra-marathon
 
 Below are my previous race PRs heading into 2017:
