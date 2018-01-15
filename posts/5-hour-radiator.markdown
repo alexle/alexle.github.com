@@ -1,6 +1,6 @@
 ----
 title: 5 Hour Radiator Replacement
-date: '03-25-2011'
+date: 03-25-2011
 image: /static/rad1.jpg
 meta: Turns out my radiator had a leak. Would I be able to fix this by myself?
 ----
