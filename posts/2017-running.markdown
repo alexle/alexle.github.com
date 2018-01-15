@@ -11,7 +11,7 @@ meta: It's that time of year when we start afresh with a blank state, full of ho
    layout="responsive"
    width=800
    height=436></amp-img>
-<div class="separator">Local track near my house, the site of many date nights</div>
+<div class="separator">Local track near my house, where gains are made</div>
 </p>
 
 Happy New Year! It's that time of year when we start afresh with a blank state, full of hope and possibility for things to come.
