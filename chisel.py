@@ -77,6 +77,8 @@ def ParsePostHeader( f ):
         line = f.readline().rstrip()
         if line.startswith('title'):
             H.title = line.replace('title:', '').lstrip()
+            if H.title.startswith('\'') and H.title.endswith('\''):
+                H.title = H.title[1:-1]
         if line.startswith('date'):
             H.raw_date = line.replace('date:', '').lstrip()
         if line.startswith('image'):
