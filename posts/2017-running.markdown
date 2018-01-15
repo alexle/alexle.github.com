@@ -108,7 +108,7 @@ One pleasant surprise was, while warming up for the race, I glimpsed [Emma Cobur
 <div class="separator"></div>
 </p>
 
-For one of the few times I can recall, I didn't look at my watch or check my splits during. I didn't know how fast or slow I was going. I just ran with my heart and took in the energy around me.
+For some reason, I didn't look at my watch or check my splits. I just took in the energy around me and ran with my heart, unsure of how fast or slow I was going.
 
 As I crossed the finish, I made my way to the nearest trash can. Where two others and I took turns dry-heaving. Only after I finished, did I dare look down to check my time - [39:59:09][7].
 
