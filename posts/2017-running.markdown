@@ -46,7 +46,7 @@ It was a frigid January and February in Colorado. I'm pretty wimpy when it comes
 
 March rolled around, and I was eager to see what I was capable of. How much fitness had I lost over winter? Would 21:00 even be possible?
 
-I set my eyes on the Lucky Laces 5k in City Park. Primarily because it was $25 and included unlimited sandwiches and green beer.
+I set my eyes on the Lucky Laces 5k in City Park. A fun and inexpensive race which included unlimited sandwiches and green beer.
 
 There were NO expectations going into the race. Simply a litmus test to see what shape I was in. It was a gorgeous morning. I remember feeling nervous, but excited. Happy and glad for life.
 
@@ -71,7 +71,7 @@ I won't lie, it was pretty painful. I even threw up after crossing the finish. B
 <div class="separator"></div>
 </p>
 
-How was I able to squeeze 30 secounds off my 5k on minimal training? I've thought about it and my theory is - **I visualized my goal. Every detail. Every day**.
+How was I able to shave 30 secounds off my 5k on minimal training? I've thought about it and my theory is - **I visualized my goal. Every detail. Every day**.
 
 I was obsessed with 20:00. For 3 months, I imagined how it would feel seeing 19:XX near the finish. I imagined what the second half of the race would feel like. How much my body would burn in that last 800m.
 
@@ -127,7 +127,7 @@ A neat thing about the Bolder Boulder is if you go sub-40, they give you a comme
 
 People have asked if I planned my pace or had this goal in mind. No, I answer. Truthfully, something changed inside of me after going sub-20. Like the limits I had set for myself and what I thought was possible had been a mirage.
 
-Each workout I nailed gave me more confidence in my abilities. Each barrier I broke let me questioning the next one. **Don't let fear prevent you from reaching your potential. Take a chance, and believe in yourself**.
+Each workout I nailed gave me more confidence in my abilities. Each barrier I broke has me questioning the next one. **Don't let fear prevent you from reaching your potential**.
 
 ## June: North Fork 50k ##
 
@@ -150,7 +150,7 @@ The race was a blast. I remember reaching out to talk with anyone around me. Who
 
 At one of the aid stations, I came in and said, "Hello! Could I get 3 coconut waters, 4 salt tabs, and 3 GUs? Oh and a couple Coke-Backs if you can, thanks". Uh.. where did I think I was, a night club in Vegas ordering a round of drinks?
 
-At mile 30, I laid down a 7:17 mile. I remember looking down at my legs thinking, how is this even possible.
+At mile 30, I let loose a 7:17 mile. I remember looking down at my legs thinking, how is this even possible right now.
 
 After 32.2 miles and 4800 ft of gain, I finished in - [5:22:27][9] - good enough for 15th overall on a historically fast course!
 
@@ -160,9 +160,9 @@ I'm a sucker for good deals. And free stuff. Which makes this race coincidental,
 
 When I saw the race was only $20, and included UNLIMITED pancakes, bacon, bagels, and yogurt.. Well, it was a transgression to turn that down.
 
-The race's inaugural event was quite small, with around 120-130 people. Which was fine because it meant more pancakes for me.
+The race's inaugural event was quite small, maybe 120-130 people. Which was fine because it meant more pancakes for me.
 
-I lined up in front and jumped on the bike pacer when the gun went off. You know how you turn on the TV and see elite marathoners and cyclists follow flashing motorcycle or car pacers? Well, that was me! It's quite surreal. I probably grinned the entire first mile at how cool it was.
+I lined up in front. When the gun went off, I was right on the bike pacer. You know how you turn on the TV and see elite marathoners and cyclists follow flashing motorcycle or car pacers? Well, that was me! It's quite surreal. I probably grinned the entire first mile at how cool it was.
 
 When no one had passed me by the halfway point, a seed began to take place in my mind. Could I actually **win** this race? I took a quick look and behind me, only 3-4 seconds back, was Lenny Archuleta, a local speed running legend.
 
@@ -187,7 +187,7 @@ Much of running success comes from how much work you put in. But people often fo
 
 ## July: Longmont Half Marathon ##
 
-I still hadn't finished digesting what had happened the past couple of months. **But when life hands you quad aces, you go all-in**. So I set my sights on a new distance, the half-marathon, as my next challenge.
+I still hadn't digested all that had happened the past couple of months. **But when life hands you quad Aces, you go all-in**. So I set my sights on a new distance, the half-marathon, as my next challenge.
 
 I hadn't run one in 4 years. Do I stop for water? Do I need to GU? How do I even calculate half-marathon pace? Given that my last half was [1:47][14], I figured 1:40 or even 1:38 was good to shoot for.
 
@@ -204,11 +204,11 @@ Feeling fresh, I shifted gears and began picking people off. I crushed the last 
 <div class="separator">Me accepting a 2nd place age group commemorative glass cup award</div>
 </p>
 
-In hindsight, I'm happy with my effort. But I could've pushed the early miles harder. A good learning experience for next time! On a side note, drinking beer from a glass cup award tastes 3x better, heh.
+In hindsight, I could've pushed the early miles harder. But I was very happy with my effort. A good learning experience for next time! On a side note, drinking beer from a glass cup award tastes 3x better, heh.
 
 ## August: Ragnar Relay Colorado ##
 
-The races finally caught up with me. I was tired and ready to shut it down for the year. Just fun runs from now on.
+The races finally caught up with me. I was tired and ready to shut it down for the year. Just fun runs from here on out.
 
 Fortunately, a good o' 200 mile relay with some AMAZING people was just what I needed. I've never had so much fun, crammed in a SUV with 5 crazy others, eating clif bars, running in the dark, with no sleep. It was wickedly fun.
 
@@ -223,7 +223,7 @@ Most of the team had never run more than 3-5 miles. Some didn't even know what t
 <div class="separator"></div>
 </p>
 
-I knew our team was strong going in. But we smashed my expectations. We finished in a shocking - [31:00:56][11] - 14th out of 52 in our division. 50th out of 172 overall. I'm so proud of everyone.
+I knew our team was strong going in. But we smashed my expectations. We finished in a shocking - [31:00:56][11] - 14th out of 52 in our division. 50th out of 172 overall. I was so proud of everyone.
 
 It was an unforgettable experience with an unforgettable group of people. And a good reminder that **running isn't just about paces or medals or PRs, but also a healthy life activity we can share with others**.
 
@@ -256,7 +256,7 @@ My splits were 5:55 and 5:48. Yes, I dry-heaved afterwards. But I had done it - 
 <div class="separator"></div>
 </p>
 
-It was the first time I received a monetary award for a race. This experience also gave me huge respect for shorter distances. People ooh and ahh at big distance races. But I'd take a **fast 5k over a decent marathon any day**.
+It was the first time I received a monetary award for a race. This experience also gave me huge respect for shorter distances. People ooh and ahh at big distance races. But I'd take a **fast 5k over a marathon finish any day**.
 
 ## November: Pumpkin Pie 5k ##
 
