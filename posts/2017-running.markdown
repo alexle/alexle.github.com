@@ -308,9 +308,9 @@ It's hard to pinpoint how I got to this point. But if I had to say, I'd attribut
 
 1. **There is no instant gratification** - There's no faking fitness in long-distance running. You have to put in the miles. You have to work, sweat, and fight for it every day.
 
-2. **Running is FUN** - First graders don't count their steps, or weekly mileage, or know their 10k pace. They run to feel free, to be outside. For the thrill and excitement it brings. Can you make it to the top of the hill? What's down this street? Smile and enjoy the journey.
+2. **Running is FUN** - First graders don't count their steps, or weekly mileage, or know their 10k pace. They run to feel free, to be outside. For the thrill and excitement it brings. Can you make it to the top of the hill? What's down this street? Be a kid once in a while!
 
-3. **Consistency** - It's the single most important thing that leads to success. Want to run faster? Just run more. It's really that simple. If you focus on improving just 1% every day, I promise you'll be surprised with the result.
+3. **Consistency** - The single most important thing that leads to success. Want to run faster? Just run more. It's really that simple. If you focus on improving 1% every day, I promise you'll be surprised with what you can accomplish.
 
 4. **Run without limits** - Take a leap of faith. Take a chance on something scary. And believe in yourself.
 
