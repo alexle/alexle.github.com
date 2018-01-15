@@ -312,7 +312,7 @@ It's hard to pinpoint how I got to this point. But if I had to say, I'd attribut
 
 3. **Consistency** - The single most important thing that leads to success. Want to run faster? Just run more. It's really that simple. If you focus on improving 1% every day, I promise you'll be surprised with what you can accomplish.
 
-4. **Run without limits** - Take a leap of faith. Take a chance on something scary. And believe in yourself.
+4. **Run without limits** - Take a leap of faith. Take a chance on something scary. And believe in yourself. If I can do it, you can too.
 
 What a year. Cheers to another sweat-soaked, lactate-burning, lung-gasping year =)
 
