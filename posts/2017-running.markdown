@@ -1,5 +1,5 @@
 ---
-title: A Look Back On My Best Year Of Running Ever, And How I Managed To Do It
+title: A Look Back On My Best Year Of Running Ever\, And How I Managed To Do It
 date: 01-14-2018
 image: /static/alex_track.jpg
 meta: It's that time of year when we start afresh with a blank state, full of hope and possibility for things to come. Here's a look back on my best year of running ever.
