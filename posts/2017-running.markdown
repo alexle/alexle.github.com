@@ -75,7 +75,7 @@ How was I able to shave 30 secounds off my 5k on minimal training? I've thought 
 
 I was obsessed with 20:00. For 3 months, I imagined how it would feel seeing 19:XX near the finish. I imagined what the second half of the race would feel like. How much my body would burn in that last 800m.
 
-After a while, you get use to the experience. And your body doesn't panic when it happens race day. At least that's my thinking.
+After a while, you get use to the experience. And your body doesn't panic when it happens race day. It may not amount to much, but every bit helps in a race.
 
 ## May: Bolder Boulder 10k ##
 
@@ -131,7 +131,7 @@ Each workout I nailed gave me more confidence in my abilities. Each barrier I br
 
 ## June: North Fork 50k ##
 
-With my entire focus on the Bolder Boulder, I sort of forgot about the 50k. I didn't hit the trails once. I rarely went long. And my elevation gain up to this point was absurdly pitiful.
+With my entire focus on the Bolder Boulder, I sort of forgot about the 50k. I didn't hit the trails once. I rarely went long. And my elevation gain to date was absurdly pitiful.
 
 Oh well. **Let's just have some fun and enjoy the day**, I told myself.
 
@@ -143,14 +143,14 @@ The course was gorgeous, with sweeping mountain and forest views. The trails wer
    layout="responsive"
    width=800
    height=533></amp-img>
-<div class="separator">Strawberry Fields, Mile 30</div>
+<div class="separator">Like a kid in a play pen, Strawberry Fields, Mile 30</div>
 </p>
 
 The race was a blast. I remember reaching out to talk with anyone around me. Whooping and hollering each time I entered an aid station. Feeling giddy (and a bit delirious) the longer the race went on.
 
-At one of the aid stations, I came in and said, "Hello! Could I get 3 coconut waters, 4 salt tabs, and 3 GUs? Oh and a couple Coke-Backs if you can, thanks". Uh.. where did I think I was, a night club in Vegas ordering a round of drinks?
+At one of the aid stations, I came in and said, "Hello! Could I get 3 coconut waters, 4 salt tabs, and 3 GUs? Oh and a couple Coke-Backs if you can, thanks" - wait, where did I think I was, a night club in Vegas ordering a round of drinks?
 
-At mile 30, I let loose a 7:17 mile. I remember looking down at my legs thinking, how is this even possible right now.
+At mile 30, I laid out a 7:17 mile. I remember looking down at my legs thinking, how is this even possible right now.
 
 After 32.2 miles and 4800 ft of gain, I finished in - [5:22:27][9] - good enough for 15th overall on a historically fast course!
 
