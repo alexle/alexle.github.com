@@ -181,7 +181,7 @@ I collapsed across the finish in an unthinkable - [18:48][8] - to drop a full mi
 <div class="separator">Sub-19. Be A Tool's Overall Winner!</div>
 </p>
 
-As I move on from my mid-30s, I realize the chance of this ever happening again as "slim to none". But at least for one time in my adult life, I could claim I was the overall winner of a race.
+As I inch farther from my mid-30s, I realize the chance of this ever happening again as "slim to none". But at least for one time in my adult life, I could claim I was the overall winner of a race.
 
 Much of running success comes from how much work you put in. But people often forget that running is a mental activity as much as it's a physical one. In every race, each person will eventually have to answer the question: **How bad do I want it**? You can usually tell who wanted it most in the end.
 
