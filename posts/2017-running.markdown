@@ -212,7 +212,7 @@ The races finally caught up with me. I was tired and ready to shut it down for t
 
 Fortunately, a good o' 200 mile relay with some AMAZING people was just what I needed. I've never had so much fun, crammed in a SUV with 5 crazy others, eating clif bars, running in the dark, with no sleep. It was wickedly fun.
 
-Most of the team had never run more than 3-5 miles. Some didn't even know what they had signed up for. But everyone ran their hearts out. I've done Ragnars in the past and this team was truly special.
+Most of the team had never run more than 3-5 miles. Some didn't even know what they had signed up for. But everyone ran their butts off. I've done Ragnars in the past and this team was truly special.
 
 <p>
 <amp-img class="pure-img center" src="/static/ragnar_2017.jpg"
@@ -231,7 +231,7 @@ It was an unforgettable experience with an unforgettable group of people. And a 
 
 Every year, my company sponsors us for the local Turkey Trot in Longmont. It's probably the fastest, non-championship race I've participated in.
 
-The winners are usually in the low 30s.. which is nuts considering the altitude. Add in elite cross country teams from Boulder, Longmont, and Niwot and you have one fast field.
+The 10k winners are usually in the low 30s.. which is nuts considering the altitude. Add in elite cross country teams from Boulder, Longmont, and Niwot and you have one fast field.
 
 Looking to try something new, I forewent the 10k and elected to try the 2 mile, my first at that distance. My secret goal was 12:00. I hadn't the slightest idea of the pain that would entail..
 
