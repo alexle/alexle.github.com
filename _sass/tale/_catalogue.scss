@@ -5,7 +5,6 @@
     display: inline-block;
     padding: 1rem 0;
 
-    &:hover .catalogue-line,
     &:focus .catalogue-line {
       width: 5rem;
     }
@@ -30,7 +29,7 @@
     margin: .5rem 0;
 
     @media (max-width: 400px) {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 

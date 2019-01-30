@@ -39,8 +39,6 @@ The `<channel>` tag describes the characteristics of the RSS feed. There are man
 
 </channel>
 ```
-<pre><code class=language-xml>
-</code></pre>
 
 ## Item Element ##
 
@@ -82,6 +80,7 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
 While editing xml document is not difficult, it can be cumbersome - especially when dealing with a lot of content. My way around this is leveraging the code which build my static site ([chisel][5]). I create a [Jinja2][6] template (python template language) that generates the "skeleton" of the RSS feed, leaving the specifics as variables:
 
 ``` xml
+{% raw %}
 {% for entry in entries %}
 <item>
    <title>{{ entry.title }}</title>
@@ -90,6 +89,7 @@ While editing xml document is not difficult, it can be cumbersome - especially w
    <pubDate>{{ entry.rss_date }}</pubDate>
 </item>
 {% endfor %}
+{% endraw %}
 ```
 
 A simple loop through all the entries fills the variables with their appropriate content, such as entry.post\_title, entry.url, and entry.date.
