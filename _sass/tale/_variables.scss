@@ -11,10 +11,11 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$main_sans_serif: 'Roboto', Helvetica, Arial, sans-serif;
+$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $monospaced: Menlo, Monaco, monospace;
+$title_font_weight: 700;
 
 // Container Size
 $container_width: 680px;

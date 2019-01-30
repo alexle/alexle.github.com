@@ -17,14 +17,14 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif-secondary;
     letter-spacing: .5px;
+    font-size: 0.9rem;
   }
 
   &-title {
     font-family: $sans-serif;
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: $title_font_weight;
     color: $default-shade;
     display: block;
     margin: .5rem 0;

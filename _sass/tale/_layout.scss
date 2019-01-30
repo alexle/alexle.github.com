@@ -13,9 +13,9 @@ footer,
   width: 90%;
 }
 
-@media (min-width: 600) {
+@media (min-width: 600px) {
   main {
-    padding-top: 1.6em;
+    padding-top: 1.4em;
   }
 }
 
@@ -31,7 +31,7 @@ footer,
 
   &-title {
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: $title_font_weight;
     color: $default-shade;
     @include transition(all .2s ease-out);
     display: inline-block;
@@ -39,7 +39,7 @@ footer,
     padding-right: .2rem;
 
     @media (max-width: 400px) {
-      font-size: 1.9rem;
+      font-size: 2rem;
     }
 
     &:hover,
@@ -50,7 +50,7 @@ footer,
 
   ul {
     list-style-type: none;
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     padding: 0;
     text-align: center;
   }
