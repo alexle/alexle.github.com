@@ -1,7 +1,6 @@
 .container {
   margin: 0 auto;
   max-width: $container_width;
-  //width: 80%;
   width: 90%;
 }
 
@@ -11,8 +10,13 @@ footer,
   display: block;
   margin: 0 auto;
   max-width: $container_width;
-  //width: 80%;
   width: 90%;
+}
+
+@media (min-width: 600) {
+  main {
+    padding-top: 1.6em;
+  }
 }
 
 .nav {
