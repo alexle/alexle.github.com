@@ -17,7 +17,7 @@ $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 // Container Size
-$container_width: 700px;
+$container_width: 680px;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
