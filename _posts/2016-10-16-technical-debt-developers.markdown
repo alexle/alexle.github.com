@@ -15,7 +15,7 @@ The price for this service is your debt incurs interest - a percentage charged t
 
 All it costs are some corners cut in your software. Or using a quick & dirty design. The caveat is this "debt" has to be paid eventually - and with **interest**.
 
-In other words, use a global variable and save a day's work to make a code release. But left unchecked, it'll add **more effort and complexity** to your future development, since you didn't choose the best design.
+In other words, use a global variable and save a day's work to make a code release. But left unchecked, more exceptions will be added to work around it. More bugs and complexity will be more introduced. Which leads to **more effort** to future development, since you didn't implement a good design in the first place.
 
 ## Is Technical Debt Bad Then? ##
 
