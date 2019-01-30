@@ -44,7 +44,7 @@ Nonetheless, the first 400m is thrilling, exciting, and full of adrenaline. Ever
 
 ## Second 400m - 1:25 ##
 
-![anchorman ron burgundy i immediately regret this decision](/assets/I_immediately_regret_this_decision_anchorman.gif)
+![anchorman ron burgundy i immediately regret this decision](/assets/i_immediately_regret_this_decision_anchorman.gif)
 
 This is when things become unpleasant. As in "what did we get ourselves into" unpleasant. My body realizes what I'm attempting to do and quickly maxes out my heart rate and breathing.
 
