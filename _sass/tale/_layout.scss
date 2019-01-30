@@ -34,6 +34,10 @@ footer,
     margin: 0;
     padding-right: .2rem;
 
+    @media (max-width: 400px) {
+      font-size: 1.9rem;
+    }
+
     &:hover,
     &:focus {
       opacity: .6;
