@@ -28,7 +28,7 @@ footer,
   &-title {
     font-size: 1.6rem;
     font-weight: 700;
-    color: $default-color;
+    color: $default-shade;
     @include transition(all .2s ease-out);
     display: inline-block;
     margin: 0;
