@@ -1,0 +1,42 @@
+# Site settings
+title:          Alex Le
+description:    "Firmware Engineer, Minimalist, Improving Runner"
+tagline:        "Firmware Engineer, Minimalist, Improving Runner"
+url:            "https://alexanderle.com"
+production_url: "https://alexanderle.com"
+
+# Google Analytics
+google_analytics: UA—28947728-1
+
+# Author
+author:
+  name:         Alex Le 
+  url:          https://alexanderle.com
+  email:        alex.csm@gmail.com
+  github:       alexle
+  twitter:      alextrle
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Permalinks
+permalink:      /:title
+paginate:       7 
+
+# Excludes
+exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor]

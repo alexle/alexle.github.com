@@ -1,0 +1,66 @@
+.pagination {
+  font-family: $sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+  position: relative;
+  text-align: center;
+  //border-top: .5px solid $grey-2;
+
+  a, span {
+    color: $default-color;
+    background-color: #ffffff;
+    padding: 7px 14px;
+    margin-left: -2px;
+    margin-right: -2px;
+    display: inline-block;
+    //border: 1px solid #eee;
+
+    @media (max-width: 400px) {
+      font-size: 1.2rem;
+      padding: 7px 12px;
+    }
+  }
+
+  a {
+    &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+    }
+
+  }
+
+  .page_on {
+    color: orangered;
+  }
+
+  .home {
+    @include transition(all .3s ease-out);
+    color: $default-color;
+    opacity: .6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .arrow {
+    @include transition(all .3s ease-out);
+    color: $default-color;
+    position: absolute;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+      text-decoration: none;
+    }
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+}

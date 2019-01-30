@@ -1,0 +1,43 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% assign offset = 2 %}
+  {% assign num_display = 5 | at most: paginator.total_pages %}
+  {% assign max_min_index = num_display %}
+  {% assign min_max_index = paginator.total_pages | minus: num_display | plus: 1 | at_least: 1 %}
+  {% assign min_pivot = num_display %}
+  {% assign max_pivot = paginator.total_pages | minus: offset %}
+
+  {% if paginator.page <= offset %}
+    {% assign start_index = 1 %}
+    {% assign end_index = max_min_index %}
+  {% elsif paginator.page > max_pivot %}
+    {% assign start_index = min_max_index %}
+    {% assign end_index = paginator.total_pages %}
+  {% else %}
+    {% assign start_index = paginator.page | minus: offset %}
+    {% assign end_index = paginator.page | plus: offset %}
+  {% endif %}
+
+  {% for page in (start_index..end_index) %}
+    {% if page == paginator.page %}
+      <span class="webjeda page_on">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
