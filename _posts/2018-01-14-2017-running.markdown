@@ -207,9 +207,9 @@ It's hard to pinpoint how I got to this point. But if I had to say, I'd attribut
 
 Here's to another sweat-soaked, lactate-burning, lung-gasping year - cheers!
 
-[1]: https://alexanderle.com/blog/2012/100-miles.html
-[2]: https://alexanderle.com/blog/chicago-marathon-recap.html
-[3]: https://alexanderle.com/blog/change-one-word.html
+[1]: /100-miles.html
+[2]: /chicago-marathon-recap.html
+[3]: /change-one-word.html
 [4]: http://shouldalexrun.appspot.com/
 [5]: https://www.instagram.com/emmacoburn/?hl=en
 [6]: https://results.chronotrack.com/event/results/event/event-26648
@@ -220,4 +220,4 @@ Here's to another sweat-soaked, lactate-burning, lung-gasping year - cheers!
 [11]: https://www.webscorer.com/race?raceid=110341
 [12]: http://runningbears.com/longmont_tt/Longmont_Turkey_Trot_2M_2017_Place.HTM
 [13]: https://www.coloradorunnerevents.com/Pumpkin/results-photos-and-media/2017-results-5k/
-[14]: https://alexanderle.com/blog/2013/first-half-marathon.html
+[14]: /first-half-marathon.html

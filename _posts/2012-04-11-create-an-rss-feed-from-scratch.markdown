@@ -67,8 +67,8 @@ Put it all together and it becomes a valid, basic RSS feed. Notice there are a c
 
    <item>
      <title>Create An RSS Feed From Scratch</title>
-     <link>http://alexanderle.com/blog/create-an-rss-feed.html</link>
-     <guid>http://alexanderle.com/blog/create-an-rss-feed.html</guid>
+     <link>http://alexanderle.com/create-an-rss-feed.html</link>
+     <guid>http://alexanderle.com/create-an-rss-feed.html</guid>
      <pubDate>Wed, 11 Apr 2012 00:00:00 MST</pubDate>
    </item>
 </channel>

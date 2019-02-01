@@ -111,5 +111,5 @@ __Nicole__ - as many rounds possible in 20 min
 Run 400m  
 Max Rep Pull Ups  
 
-[1]: /blog/2012/karen-my-new-enemy-crossfit.html
+[1]: /karen-my-new-enemy-crossfit.html
 [2]: http://www.crossfit.com/cf-info/faq.html#General0
