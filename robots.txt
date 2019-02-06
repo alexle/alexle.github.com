@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://alexanderle.com/sitemap.xml
