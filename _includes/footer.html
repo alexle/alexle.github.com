@@ -12,6 +12,44 @@
   </span>
   <br>
 -->
+  <ul id="nav_list">
+    {% if site.instagram_username %}
+      <li>
+        <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+          <i class="fab fa-instagram icon"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <i class="fab fa-github icon"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <li>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+          <i class="fab fa-linkedin icon"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.strava_username %}
+      <li>
+        <a href="https://strava.com/athletes/{{ site.strava_username }}">
+          <i class="fab fa-strava icon"></i>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+
   <span>
     &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Powered by Jekyll on Github.
   </span>

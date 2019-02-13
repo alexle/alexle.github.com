@@ -78,6 +78,24 @@ footer,
   }
 }
 
+#nav_list {
+  font-size: 1.6em;
+  padding: 0 0 .8rem;
+  margin: 0;
+}
+
+#nav_list li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav_list ul li a {
+  color: $default-color; 
+  text-decoration: none;
+}
+
 @media (min-width: 600px) {
   .nav {
     &-container {
@@ -94,11 +112,18 @@ footer,
 
 footer {
   font-family: $serif-secondary;
-  padding: 2rem 0;
+  padding: 1.6rem 0 2rem;
   text-align: center;
+
+  box-shadow: inset 0 2px 2px -2px $shadow-color;
+  overflow: auto;
 
   span {
     color: $default-color;
-    font-size: .8rem;
+    font-size: 0.8rem;
+  }
+  
+  .icon {
+    color: $default-color;
   }
 }

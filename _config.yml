@@ -38,5 +38,13 @@ plugins:
 permalink:      /:title
 paginate:       7 
 
+# Social
+twitter_username:     alextrle
+github_username:      alexle
+linkedin_username:    alexle
+facebook_username:    alexle
+instagram_username:   alextrle
+strava_username:      alexle
+
 # Excludes
 exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor]
