@@ -7,8 +7,6 @@ permalink: /about/
 
 ![alex le sonoma vineyard](/assets/alex_le_sonoma_hero_crop.jpg)
 
-## Hello, welcome to my blog. ##
-
 I live in Colorado and write firmware for disc drives. I like to read, work out, and tinker with technology and side projects.
 
 Most of my programming experience is in C, but I dabble with Python, HTML/CSS, Javascript, and new frameworks in my downtime.
