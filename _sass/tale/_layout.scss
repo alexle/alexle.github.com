@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   max-width: $container_width;
-  width: 90%;
+  width: 92%;
 }
 
 main,
@@ -87,8 +87,8 @@ footer,
 #nav_list li {
   display: inline-block;
   list-style-type: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 #nav_list ul li a {
@@ -112,7 +112,7 @@ footer,
 
 footer {
   font-family: $serif-secondary;
-  padding: 1.6rem 0 2rem;
+  padding: 1.7rem 0 2rem;
   text-align: center;
 
   box-shadow: inset 0 2px 2px -2px $shadow-color;
