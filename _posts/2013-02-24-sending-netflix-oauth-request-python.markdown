@@ -63,7 +63,7 @@ Combining these components produces the signed request, which has the format bel
 
 ``` html
 http://api-public.netflix.com/PATH?parameter=PARM&oauth_consumer_key=CONSUMER_KEY&oauth_nonce=NONCE&oauth_signature_method=HMAC-SHA1&oauth_timestamp=TIME_STAMP&oauth_version=1.0&oauth_signature=SIGNATURE
-``` 
+```
 
 While this may look daunting, it's not too bad once broken down. First, decide what Netflix resource you want to access (catalog/people, users/current, etc). In this example, we want more information on a particular title so we use the catalog/titles resource. The base URL thus looks like:
 
@@ -155,4 +155,3 @@ This basic tutorial only brushes the surface of what the Netflix API has availab
 [3]: http://developer.netflix.com/docs/Security
 [4]: http://developer.netflix.com/apps/register/
 [5]: https://github.com/alexle/Neatflix
-
