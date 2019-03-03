@@ -45,6 +45,7 @@ linkedin_username:    alexle
 facebook_username:    alexle
 instagram_username:   alextrle
 strava_username:      alexle
+feed_xml:             feed.xml
 
 # Excludes
 exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor]
