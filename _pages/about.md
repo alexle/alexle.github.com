@@ -5,7 +5,7 @@ author: "Alex Le"
 permalink: /about/
 ---
 
-![alex le sonoma vineyard](/assets/alex_le_sonoma_hero_crop.jpg)
+![alex le in halong bay](/assets/alex_le_halong_bay.jpg)
 
 I live in Colorado and write firmware for disc drives. I like to read, work out, and tinker with technology and side projects.
 
