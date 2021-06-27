@@ -2,7 +2,7 @@
 layout: post
 title: "My First Half Marathon: Race Recap And Experience"
 date: 2013-06-20
-tags: programming
+tags: running
 ---
 
 Last December, my friend surprised me with an entry to the [Denver Colfax Half-Marathon][2]. I had just reached my goal of [100 miles][1] in one year, and was ecstatic for a new challenge. Visions of crossing the finish line to hundreds of cheering people and wearing a race medal danced in my head.
