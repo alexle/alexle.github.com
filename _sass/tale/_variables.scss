@@ -11,14 +11,15 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-$main_sans_serif: 'Roboto', Helvetica, Arial, sans-serif;
+$sans-serif: 'Nunito Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$main_sans_serif: 'Nunito Sans', 'Roboto', Helvetica, Arial, sans-serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $monospaced: Menlo, Monaco, monospace;
 $title_font_weight: 700;
 
 // Container Size
-$container_width: 650px;
+$container_width: 620px;
+$container_width_perc: 90%;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

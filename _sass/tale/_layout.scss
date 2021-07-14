@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   max-width: $container_width;
-  width: 92%;
+  width: $container_width_perc;
 }
 
 main,
@@ -10,7 +10,7 @@ footer,
   display: block;
   margin: 0 auto;
   max-width: $container_width;
-  width: 92%;
+  width: $container_width_perc;
 }
 
 @media (min-width: 600px) {
