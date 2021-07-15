@@ -6,7 +6,6 @@
   padding-bottom: 1.2rem;
   position: relative;
   text-align: center;
-  //border-top: .5px solid $grey-2;
 
   a, span {
     color: $default-color;
@@ -15,7 +14,6 @@
     margin-left: -2px;
     margin-right: -2px;
     display: inline-block;
-    //border: 1px solid #eee;
 
     @media (max-width: 400px) {
       font-size: 1.2rem;
@@ -28,7 +26,6 @@
       background-color: #f1f1f1;
       color: #333;
     }
-
   }
 
   .page_on {
