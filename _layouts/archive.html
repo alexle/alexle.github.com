@@ -8,14 +8,10 @@ layout: default
 
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date:'%Y'" %}
   {% for year in postsByYear %}
-    <center>
     <h3>{{ year.name }}</h3>
-    </center>
-    <ul>
     {% for post in year.items %}
       <a href="{{ post.url }}">{{ post.title }}</a><br>
     {% endfor %}
-    </ul>
   {% endfor %}
 
   {{ content }}
