@@ -8,7 +8,7 @@ date: 2016-11-25
 
 Imagine two days:
 
-* You sleep in. Wake to a hearty breakfast. Then head to your patio to enjoy the beautiful warm day with a craft beer and snacks. For lunch, you meet up with some friends for burgers and corn hole. Finally, you retreat to your couch with Chinese takeout and watch binge a couple episodes of your favorite show before heading to bed.
+* You sleep in. Wake to a hearty breakfast. Then head to your patio to enjoy the beautiful warm day with a craft beer and snacks. For lunch, you meet up with some friends for burgers and corn hole. Finally, you retreat to your couch with Chinese takeout and binge watch a couple episodes of your favorite show before heading to bed.
 
 * It's 5am and you're running up a trail in pitch darkness. You're cold, hungry, and tired. The wheels come off at mile 24. It's a struggle to keep moving forward. There's still **10 miles** left, you realize, before tripping over a rock and face-planting into the ground. It isn't fun any longer. You brush off the dirt and push your aching body on.
 
@@ -62,7 +62,7 @@ A challenging life also shapes and defines you in other positive ways:
 * It allows you to grow
 * It exposes you to life's highs and lows
 
-Consider a kid who was given everything growing up. Compare that to the kid who had to work and earn everything for him or herself. Who would you guess is more prepared to succeed in life?
+Consider a kid who was given everything growing up. Now compare that to the kid who had to work and earn everything for him or herself. Who would you guess is more prepared to succeed in life?
 
 Most importantly, challenges give you purpose. And overcoming them makes life **meaningful**. I love the quote below by Sheryl Sandberg, COO of Facebook, which sums it up nicely:
 
