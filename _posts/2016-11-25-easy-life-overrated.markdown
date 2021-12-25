@@ -8,9 +8,9 @@ date: 2016-11-25
 
 Imagine two days:
 
-* You sleep in. Wake to a hearty breakfast. The sun is out and it's a beautiful day to relax on the patio with a craft beer and snacks. Later, you retreat to your couch with Chinese takeout and watch all 8 episodes of [Stranger Things][1] on Netflix. In **one** sitting. You silently thank the person who invented sweatpants.
+* You sleep in. Wake to a hearty breakfast. Then head to your patio to enjoy the beautiful warm day with a craft beer and snacks. For lunch, you meet up with some friends for burgers and corn hole. Finally, you retreat to your couch with Chinese takeout and watch binge a couple episodes of your favorite show before heading to bed.
 
-* It's 5am and you're running up a trail in pitch darkness. You're cold, hungry, and tired. The wheels come off at mile 24. It's a struggle to keep moving forward. There's still **10 miles** left, you realize, before tripping over a rock and face-planting into the ground. You brush off the dirt and push your aching body on.
+* It's 5am and you're running up a trail in pitch darkness. You're cold, hungry, and tired. The wheels come off at mile 24. It's a struggle to keep moving forward. There's still **10 miles** left, you realize, before tripping over a rock and face-planting into the ground. It isn't fun any longer. You brush off the dirt and push your aching body on.
 
 Which day would you prefer? Most people would choose the first day.
 
@@ -26,7 +26,7 @@ Yet, when the day was over, I felt over-indulged, empty, and dare I say, **hollo
 
 Contrast that to the second day, which had punished my body and mind to an absurd level. My legs were wrecked. My toenails had turned black. I had aches in places I didn't even know could ache.
 
-But the burger and fries never tasted better. The company of my friends never more appreciated. The sun was brighter. Life was more full. And I felt genuinely **alive**.
+But the burger and fries never tasted better. The company of my friends never more appreciated. The sun was brighter. Life was more full. And I felt genuinely **alive**. It's strange to simultaneously feel both so weary and alive.
 
 When you add in the sense of achievement, gratitude, and strength that followed, it's clear in my eyes which day impacted my life more. An easy day pales in comparison to a day like this.
 
