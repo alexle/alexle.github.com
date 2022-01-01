@@ -2,6 +2,7 @@
 layout: post
 title: "2012 Goals"
 date: 2012-01-05
+tags: retrospective
 ---
 
 I've always liked goals. To-Do lists, checkboxes, sticky notes. They give me a feeling of moving <s>forward</s> somewhere and comfort in knowing I'm not stagnant.

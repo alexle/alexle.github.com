@@ -2,6 +2,7 @@
 layout: post
 title: "Don't Put Up With Crap (If You Can Help It)"
 date: 2015-10-19
+tags: life
 ---
 
 ![row of porta potty](/assets/porta_potty.jpg)

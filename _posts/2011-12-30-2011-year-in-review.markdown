@@ -2,6 +2,7 @@
 layout: post
 title: "2011: Year In Review"
 date: 2011-12-30
+tags: retrospective
 ---
 
 The end of the year always comes with mixed emotions for me. On one hand, it's a chance to celebrate accomplishments, growth, and lessons learned. On the other hand, it's a reminder that another year has passed, another year of opportunities that were missed.

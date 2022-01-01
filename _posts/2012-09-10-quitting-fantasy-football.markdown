@@ -2,6 +2,7 @@
 layout: post
 title: "Quitting Fantasy Football"
 date: 2012-09-10
+tags: misc
 ---
 
 For the past 11 years, August marked a time of unique excitement and anticipation for me. Cheat sheets were printed, strategies were formulated. The slates were wiped cleaned and *anything*  was possible. It was like New Year's Eve.

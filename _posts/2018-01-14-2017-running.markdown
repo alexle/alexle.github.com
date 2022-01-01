@@ -2,6 +2,7 @@
 layout: post
 title: "A Look Back On My Best Year Of Running Ever, And How I Managed To Do It"
 date: 2018-01-04
+tags: running
 ---
 
 ![alex running track](/assets/alex_track.jpg "alex running track")

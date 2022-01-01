@@ -2,6 +2,7 @@
 layout: post
 title: "Putting Money In The Bank"
 date: 2011-06-28
+tags: life
 ---
 
 The 2008 Beijing Olympics were awesome. Usain Bolt, Team USA basketball, Phelps, Walsh & May volleyball. I was glued to the TV every night for a week.

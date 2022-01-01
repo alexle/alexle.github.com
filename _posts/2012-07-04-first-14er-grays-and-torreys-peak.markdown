@@ -2,6 +2,7 @@
 layout: post
 title: "Conquering My First 14er (Gray's And Torrey's)"
 date: 2012-07-04
+tags: misc
 ---
 
 Last weekend, I hiked my first 14er. The term '14er' refers to any mountain peak that rises above 14,000 feet above sea level. While I've hiked trails in Colorado before (sub-12.5k feet), I didn't realize how different and challenging a 14er can be!

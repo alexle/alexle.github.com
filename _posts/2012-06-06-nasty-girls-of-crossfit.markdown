@@ -2,6 +2,7 @@
 layout: post
 title: "The 'Nasty Girls' of CrossFit"
 date: 2012-06-06
+tags: misc
 ---
 
 In an earlier [post][1], I described my new interest for Crossfit. I've really enjoyed the exercises I've learned so far (burpees are my favorite) and have found the 'named' WODs fun and challenging.

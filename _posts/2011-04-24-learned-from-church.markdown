@@ -2,6 +2,7 @@
 layout: post
 title: "What I Learned From Going To Church"
 date: 2011-04-24
+tags: retrospective
 ---
 
 I'd like to think I was once a devout Catholic.

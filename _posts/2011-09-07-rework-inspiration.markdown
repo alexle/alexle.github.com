@@ -2,6 +2,7 @@
 layout: post
 title: "Rework 'Inspiration'"
 date: 2011-09-07
+tags: life
 ---
 
 I finally got around to reading [Rework][1]. It's a book by [37signals][2] that challenges how business is run today. It's a must-read for any entrepreneur and one of my favorite books this year.

@@ -2,6 +2,7 @@
 layout: post
 title: "Paralyzed By Choice"
 date: 2012-10-21
+tags: life
 ---
 
 ![alex le empty living room picture](/assets/living_room.jpg)

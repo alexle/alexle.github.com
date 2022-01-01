@@ -2,6 +2,7 @@
 layout: post
 title: "2011: The Year Of The Hustle"
 date: 2011-01-18
+tags: retrospective
 ---
 
 2010 was a year of enjoying life to the fullest, personal growth, and fulfilling old dreams.

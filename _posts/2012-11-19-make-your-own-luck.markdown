@@ -2,6 +2,7 @@
 layout: post
 title: "Make Your Own Luck"
 date: 2012-11-19
+tags: life
 ---
 
 During my last semester of college, I was offered a sys admin internship from a customer at the deli I worked at. To this day, my parents still tell me how lucky I was for that to happen.

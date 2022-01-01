@@ -2,6 +2,7 @@
 layout: post
 title: "The One Minute Manager"
 date: 2011-03-13
+tags: misc
 ---
 
 Finished this book last week and thought I would write a little about it for future reference.

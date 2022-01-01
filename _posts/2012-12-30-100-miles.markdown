@@ -2,7 +2,7 @@
 layout: post
 title: "1 Year. 77 Runs. 125 Miles."
 date: 2012-12-30
-categories: running 
+tags: running 
 ---
 
 I set a [goal][1] to run 100 miles in 2012. At the time, I thought it was going to be a breeze. 100 miles came out to a little over 8 miles a month, or a 2 mile run every week.
