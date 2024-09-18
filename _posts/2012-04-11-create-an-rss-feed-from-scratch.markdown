@@ -10,7 +10,7 @@ tags: programming
 
 ## XML and RSS Element ##
 
-To start, create a text file with an .xml extension. Add the `<xml>` declaration (must be the first line), followed by the `<rss>` tags which will encompass the rest of the RSS content.
+To start, create a text file with an .xml extension. On the first line, add the `<xml>` declaration followed by the `<rss>` tags which wrap the rest of the RSS content.
 
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -23,7 +23,7 @@ To start, create a text file with an .xml extension. Add the `<xml>` declaration
 
 ## Channel Element ##
 
-The `<channel>` tag describes the characteristics of the RSS feed. There are many different tags can be added to customize the channel, which are listed in the [RSS specification][2]. The channel has three required elements:
+The `<channel>` tag describes the details of the RSS feed. Many different tags can be added to customize the channel, which are detailed in the [RSS specification][2]. The channel has three required elements:
 
 1. `<title>` - title of RSS feed
 2. `<description>` - description of RSS feed
