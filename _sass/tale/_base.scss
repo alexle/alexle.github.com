@@ -26,10 +26,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: $default-shade;
   font-family: $sans-serif;
   line-height: normal;
@@ -41,8 +38,7 @@ a {
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
-  //color: $grey-1;
+  border-left: .25rem solid $light-grey;
   color: $default-color;
   margin: .8rem 0;
   padding: .5rem 1rem;

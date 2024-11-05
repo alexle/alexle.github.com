@@ -1,14 +1,48 @@
-// Colors
-$default-color: #555;
-$default-shade: #353535;
-$default-tint: #aaa;
-$grey-1: #979797;
-$grey-2: #e5e5e5;
-$grey-3: #f9f9f9;
-$white: #fff;
-$blue: #4a9ae1;
-$shadow-color: rgba(0, 0, 0, 0.2);
-$code-color: #bf616a;
+// Colors for light mode
+$default-color-light: #555;
+$default-shade-light: #353535;
+$default-tint-light: #aaa;
+$light-grey-light: #e5e5e5;
+$dark-grey-light: #f9f9f9;
+$white-light: #fff;
+$blue-light: #4a9ae1;
+$shadow-color-light: rgba(0, 0, 0, 0.2);
+$code-color-light: #bf616a;
+
+// Colors for dark mode
+$default-color-dark: #ddd;
+$default-shade-dark: #aaa;
+$default-tint-dark: #555;
+$light-grey-dark: #444;
+$dark-grey-dark: #222;
+$white-dark: #000;
+$blue-dark: #4a9ae1;
+$shadow-color-dark: rgba(255, 255, 255, 0.2);
+$code-color-dark: #bf616a;
+
+// Default to light mode variables
+$default-color: $default-color-light;
+$default-shade: $default-shade-light;
+$default-tint: $default-tint-light;
+$light-grey: $light-grey-light;
+$dark-grey: $dark-grey-light;
+$white: $white-light;
+$blue: $blue-light;
+$shadow-color: $shadow-color-light;
+$code-color: $code-color-light;
+
+// Apply dark mode variables if user prefers dark mode
+@media (prefers-color-scheme: dark) {
+  $default-color: $default-color-dark;
+  $default-shade: $default-shade-dark;
+  $default-tint: $default-tint-dark;
+  $light-grey: $light-grey-dark;
+  $dark-grey: $dark-grey-dark;
+  $white: $white-dark;
+  $blue: $blue-dark;
+  $shadow-color: $shadow-color-dark;
+  $code-color: $code-color-dark;
+}
 
 // Fonts
 $sans-serif: "Roboto", "Helvetica Neue", "Segoe UI", "Helvetica", "sans-serif";
