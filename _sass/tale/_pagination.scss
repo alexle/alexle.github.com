@@ -9,7 +9,7 @@
 
   a, span {
     color: $main_font_color;
-    background-color: #ffffff;
+    background-color: $bg_color;
     padding: 7px 14px;
     margin-left: -2px;
     margin-right: -2px;
@@ -23,7 +23,7 @@
 
   a {
     &:hover {
-      background-color: #f1f1f1;
+      background-color: $bg_color;
       color: #333;
     }
   }
