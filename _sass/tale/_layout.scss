@@ -57,7 +57,7 @@ footer,
 
   li {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: $main_font_color;
     display: inline-block;
     opacity: .6;
     padding: 0 2rem 0 0;
@@ -73,7 +73,7 @@ footer,
   }
 
   a {
-    color: $default-color;
+    color: $main_font_color;
     font-family: $sans-serif;
   }
 }
@@ -92,7 +92,7 @@ footer,
 }
 
 #footer_list ul li a {
-  color: $default-color;
+  color: $main_font_color;
   text-decoration: none;
 }
 
@@ -119,11 +119,11 @@ footer {
   overflow: auto;
 
   span {
-    color: $default-color;
+    color: $main_font_color;
     font-size: 0.8rem;
   }
 
   .icon {
-    color: $default-color;
+    color: $main_font_color;
   }
 }

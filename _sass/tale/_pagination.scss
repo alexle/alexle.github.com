@@ -8,7 +8,7 @@
   text-align: center;
 
   a, span {
-    color: $default-color;
+    color: $main_font_color;
     background-color: #ffffff;
     padding: 7px 14px;
     margin-left: -2px;
@@ -34,7 +34,7 @@
 
   .home {
     @include transition(all .3s ease-out);
-    color: $default-color;
+    color: $main_font_color;
     opacity: .6;
 
     &:hover {
@@ -44,7 +44,7 @@
 
   .arrow {
     @include transition(all .3s ease-out);
-    color: $default-color;
+    color: $main_font_color;
     position: absolute;
 
     &:hover,
