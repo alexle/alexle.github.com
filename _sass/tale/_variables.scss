@@ -11,7 +11,7 @@ $code-color-light: #bf616a;
 
 // Colors for dark mode
 $default-color-dark: #ddd;
-$default-shade-dark: #aaa;
+$default-shade-dark: #A5A6AF;
 $default-tint-dark: #555;
 $light-grey-dark: #444;
 $dark-grey-dark: #222;
@@ -30,6 +30,10 @@ $white: $white-light;
 $blue: $blue-light;
 $shadow-color: $shadow-color-light;
 $code-color: $code-color-light;
+
+$bg_color: #212426;
+$main_font_color: #fff;
+$secondary_font_color: #909498;
 
 // Apply dark mode variables if user prefers dark mode
 @media (prefers-color-scheme: dark) {

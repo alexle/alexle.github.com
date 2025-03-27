@@ -5,7 +5,8 @@
 
 html,
 body {
-  color: $default-shade;
+  color: $main_font_color;
+  background-color: $bg-color;
   margin: 0;
   padding: 0;
 }
@@ -27,7 +28,7 @@ body {
 h1,
 h2,
 h3 {
-  color: $default-shade;
+  color: $main_font_color;
   font-family: $sans-serif;
   line-height: normal;
 }

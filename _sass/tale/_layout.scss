@@ -32,7 +32,7 @@ footer,
   &-title {
     font-size: 2.4rem;
     font-weight: $title_font_weight;
-    color: $default-shade;
+    color: $main_font_color;
     @include transition(all .2s ease-out);
     display: inline-block;
     margin: 0;

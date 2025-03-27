@@ -15,7 +15,7 @@
   }
 
   &-time {
-    color: $default-tint;
+    color: $secondary_font_color;
     letter-spacing: .5px;
     font-size: 0.9rem;
   }
@@ -24,7 +24,7 @@
     font-family: $sans-serif;
     font-size: 1.5rem;
     font-weight: $title_font_weight;
-    color: $default-shade;
+    color: $main_font_color;
     display: block;
     margin: .5rem 0;
 
