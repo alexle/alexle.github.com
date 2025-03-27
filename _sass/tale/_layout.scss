@@ -20,7 +20,7 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 0 2px 2px -2px $nav_box_color;
   overflow: auto;
 
   &-container {
@@ -111,11 +111,11 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: $main_font_family;
   padding: 1.7rem 0 2rem;
   text-align: center;
 
-  box-shadow: inset 0 2px 2px -2px $shadow-color;
+  box-shadow: inset 0 2px 2px -2px $nav_box_color;
   overflow: auto;
 
   span {

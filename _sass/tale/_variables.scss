@@ -31,9 +31,11 @@ $blue: $blue-light;
 $shadow-color: $shadow-color-light;
 $code-color: $code-color-light;
 
+// Font color
 $bg_color: #212426;
 $main_font_color: #fff;
 $secondary_font_color: #909498;
+$nav_font_color:909498;
 
 // Apply dark mode variables if user prefers dark mode
 @media (prefers-color-scheme: dark) {
@@ -48,9 +50,12 @@ $secondary_font_color: #909498;
   $code-color: $code-color-dark;
 }
 
-// Fonts
+// Font family
 $main_font_family: "Inter", sans-serif;
+$secondary_font_family: sans-serif;
 $code_font_family: Menlo, Monaco, monospace;
+
+// Font sizes
 $title_font_weight: 400;
 
 // Container Size
