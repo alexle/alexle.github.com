@@ -12,7 +12,7 @@ body {
 }
 
 html {
-  font-family: $sans-serif;
+  font-family: $main_font;
   font-size: 16px;
   overflow-y: scroll;
 
@@ -29,7 +29,7 @@ h1,
 h2,
 h3 {
   color: $main_font_color;
-  font-family: $sans-serif;
+  font-family: $main_font;
   line-height: normal;
 }
 
