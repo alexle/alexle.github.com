@@ -7,7 +7,7 @@ code {
   background-color: $bg_color;
   border-radius: 3px;
   color: $code-color;
-  font-size: 85%;
+  font-size: 70%;
   padding: .25em .5em;
 }
 
@@ -18,7 +18,7 @@ pre {
 pre code {
   background-color: transparent;
   color: inherit;
-  font-size: 100%;
+  font-size: 70%;
   padding: 0;
 
   @media (max-width: 400px) {
