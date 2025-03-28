@@ -15,7 +15,7 @@ You'll find that I write about running a lot. Mainly because I enjoy it and feel
 
 <h3>Some of my favorite posts</h3>
 
-Here are some posts I'm most proud of, and enjoy reading again from time to time.
+Here are some posts I'm most proud of and enjoy reading again from time to time.
 
 - [Change How You See The World With One Word][1]
 - [Why An Easy Life Is Overrated][2]
@@ -25,7 +25,7 @@ Here are some posts I'm most proud of, and enjoy reading again from time to time
 
 <h3>Contact</h3>
 
-You can reach me at alexcsm@gmail.com
+alexcsm@gmail.com
 
 [1]: /change-one-word
 [2]: /easy-life-overrated
