@@ -1,14 +1,12 @@
-// Colors for light mode
-$light-grey-light: #e5e5e5;
-$code-color-light: #bf616a;
+$light-grey: #e5e5e5;
+$code-color: #bf616a;
 
-// Default to light mode variables
-$light-grey: $light-grey-light;
-$code-color: $code-color-light;
-
-// Background color
+// Page colors
 $bg_color: #212426;
 $link_color: #4a9ae1;
+$post_line_break_color: orangered;
+$catalogue_line_break_color: orangered;
+$pagination_current_color: orangered;
 
 // Font color
 $main_font_color: #fff;

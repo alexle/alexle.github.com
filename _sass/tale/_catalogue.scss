@@ -35,7 +35,7 @@
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .2rem solid orangered;
+    border-top: .2rem solid $catalogue_line_break_color;
     display: block;
     width: 2rem;
   }
