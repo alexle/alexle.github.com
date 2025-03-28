@@ -25,7 +25,7 @@ Here are some posts I'm most proud of, and enjoy reading again from time to time
 
 <h3>Contact</h3>
 
-You can reach me on [Instagram](https://instagram.com/alextrle) or by email at alex.csm@gmail.com
+You can reach me at alexcsm@gmail.com
 
 [1]: /change-one-word
 [2]: /easy-life-overrated
