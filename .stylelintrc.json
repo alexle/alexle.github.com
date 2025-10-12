@@ -17,9 +17,6 @@
     "scss/double-slash-comment-empty-line-before": null,
     "media-feature-range-notation": null,
     "declaration-empty-line-before": null,
-    "shorthand-property-no-redundant-values": null,
-    "no-descending-specificity": null,
-    "at-rule-empty-line-before": null,
-    "declaration-block-single-line-max-declarations": null
+    "shorthand-property-no-redundant-values": null
   }
 }
