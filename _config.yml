@@ -49,4 +49,4 @@ strava_username:      alexle
 feed_xml:             feed.xml
 
 # Excludes
-exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor]
+exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor, node_modules]
