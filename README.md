@@ -27,3 +27,15 @@ This project uses HTMLHint and Stylelint for code quality. A pre-commit hook aut
 
 - HTML rules: `.htmlhintrc`
 - SCSS rules: `.stylelintrc.json`
+
+## Pre-commit Hooks
+
+Automated code quality checks run before each commit using Husky:
+
+Setup location: `.husky/pre-commit`
+
+To modify the hooks:
+
+1. Edit `.husky/pre-commit` to add/remove linting steps
+2. Use `npm run prepare` to reinstall hooks after changes
+3. Add `--no-verify` to git commit to skip hooks temporarily

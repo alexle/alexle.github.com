@@ -1,6 +1,8 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 # Run both HTML and SCSS linters on staged files
-echo "Running linters..."
-npm run lint || (echo "Linting failed. Please fix HTML and SCSS issues before committing." && exit 1)
+echo "Running HTML linter..."
+npm run lint || (echo "HTML linting failed. Please fix HTML issues before committing." && exit 1)
+
+echo "Running SCSS linter..."
+npm run lint:scss || (echo "SCSS linting failed. Please fix SCSS issues before committing." && exit 1)
+
+echo "All linters passed!"

@@ -2,21 +2,17 @@
   "extends": [
     "stylelint-config-standard-scss"
   ],
+  "ignoreFiles": [
+    "assets/**/*.scss"
+  ],
   "rules": {
-    "indentation": true,
-    "string-quotes": true,
     "no-duplicate-selectors": true,
-    "color-hex-case": null,
     "color-hex-length": "short",
     "color-named": null,
     "selector-max-id": null,
     "selector-class-pattern": null,
     "selector-id-pattern": null,
-    "selector-combinator-space-after": null,
-    "declaration-block-trailing-semicolon": null,
     "declaration-no-important": null,
-    "declaration-colon-space-before": null,
-    "declaration-colon-space-after": null,
     "property-no-vendor-prefix": null,
     "value-no-vendor-prefix": null,
     "value-keyword-case": null,
