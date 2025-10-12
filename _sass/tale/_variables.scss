@@ -16,7 +16,7 @@ $nav-box-color: #909498;
 
 // Font family
 $main-font-family: "Inter", sans-serif;
-$code-font-family: Menlo, Monaco, monospace;
+$code-font-family: menlo, monaco, monospace;
 
 // Font sizes
 $title-font-weight: 400;
@@ -26,13 +26,9 @@ $container-width: 620px;
 $container-width-perc: 90%;
 
 @mixin box-sizing($type: border-box) {
-  -webkit-box-sizing: $type;
-  -moz-box-sizing: $type;
   box-sizing: $type;
 }
 
 @mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
   transition: $args;
 }

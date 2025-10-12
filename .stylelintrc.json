@@ -6,14 +6,7 @@
     "assets/**/*.scss"
   ],
   "rules": {
-    "no-duplicate-selectors": true,
     "color-hex-length": "short",
-    "color-named": null,
-    "declaration-no-important": null,
-    "property-no-vendor-prefix": null,
-    "value-no-vendor-prefix": null,
-    "value-keyword-case": null,
-    "selector-pseudo-element-colon-notation": null,
-    "scss/double-slash-comment-empty-line-before": null
+    "color-named": null
   }
 }

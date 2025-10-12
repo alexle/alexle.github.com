@@ -42,9 +42,8 @@ pre code {
     color: $secondary_font_color;
     display: inline-block; // Ensures the null space also isn't selectable
     padding: 0 .75rem 0 .25rem;
+
     // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 }
