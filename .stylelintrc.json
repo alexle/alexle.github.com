@@ -9,23 +9,17 @@
     "no-duplicate-selectors": true,
     "color-hex-length": "short",
     "color-named": null,
-    "selector-max-id": null,
     "declaration-no-important": null,
     "property-no-vendor-prefix": null,
     "value-no-vendor-prefix": null,
     "value-keyword-case": null,
-    "function-url-quotes": null,
-    "comment-whitespace-inside": null,
     "selector-pseudo-element-colon-notation": null,
-    "selector-no-vendor-prefix": null,
     "scss/double-slash-comment-empty-line-before": null,
     "media-feature-range-notation": null,
     "declaration-empty-line-before": null,
-    "block-no-empty": null,
-    "declaration-block-single-line-max-declarations": null,
-    "no-empty-source": null,
     "shorthand-property-no-redundant-values": null,
     "no-descending-specificity": null,
-    "at-rule-empty-line-before": null
+    "at-rule-empty-line-before": null,
+    "declaration-block-single-line-max-declarations": null
   }
 }
