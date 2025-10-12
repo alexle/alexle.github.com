@@ -19,7 +19,7 @@
     margin: 1rem 0;
     text-align: center;
 
-    @media (max-width: 400px) {
+    @media (width <= 400px) {
       font-size: 1.6rem;
     }
   }
@@ -27,7 +27,7 @@
   &-line {
     border-top: 0.2rem solid $post_line_break_color;
     display: block;
-    margin: 2rem auto 2rem;
+    margin: 2rem auto;
     width: 4rem;
   }
 

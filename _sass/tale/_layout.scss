@@ -13,7 +13,7 @@ footer,
   width: $container_width_perc;
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   main, .nav-container {
     padding-top: 0.4em;
   }
@@ -35,11 +35,12 @@ footer,
     color: $main_font_color;
 
     @include transition(all .2s ease-out);
+
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
 
-    @media (max-width: 400px) {
+    @media (width <= 400px) {
       font-size: 2.4rem;
     }
 
@@ -58,6 +59,7 @@ footer,
 
   li {
     @include transition(all .2s ease-out);
+
     color: $main_font_color;
     display: inline-block;
     opacity: .6;
@@ -97,7 +99,7 @@ footer,
   text-decoration: none;
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   .nav {
     &-container {
       text-align: left;
@@ -115,7 +117,6 @@ footer {
   font-family: $main_font_family;
   padding: 1.7rem 0 2rem;
   text-align: center;
-
   box-shadow: inset 0 2px 2px -2px $nav_box_color;
   overflow: auto;
 

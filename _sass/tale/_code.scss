@@ -21,7 +21,7 @@ pre code {
   font-size: 70%;
   padding: 0;
 
-  @media (max-width: 400px) {
+  @media (width <= 400px) {
     font-size: 80%;
   }
 }

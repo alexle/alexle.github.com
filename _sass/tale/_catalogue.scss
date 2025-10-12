@@ -1,6 +1,7 @@
 .catalogue {
   &-line {
     @include transition(all .3s ease-out);
+
     border-top: .2rem solid $catalogue_line_break_color;
     display: block;
     width: 2rem;
@@ -10,7 +11,7 @@
     border-bottom: 1px solid $light-grey;
     color: $main_font_color;
     display: inline-block;
-    padding: 1rem 0 0.2rem 0;
+    padding: 1rem 0 0.2rem;
 
     &:hover .catalogue-line {
       width: 5rem;
@@ -35,7 +36,7 @@
     display: block;
     margin: .5rem 0;
 
-    @media (max-width: 400px) {
+    @media (width <= 400px) {
       font-size: 1.3rem;
     }
   }

@@ -15,7 +15,7 @@
     margin-right: -2px;
     display: inline-block;
 
-    @media (max-width: 400px) {
+    @media (width <= 400px) {
       font-size: 1.2rem;
       padding: 7px 12px;
     }
@@ -34,6 +34,7 @@
 
   .home {
     @include transition(all .3s ease-out);
+
     color: $main_font_color;
     opacity: .6;
 
@@ -44,6 +45,7 @@
 
   .arrow {
     @include transition(all .3s ease-out);
+
     color: $main_font_color;
     position: absolute;
 
