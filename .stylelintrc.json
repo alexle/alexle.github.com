@@ -3,8 +3,8 @@
     "stylelint-config-standard-scss"
   ],
   "rules": {
-    "indentation": null,
-    "string-quotes": null,
+    "indentation": true,
+    "string-quotes": true,
     "no-duplicate-selectors": true,
     "color-hex-case": null,
     "color-hex-length": "short",
