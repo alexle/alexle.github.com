@@ -1,0 +1,28 @@
+{
+  "name": "alexle.github.com",
+  "version": "1.0.0",
+  "description": "alexle ======",
+  "main": "index.js",
+  "devDependencies": {
+    "htmlhint": "^1.7.1",
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "htmlhint \"**/*.html\" --ignore node_modules/**/*.html",
+    "lint:fix": "htmlhint \"**/*.html\" --ignore node_modules/**/*.html --fix",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexle/alexle.github.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexle/alexle.github.com/issues"
+  },
+  "homepage": "https://github.com/alexle/alexle.github.com#readme"
+}

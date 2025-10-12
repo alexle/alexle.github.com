@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run the HTML linter on staged HTML files
+echo "Running HTML linter..."
+npm run lint || (echo "Linting failed. Please fix HTML issues before committing." && exit 1)
