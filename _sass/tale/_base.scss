@@ -5,14 +5,14 @@
 
 html,
 body {
-  color: $main_font_color;
-  background-color: $bg_color;
+  color: $main-font-color;
+  background-color: $bg-color;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: $main_font_family;
+  font-family: $main-font-family;
   font-size: 16px;
   overflow-y: scroll;
 
@@ -28,19 +28,19 @@ body {
 h1,
 h2,
 h3 {
-  color: $main_font_color;
-  font-family: $main_font_family;
+  color: $main-font-color;
+  font-family: $main-font-family;
   line-height: normal;
 }
 
 a {
-  color: $link_color;
+  color: $link-color;
   text-decoration: none;
 }
 
 blockquote {
   border-left: .25rem solid $light-grey;
-  color: $main_font_color;
+  color: $main-font-color;
   margin: .8rem 0;
   padding: .5rem 1rem;
 

@@ -2,28 +2,28 @@ $light-grey: #e5e5e5;
 $code-color: #bf616a;
 
 // Page colors
-$bg_color: #222426;
-$bg_code_color: #1B1B1B;
-$link_color: #4a9ae1;
-$post_line_break_color: orangered;
-$catalogue_line_break_color: orangered;
-$pagination_current_color: orangered;
+$bg-color: #222426;
+$bg-code-color: #1B1B1B;
+$link-color: #4a9ae1;
+$post-line-break-color: orangered;
+$catalogue-line-break-color: orangered;
+$pagination-current-color: orangered;
 
 // Font color
-$main_font_color: #E1E3E6;
-$secondary_font_color: #909498;
-$nav_box_color: #909498;
+$main-font-color: #E1E3E6;
+$secondary-font-color: #909498;
+$nav-box-color: #909498;
 
 // Font family
-$main_font_family: "Inter", sans-serif;
-$code_font_family: Menlo, Monaco, monospace;
+$main-font-family: "Inter", sans-serif;
+$code-font-family: Menlo, Monaco, monospace;
 
 // Font sizes
-$title_font_weight: 400;
+$title-font-weight: 400;
 
 // Container Size
-$container_width: 620px;
-$container_width_perc: 90%;
+$container-width: 620px;
+$container-width-perc: 90%;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

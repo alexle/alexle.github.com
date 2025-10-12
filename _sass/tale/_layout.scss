@@ -78,20 +78,20 @@ footer,
   }
 }
 
-#footer_list {
+#footer-list {
   font-size: 1.6em;
   padding: 0 0 .8rem;
   margin: 0;
 }
 
-#footer_list li {
+#footer-list li {
   display: inline-block;
   list-style-type: none;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-#footer_list ul li a {
+#footer-list ul li a {
   color: $main_font_color;
   text-decoration: none;
 }
