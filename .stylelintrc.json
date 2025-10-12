@@ -4,9 +4,5 @@
   ],
   "ignoreFiles": [
     "assets/**/*.scss"
-  ],
-  "rules": {
-    "color-hex-length": "short",
-    "color-named": null
-  }
+  ]
 }

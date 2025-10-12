@@ -25,7 +25,7 @@ Here are some posts I'm most proud of and enjoy reading again from time to time.
 
 <h3>Contact</h3>
 
-alexcsm@gmail.com
+alex.csm@gmail.com
 
 [1]: /change-one-word
 [2]: /easy-life-overrated
