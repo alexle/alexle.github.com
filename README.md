@@ -39,3 +39,30 @@ To modify the hooks:
 1. Edit `.husky/pre-commit` to add/remove linting steps
 2. Use `npm run prepare` to reinstall hooks after changes
 3. Add `--no-verify` to git commit to skip hooks temporarily
+
+## Mobile Blogging
+
+Create blog posts from anywhere using GitHub Issues:
+
+1. **Create a new issue**:
+   - Open GitHub mobile app
+   - Navigate to repository and tap "+" for new issue
+   - Title: Your post title
+   - Body: Your post content in markdown
+
+2. **Add tags** (optional):
+   - Include line: `Tags: tag1, tag2` in the issue body
+
+3. **Working with drafts**:
+   - Create issue without the "new-post" label
+   - Continue editing until ready
+   - Add the "new-post" label when ready to publish
+
+4. **Publish post**:
+   - Add the "new-post" label to trigger post creation
+   - Workflow creates properly formatted post file
+   - Issue is automatically closed with link to published post
+
+5. **Edit existing posts**:
+   - Navigate to `_posts` folder in GitHub
+   - Edit the markdown file directly

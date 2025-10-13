@@ -1,0 +1,81 @@
+name: Create Post from Issue
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  create-post:
+    if: github.event.label.name == 'new-post' || contains(github.event.issue.labels.*.name, 'new-post')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create blog post from issue
+        id: create-post
+        run: |
+          # Extract info from issue
+          TITLE="${{ github.event.issue.title }}"
+          BODY="${{ github.event.issue.body }}"
+
+          # Extract tags if specified in body with "Tags: tag1, tag2"
+          if echo "$BODY" | grep -q "Tags:"; then
+            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r')
+            # Remove the Tags line from the body
+            BODY=$(echo "$BODY" | grep -v "Tags:")
+          else
+            TAGS=""
+          fi
+
+          # Create filename-friendly slug
+          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -dc 'a-z0-9-')
+          DATE=$(date +%Y-%m-%d)
+
+          # Create post file with front matter
+          mkdir -p _posts
+          cat > "_posts/$DATE-$SLUG.markdown" << EOF
+          ---
+          layout: post
+          title: "$TITLE"
+          date: $(date +"%Y-%m-%d %H:%M:%S")
+          tags: $TAGS
+          ---
+
+          $BODY
+          EOF
+
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Commit and push
+          git add "_posts/$DATE-$SLUG.markdown"
+          git commit -m "Add new post: $TITLE"
+          git push
+
+          # Set output for next step
+          POST_URL="https://alexanderle.com/${SLUG}"
+          echo "post_url=${POST_URL}" >> $GITHUB_OUTPUT
+
+      - name: Comment on issue
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.issue;
+            const post_url = "${{ steps.create-post.outputs.post_url }}";
+            await github.rest.issues.createComment({
+              issue_number: issue.number,
+              owner: issue.owner,
+              repo: issue.repo,
+              body: `✅ Post created successfully! View it at: ${post_url}`
+            });
+            await github.rest.issues.update({
+              issue_number: issue.number,
+              owner: issue.owner,
+              repo: issue.repo,
+              state: 'closed'
+            });
