@@ -1,4 +1,4 @@
-name: Create Post from Issue
+name: create-post-from-issue
 
 on:
   issues:
