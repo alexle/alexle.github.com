@@ -1,0 +1,47 @@
+<!-- htmlhint tag-pair:false -->
+{% comment %}
+Image Gallery Shortcode
+Usage:
+{% include shortcodes/gallery.html
+  images="image1.jpg, image2.jpg, image3.jpg"
+  captions="Caption 1, Caption 2, Caption 3"
+  alt="Alt text 1, Alt text 2, Alt text 3"
+  title="Optional gallery title"
+%}
+
+The images parameter is required. All others are optional.
+Images should be in the /assets/ directory, or you can specify the full path.
+{% endcomment %}
+
+<div class="image-gallery">
+  {% if include.title %}
+  <h3 class="gallery-title">{{ include.title }}</h3>
+  {% endif %}
+
+  <div class="gallery-container">
+    {% assign image_array = include.images | split: "," %}
+    {% assign captions_array = include.captions | split: "," %}
+    {% assign alt_array = include.alt | split: "," %}
+
+    {% for image in image_array %}
+      {% assign index = forloop.index0 %}
+      {% assign image_path = image | strip %}
+      {% if image_path contains '/' %}
+        {% assign img_src = image_path %}
+      {% else %}
+        {% assign img_src = "/assets/" | append: image_path %}
+      {% endif %}
+
+      <div class="gallery-item">
+        <img src="{{ img_src | relative_url }}"
+             {% if alt_array[index] %}alt="{{ alt_array[index] | strip }}"{% endif %}
+             class="gallery-image"
+             loading="lazy">
+        {% if captions_array[index] %}
+          <p class="gallery-caption">{{ captions_array[index] | strip }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- htmlhint tag-pair:true -->
