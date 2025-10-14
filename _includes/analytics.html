@@ -1,10 +1,10 @@
+<!-- htmlhint tag-pair:false -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}');
+  var site_google_analytics = '{{ site.google_analytics }}';
 </script>
+<script src="{{ "/assets/js/analytics.js" | relative_url }}"></script>
 
 <meta name="google-site-verification" content="UNRfpImcRQ3BIYIbiTDAv7O_9dJy-L3rcmWchHTi_Vc" />
+<!-- htmlhint tag-pair:true -->
