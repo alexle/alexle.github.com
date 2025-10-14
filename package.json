@@ -8,7 +8,8 @@
     "husky": "^9.1.7",
     "stylelint": "^16.25.0",
     "stylelint-config-standard-scss": "^16.0.0",
-    "stylelint-scss": "^6.12.1"
+    "stylelint-scss": "^6.12.1",
+    "concurrently": "^8.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +19,14 @@
     "lint:scss": "stylelint \"**/*.scss\" --ignore-path .gitignore",
     "lint:scss:fix": "stylelint \"**/*.scss\" --ignore-path .gitignore --fix",
     "lint:html": "htmlhint \"**/*.html\" --ignore node_modules/**/*.html",
-    "lint:html:fix": "htmlhint \"**/*.html\" --ignore node_modules/**/*.html --fix"
+    "lint:html:fix": "htmlhint \"**/*.html\" --ignore node_modules/**/*.html --fix",
+    "jekyll:install": "bundle install",
+    "jekyll:update": "bundle update",
+    "jekyll:serve": "bundle exec jekyll serve --drafts",
+    "jekyll:build": "bundle exec jekyll build",
+    "jekyll:clean": "bundle exec jekyll clean",
+    "dev": "concurrently \"npm run jekyll:serve\" \"npm run lint:scss -- --watch\"",
+    "build": "npm run lint && npm run jekyll:build"
   },
   "repository": {
     "type": "git",

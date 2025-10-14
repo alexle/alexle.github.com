@@ -6,8 +6,9 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
+# Note: Jekyll 4.4.1 requires Ruby version 2.7.0 or higher
 #
-gem "jekyll", "~> 4.2.0"
+gem "jekyll", "~> 4.4.1"
 gem "tale"
 gem "webrick"
 
@@ -21,7 +22,6 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-remote-theme"
   gem "jemoji"
   gem "jekyll-archives"
 end
@@ -31,5 +31,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
 
