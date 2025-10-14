@@ -18,7 +18,7 @@ No computer required.
 
 That's it! The entire publishing workflow handled through GitHub mobile app.
 
-The specific GitHub Action I set up can be found in the [create-post-from-issue.yml](.github/workflows/create-post-from-issue.yml) file in this repository. 
+The specific GitHub Action I set up can be found in the [create-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/create-post-from-issue.yml) file in this repository. 
 
 ## Why I love this workflow
 
