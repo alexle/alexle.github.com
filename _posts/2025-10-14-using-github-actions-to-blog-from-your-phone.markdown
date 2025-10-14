@@ -11,8 +11,8 @@ No computer required.
 
 ## How it works
 
-1. I create a GitHub issue from my phone with the blog post title and content
-2. I add a `new-post` label to the issue
+1. Create a GitHub issue from my phone with the blog post title and content
+2. A `new-post` label to the issue
 3. GitHub actions automatically converts it to a properly formatted Jekyll post
 4. The post is committed to the repository and the static site is rebuilt
 
@@ -20,9 +20,9 @@ That's it! The entire publishing workflow handled through GitHub mobile app.
 
 ## Why I love this workflow
 
-The beauty of this approach is its simplicity. No need for special apps or services. It leverages tools I already use and which this site is hosted on.
+The beauty of this approach is in its simplicity. No need for special apps or services. It leverages tools I already use every day. And best of all it's on the same platform which this static site is hosted on. Chef's kiss. 
 
-Writing blog posts now feels as like writing an email or text message. Which hopefully encourages me to publish more regularly.
+Writing blog posts now feels like writing an email or text message. Which hopefully encourages me to publish more regularly.
 
 Sometimes the best solutions aren't about adding complexity. But about reducing friction.
 
