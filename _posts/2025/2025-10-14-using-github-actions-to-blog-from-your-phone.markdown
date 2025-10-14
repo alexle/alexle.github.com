@@ -2,10 +2,10 @@
 layout: post
 title: "Using GitHub Actions To Blog From Your Phone"
 date: 2025-10-14 01:01:23
-tags: 
+tags:
 ---
 
-I haven't kept up with getting my thoughts onto this blog lately. In an effort to get more ideas out, I implemented a workflow which lets me create blog posts from any mobile device with a GitHub app. 
+I haven't kept up with getting my thoughts onto this blog lately. In an effort to get more ideas out, I implemented a workflow which lets me create blog posts from any mobile device with a GitHub app.
 
 No computer required.
 
@@ -18,13 +18,13 @@ No computer required.
 
 That's it! The entire publishing workflow handled through GitHub mobile app.
 
-The specific GitHub Action I set up can be found in the [create-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/create-post-from-issue.yml) file in this repository. 
+The specific GitHub Action I set up can be found in the [create-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/create-post-from-issue.yml) file in this repository.
 
 ## Why I love this workflow
 
-The beauty of this approach is in its simplicity. No need for special apps or services. It leverages tools I already use every day. And best of all it's on the same platform which this static site is hosted on. Chef's kiss. 
+The beauty of this approach is in its simplicity. No need for special apps or services. It leverages tools I already use every day. And best of all it's on the same platform which this static site is hosted on. Chef's kiss.
 
-Writing blog posts now feels like writing an email or text message. Which hopefully encourages me to publish more regularly.
+Writing blog posts can now be as simple as writing an email or text message. Which hopefully encourages me to publish more regularly.
 
 Sometimes the best solutions aren't about adding complexity. But about reducing friction.
 
