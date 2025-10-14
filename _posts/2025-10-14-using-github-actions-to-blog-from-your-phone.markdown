@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Using GitHub Actions To Blog From Your Phone"
+date: 2025-10-14 01:01:23
+tags: 
+---
+
+I haven't kept up with getting my thoughts onto my blog lately. In an effort to get more ideas out, I implemented a workflow which lets me create blog post from any mobile device with the GitHub app. 
+
+No computer required.
+
+## How it works
+
+1. I create a GitHub issue from my phone with my post title and content.
+2. I had a new-post label to the issue
+3. GitHub actions automatically converts it to a properly formatted Jekyll post
+4. The post is committed to the repository and the static site is rebuilt
+
+That's it! The entire publishing workflow handled through GitHub mobile app. 
+
+## Why I love this workflow
+
+The beauty of this approach is it's simplicity. No need for special apps or services. It leverages tools I already use and which this site is hosted on.
+
+Writing blog posts now feels as casual as writing an email or text message. Which hopefully will encourage me to publish more regularly.
+
+Sometimes the best solutions aren't about adding complexity. But about reducing friction.
+
+Have you automated any of your content workflow? I'd love to hear about it!
+
+Note: This post was written on my iPhone 15 Pro!
