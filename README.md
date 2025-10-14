@@ -59,7 +59,8 @@ Create blog posts from anywhere using GitHub Issues:
    - Add the "new-post" label when ready to publish
 
 4. **Publish post**:
-   - Add the "new-post" label to trigger post creation
+   - First create the issue WITHOUT the "new-post" label
+   - Add the "new-post" label when ready to publish
    - Workflow creates properly formatted post file
    - Issue is automatically closed with link to published post
 

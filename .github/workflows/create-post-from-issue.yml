@@ -2,7 +2,7 @@ name: create-post-from-issue
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   create-post:
