@@ -5,7 +5,7 @@ date: 2025-10-14 01:01:23
 tags: 
 ---
 
-I haven't kept up with getting my thoughts onto my blog lately. In an effort to get more ideas out, I implemented a workflow which lets me create blog posts from any mobile device with a GitHub app. 
+I haven't kept up with getting my thoughts onto this blog lately. In an effort to get more ideas out, I implemented a workflow which lets me create blog posts from any mobile device with a GitHub app. 
 
 No computer required.
 
