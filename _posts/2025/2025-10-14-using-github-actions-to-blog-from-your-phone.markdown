@@ -12,11 +12,13 @@ No computer required.
 ## How it works
 
 1. Create a GitHub issue from my phone with the blog post title and content
-2. A `new-post` label to the issue
+2. Add a `new-post` label to the issue
 3. GitHub actions automatically converts it to a properly formatted Jekyll post
 4. The post is committed to the repository and the static site is rebuilt
 
-That's it! The entire publishing workflow handled through GitHub mobile app. 
+That's it! The entire publishing workflow handled through GitHub mobile app.
+
+The specific GitHub Action I set up can be found in the [create-post-from-issue.yml](.github/workflows/create-post-from-issue.yml) file in this repository. 
 
 ## Why I love this workflow
 
