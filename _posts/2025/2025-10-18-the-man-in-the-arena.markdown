@@ -29,7 +29,7 @@ Staying on the sidelines is easy.
 
 Stepping into the arena takes courage. To build. To begin. To take a chance on something that might not succeed.
 
-I've come to greatly respect those who try -- even if it's not perfect. I find myself quietly rooting for those who dare to create, to build, to share something real.
+I've come to greatly respect those who try -- even if it's not perfect. I find myself quietly rooting for those who dare to put themselves and share or try something real.
 
 Sometimes courage is just the act of showing up again and again.
 
@@ -38,6 +38,7 @@ Sometimes courage is just the act of showing up again and again.
 So the next time you catch yourself holding back — waiting for the stars to align, or worried about what others might think — remember this:
 
 They'll always have something to say.
+
 But they’re not in the arena. You are.
 
 And that’s what counts.
