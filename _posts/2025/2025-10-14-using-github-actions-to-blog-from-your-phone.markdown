@@ -30,4 +30,4 @@ Sometimes the best solutions aren't about adding complexity. But about reducing 
 
 Have you automated any of your content workflow? I'd love to hear about it!
 
-Note: This post was written on my iPhone 15 Pro!
+Note: This post was written on my iPhone 15 Pro
