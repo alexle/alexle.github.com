@@ -13,7 +13,7 @@ When I'm not at work or on the computer, you can find me immersed in a book or o
 
 You'll find that I write about running a lot. Mainly because I enjoy it and feel there's much to learn and improve on. But also because I believe it's a wonderful metaphor for life, in so many ways.
 
-<h3>Some of my favorite posts</h3>
+### Some of my favorite posts
 
 Here are some posts I'm most proud of and enjoy reading again from time to time.
 
@@ -23,9 +23,9 @@ Here are some posts I'm most proud of and enjoy reading again from time to time.
 - [A Look Back On My Best Year Of Running Ever, And How I Managed To Do It][4]
 - [Rock n Roll Denver Marathon: My Worst Run Ever][5]
 
-<h3>Contact</h3>
+### Contact
 
-alex.csm@gmail.com
+<alex.csm@gmail.com>
 
 [1]: /change-one-word
 [2]: /easy-life-overrated

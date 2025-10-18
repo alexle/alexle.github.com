@@ -1,7 +1,7 @@
 # Site settings
 title:          Alex Le
-description:    "Alex Le lives in Colorado and writes firmware for disc drives. He likes to run, read, and tinker with technology and side projects."
-tagline:        "Firmware Engineer, Minimalist, Improving Runner"
+description:    "Alex Le lives in Colorado and is a software engineer. He likes to run, read, and tinker with technology and side projects."
+tagline:        "Software Engineer, Minimalist, Improving Runner"
 url:            "https://alexanderle.com"
 production_url: "https://alexanderle.com"
 
@@ -20,6 +20,12 @@ author:
 markdown:       kramdown
 include:
   - _pages
+
+# Preserves optimized images between builds
+keep_files:     [assets/images]
+
+# Only rebuild changed files
+incremental:    true
 
 # Assets
 sass:
@@ -43,9 +49,7 @@ paginate:       7
 twitter_username:     alextrle
 github_username:      alexle
 linkedin_username:    alexle
-facebook_username:    alexle
 instagram_username:   alextrle
-strava_username:      alexle
 feed_xml:             feed.xml
 
 # Excludes
