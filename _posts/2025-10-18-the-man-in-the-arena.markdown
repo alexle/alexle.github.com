@@ -29,13 +29,13 @@ Staying on the sidelines is easy.
 
 Stepping into the arena takes courage. Whether it's building something. Or starting a new exercise regime. Or taking a chance on a dream which may not be perfect.
 
-I've come to greatly respect those who try and show up -- even if it's not perfect. I find myself quietly rooting for those who dare to create, to build, to share something real.
+I've come to greatly respect those who try -- even if it's not perfect. I find myself quietly rooting for those who dare to create, to build, to share something real.
 
 Sometimes courage is just the quiet act of showing up again and again.
 
 ## Dare Greatly
 
-So the next time you catch yourself holding back — waiting for the perfect time, or worried about what others might think — remember this:
+So the next time you catch yourself holding back — waiting for the stars to align, or worried about what others might think — remember this:
 
 The critics will always have something to say.
 But they’re not in the arena. You are.
