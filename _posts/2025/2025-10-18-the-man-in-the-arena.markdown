@@ -31,13 +31,13 @@ Stepping into the arena takes courage. To build. To begin. To take a chance on s
 
 I've come to greatly respect those who try -- even if it's not perfect. I find myself quietly rooting for those who dare to create, to build, to share something real.
 
-Sometimes courage is just the quiet act of showing up again and again.
+Sometimes courage is just the act of showing up again and again.
 
 ## Dare Greatly
 
 So the next time you catch yourself holding back — waiting for the stars to align, or worried about what others might think — remember this:
 
-The critics will always have something to say.
+They'll always have something to say.
 But they’re not in the arena. You are.
 
 And that’s what counts.
