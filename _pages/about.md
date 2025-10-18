@@ -9,14 +9,11 @@ permalink: /about/
 
 I'm a Software Engineer living in Colorado. I like to read, work out, and tinker with technology and side projects.
 
-When I'm not at work or on the computer, you can find me immersed in a book or outside running somewhere. I began running in 2012 and, well, I can't get enough of it.
-
-You'll find that I write about running a lot. Mainly because I enjoy it and feel there's much to learn and improve on. But also because I believe it's a wonderful metaphor for life, in so many ways.
-
 ### Some of my favorite posts
 
-Here are some posts I'm most proud of and enjoy reading again from time to time.
+Here are some posts I enjoy reading again from time to time.
 
+- [The Man In The Arena][6]
 - [Change How You See The World With One Word][1]
 - [Why An Easy Life Is Overrated][2]
 - [Make Your Own Luck][3]
@@ -32,3 +29,4 @@ Here are some posts I'm most proud of and enjoy reading again from time to time.
 [3]: /make-your-own-luck
 [4]: /2017-running
 [5]: /first-marathon
+[6]: /the-man-in-the-arena
