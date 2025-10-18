@@ -33,10 +33,11 @@ jobs:
           # Create filename-friendly slug
           SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -dc 'a-z0-9-')
           DATE=$(date +%Y-%m-%d)
+          YEAR=$(date +%Y)
 
-          # Create post file with front matter
-          mkdir -p _posts
-          cat > "_posts/$DATE-$SLUG.markdown" << EOF
+          # Create post file with front matter in yearly directory
+          mkdir -p "_posts/$YEAR"
+          cat > "_posts/$YEAR/$DATE-$SLUG.markdown" << EOF
           ---
           layout: post
           title: "$TITLE"
@@ -52,7 +53,7 @@ jobs:
           git config --local user.name "GitHub Action"
 
           # Commit and push
-          git add "_posts/$DATE-$SLUG.markdown"
+          git add "_posts/$YEAR/$DATE-$SLUG.markdown"
           git commit -m "Add new post: $TITLE"
           git push
 
