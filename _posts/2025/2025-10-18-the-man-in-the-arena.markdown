@@ -2,7 +2,7 @@
 layout: post
 title: "The Man In The Arena"
 date: 2025-10-18 15:33:17
-tags: 
+tags:
 ---
 
 One of my favorite quotes — and one that has quietly changed the way I live — is from Theodore Roosevelt:
@@ -23,11 +23,11 @@ I used to be afraid of what others thought about my actions.
 
 But then I realized that most criticism comes from people who aren't even trying -- people who rather judge than take action themselves.
 
-It costs nothing to criticize others. To put down someone's work. To sit back and nitpick how something should be done differently.
+It costs nothing to criticize — to sit back, point out flaws, and say how things should have been done differently.
 
 Staying on the sidelines is easy.
 
-Stepping into the arena takes courage. Whether it's building something. Or starting a new exercise regime. Or taking a chance on a dream which may not be perfect.
+Stepping into the arena takes courage. To build. To begin. To take a chance on something that might not succeed.
 
 I've come to greatly respect those who try -- even if it's not perfect. I find myself quietly rooting for those who dare to create, to build, to share something real.
 
@@ -41,4 +41,3 @@ The critics will always have something to say.
 But they’re not in the arena. You are.
 
 And that’s what counts.
-
