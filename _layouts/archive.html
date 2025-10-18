@@ -10,7 +10,7 @@ layout: default
   {% for year in postsByYear %}
     <h3>{{ year.name }}</h3>
     {% for post in year.items %}
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
+  <a href="{{ post.url }}">{{ post.title }}</a><br />
     {% endfor %}
   {% endfor %}
 
