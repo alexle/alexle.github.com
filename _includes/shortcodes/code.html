@@ -17,12 +17,14 @@ The code parameter is required. All others are optional.
     {% if include.title %}<span>{{ include.title }}</span>{% endif %}
     <button class="copy-button" onclick="copyCode(this)">Copy</button>
   </div>
-  <pre><code class="language-{% if include.language %}{{ include.language }}{% else %}plaintext{% endif %}">{{ include.code }}</code></pre>
+  <div class="highlight">
+    <pre class="highlight{% if include.language %} language-{{ include.language }}{% else %} language-plaintext{% endif %}"><code>{{ include.code }}</code></pre>
+  </div>
 </div>
 
 <script>
   function copyCode(button) {
-    const preElement = button.parentElement.nextElementSibling;
+    const preElement = button.parentElement.nextElementSibling.querySelector('pre');
     const codeElement = preElement.querySelector('code');
 
     const textToCopy = codeElement.innerText;

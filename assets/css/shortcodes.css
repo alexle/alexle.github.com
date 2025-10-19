@@ -55,47 +55,77 @@
 .code-snippet {
   margin: 2rem 0;
   position: relative;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .code-snippet-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-  background: #2d2d2d;
+  padding: 0.6rem 1rem;
+  background: #1e1e1e;
   color: #ffffff;
-  border-radius: 4px 4px 0 0;
+  border-radius: 6px 6px 0 0;
   font-size: 0.9rem;
-  font-family: monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .copy-button {
-  background: transparent;
-  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #ffffff;
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .copy-button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
-.code-snippet pre {
+.code-snippet .highlight {
   margin: 0;
-  padding: 1rem;
+  padding: 0;
+  background-color: #f6f8fa;
+  border-radius: 0 0 6px 6px;
+}
+
+.code-snippet pre.highlight {
+  margin: 0;
+  padding: 1rem 0;
   overflow-x: auto;
-  border-radius: 0 0 4px 4px;
   background-color: #f6f8fa;
   border: 1px solid #e1e4e8;
   border-top: none;
+  border-radius: 0 0 6px 6px;
+  tab-size: 2;
 }
 
 .code-snippet code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.9rem;
   line-height: 1.5;
+  padding: 0 1rem;
+  display: block;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .code-snippet {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .code-snippet-header {
+    background: #2d2d2d;
+  }
+
+  .code-snippet pre.highlight {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e6e6e6;
+  }
 }

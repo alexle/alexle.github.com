@@ -70,6 +70,21 @@ Display code snippets with syntax highlighting and a copy button.
 %}
 ```
 
+#### Standard Markdown Code Fences
+
+For simpler code blocks, you can also use standard markdown triple backtick syntax:
+
+````markdown
+```python
+def hello():
+    print('Hello, world!')
+
+hello()
+```
+````
+
+Note: This method doesn't support all features of the shortcode (like titles, copy button, or line numbers).
+
 ## Mobile-Friendly Features
 
 These shortcodes are designed to be mobile-friendly:
@@ -78,3 +93,13 @@ These shortcodes are designed to be mobile-friendly:
 2. Images use lazy loading to improve mobile performance
 3. Code snippets have a copy button for easy sharing from mobile
 4. All elements use appropriate font sizes for mobile readability
+
+### Tips for Mobile Blogging with Code Snippets
+
+When blogging from mobile devices:
+
+1. **Use Jekyll include syntax** rather than markdown code fences for better control
+2. **Format your code carefully** in the YAML parameter, keeping proper indentation
+3. For complex code blocks, consider drafting in a code editor app first
+4. Test how your code appears in both light and dark modes
+5. You can edit your posts through GitHub's mobile interface for quick updates
