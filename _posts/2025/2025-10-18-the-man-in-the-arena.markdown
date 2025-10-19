@@ -15,13 +15,13 @@ One of my favorite quotes — and one that has quietly changed the way I live �
 >
 > at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
 
-I used to be worried about what others thought I did.
+I used to worry about what others thought when I started something new.
 
 - What if I fail?
 - What if they make negative comments?
 - What if they were right?
 
-Unitl I realized that most criticism comes from people who aren't even trying -- people who rather judge than take action themselves.
+Until I realized that most criticism comes from people who aren't even trying -- people who rather judge than take action themselves.
 
 It costs nothing to criticize — to sit back, point out flaws, and say how things should have been done differently.
 
@@ -31,13 +31,11 @@ Stepping into the arena takes courage. To build. To begin. To take a chance on s
 
 I've come to greatly respect those who try -- even if it's not perfect. I find myself rooting for those who dare to put themselves out there and share something real.
 
-Sometimes courage is just the act of showing up again and again.
-
 ## Dare Greatly
 
 I've often wondered how people can be so quick to judge. But hesitant to take risks themselves.
 
-Perhaps it's envy. Or a stark reminder of what they're unwilling to do. Simpler to be negative than to confront their fears.
+Perhaps it's envy. Or a stark reminder of what they're unwilling to chase. Simpler to be negative than to confront their fears.
 
 So the next time you catch yourself holding back — waiting for the stars to align, or worried about what others might think — remember this:
 
