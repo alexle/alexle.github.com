@@ -11,11 +11,11 @@ One of my favorite quotes â€” and one that has quietly changed the way I live â€
 >
 > The credit belongs to the man who is actually in the arena,
 >
-> whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement,
+> whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails,
 >
-> and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
+> at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
 
-I used to be worry about what others thought of what I did.
+I used to be worried about what others thought I did.
 
 - What if I fail?
 - What if they make negative comments?
