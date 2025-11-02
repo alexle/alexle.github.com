@@ -37,16 +37,17 @@ jobs:
 
           # Create post file with front matter in yearly directory
           mkdir -p "_posts/$YEAR"
-          cat > "_posts/$YEAR/$DATE-$SLUG.markdown" << EOF
-          ---
-          layout: post
-          title: "$TITLE"
-          date: $(date +"%Y-%m-%d %H:%M:%S")
-          tags: $TAGS
-          ---
 
-          $BODY
-          EOF
+          # Write front matter and content
+          {
+            printf '%s\n' '---'
+            printf '%s\n' 'layout: post'
+            printf 'title: "%s"\n' "$TITLE"
+            printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
+            printf 'tags: %s\n' "$TAGS"
+            printf '%s\n\n' '---'
+            printf '%s\n' "$BODY"
+          } > "_posts/$YEAR/$DATE-$SLUG.markdown"
 
           # Configure git
           git config --local user.email "action@github.com"
