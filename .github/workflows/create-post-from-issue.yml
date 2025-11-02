@@ -16,10 +16,13 @@ jobs:
 
       - name: Create blog post from issue
         id: create-post
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
           # Extract info from issue
-          TITLE="${{ github.event.issue.title }}"
-          BODY="${{ github.event.issue.body }}"
+          TITLE="$ISSUE_TITLE"
+          BODY="$ISSUE_BODY"
 
           # Extract tags if specified in body with "Tags: tag1, tag2"
           if echo "$BODY" | grep -q "Tags:"; then
