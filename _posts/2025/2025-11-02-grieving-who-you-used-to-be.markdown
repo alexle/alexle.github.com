@@ -39,7 +39,7 @@ None of which has changed after my injury.
 
 Loss has a strange way of teaching you what truly matters.
 
-It's like those who have a near-death experience and come back filled with awe, gratitude, and renewed appreciation for all things life.
+It's like those who have a near-death experience and come back filled with awe and renewed appreciation for all things life.
 
 Running may look different for me today. But I realize it can still be as deep and meaningful.
 
@@ -51,8 +51,8 @@ I was simply overcome with gratitude -- celebrating that I had made it to anothe
 
 My biggest takeaway from this experience is that "coming back" is not about reclaiming who I used to be.
 
-That chapter has come and gone.
+That chapter has come and gone. And that's okay!
 
-And now, it's about being present for this one -- while still honoring everything that was.
+All that matters now is being present for this one -- while still honoring everything that was.
 
 Perhaps healing isn't about avoiding the pain or forgetting the past -- but simply learning to move forward _with_ it.
