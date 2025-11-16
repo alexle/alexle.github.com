@@ -41,6 +41,10 @@ plugins:
   - jekyll-archives
   - jemoji
 
+# Jekyll Feed Configuration
+feed:
+  excerpt_only: true
+
 # Permalinks
 permalink:      /:title
 paginate:       7
