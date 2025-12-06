@@ -1,0 +1,52 @@
+name: Check Links
+
+on:
+  # Run on pushes to main
+  push:
+    branches:
+      - main
+    paths:
+      - '_posts/**'
+      - '_pages/**'
+      - '**.md'
+      - '**.html'
+
+  # Run weekly to catch external link rot
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for broken links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Check markdown and HTML files
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,204,206,301,302,303,307,308,403,429
+            --exclude-mail
+            --exclude 'linkedin.com'
+            --exclude 'twitter.com'
+            --exclude 'x.com'
+            '_posts/**/*.md'
+            '_posts/**/*.markdown'
+            '_pages/**/*.md'
+            '*.md'
+          fail: false  # Don't fail the build, just report
+
+      - name: Create Issue on Link Errors
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Broken links detected
+          content-filepath: ./lychee/out.md
+          labels: bug, documentation

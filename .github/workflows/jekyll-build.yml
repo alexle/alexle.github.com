@@ -1,0 +1,38 @@
+name: Jekyll Build
+
+on:
+  pull_request:
+    branches:
+      - main
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Check HTML output
+        run: |
+          # Basic check that the build produced HTML files
+          if [ -d "_site" ] && [ "$(find _site -name '*.html' | head -1)" ]; then
+            echo "Build successful - HTML files generated"
+            find _site -name '*.html' | wc -l | xargs -I {} echo "{} HTML files generated"
+          else
+            echo "Build may have failed - no HTML files found"
+            exit 1
+          fi

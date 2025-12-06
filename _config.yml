@@ -5,8 +5,8 @@ tagline:        "Software Engineer, Minimalist, Improving Runner"
 url:            "https://alexanderle.com"
 production_url: "https://alexanderle.com"
 
-# Google Analytics
-google_analytics: UA-28947728-2
+# Google Analytics (GA4)
+google_analytics: G-S03KNPH8PC
 
 # Author
 author:
