@@ -11,7 +11,7 @@ During the past couple [weeks of training][3], it occurred to me I've picked up 
 
 What were the signs that let you know you were finally a runner? Here is my list:
 
-1. You immediately plan which days you're going to run when looking at the weather forecast. You start checking the [weather report][1] hourly instead of daily. Precipitation, wind speeds, cloud cover, and UV index are closely monitored.
+1. You immediately plan which days you're going to run when looking at the weather forecast. You start checking the weather report hourly instead of daily. Precipitation, wind speeds, cloud cover, and UV index are closely monitored.
 
 2. Carbs are your new favorite food group.
 
@@ -43,7 +43,7 @@ _My top dresser drawer, yum_
 
 ## Bonus Comments ##
 
-I shared this list on the [Runner's World forum][2] and received some great (and funny) responses. Here are some bonus ones which I can relate to:
+Here are some bonus comments which I can relate to:
 
 @Patti678 - When I started making excuses to run instead of not to -- Ex. No clean running clothes? That's ok. I'll dig dirty ones out of the hamper and wear them again.
 
@@ -51,7 +51,5 @@ I shared this list on the [Runner's World forum][2] and received some great (and
 
 @SamuelPagliarini - You're too lazy to do the math when someone gives you change on something you bought. When it comes to paces, distances, and projections you are like the new Kasparov.
 
-[1]: http://shouldalexrun.appspot.com
-[2]: http://community.runnersworld.com/topic/12-signs-that-you-are-a-runner
 [3]: /training-marathon.html
 [4]: /first-marathon.html

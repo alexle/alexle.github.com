@@ -37,7 +37,7 @@ Overall, it was a fantastic and fun year on the road. I never thought I would be
 
 2013 was an active and rewarding year for me at Seagate. I had the chance to work on some key projects for the company, one of which is creating some buzz right now. My proficiency in the code has increased greatly, and I'm more confident in code analysis and decisions.
 
-Outside of work, I made progress on most of my side projects. The one I'm most proud of is [ShouldAlexRun][5]. While not fully finished, it's a lean and working "MVP" (Minimum Viable Product). I hope to flush out the functionality next year. Here's a description of the app.
+Outside of work, I made progress on most of my side projects. The one I'm most proud of is ShouldAlexRun. While not fully finished, it's a lean and working "MVP" (Minimum Viable Product). I hope to flush out the functionality next year. Here's a description of the app.
 
 > Alex likes to run. However, he's very picky and only likes to run when the weather is optimal. This is an app to query current and future weather conditions to find the best time for Alex to run.
 
@@ -54,7 +54,7 @@ In other words, I superset every lift. I concentrate on compound exercises which
 This year, I worked on Deadlifts, Kettle-Bell Swings, and Kipping Pull-Ups. My most proud achievement, however, is completing **10 consecutive Muscle-Ups**.
 
 ![crossfit muscle up](/assets/crossfit_games_2012_muscle_up.jpg)
-_Kenneth Leverich and Rich Froning showing how it's done_
+*Kenneth Leverich and Rich Froning showing how it's done*
 
 What's a Muscle-Up, you ask? Essentially, it's a Pull-Up to Dip in one fluid movement. Instead of stopping when your chin reaches the bar, you continue pulling until your upper body is *above* the bar, where you then transition into a full Dip on *top* of the bar. It's one of the more advanced and coveted CrossFit exercises, and considered by some as the king of bodyweight exercises.
 
@@ -72,7 +72,6 @@ What else will 2014 hold for me? I'm not sure, but I can't wait to find out. Hap
 [2]: /first-half-marathon.html
 [3]: /first-marathon.html
 [4]: /100-miles.html
-[5]: http://shouldalexrun.appspot.com/
 [6]: http://www.runcolfax.org/
 [7]: http://support-en-us.nikeplus.com/app/answers/detail/a_id/34026/p/3169,3195
 [8]: /nasty-girls-of-crossfit.html

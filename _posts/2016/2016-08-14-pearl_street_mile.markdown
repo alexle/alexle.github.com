@@ -22,11 +22,11 @@ After much debate, I signed up for a one mile race. Yes, it would take me longer
 I had no answer. I just knew I had never dreaded a race as much as I did this one.
 
 ![pearl street mile alex le and matt](/assets/pearl_street_mile_alex_matt.jpg)
-_Pre-race photo in front of the start_
+*Pre-race photo in front of the start*
 
 ## Pearl Street Mile ##
 
-The [Pearl Street Mile][1] is an annual Boulder tradition. There are 4 waves: Kids 880m, Open, Elite Women, and Elite Men. As a result, it draws runners of all levels, ages, and sizes.
+The Pearl Street Mile is an annual Boulder tradition. There are 4 waves: Kids 880m, Open, Elite Women, and Elite Men. As a result, it draws runners of all levels, ages, and sizes.
 
 Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering [*4:10*][4].
 
@@ -63,7 +63,7 @@ If people ahead of me don't turn off Spruce soon, I will pass out at this rate. 
 I finally see people getting on 14th, which means this madness is almost over. I muster every ounce of energy and will-power left inside me for the home-stretch.
 
 ![alex le pearl street mile finish](/assets/pearl_street_mile_alex_le.jpg)
-_Photo by coworker_
+*Photo by coworker*
 
 My coworker yells 'Run faster!',  but I don't hear him or anyone else around me.
 
@@ -83,7 +83,6 @@ They boost your speed, strength, and efficiency. They bring out positive physiol
 
 And they are so, so fun. Let's give short distance events the respect they deserve again. Bring one back into your racing plans, you might be surprised.
 
-[1]: http://flatironsrunningevents.com/races/pearl-street-mile/
 [2]: /chicago-marathon-recap.html
 [3]: http://runningbears.com/pearl/Pearl_Street_Mile_Open_2016.HTM
 [4]: http://runningbears.com/pearl/Pearl_Street_Mile_Elite_Mens_2016.HTM
