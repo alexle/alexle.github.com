@@ -5,7 +5,7 @@ date: 2013-10-26
 tags: running
 ---
 
-Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 [Denver Rock N Roll][1] Marathon was one of them.
+Few challenges in life have the power to break you down to the point of tears. My recent experience at the 2013 Denver Rock N Roll Marathon was one of them.
 
 The course and conditions were tough. It seemed as if you were always facing a 12mph headwind, no matter which direction you ran. The hills were plenty and unforgiving.
 
@@ -96,5 +96,3 @@ Because how often in life do we have a chance to test our resolve and will again
 For me, the marathon was a perfect reminder to embrace the challenges and obstacles you face in life, because they are *opportunities* to grow from. I learned so much about myself and what I was capable of during this race.
 
 At one point, I vowed never to do another one of these again. But who was I kidding. I can't wait for the next one \*wink\*.
-
-[1]: http://runrocknroll.competitor.com/denver

@@ -35,7 +35,7 @@ Below were my previous race PRs heading in:
 
 ## March: Lucky Laces 5k ##
 
-It was a frigid January and February in Colorado. I'm pretty wimpy when it comes to [handling weather][4], and only managed ~20 miles/week. Each weekend, I'd look out the window and tell myself, it's not optimal race conditions yet. And promptly slip back into bed.
+It was a frigid January and February in Colorado. I'm pretty wimpy when it comes to handling weather, and only managed ~20 miles/week. Each weekend, I'd look out the window and tell myself, it's not optimal race conditions yet. And promptly slip back into bed.
 
 March rolled around, and I was eager to see what I was capable of. How much fitness had I lost over winter? Would 21:00 even be possible?
 
@@ -69,9 +69,9 @@ One pleasant surprise was, while warming up for the race, I glimpsed [Emma Cobur
 
 For some reason, I didn't look at my watch or check my splits. I just took in the energy around me and ran with my heart, unsure of how fast or slow I was going.
 
-As I crossed the finish, I made my way to the nearest trash can. Where two others and I took turns dry-heaving. Only after I finished, did I dare look down to check my time - [39:59:09][7].
+As I crossed the finish, I made my way to the nearest trash can. Where two others and I took turns dry-heaving. Only after I finished, did I dare look down to check my time - 39:59:09.
 
-I don't even know how.
+It still blows my mind.
 
 A neat thing about the Bolder Boulder is if you go sub-40, they give you a commemorative t-shirt for the feat. I never, in my wildest dreams, thought I'd own one. It's one of my most cherished possessions.
 
@@ -188,7 +188,7 @@ Unfortunately, these races aren't very common and I grew weary of waiting for on
 
 The number of car honks, smiles, and compliments I received on the way to the track were overwhelming. People were ready for Santa!
 
-Check out the outcome below. Filmed and produced by my good friend, [Dai-Long](<"https://www.instagram.com/dailong5280/"). It was the perfect ending to an incredible year.
+Check out the outcome below. Filmed and produced by my good friend, [Dai-Long](<"<https://www.instagram.com/dailong5280/>"). It was the perfect ending to an incredible year.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8vKtD6Fnip4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -211,10 +211,8 @@ Here's to another sweat-soaked, lactate-burning, lung-gasping year - cheers!
 [1]: /100-miles.html
 [2]: /chicago-marathon-recap.html
 [3]: /change-one-word.html
-[4]: http://shouldalexrun.appspot.com/
 [5]: https://www.instagram.com/emmacoburn/?hl=en
 [6]: https://results.chronotrack.com/event/results/event/event-26648
-[7]: http://bolderboulder2017.onlineraceresults.com/individual.php?bib=AA387
 [8]: https://www.strava.com/activities/1051769425
 [9]: http://nebula.wsimg.com/70d33d555c5f6687e6a85a44967db7d4?AccessKeyId=03E1F425BA7E669E575B&disposition=0&alloworigin=1
 [10]: https://runsignup.com/Race/Results/15294/IndividualResult/Ndcd#U16974844

@@ -12,21 +12,21 @@ There are times when you need to setup a quick web server to test your web appli
 Open up a terminal and go to the directory you would like to start the web server:
 
 ``` python
-$ cd /home/somedirectory
+cd /home/somedirectory
 ```
 
 To start the server, simply type:
 
 ``` python
-$ python -m SimpleHTTPServer
+python -m SimpleHTTPServer
 ```
 
-That's it! Now your HTTP server will run in port 8000. You can access it via [localhost:8000](http://localhost:8000/) or [127.0.0.1:8000](http://127.0.0.1:8000/). If the directory has a file named "index.html", it will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.
+That's it! Now your HTTP server will run in port 8000. You can access it via `http://localhost:8000/` or `http://127.0.0.1:8000/`. If the directory has a file named "index.html", it will be served as the initial file. If there is no "index.html", then the files in the directory will be listed. To quit the web server, use CTRL+C.
 
 If you wish to change the port, it can be configured as an additional parameter:
 
 ``` python
-$ python -m SimpleHTTPServer 8200
+python -m SimpleHTTPServer 8200
 ```
 
 ## SimpleHTTPServer by python script ##
