@@ -31,15 +31,23 @@ This project uses HTMLHint and Stylelint for code quality. A pre-commit hook aut
 
 ## Pre-commit Hooks
 
-Automated code quality checks run before each commit using Husky:
+Automated code quality checks run before each commit:
 
-Setup location: `.husky/pre-commit`
+**Husky** (`.husky/pre-commit`):
 
-To modify the hooks:
+- HTML and SCSS linting
 
-1. Edit `.husky/pre-commit` to add/remove linting steps
-2. Use `npm run prepare` to reinstall hooks after changes
-3. Add `--no-verify` to git commit to skip hooks temporarily
+**pre-commit** (`.pre-commit-config.yaml`):
+
+- Post filename validation (kebab-case)
+
+Post filenames must follow the format: `YYYY-MM-DD-kebab-case-title.markdown`
+
+**Commands:**
+
+- `pre-commit run --all-files` - Run all pre-commit hooks manually
+- `npm run prepare` - Reinstall Husky hooks after changes
+- `--no-verify` flag - Skip hooks temporarily
 
 ## Mobile Blogging
 

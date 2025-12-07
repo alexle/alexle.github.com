@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint-post-filenames
+        name: Lint post filenames (kebab-case)
+        entry: ./scripts/lint-post-filenames.sh
+        language: script
+        files: ^_posts/.*\.(markdown|md)$
+        pass_filenames: false
