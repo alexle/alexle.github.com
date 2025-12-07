@@ -4,6 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
 
   {% assign total_words = 0 %}
   {% for post in site.posts %}
@@ -12,8 +13,6 @@ layout: default
   {% endfor %}
   <p class="post-stats">{{ site.posts.size }} posts - {{ total_words | divided_by: 1000 }},{{ total_words | modulo:
     1000 }} words</p>
-
-  <div class="post-line"></div>
 
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date:'%Y'" %}
   {% for year in postsByYear %}
