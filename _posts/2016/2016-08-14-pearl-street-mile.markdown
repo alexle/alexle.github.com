@@ -28,7 +28,7 @@ I had no answer. I just knew I had never dreaded a race as much as I did this on
 
 The Pearl Street Mile is an annual Boulder tradition. There are 4 waves: Kids 880m, Open, Elite Women, and Elite Men. As a result, it draws runners of all levels, ages, and sizes.
 
-Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering [*4:10*][4].
+Some highlights include a 1 year old boy completing the 880m, a 79 year old female finishing strong in the Open Wave, and a close race for the top three Elite Men. The winner finished in a staggering *4:10*.
 
 ![pearl street mile 2016 course](/assets/pearl_street_mile_2016_course.jpg)
 
@@ -69,7 +69,7 @@ My coworker yells 'Run faster!',  but I don't hear him or anyone else around me.
 
 My vision has tunneled and all I can manage to see is the girl I've been trying to catch the entire race (I don't catch her). An old man blows by me, but my mind is probably playing tricks on me (he was 61 years old).
 
-It feels like I blacked out because I don't remember anything else. Suddenly, I'm across the finish and my watch shockingly shows [**5:42**][3]. Smashed my PR, yes!
+It feels like I blacked out because I don't remember anything else. Suddenly, I'm across the finish and my watch shockingly shows **5:42**. Smashed my PR, yes!
 
 ## Why You Should Bring Back The Mile (And Other Short Distance Races) ##
 
@@ -84,5 +84,3 @@ They boost your speed, strength, and efficiency. They bring out positive physiol
 And they are so, so fun. Let's give short distance events the respect they deserve again. Bring one back into your racing plans, you might be surprised.
 
 [2]: /chicago-marathon-recap.html
-[3]: http://runningbears.com/pearl/Pearl_Street_Mile_Open_2016.HTM
-[4]: http://runningbears.com/pearl/Pearl_Street_Mile_Elite_Mens_2016.HTM
