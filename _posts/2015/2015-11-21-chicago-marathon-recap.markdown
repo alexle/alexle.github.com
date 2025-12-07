@@ -2,7 +2,7 @@
 layout: post
 title: "2015 Chicago Marathon Recap"
 date: 2015-11-21
-categories: running 
+categories: running
 ---
 
 I never know what to do before races. Usually, I find a curb to sit down somewhere and just think. Of the course ahead of me. Of how my body will feel at various check points.
@@ -11,21 +11,21 @@ On October 11th, I found myself packed in a corral of the 2015 [Chicago Marathon
 
 Here's a recap of my incredible Chicago Marathon experience.
 
-## The Windy City! ##
+## The Windy City ##
 
 We landed in Chicago Saturday morning and took an Uber to our AirBnB. Embrace the sharing-economy! We checked in and went to the nearest Red Line to pick up 3-day Ventra passes for public transit. I go kind of crazy when I hear the word *unlimited*, so the passes did a lot of work over the weekend.
 
 ![chicago ventra pass](/assets/chicago_ventra.jpg)
-_My preciouuus.._
+*My preciouuus..*
 
 Normally, I like to relax and be off my feet before a race. But this was Chicago and we weren't wasting it. So we walked, explored, and did touristy things the whole day.
 
-The highlight for me was the [Chicago Architecture Boat Tour][2]. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was very knowledgeable and made the experience fun, yet informative at the same time.
+The highlight for me was the Chicago Architecture Boat Tour. Basically, you cruise along the Chicago River while a docent talks about the city's architecture, history, and current urban planning. Our guide was very knowledgeable and made the experience fun, yet informative at the same time.
 
 The views from the boat were spectacular. My favorite was a building currently under construction. There was limited room at this location for a standard-sized building, so the architect designed the base to fit along the waterfront and simply expanded the upper levels. Ingenious.
 
 ![chicago ventra pass](/assets/chicago_tour_building.jpg)
-_Up close and personal from the boat_
+*Up close and personal from the boat*
 
 ## Abbott Health & Fitness Expo ##
 
@@ -38,7 +38,7 @@ The next step was signing up for a pace group, something I had never tried befor
 With business taken care of, we checked out the various booths and exhibits. I picked up a hot green singlet at the Nike zone. There also was a neat area set up that displays your name on a screen when you scan your race bib.
 
 ![alex le #ownchicago](/assets/chicago_alex_own.jpg)
-_Ready to own Chicago!_
+*Ready to own Chicago!*
 
 ## Goal and Strategy ##
 
@@ -51,7 +51,7 @@ Hence, the new plan was to run the race by feel and use the 3:50 group as a "rab
 ## Pre-Race ##
 
 ![alex le chicago marathon race kit](/assets/chicago_gear.jpg)
-_The race kit_
+*The race kit*
 
 Race day! I woke up around 5am and had a bagel with peanut butter and a 32oz Gatorade. In hindsight, I should have eaten more and drank less.
 
@@ -70,7 +70,7 @@ I know that's all I'll be thinking about so I join the others. When I finish, my
 To make matters worst, I don't see the 3:50 pace group anywhere ahead of me. It takes a couple 8:05 splits to catch up to the pace group. I hope this doesn't come back to haunt me later..
 
 ![2015 chicago marathon start](/assets/chicago_marathon_start.jpg)
-_Photo courtesy of Chicago Marathon_
+*Photo courtesy of Chicago Marathon*
 
 ## Miles 3.1 - 6.2 (8:44 min/mi) ##
 
@@ -103,7 +103,7 @@ I'm chilling in front of the pack when one of the pace leaders starts saying how
 Then, out of thin air, he pulls out a **16oz Pabst Blue Ribbon**.
 
 ![pabst blue ribbon can 16oz](/assets/pabst_blue_ribbon.jpg)
-_Yes, the lager with 4.7% ABV_
+*Yes, the lager with 4.7% ABV*
 
 He asks who will be the first to drink. Everyone is silent, probably from shock. One guy finally volunteers and takes a swig. Who's next, the pace leader asks.
 
@@ -156,7 +156,7 @@ I get my medal and almost cry. What a journey. It was worth every second of pain
 Since the finish is packed with spectators, I make my way to the designated area to meet up with my support crew. I scan the crowds for a familiar face, when out pops my head floating on a stick.
 
 ![alex le chicago marathon finish with support crew](/assets/chicago_finish.jpg)
-_Me and my awesome support crew_
+*Me and my awesome support crew*
 
 ## Impressions ##
 
@@ -171,7 +171,7 @@ _Me and my awesome support crew_
 5. It's pretty difficult to run the tangents at the Chicago Marathon. Mainly due to the crowds. Parts of the race get really congested as well. My watch bugged out and had me at 27.0 miles, but I suspect it was more around 26.5-26.6 miles. Keep this in mind if you're shooting for a time goal.
 
 ![2015 chicago marathon nike gps map](/assets/chicago_marathon_map.jpg)
-_All calories earned were spent with reckless abandon_
+*All calories earned were spent with reckless abandon*
 
 ## Final Reflections ##
 
@@ -184,8 +184,7 @@ Training for and running a marathon is hard. Sometimes, it's so terrible I quest
 I often remind myself some miles will be good and some miles will be bad. You never know which one is coming, so smile and savor the good ones when they come. I know we did.
 
 ![alex le chicago marathon hang out at the bean afterwards](/assets/chicago_bean.jpg)
-_Hanging out at The Bean, all smiles_
+*Hanging out at The Bean, all smiles*
 
 [1]: https://www.chicagomarathon.com/
-[2]: https://www.architecture.org/experience-caf/tours/detail/chicago-architecture-foundation-river-cruise-aboard-chicagos-first-lady-cruises/
 [3]: /first-marathon.html

@@ -9,7 +9,7 @@ Last weekend, I hiked my first 14er. The term '14er' refers to any mountain peak
 
 The group consisted of myself and two friends from California visiting for the weekend. Since we had no experience with 14er's, we settled on a Class I route involving Gray's Peak first, with a second climb to Torrey's Peak after.
 
-According to [ProTrails][1], the hike was 8.4 miles round-trip with a net elevation gain of 3,011 feet. The trailhead started at 11,259' and the peaks topped out at 14,270' and 14,267'.
+According to ProTrails, the hike was 8.4 miles round-trip with a net elevation gain of 3,011 feet. The trailhead started at 11,259' and the peaks topped out at 14,270' and 14,267'.
 
 ## The Climb Up ##
 
@@ -53,7 +53,7 @@ We made a group decision to go on and eventually reached the top at 1:20 pm. We 
 
 ## The Climb Down ##
 
-We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with [altitude sickness][2] so it was good time to leave.
+We didn't spend too much time at Torrey's with the skies flashing and thundering near the other mountain peaks. A member of the team also came down with altitude sickness so it was good time to leave.
 
 On our descent, it began raining lightly. A couple minutes later, we were pelted by **hail**. Is this for real? Luckily, we were semi-prepared with extra pants, gloves, rain jackets, and ponchos.
 
@@ -64,6 +64,3 @@ The hail eventually subsided into a steady **rain** shower, which made navigatin
 We made good time on our way down and clocked in at the car around 3:50 pm. Later that night, we went for pizza with friends where our tales of courage and valor were told over and over. We were all smiles at that point and already planning the next 14er.
 
 I don't think pizza ever tasted so good.
-
-[1]: http://www.protrails.com/trails/view/384/summit_county_eagle_county_clear_creek_county/grays_peak_and_torreys_peak
-[2]: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001190/

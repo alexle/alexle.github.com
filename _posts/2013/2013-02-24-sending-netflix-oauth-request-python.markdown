@@ -7,7 +7,7 @@ tags: programming
 
 Oauth is an authentication protocol which allows users to grant a third-party access to their resources - without sharing their password. Kind of similar to creating a temporary key to your car for someone, a key which can have chosen limitations and be disabled at any time. Great for users. Confusing for newbies like me working with it.
 
-That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous [post][1], I shared a [demo][2] which uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.
+That's because each service can have a different method to "hand-shake" between the user and consumer. In a previous [post][1], I shared a demo which uses the Netflix API. It was my first experience with Oauth and it took me a while to understand all the nuances involved. Here, I'll detail how I sent non-authenticated and authenticated signed requests to Netflix with Python.
 
 ## Before You Start ##
 
@@ -151,7 +151,6 @@ xml = ET.fromstring(title_data)
 This basic tutorial only brushes the surface of what the Netflix API has available. To see the original code, feel free to [fork my Neatflix demo][5] from Github. Try the example above or see if you can gather data from another Netflix resource. The sky is the limit on what cool applications you can conjure up.
 
 [1]: /neatflix-my-netflix-api-demo.html
-[2]: http://neatflix.appspot.com/
 [3]: http://developer.netflix.com/docs/Security
 [4]: http://developer.netflix.com/apps/register/
 [5]: https://github.com/alexle/Neatflix
