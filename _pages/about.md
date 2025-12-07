@@ -11,8 +11,6 @@ I'm a Software Engineer living in Colorado. I like to run, explore new ideas, an
 
 This blog is a collection of notes, ideas, and learnings for my future-self and others.
 
-### Some of my favorite posts
-
 Here are some posts I enjoy reading again from time to time.
 
 - [The Man In The Arena][6]

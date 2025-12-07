@@ -31,8 +31,8 @@
     width: 4rem;
   }
 
-  &-stats {
-    color: $secondary-font-color;
+  p.post-stats {
+    color: $stats-color;
     text-align: center;
     margin: 0;
   }
