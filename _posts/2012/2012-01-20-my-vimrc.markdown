@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vimrc Keybindings"
+title: Vimrc Keybindings
 date: 2012-01-20
 tags: programming
 ---

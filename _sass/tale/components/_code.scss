@@ -44,6 +44,15 @@ pre code {
     padding: 0;
   }
 
+  table {
+    margin: 0;
+    border-spacing: 0;
+  }
+
+  td {
+    padding: 0;
+  }
+
   .lineno {
     color: $secondary-font-color;
     display: inline-block; // Ensures the null space also isn't selectable
