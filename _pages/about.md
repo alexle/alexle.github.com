@@ -7,7 +7,7 @@ permalink: /about/
 
 ![alex le in halong bay](/assets/alex_le_halong_bay.jpg)
 
-I'm a Software Engineer living in Colorado. I like to run, explore new ideas, and spend time with friends and family.
+I'm a Software Engineer living in Colorado. I enjoy running, exploring new ideas, and spending time with friends and family.
 
 This blog is a collection of notes, ideas, and learnings for my future-self and others.
 
