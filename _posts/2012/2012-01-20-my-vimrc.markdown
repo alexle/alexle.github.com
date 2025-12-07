@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "My .Vimrc Configuration"
+title: Vimrc Keybindings"
 date: 2012-01-20
 tags: programming
 ---
 
-[VIM][1] is my favorite text editor. It's powerful, customizable, and available on all platforms (default on unix-systems, gvim/macvim on pc/osx-systems). Most importantly, it allows me to get my work done in an **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
+[VIM][1] is my favorite text editor. It's powerful, customizable, and available on most unix/osx systems.
+
+Most importantly, it allows me to get my work done in an **efficient** manner. Once you learn the movements and power commands, your hands rarely have to leave the keyboard when editing.
 
 The .vimrc is the configuration file. I consider [my .vimrc][2] pretty basic and a good starting point for beginners to VIM. I would suggest to anyone editing their .vimrc to understand each setting before using them. Here are a few of my favorite settings:
 
@@ -53,7 +55,7 @@ endfunction
 map <leader>g <ESC>:! /usr/bin/open -a "/Applications/Google Chrome.app" 'https://google.com/search?q=<C-R>=Google()<CR>'<CR><CR>
 ```
 
-With this macro, typing <leader\>g brings up the prompt "Google:". Once a search string is entered, a web browser will open (or tab if one is already opened) with a Google search of the string. This is great for those moments when I want to quickly look something up without having to locate my web browswer.
+With this macro, typing <leader\>g brings up the prompt "Google:". Once a search string is entered, a web browser will open (or tab if one is already opened) with a Google search of the string. This is great for those moments when I want to quickly look something up without having to locate my web browser.
 
 ## Toggle VIM Blog Mode ##
 
