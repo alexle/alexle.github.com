@@ -19,7 +19,7 @@
     margin: 1rem 0;
     text-align: center;
 
-    @media (width <= 400px) {
+    @media (width <=400px) {
       font-size: 1.6rem;
     }
   }
@@ -27,7 +27,7 @@
   &-line {
     border-top: 0.2rem solid $post-line-break-color;
     display: block;
-    margin: 2rem auto;
+    margin: 1rem auto 2rem; // top center bottom 
     width: 4rem;
   }
 
@@ -49,7 +49,7 @@
     margin: 0 auto 0.5rem;
   }
 
-  img + em {
+  img+em {
     color: $secondary-font-color;
     display: block;
     font-family: $main-font-family;
