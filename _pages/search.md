@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Search"
+author: "Alex Le"
 permalink: /search/
 ---
 

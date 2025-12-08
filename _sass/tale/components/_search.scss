@@ -1,0 +1,47 @@
+#search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: $main-font-family;
+  color: $main-font-color;
+  background-color: $bg-color;
+  border: 1px solid $light-grey;
+  border-radius: 8px;
+  outline: none;
+
+  @include box-sizing(border-box);
+  @include transition(border-color 0.2s ease);
+
+  &::placeholder {
+    color: $secondary-font-color;
+    opacity: 0.6;
+  }
+
+  &:focus {
+    border-color: $link-color;
+  }
+}
+
+#results-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $light-grey;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    a {
+      color: $main-font-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+}
