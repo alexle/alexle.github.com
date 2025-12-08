@@ -38,10 +38,10 @@ jobs:
             --exclude 'twitter.com'
             --exclude 'x.com'
             --exclude '%7Burl%7D'
-            --exclude-path '_pages/search.md'
             '_posts/**/*.md'
             '_posts/**/*.markdown'
-            '_pages/**/*.md'
+            '_pages/about.md'
+            '_pages/posts.md'
             '*.md'
           fail: false  # Don't fail the build, just report
 
