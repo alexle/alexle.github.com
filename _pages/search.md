@@ -5,6 +5,7 @@ author: "Alex Le"
 permalink: /search/
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class="search-wrapper">
   <input type="text" id="search-input" placeholder="Search ↵" autofocus>
   <ul id="results-container"></ul>
