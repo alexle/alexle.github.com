@@ -37,6 +37,7 @@ jobs:
             --exclude 'linkedin.com'
             --exclude 'twitter.com'
             --exclude 'x.com'
+            --exclude '\{url\}'
             '_posts/**/*.md'
             '_posts/**/*.markdown'
             '_pages/**/*.md'
