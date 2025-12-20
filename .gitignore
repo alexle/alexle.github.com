@@ -8,3 +8,4 @@ _drafts
 Gemfile.lock
 .Gemfile.un~
 .claude
+vendor/
