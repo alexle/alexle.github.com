@@ -1,12 +1,12 @@
 // Base styles
-@import 'tale/base/variables';
-@import 'tale/base/base';
+@use 'tale/base/variables' as *;
+@use 'tale/base/base';
 
 // Component styles
-@import 'tale/components/code';
-@import 'tale/components/syntax';
-@import 'tale/components/post';
-@import 'tale/components/layout';
-@import 'tale/components/pagination';
-@import 'tale/components/catalogue';
-@import 'tale/components/search';
+@use 'tale/components/code';
+@use 'tale/components/syntax';
+@use 'tale/components/post';
+@use 'tale/components/layout';
+@use 'tale/components/pagination';
+@use 'tale/components/catalogue';
+@use 'tale/components/search';

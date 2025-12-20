@@ -1,3 +1,5 @@
+@use '../base/variables' as *;
+
 pre,
 code {
   font-family: $code-font-family;

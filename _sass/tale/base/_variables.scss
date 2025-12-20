@@ -1,30 +1,31 @@
-$light-grey: #e5e5e5;
-$code-color: #bf616a;
+// Variables - exposed for @use
+$light-grey: #e5e5e5 !default;
+$code-color: #bf616a !default;
 
 // Page colors
-$bg-color: #222426;
-$bg-code-color: #2d3033;
-$link-color: #909498;
-$stats-color: #909498;
-$post-line-break-color: orangered;
-$catalogue-line-break-color: orangered;
-$pagination-current-color: orangered;
+$bg-color: #222426 !default;
+$bg-code-color: #2d3033 !default;
+$link-color: #909498 !default;
+$stats-color: #909498 !default;
+$post-line-break-color: orangered !default;
+$catalogue-line-break-color: orangered !default;
+$pagination-current-color: orangered !default;
 
 // Font color
-$main-font-color: #E1E3E6;
-$secondary-font-color: #909498;
-$nav-box-color: #909498;
+$main-font-color: #E1E3E6 !default;
+$secondary-font-color: #909498 !default;
+$nav-box-color: #909498 !default;
 
 // Font family
-$main-font-family: "Inter", sans-serif;
-$code-font-family: menlo, monaco, monospace;
+$main-font-family: "Inter", sans-serif !default;
+$code-font-family: menlo, monaco, monospace !default;
 
 // Font sizes
-$title-font-weight: 400;
+$title-font-weight: 400 !default;
 
 // Container Size
-$container-width: 620px;
-$container-width-perc: 90%;
+$container-width: 620px !default;
+$container-width-perc: 90% !default;
 
 @mixin box-sizing($type: border-box) {
   box-sizing: $type;
