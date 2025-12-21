@@ -62,6 +62,24 @@ img {
   max-width: 100%;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+}
+
+th,
 td {
+  padding: .5rem .75rem;
+  text-align: left;
   vertical-align: top;
+  border-bottom: 1px solid $light-grey;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
 }
