@@ -108,5 +108,7 @@ A few notes on my choices:
 
 You can find my full config on [GitHub][2].
 
+NOTE: Of course, my main IDE is still VSCode. But Neovim is my go-to for quick edits and terminal work!
+
 [1]: https://neovim.io/
-[2]: https://github.com/alexle/dotfiles
+[2]: https://github.com/alexle/neovim-config
