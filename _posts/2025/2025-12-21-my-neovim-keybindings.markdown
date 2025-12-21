@@ -5,7 +5,11 @@ date: 2025-12-21
 tags: programming
 ---
 
-I switched from Vim to [Neovim][1] a few years ago and haven't looked back. The Lua configuration, better defaults, and plugin ecosystem make it a joy to use.
+I came across a video on YouTube where the developer displayed their workflow using Neovim. It was incredible.
+
+Being a long-time Vim user -- I was instantly intrigued.
+
+Over the past few months, I've refined my own Neovim setup and keybindings to optimize my coding efficiency in the terminal. For works that require heavy IDE features, I still use VSCode. But for quick edits and terminal work, Neovim has become my go-to.
 
 My config is split across multiple files in `~/.config/nvim/lua/`. Here are the keybindings I use daily.
 
@@ -108,7 +112,4 @@ A few notes on my choices:
 
 You can find my full config on [GitHub][2].
 
-NOTE: Of course, my main IDE is still VSCode. But Neovim is my go-to for quick edits and terminal work!
-
-[1]: https://neovim.io/
 [2]: https://github.com/alexle/neovim-config
