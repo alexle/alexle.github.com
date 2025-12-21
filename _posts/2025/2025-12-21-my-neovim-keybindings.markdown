@@ -9,7 +9,9 @@ I came across a video on YouTube where the developer displayed their workflow us
 
 Being a long-time Vim user -- I was instantly intrigued.
 
-Over the past few months, I've refined my own Neovim setup and keybindings to optimize my coding efficiency in the terminal. For works that require heavy IDE features, I still use VSCode. But for quick edits and terminal work, Neovim has become my go-to.
+Over the past few months, I've refined my own Neovim setup and keybindings to optimize development.
+
+For work which requires heavy IDE features, I still use VSCode. But for quick edits and terminal work, Neovim has become my go-to.
 
 My config is split across multiple files in `~/.config/nvim/lua/`. Here are the keybindings I use daily.
 
