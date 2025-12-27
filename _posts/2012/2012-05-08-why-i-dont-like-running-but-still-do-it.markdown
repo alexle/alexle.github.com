@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I Hate Running But Still Do It Anyways"
+title: "Why I Don't Like Running But Still Do It Anyways"
 date: 2012-05-08
 tags: running
 ---
@@ -9,13 +9,13 @@ tags: running
 
 I was never a runner growing up. It was boring, repetitive, and worse of all, painful. Why anyone would put themselves through this torture was beyond my understanding.
 
-Yet, like other unexplainable decisions we make in life (jumping out of planes, mixing dark and white liquor, starting a 14 page paper the day before it's due), I signed up for the [Bolder Boulder 10k][2] last year. Even though I hadn't run anything significant in over 8 years, I was playing basketball and lifting weights regularly enough to think I could handle it.
+Yet, like other unexplainable decisions we make in life, I signed up for the [Bolder Boulder 10k][2] last year. Even though I hadn't run anything significant in over 8 years, I was playing sports and lifting weights regularly enough to think I could handle it.
 
-## Never. Again. ##
+## Never. Again ##
 
-Unfortunately, the race was grueling and reinforced my hatred for running. My lungs were on fire, my legs turned to mush. And all I remember thinking was:
+Unfortunately, the race was grueling and reinforced my dislike for running. My lungs were on fire, my legs turned to mush. And all I remember thinking was:
 
-"This sucks so much.."
+"This is awful.."
 
 "What in the world was I thinking.."
 

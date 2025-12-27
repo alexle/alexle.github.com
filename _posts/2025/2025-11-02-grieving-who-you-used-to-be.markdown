@@ -13,7 +13,7 @@ And then a freak injury changed everything.
 
 I was shuttled to the ER in the middle of the night. The pain was unbearable. I was even held an extra night.
 
-Injuries suck. We all hear about the pain. The rehab. The setbacks.
+Injuries are awful. We all hear about the pain. The rehab. The setbacks.
 
 But what no one talks about is the grief.
 
