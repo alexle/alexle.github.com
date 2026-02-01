@@ -45,8 +45,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-archives
-  - jemoji
+  - jekyll-include-cache
 
 # Jekyll Feed Configuration
 feed:

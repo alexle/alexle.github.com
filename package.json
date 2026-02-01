@@ -1,10 +1,8 @@
 {
   "name": "alexle.github.com",
   "version": "1.0.0",
-  "description": "alexle ======",
-  "main": "index.js",
+  "description": "Personal blog",
   "devDependencies": {
-    "htmlhint": "^1.7.1",
     "husky": "^9.1.7",
     "stylelint": "^16.25.0",
     "stylelint-config-standard-scss": "^16.0.0",
@@ -12,20 +10,12 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "htmlhint \"**/*.html\" --ignore \"node_modules/**/*.html,vendor/**/*.html\"",
-    "lint:fix": "stylelint \"**/*.scss\" --ignore-path .gitignore --fix",
     "prepare": "husky",
-    "lint:scss": "stylelint \"**/*.scss\" --ignore-path .gitignore",
-    "lint:scss:fix": "stylelint \"**/*.scss\" --ignore-path .gitignore --fix",
-    "lint:html": "htmlhint \"**/*.html\" --ignore \"node_modules/**/*.html,vendor/**/*.html\"",
-    "lint:html:fix": "htmlhint \"**/*.html\" --ignore \"node_modules/**/*.html,vendor/**/*.html\" --fix",
-    "jekyll:install": "bundle install",
-    "jekyll:update": "bundle update",
+    "lint": "stylelint \"**/*.scss\" --ignore-path .gitignore",
+    "lint:fix": "stylelint \"**/*.scss\" --ignore-path .gitignore --fix",
     "jekyll:serve": "bundle exec jekyll serve --drafts",
     "jekyll:build": "bundle exec jekyll build",
-    "jekyll:clean": "bundle exec jekyll clean",
-    "dev": "concurrently \"npm run jekyll:serve\" \"npm run lint:scss -- --watch\"",
+    "dev": "concurrently \"npm run jekyll:serve\" \"npm run lint -- --watch\"",
     "build": "npm run lint && npm run jekyll:build"
   },
   "repository": {

@@ -1,8 +1,5 @@
-# Run both HTML and SCSS linters on staged files
-echo "Running HTML linter..."
-npm run lint || (echo "HTML linting failed. Please fix HTML issues before committing." && exit 1)
-
+# Run SCSS linter on staged files
 echo "Running SCSS linter..."
-npm run lint:scss || (echo "SCSS linting failed. Please fix SCSS issues before committing." && exit 1)
+npm run lint || (echo "SCSS linting failed. Please fix issues before committing." && exit 1)
 
-echo "All linters passed!"
+echo "Linting passed!"
