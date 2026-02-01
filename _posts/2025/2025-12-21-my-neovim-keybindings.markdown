@@ -82,22 +82,27 @@ My config is split across multiple files in `~/.config/nvim/lua/`. Here are the 
 | `<leader>gf` | Git log for current file |
 | `<leader>gm` | Git blame line |
 
-## Copilot Chat
+## AI Coding (Claude/Copilot)
 
 | Keybinding | Description |
 | --- | --- |
-| `<leader><Tab>` | Open Copilot Chat prompt |
-| `Alt+c` | Toggle Copilot Chat |
-| `<leader>ce` | Explain selected code |
-| `<leader>cf` | Fix selected code |
-| `<leader>co` | Optimize selected code |
+| `Alt+c` | Claude code toggle |
+| `<leader><Tab>` | Copilot open chat prompt |
+| `<leader>ce` | Copilot explain selected code |
+| `<leader>cf` | Copilot fix selected code |
+| `<leader>co` | Copilot optimize selected code |
+
+
+| Keybinding | Description |
+| --- | --- |
+| `<leader>af` | Focus Claude |
 
 ## Terminal
 
 | Keybinding | Description |
 | --- | --- |
-| `Ctrl+/` | Toggle terminal |
-| `Ctrl+t` | Exit terminal mode |
+| `Alt+a` | Toggle terminal |
+| `Ctrl+h/j/k/l` | Navigate windows from terminal mode |
 | `Esc` | Close floating windows |
 
 ## Why These Bindings?
