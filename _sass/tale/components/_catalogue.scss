@@ -3,7 +3,7 @@
   &-line {
     @include transition(all .3s ease-out);
 
-    border-top: .2rem solid $catalogue-line-break-color;
+    border-top: .2rem solid $highlight-color;
     display: block;
     margin-top: 1rem;
     width: 2rem;

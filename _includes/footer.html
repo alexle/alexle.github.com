@@ -1,29 +1,29 @@
 <footer>
   <ul id="footer-list">
-    {% if site.instagram_username %}
+    {% if site.author.instagram %}
     <li>
-      <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+      <a href="https://instagram.com/{{ site.author.instagram }}" target="_blank">
         <i class="fab fa-instagram icon"></i>
       </a>
     </li>
     {% endif %}
-    {% if site.github_username %}
+    {% if site.author.github %}
     <li>
-      <a href="https://github.com/{{ site.github_username }}" target="_blank">
+      <a href="https://github.com/{{ site.author.github }}" target="_blank">
         <i class="fab fa-github icon"></i>
       </a>
     </li>
     {% endif %}
-    {% if site.linkedin_username %}
+    {% if site.author.linkedin %}
     <li>
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
         <i class="fab fa-linkedin icon"></i>
       </a>
     </li>
     {% endif %}
-    {% if site.twitter_username %}
+    {% if site.author.twitter %}
     <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
         <i class="fab fa-twitter icon"></i>
       </a>
     </li>

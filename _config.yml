@@ -15,6 +15,8 @@ author:
   email:        alex.csm@gmail.com
   github:       alexle
   twitter:      alextrle
+  linkedin:     alexle
+  instagram:    alextrle
 
 # Build settings
 markdown:       kramdown
@@ -54,11 +56,7 @@ feed:
 permalink:      /:title
 paginate:       7
 
-# Social
-twitter_username:     alextrle
-github_username:      alexle
-linkedin_username:    alexle
-instagram_username:   alextrle
+# RSS Feed
 feed_xml:             feed.xml
 
 # Excludes
