@@ -9,7 +9,6 @@ source "https://rubygems.org"
 # Note: Jekyll 4.4.1 requires Ruby version 2.7.0 or higher
 #
 gem "jekyll", "~> 4.4.1"
-gem "tale"
 gem "webrick"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
