@@ -7,4 +7,6 @@ permalink: /apps/
 
 A collection of small tools and utilities I've built for myself:
 
-- [Pace Calculator](/pace-calculator/)
+## [Pace Calculator](/pace-calculator/)
+
+A simple web app which calculates your pace per mile and total time for a given distance and time.

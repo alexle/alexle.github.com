@@ -20,7 +20,7 @@ Here are some posts I enjoy reading again from time to time.
 - [A Look Back On My Best Year Of Running Ever, And How I Managed To Do It][4]
 - [Rock n Roll Denver Marathon: My Worst Run Ever][5]
 
-### Contact
+## Contact
 
 <alex.csm@gmail.com>
 
