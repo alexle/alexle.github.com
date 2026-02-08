@@ -90,7 +90,6 @@ permalink: /pace-calculator/
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    width: 100%;
   }
 
   .field-group .time-inputs input { width: 76px; text-align: center; }
@@ -108,7 +107,7 @@ permalink: /pace-calculator/
   .presets {
     display: flex;
     gap: 0.5rem;
-    margin: 1.2rem 0;
+    margin: 1rem 0 0;
     flex-wrap: wrap;
   }
 
@@ -244,6 +243,13 @@ permalink: /pace-calculator/
     <input type="number" id="distance" min="0" step="any" placeholder="0.00">
     <span class="unit-label" id="dist-unit">mi</span>
   </div>
+  <div class="presets">
+    <button onclick="setPreset(1.609344, '1 Mi')">1 Mi</button>
+    <button onclick="setPreset(5, '5K')">5K</button>
+    <button onclick="setPreset(10, '10K')">10K</button>
+    <button onclick="setPreset(21.0975, 'Half')">Half</button>
+    <button onclick="setPreset(42.195, 'Marathon')">Marathon</button>
+  </div>
 </div>
 
 <div class="field-group">
@@ -269,13 +275,6 @@ permalink: /pace-calculator/
     </div>
     <span class="unit-label" id="pace-unit">/ mi</span>
   </div>
-</div>
-
-<div class="presets">
-  <button onclick="setPreset(5, '5K')">5K</button>
-  <button onclick="setPreset(10, '10K')">10K</button>
-  <button onclick="setPreset(21.0975, 'Half')">Half</button>
-  <button onclick="setPreset(42.195, 'Marathon')">Marathon</button>
 </div>
 
 <div class="actions">
@@ -332,8 +331,8 @@ permalink: /pace-calculator/
   const KM_PER_MI = 1.609344;
   const METERS_PER_MI = 1609.344;
 
-  const PRESETS_KM = { '5K': 5, '10K': 10, 'Half': 21.0975, 'Marathon': 42.195 };
-  const PRESETS_MI = { '5K': 3.10686, '10K': 6.21371, 'Half': 13.1094, 'Marathon': 26.2188 };
+  const PRESETS_KM = { '1 Mi': 1.609344, '5K': 5, '10K': 10, 'Half': 21.0975, 'Marathon': 42.195 };
+  const PRESETS_MI = { '1 Mi': 1, '5K': 3.10686, '10K': 6.21371, 'Half': 13.1094, 'Marathon': 26.2188 };
 
   // Daniels/Gilbert VDOT formulas
   const RACE_DIST_M = { '5K': 5000, '10K': 10000, 'Half': 21097.5, 'Marathon': 42195 };
