@@ -94,6 +94,7 @@ permalink: /pace-calculator/
   }
 
   .field-group .time-inputs input { width: 76px; text-align: center; }
+  #distance { width: 260px; }
   .field-group .time-inputs .sep { color: var(--muted); font-size: 1.2rem; }
 
   .field-group .unit-label {
@@ -238,14 +239,10 @@ permalink: /pace-calculator/
 </div>
 
 <div class="field-group">
-  <label>Pace</label>
+  <label>Distance</label>
   <div class="inputs">
-    <div class="time-inputs">
-      <input type="number" id="pace-min" min="0" max="59" placeholder="min">
-      <span class="sep">:</span>
-      <input type="number" id="pace-sec" min="0" max="59" placeholder="sec">
-    </div>
-    <span class="unit-label" id="pace-unit">/ mi</span>
+    <input type="number" id="distance" min="0" step="any" placeholder="0.00">
+    <span class="unit-label" id="dist-unit">mi</span>
   </div>
 </div>
 
@@ -263,10 +260,14 @@ permalink: /pace-calculator/
 </div>
 
 <div class="field-group">
-  <label>Distance</label>
+  <label>Pace</label>
   <div class="inputs">
-    <input type="number" id="distance" min="0" step="any" placeholder="0.00">
-    <span class="unit-label" id="dist-unit">mi</span>
+    <div class="time-inputs">
+      <input type="number" id="pace-min" min="0" max="59" placeholder="min">
+      <span class="sep">:</span>
+      <input type="number" id="pace-sec" min="0" max="59" placeholder="sec">
+    </div>
+    <span class="unit-label" id="pace-unit">/ mi</span>
   </div>
 </div>
 
