@@ -86,7 +86,7 @@ permalink: /pace-calculator/
     width: 100%;
   }
 
-  .field-group .time-inputs input { width: 60px; text-align: center; }
+  .field-group .time-inputs input { width: 76px; text-align: center; }
   .field-group .time-inputs .sep { color: var(--muted); font-size: 1.2rem; }
 
   .field-group .unit-label {
@@ -181,6 +181,7 @@ permalink: /pace-calculator/
 
 <div class="pace-calc">
 <h1 class="calc-title">Pace Calculator</h1>
+<p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Enter any 2 fields and the 3rd will be calculated.</p>
 
 <div class="unit-toggle">
   <button id="btn-mi" class="active" onclick="setUnit('mi')">Miles</button>
