@@ -184,6 +184,48 @@ permalink: /pace-calculator/
     margin-top: 0.5rem;
     display: none;
   }
+
+  /* VDOT section */
+  .vdot-section {
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    display: none;
+  }
+
+  .vdot-header {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .vdot-score {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .vdot-score .vdot-label {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .vdot-score .vdot-number {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .race-predictions .result-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+  }
+
+  .race-predictions .result-label { color: var(--muted); }
+  .race-predictions .result-value { font-weight: 500; }
 </style>
 
 <div class="pace-calc">
@@ -255,15 +297,73 @@ permalink: /pace-calculator/
     <span class="result-label">Distance</span>
     <span class="result-value" id="res-dist"></span>
   </div>
+<div class="vdot-section" id="vdot-section">
+  <div class="vdot-score">
+    <span class="vdot-label">VDOT</span>
+    <span class="vdot-number" id="vdot-number"></span>
+  </div>
+  <div class="vdot-header">Equivalent Race Times</div>
+  <div class="race-predictions">
+    <div class="result-row">
+      <span class="result-label">5K</span>
+      <span class="result-value" id="pred-5k"></span>
+    </div>
+    <div class="result-row">
+      <span class="result-label">10K</span>
+      <span class="result-value" id="pred-10k"></span>
+    </div>
+    <div class="result-row">
+      <span class="result-label">Half Marathon</span>
+      <span class="result-value" id="pred-half"></span>
+    </div>
+    <div class="result-row">
+      <span class="result-label">Marathon</span>
+      <span class="result-value" id="pred-marathon"></span>
+    </div>
+  </div>
+</div>
+
 </div>
 </div>
 
 <script>
   let unit = 'mi';
   const KM_PER_MI = 1.609344;
+  const METERS_PER_MI = 1609.344;
 
   const PRESETS_KM = { '5K': 5, '10K': 10, 'Half': 21.0975, 'Marathon': 42.195 };
   const PRESETS_MI = { '5K': 3.10686, '10K': 6.21371, 'Half': 13.1094, 'Marathon': 26.2188 };
+
+  // Daniels/Gilbert VDOT formulas
+  const RACE_DIST_M = { '5K': 5000, '10K': 10000, 'Half': 21097.5, 'Marathon': 42195 };
+
+  function calcVO2(velocity) {
+    // velocity in meters/min, returns ml/kg/min
+    return -4.60 + 0.182258 * velocity + 0.000104 * velocity * velocity;
+  }
+
+  function calcPercentVO2max(timeMin) {
+    // time in minutes, returns fraction (0-1)
+    return 0.8 + 0.1894393 * Math.exp(-0.012778 * timeMin)
+               + 0.2989558 * Math.exp(-0.1932605 * timeMin);
+  }
+
+  function calcVDOT(distMeters, timeSec) {
+    const timeMin = timeSec / 60;
+    const velocity = distMeters / timeMin;
+    return calcVO2(velocity) / calcPercentVO2max(timeMin);
+  }
+
+  function predictTimeSec(vdot, distMeters) {
+    // Binary search: find time (sec) that produces this VDOT at this distance
+    let lo = 60, hi = 36000; // 1 min to 10 hours
+    for (let i = 0; i < 60; i++) {
+      const mid = (lo + hi) / 2;
+      if (calcVDOT(distMeters, mid) > vdot) lo = mid;
+      else hi = mid;
+    }
+    return Math.round((lo + hi) / 2);
+  }
 
   function setUnit(u) {
     const prevUnit = unit;
@@ -358,6 +458,7 @@ permalink: /pace-calculator/
     el.textContent = msg;
     el.style.display = 'block';
     document.getElementById('result').style.display = 'none';
+    document.getElementById('vdot-section').style.display = 'none';
   }
 
   function calculate() {
@@ -415,6 +516,21 @@ permalink: /pace-calculator/
     resDist.classList.toggle('computed', computed === 'distance');
 
     document.getElementById('result').style.display = 'block';
+
+    // Compute VDOT from distance (meters) and time (seconds)
+    const distMeters = unit === 'km' ? dist * 1000 : dist * METERS_PER_MI;
+    const vdot = calcVDOT(distMeters, timeSec);
+
+    if (vdot >= 15 && vdot <= 100) {
+      document.getElementById('vdot-number').textContent = Math.round(vdot);
+      document.getElementById('pred-5k').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['5K']));
+      document.getElementById('pred-10k').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['10K']));
+      document.getElementById('pred-half').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['Half']));
+      document.getElementById('pred-marathon').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['Marathon']));
+      document.getElementById('vdot-section').style.display = 'block';
+    } else {
+      document.getElementById('vdot-section').style.display = 'none';
+    }
   }
 
   function clearAll() {
@@ -425,6 +541,7 @@ permalink: /pace-calculator/
     document.getElementById('time-sec').value = '';
     document.getElementById('distance').value = '';
     document.getElementById('result').style.display = 'none';
+    document.getElementById('vdot-section').style.display = 'none';
     document.getElementById('error').style.display = 'none';
     document.querySelectorAll('.presets button').forEach(b => b.classList.remove('selected'));
   }
