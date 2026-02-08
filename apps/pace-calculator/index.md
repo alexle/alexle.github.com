@@ -335,16 +335,29 @@ permalink: /pace-calculator/
   const PRESETS_KM = { '1 Mi': 1.609344, '5K': 5, '10K': 10, 'Half': 21.0975, 'Marathon': 42.195 };
   const PRESETS_MI = { '1 Mi': 1, '5K': 3.10686, '10K': 6.21371, 'Half': 13.1094, 'Marathon': 26.2188 };
 
-  // Daniels/Gilbert VDOT formulas
+  // Daniels & Gilbert VDOT formulas (1979, "Oxygen Power")
+  //
+  // calcVO2(v): oxygen cost (ml/kg/min) at velocity v (meters/min)
+  //   -4.60      baseline constant
+  //   0.182258   linear O2 cost per m/min
+  //   0.000104   quadratic term (O2 cost rises non-linearly at speed)
+  //
+  // calcPercentVO2max(t): fraction of VO2max sustainable for t minutes
+  //   0.8        asymptote — fraction sustainable indefinitely
+  //   Two exponential decay terms model fatigue:
+  //     0.1894393 / 0.012778   slow decay (aerobic decline)
+  //     0.2989558 / 0.1932605  fast decay (anaerobic fade)
+  //
+  // VDOT = calcVO2(v) / calcPercentVO2max(t)
+  // All coefficients are empirical regression constants from the paper.
+
   const RACE_DIST_M = { '5K': 5000, '10K': 10000, 'Half': 21097.5, 'Marathon': 42195 };
 
   function calcVO2(velocity) {
-    // velocity in meters/min, returns ml/kg/min
     return -4.60 + 0.182258 * velocity + 0.000104 * velocity * velocity;
   }
 
   function calcPercentVO2max(timeMin) {
-    // time in minutes, returns fraction (0-1)
     return 0.8 + 0.1894393 * Math.exp(-0.012778 * timeMin)
                + 0.2989558 * Math.exp(-0.1932605 * timeMin);
   }
