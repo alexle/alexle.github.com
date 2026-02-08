@@ -161,22 +161,22 @@ permalink: /pace-calculator/
   }
 
   /* Results */
-  .result {
+  .results-section {
     border-top: 1px solid var(--border);
     padding-top: 1rem;
     margin-top: 0.5rem;
     display: none;
   }
 
-  .result .result-row {
+  .results-section .result-row {
     display: flex;
     justify-content: space-between;
     padding: 0.4rem 0;
   }
 
-  .result .result-label { color: var(--muted); }
-  .result .result-value { font-weight: 500; }
-  .result .result-value.computed { color: var(--accent); }
+  .results-section .result-label { color: var(--muted); }
+  .results-section .result-value { font-weight: 500; }
+  .results-section .result-value.computed { color: var(--accent); }
 
   .error-msg {
     color: var(--accent);
@@ -190,6 +190,7 @@ permalink: /pace-calculator/
     border-top: 1px solid var(--border);
     padding-top: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
     display: none;
   }
 
@@ -284,7 +285,7 @@ permalink: /pace-calculator/
 
 <div class="error-msg" id="error"></div>
 
-<div class="result" id="result">
+<div class="results-section" id="results-section">
   <div class="result-row">
     <span class="result-label">Pace</span>
     <span class="result-value" id="res-pace"></span>
@@ -457,7 +458,7 @@ permalink: /pace-calculator/
     const el = document.getElementById('error');
     el.textContent = msg;
     el.style.display = 'block';
-    document.getElementById('result').style.display = 'none';
+    document.getElementById('results-section').style.display = 'none';
     document.getElementById('vdot-section').style.display = 'none';
   }
 
@@ -515,7 +516,7 @@ permalink: /pace-calculator/
     resTime.classList.toggle('computed', computed === 'time');
     resDist.classList.toggle('computed', computed === 'distance');
 
-    document.getElementById('result').style.display = 'block';
+    document.getElementById('results-section').style.display = 'block';
 
     // Compute VDOT from distance (meters) and time (seconds)
     const distMeters = unit === 'km' ? dist * 1000 : dist * METERS_PER_MI;
@@ -540,7 +541,7 @@ permalink: /pace-calculator/
     document.getElementById('time-min').value = '';
     document.getElementById('time-sec').value = '';
     document.getElementById('distance').value = '';
-    document.getElementById('result').style.display = 'none';
+    document.getElementById('results-section').style.display = 'none';
     document.getElementById('vdot-section').style.display = 'none';
     document.getElementById('error').style.display = 'none';
     document.querySelectorAll('.presets button').forEach(b => b.classList.remove('selected'));
