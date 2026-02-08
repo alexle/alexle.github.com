@@ -72,6 +72,13 @@ permalink: /pace-calculator/
     font-size: 1rem;
     padding: 0.5rem 0.6rem;
     width: 100%;
+    -moz-appearance: textfield;
+  }
+
+  .field-group input::-webkit-outer-spin-button,
+  .field-group input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
 
   .field-group input:focus {
