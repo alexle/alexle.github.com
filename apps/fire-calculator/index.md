@@ -214,7 +214,7 @@ permalink: /fire-calculator/
   <label>Current Net Worth</label>
   <div class="inputs">
     <input type="number" id="networth" min="0" step="1000" placeholder="100000">
-    <span class="unit-label">USD</span>
+    <span class="unit-label">$</span>
   </div>
 </div>
 
@@ -222,7 +222,7 @@ permalink: /fire-calculator/
   <label>Annual Income (after tax)</label>
   <div class="inputs">
     <input type="number" id="income" min="0" step="1000" placeholder="50000">
-    <span class="unit-label">USD</span>
+    <span class="unit-label">$</span>
   </div>
 </div>
 
@@ -230,7 +230,7 @@ permalink: /fire-calculator/
   <label>Annual Expenses</label>
   <div class="inputs">
     <input type="number" id="expenses" min="0" step="1000" placeholder="40000">
-    <span class="unit-label">USD</span>
+    <span class="unit-label">$</span>
   </div>
 </div>
 

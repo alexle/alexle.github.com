@@ -22,4 +22,3 @@ Test regular expressions with live matching, capture groups, and a quick referen
 ## [GitHub Stats](/github-stats/)
 
 Look up any GitHub user's public profile, language breakdown, and top repositories.
-
