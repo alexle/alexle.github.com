@@ -316,7 +316,8 @@ permalink: /github-stats/
 
   <div class="commit-section" id="commit-section">
     <div class="section-heading">Commit Activity</div>
-    <div class="commit-stats">
+    <div class="loading" id="commit-loading">Loading commit activity...</div>
+    <div class="commit-stats" id="commit-stats">
       <div class="commit-stat">
         <span class="commit-number" id="commits-month">—</span>
         <span class="commit-label">past 30 days</span>
@@ -344,6 +345,11 @@ permalink: /github-stats/
 
 <script>
   const API = 'https://api.github.com';
+  const STATS_MAX_RETRIES = 5;
+  const RETRY_DELAY_MS = 2000;
+  const RECENT_DAYS = 90;
+  const MAX_STATS_REPOS = 5;
+  const MAX_DISPLAY_REPOS = 8;
 
   // GitHub-style language colors
   const LANG_COLORS = {
@@ -471,7 +477,7 @@ permalink: /github-stats/
         if (b.stargazers_count !== a.stargazers_count) return b.stargazers_count - a.stargazers_count;
         return new Date(b.updated_at) - new Date(a.updated_at);
       })
-      .slice(0, 8);
+      .slice(0, MAX_DISPLAY_REPOS);
 
     var list = document.getElementById('repo-list');
     list.innerHTML = '';
@@ -508,42 +514,53 @@ permalink: /github-stats/
     for (var i = 0; i <= retries; i++) {
       var res = await fetch(url);
       if (res.status !== 202) return res;
-      await new Promise(function(r) { setTimeout(r, 1500); });
+      await new Promise(function(r) { setTimeout(r, RETRY_DELAY_MS); });
     }
     return res;
   }
 
   async function fetchCommitActivity(repos, username) {
     var now = Date.now();
-    var ninetyDaysAgo = now - (90 * 24 * 60 * 60 * 1000);
+    var ninetyDaysAgo = now - (RECENT_DAYS * 24 * 60 * 60 * 1000);
     var section = document.getElementById('commit-section');
 
     // Filter to non-fork repos updated in last 90 days, cap at 5
     var recent = repos
       .filter(function(r) { return !r.fork && new Date(r.pushed_at).getTime() > ninetyDaysAgo; })
       .sort(function(a, b) { return new Date(b.pushed_at) - new Date(a.pushed_at); })
-      .slice(0, 5);
+      .slice(0, MAX_STATS_REPOS);
 
     if (recent.length === 0) {
       section.style.display = 'none';
       return;
     }
 
+    // Show section with loading indicator
+    section.style.display = 'block';
+    document.getElementById('commit-loading').style.display = 'block';
+    document.getElementById('commit-stats').style.display = 'none';
+    document.getElementById('commit-note').style.display = 'none';
+
     try {
       var responses = await Promise.all(
         recent.map(function(r) {
-          return fetchWithRetry(API + '/repos/' + r.full_name + '/stats/contributors', 2);
+          return fetchWithRetry(API + '/repos/' + r.full_name + '/stats/contributors', STATS_MAX_RETRIES);
         })
       );
 
       var yearTotal = 0;
       var monthTotal = 0;
+      var resolved = 0;
       var login = username.toLowerCase();
 
       for (var i = 0; i < responses.length; i++) {
         if (!responses[i].ok) continue;
+        // Skip repos still computing (202 fallthrough)
+        if (responses[i].status === 202) continue;
         var contributors = await responses[i].json();
         if (!Array.isArray(contributors)) continue;
+
+        resolved++;
 
         // Find the looked-up user in the contributors list
         var match = contributors.find(function(c) {
@@ -558,11 +575,16 @@ permalink: /github-stats/
         match.weeks.slice(-4).forEach(function(w) { monthTotal += w.c; });
       }
 
+      document.getElementById('commit-loading').style.display = 'none';
+      document.getElementById('commit-stats').style.display = 'flex';
+      document.getElementById('commit-note').style.display = 'block';
       document.getElementById('commits-month').textContent = monthTotal.toLocaleString();
       document.getElementById('commits-year').textContent = yearTotal.toLocaleString();
-      document.getElementById('commit-note').textContent =
-        'Based on top ' + recent.length + ' recently active repo' + (recent.length !== 1 ? 's' : '');
-      section.style.display = 'block';
+
+      var timedOut = recent.length - resolved;
+      var note = 'Based on ' + resolved + ' of ' + recent.length + ' recently active repo' + (recent.length !== 1 ? 's' : '');
+      if (timedOut > 0) note += ' (' + timedOut + ' still computing)';
+      document.getElementById('commit-note').textContent = note;
     } catch (e) {
       section.style.display = 'none';
     }
