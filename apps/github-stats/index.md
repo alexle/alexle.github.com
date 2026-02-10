@@ -110,7 +110,7 @@ permalink: /github-stats/
     display: flex;
     gap: 1.2rem;
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-decoration: none;
     color: inherit;
     border-radius: 8px;
@@ -166,6 +166,40 @@ permalink: /github-stats/
     color: inherit;
     font-weight: 600;
     color: #E1E3E6;
+  }
+
+  /* Commit activity */
+  .commit-section {
+    margin-bottom: 2rem;
+    display: none;
+  }
+
+  .commit-stats {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .commit-stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commit-number {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #E1E3E6;
+  }
+
+  .commit-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .commit-note {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    font-style: italic;
   }
 
   /* Language chart */
@@ -280,6 +314,21 @@ permalink: /github-stats/
     </div>
   </a>
 
+  <div class="commit-section" id="commit-section">
+    <div class="section-heading">Commit Activity</div>
+    <div class="commit-stats">
+      <div class="commit-stat">
+        <span class="commit-number" id="commits-month">—</span>
+        <span class="commit-label">past 30 days</span>
+      </div>
+      <div class="commit-stat">
+        <span class="commit-number" id="commits-year">—</span>
+        <span class="commit-label">past year</span>
+      </div>
+    </div>
+    <div class="commit-note" id="commit-note"></div>
+  </div>
+
   <div class="lang-section" id="lang-section">
     <div class="section-heading">Languages</div>
     <div class="lang-bar" id="lang-bar"></div>
@@ -342,6 +391,7 @@ permalink: /github-stats/
       renderLanguages(repos);
       renderRepos(repos);
       document.getElementById('results-section').style.display = 'block';
+      fetchCommitActivity(repos, user.login);
     } catch (e) {
       showError('Network error. Check your connection.');
     }
@@ -453,6 +503,71 @@ permalink: /github-stats/
     });
   }
 
+  // Fetch with retry for GitHub's 202 "computing" response
+  async function fetchWithRetry(url, retries) {
+    for (var i = 0; i <= retries; i++) {
+      var res = await fetch(url);
+      if (res.status !== 202) return res;
+      await new Promise(function(r) { setTimeout(r, 1500); });
+    }
+    return res;
+  }
+
+  async function fetchCommitActivity(repos, username) {
+    var now = Date.now();
+    var ninetyDaysAgo = now - (90 * 24 * 60 * 60 * 1000);
+    var section = document.getElementById('commit-section');
+
+    // Filter to non-fork repos updated in last 90 days, cap at 5
+    var recent = repos
+      .filter(function(r) { return !r.fork && new Date(r.pushed_at).getTime() > ninetyDaysAgo; })
+      .sort(function(a, b) { return new Date(b.pushed_at) - new Date(a.pushed_at); })
+      .slice(0, 5);
+
+    if (recent.length === 0) {
+      section.style.display = 'none';
+      return;
+    }
+
+    try {
+      var responses = await Promise.all(
+        recent.map(function(r) {
+          return fetchWithRetry(API + '/repos/' + r.full_name + '/stats/contributors', 2);
+        })
+      );
+
+      var yearTotal = 0;
+      var monthTotal = 0;
+      var login = username.toLowerCase();
+
+      for (var i = 0; i < responses.length; i++) {
+        if (!responses[i].ok) continue;
+        var contributors = await responses[i].json();
+        if (!Array.isArray(contributors)) continue;
+
+        // Find the looked-up user in the contributors list
+        var match = contributors.find(function(c) {
+          return c.author && c.author.login.toLowerCase() === login;
+        });
+        if (!match) continue;
+
+        // All 52 weeks for year total
+        match.weeks.forEach(function(w) { yearTotal += w.c; });
+
+        // Last 4 weeks for month total
+        match.weeks.slice(-4).forEach(function(w) { monthTotal += w.c; });
+      }
+
+      document.getElementById('commits-month').textContent = monthTotal.toLocaleString();
+      document.getElementById('commits-year').textContent = yearTotal.toLocaleString();
+      document.getElementById('commit-note').textContent =
+        'Based on top ' + recent.length + ' recently active repo' + (recent.length !== 1 ? 's' : '');
+      section.style.display = 'block';
+    } catch (e) {
+      section.style.display = 'none';
+    }
+  }
+
   function escapeHtml(str) {
     var div = document.createElement('div');
     div.textContent = str;
@@ -463,6 +578,7 @@ permalink: /github-stats/
     document.getElementById('results-section').style.display = 'none';
     document.getElementById('error').style.display = 'none';
     document.getElementById('loading').style.display = 'none';
+    document.getElementById('commit-section').style.display = 'none';
   }
 
   document.addEventListener('keydown', function(e) {
