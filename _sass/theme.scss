@@ -1,14 +1,18 @@
-// Base styles
-@import 'theme/base/variables';
-@import 'theme/base/base';
+// Base
+@import 'base/variables';
+@import 'base/base';
 
-// Component styles
-@import 'theme/components/code';
-@import 'theme/components/syntax';
-@import 'theme/components/post';
-@import 'theme/components/container';
-@import 'theme/components/nav';
-@import 'theme/components/footer';
-@import 'theme/components/pagination';
-@import 'theme/components/feed';
-@import 'theme/components/search';
+// Layout
+@import 'layout/container';
+@import 'layout/nav';
+@import 'layout/footer';
+@import 'layout/pagination';
+
+// Pages
+@import 'pages/feed';
+@import 'pages/post';
+@import 'pages/search';
+
+// Content
+@import 'content/code';
+@import 'content/syntax';
