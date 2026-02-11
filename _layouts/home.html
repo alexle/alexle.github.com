@@ -18,7 +18,7 @@ layout: default
       <div>
         <h2 class="catalogue-title">{{ post.title }}</h2>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <div class="catalogue-line"></div>
+        <hr>
 
         <p>
           {{ post.content | strip_html | truncatewords: 30 }}

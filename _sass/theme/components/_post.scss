@@ -5,7 +5,6 @@
   &-info {
     color: $secondary-font-color;
     letter-spacing: 0.5px;
-    text-align: center;
 
     span {
       font-style: italic;
@@ -18,7 +17,6 @@
     font-weight: $title-font-weight;
     color: $main-font-color;
     margin: 1rem 0;
-    text-align: center;
 
     @media (width <= 400px) {
       font-size: 1.6rem;
@@ -28,13 +26,13 @@
   &-line {
     border-top: 0.2rem solid $highlight-color;
     display: block;
-    margin: 1.3rem auto;
+    margin: 1.3rem 0;
     width: 4rem;
   }
 
   p.post-stats {
     color: $stats-color;
-    text-align: center;
+    text-align: left;
     margin: 0;
   }
 
