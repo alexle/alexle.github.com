@@ -44,23 +44,11 @@
 }
 
 .feed {
-  &-line {
-    @include transition(all .3s ease-out);
-
-    border-top: .2rem solid $light-grey;
-    display: block;
-    width: 2rem;
-  }
-
   &-item {
-    border-bottom: 1px solid $highlight-color;
+    border-bottom: 1px solid $light-grey;
     color: $main-font-color;
     display: inline-block;
     padding: 1rem 0 0.2rem;
-
-    &:hover .feed-line {
-      width: 5rem;
-    }
 
     &:last-child {
       border: 0;
