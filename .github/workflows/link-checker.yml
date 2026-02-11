@@ -40,8 +40,7 @@ jobs:
             --exclude '%7Burl%7D'
             '_posts/**/*.md'
             '_posts/**/*.markdown'
-            '_pages/about.md'
-            '_pages/posts.md'
+            '_pages/*.md'
             '*.md'
           fail: false  # Don't fail the build, just report
 
