@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+<div class="home-card">
+  <div class="profile-card">
+    <img src="https://avatars.githubusercontent.com/u/164645?v=4" alt="alexle">
+    <div class="profile-info">
+      <div class="profile-bio">
+        Software Engineer in Denver, Colorado who enjoys running and spending time with family.<br><br>
+        This blog is a collection of notes, ideas, and learnings for my future-self and others.</div>
+    </div>
+  </div>
+</div>
+
 <div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
