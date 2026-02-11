@@ -5,9 +5,75 @@ author: "Alex Le"
 permalink: /about/
 ---
 
-![alex le in halong bay](/assets/alex_le_halong_bay.jpg)
+<!-- markdownlint-disable MD033 -->
+<style>
+  .about-card {
+    --muted: #909498;
+    --border: #444;
+    --input-bg: #2d3033;
+  }
+  .about-card a.profile-card {
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    transition: background 0.2s ease-out;
+  }
+  .about-card a.profile-card:hover { background: var(--input-bg); }
+  .about-card .profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+  }
+  .about-card .profile-info { flex: 1; }
+  .about-card .profile-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 0.1rem;
+  }
+  .about-card .profile-login {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 0.4rem;
+    display: block;
+  }
+  .about-card .profile-bio {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+    line-height: 1.4;
+  }
+  .about-card .profile-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .about-card .profile-meta span strong {
+    font-weight: 600;
+    color: #E1E3E6;
+  }
+</style>
 
-I'm a Software Engineer living in Colorado. I enjoy running, exploring new ideas, and spending time with friends and family.
+<div class="about-card">
+  <a class="profile-card" href="https://github.com/alexle" target="_blank" rel="noopener">
+    <img src="https://avatars.githubusercontent.com/u/164645?v=4" alt="alexle">
+    <div class="profile-info">
+      <div class="profile-name">Alex Le</div>
+      <div class="profile-login">@alexle</div>
+      <div class="profile-bio">Software Engineer in Denver, Colorado. When I'm not at work, you can find me immersed in a podcast, spending time with family, or outside running<br>
+      </div>
+    </div>
+  </a>
+</div>
 
 This blog is a collection of notes, ideas, and learnings for my future-self and others.
 

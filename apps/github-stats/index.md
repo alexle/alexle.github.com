@@ -345,6 +345,7 @@ permalink: /github-stats/
 
 <script>
   const API = 'https://api.github.com';
+  var commitGeneration = 0;
   const STATS_MAX_RETRIES = 5;
   const RETRY_DELAY_MS = 2000;
   const RECENT_DAYS = 90;
@@ -376,6 +377,9 @@ permalink: /github-stats/
 
     document.getElementById('error').style.display = 'none';
     document.getElementById('results-section').style.display = 'none';
+    document.getElementById('commit-section').style.display = 'none';
+    document.getElementById('commits-month').textContent = '—';
+    document.getElementById('commits-year').textContent = '—';
     document.getElementById('loading').style.display = 'block';
 
     try {
@@ -512,7 +516,7 @@ permalink: /github-stats/
   // Fetch with retry for GitHub's 202 "computing" response
   async function fetchWithRetry(url, retries) {
     for (var i = 0; i <= retries; i++) {
-      var res = await fetch(url);
+      var res = await fetch(url, { cache: 'no-store' });
       if (res.status !== 202) return res;
       await new Promise(function(r) { setTimeout(r, RETRY_DELAY_MS); });
     }
@@ -520,6 +524,7 @@ permalink: /github-stats/
   }
 
   async function fetchCommitActivity(repos, username) {
+    var gen = ++commitGeneration;
     var now = Date.now();
     var ninetyDaysAgo = now - (RECENT_DAYS * 24 * 60 * 60 * 1000);
     var section = document.getElementById('commit-section');
@@ -535,59 +540,60 @@ permalink: /github-stats/
       return;
     }
 
-    // Show section with loading indicator
+    // Show section with zeros, update progressively as repos resolve
     section.style.display = 'block';
     document.getElementById('commit-loading').style.display = 'block';
-    document.getElementById('commit-stats').style.display = 'none';
-    document.getElementById('commit-note').style.display = 'none';
+    document.getElementById('commit-stats').style.display = 'flex';
+    document.getElementById('commit-note').style.display = 'block';
+    document.getElementById('commits-month').textContent = '0';
+    document.getElementById('commits-year').textContent = '0';
+    document.getElementById('commit-note').textContent =
+      'Loading 0 of ' + recent.length + ' repos...';
 
-    try {
-      var responses = await Promise.all(
-        recent.map(function(r) {
-          return fetchWithRetry(API + '/repos/' + r.full_name + '/stats/contributors', STATS_MAX_RETRIES);
-        })
-      );
+    var yearTotal = 0;
+    var monthTotal = 0;
+    var resolved = 0;
+    var login = username.toLowerCase();
 
-      var yearTotal = 0;
-      var monthTotal = 0;
-      var resolved = 0;
-      var login = username.toLowerCase();
+    function updateDisplay() {
+      if (gen !== commitGeneration) return;
+      document.getElementById('commits-month').textContent = monthTotal.toLocaleString();
+      document.getElementById('commits-year').textContent = yearTotal.toLocaleString();
+      var pending = recent.length - resolved;
+      if (pending > 0) {
+        document.getElementById('commit-note').textContent =
+          'Loading ' + resolved + ' of ' + recent.length + ' repos...';
+      } else {
+        document.getElementById('commit-loading').style.display = 'none';
+        document.getElementById('commit-note').textContent =
+          'Based on ' + recent.length + ' recently active repo' + (recent.length !== 1 ? 's' : '');
+      }
+    }
 
-      for (var i = 0; i < responses.length; i++) {
-        if (!responses[i].ok) continue;
-        // Skip repos still computing (202 fallthrough)
-        if (responses[i].status === 202) continue;
-        var contributors = await responses[i].json();
-        if (!Array.isArray(contributors)) continue;
+    async function processRepo(repo) {
+      try {
+        var res = await fetchWithRetry(API + '/repos/' + repo.full_name + '/stats/contributors', STATS_MAX_RETRIES);
+        if (!res.ok || res.status === 202) { resolved++; updateDisplay(); return; }
+        var contributors = await res.json();
+        if (!Array.isArray(contributors)) { resolved++; updateDisplay(); return; }
 
-        resolved++;
-
-        // Find the looked-up user in the contributors list
         var match = contributors.find(function(c) {
           return c.author && c.author.login.toLowerCase() === login;
         });
-        if (!match) continue;
-
-        // All 52 weeks for year total
-        match.weeks.forEach(function(w) { yearTotal += w.c; });
-
-        // Last 4 weeks for month total
-        match.weeks.slice(-4).forEach(function(w) { monthTotal += w.c; });
+        if (match) {
+          match.weeks.forEach(function(w) { yearTotal += w.c; });
+          match.weeks.slice(-4).forEach(function(w) { monthTotal += w.c; });
+        }
+        resolved++;
+        updateDisplay();
+      } catch (e) {
+        resolved++;
+        updateDisplay();
       }
-
-      document.getElementById('commit-loading').style.display = 'none';
-      document.getElementById('commit-stats').style.display = 'flex';
-      document.getElementById('commit-note').style.display = 'block';
-      document.getElementById('commits-month').textContent = monthTotal.toLocaleString();
-      document.getElementById('commits-year').textContent = yearTotal.toLocaleString();
-
-      var timedOut = recent.length - resolved;
-      var note = 'Based on ' + resolved + ' of ' + recent.length + ' recently active repo' + (recent.length !== 1 ? 's' : '');
-      if (timedOut > 0) note += ' (' + timedOut + ' still computing)';
-      document.getElementById('commit-note').textContent = note;
-    } catch (e) {
-      section.style.display = 'none';
     }
+
+    // Fire all in parallel, update display as each resolves
+    recent.forEach(function(r) { processRepo(r); });
   }
 
   function escapeHtml(str) {
