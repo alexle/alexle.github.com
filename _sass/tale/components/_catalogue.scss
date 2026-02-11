@@ -4,7 +4,7 @@
     display: flex;
     gap: 1.2rem;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 1rem 1rem 0;
     margin-left: -1rem;
     margin-right: -1rem;
 
@@ -24,8 +24,20 @@
   .profile-info { flex: 1; }
 
   .profile-bio {
+    display: block;
     color: $secondary-font-color;
     line-height: 1.4;
+    margin-bottom: 1rem;
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  .desktop-only { display: block; }
+  .mobile-only { display: none; }
+
+  @media (width <= 600px) {
+    .desktop-only { display: none; }
+    .mobile-only { display: block; }
   }
 }
 
