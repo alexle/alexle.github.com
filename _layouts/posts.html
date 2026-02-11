@@ -17,7 +17,10 @@ layout: default
     {% for year in postsByYear %}
     <h3>{{ year.name }}</h3>
     {% for post in year.items %}
-    <a href="{{ post.url }}">{{ post.title }}</a><br />
+    <div class="feed-item">
+      <span class="feed-time">{{ post.date | date: "%b %d" }}</span>
+      <a class="feed-title" href="{{ post.url }}">{{ post.title }}</a>
+    </div>
     {% endfor %}
     {% endfor %}
 

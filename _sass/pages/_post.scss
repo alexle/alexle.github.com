@@ -21,6 +21,11 @@
     letter-spacing: 0.5px;
     margin: 0;
 
+    time {
+      font-family: $code-font-family;
+      font-size: .85rem;
+    }
+
     span {
       font-style: italic;
     }
