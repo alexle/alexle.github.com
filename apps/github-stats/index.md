@@ -111,8 +111,10 @@ permalink: /github-stats/
     display: none;
   }
 
-  /* Profile card - overrides for app context (base in _catalogue.scss) */
   .profile-card {
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
     margin-bottom: 1rem;
     text-decoration: none;
     color: inherit;
@@ -123,7 +125,13 @@ permalink: /github-stats/
 
   .profile-card:hover { background: var(--input-bg); }
 
-  .profile-card img { border-color: var(--border); }
+  .profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+  }
 
   .profile-name {
     font-size: 1.2rem;
