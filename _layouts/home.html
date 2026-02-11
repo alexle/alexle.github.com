@@ -12,12 +12,12 @@ layout: default
   <span class="profile-bio mobile-only">This blog is a collection of notes, ideas, and learnings for my future-self and others.</span>
 </div>
 
-<div class="catalogue">
+<div class="feed">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="feed-item">
       <div>
-        <h2 class="catalogue-title">{{ post.title }}</h2>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h2 class="feed-title">{{ post.title }}</h2>
+        <time datetime="{{ post.date }}" class="feed-time">{{ post.date | date: "%B %d, %Y" }}</time>
 
         <p>
           {{ post.content | strip_html | truncatewords: 30 }}

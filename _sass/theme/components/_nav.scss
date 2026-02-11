@@ -1,18 +1,4 @@
 
-main,
-footer,
-.nav-container {
-  margin: 0 auto;
-  max-width: $container-width;
-  width: $container-width-perc;
-}
-
-@media (width >= 600px) {
-  main, .nav-container {
-    padding-top: 0.4em;
-  }
-}
-
 .nav {
   box-shadow: 0 2px 2px -2px $nav-box-color;
   overflow: auto;
@@ -62,45 +48,10 @@ footer,
   }
 }
 
-#footer-list {
-  font-size: 1.6em;
-  padding: 0 0 .8rem;
-  margin: 0;
-}
-
-#footer-list li {
-  display: inline-block;
-  list-style-type: none;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-#footer-list ul li a {
-  color: $main-font-color;
-  text-decoration: none;
-}
-
 @media (width >= 600px) {
   .nav {
     ul {
       text-align: right;
     }
-  }
-}
-
-footer {
-  font-family: $main-font-family;
-  padding: 1.7rem 0 2rem;
-  text-align: center;
-  box-shadow: inset 0 2px 2px -2px $nav-box-color;
-  overflow: auto;
-
-  span {
-    color: $main-font-color;
-    font-size: 0.8rem;
-  }
-
-  .icon {
-    color: $main-font-color;
   }
 }

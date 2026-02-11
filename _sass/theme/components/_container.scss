@@ -1,0 +1,14 @@
+
+main,
+footer,
+.nav-container {
+  margin: 0 auto;
+  max-width: $container-width;
+  width: $container-width-perc;
+}
+
+@media (width >= 600px) {
+  main, .nav-container {
+    padding-top: 0.4em;
+  }
+}
