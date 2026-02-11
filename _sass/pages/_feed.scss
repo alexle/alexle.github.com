@@ -81,19 +81,21 @@
   }
 }
 
-.post-header .feed-item {
+.archive-item {
   display: flex;
   align-items: baseline;
   gap: 1rem;
   padding: .25rem 0;
+}
 
-  .feed-time {
-    min-width: 3.5rem;
-    flex-shrink: 0;
-  }
+.archive-time {
+  color: $muted-color;
+  font-family: $code-font-family;
+  font-size: .85rem;
+  min-width: 3.5rem;
+  flex-shrink: 0;
+}
 
-  .feed-title {
-    font-size: inherit;
-    font-weight: inherit;
-  }
+.archive-title {
+  color: $main-font-color;
 }
