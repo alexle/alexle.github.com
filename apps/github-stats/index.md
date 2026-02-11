@@ -97,6 +97,12 @@ permalink: /github-stats/
     display: none;
   }
 
+  .gh-description {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem;
+  }
+
   /* Results */
   .results-section {
     border-top: 1px solid var(--border);
@@ -105,31 +111,19 @@ permalink: /github-stats/
     display: none;
   }
 
-  /* Profile card */
+  /* Profile card - overrides for app context (base in _catalogue.scss) */
   .profile-card {
-    display: flex;
-    gap: 1.2rem;
-    align-items: flex-start;
     margin-bottom: 1rem;
     text-decoration: none;
     color: inherit;
     border-radius: 8px;
     padding: 1rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
     transition: background 0.2s ease-out;
   }
 
   .profile-card:hover { background: var(--input-bg); }
 
-  .profile-card img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid var(--border);
-  }
-
-  .profile-info { flex: 1; }
+  .profile-card img { border-color: var(--border); }
 
   .profile-name {
     font-size: 1.2rem;
@@ -151,7 +145,6 @@ permalink: /github-stats/
     font-size: 0.9rem;
     color: var(--muted);
     margin: 0 0 0.5rem;
-    line-height: 1.4;
   }
 
   .profile-meta {
@@ -163,7 +156,6 @@ permalink: /github-stats/
   }
 
   .profile-meta span strong {
-    color: inherit;
     font-weight: 600;
     color: #E1E3E6;
   }
@@ -284,7 +276,7 @@ permalink: /github-stats/
 
 <div class="gh-stats">
 <h1 class="calc-title">GitHub Stats</h1>
-<p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Look up any GitHub user's public profile and repos.</p>
+<p class="gh-description">Look up any GitHub user's public profile and repos.</p>
 
 <div class="gh-inputs">
 <div class="field-group">
