@@ -1,12 +1,10 @@
 
 .home-card {
-  padding-top: $content-padding-top;
-
   .profile-card {
     display: flex;
     gap: 1.2rem;
     align-items: flex-start;
-    padding: 1rem 1rem 0;
+    padding: 0 1rem;
     margin-left: -1rem;
     margin-right: -1rem;
 
@@ -49,7 +47,7 @@
   &-line {
     @include transition(all .3s ease-out);
 
-    border-top: .2rem solid $highlight-color;
+    border-top: .2rem solid $light-grey;
     display: block;
     width: 2rem;
   }

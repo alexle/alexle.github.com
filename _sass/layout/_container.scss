@@ -7,8 +7,6 @@ footer,
   width: $container-width-perc;
 }
 
-@media (width >= 600px) {
-  main, .nav-container {
-    padding-top: 0.4em;
-  }
+main {
+  padding: $content-padding 0 1rem;
 }
