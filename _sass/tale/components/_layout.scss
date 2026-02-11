@@ -30,27 +30,6 @@ footer,
     text-align: center;
   }
 
-  &-title {
-    font-size: 2.4rem;
-    font-weight: $title-font-weight;
-    color: $main-font-color;
-
-    @include transition(all .2s ease-out);
-
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem;
-
-    @media (width <= 400px) {
-      font-size: 2.4rem;
-    }
-
-    &:hover,
-    &:focus {
-      opacity: .6;
-    }
-  }
-
   ul {
     list-style-type: none;
     margin: 0.5rem;
@@ -102,14 +81,8 @@ footer,
 
 @media (width >= 600px) {
   .nav {
-    &-container {
-      text-align: left;
-    }
-
     ul {
-      bottom: 0;
-      position: absolute;
-      right: 0;
+      text-align: right;
     }
   }
 }
