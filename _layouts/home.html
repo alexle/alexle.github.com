@@ -10,6 +10,13 @@ layout: default
     </div>
   </div>
   <span class="profile-bio mobile-only">This blog is a collection of notes, ideas, and learnings for my future-self and others.</span>
+  <div class="profile-links">
+    {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}
+    {% if site.author.email %}<a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
+    {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+    {% if site.feed_xml %}<a href="/{{ site.feed_xml }}" target="_blank"><i class="fas fa-rss"></i></a>{% endif %}
+  </div>
 </div>
 
 <div class="feed">

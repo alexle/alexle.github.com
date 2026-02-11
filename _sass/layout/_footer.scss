@@ -1,22 +1,4 @@
 
-#footer-list {
-  font-size: 1.6em;
-  padding: 0 0 .8rem;
-  margin: 0;
-}
-
-#footer-list li {
-  display: inline-block;
-  list-style-type: none;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-#footer-list ul li a {
-  color: $main-font-color;
-  text-decoration: none;
-}
-
 footer {
   font-family: $main-font-family;
   padding: 1.7rem 0 2rem;
@@ -27,9 +9,5 @@ footer {
   span {
     color: $main-font-color;
     font-size: 0.8rem;
-  }
-
-  .icon {
-    color: $main-font-color;
   }
 }

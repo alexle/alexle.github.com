@@ -28,8 +28,18 @@
     color: $secondary-font-color;
     line-height: 1.4;
     margin-bottom: 1rem;
+  }
 
-    &:last-child { margin-bottom: 0; }
+  .profile-links {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: $secondary-font-color;
+      font-size: 1.1rem;
+
+      &:hover { color: $main-font-color; }
+    }
   }
 
   margin-bottom: $header-margin-bottom;
