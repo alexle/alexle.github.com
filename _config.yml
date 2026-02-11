@@ -59,4 +59,4 @@ paginate:       7
 feed_xml:             feed.xml
 
 # Excludes
-exclude:        [Gemfile, Gemfile.lock, tale.gemspec, vendor, node_modules]
+exclude:        [Gemfile, Gemfile.lock, vendor, node_modules]
