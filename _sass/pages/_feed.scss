@@ -45,21 +45,45 @@
 
 .feed {
   &-item {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    padding: .25rem 0;
+    border-bottom: 1px solid $light-grey;
+    color: $main-font-color;
+    display: inline-block;
+    padding: 1rem 0 .2rem;
+
+    &:last-child {
+      border: 0;
+    }
   }
 
   &-time {
     color: $secondary-font-color;
     font-family: $code-font-family;
     font-size: .85rem;
+  }
+
+  &-title {
+    font-family: $main-font-family;
+    font-size: 1.4rem;
+    font-weight: $title-font-weight;
+    color: $main-font-color;
+    display: block;
+    margin: 0 0 .3rem;
+  }
+}
+
+.post-header .feed-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .25rem 0;
+
+  .feed-time {
     min-width: 3.5rem;
     flex-shrink: 0;
   }
 
-  &-title {
-    color: $main-font-color;
+  .feed-title {
+    font-size: inherit;
+    font-weight: inherit;
   }
 }
