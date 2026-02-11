@@ -1,5 +1,7 @@
 
 .home-card {
+  padding-top: $content-padding-top;
+
   .profile-card {
     display: flex;
     gap: 1.2rem;
@@ -32,6 +34,8 @@
     &:last-child { margin-bottom: 0; }
   }
 
+  margin-bottom: $header-margin-bottom;
+
   .desktop-only { display: block; }
   .mobile-only { display: none; }
 
@@ -47,11 +51,8 @@
 
     border-top: .2rem solid $highlight-color;
     display: block;
-    margin-top: 1rem;
     width: 2rem;
   }
-
-  margin-top: 2rem;
 
   &-item {
     border-bottom: 1px solid $light-grey;

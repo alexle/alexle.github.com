@@ -1,14 +1,9 @@
 
 .post {
-  padding: 1.2rem 0;
+  padding: $content-padding-top 0;
 
-  &-info {
-    color: $secondary-font-color;
-    letter-spacing: 0.5px;
-
-    span {
-      font-style: italic;
-    }
+  &-header {
+    margin-bottom: $header-margin-bottom;
   }
 
   &-title {
@@ -23,11 +18,14 @@
     }
   }
 
-  &-line {
-    border-top: 0.2rem solid $highlight-color;
-    display: block;
-    margin: 1.3rem 0;
-    width: 4rem;
+  &-info {
+    color: $secondary-font-color;
+    letter-spacing: 0.5px;
+    margin-top: 0.3rem;
+
+    span {
+      font-style: italic;
+    }
   }
 
   p.post-stats {
