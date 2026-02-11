@@ -56,7 +56,7 @@ permalink: /regex/
   .field-group textarea {
     resize: vertical;
     min-height: 100px;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .pattern-row {
@@ -115,7 +115,7 @@ permalink: /regex/
   .highlighted-text {
     font-family: monospace;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.4;
     white-space: pre-wrap;
     word-break: break-all;
     padding: 0.75rem;

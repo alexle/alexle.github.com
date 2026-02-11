@@ -139,7 +139,7 @@ permalink: /fire-calculator/
     font-weight: 400;
     color: var(--muted);
     margin-bottom: 1rem;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .fire-headline strong {
