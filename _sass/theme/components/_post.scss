@@ -11,7 +11,7 @@
     font-size: 1.7em;
     font-weight: $title-font-weight;
     color: $main-font-color;
-    margin: 1rem 0;
+    margin: 0 0 1rem;
 
     @media (width <= 400px) {
       font-size: 1.6rem;
@@ -21,7 +21,7 @@
   &-info {
     color: $secondary-font-color;
     letter-spacing: 0.5px;
-    margin-top: 0.3rem;
+    margin: 0;
 
     span {
       font-style: italic;
