@@ -10,8 +10,11 @@ layout: default
     {% assign words = post.content | number_of_words %}
     {% assign total_words = total_words | plus: words %}
     {% endfor %}
-    <p class="post-stats">{{ site.posts.size }} posts - {{ total_words | divided_by: 1000 }},{{ total_words | modulo:
-      1000 }} words</p>
+    <p class="post-stats">
+      {{ site.posts.size }} posts &bull;
+      {{ total_words | divided_by: 1000 }},{{ total_words | modulo:1000 }} words &bull;
+      <a href="/{{ site.feed_xml }}" target="_blank"><i class="fas fa-rss"></i></a>
+    </p>
 
     {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date:'%Y'" %}
     {% for year in postsByYear %}
