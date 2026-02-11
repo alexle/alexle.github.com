@@ -5,14 +5,15 @@
   }
 
   &-title {
-    font-family: $main-font-family;
-    font-size: 1.7em;
-    font-weight: $title-font-weight;
     color: $main-font-color;
+    font-family: $main-font-family;
+    font-size: 1.6em;
+    font-weight: $title-font-weight;
+    line-height: $title-line-height;
     margin: 0 0 1rem;
 
     @media (width <= 400px) {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
   }
 
