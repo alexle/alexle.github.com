@@ -1,7 +1,6 @@
 
 * {
-  @include box-sizing;
-
+  box-sizing: border-box;
   line-height: 1.7;
 }
 
@@ -36,7 +35,7 @@ h3 {
 }
 
 a {
-  color: $link-color;
+  color: $accent-color;
   text-decoration: none;
 }
 

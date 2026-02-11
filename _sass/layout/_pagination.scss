@@ -3,8 +3,7 @@
   font-family: $main-font-family;
   font-weight: bold;
   font-size: 1.2rem;
-  padding-top: 0.2rem;
-  padding-bottom: 1.2rem;
+  padding: .2rem 0 1.2rem;
   position: relative;
   text-align: center;
 
@@ -12,8 +11,7 @@
     color: $main-font-color;
     background-color: $bg-color;
     padding: 7px 14px;
-    margin-left: -2px;
-    margin-right: -2px;
+    margin: 0 -2px;
     display: inline-block;
 
     @media (width <= 400px) {
@@ -24,17 +22,16 @@
 
   a {
     &:hover {
-      color: $secondary-font-color;
+      color: $muted-color;
     }
   }
 
-  .page-on {
-    color: $highlight-color;
+  .pagination-current {
+    color: $accent-color;
   }
 
   .home {
-    @include transition(all .3s ease-out);
-
+    transition: all .3s ease-out;
     color: $main-font-color;
     opacity: .6;
 
@@ -44,8 +41,7 @@
   }
 
   .arrow {
-    @include transition(all .3s ease-out);
-
+    transition: all .3s ease-out;
     color: $main-font-color;
     position: absolute;
 

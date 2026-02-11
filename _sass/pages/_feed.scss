@@ -5,8 +5,7 @@
     gap: 1.2rem;
     align-items: flex-start;
     padding: 0 1rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin: 0 -1rem;
 
     @media (width <= 600px) {
       flex-wrap: wrap;
@@ -25,7 +24,7 @@
 
   .profile-bio {
     display: block;
-    color: $secondary-font-color;
+    color: $muted-color;
     line-height: 1.4;
     margin-bottom: 1rem;
   }
@@ -35,7 +34,7 @@
     gap: 1rem;
 
     a {
-      color: $secondary-font-color;
+      color: $muted-color;
       font-size: 1.1rem;
 
       &:hover { color: $main-font-color; }
@@ -66,7 +65,7 @@
   }
 
   &-time {
-    color: $secondary-font-color;
+    color: $muted-color;
     font-family: $code-font-family;
     font-size: .85rem;
   }

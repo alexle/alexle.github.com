@@ -1,6 +1,6 @@
 
 .nav {
-  box-shadow: 0 2px 2px -2px $nav-box-color;
+  box-shadow: 0 2px 2px -2px $muted-color;
   overflow: auto;
 
   &-container {
@@ -22,8 +22,7 @@
   }
 
   li {
-    @include transition(all .2s ease-out);
-
+    transition: all .2s ease-out;
     color: $main-font-color;
     display: inline-block;
     opacity: .6;
@@ -42,7 +41,7 @@
       opacity: 1;
 
       a {
-        color: $highlight-color;
+        color: $accent-color;
       }
     }
   }

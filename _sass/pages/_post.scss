@@ -18,7 +18,7 @@
   }
 
   &-info {
-    color: $secondary-font-color;
+    color: $muted-color;
     letter-spacing: 0.5px;
     margin: 0;
 
@@ -33,7 +33,7 @@
   }
 
   p.post-stats {
-    color: $stats-color;
+    color: $muted-color;
     text-align: left;
     margin: 0 0 3rem;
   }
@@ -51,7 +51,7 @@
   }
 
   img+em {
-    color: $secondary-font-color;
+    color: $muted-color;
     display: block;
     font-family: $main-font-family;
     font-size: 0.9rem;

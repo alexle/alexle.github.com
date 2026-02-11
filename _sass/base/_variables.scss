@@ -1,24 +1,20 @@
 // Variables - exposed for @use
-$light-grey: #444 !default;
-$code-color: #bf616a !default;
 
-// Page colors
+// Colors
+$accent-color: #bf616a !default;
+$muted-color: #909498 !default;
+$light-grey: #444 !default;
 $bg-color: #222426 !default;
 $bg-code-color: #2d3033 !default;
-$link-color: #bf616a !default;
-$highlight-color: $link-color !default;
-$stats-color: #909498 !default;
 
 // Font color
-$main-font-color: #D0D3D8 !default;
-$secondary-font-color: #909498 !default;
-$nav-box-color: #909498 !default;
+$main-font-color: #d0d3d8 !default;
 
 // Font family
 $main-font-family: "Inter", sans-serif !default;
 $code-font-family: menlo, monaco, monospace !default;
 
-// Font sizes
+// Font
 $title-font-weight: 400 !default;
 $title-line-height: 1.5 !default;
 
@@ -29,11 +25,3 @@ $header-margin-bottom: 2rem !default;
 // Container Size
 $container-width: 620px !default;
 $container-width-perc: 90% !default;
-
-@mixin box-sizing($type: border-box) {
-  box-sizing: $type;
-}
-
-@mixin transition($args...) {
-  transition: $args;
-}

@@ -7,7 +7,7 @@ code {
 code {
   background-color: $bg-code-color;
   border-radius: 3px;
-  color: $code-color;
+  color: $accent-color;
   font-size: 70%;
   padding: .25em .5em;
 }
@@ -56,7 +56,7 @@ pre code {
   }
 
   .lineno {
-    color: $secondary-font-color;
+    color: $muted-color;
     padding-right: 0.75rem;
     user-select: none;
   }
