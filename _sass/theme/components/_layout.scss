@@ -30,6 +30,11 @@ footer,
     text-align: center;
   }
 
+  a {
+    color: $main-font-color;
+    font-family: $main-font-family;
+  }
+
   li {
     @include transition(all .2s ease-out);
 
@@ -46,11 +51,14 @@ footer,
     &:focus {
       opacity: 1;
     }
-  }
 
-  a {
-    color: $main-font-color;
-    font-family: $main-font-family;
+    &.active {
+      opacity: 1;
+
+      a {
+        color: $highlight-color;
+      }
+    }
   }
 }
 

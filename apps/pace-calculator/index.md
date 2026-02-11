@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 title: "Pace Calculator"
 permalink: /pace-calculator/
 ---

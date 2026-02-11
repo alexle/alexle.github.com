@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 title: "Regex Lab"
 permalink: /regex/
 ---

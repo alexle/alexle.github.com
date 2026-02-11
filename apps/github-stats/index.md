@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 title: "GitHub Stats"
 permalink: /github-stats/
 ---

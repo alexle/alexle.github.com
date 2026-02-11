@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: search
 title: "Search"
 author: "Alex Le"
 permalink: /search/

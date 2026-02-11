@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 title: "FIRE Calculator"
 permalink: /fire-calculator/
 ---

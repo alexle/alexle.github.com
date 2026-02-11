@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: app
 title: "Apps"
 author: "Alex Le"
 permalink: /apps/
