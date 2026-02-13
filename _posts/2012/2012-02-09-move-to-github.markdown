@@ -81,6 +81,6 @@ If you're curious, I settled on using [Chisel][4], a static site generator which
 [2]: http://pages.github.com/
 [3]: http://iwantmyname.com/blog/2011/02/list-static-website-generators.html
 [4]: https://github.com/dz/chisel
-[5]: http://tedwise.com/markdown/
+[5]: https://en.wikipedia.org/wiki/Markdown
 [6]: https://github.com/alexle/alexle.github.com
 [7]: /create-an-rss-feed-from-scratch.html
