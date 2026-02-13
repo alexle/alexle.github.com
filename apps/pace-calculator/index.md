@@ -194,12 +194,6 @@ permalink: /pace-calculator/
     display: none;
   }
 
-  .vdot-header {
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.5rem;
-  }
-
   .vdot-score {
     display: flex;
     align-items: baseline;
@@ -218,15 +212,24 @@ permalink: /pace-calculator/
     color: var(--accent);
   }
 
-  .race-predictions .result-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.3rem 0;
+  .race-predictions table {
+    width: 100%;
+    border-collapse: collapse;
     font-size: 0.9rem;
   }
 
-  .race-predictions .result-label { color: var(--muted); }
-  .race-predictions .result-value { font-weight: 500; }
+  .race-predictions th {
+    color: var(--muted);
+    font-weight: 400;
+    text-align: left;
+    padding: 0 0 0.4rem;
+  }
+
+  .race-predictions th:not(:first-child) { text-align: right; }
+
+  .race-predictions td { padding: 0.3rem 0; }
+  .race-predictions td:first-child { color: var(--muted); }
+  .race-predictions td:not(:first-child) { text-align: right; font-weight: 500; }
 </style>
 
 <div class="pace-calc">
@@ -303,24 +306,13 @@ permalink: /pace-calculator/
     <span class="vdot-label">VDOT</span>
     <span class="vdot-number" id="vdot-number"></span>
   </div>
-  <div class="vdot-header">Equivalent Race Times</div>
   <div class="race-predictions">
-    <div class="result-row">
-      <span class="result-label">5K</span>
-      <span class="result-value" id="pred-5k"></span>
-    </div>
-    <div class="result-row">
-      <span class="result-label">10K</span>
-      <span class="result-value" id="pred-10k"></span>
-    </div>
-    <div class="result-row">
-      <span class="result-label">Half Marathon</span>
-      <span class="result-value" id="pred-half"></span>
-    </div>
-    <div class="result-row">
-      <span class="result-label">Marathon</span>
-      <span class="result-value" id="pred-marathon"></span>
-    </div>
+    <table>
+      <thead>
+        <tr><th>Equivalent Race</th><th id="pace-col-header">Pace</th><th>Time</th></tr>
+      </thead>
+      <tbody id="pred-body"></tbody>
+    </table>
   </div>
 </div>
 
@@ -360,6 +352,11 @@ permalink: /pace-calculator/
   function calcPercentVO2max(timeMin) {
     return 0.8 + 0.1894393 * Math.exp(-0.012778 * timeMin)
                + 0.2989558 * Math.exp(-0.1932605 * timeMin);
+  }
+
+  function racePace(timeSec, distMeters) {
+    const distUnits = unit === 'km' ? distMeters / 1000 : distMeters / METERS_PER_MI;
+    return fmtPace(timeSec / distUnits) + ' /' + unit;
   }
 
   function calcVDOT(distMeters, timeSec) {
@@ -537,10 +534,19 @@ permalink: /pace-calculator/
 
     if (vdot >= 15 && vdot <= 100) {
       document.getElementById('vdot-number').textContent = Math.round(vdot);
-      document.getElementById('pred-5k').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['5K']));
-      document.getElementById('pred-10k').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['10K']));
-      document.getElementById('pred-half').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['Half']));
-      document.getElementById('pred-marathon').textContent = fmtTime(predictTimeSec(vdot, RACE_DIST_M['Marathon']));
+      const races = [
+        ['5K', '5K'], ['10K', '10K'], ['Half Marathon', 'Half'], ['Marathon', 'Marathon']
+      ];
+      const paceLabel = unit === 'mi' ? '/mi' : '/km';
+      document.getElementById('pace-col-header').textContent = 'Pace';
+      const tbody = document.getElementById('pred-body');
+      tbody.innerHTML = '';
+      for (const [label, key] of races) {
+        const t = predictTimeSec(vdot, RACE_DIST_M[key]);
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + label + '</td><td>' + racePace(t, RACE_DIST_M[key]) + '</td><td>' + fmtTime(t) + '</td>';
+        tbody.appendChild(tr);
+      }
       document.getElementById('vdot-section').style.display = 'block';
     } else {
       document.getElementById('vdot-section').style.display = 'none';
