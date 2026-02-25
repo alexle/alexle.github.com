@@ -19,12 +19,6 @@ permalink: /regex/
     margin: 0 0 2rem;
   }
 
-  .calc-title {
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 1.5rem 0 1rem;
-  }
-
   .field-group { margin-bottom: 1rem; }
 
   .field-group label {
@@ -223,7 +217,6 @@ permalink: /regex/
 </style>
 
 <div class="regex-app">
-<h1 class="calc-title">Regex Lab</h1>
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Test regular expressions with live matching.</p>
 
 <div class="regex-inputs">

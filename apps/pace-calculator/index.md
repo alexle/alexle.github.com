@@ -14,12 +14,6 @@ permalink: /pace-calculator/
     --border: #444;
   }
 
-  .calc-title {
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 1.5rem 0 1rem;
-  }
-
   /* Unit toggle */
   .unit-toggle {
     display: flex;
@@ -233,7 +227,6 @@ permalink: /pace-calculator/
 </style>
 
 <div class="pace-calc">
-<h1 class="calc-title">Pace Calculator</h1>
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Enter any 2 fields and the 3rd will be calculated.</p>
 
 <div class="unit-toggle">

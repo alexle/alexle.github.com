@@ -16,12 +16,6 @@ permalink: /github-stats/
 
   .gh-inputs { max-width: 480px; }
 
-  .calc-title {
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 1.5rem 0 1rem;
-  }
-
   .field-group { margin-bottom: 1rem; }
 
   .field-group label {
@@ -283,7 +277,6 @@ permalink: /github-stats/
 </style>
 
 <div class="gh-stats">
-<h1 class="calc-title">GitHub Stats</h1>
 <p class="gh-description">Look up any GitHub user's public profile and repos.</p>
 
 <div class="gh-inputs">

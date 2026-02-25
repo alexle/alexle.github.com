@@ -16,12 +16,6 @@ permalink: /fire-calculator/
 
   .fire-inputs { max-width: 480px; }
 
-  .calc-title {
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 1.5rem 0 1rem;
-  }
-
   .field-group { margin-bottom: 1rem; }
 
   .field-group label {
@@ -198,7 +192,6 @@ permalink: /fire-calculator/
 </style>
 
 <div class="fire-calc">
-<h1 class="calc-title">FIRE Calculator</h1>
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
 
 <div class="fire-inputs">
