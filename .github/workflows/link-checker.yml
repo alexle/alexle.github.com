@@ -18,6 +18,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   check-links:
     runs-on: ubuntu-latest
@@ -28,7 +32,6 @@ jobs:
       - name: Check for broken links
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          # Check markdown and HTML files
           args: >
             --verbose
             --no-progress
@@ -38,16 +41,57 @@ jobs:
             --exclude 'twitter.com'
             --exclude 'x.com'
             --exclude '%7Burl%7D'
+            --format json
             '_posts/**/*.md'
             '_posts/**/*.markdown'
             '_pages/*.md'
             '*.md'
-          fail: false  # Don't fail the build, just report
+          output: ./lychee/out.json
+          fail: false
 
-      - name: Create Issue on Link Errors
+      - name: Replace broken links with archive.org
         if: env.lychee_exit_code != 0
-        uses: peter-evans/create-issue-from-file@v4
+        run: |
+          python3 << 'SCRIPT'
+          import json, sys, os
+
+          with open('./lychee/out.json') as f:
+              data = json.load(f)
+
+          fail_map = data.get('fail_map', {})
+          if not fail_map:
+              sys.exit(0)
+
+          summary = []
+          for filepath, errors in fail_map.items():
+              with open(filepath) as f:
+                  content = f.read()
+              changed = False
+              for error in errors:
+                  url = error['url']
+                  archive_url = f'https://web.archive.org/web/{url}'
+                  if url in content:
+                      content = content.replace(url, archive_url)
+                      summary.append(f'- `{filepath}`: replaced {url}')
+                      changed = True
+              if changed:
+                  with open(filepath, 'w') as f:
+                      f.write(content)
+
+          # Write summary for PR body
+          os.makedirs('./lychee', exist_ok=True)
+          with open('./lychee/summary.md', 'w') as f:
+              f.write('## Replaced links\n\n')
+              f.write('\n'.join(summary))
+          SCRIPT
+
+      - name: Create Pull Request
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-pull-request@v7
         with:
-          title: Broken links detected
-          content-filepath: ./lychee/out.md
+          commit-message: Replace broken links with archive.org versions
+          title: Fix broken links with archive.org
+          body-path: ./lychee/summary.md
+          branch: fix/broken-links
+          delete-branch: true
           labels: bug, documentation
