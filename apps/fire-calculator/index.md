@@ -189,6 +189,27 @@ permalink: /fire-calculator/
 
   .stats-row .stat-label { color: var(--muted); }
   .stats-row .stat-value { font-weight: 500; }
+
+  .stats-header {
+    font-size: 1.1rem;
+    color: inherit;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .stats-header:first-child { margin-top: 0; }
+
+  .stat-desc {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  .coast-passed {
+    color: var(--gold);
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
 </style>
 
 <div class="fire-calc">
@@ -308,6 +329,7 @@ permalink: /fire-calculator/
     <span class="legend-fire">FIRE Target</span>
   </div>
 
+  <div class="stats-header">Your Numbers</div>
   <div class="stats-row">
     <span class="stat-label">Annual Savings</span>
     <span class="stat-value" id="stat-savings"></span>
@@ -320,6 +342,8 @@ permalink: /fire-calculator/
     <span class="stat-label">Blended Return</span>
     <span class="stat-value" id="stat-return"></span>
   </div>
+
+  <div class="stats-header">Milestones</div>
   <div class="stats-row">
     <span class="stat-label">FIRE Number</span>
     <span class="stat-value" id="stat-fire-number"></span>
@@ -328,6 +352,11 @@ permalink: /fire-calculator/
     <span class="stat-label">FIRE Year</span>
     <span class="stat-value" id="stat-fire-year"></span>
   </div>
+  <div class="stats-row">
+    <span class="stat-label">Coast FI Number</span>
+    <span class="stat-value" id="stat-coast-fi"></span>
+  </div>
+  <div class="stat-desc" id="coast-fi-desc">Portfolio needed today to coast with $0 savings</div>
 </div>
 </div>
 
@@ -431,6 +460,18 @@ permalink: /fire-calculator/
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
+
+    // Coast FI: present value of FIRE number discounted back fireYear years
+    const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
+    const coastEl = document.getElementById('stat-coast-fi');
+    const coastDesc = document.getElementById('coast-fi-desc');
+    if (networth >= coastFI) {
+      coastEl.innerHTML = fmtMoney(coastFI) + ' <span class="coast-passed">— you\'ve passed Coast FI!</span>';
+      coastDesc.style.display = 'none';
+    } else {
+      coastEl.textContent = fmtMoney(coastFI);
+      coastDesc.style.display = 'block';
+    }
 
     document.getElementById('results-section').style.display = 'block';
 
