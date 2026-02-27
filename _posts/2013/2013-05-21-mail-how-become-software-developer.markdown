@@ -79,7 +79,7 @@ You only need to have a passion in programming to be successful. Case in point: 
 
 I'm open to talk anytime if you have more questions. Good luck!
 
-[2]: http://thenextweb.com/2012/04/10/instagrams-ceo-had-no-formal-programming-training-hes-a-marketer-who-learned-to-code-by-night/
+[2]: https://web.archive.org/web/http://thenextweb.com/2012/04/10/instagrams-ceo-had-no-formal-programming-training-hes-a-marketer-who-learned-to-code-by-night/
 [3]: http://news.cnet.com/8301-17938_105-20093715-1/meet-connor-a-7-year-old-iphone-app-developer/
 [4]: https://news.ycombinator.com/news
 [5]: https://blog.codinghorror.com

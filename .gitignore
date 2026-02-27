@@ -1,13 +1,23 @@
-*.gem
-.bundle
-.DS_Store
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-node_modules/
+# Jekyll
 _site
 _drafts
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+# Ruby
+*.gem
+.bundle
 Gemfile.lock
 .Gemfile.un~
-.claude
 vendor/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Tools
+.claude
+.git
