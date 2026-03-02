@@ -205,8 +205,8 @@ permalink: /fire-calculator/
     text-align: right;
   }
 
-  .coast-passed {
-    color: var(--gold);
+  .coast-reached {
+    color: #a3d9a5;
     font-size: 0.8rem;
     font-weight: 500;
   }
@@ -353,7 +353,7 @@ permalink: /fire-calculator/
     <span class="stat-value" id="stat-fire-year"></span>
   </div>
   <div class="stats-row">
-    <span class="stat-label">Coast FI Number</span>
+    <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
   </div>
   <div class="stat-desc" id="coast-fi-desc">Portfolio needed today to coast with $0 savings</div>
@@ -464,12 +464,15 @@ permalink: /fire-calculator/
     // Coast FI: present value of FIRE number discounted back fireYear years
     const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
     const coastEl = document.getElementById('stat-coast-fi');
+    const coastLabel = document.getElementById('stat-coast-fi-label');
     const coastDesc = document.getElementById('coast-fi-desc');
     if (networth >= coastFI) {
-      coastEl.innerHTML = fmtMoney(coastFI) + ' <span class="coast-passed">— you\'ve passed Coast FI!</span>';
+      coastEl.textContent = fmtMoney(coastFI);
+      coastLabel.innerHTML = 'Coast FI Number <span class="coast-reached">(reached)</span>';
       coastDesc.style.display = 'none';
     } else {
       coastEl.textContent = fmtMoney(coastFI);
+      coastLabel.textContent = 'Coast FI Number';
       coastDesc.style.display = 'block';
     }
 
