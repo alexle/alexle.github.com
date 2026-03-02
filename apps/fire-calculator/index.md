@@ -210,6 +210,11 @@ permalink: /fire-calculator/
     font-size: 0.8rem;
     font-weight: 500;
   }
+
+  .coast-delta {
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
 </style>
 
 <div class="fire-calc">
@@ -466,14 +471,13 @@ permalink: /fire-calculator/
     const coastEl = document.getElementById('stat-coast-fi');
     const coastLabel = document.getElementById('stat-coast-fi-label');
     const coastDesc = document.getElementById('coast-fi-desc');
+    coastEl.textContent = fmtMoney(coastFI);
+    coastDesc.style.display = 'block';
     if (networth >= coastFI) {
-      coastEl.textContent = fmtMoney(coastFI);
       coastLabel.innerHTML = 'Coast FI Number <span class="coast-reached">(reached)</span>';
-      coastDesc.style.display = 'none';
     } else {
-      coastEl.textContent = fmtMoney(coastFI);
-      coastLabel.textContent = 'Coast FI Number';
-      coastDesc.style.display = 'block';
+      const delta = coastFI - networth;
+      coastLabel.innerHTML = 'Coast FI Number <span class="coast-delta">(' + fmtMoney(delta) + ' to go)</span>';
     }
 
     document.getElementById('results-section').style.display = 'block';
