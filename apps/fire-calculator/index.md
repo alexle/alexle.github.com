@@ -215,6 +215,34 @@ permalink: /fire-calculator/
     color: var(--muted);
     font-size: 0.8rem;
   }
+
+  .stress-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .stress-table th {
+    color: var(--muted);
+    font-weight: 400;
+    text-align: left;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .stress-table th:not(:first-child),
+  .stress-table td:not(:first-child) {
+    text-align: right;
+  }
+
+  .stress-table td {
+    padding: 0.35rem 0;
+  }
+
+  .stress-table tr.stress-active td {
+    font-weight: 500;
+  }
 </style>
 
 <div class="fire-calc">
@@ -362,6 +390,15 @@ permalink: /fire-calculator/
     <span class="stat-value" id="stat-coast-fi"></span>
   </div>
   <div class="stat-desc" id="coast-fi-desc">Portfolio needed today to coast with $0 savings</div>
+
+  <div class="stats-header">Safe Spend Rates</div>
+  <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;">Annual spend at FIRE portfolio size</div>
+  <table class="stress-table" id="stress-table">
+    <thead>
+      <tr><th>Rate</th><th>FIRE Number</th><th>Annual Spend</th></tr>
+    </thead>
+    <tbody id="stress-tbody"></tbody>
+  </table>
 </div>
 </div>
 
@@ -478,6 +515,26 @@ permalink: /fire-calculator/
     } else {
       const delta = coastFI - networth;
       coastLabel.innerHTML = 'Coast FI Number <span class="coast-delta">(' + fmtMoney(delta) + ' to go)</span>';
+    }
+
+    // Withdrawal stress test
+    const firePortfolio = data[fireYear].total;
+    const stressRates = [3, 3.5, 4, 4.5, 5];
+    const userRate = val('withdrawal-rate');
+    // Ensure user's rate is in the list
+    const rates = stressRates.includes(userRate) ? stressRates : [...stressRates, userRate].sort((a, b) => a - b);
+    const tbody = document.getElementById('stress-tbody');
+    tbody.innerHTML = '';
+    for (const rate of rates) {
+      const rateDecimal = rate / 100;
+      const rateFireNumber = expenses / rateDecimal;
+      const annualSpend = firePortfolio * rateDecimal;
+      const tr = document.createElement('tr');
+      if (rate === userRate) tr.className = 'stress-active';
+      tr.innerHTML = '<td>' + rate.toFixed(1) + '%' + (rate === userRate ? ' ←' : '') + '</td>' +
+        '<td>' + fmtMoney(rateFireNumber) + '</td>' +
+        '<td>' + fmtMoney(annualSpend) + '/yr</td>';
+      tbody.appendChild(tr);
     }
 
     document.getElementById('results-section').style.display = 'block';
