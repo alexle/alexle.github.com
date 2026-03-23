@@ -1,0 +1,27 @@
+{
+  "total": 77,
+  "successful": 71,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 0,
+  "excludes": 5,
+  "errors": 1,
+  "cached": 0,
+  "success_map": {},
+  "fail_map": {
+    "_posts/2012/2012-05-08-why-i-dont-like-running-but-still-do-it.markdown": [
+      {
+        "url": "https://www.bolderboulder.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 502
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "excluded_map": {},
+  "duration_secs": 9,
+  "detailed_stats": false
+}
