@@ -35,19 +35,17 @@ jobs:
         continue-on-error: true
         with:
           args: >
-            --verbose
             --no-progress
             --accept 200,204,206,301,302,303,307,308,403,429
-            --exclude-mail
             --exclude 'linkedin.com'
             --exclude 'twitter.com'
             --exclude 'x.com'
             --exclude '%7Burl%7D'
-            --format json
             '_posts/**/*.md'
             '_posts/**/*.markdown'
             '_pages/*.md'
             '*.md'
+          format: json
           output: ./lychee/out.json
           fail: false
 
