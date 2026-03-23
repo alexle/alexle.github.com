@@ -40,4 +40,4 @@ There is nothing pleasant about slamming my feet down in front of each other for
 I'm already looking forward to my next run, though I have a feeling I'm going to really, really hate it. See you on the road.
 
 [1]: /money-in-the-bank.html
-[2]: https://www.bolderboulder.com/
+[2]: https://web.archive.org/web/https://www.bolderboulder.com/
