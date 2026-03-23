@@ -52,35 +52,29 @@ jobs:
             printf '%s\n' "$BODY"
           } > "_posts/$YEAR/$DATE-$SLUG.markdown"
 
+          # Set outputs for subsequent steps
+          echo "slug=${SLUG}" >> $GITHUB_OUTPUT
+
           # Configure git
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # Commit and push
           git add "_posts/$YEAR/$DATE-$SLUG.markdown"
-          git commit -m "Add new post: $TITLE"
+          git commit -m "Add new post: $ISSUE_TITLE"
           git push
 
-          # Set output for next step
-          POST_URL="https://alexanderle.com/${SLUG}"
-          echo "post_url=${POST_URL}" >> $GITHUB_OUTPUT
-
       - name: Comment on issue
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const issue = context.issue;
-            const post_url = "${{ steps.create-post.outputs.post_url }}";
+            const slug = "${{ steps.create-post.outputs.slug }}";
+            const url = `https://alexanderle.com/${slug}.html`;
             await github.rest.issues.createComment({
-              issue_number: issue.number,
-              owner: issue.owner,
-              repo: issue.repo,
-              body: `✅ Post created successfully! View it at: ${post_url}`
+              ...context.issue,
+              body: `✅ Post published! View it at: ${url}`
             });
             await github.rest.issues.update({
-              issue_number: issue.number,
-              owner: issue.owner,
-              repo: issue.repo,
+              ...context.issue,
               state: 'closed'
             });
