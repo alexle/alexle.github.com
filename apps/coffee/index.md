@@ -12,7 +12,6 @@ permalink: /coffee/
     --input-bg: #2d3033;
     --border: #444;
     --gold: #d4a843;
-    --brown: #8b6914;
   }
 
   /* Option toggles (size, roast) */
@@ -36,11 +35,7 @@ permalink: /coffee/
     text-align: center;
   }
 
-  .option-toggle button.active {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
+  .option-toggle button.active,
   .option-toggle button:hover {
     border-color: var(--accent);
     color: var(--accent);
@@ -177,18 +172,27 @@ permalink: /coffee/
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
   }
+
+  .intro-text {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .status-text.top { margin-top: 2rem; }
+  .actions.centered { justify-content: center; }
 </style>
 
 <div class="coffee-order">
 
 <!-- STATE: Menu -->
 <div class="state active" id="state-menu">
-  <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 0.5rem;">Fresh pourover, brewed to order. Pick your size and I'll get started.</p>
+  <p class="intro-text">Fresh pourover, brewed to order. Pick your size and I'll get started.</p>
 
   <div class="menu-card" id="menu-card-pourover">
     <div class="drink-name">Pourover Coffee</div>
-    <div class="drink-desc">Hand-poured, single origin, brewed to order</div>
-    <div class="drink-time">~4 min brew time</div>
+    <div class="drink-desc">Hand-poured, freshly ground, brewed to order</div>
+    <div class="drink-time">~5 min brew time</div>
   </div>
 
   <div class="field-group">
@@ -215,7 +219,7 @@ permalink: /coffee/
 
 <!-- STATE: Confirm -->
 <div class="state" id="state-confirm">
-  <p class="confirm-summary" id="confirm-summary">You're ordering: <strong>Medium Pourover Coffee</strong></p>
+  <p class="confirm-summary" id="confirm-summary"></p>
 
   <div class="field-group">
     <label for="customer-name">Your name (optional)</label>
@@ -230,7 +234,7 @@ permalink: /coffee/
 
 <!-- STATE: Brewing -->
 <div class="state" id="state-brewing">
-  <div class="status-text" style="margin-top: 2rem;">
+  <div class="status-text top">
     <div class="headline">Brewing...</div>
     <div class="subtext">Alex has been notified and will start brewing shortly.</div>
   </div>
@@ -238,11 +242,11 @@ permalink: /coffee/
 
 <!-- STATE: Done -->
 <div class="state" id="state-done">
-  <div class="status-text" style="margin-top: 2rem;">
+  <div class="status-text top">
     <div class="headline">Order placed!</div>
     <div class="subtext" id="done-msg">Your pourover is on the way. Sit tight.</div>
   </div>
-  <div class="actions" style="justify-content: center;">
+  <div class="actions centered">
     <button class="btn-order" onclick="orderAnother()">Order Another</button>
   </div>
 </div>
@@ -329,10 +333,11 @@ permalink: /coffee/
     });
   }
 
+  function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
   function orderSummary() {
-    var size = selected.size === 'small' ? 'Small (8 oz)' : 'Large (12 oz)';
-    var roast = ROASTS[selected.roast];
-    return size + ' ' + roast + ' Pourover';
+    var size = capitalize(selected.size) + ' (' + SIZES[selected.size] + ')';
+    return size + ' ' + ROASTS[selected.roast] + ' Pourover';
   }
 
   // --- Order flow ---
@@ -365,8 +370,8 @@ permalink: /coffee/
     // Transition to done after 3 seconds
     setTimeout(function() {
       var doneMsg = name
-        ? name + ', your pourover is on the way. Sit tight.'
-        : 'Your pourover is on the way. Sit tight.';
+        ? 'Sit tight, ' + name + '. Your drink is on the way.'
+        : 'Sit tight. Your drink is on the way.';
       document.getElementById('done-msg').textContent = doneMsg;
       showState('done');
       btn.disabled = false;
