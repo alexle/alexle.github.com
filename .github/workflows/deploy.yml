@@ -32,9 +32,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Inject secrets into build config
-        run: 'echo "ntfy_topic: $NTFY_TOPIC" > _config_secrets.yml'
+        run: 'echo "coffee_sub: $COFFEE_SUB" > _config_secrets.yml'
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          COFFEE_SUB: ${{ secrets.COFFEE_SUB }}
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --future --config _config.yml,_config_secrets.yml

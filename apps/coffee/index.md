@@ -251,7 +251,7 @@ permalink: /coffee/
 
 <script>
   // --- Config ---
-  var NTFY_TOPIC = '{{ site.ntfy_topic }}';
+  var COFFEE_SUB = '{{ site.coffee_sub }}';
   var COOLDOWN_MS = 10000;
   var COOLDOWN_KEY = 'coffee_last_order';
 
@@ -353,7 +353,7 @@ permalink: /coffee/
     var body = who + ' ordered a ' + orderSummary() + ' - ' + time;
 
     // Send notification (fire and forget)
-    fetch('https://ntfy.sh/' + NTFY_TOPIC, {
+    fetch('https://ntfy.sh/' + COFFEE_SUB, {
       method: 'POST',
       headers: { 'Title': 'Coffee Order!' },
       body: body
