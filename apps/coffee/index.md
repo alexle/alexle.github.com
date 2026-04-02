@@ -254,14 +254,24 @@ permalink: /coffee/
 </div>
 
 <script>
-  // --- Config ---
+  // --- Config (edit these) ---
   var COFFEE_SUB = '{{ site.coffee_sub }}';
   var COOLDOWN_MS = 10000;
   var COOLDOWN_KEY = 'coffee_last_order';
+  var BREW_DELAY_MS = 3000;
 
   var SIZES = { small: '8 oz', large: '12 oz' };
   var ROASTS = { light: 'Light Roast', rotating: 'Rotating Pick' };
   var selected = { size: 'small', roast: 'light' };
+
+  var MSG = {
+    notifTitle: 'Coffee Order!',
+    notifBody: function(who, summary, time) { return who + ' ordered a ' + summary + ' - ' + time; },
+    brewing: 'Alex has been notified and will start brewing shortly.',
+    doneNamed: function(name) { return 'Sit tight, ' + name + '. Your drink is on the way.'; },
+    doneAnon: 'Sit tight. Your drink is on the way.',
+    cooldown: function(s) { return 'You can order again in ' + s + 's'; }
+  };
 
   // --- State management ---
   var STATES = ['menu', 'confirm', 'brewing', 'done'];
@@ -304,7 +314,7 @@ permalink: /coffee/
 
     if (remaining > 0) {
       btn.disabled = true;
-      msg.textContent = 'You can order again in ' + Math.ceil(remaining / 1000) + 's';
+      msg.textContent = MSG.cooldown(Math.ceil(remaining / 1000));
       if (!cooldownTimer) {
         cooldownTimer = setInterval(function() {
           var r = getRemainingCooldown();
@@ -314,7 +324,7 @@ permalink: /coffee/
             btn.disabled = false;
             msg.textContent = '';
           } else {
-            msg.textContent = 'You can order again in ' + Math.ceil(r / 1000) + 's';
+            msg.textContent = MSG.cooldown(Math.ceil(r / 1000));
           }
         }, 1000);
       }
@@ -355,27 +365,23 @@ permalink: /coffee/
     var name = document.getElementById('customer-name').value.trim();
     var time = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
     var who = name || 'Someone';
-    var body = who + ' ordered a ' + orderSummary() + ' - ' + time;
+    var body = MSG.notifBody(who, orderSummary(), time);
 
-    // Send notification (fire and forget)
     fetch('https://ntfy.sh/' + COFFEE_SUB, {
       method: 'POST',
-      headers: { 'Title': 'Coffee Order!' },
+      headers: { 'Title': MSG.notifTitle },
       body: body
     }).catch(function() {});
 
     recordOrder();
     showState('brewing');
 
-    // Transition to done after 3 seconds
     setTimeout(function() {
-      var doneMsg = name
-        ? 'Sit tight, ' + name + '. Your drink is on the way.'
-        : 'Sit tight. Your drink is on the way.';
+      var doneMsg = name ? MSG.doneNamed(name) : MSG.doneAnon;
       document.getElementById('done-msg').textContent = doneMsg;
       showState('done');
       btn.disabled = false;
-    }, 3000);
+    }, BREW_DELAY_MS);
   }
 
   function orderAnother() {
