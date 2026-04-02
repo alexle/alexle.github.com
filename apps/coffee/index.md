@@ -355,7 +355,7 @@ permalink: /coffee/
     // Send notification (fire and forget)
     fetch('https://ntfy.sh/' + NTFY_TOPIC, {
       method: 'POST',
-      headers: { 'Title': '\u2615 Coffee Order!', 'Tags': 'coffee' },
+      headers: { 'Title': 'Coffee Order!' },
       body: body
     }).catch(function() {});
 
