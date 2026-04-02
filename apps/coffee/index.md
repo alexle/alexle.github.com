@@ -349,12 +349,13 @@ permalink: /coffee/
 
     var name = document.getElementById('customer-name').value.trim();
     var time = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
-    var body = orderSummary() + (name ? ' from ' + name : '') + ' - ' + time;
+    var who = name || 'Someone';
+    var body = who + ' ordered a ' + orderSummary() + ' - ' + time;
 
     // Send notification (fire and forget)
     fetch('https://ntfy.sh/' + NTFY_TOPIC, {
       method: 'POST',
-      headers: { 'Title': 'Coffee Order!' },
+      headers: { 'Title': '\u2615 Coffee Order!', 'Tags': 'coffee' },
       body: body
     }).catch(function() {});
 
