@@ -251,7 +251,7 @@ permalink: /coffee/
 
 <script>
   // --- Config ---
-  var NTFY_TOPIC = 'alex-barista-k8f3x9'; // Change before deploying
+  var NTFY_TOPIC = '{{ site.ntfy_topic }}';
   var COOLDOWN_MS = 60000;
   var COOLDOWN_KEY = 'coffee_last_order';
 

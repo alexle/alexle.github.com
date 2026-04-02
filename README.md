@@ -132,6 +132,16 @@ Broken links are automatically checked:
 - Runs on pushes to main that modify posts or pages
 - Creates a GitHub issue if broken links are found
 
+## Apps
+
+Interactive tools at [alexanderle.com/apps](https://alexanderle.com/apps/):
+
+- **Café au Le** - Order a fresh pourover from Alex's home bar (ntfy.sh push notifications)
+- **Pace Calculator** - Running pace, distance, and time calculator with VDOT race predictions
+- **FIRE Calculator** - Financial independence projections with asset allocation and withdrawal strategies
+- **Regex Lab** - Live regex matching with capture groups and quick reference
+- **GitHub Stats** - GitHub user profiles, language breakdown, and top repositories
+
 ## Build Validation
 
 Pull requests are automatically validated:

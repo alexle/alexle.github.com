@@ -18,6 +18,9 @@ node_modules/
 # OS
 .DS_Store
 
+# Secrets
+_config_secrets.yml
+
 # Tools
 .claude
 .git

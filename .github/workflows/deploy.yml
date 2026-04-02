@@ -31,8 +31,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Inject secrets into build config
+        run: 'echo "ntfy_topic: $NTFY_TOPIC" > _config_secrets.yml'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
       - name: Build with Jekyll
-        run: bundle exec jekyll build --future
+        run: bundle exec jekyll build --future --config _config.yml,_config_secrets.yml
         env:
           JEKYLL_ENV: production
 
