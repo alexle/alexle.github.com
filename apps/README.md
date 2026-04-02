@@ -18,11 +18,15 @@ Pick a random topic string (e.g. `cafe-au-le-x7k9m2p`) and use it in both steps 
 1. Add the topic as a GitHub repo secret:
    - **Terminal**: `gh secret set NTFY_TOPIC`
    - **Browser/mobile**: Repo → Settings → Secrets and variables → Actions → New repository secret → Name: `NTFY_TOPIC` (GitHub mobile app does not support secrets — use a phone browser in desktop mode)
-2. For local development, create `_config_secrets.yml` (gitignored):
+2. After setting or changing the secret, trigger a rebuild (deploys only run on push):
+   ```bash
+   gh workflow run deploy.yml
+   ```
+3. For local development, create `_config_secrets.yml` (gitignored):
    ```yaml
    ntfy_topic: your-topic-here
    ```
-3. Run locally with the secrets config:
+4. Run locally with the secrets config:
    ```bash
    bundle exec jekyll serve --config _config.yml,_config_secrets.yml
    ```

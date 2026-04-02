@@ -42,6 +42,9 @@ npm run jekyll:serve
 
 # Build site without serving
 bundle exec jekyll build
+
+# With app secrets (e.g. Café au Le notifications)
+bundle exec jekyll serve --config _config.yml,_config_secrets.yml --drafts
 ```
 
 ### Linting
