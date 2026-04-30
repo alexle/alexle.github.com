@@ -17,6 +17,10 @@ A simple web app which calculates your pace per mile and total time for a given 
 
 A calculator that projects when you can retire early based on your savings rate, asset allocation, and withdrawal strategy.
 
+## [Build Your Marathon Plan](/marathon/)
+
+Browse popular marathon training plans (Hansons, Daniels, Higdon, Pfitzinger), compare philosophies, and generate customizable week-by-week schedules.
+
 ## [Regex Lab](/regex/)
 
 Test regular expressions with live matching, capture groups, and a quick reference guide.
