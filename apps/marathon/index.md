@@ -1,6 +1,6 @@
 ---
 layout: app
-title: "Build Your Marathon Plan"
+title: "Marathon Buddy"
 permalink: /marathon/
 ---
 
