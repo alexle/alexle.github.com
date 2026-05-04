@@ -56,6 +56,14 @@ permalink: /marathon/
     background-repeat: no-repeat;
     background-position: right 0.7rem center;
   }
+  .field-group input[type="number"]::-webkit-outer-spin-button,
+  .field-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .field-group input[type="number"] {
+    -moz-appearance: textfield;
+  }
   .field-group select:focus,
   .field-group input:focus {
     outline: none;
