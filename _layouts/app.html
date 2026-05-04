@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <div class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title"><a href="{{ page.url }}" style="color:inherit;text-decoration:none;">{{ page.title }}</a></h1>
     {% if page.url == "/apps/" %}
     <div class="post-info">A collection of small tools and utilities I've built for fun</div>
     {% endif %}

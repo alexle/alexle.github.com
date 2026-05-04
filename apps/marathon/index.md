@@ -133,17 +133,111 @@ permalink: /marathon/
     color: inherit;
   }
 
-  .plan-summary { margin: 1.5rem 0; }
-  .plan-summary h3 {
-    font-size: 1.1rem;
-    margin: 0 0 0.5rem;
-    font-weight: 500;
+  .experience-toggle {
+    display: flex;
+    gap: 0.5rem;
   }
-  .plan-summary p {
+  .experience-toggle button {
+    flex: 1;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: transparent;
     color: var(--muted);
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin: 0 0 1rem;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  .experience-toggle button.active,
+  .experience-toggle button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .plan-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .plan-card:hover { border-color: var(--accent); }
+  .plan-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .plan-card-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .plan-card-meta {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 0.25rem;
+  }
+  .fit-badge {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .fit-badge.great { background: rgba(163,190,140,0.2); color: var(--race); }
+  .fit-badge.good { background: rgba(235,203,139,0.2); color: var(--race-pace); }
+  .fit-badge.stretch { background: rgba(191,97,106,0.15); color: var(--accent); }
+  .plan-card-details {
+    display: none;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+  .plan-card.expanded .plan-card-details { display: block; }
+  .plan-card-actions {
+    margin-top: 0.75rem;
+  }
+  .plan-card-actions button {
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: var(--accent);
+    color: inherit;
+    transition: opacity 0.2s;
+  }
+  .plan-card-actions button:hover { opacity: 0.85; }
+
+  .manual-section {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+  .manual-toggle {
+    font-size: 0.85rem;
+    color: var(--muted);
+    cursor: pointer;
+    background: none;
+    border: none;
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .manual-toggle:hover { color: var(--accent); }
+  .manual-fields { display: none; margin-top: 1rem; }
+  .manual-fields.visible { display: block; }
+
+  .section-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #d0d3d8;
+    margin: 0 0 0.75rem;
   }
 
   .characteristics {
@@ -377,63 +471,32 @@ permalink: /marathon/
 
 <div class="marathon-app">
 
-<!-- STATE: Select -->
-<div class="state active" id="state-select">
-  <p class="intro-text">Browse popular marathon training plans. Pick a plan and tier to see what it's about, then generate a full week-by-week schedule with optional customization.</p>
+<!-- STATE: Inputs -->
+<div class="state active" id="state-inputs">
+  <p class="intro-text">Tell us about your training preferences and we'll recommend the best marathon plan for you.</p>
 
   <div class="field-group">
-    <label>Training Plan</label>
-    <select id="plan-select" onchange="onPlanChange()">
-      <option value="">Choose a plan...</option>
-    </select>
-  </div>
-
-  <div class="field-group" id="tier-group" style="display:none;">
-    <label>Tier</label>
-    <select id="tier-select" onchange="onTierChange()">
-      <option value="">Choose a tier...</option>
-    </select>
-  </div>
-
-  <div id="plan-info" style="display:none;">
-    <h3 style="font-size:1.1rem; font-weight:500; margin:0 0 1rem;" id="info-title"></h3>
-    <h4 style="font-size:0.95rem; font-weight:600; color:#d0d3d8; margin:0 0 0.5rem;">Key Characteristics</h4>
-    <ol class="characteristics" id="info-chars"></ol>
-    <label style="font-size:0.85rem; color:var(--muted); margin-bottom:0.3rem; display:block;">Best For</label>
-    <div class="best-for" id="info-bestfor"></div>
-    <div class="actions">
-      <button class="btn-primary" onclick="goCustomize()">View Full Plan</button>
+    <label>Experience Level</label>
+    <div class="experience-toggle">
+      <button onclick="setExperience('beginner')">Beginner</button>
+      <button class="active" onclick="setExperience('intermediate')">Intermediate</button>
+      <button onclick="setExperience('advanced')">Advanced</button>
     </div>
-  </div>
-</div>
-
-<!-- STATE: Customize -->
-<div class="state" id="state-customize">
-  <p class="customize-header" id="cust-title"></p>
-  <p class="customize-sub" id="cust-sub"></p>
-
-  <div class="unit-toggle">
-    <button id="btn-mi" class="active" onclick="setUnit('mi')">Miles</button>
-    <button id="btn-km" onclick="setUnit('km')">Kilometers</button>
   </div>
 
   <div class="slider-group">
     <label>Peak Weekly Mileage <span class="slider-val" id="mpw-val"></span></label>
-    <input type="range" id="mpw-slider" min="30" max="85" step="1" oninput="onMpwChange()">
-  </div>
-
-  <div class="field-group">
-    <label>Race Date (optional)</label>
-    <input type="date" id="race-date" onchange="onRaceDateChange()">
-    <div class="race-date-info" id="race-date-info"></div>
+    <input type="range" id="mpw-slider" min="20" max="85" step="1" value="40" oninput="onMpwChange()">
   </div>
 
   <div class="field-group">
     <label>Days Per Week</label>
     <div class="days-toggle">
-      <button onclick="setDays(5)">5</button>
+      <button onclick="setDays(3)">3</button>
+      <button onclick="setDays(4)">4</button>
+      <button class="active" onclick="setDays(5)">5</button>
       <button onclick="setDays(6)">6</button>
-      <button class="active" onclick="setDays(7)">7</button>
+      <button onclick="setDays(7)">7</button>
     </div>
   </div>
 
@@ -442,9 +505,57 @@ permalink: /marathon/
     <input type="number" id="long-cap" min="10" max="26" step="1" placeholder="e.g. 20">
   </div>
 
+  <div class="field-group">
+    <label>Race Date (optional)</label>
+    <input type="date" id="race-date" onchange="onRaceDateChange()">
+    <div class="race-date-info" id="race-date-info"></div>
+  </div>
+
+  <div class="unit-toggle">
+    <button id="btn-mi" class="active" onclick="setUnit('mi')">Miles</button>
+    <button id="btn-km" onclick="setUnit('km')">Kilometers</button>
+  </div>
+
   <div class="actions">
-    <button class="btn-primary" onclick="generateSchedule()">Generate Schedule</button>
-    <button class="btn-secondary" onclick="showState('select')">Back</button>
+    <button class="btn-primary" onclick="findPlans()">Find Plans</button>
+  </div>
+</div>
+
+<!-- STATE: Plans -->
+<div class="state" id="state-plans">
+  <p class="section-label">Recommended Plans</p>
+  <div id="plan-cards-container"></div>
+
+  <div class="manual-section">
+    <button class="manual-toggle" onclick="toggleManual()">Or choose a plan manually</button>
+    <div class="manual-fields" id="manual-fields">
+      <div class="field-group">
+        <label>Training Plan</label>
+        <select id="plan-select" onchange="onPlanChange()">
+          <option value="">Choose a plan...</option>
+        </select>
+      </div>
+      <div class="field-group" id="tier-group" style="display:none;">
+        <label>Tier</label>
+        <select id="tier-select" onchange="onTierChange()">
+          <option value="">Choose a tier...</option>
+        </select>
+      </div>
+      <div id="plan-info" style="display:none;">
+        <h3 style="font-size:1.1rem; font-weight:500; margin:0 0 1rem;" id="info-title"></h3>
+        <h4 style="font-size:0.95rem; font-weight:600; color:#d0d3d8; margin:0 0 0.5rem;">Key Characteristics</h4>
+        <ol class="characteristics" id="info-chars"></ol>
+        <label style="font-size:0.85rem; color:var(--muted); margin-bottom:0.3rem; display:block;">Best For</label>
+        <div class="best-for" id="info-bestfor"></div>
+        <div class="actions">
+          <button class="btn-primary" onclick="selectManualPlan()">Use This Plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn-secondary" onclick="showState('inputs')">Change Inputs</button>
   </div>
 </div>
 
@@ -468,18 +579,30 @@ permalink: /marathon/
   <div id="schedule-container"></div>
 
   <div class="actions">
-    <button class="btn-secondary" onclick="showState('customize')">Customize</button>
-    <button class="btn-secondary" onclick="showState('select')">Change Plan</button>
+    <button class="btn-secondary" onclick="showState('plans')">Change Plan</button>
+    <button class="btn-secondary" onclick="showState('inputs')">Change Inputs</button>
   </div>
 </div>
 
 </div>
 
 <script>
-var APP = { planKey: '', tierKey: '', unit: 'mi', daysPerWeek: 7, targetMPW: 0, raceDate: '', longCap: 0 };
+var APP = { planKey: '', tierKey: '', unit: 'mi', daysPerWeek: 5, targetMPW: 40, raceDate: '', longCap: 0, experience: 'intermediate' };
 var KM_PER_MI = 1.609344;
-var STATES = ['select', 'customize', 'schedule'];
+var STATES = ['inputs', 'plans', 'schedule'];
 var allExpanded = false;
+
+var EXPERIENCE_MAP = {
+  beginner: [
+    ['higdon','novice1'],['higdon','novice2'],['hansons','beginner']
+  ],
+  intermediate: [
+    ['higdon','int1'],['higdon','int2'],['hansons','advanced'],['daniels','2q'],['pfitzinger','18_55'],['pfitzinger','12_55']
+  ],
+  advanced: [
+    ['higdon','adv1'],['higdon','adv2'],['daniels','4wk'],['pfitzinger','18_70'],['pfitzinger','18_85'],['pfitzinger','12_70']
+  ]
+};
 
 function showState(name) {
   STATES.forEach(function(s) {
@@ -498,8 +621,15 @@ function setUnit(u) {
 
 function setDays(n) {
   APP.daysPerWeek = n;
-  document.querySelectorAll('.days-toggle button').forEach(function(b) {
+  document.querySelectorAll('#state-inputs .days-toggle button').forEach(function(b) {
     b.classList.toggle('active', parseInt(b.textContent) === n);
+  });
+}
+
+function setExperience(level) {
+  APP.experience = level;
+  document.querySelectorAll('.experience-toggle button').forEach(function(b) {
+    b.classList.toggle('active', b.textContent.toLowerCase() === level);
   });
 }
 
@@ -515,17 +645,105 @@ function onRaceDateChange() {
   var dateStr = document.getElementById('race-date').value;
   APP.raceDate = dateStr;
   var info = document.getElementById('race-date-info');
-  if (!dateStr || !APP.tierKey) { info.textContent = ''; return; }
-  var tier = PLANS[APP.planKey].tiers[APP.tierKey];
+  if (!dateStr) { info.textContent = ''; return; }
   var race = new Date(dateStr + 'T00:00:00');
-  var start = new Date(race);
-  start.setDate(start.getDate() - tier.weeks * 7);
   var today = new Date(); today.setHours(0,0,0,0);
-  var diffDays = Math.round((start - today) / 86400000);
-  var startStr = start.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  if (diffDays > 0) info.innerHTML = 'Training starts <strong>' + startStr + '</strong> (' + diffDays + ' days from now)';
-  else if (diffDays === 0) info.innerHTML = 'Training starts <strong>today</strong>';
-  else info.innerHTML = 'Training started <strong>' + startStr + '</strong> (week ' + Math.min(Math.ceil(-diffDays / 7) + 1, tier.weeks) + ')';
+  var weeksOut = Math.round((race - today) / (7 * 86400000));
+  if (weeksOut > 0) info.innerHTML = '<strong>' + weeksOut + ' weeks</strong> until race day';
+  else if (weeksOut === 0) info.innerHTML = 'Race is <strong>this week</strong>';
+  else info.innerHTML = 'Race date is in the past';
+}
+
+function planFitScore(tier) {
+  var score = 0;
+  var mpw = parseInt(document.getElementById('mpw-slider').value);
+  var mpwDiff = Math.abs(tier.peakMPW - mpw);
+  score += Math.max(0, 40 - mpwDiff);
+  if (APP.raceDate) {
+    var race = new Date(APP.raceDate + 'T00:00:00');
+    var today = new Date(); today.setHours(0,0,0,0);
+    var weeksOut = Math.round((race - today) / (7 * 86400000));
+    if (weeksOut > 0 && tier.weeks <= weeksOut) score += 20;
+    if (weeksOut > 0 && tier.weeks > weeksOut) score -= 10;
+  }
+  return score;
+}
+
+function fitLabel(tier) {
+  var mpw = parseInt(document.getElementById('mpw-slider').value);
+  var diff = Math.abs(tier.peakMPW - mpw);
+  if (diff <= 5) return { text: 'Great fit', cls: 'great' };
+  if (diff <= 15) return { text: 'Good fit', cls: 'good' };
+  return { text: 'Stretch', cls: 'stretch' };
+}
+
+function findPlans() {
+  APP.targetMPW = parseInt(document.getElementById('mpw-slider').value);
+  APP.longCap = parseFloat(document.getElementById('long-cap').value) || 0;
+  APP.raceDate = document.getElementById('race-date').value;
+
+  var tiers = EXPERIENCE_MAP[APP.experience];
+  var scored = tiers.map(function(pair) {
+    var plan = PLANS[pair[0]];
+    var tier = plan.tiers[pair[1]];
+    return { planKey: pair[0], tierKey: pair[1], plan: plan, tier: tier, score: planFitScore(tier) };
+  });
+  scored.sort(function(a, b) { return b.score - a.score; });
+
+  var container = document.getElementById('plan-cards-container');
+  container.innerHTML = '';
+
+  scored.forEach(function(item) {
+    var fit = fitLabel(item.tier);
+    var card = document.createElement('div');
+    card.className = 'plan-card';
+    card.onclick = function(e) {
+      if (e.target.tagName === 'BUTTON') return;
+      card.classList.toggle('expanded');
+    };
+
+    var mpwLabel = APP.unit === 'km' ? Math.round(item.tier.peakMPW * KM_PER_MI) + ' kpw' : item.tier.peakMPW + ' mpw';
+
+    var html = '<div class="plan-card-header"><div><div class="plan-card-name">' + item.plan.name + ' — ' + item.tier.name + '</div>';
+    html += '<div class="plan-card-meta">' + item.tier.weeks + ' weeks · ' + mpwLabel + ' peak · Long up to ' + item.tier.maxLong + ' mi</div></div>';
+    html += '<span class="fit-badge ' + fit.cls + '">' + fit.text + '</span></div>';
+
+    html += '<div class="plan-card-details">';
+    html += '<h4 style="font-size:0.9rem; font-weight:600; color:#d0d3d8; margin:0 0 0.4rem;">Key Characteristics</h4>';
+    html += '<ol class="characteristics">';
+    item.tier.characteristics.forEach(function(c) {
+      html += '<li><span class="char-title">' + c.title + '</span>' + c.detail + '</li>';
+    });
+    html += '</ol>';
+    html += '<div class="best-for">';
+    item.tier.bestFor.forEach(function(tag) {
+      html += '<span class="tag">' + tag + '</span>';
+    });
+    html += '</div>';
+    html += '<div class="plan-card-actions"><button onclick="selectPlan(\'' + item.planKey + '\',\'' + item.tierKey + '\')">Use This Plan</button></div>';
+    html += '</div>';
+
+    card.innerHTML = html;
+    container.appendChild(card);
+  });
+
+  showState('plans');
+}
+
+function selectPlan(planKey, tierKey) {
+  APP.planKey = planKey;
+  APP.tierKey = tierKey;
+  generateSchedule();
+}
+
+function toggleManual() {
+  var fields = document.getElementById('manual-fields');
+  fields.classList.toggle('visible');
+}
+
+function selectManualPlan() {
+  if (!APP.planKey || !APP.tierKey) return;
+  generateSchedule();
 }
 
 function D(day, type, miles, desc) { return { day: day, type: type, miles: miles, desc: desc || '' }; }
@@ -1087,27 +1305,6 @@ function onTierChange() {
   planInfo.style.display = 'block';
 }
 
-function goCustomize() {
-  var tier = PLANS[APP.planKey].tiers[APP.tierKey];
-  document.getElementById('cust-title').textContent = PLANS[APP.planKey].name + ' — ' + tier.name;
-  document.getElementById('cust-sub').textContent = tier.weeks + ' weeks · Peak ' + tier.peakMPW + ' mpw · Long run up to ' + tier.maxLong + ' mi';
-
-  var slider = document.getElementById('mpw-slider');
-  slider.value = tier.peakMPW;
-  slider.min = Math.max(30, Math.round(tier.peakMPW * 0.6));
-  slider.max = Math.min(85, Math.round(tier.peakMPW * 1.3));
-  APP.targetMPW = tier.peakMPW;
-  updateMpwLabel();
-
-  document.getElementById('race-date').value = '';
-  document.getElementById('race-date-info').textContent = '';
-  document.getElementById('long-cap').value = '';
-  APP.raceDate = '';
-  APP.longCap = 0;
-
-  showState('customize');
-}
-
 // --- Mileage scaling ---
 function scaleMiles(baseMiles, ratio, dayType) {
   if (dayType === 'rest' || baseMiles === 0) return 0;
@@ -1159,14 +1356,7 @@ function getScaledSchedule() {
 // --- Render schedule ---
 function generateSchedule() {
   var tier = PLANS[APP.planKey].tiers[APP.tierKey];
-  if (!tier.schedule.length) {
-    alert('Schedule data not yet available for this plan. Try Pfitzinger 18/55.');
-    return;
-  }
-
-  APP.targetMPW = parseInt(document.getElementById('mpw-slider').value);
-  APP.longCap = parseFloat(document.getElementById('long-cap').value) || 0;
-  APP.raceDate = document.getElementById('race-date').value;
+  if (!tier.schedule.length) return;
 
   var schedule = getScaledSchedule();
   var unitLabel = APP.unit === 'km' ? 'km' : 'mi';
@@ -1230,4 +1420,5 @@ function toggleExpandAll() {
 
 // --- Init ---
 initDropdowns();
+updateMpwLabel();
 </script>
