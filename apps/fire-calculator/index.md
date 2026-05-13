@@ -177,7 +177,8 @@ permalink: /fire-calculator/
     vertical-align: middle;
   }
 
-  .legend-portfolio::before { background: var(--accent); }
+  .legend-working::before { background: var(--accent); opacity: 0.6; }
+  .legend-retired::before { background: var(--accent); opacity: 0.27; }
   .legend-fire::before {
     background: none;
     border-top: 2px dashed var(--muted);
@@ -363,7 +364,8 @@ permalink: /fire-calculator/
     <canvas id="chart"></canvas>
   </div>
   <div class="chart-legend">
-    <span class="legend-portfolio">Portfolio</span>
+    <span class="legend-working">Working</span>
+    <span class="legend-retired">Retired</span>
     <span class="legend-fire">FIRE Target</span>
   </div>
 
@@ -484,8 +486,10 @@ permalink: /fire-calculator/
 
     for (let y = 1; y <= MAX_YEARS; y++) {
       const yearReturn = portfolio * blendedReturn;
-      portfolio += annualSavings + yearReturn;
-      cumContributions += annualSavings;
+      const yearSavings = (fireYear === null) ? annualSavings : -expenses;
+      portfolio += yearSavings + yearReturn;
+      if (portfolio < 0) portfolio = 0;
+      cumContributions += yearSavings;
       cumReturns += yearReturn;
       data.push({ year: y, contributions: cumContributions, returns: cumReturns, total: portfolio });
 
@@ -599,16 +603,29 @@ permalink: /fire-calculator/
       ctx.stroke();
     }
 
-    // Portfolio area
+    // Portfolio area — accumulation phase (up to FIRE year)
     ctx.beginPath();
     ctx.moveTo(xPos(data[0].year), yPos(0));
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i <= fireYear && i < data.length; i++) {
       ctx.lineTo(xPos(data[i].year), yPos(data[i].total));
     }
-    ctx.lineTo(xPos(data[data.length - 1].year), yPos(0));
+    ctx.lineTo(xPos(data[fireYear].year), yPos(0));
     ctx.closePath();
     ctx.fillStyle = accent + '99';
     ctx.fill();
+
+    // Portfolio area — retirement phase (after FIRE year)
+    if (fireYear < data.length - 1) {
+      ctx.beginPath();
+      ctx.moveTo(xPos(data[fireYear].year), yPos(0));
+      for (let i = fireYear; i < data.length; i++) {
+        ctx.lineTo(xPos(data[i].year), yPos(data[i].total));
+      }
+      ctx.lineTo(xPos(data[data.length - 1].year), yPos(0));
+      ctx.closePath();
+      ctx.fillStyle = accent + '44';
+      ctx.fill();
+    }
 
     // FIRE target line (dashed)
     ctx.strokeStyle = muted;
