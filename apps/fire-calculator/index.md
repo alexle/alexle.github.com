@@ -11,7 +11,6 @@ permalink: /fire-calculator/
     --accent: #bf616a;
     --input-bg: #2d3033;
     --border: #444;
-    --gold: #d4a843;
   }
 
   .fire-inputs { max-width: 480px; }
@@ -178,8 +177,7 @@ permalink: /fire-calculator/
     vertical-align: middle;
   }
 
-  .legend-savings::before { background: var(--gold); }
-  .legend-returns::before { background: var(--accent); }
+  .legend-portfolio::before { background: var(--accent); }
   .legend-fire::before {
     background: none;
     border-top: 2px dashed var(--muted);
@@ -365,8 +363,7 @@ permalink: /fire-calculator/
     <canvas id="chart"></canvas>
   </div>
   <div class="chart-legend">
-    <span class="legend-savings">Savings</span>
-    <span class="legend-returns">Returns</span>
+    <span class="legend-portfolio">Portfolio</span>
     <span class="legend-fire">FIRE Target</span>
   </div>
 
@@ -585,7 +582,6 @@ permalink: /fire-calculator/
     function yPos(val) { return pad.top + plotH - (val / maxVal) * plotH; }
 
     // Style constants
-    const gold = '#d4a843';
     const accent = '#bf616a';
     const muted = '#909498';
     const gridColor = 'rgba(144,148,152,0.15)';
@@ -603,30 +599,15 @@ permalink: /fire-calculator/
       ctx.stroke();
     }
 
-    // Stacked area: returns on top of contributions
-    // Draw returns area (top)
-    ctx.beginPath();
-    ctx.moveTo(xPos(data[0].year), yPos(data[0].contributions + data[0].returns));
-    for (let i = 1; i < data.length; i++) {
-      ctx.lineTo(xPos(data[i].year), yPos(data[i].contributions + data[i].returns));
-    }
-    // Back along contributions line
-    for (let i = data.length - 1; i >= 0; i--) {
-      ctx.lineTo(xPos(data[i].year), yPos(data[i].contributions));
-    }
-    ctx.closePath();
-    ctx.fillStyle = accent + '99';
-    ctx.fill();
-
-    // Draw contributions area (bottom)
+    // Portfolio area
     ctx.beginPath();
     ctx.moveTo(xPos(data[0].year), yPos(0));
     for (let i = 0; i < data.length; i++) {
-      ctx.lineTo(xPos(data[i].year), yPos(data[i].contributions));
+      ctx.lineTo(xPos(data[i].year), yPos(data[i].total));
     }
     ctx.lineTo(xPos(data[data.length - 1].year), yPos(0));
     ctx.closePath();
-    ctx.fillStyle = gold + '99';
+    ctx.fillStyle = accent + '99';
     ctx.fill();
 
     // FIRE target line (dashed)
