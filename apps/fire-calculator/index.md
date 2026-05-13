@@ -227,6 +227,7 @@ permalink: /fire-calculator/
     border-collapse: collapse;
     margin-top: 0.5rem;
     font-size: 0.85rem;
+    table-layout: fixed;
   }
 
   .stress-table th {
@@ -235,6 +236,11 @@ permalink: /fire-calculator/
     text-align: left;
     padding: 0.35rem 0;
     border-bottom: 1px solid var(--border);
+  }
+
+  .stress-table th:first-child,
+  .stress-table td:first-child {
+    width: 30%;
   }
 
   .stress-table th:not(:first-child),
@@ -406,6 +412,20 @@ permalink: /fire-calculator/
     </thead>
     <tbody id="stress-tbody"></tbody>
   </table>
+
+  <div class="stats-header">Am I FI Today?</div>
+  <div class="stats-row">
+    <span class="stat-label">Your Current Withdrawal Rate</span>
+    <span class="stat-value" id="stat-current-wr"></span>
+  </div>
+  <div class="stat-desc" id="current-wr-desc">expenses / current net worth</div>
+  <table class="stress-table" id="fi-benchmarks">
+    <thead>
+      <tr><th>Benchmark</th><th>Required Portfolio</th><th>Gap</th></tr>
+    </thead>
+    <tbody id="fi-bench-tbody"></tbody>
+  </table>
+  <div class="fire-headline" id="fi-verdict" style="margin-top: 0.75rem;"></div>
 </div>
 </div>
 
@@ -512,7 +532,7 @@ permalink: /fire-calculator/
 
     // Stats
     document.getElementById('stat-savings').textContent = fmtMoney(annualSavings) + '/yr';
-    document.getElementById('stat-rate').textContent = (savingsRate * 100).toFixed(1) + '%';
+    document.getElementById('stat-rate').textContent = (Math.max(0, savingsRate) * 100).toFixed(1) + '%';
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
@@ -552,10 +572,37 @@ permalink: /fire-calculator/
       tbody.appendChild(tr);
     }
 
+    // Am I FI Today?
+    const currentWR = networth > 0 ? (expenses / networth) * 100 : 0;
+    document.getElementById('stat-current-wr').textContent = currentWR.toFixed(2) + '%';
+    const benchmarks = [3, 3.5, 4];
+    const benchTbody = document.getElementById('fi-bench-tbody');
+    benchTbody.innerHTML = '';
+    let verdict = 'Not yet';
+    for (const bench of benchmarks) {
+      const required = expenses / (bench / 100);
+      const gap = required - networth;
+      const tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + bench.toFixed(1) + '% (SWR)</td>' +
+        '<td>' + fmtMoney(required) + '</td>' +
+        '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
+      benchTbody.appendChild(tr);
+    }
+    if (currentWR <= 3) verdict = 'Safe';
+    else if (currentWR <= 4) verdict = 'Lean';
+    const verdictEl = document.getElementById('fi-verdict');
+    if (verdict === 'Safe') {
+      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Safe</strong> — your portfolio covers expenses at a conservative withdrawal rate';
+    } else if (verdict === 'Lean') {
+      verdictEl.innerHTML = '<strong style="color:#e0a458">Lean</strong> — you could retire today, but with less safety margin';
+    } else {
+      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover expenses at a 4% withdrawal rate';
+    }
+
     document.getElementById('results-section').style.display = 'block';
 
-    // Trim data to fireYear + some padding for chart
-    const chartYears = Math.min(fireYear + 10, MAX_YEARS);
+    // Chart extends to 20 years or fireYear + 10, whichever is longer
+    const chartYears = Math.min(Math.max(20, fireYear + 10), MAX_YEARS);
     const chartData = data.slice(0, chartYears + 1);
     drawChart(chartData, fireNumber, fireYear);
   }
