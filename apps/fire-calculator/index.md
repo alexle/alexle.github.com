@@ -465,7 +465,7 @@ permalink: /fire-calculator/
       return;
     }
 
-    if (income <= 0) { showError('Income must be greater than 0.'); return; }
+    if (income < 0) { showError('Income cannot be negative.'); return; }
     if (expenses >= income) {
       const el = document.getElementById('warning');
       el.textContent = 'Expenses exceed income — savings rate is negative. Results assume no new contributions.';
@@ -474,7 +474,7 @@ permalink: /fire-calculator/
     if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
 
     const annualSavings = income - expenses;
-    const savingsRate = annualSavings / income;
+    const savingsRate = income > 0 ? annualSavings / income : 0;
     const blendedReturn = (allocStocks * retStocks + allocBonds * retBonds + allocCash * retCash) / 100;
     const fireNumber = expenses / wr;
 
