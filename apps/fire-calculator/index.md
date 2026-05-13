@@ -408,7 +408,7 @@ permalink: /fire-calculator/
   <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;">Annual spend at FIRE portfolio size</div>
   <table class="stress-table" id="stress-table">
     <thead>
-      <tr><th>Rate</th><th>Annual Spend</th><th>vs. Expenses</th></tr>
+      <tr><th>Rate</th><th>Annual Spend</th></tr>
     </thead>
     <tbody id="stress-tbody"></tbody>
   </table>
@@ -562,13 +562,10 @@ permalink: /fire-calculator/
     for (const rate of rates) {
       const rateDecimal = rate / 100;
       const annualSpend = firePortfolio * rateDecimal;
-      const diff = (annualSpend - expenses) / 12;
-      const diffStr = (diff >= 0 ? '+' : '') + fmtMoney(diff) + '/mo';
       const tr = document.createElement('tr');
       if (rate === userRate) tr.className = 'stress-active';
       tr.innerHTML = '<td>' + rate.toFixed(1) + '%' + (rate === userRate ? ' ←' : '') + '</td>' +
-        '<td>' + fmtMoney(annualSpend) + '/yr</td>' +
-        '<td>' + diffStr + '</td>';
+        '<td>' + fmtMoney(annualSpend) + '/yr</td>';
       tbody.appendChild(tr);
     }
 
