@@ -1,0 +1,36 @@
+{
+  "total": 78,
+  "successful": 71,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 0,
+  "excludes": 5,
+  "errors": 2,
+  "cached": 0,
+  "success_map": {},
+  "fail_map": {
+    "_posts/2012/2012-07-06-tips-for-hiking-your-first-14er.markdown": [
+      {
+        "url": "http://www.highaltitudelife.com/dehydration.htm",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      }
+    ],
+    "_posts/2018/2018-01-14-2017-running.markdown": [
+      {
+        "url": "http://nebula.wsimg.com/70d33d555c5f6687e6a85a44967db7d4?AccessKeyId=03E1F425BA7E669E575B&disposition=0&alloworigin=1",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 410
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "excluded_map": {},
+  "duration_secs": 4,
+  "detailed_stats": false
+}
