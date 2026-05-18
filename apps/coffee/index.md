@@ -394,6 +394,6 @@ permalink: /coffee/
 
   // Enter key on confirm screen places order
   document.getElementById('customer-name').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') placeOrder();
+    if (e.key === 'Enter' && !document.getElementById('btn-place').disabled) placeOrder();
   });
 </script>

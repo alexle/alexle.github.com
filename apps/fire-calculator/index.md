@@ -570,8 +570,8 @@ permalink: /fire-calculator/
     }
 
     // Am I FI Today?
-    const currentWR = networth > 0 ? (expenses / networth) * 100 : 0;
-    document.getElementById('stat-current-wr').textContent = currentWR.toFixed(2) + '%';
+    const currentWR = networth > 0 ? (expenses / networth) * 100 : null;
+    document.getElementById('stat-current-wr').textContent = currentWR !== null ? currentWR.toFixed(2) + '%' : 'N/A';
     const benchmarks = [3, 3.5, 4];
     const benchTbody = document.getElementById('fi-bench-tbody');
     benchTbody.innerHTML = '';
@@ -585,8 +585,8 @@ permalink: /fire-calculator/
         '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
       benchTbody.appendChild(tr);
     }
-    if (currentWR <= 3) verdict = 'Safe';
-    else if (currentWR <= 4) verdict = 'Lean';
+    if (currentWR !== null && currentWR <= 3) verdict = 'Safe';
+    else if (currentWR !== null && currentWR <= 4) verdict = 'Lean';
     const verdictEl = document.getElementById('fi-verdict');
     if (verdict === 'Safe') {
       verdictEl.innerHTML = '<strong style="color:#a3d9a5">Safe</strong> — your portfolio covers expenses at a conservative withdrawal rate';
