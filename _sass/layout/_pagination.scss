@@ -1,6 +1,5 @@
 
-.pagination,
-.post-nav {
+.pagination {
   font-weight: bold;
   font-size: 1.2rem;
   padding: .2rem 0 1.2rem;
@@ -29,34 +28,33 @@
   span.pagination-current {
     color: $accent-color;
   }
+}
 
-  .home {
-    transition: all .3s ease-out;
+.post-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: .2rem 0 1.2rem;
+
+  a { /* stylelint-disable-line no-descending-specificity */
     color: $main-font-color;
-    opacity: .6;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  .arrow {
     transition: all .3s ease-out;
-    color: $main-font-color;
-    position: absolute;
 
     &:hover,
     &:focus {
-      opacity: .6;
+      color: $muted-color;
       text-decoration: none;
     }
-  }
 
-  .left {
-    left: 0;
-  }
+    &.home {
+      opacity: .6;
 
-  .right {
-    right: 0;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
