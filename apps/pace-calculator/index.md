@@ -369,31 +369,28 @@ permalink: /pace-calculator/
     return Math.round((lo + hi) / 2);
   }
 
+  let canonicalDistKm = null;
+
   function setUnit(u) {
-    const prevUnit = unit;
     unit = u;
     document.getElementById('btn-mi').classList.toggle('active', u === 'mi');
     document.getElementById('btn-km').classList.toggle('active', u === 'km');
     document.getElementById('pace-unit').textContent = u === 'mi' ? '/ mi' : '/ km';
     document.getElementById('dist-unit').textContent = u;
 
-    // Convert existing distance value
+    // Convert from canonical km value to avoid rounding drift
     const distInput = document.getElementById('distance');
-    if (distInput.value) {
-      const val = parseFloat(distInput.value);
-      if (!isNaN(val) && prevUnit !== u) {
-        distInput.value = u === 'km' ? (val * KM_PER_MI).toFixed(2) : (val / KM_PER_MI).toFixed(2);
-      }
+    if (canonicalDistKm !== null) {
+      distInput.value = (u === 'km' ? canonicalDistKm : canonicalDistKm / KM_PER_MI).toFixed(2);
     }
 
-    // Update selected preset highlight
     updatePresetHighlight();
   }
 
   function setPreset(km, name) {
+    canonicalDistKm = km;
     const dist = unit === 'km' ? km : km / KM_PER_MI;
     document.getElementById('distance').value = dist.toFixed(2);
-    // Highlight selected preset
     document.querySelectorAll('.presets button').forEach(b => {
       b.classList.toggle('selected', b.textContent === name);
     });
@@ -440,7 +437,11 @@ permalink: /pace-calculator/
   }
 
   function getDist() {
-    return parseFloat(document.getElementById('distance').value);
+    const val = parseFloat(document.getElementById('distance').value);
+    if (!isNaN(val)) {
+      canonicalDistKm = unit === 'km' ? val : val * KM_PER_MI;
+    }
+    return val;
   }
 
   function fmtPace(totalSec) {

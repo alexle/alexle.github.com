@@ -412,7 +412,7 @@ permalink: /github-stats/
     const joined = new Date(user.created_at);
     const memberYears = new Date().getFullYear() - joined.getFullYear();
     const parts = [];
-    if (user.location) parts.push(user.location);
+    if (user.location) parts.push(escapeHtml(user.location));
     parts.push('<strong>' + user.public_repos + '</strong> repos');
     parts.push('<strong>' + user.followers + '</strong> followers');
     parts.push('Joined ' + joined.getFullYear() + ' (' + memberYears + ' yr' + (memberYears !== 1 ? 's' : '') + ')');

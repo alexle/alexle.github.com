@@ -371,7 +371,9 @@ permalink: /coffee/
       method: 'POST',
       headers: { 'Title': MSG.notifTitle },
       body: body
-    }).catch(function() {});
+    }).catch(function() {
+      document.getElementById('done-msg').textContent = 'Order placed, but notification may not have sent.';
+    });
 
     recordOrder();
     showState('brewing');
