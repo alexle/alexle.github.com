@@ -31,15 +31,15 @@
 }
 
 .post-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   font-weight: bold;
   font-size: 1.2rem;
   padding: .2rem 0 1.2rem;
-  text-align: center;
 
   a { /* stylelint-disable-line no-descending-specificity */
     color: $main-font-color;
-    padding: 7px 14px;
-    display: inline-block;
     transition: all .3s ease-out;
 
     &:hover {
