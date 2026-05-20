@@ -39,19 +39,11 @@
   padding: .2rem 0 1.2rem;
 
   a { /* stylelint-disable-line no-descending-specificity */
-    color: $main-font-color;
+    color: $accent-color;
     transition: all .3s ease-out;
 
     &:hover {
-      color: $muted-color;
-    }
-
-    &.home {
-      opacity: .6;
-
-      &:hover {
-        opacity: 1;
-      }
+      color: $main-font-color;
     }
   }
 }
