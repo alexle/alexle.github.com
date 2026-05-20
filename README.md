@@ -49,34 +49,24 @@ bundle exec jekyll serve --config _config.yml,_config_secrets.yml --drafts
 
 ### Linting
 
-This project uses HTMLHint and Stylelint for code quality. A pre-commit hook automatically runs linters before committing.
+SCSS linting runs automatically via pre-commit hook.
 
-- `npm run lint` - Run HTML linting
-- `npm run lint:scss` - Run SCSS linting
-- `npm run lint:scss:fix` - Auto-fix SCSS issues
+- `npm run lint` - Run SCSS linting
+- `npm run lint:fix` - Auto-fix SCSS issues
 
-**Configuration:**
-
-- HTML rules: `.htmlhintrc`
-- SCSS rules: `.stylelintrc.json`
+**Configuration:** `.stylelintrc.json`
 
 ## Pre-commit Hooks
 
-Automated code quality checks run before each commit:
+Automated code quality checks run before each commit via **Husky** (`.husky/pre-commit`):
 
-**Husky** (`.husky/pre-commit`):
-
-- HTML and SCSS linting
-
-**pre-commit** (`.pre-commit-config.yaml`):
-
-- Post filename validation (kebab-case)
+- SCSS linting
+- Post filename validation (kebab-case, only when `_posts/` files are staged)
 
 Post filenames must follow the format: `YYYY-MM-DD-kebab-case-title.markdown`
 
 **Commands:**
 
-- `pre-commit run --all-files` - Run all pre-commit hooks manually
 - `npm run prepare` - Reinstall Husky hooks after changes
 - `--no-verify` flag - Skip hooks temporarily
 
@@ -84,29 +74,26 @@ Post filenames must follow the format: `YYYY-MM-DD-kebab-case-title.markdown`
 
 Create blog posts from anywhere using GitHub Issues:
 
-1. **Create a new issue**:
-   - Open GitHub mobile app
-   - Navigate to repository and tap "+" for new issue
+1. **Create a new issue** (from phone or desktop):
    - Title: Your post title
    - Body: Your post content in markdown
+   - Optional: Include `Tags: tag1, tag2` on its own line
 
-2. **Add tags** (optional):
-   - Include line: `Tags: tag1, tag2` in the issue body
+2. **Publish immediately** — add the `new-post` label:
+   - Workflow creates a formatted post in `_posts/YYYY/`
+   - Issue is closed with a link to the published post
 
-3. **Working with drafts**:
-   - Create issue without the "new-post" label
-   - Continue editing until ready
-   - Add the "new-post" label when ready to publish
+3. **Save as draft** — add the `draft` label:
+   - Workflow saves to `_drafts/`
+   - Issue stays open with the filename noted
+   - Preview locally with `bundle exec jekyll serve --drafts`
 
-4. **Publish post**:
-   - First create the issue WITHOUT the "new-post" label
-   - Add the "new-post" label when ready to publish
-   - Workflow creates properly formatted post file
-   - Issue is automatically closed with link to published post
+4. **Publish a draft** — add the `publish` label to the same issue:
+   - Workflow moves the file from `_drafts/` to `_posts/YYYY/`
+   - Issue is closed with a link to the live post
 
 5. **Edit existing posts**:
-   - Navigate to `_posts` folder in GitHub
-   - Edit the markdown file directly
+   - Navigate to `_posts` folder in GitHub and edit directly
 
 ## Image Optimization
 

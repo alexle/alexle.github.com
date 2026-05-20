@@ -1,0 +1,155 @@
+name: draft-post-from-issue
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  create-draft:
+    if: github.event.label.name == 'draft'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create draft post from issue
+        id: create-draft
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          TITLE="$ISSUE_TITLE"
+          BODY="$ISSUE_BODY"
+
+          if [ -z "$(echo "$BODY" | tr -d '[:space:]')" ]; then
+            echo "error=empty" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Extract tags if specified
+          TAGS=""
+          if echo "$BODY" | grep -q "Tags:"; then
+            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r' | xargs)
+            BODY=$(echo "$BODY" | grep -v "Tags:")
+          fi
+
+          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -dc 'a-z0-9-')
+          DATE=$(date +%Y-%m-%d)
+
+          mkdir -p "_drafts"
+
+          {
+            printf '%s\n' '---'
+            printf '%s\n' 'layout: post'
+            printf 'title: "%s"\n' "$TITLE"
+            printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
+            if [ -n "$TAGS" ]; then
+              printf 'tags: %s\n' "$TAGS"
+            fi
+            printf 'issue: %s\n' "$ISSUE_NUMBER"
+            printf '%s\n\n' '---'
+            printf '%s\n' "$BODY"
+          } > "_drafts/$DATE-$SLUG.markdown"
+
+          echo "slug=${SLUG}" >> $GITHUB_OUTPUT
+          echo "filename=$DATE-$SLUG.markdown" >> $GITHUB_OUTPUT
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "_drafts/$DATE-$SLUG.markdown"
+          git commit -m "Add draft: $ISSUE_TITLE"
+          git push
+
+      - name: Comment on issue (empty body)
+        if: steps.create-draft.outputs.error == 'empty'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              ...context.issue,
+              body: `⚠️ Issue body is empty — no draft was created. Add content and re-apply the \`draft\` label.`
+            });
+
+      - name: Comment on issue (success)
+        if: steps.create-draft.outputs.error != 'empty'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const filename = "${{ steps.create-draft.outputs.filename }}";
+            await github.rest.issues.createComment({
+              ...context.issue,
+              body: `📝 Draft saved as \`_drafts/${filename}\`.\n\nWhen ready to publish, add the \`publish\` label to this issue.`
+            });
+
+  publish-draft:
+    if: github.event.label.name == 'publish'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish draft
+        id: publish
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          # Find the draft file that references this issue number
+          DRAFT=$(grep -rl "issue: $ISSUE_NUMBER" _drafts/ 2>/dev/null | head -1)
+
+          if [ -z "$DRAFT" ]; then
+            echo "error=not_found" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          FILENAME=$(basename "$DRAFT")
+          YEAR=$(date +%Y)
+          mkdir -p "_posts/$YEAR"
+
+          # Remove the issue frontmatter field before publishing
+          sed -i '/^issue: /d' "$DRAFT"
+
+          mv "$DRAFT" "_posts/$YEAR/$FILENAME"
+
+          SLUG=$(echo "$FILENAME" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//' | sed 's/\.markdown$//' | sed 's/\.md$//')
+          echo "slug=${SLUG}" >> $GITHUB_OUTPUT
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Publish draft: $FILENAME"
+          git push
+
+      - name: Comment on issue (not found)
+        if: steps.publish.outputs.error == 'not_found'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              ...context.issue,
+              body: `⚠️ No draft found for this issue. Make sure you added the \`draft\` label first.`
+            });
+
+      - name: Comment on issue (published)
+        if: steps.publish.outputs.error != 'not_found'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const slug = "${{ steps.publish.outputs.slug }}";
+            const url = `https://alexanderle.com/${slug}`;
+            await github.rest.issues.createComment({
+              ...context.issue,
+              body: `✅ Published! View it at: ${url}`
+            });
+            await github.rest.issues.update({
+              ...context.issue,
+              state: 'closed'
+            });

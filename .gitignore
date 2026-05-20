@@ -8,7 +8,6 @@ _drafts
 # Ruby
 *.gem
 .bundle
-Gemfile.lock
 .Gemfile.un~
 vendor/
 

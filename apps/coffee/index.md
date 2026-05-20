@@ -392,6 +392,10 @@ permalink: /coffee/
   }
 
   // --- Init ---
+  if (!COFFEE_SUB) {
+    document.getElementById('btn-order').disabled = true;
+    document.getElementById('cooldown-msg').textContent = 'Ordering unavailable (not configured)';
+  }
   updateCooldownUI();
 
   // Enter key on confirm screen places order

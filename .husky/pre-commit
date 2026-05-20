@@ -2,4 +2,10 @@
 echo "Running SCSS linter..."
 npm run lint || (echo "SCSS linting failed. Please fix issues before committing." && exit 1)
 
+# Lint post filenames (kebab-case)
+if git diff --cached --name-only | grep -q '^_posts/'; then
+  echo "Checking post filenames..."
+  ./scripts/lint-post-filenames.sh || exit 1
+fi
+
 echo "Linting passed!"

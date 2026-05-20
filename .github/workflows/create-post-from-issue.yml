@@ -24,13 +24,18 @@ jobs:
           TITLE="$ISSUE_TITLE"
           BODY="$ISSUE_BODY"
 
+          # Validate body is not empty
+          if [ -z "$(echo "$BODY" | tr -d '[:space:]')" ]; then
+            echo "error=empty" >> $GITHUB_OUTPUT
+            echo "Issue body is empty — skipping post creation."
+            exit 0
+          fi
+
           # Extract tags if specified in body with "Tags: tag1, tag2"
+          TAGS=""
           if echo "$BODY" | grep -q "Tags:"; then
-            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r')
-            # Remove the Tags line from the body
+            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r' | xargs)
             BODY=$(echo "$BODY" | grep -v "Tags:")
-          else
-            TAGS=""
           fi
 
           # Create filename-friendly slug
@@ -47,7 +52,9 @@ jobs:
             printf '%s\n' 'layout: post'
             printf 'title: "%s"\n' "$TITLE"
             printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
-            printf 'tags: %s\n' "$TAGS"
+            if [ -n "$TAGS" ]; then
+              printf 'tags: %s\n' "$TAGS"
+            fi
             printf '%s\n\n' '---'
             printf '%s\n' "$BODY"
           } > "_posts/$YEAR/$DATE-$SLUG.markdown"
@@ -63,13 +70,25 @@ jobs:
           git commit -m "Add new post: $ISSUE_TITLE"
           git push
 
-      - name: Comment on issue
+      - name: Comment on issue (empty body)
+        if: steps.create-post.outputs.error == 'empty'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              ...context.issue,
+              body: `⚠️ Issue body is empty — no post was created. Add content and re-apply the \`new-post\` label.`
+            });
+
+      - name: Comment on issue (success)
+        if: steps.create-post.outputs.error != 'empty'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const slug = "${{ steps.create-post.outputs.slug }}";
-            const url = `https://alexanderle.com/${slug}.html`;
+            const url = `https://alexanderle.com/${slug}`;
             await github.rest.issues.createComment({
               ...context.issue,
               body: `✅ Post published! View it at: ${url}`
