@@ -20,9 +20,10 @@ layout: default
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592; Prev</a>
   {% endif %}
+
+  <a href="/" class="home">Home</a>
+
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">Next &#8594;</a>
   {% endif %}
-
-  <a href="/" class="home">Home</a>
 </div>
