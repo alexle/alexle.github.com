@@ -15,7 +15,7 @@ I was shuttled to the ER in the middle of the night. The pain was unbearable. I 
 
 Injuries are awful. We all hear about the pain. The rehab. The setbacks.
 
-But what no one talks about is the grief.
+But one thing people don't talk about often is the grief.
 
 The grief of losing a version of yourself that was built over years. And knowing it was all taken away -- not by choice -- but by accident.
 
@@ -23,7 +23,7 @@ I think what hurts the most is simply the ache of _what could have been_.
 
 ## Acceptance
 
-I still work through the 5 stages of grief.
+Honestly, I still work through the 5 stages of grief.
 
 But one surprise I didn't expect was the new sense of perspective.
 
