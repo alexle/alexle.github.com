@@ -585,15 +585,15 @@ permalink: /fire-calculator/
         '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
       benchTbody.appendChild(tr);
     }
-    if (currentWR !== null && currentWR <= 3) verdict = 'Safe';
-    else if (currentWR !== null && currentWR <= 4) verdict = 'Lean';
+    if (currentWR !== null && currentWR <= 4) verdict = 'Safe';
+    else if (currentWR !== null && currentWR <= 5) verdict = 'Lean';
     const verdictEl = document.getElementById('fi-verdict');
     if (verdict === 'Safe') {
-      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Safe</strong> — your portfolio covers expenses at a conservative withdrawal rate';
+      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Safe</strong> — your portfolio covers expenses at a 4% withdrawal rate';
     } else if (verdict === 'Lean') {
-      verdictEl.innerHTML = '<strong style="color:#e0a458">Lean</strong> — you could retire today, but with less safety margin';
+      verdictEl.innerHTML = '<strong style="color:#e0a458">Lean</strong> — you could retire today, but it\'s a stretch';
     } else {
-      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover expenses at a 4% withdrawal rate';
+      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover expenses at a sustainable withdrawal rate';
     }
 
     document.getElementById('results-section').style.display = 'block';
