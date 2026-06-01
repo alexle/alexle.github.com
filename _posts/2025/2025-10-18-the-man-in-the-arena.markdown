@@ -19,15 +19,15 @@ I used to worry about what others thought when I started something new.
 - What if they make negative comments?
 - What if they were right?
 
-Until I realized that most criticism comes from people who aren't even trying -- people who rather judge than take action themselves.
+Until I realized that most criticism comes from people who aren't even trying. People who rather judge than take action themselves.
 
-It costs nothing to criticize — to sit back, point out flaws, and say how things should have been done differently.
+It costs nothing to criticize. To sit back and poke holes in others' efforts. To say how things should have been done differently.
 
 Staying on the sidelines is easy.
 
 Stepping into the arena takes courage. To build. To begin. To take a chance on something that might not succeed.
 
-I've come to greatly respect those who try -- even if it's not perfect. I find myself rooting for those who dare to put themselves out there and go after something real.
+I've come to greatly respect those who try. Even if it's not perfect. Lately, I find myself rooting for those who dare to put themselves out there and go after something real.
 
 ## Dare Greatly
 
@@ -35,7 +35,7 @@ I've often wondered how people can be so quick to judge. But hesitant to take ri
 
 Perhaps it's envy. Or a stark reminder of what they're unwilling to chase.
 
-Because if you did succeed, they'd have to face the possibility that they could have tried harder. Simpler to be negative than to confront their fears.
+Because if you succeeded, they'd have to face the possibility that they could have too. That they could have tried harder. Simpler to be negative than to confront their fears.
 
 So the next time you catch yourself holding back — waiting for the stars to align, or worried about what others might think — remember this:
 
