@@ -27,7 +27,7 @@ Staying on the sidelines is easy.
 
 Stepping into the arena takes courage. To build. To begin. To take a chance on something that might not succeed.
 
-I've come to greatly respect those who try. Even if it's not perfect. Lately, I find myself rooting for those who dare to put themselves out there and go after something real.
+I've come to greatly respect those who try and put themselves out there. Even if it's not perfect. 
 
 ## Dare Greatly
 
