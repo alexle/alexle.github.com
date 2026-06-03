@@ -34,7 +34,7 @@ The workflows can be found in [create-post-from-issue.yml](https://github.com/al
 
 The beauty of this approach is in its simplicity. No need for special apps or services. It leverages tools I already use every day. And best of all it's on the same platform which this static site is hosted on. Chef's kiss.
 
-Writing blog posts can now be as simple as writing an email or text message. And with draft mode, I can jot down ideas whenever inspiration strikes without the pressure of publishing right away.
+Writing blog posts can now be as simple as writing an email or text message. And with draft mode, I can jot down ideas in the moment, without any pressure of creating the "perfect" post.
 
 Sometimes the best solutions aren't about adding complexity. But about reducing friction.
 
