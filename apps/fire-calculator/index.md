@@ -271,17 +271,9 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Investable Assets</label>
+  <label>Net Investable Assets</label>
   <div class="inputs">
     <input type="number" id="networth" min="0" step="1000" placeholder="100000">
-    <span class="unit-label">$</span>
-  </div>
-</div>
-
-<div class="field-group">
-  <label>Home Equity (optional, excluded from FIRE number)</label>
-  <div class="inputs">
-    <input type="number" id="home-equity" min="0" step="1000" placeholder="0">
     <span class="unit-label">$</span>
   </div>
 </div>
@@ -306,14 +298,6 @@ permalink: /fire-calculator/
   <label>Safe Withdrawal Rate</label>
   <div class="inputs">
     <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4">
-    <span class="unit-label">%</span>
-  </div>
-</div>
-
-<div class="field-group">
-  <label>Effective Tax Rate on Withdrawals (optional)</label>
-  <div class="inputs">
-    <input type="number" id="tax-rate" min="0" max="60" step="1" value="0">
     <span class="unit-label">%</span>
   </div>
 </div>
@@ -405,11 +389,6 @@ permalink: /fire-calculator/
     <span class="stat-label">Blended Return</span>
     <span class="stat-value" id="stat-return"></span>
   </div>
-  <div class="stats-row" id="stat-home-equity-row" style="display: none;">
-    <span class="stat-label">Home Equity (excluded)</span>
-    <span class="stat-value" id="stat-home-equity"></span>
-  </div>
-
   <div class="stats-header">Milestones</div>
   <div class="stats-row">
     <span class="stat-label">FIRE Number</span>
@@ -515,7 +494,6 @@ permalink: /fire-calculator/
     const income = val('income');
     const expenses = val('expenses');
     const networth = val('networth');
-    const homeEquity = val('home-equity');
     const allocStocks = val('alloc-stocks');
     const allocBonds = val('alloc-bonds');
     const allocCash = val('alloc-cash');
@@ -523,7 +501,6 @@ permalink: /fire-calculator/
     const retBonds = val('return-bonds') / 100;
     const retCash = val('return-cash') / 100;
     const wr = val('withdrawal-rate') / 100;
-    const taxRate = val('tax-rate') / 100;
 
     // Validation
     const allocSum = allocStocks + allocBonds + allocCash;
@@ -539,13 +516,11 @@ permalink: /fire-calculator/
       el.style.display = 'block';
     }
     if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
-    if (taxRate < 0 || taxRate >= 1) { showError('Tax rate must be between 0% and 100%.'); return; }
 
     const annualSavings = income - expenses;
     const savingsRate = income > 0 ? annualSavings / income : 0;
     const blendedReturn = (allocStocks * retStocks + allocBonds * retBonds + allocCash * retCash) / 100;
-    const requiredWithdrawal = expenses / (1 - taxRate);
-    const fireNumber = requiredWithdrawal / wr;
+    const fireNumber = expenses / wr;
 
     // Projection
     let portfolio = networth;
@@ -586,14 +561,6 @@ permalink: /fire-calculator/
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
-
-    const homeEquityRow = document.getElementById('stat-home-equity-row');
-    if (homeEquity > 0) {
-      document.getElementById('stat-home-equity').textContent = fmtMoney(homeEquity);
-      homeEquityRow.style.display = 'flex';
-    } else {
-      homeEquityRow.style.display = 'none';
-    }
 
     // Confidence range: same projection at +/-1.5% on the blended return
     const RETURN_SPREAD = 0.015;
