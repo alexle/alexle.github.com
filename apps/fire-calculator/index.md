@@ -259,6 +259,7 @@ permalink: /fire-calculator/
 
 <div class="fire-calc">
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
+<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">All amounts are in today's dollars — the return assumptions below are already net of inflation.</p>
 
 <div class="fire-inputs">
 <div class="field-group">
@@ -270,9 +271,17 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Current Net Worth</label>
+  <label>Investable Assets</label>
   <div class="inputs">
     <input type="number" id="networth" min="0" step="1000" placeholder="100000">
+    <span class="unit-label">$</span>
+  </div>
+</div>
+
+<div class="field-group">
+  <label>Home Equity (optional, excluded from FIRE number)</label>
+  <div class="inputs">
+    <input type="number" id="home-equity" min="0" step="1000" placeholder="0">
     <span class="unit-label">$</span>
   </div>
 </div>
@@ -297,6 +306,14 @@ permalink: /fire-calculator/
   <label>Safe Withdrawal Rate</label>
   <div class="inputs">
     <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4">
+    <span class="unit-label">%</span>
+  </div>
+</div>
+
+<div class="field-group">
+  <label>Effective Tax Rate on Withdrawals (optional)</label>
+  <div class="inputs">
+    <input type="number" id="tax-rate" min="0" max="60" step="1" value="0">
     <span class="unit-label">%</span>
   </div>
 </div>
@@ -388,6 +405,10 @@ permalink: /fire-calculator/
     <span class="stat-label">Blended Return</span>
     <span class="stat-value" id="stat-return"></span>
   </div>
+  <div class="stats-row" id="stat-home-equity-row" style="display: none;">
+    <span class="stat-label">Home Equity (excluded)</span>
+    <span class="stat-value" id="stat-home-equity"></span>
+  </div>
 
   <div class="stats-header">Milestones</div>
   <div class="stats-row">
@@ -398,6 +419,15 @@ permalink: /fire-calculator/
     <span class="stat-label">FIRE Year</span>
     <span class="stat-value" id="stat-fire-year"></span>
   </div>
+  <div class="stats-row">
+    <span class="stat-label">Conservative</span>
+    <span class="stat-value" id="stat-fire-age-conservative"></span>
+  </div>
+  <div class="stats-row">
+    <span class="stat-label">Optimistic</span>
+    <span class="stat-value" id="stat-fire-age-optimistic"></span>
+  </div>
+  <div class="stat-desc" id="fire-range-desc">Age range at +/-1.5% on your blended return</div>
   <div class="stats-row">
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
@@ -453,6 +483,22 @@ permalink: /fire-calculator/
     return document.getElementById(id).value.trim() === '';
   }
 
+  // Finds the year a portfolio crosses fireNumber under a given constant return rate.
+  // Mirrors the main projection loop's logic without tracking the full data series —
+  // used only to derive the confidence range.
+  function findFireYear(networth, annualSavings, expenses, returnRate, fireNumber) {
+    let portfolio = networth;
+    let fireYear = null;
+    for (let y = 1; y <= MAX_YEARS; y++) {
+      const yearReturn = portfolio * returnRate;
+      const yearSavings = (fireYear === null) ? annualSavings : -expenses;
+      portfolio += yearSavings + yearReturn;
+      if (portfolio < 0) portfolio = 0;
+      if (fireYear === null && portfolio >= fireNumber) fireYear = y;
+    }
+    return fireYear;
+  }
+
   function calculate() {
     document.getElementById('error').style.display = 'none';
     document.getElementById('warning').style.display = 'none';
@@ -469,6 +515,7 @@ permalink: /fire-calculator/
     const income = val('income');
     const expenses = val('expenses');
     const networth = val('networth');
+    const homeEquity = val('home-equity');
     const allocStocks = val('alloc-stocks');
     const allocBonds = val('alloc-bonds');
     const allocCash = val('alloc-cash');
@@ -476,6 +523,7 @@ permalink: /fire-calculator/
     const retBonds = val('return-bonds') / 100;
     const retCash = val('return-cash') / 100;
     const wr = val('withdrawal-rate') / 100;
+    const taxRate = val('tax-rate') / 100;
 
     // Validation
     const allocSum = allocStocks + allocBonds + allocCash;
@@ -491,11 +539,13 @@ permalink: /fire-calculator/
       el.style.display = 'block';
     }
     if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
+    if (taxRate < 0 || taxRate >= 1) { showError('Tax rate must be between 0% and 100%.'); return; }
 
     const annualSavings = income - expenses;
     const savingsRate = income > 0 ? annualSavings / income : 0;
     const blendedReturn = (allocStocks * retStocks + allocBonds * retBonds + allocCash * retCash) / 100;
-    const fireNumber = expenses / wr;
+    const requiredWithdrawal = expenses / (1 - taxRate);
+    const fireNumber = requiredWithdrawal / wr;
 
     // Projection
     let portfolio = networth;
@@ -536,6 +586,23 @@ permalink: /fire-calculator/
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
+
+    const homeEquityRow = document.getElementById('stat-home-equity-row');
+    if (homeEquity > 0) {
+      document.getElementById('stat-home-equity').textContent = fmtMoney(homeEquity);
+      homeEquityRow.style.display = 'flex';
+    } else {
+      homeEquityRow.style.display = 'none';
+    }
+
+    // Confidence range: same projection at +/-1.5% on the blended return
+    const RETURN_SPREAD = 0.015;
+    const conservativeYear = findFireYear(networth, annualSavings, expenses, blendedReturn - RETURN_SPREAD, fireNumber);
+    const optimisticYear = findFireYear(networth, annualSavings, expenses, blendedReturn + RETURN_SPREAD, fireNumber);
+    document.getElementById('stat-fire-age-conservative').textContent =
+      conservativeYear === null ? MAX_YEARS + '+ yrs' : 'Age ' + Math.round(age + conservativeYear);
+    document.getElementById('stat-fire-age-optimistic').textContent =
+      optimisticYear === null ? MAX_YEARS + '+ yrs' : 'Age ' + Math.round(age + optimisticYear);
 
     // Coast FI: present value of FIRE number discounted back fireYear years
     const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
