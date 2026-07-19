@@ -55,5 +55,5 @@ Keep in mind these tips are based on my experiences, and each person's comfort l
 [3]: http://en.wikipedia.org/wiki/A_Game_of_Thrones
 [4]: http://www.clifbar.com/food/products_shot_bloks/
 [5]: http://14ers.com/
-[7]: http://www.highaltitudelife.com/dehydration.htm
+[7]: https://web.archive.org/web/http://www.highaltitudelife.com/dehydration.htm
 [8]: http://www.14ers.com/classes.html
