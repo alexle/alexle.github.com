@@ -107,8 +107,13 @@ permalink: /fire-calculator/
 
   .supplemental-row .field-group { margin-bottom: 0; }
 
-  @media (max-width: 420px) {
+  @media (max-width: 520px) {
     .supplemental-row { grid-template-columns: 1fr; }
+
+    .alloc-row {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
   }
 
   .section-label {
@@ -318,15 +323,27 @@ permalink: /fire-calculator/
 
   .gap-negative { color: var(--accent); }
   .gap-positive { color: #a3d9a5; }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 </style>
 
 <div class="fire-calc">
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
-<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">FI means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns. Reference <a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">Withdrawal-rate research</a>.</p>
+<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">FI means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns (<a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">link</a>).</p>
 
-<div class="fire-inputs">
+<form class="fire-inputs" id="fire-form" novalidate>
 <div class="field-group">
-  <label>Current Age</label>
+  <label for="age">Current Age</label>
   <div class="inputs">
     <input type="number" id="age" min="18" max="80" placeholder="30" required>
     <span class="unit-label">yrs</span>
@@ -334,7 +351,7 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Net Investable Assets</label>
+  <label for="networth">Net Investable Assets</label>
   <div class="inputs">
     <input type="number" id="networth" min="0" step="1" placeholder="100000" required>
     <span class="unit-label">$</span>
@@ -342,7 +359,7 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Annual Income (after tax)</label>
+  <label for="income">Annual Income (after tax)</label>
   <div class="inputs">
     <input type="number" id="income" min="0" step="1" placeholder="50000" required>
     <span class="unit-label">$</span>
@@ -350,7 +367,7 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Annual Expenses</label>
+  <label for="expenses">Annual Expenses</label>
   <div class="inputs">
     <input type="number" id="expenses" min="0" step="1" placeholder="40000" required>
     <span class="unit-label">$</span>
@@ -361,7 +378,7 @@ permalink: /fire-calculator/
 <summary>Adjust assumptions (optional)<span class="assumption-summary" id="assumption-summary">4% withdrawal · 80/15/5 allocation · 6.9% blended real return</span></summary>
 
 <div class="field-group">
-  <label>Withdrawal Rate</label>
+  <label for="withdrawal-rate">Withdrawal Rate</label>
   <div class="inputs">
     <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4" required>
     <span class="unit-label">%</span>
@@ -372,14 +389,14 @@ permalink: /fire-calculator/
   <summary>Supplemental income (optional)</summary>
   <div class="supplemental-row">
     <div class="field-group">
-      <label>Supplemental Per Month</label>
+      <label for="supplemental-monthly">Supplemental Per Month</label>
       <div class="inputs">
         <input type="number" id="supplemental-monthly" min="0" step="1" placeholder="0">
         <span class="unit-label">$</span>
       </div>
     </div>
     <div class="field-group">
-      <label>Starting At Age</label>
+      <label for="supplemental-age">Starting At Age</label>
       <div class="inputs">
         <input type="number" id="supplemental-age" min="18" max="120" placeholder="67">
         <span class="unit-label">yrs</span>
@@ -392,21 +409,21 @@ permalink: /fire-calculator/
 
 <div class="alloc-row">
   <div class="field-group">
-    <label>Stocks</label>
+    <label for="alloc-stocks">Stocks</label>
     <div class="inputs">
       <input type="number" id="alloc-stocks" min="0" max="100" value="80" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
-    <label>Bonds</label>
+    <label for="alloc-bonds">Bonds</label>
     <div class="inputs">
       <input type="number" id="alloc-bonds" min="0" max="100" value="15" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
-    <label>Cash</label>
+    <label for="alloc-cash">Cash</label>
     <div class="inputs">
       <input type="number" id="alloc-cash" min="0" max="100" value="5" required>
       <span class="unit-label">%</span>
@@ -419,21 +436,21 @@ permalink: /fire-calculator/
 
 <div class="alloc-row">
   <div class="field-group">
-    <label>Stocks</label>
+    <label for="return-stocks">Stocks</label>
     <div class="inputs">
       <input type="number" id="return-stocks" min="0" max="30" step="0.5" value="8" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
-    <label>Bonds</label>
+    <label for="return-bonds">Bonds</label>
     <div class="inputs">
       <input type="number" id="return-bonds" min="0" max="30" step="0.5" value="3" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
-    <label>Cash</label>
+    <label for="return-cash">Cash</label>
     <div class="inputs">
       <input type="number" id="return-cash" min="0" max="30" step="0.5" value="1" required>
       <span class="unit-label">%</span>
@@ -443,15 +460,15 @@ permalink: /fire-calculator/
 </details>
 
 <div class="actions">
-  <button class="btn-calc" onclick="calculate()">Calculate</button>
-  <button class="btn-clear" onclick="clearResults()">Clear</button>
+  <button class="btn-calc" type="submit">Calculate</button>
+  <button class="btn-clear" id="clear-button" type="button">Clear</button>
 </div>
 
-<div class="warning-msg" id="warning"></div>
-<div class="error-msg" id="error"></div>
-</div>
+<div class="warning-msg" id="warning" role="status" aria-live="polite"></div>
+<div class="error-msg" id="error" role="alert" aria-live="assertive"></div>
+</form>
 
-<div class="results-section" id="results-section">
+<div class="results-section" id="results-section" aria-live="polite">
   <div class="fire-headline" id="headline"></div>
 
   <div class="action-insights" id="action-insights">
@@ -460,7 +477,8 @@ permalink: /fire-calculator/
   </div>
 
   <div class="chart-container" id="chart-container">
-    <canvas id="chart"></canvas>
+    <canvas id="chart" role="img" aria-describedby="chart-summary">Portfolio projection chart</canvas>
+    <p class="visually-hidden" id="chart-summary"></p>
   </div>
   <div class="chart-legend" id="chart-legend">
     <span class="legend-working">Working</span>
@@ -490,15 +508,17 @@ permalink: /fire-calculator/
     <span class="stat-label">FIRE Number</span>
     <span class="stat-value milestone-value" id="stat-fire-number"></span>
   </div>
-  <div class="stats-row" id="coast-fi-row">
+  <div id="coast-fi-group">
+  <div class="stats-row">
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
   </div>
-  <div class="stat-desc" id="coast-fi-desc">Portfolio needed today to coast with $0 savings</div>
+  <div class="stat-desc">Portfolio needed today to reach the FIRE target by <span id="coast-fi-year"></span> with $0 additional savings</div>
+  </div>
 
   <div class="stats-header">Target by Withdrawal Rate</div>
   <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;"></div>
-  <table class="stress-table" id="stress-table">
+  <table class="stress-table">
     <thead>
       <tr><th>Rate</th><th>Target Portfolio</th></tr>
     </thead>
@@ -507,7 +527,7 @@ permalink: /fire-calculator/
 
   <div class="stats-header">Am I FI Today?</div>
   <div class="fire-headline" id="fi-verdict" style="margin: 0.5rem 0 0.75rem;"></div>
-  <table class="stress-table" id="fi-benchmarks">
+  <table class="stress-table">
     <thead>
       <tr><th>Benchmark</th><th>Required Portfolio</th><th>Gap</th></tr>
     </thead>
@@ -734,18 +754,15 @@ permalink: /fire-calculator/
     document.getElementById('stat-fire-year').textContent = fireYear === null ? 'Not within ' + MAX_YEARS + ' years' : (currentYear + fireYear).toString();
 
     // Coast FI: present value of FIRE number discounted back to today
-    const coastRow = document.getElementById('coast-fi-row');
+    const coastGroup = document.getElementById('coast-fi-group');
     const coastEl = document.getElementById('stat-coast-fi');
     const coastLabel = document.getElementById('stat-coast-fi-label');
-    const coastDesc = document.getElementById('coast-fi-desc');
     if (fireYear === null) {
-      coastRow.style.display = 'none';
-      coastDesc.style.display = 'none';
+      coastGroup.style.display = 'none';
     } else {
       const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
-      coastRow.style.display = 'flex';
-      coastDesc.style.display = 'block';
-      coastDesc.textContent = 'Portfolio needed today to reach the FIRE target by ' + (currentYear + fireYear) + ' with $0 additional savings';
+      coastGroup.style.display = 'block';
+      document.getElementById('coast-fi-year').textContent = currentYear + fireYear;
       coastEl.textContent = fmtMoney(coastFI);
       if (networth >= coastFI) {
         coastLabel.innerHTML = 'Coast FI Number <span class="coast-reached">(reached)</span>';
@@ -799,11 +816,15 @@ permalink: /fire-calculator/
     if (fireYear === null) {
       chartContainer.style.display = 'none';
       chartLegend.style.display = 'none';
+      document.getElementById('chart-summary').textContent = '';
     } else {
       chartContainer.style.display = 'block';
       chartLegend.style.display = 'flex';
       const chartYears = Math.min(Math.max(20, fireYear + 10), MAX_YEARS);
       const chartData = data.slice(0, chartYears + 1);
+      document.getElementById('chart-summary').textContent =
+        'Portfolio projection from ' + fmtMoney(networth) + ' today to a FIRE target of ' + fmtMoney(fireNumber) +
+        ' in ' + (currentYear + fireYear) + ', assuming a constant ' + (blendedReturn * 100).toFixed(1) + '% real return.';
       drawChart(chartData, fireNumber, fireYear);
     }
   }
@@ -925,7 +946,8 @@ permalink: /fire-calculator/
     }
   }
 
-  function clearResults() {
+  function resetCalculator() {
+    document.getElementById('fire-form').reset();
     document.getElementById('results-section').style.display = 'none';
     document.getElementById('error').style.display = 'none';
     document.getElementById('warning').style.display = 'none';
@@ -933,12 +955,16 @@ permalink: /fire-calculator/
     document.querySelectorAll('.field-group input').forEach(function(input) {
       setFieldError(input.id, false);
     });
+    document.querySelectorAll('details').forEach(function(details) { details.open = false; });
+    updateAssumptionSummary();
   }
 
-  // Enter key triggers calculation
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') calculate();
+  document.getElementById('fire-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    calculate();
   });
+
+  document.getElementById('clear-button').addEventListener('click', resetCalculator);
 
   document.querySelectorAll('.field-group input').forEach(function(input) {
     input.addEventListener('input', function() {
