@@ -294,13 +294,14 @@ permalink: /fire-calculator/
 
 <div class="fire-calc">
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
+<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">Financial independence means your investments can cover your living expenses.</p>
 <p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">All amounts are in today's dollars — the return assumptions below are already net of inflation.</p>
 
 <div class="fire-inputs">
 <div class="field-group">
   <label>Current Age</label>
   <div class="inputs">
-    <input type="number" id="age" min="18" max="80" placeholder="30">
+    <input type="number" id="age" min="18" max="80" placeholder="30" required>
     <span class="unit-label">yrs</span>
   </div>
 </div>
@@ -308,7 +309,7 @@ permalink: /fire-calculator/
 <div class="field-group">
   <label>Net Investable Assets</label>
   <div class="inputs">
-    <input type="number" id="networth" min="0" step="1000" placeholder="100000">
+    <input type="number" id="networth" min="0" step="1" placeholder="100000" required>
     <span class="unit-label">$</span>
   </div>
 </div>
@@ -316,7 +317,7 @@ permalink: /fire-calculator/
 <div class="field-group">
   <label>Annual Income (after tax)</label>
   <div class="inputs">
-    <input type="number" id="income" min="0" step="1000" placeholder="50000">
+    <input type="number" id="income" min="0" step="1" placeholder="50000" required>
     <span class="unit-label">$</span>
   </div>
 </div>
@@ -324,7 +325,7 @@ permalink: /fire-calculator/
 <div class="field-group">
   <label>Annual Expenses</label>
   <div class="inputs">
-    <input type="number" id="expenses" min="0" step="1000" placeholder="40000">
+    <input type="number" id="expenses" min="0" step="1" placeholder="40000" required>
     <span class="unit-label">$</span>
   </div>
 </div>
@@ -332,7 +333,7 @@ permalink: /fire-calculator/
 <div class="field-group">
   <label>Safe Withdrawal Rate</label>
   <div class="inputs">
-    <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4">
+    <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4" required>
     <span class="unit-label">%</span>
   </div>
 </div>
@@ -343,7 +344,7 @@ permalink: /fire-calculator/
     <div class="field-group">
       <label>Supplemental Per Month</label>
       <div class="inputs">
-        <input type="number" id="supplemental-monthly" min="0" step="100" placeholder="0">
+        <input type="number" id="supplemental-monthly" min="0" step="1" placeholder="0">
         <span class="unit-label">$</span>
       </div>
     </div>
@@ -363,21 +364,21 @@ permalink: /fire-calculator/
   <div class="field-group">
     <label>Stocks</label>
     <div class="inputs">
-      <input type="number" id="alloc-stocks" min="0" max="100" value="80">
+      <input type="number" id="alloc-stocks" min="0" max="100" value="80" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
     <label>Bonds</label>
     <div class="inputs">
-      <input type="number" id="alloc-bonds" min="0" max="100" value="15">
+      <input type="number" id="alloc-bonds" min="0" max="100" value="15" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
     <label>Cash</label>
     <div class="inputs">
-      <input type="number" id="alloc-cash" min="0" max="100" value="5">
+      <input type="number" id="alloc-cash" min="0" max="100" value="5" required>
       <span class="unit-label">%</span>
     </div>
   </div>
@@ -390,21 +391,21 @@ permalink: /fire-calculator/
   <div class="field-group">
     <label>Stocks</label>
     <div class="inputs">
-      <input type="number" id="return-stocks" min="0" max="30" step="0.5" value="8">
+      <input type="number" id="return-stocks" min="0" max="30" step="0.5" value="8" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
     <label>Bonds</label>
     <div class="inputs">
-      <input type="number" id="return-bonds" min="0" max="30" step="0.5" value="3">
+      <input type="number" id="return-bonds" min="0" max="30" step="0.5" value="3" required>
       <span class="unit-label">%</span>
     </div>
   </div>
   <div class="field-group">
     <label>Cash</label>
     <div class="inputs">
-      <input type="number" id="return-cash" min="0" max="30" step="0.5" value="1">
+      <input type="number" id="return-cash" min="0" max="30" step="0.5" value="1" required>
       <span class="unit-label">%</span>
     </div>
   </div>
@@ -453,7 +454,6 @@ permalink: /fire-calculator/
     <span class="stat-label">FIRE Number</span>
     <span class="stat-value milestone-value" id="stat-fire-number"></span>
   </div>
-  <div class="stat-desc" id="fire-number-desc">Target for funding retirement at selected withdrawal rate</div>
   <div class="stats-row">
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
@@ -511,13 +511,19 @@ permalink: /fire-calculator/
     else input.removeAttribute('aria-invalid');
   }
 
-  function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age) {
+  function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age, returnRate) {
+    const noSupplementTarget = expenses / withdrawalRate;
     if (supplementalAnnual <= 0 || supplementalAge <= age) {
       return Math.max(0, expenses - supplementalAnnual) / withdrawalRate;
     }
+
     const bridgeYears = supplementalAge - age;
+    const annualGap = Math.min(expenses, supplementalAnnual);
     const ongoingExpenses = Math.max(0, expenses - supplementalAnnual);
-    return ongoingExpenses / withdrawalRate + Math.min(expenses, supplementalAnnual) * bridgeYears;
+    const bridge = returnRate === 0
+      ? annualGap * bridgeYears
+      : annualGap * (1 - Math.pow(1 + returnRate, -bridgeYears)) / returnRate;
+    return Math.min(noSupplementTarget, ongoingExpenses / withdrawalRate + bridge);
   }
 
   function calculate() {
@@ -525,13 +531,13 @@ permalink: /fire-calculator/
     document.getElementById('warning').style.display = 'none';
     document.getElementById('alloc-error').style.display = 'none';
 
-    // Check required fields
-    const required = ['age', 'income', 'expenses', 'networth', 'alloc-stocks', 'alloc-bonds', 'alloc-cash', 'return-stocks', 'return-bonds', 'return-cash', 'withdrawal-rate'];
-    const emptyFields = required.filter(isEmpty);
-    required.forEach(function(id) { setFieldError(id, emptyFields.includes(id)); });
-    setFieldError('supplemental-age', false);
-    if (emptyFields.length > 0) {
-      showError('Please fill in all fields.');
+    const inputs = Array.from(document.querySelectorAll('.field-group input'));
+    const invalidInputs = inputs.filter(function(input) { return !input.checkValidity(); });
+    inputs.forEach(function(input) { setFieldError(input.id, invalidInputs.includes(input)); });
+    if (invalidInputs.length > 0) {
+      const hasMissingValue = invalidInputs.some(function(input) { return input.validity.valueMissing; });
+      showError(hasMissingValue ? 'Please fill in all required fields.' : 'Please enter values within the allowed ranges.');
+      invalidInputs[0].focus();
       return;
     }
 
@@ -557,13 +563,11 @@ permalink: /fire-calculator/
       return;
     }
 
-    if (income < 0) { showError('Income cannot be negative.'); return; }
     if (expenses >= income) {
       const el = document.getElementById('warning');
       el.textContent = 'Expenses exceed income — savings rate is negative. Results assume no new contributions.';
       el.style.display = 'block';
     }
-    if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
     if (supplementalMonthly > 0 && isEmpty('supplemental-age')) {
       setFieldError('supplemental-age', true);
       showError('Enter the age when supplemental income begins.');
@@ -578,14 +582,14 @@ permalink: /fire-calculator/
     const annualSavings = income - expenses;
     const savingsRate = income > 0 ? annualSavings / income : 0;
     const blendedReturn = (allocStocks * retStocks + allocBonds * retBonds + allocCash * retCash) / 100;
-    let fireNumber = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age);
+    let fireNumber = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age, blendedReturn);
 
     // Projection
     let portfolio = networth;
     let cumContributions = networth;
     let cumReturns = 0;
     const data = [{ year: 0, contributions: cumContributions, returns: 0, total: portfolio }];
-    let fireYear = null;
+    let fireYear = portfolio >= fireNumber ? 0 : null;
 
     for (let y = 1; y <= MAX_YEARS; y++) {
       const yearReturn = portfolio * blendedReturn;
@@ -598,7 +602,7 @@ permalink: /fire-calculator/
       cumReturns += yearReturn;
       data.push({ year: y, contributions: cumContributions, returns: cumReturns, total: portfolio });
 
-      const currentTarget = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, currentAge);
+      const currentTarget = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, currentAge, blendedReturn);
       if (fireYear === null && portfolio >= currentTarget) {
         fireYear = y;
         fireNumber = currentTarget;
@@ -614,8 +618,14 @@ permalink: /fire-calculator/
     // Headline
     const fireAge = Math.round(age + fireYear);
     const currentYear = new Date().getFullYear();
-    document.getElementById('headline').innerHTML =
-      'You can reach Financial Independence in <strong>' + fireYear + ' years by age ' + fireAge + '</strong>';
+    if (fireYear === 0) {
+      document.getElementById('headline').innerHTML =
+        '<strong>You are financially independent today at age ' + fireAge + '</strong>';
+    } else {
+      const yearLabel = fireYear === 1 ? 'year' : 'years';
+      document.getElementById('headline').innerHTML =
+        'You can reach Financial Independence in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
+    }
 
     // Stats
     document.getElementById('stat-savings').textContent = fmtMoney(annualSavings) + '/yr';
@@ -657,7 +667,7 @@ permalink: /fire-calculator/
     // Am I FI Today?
     const benchTbody = document.getElementById('fi-bench-tbody');
     benchTbody.innerHTML = '';
-    const requiredToday = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age);
+    const requiredToday = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age, blendedReturn);
     const gap = requiredToday - networth;
     const tr = document.createElement('tr');
     const gapValue = gap > 0
