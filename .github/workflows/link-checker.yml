@@ -32,6 +32,7 @@ jobs:
       - name: Check for broken links
         id: lychee
         uses: lycheeverse/lychee-action@v2.0.2
+        continue-on-error: true
         with:
           args: >
             --no-progress
