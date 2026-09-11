@@ -12,7 +12,7 @@ group :jekyll_plugins do
 end
 
 # Windows does not include zoneinfo files.
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 # Windows uses wdm to watch for file changes.
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
