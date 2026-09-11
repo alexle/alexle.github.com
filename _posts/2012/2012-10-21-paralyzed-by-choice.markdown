@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Paralyzed By Choice"
 date: 2012-10-21
 tags: life

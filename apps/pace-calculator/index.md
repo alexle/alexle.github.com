@@ -6,78 +6,9 @@ permalink: /pace-calculator/
 
 <!-- markdownlint-disable MD033 -->
 <style>
-  /* Theme tokens — single source of truth for app-specific values not inherited */
-  .pace-calc {
-    --muted: #909498;
-    --accent: #bf616a;
-    --input-bg: #2d3033;
-    --border: #444;
-  }
-
   /* Unit toggle */
   .unit-toggle {
-    display: flex;
     margin-bottom: 1.5rem;
-  }
-
-  .unit-toggle button {
-    flex: 1;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--muted);
-    background: transparent;
-    color: var(--muted);
-    font: inherit;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-  }
-
-  .unit-toggle button:first-child { border-radius: 4px 0 0 4px; }
-  .unit-toggle button:last-child { border-radius: 0 4px 4px 0; }
-
-  .unit-toggle button.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: inherit;
-  }
-
-  /* Field groups */
-  .field-group { margin-bottom: 1rem; }
-
-  .field-group label {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .field-group .inputs {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-  }
-
-  .field-group input {
-    background: var(--input-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: inherit;
-    font: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    -moz-appearance: textfield;
-  }
-
-  .field-group input::-webkit-outer-spin-button,
-  .field-group input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .field-group input:focus {
-    outline: none;
-    border-color: var(--accent);
   }
 
   .field-group .time-inputs {
@@ -91,9 +22,6 @@ permalink: /pace-calculator/
   .field-group .time-inputs .sep { color: var(--muted); font-size: 1.2rem; }
 
   .field-group .unit-label {
-    color: var(--muted);
-    font-size: 0.85rem;
-    white-space: nowrap;
     min-width: 3rem;
   }
 
@@ -121,45 +49,6 @@ permalink: /pace-calculator/
   .presets button.selected {
     border-color: var(--accent);
     color: var(--accent);
-  }
-
-  /* Action buttons */
-  .actions {
-    display: flex;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-  }
-
-  .actions button {
-    padding: 0.55rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font: inherit;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-  }
-
-  .btn-calc { background: var(--accent); color: inherit; }
-  .btn-calc:hover { opacity: 0.85; }
-
-  .btn-clear {
-    background: transparent;
-    border: 1px solid var(--muted) !important;
-    color: var(--muted);
-  }
-
-  .btn-clear:hover {
-    border-color: inherit !important;
-    color: inherit;
-  }
-
-  /* Results */
-  .results-section {
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
-    margin-top: 0.5rem;
-    display: none;
   }
 
   .results-section .result-row {

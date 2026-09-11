@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "My First Half Marathon: Race Recap And Experience"
 date: 2013-06-20
 tags: running

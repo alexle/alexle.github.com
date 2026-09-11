@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Repost: Farewell Blogger"
 date: 2012-02-07
 tags: programming

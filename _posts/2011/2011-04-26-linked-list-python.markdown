@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "'Write a linked list in python..'"
 date: 2011-04-26
 tags: programming

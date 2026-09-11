@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The One Minute Manager"
 date: 2011-03-13
 tags: misc

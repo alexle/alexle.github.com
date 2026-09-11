@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Rock n Roll Denver Marathon: My Worst Run Ever"
 date: 2013-10-26
 tags: running

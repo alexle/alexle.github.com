@@ -7,44 +7,12 @@ permalink: /regex/
 <!-- markdownlint-disable MD033 -->
 <style>
   .regex-app {
-    --muted: #909498;
-    --accent: #bf616a;
-    --input-bg: #2d3033;
-    --border: #444;
     --gold: #d4a843;
     --match-bg: rgba(212, 168, 67, 0.3);
   }
 
   .cheat-wrapper {
     margin: 0 0 2rem;
-  }
-
-  .field-group { margin-bottom: 1rem; }
-
-  .field-group label {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .field-group input,
-  .field-group textarea {
-    background: var(--input-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: inherit;
-    font: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .field-group input:focus,
-  .field-group textarea:focus {
-    outline: none;
-    border-color: var(--accent);
   }
 
   .field-group textarea {
@@ -90,14 +58,6 @@ permalink: /regex/
     font-size: 0.85rem;
     margin-top: 0.5rem;
     min-height: 1.2em;
-  }
-
-  /* Results */
-  .results-section {
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
-    margin-top: 0.5rem;
-    display: none;
   }
 
   .section-heading {

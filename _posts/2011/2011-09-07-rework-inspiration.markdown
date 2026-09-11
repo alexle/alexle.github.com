@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Rework 'Inspiration'"
 date: 2011-09-07
 tags: life

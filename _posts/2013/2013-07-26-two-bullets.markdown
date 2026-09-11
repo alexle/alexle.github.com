@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Russian Gangster Kidnaps You.."
 date: 2013-07-26
 tags: programming

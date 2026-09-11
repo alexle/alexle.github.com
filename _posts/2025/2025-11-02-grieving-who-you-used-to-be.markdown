@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Grieving Who You Used To Be"
 date: 2025-11-02 00:59:55
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "12 Signs That You're A Runner"
 date: 2013-09-27
 tags: running

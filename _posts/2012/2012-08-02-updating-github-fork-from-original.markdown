@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Keeping A Github Fork Updated"
 date: 2012-08-02
 tags: programming

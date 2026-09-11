@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2011: The Year Of The Hustle"
 date: 2011-01-18
 tags: retrospective

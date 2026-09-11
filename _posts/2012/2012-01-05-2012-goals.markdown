@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2012 Goals"
 date: 2012-01-05
 tags: retrospective

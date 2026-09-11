@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Change How You See The World With One Word"
 date: 2017-03-24
 tags: life

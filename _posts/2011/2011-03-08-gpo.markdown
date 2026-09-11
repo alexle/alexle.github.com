@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GPO!"
 date: 2011-03-08
 tags: misc

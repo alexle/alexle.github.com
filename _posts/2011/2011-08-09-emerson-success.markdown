@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What Does Success Mean To You? Here is Ralph Waldo Emerson's Take"
 date: 2011-08-09
 tags: life

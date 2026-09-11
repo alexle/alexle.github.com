@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Man In The Arena"
 date: 2025-10-18 15:33:17
 tags:

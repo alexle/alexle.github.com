@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pearl Street Mile: Bring Back The Mile!"
 date: 2016-08-14
 tags: running

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How To Send A SMS Message With Python (easy way)"
 date: 2013-05-05
 tags: programming

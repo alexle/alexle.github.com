@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Neovim Keybindings
 date: 2025-12-21
 tags: programming

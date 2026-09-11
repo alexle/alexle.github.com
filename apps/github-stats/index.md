@@ -6,76 +6,7 @@ permalink: /github-stats/
 
 <!-- markdownlint-disable MD033 -->
 <style>
-  .gh-stats {
-    --muted: #909498;
-    --accent: #bf616a;
-    --input-bg: #2d3033;
-    --border: #444;
-  }
-
   .gh-inputs { max-width: 480px; }
-
-  .field-group { margin-bottom: 1rem; }
-
-  .field-group label {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .field-group .inputs {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-  }
-
-  .field-group input {
-    background: var(--input-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: inherit;
-    font: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    -moz-appearance: textfield;
-  }
-
-  .field-group input:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-
-  .actions {
-    display: flex;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-  }
-
-  .actions button {
-    padding: 0.55rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font: inherit;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-  }
-
-  .btn-calc { background: var(--accent); color: inherit; }
-  .btn-calc:hover { opacity: 0.85; }
-
-  .btn-clear {
-    background: transparent;
-    border: 1px solid var(--muted) !important;
-    color: var(--muted);
-  }
-
-  .btn-clear:hover {
-    border-color: inherit !important;
-    color: inherit;
-  }
 
   .error-msg {
     color: var(--accent);
@@ -98,10 +29,7 @@ permalink: /github-stats/
 
   /* Results */
   .results-section {
-    border-top: 1px solid var(--border);
     padding-top: 1.5rem;
-    margin-top: 0.5rem;
-    display: none;
   }
 
   .profile-card {

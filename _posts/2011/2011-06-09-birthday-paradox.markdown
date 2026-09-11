@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Birthday Paradox"
 date: 2011-06-09
 tags: programming

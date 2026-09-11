@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Create An RSS Feed From Scratch"
 date: 2012-04-11
 tags: programming

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2015 Chicago Marathon Recap"
 date: 2015-11-21
 categories: running

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why I Don't Like Running But Still Do It Anyways"
 date: 2012-05-08
 tags: running

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Training For A Marathon In 9 Weeks"
 date: 2013-09-06
 tags: running

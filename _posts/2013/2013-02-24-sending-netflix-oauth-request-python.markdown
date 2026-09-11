@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sending Netflix OAuth Requests With Python"
 date: 2013-02-24
 tags: programming

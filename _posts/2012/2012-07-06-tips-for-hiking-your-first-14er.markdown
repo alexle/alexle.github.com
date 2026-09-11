@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "10 Tips For Hiking Your First 14er"
 date: 2012-07-06
 tags: misc

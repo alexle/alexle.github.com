@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2013 In Review: Running, Muscle-Ups, And More"
 date: 2013-12-31
 tags: retrospective

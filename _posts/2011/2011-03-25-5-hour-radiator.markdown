@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 5 Hour Radiator Replacement
 date: 2011-03-25
 tags: misc

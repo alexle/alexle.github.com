@@ -7,10 +7,6 @@ permalink: /coffee/
 <!-- markdownlint-disable MD033 -->
 <style>
   .coffee-order {
-    --muted: #909498;
-    --accent: #bf616a;
-    --input-bg: #2d3033;
-    --border: #444;
     --gold: #d4a843;
   }
 
@@ -77,66 +73,9 @@ permalink: /coffee/
     font-size: 0.8rem;
   }
 
-  /* Field groups */
-  .field-group { margin-bottom: 1rem; }
-
-  .field-group label {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .field-group input {
-    background: var(--input-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: inherit;
-    font: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .field-group input:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-
-  /* Action buttons */
-  .actions {
-    display: flex;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-  }
-
-  .actions button {
-    padding: 0.55rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font: inherit;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-  }
-
-  .btn-order { background: var(--accent); color: inherit; }
-  .btn-order:hover { opacity: 0.85; }
   .btn-order:disabled {
     opacity: 0.4;
     cursor: not-allowed;
-  }
-
-  .btn-back {
-    background: transparent;
-    border: 1px solid var(--muted) !important;
-    color: var(--muted);
-  }
-
-  .btn-back:hover {
-    border-color: inherit !important;
-    color: inherit;
   }
 
   /* Cooldown */
@@ -145,10 +84,6 @@ permalink: /coffee/
     font-size: 0.8rem;
     margin-top: 0.3rem;
   }
-
-  /* State sections */
-  .state { display: none; }
-  .state.active { display: block; }
 
   /* Brewing / done states */
   .status-text {

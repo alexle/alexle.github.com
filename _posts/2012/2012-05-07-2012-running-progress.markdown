@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Update On 2012 Running Progress"
 date: 2012-05-07
 tags: running

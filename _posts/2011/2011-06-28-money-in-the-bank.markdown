@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Putting Money In The Bank"
 date: 2011-06-28
 tags: life

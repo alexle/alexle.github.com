@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Conquering My First 14er (Gray's And Torrey's)"
 date: 2012-07-04
 tags: misc

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mail: How Do I Switch To A Career In Software?"
 date: 2013-05-21
 tags: programming

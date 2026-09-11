@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How Technical Debt Affects Your Developers"
 date: 2016-10-16
 tags: programming

@@ -49,7 +49,6 @@ jobs:
           # Write front matter and content
           {
             printf '%s\n' '---'
-            printf '%s\n' 'layout: post'
             printf 'title: "%s"\n' "$TITLE"
             printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
             if [ -n "$TAGS" ]; then

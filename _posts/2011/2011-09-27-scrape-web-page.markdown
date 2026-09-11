@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Scrape a web page with python (Criminal Minds)"
 date: 2011-09-27
 tags: programming

@@ -7,11 +7,7 @@ permalink: /fire-calculator/
 <!-- markdownlint-disable MD033 -->
 <style>
   .fire-calc {
-    --muted: #909498;
-    --accent: #bf616a;
     --highlight: #a3d9a5;
-    --input-bg: #2d3033;
-    --border: #444;
   }
 
   .fire-inputs { max-width: 480px; }
@@ -25,53 +21,12 @@ permalink: /fire-calculator/
   .fire-intro p { margin: 0 0 0.6rem; }
   .fire-intro p:last-child { margin-bottom: 0; }
 
-  .field-group { margin-bottom: 1rem; }
-
-  .field-group label {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .field-group .inputs {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-  }
-
-  .field-group input {
-    background: var(--input-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: inherit;
-    font: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    -moz-appearance: textfield;
-  }
-
-  .field-group input::-webkit-outer-spin-button,
-  .field-group input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .field-group input:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-
   .field-group input.input-error {
     border-color: var(--accent);
     box-shadow: 0 0 0 1px var(--accent);
   }
 
   .field-group .unit-label {
-    color: var(--muted);
-    font-size: 0.85rem;
-    white-space: nowrap;
     min-width: 1.5rem;
   }
 
@@ -128,36 +83,6 @@ permalink: /fire-calculator/
     display: none;
   }
 
-  .actions {
-    display: flex;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-  }
-
-  .actions button {
-    padding: 0.55rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font: inherit;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-  }
-
-  .btn-calc { background: var(--accent); color: inherit; }
-  .btn-calc:hover { opacity: 0.85; }
-
-  .btn-clear {
-    background: transparent;
-    border: 1px solid var(--muted) !important;
-    color: var(--muted);
-  }
-
-  .btn-clear:hover {
-    border-color: inherit !important;
-    color: inherit;
-  }
-
   .error-msg {
     color: var(--accent);
     font-size: 0.85rem;
@@ -168,13 +93,6 @@ permalink: /fire-calculator/
   .warning-msg {
     color: #e0a458;
     font-size: 0.85rem;
-    margin-top: 0.5rem;
-    display: none;
-  }
-
-  .results-section {
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
     margin-top: 0.5rem;
     display: none;
   }

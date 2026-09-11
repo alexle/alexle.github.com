@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How To Setup A Simple HTTP Server With Python"
 date: 2012-02-09
 tags: programming

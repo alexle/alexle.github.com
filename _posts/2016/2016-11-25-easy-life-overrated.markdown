@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why An Easy Life Is Overrated"
 date: 2016-11-25
 tags: life

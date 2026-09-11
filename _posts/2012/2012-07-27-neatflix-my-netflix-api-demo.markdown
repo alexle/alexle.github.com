@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Neatflix: A Netflix API Demo"
 date: 2012-07-27
 tags: programming

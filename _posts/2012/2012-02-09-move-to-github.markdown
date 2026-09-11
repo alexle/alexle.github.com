@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why I Moved My Blog To Github Pages"
 date: 2012-02-09
 tags: programming

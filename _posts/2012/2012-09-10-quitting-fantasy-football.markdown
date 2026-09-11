@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Quitting Fantasy Football"
 date: 2012-09-10
 tags: misc

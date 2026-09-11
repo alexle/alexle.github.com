@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Using GitHub Actions To Blog From Your Phone"
 date: 2025-10-14 01:01:23
 tags:

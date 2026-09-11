@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Make Your Own Luck"
 date: 2012-11-19
 tags: life

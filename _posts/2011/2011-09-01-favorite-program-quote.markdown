@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Favorite Programming Quotes
 date: 2011-09-01
 tags: programming

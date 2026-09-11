@@ -1,0 +1,131 @@
+:where(.app-shell) {
+  --muted: #909498;
+  --accent: #bf616a;
+  --input-bg: #2d3033;
+  --border: #444;
+
+  .state { display: none; }
+  .state.active { display: block; }
+
+  .field-group { margin-bottom: 1rem; }
+
+  .field-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+  }
+
+  .field-group .inputs {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .field-group input,
+  .field-group select,
+  .field-group textarea {
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: inherit;
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 0.6rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .field-group input[type="number"] { appearance: textfield; }
+
+  .field-group input[type="number"]::-webkit-outer-spin-button,
+  .field-group input[type="number"]::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+
+  .field-group input:focus,
+  .field-group select:focus,
+  .field-group textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+
+  .field-group .unit-label {
+    color: var(--muted);
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .unit-toggle { display: flex; }
+
+  .unit-toggle button {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--muted);
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  .actions {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .actions button {
+    padding: 0.55rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  .unit-toggle button:first-child { border-radius: 4px 0 0 4px; }
+  .unit-toggle button:last-child { border-radius: 0 4px 4px 0; }
+
+  .unit-toggle button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: inherit;
+  }
+
+  .btn-order,
+  .btn-calc,
+  .btn-primary {
+    background: var(--accent);
+    color: inherit;
+  }
+
+  .btn-order:hover,
+  .btn-calc:hover,
+  .btn-primary:hover { opacity: 0.85; }
+
+  .btn-back,
+  .btn-clear,
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid var(--muted) !important;
+    color: var(--muted);
+  }
+
+  .btn-back:hover,
+  .btn-clear:hover,
+  .btn-secondary:hover {
+    border-color: inherit !important;
+    color: inherit;
+  }
+
+  .results-section {
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    display: none;
+  }
+}

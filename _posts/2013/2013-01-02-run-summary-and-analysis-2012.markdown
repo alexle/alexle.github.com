@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Summary And Analysis Of Running In 2012"
 date: 2013-01-02
 tags: running
