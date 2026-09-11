@@ -192,6 +192,22 @@ permalink: /fire-calculator/
     color: var(--accent);
   }
 
+  .fi-verdict { margin: 0.5rem 0 0.75rem; }
+
+  .fi-verdict strong {
+    display: block;
+    font-size: 1.4rem;
+  }
+
+  .fi-status-yes { color: #a3d9a5; }
+  .fi-status-not-yet { color: var(--accent); }
+
+  .fi-explanation {
+    color: var(--muted);
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
   .chart-container {
     position: relative;
     width: 100%;
@@ -301,9 +317,6 @@ permalink: /fire-calculator/
   .stress-table tr.stress-active td {
     font-weight: 500;
   }
-
-  .scenario-table th:first-child,
-  .scenario-table td:first-child { width: 50%; }
 
   .gap-negative { color: var(--accent); }
   .gap-positive { color: #a3d9a5; }
@@ -503,7 +516,10 @@ permalink: /fire-calculator/
   </table>
 
   <div class="stats-header">Am I FI Today?</div>
-  <div class="fire-headline" id="fi-verdict" style="margin: 0.5rem 0 0.75rem;"></div>
+  <div class="fi-verdict">
+    <strong id="fi-status"></strong>
+    <div class="fi-explanation" id="fi-explanation"></div>
+  </div>
   <table class="stress-table">
     <thead>
       <tr><th>Benchmark</th><th>Required Portfolio</th><th>Gap</th></tr>
@@ -513,7 +529,7 @@ permalink: /fire-calculator/
 
   <div id="action-insights">
     <div class="stats-header">Ways to Reach FI Sooner</div>
-    <table class="stress-table scenario-table">
+    <table class="stress-table">
       <thead>
         <tr><th>Change</th><th>FI Year</th><th>Difference</th></tr>
       </thead>
@@ -782,11 +798,16 @@ permalink: /fire-calculator/
       '<td>' + fmtMoney(requiredToday) + '</td>' +
       '<td>' + gapValue + '</td>';
     benchTbody.appendChild(tr);
-    const verdictEl = document.getElementById('fi-verdict');
+    const statusEl = document.getElementById('fi-status');
+    const explanationEl = document.getElementById('fi-explanation');
     if (gap <= 0) {
-      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Yes</strong> — your portfolio covers the target at your selected withdrawal rate';
+      statusEl.textContent = 'Yes';
+      statusEl.className = 'fi-status-yes';
+      explanationEl.textContent = 'Your portfolio covers the target at your selected withdrawal rate.';
     } else {
-      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover the target at your selected withdrawal rate';
+      statusEl.textContent = 'Not yet';
+      statusEl.className = 'fi-status-not-yet';
+      explanationEl.textContent = 'Your portfolio doesn\'t cover the target at your selected withdrawal rate.';
     }
 
     document.getElementById('results-section').style.display = 'block';
