@@ -9,6 +9,7 @@ permalink: /fire-calculator/
   .fire-calc {
     --muted: #909498;
     --accent: #bf616a;
+    --highlight: #88c0d0;
     --input-bg: #2d3033;
     --border: #444;
   }
@@ -225,6 +226,7 @@ permalink: /fire-calculator/
 
   .stats-row .stat-label { color: var(--muted); }
   .stats-row .stat-value { font-weight: 500; }
+  .stats-row .stat-value.milestone-value { color: var(--highlight); }
 
   .stats-header {
     font-size: 1.1rem;
@@ -285,6 +287,9 @@ permalink: /fire-calculator/
   .stress-table tr.stress-active td {
     font-weight: 500;
   }
+
+  .gap-negative { color: var(--accent); }
+  .gap-positive { color: #a3d9a5; }
 </style>
 
 <div class="fire-calc">
@@ -441,22 +446,14 @@ permalink: /fire-calculator/
   </div>
   <div class="stats-header">Milestones</div>
   <div class="stats-row">
-    <span class="stat-label">FIRE Number</span>
-    <span class="stat-value" id="stat-fire-number"></span>
-  </div>
-  <div class="stats-row">
     <span class="stat-label">FIRE Year</span>
-    <span class="stat-value" id="stat-fire-year"></span>
+    <span class="stat-value milestone-value" id="stat-fire-year"></span>
   </div>
   <div class="stats-row">
-    <span class="stat-label">Conservative</span>
-    <span class="stat-value" id="stat-fire-age-conservative"></span>
+    <span class="stat-label">FIRE Number</span>
+    <span class="stat-value milestone-value" id="stat-fire-number"></span>
   </div>
-  <div class="stats-row">
-    <span class="stat-label">Optimistic</span>
-    <span class="stat-value" id="stat-fire-age-optimistic"></span>
-  </div>
-  <div class="stat-desc" id="fire-range-desc">Age range at +/-1.5% on your blended return</div>
+  <div class="stat-desc" id="fire-number-desc">Target for funding retirement at selected withdrawal rate</div>
   <div class="stats-row">
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
@@ -521,25 +518,6 @@ permalink: /fire-calculator/
     const bridgeYears = supplementalAge - age;
     const ongoingExpenses = Math.max(0, expenses - supplementalAnnual);
     return ongoingExpenses / withdrawalRate + Math.min(expenses, supplementalAnnual) * bridgeYears;
-  }
-
-  // Finds the year a portfolio crosses its required target under a constant return rate.
-  // Mirrors the main projection loop's logic without tracking the full data series —
-  // used only to derive the confidence range.
-  function findFireYear(networth, annualSavings, expenses, returnRate, withdrawalRate, age, supplementalAnnual, supplementalAge) {
-    let portfolio = networth;
-    let fireYear = null;
-    for (let y = 1; y <= MAX_YEARS; y++) {
-      const yearReturn = portfolio * returnRate;
-      const currentAge = age + y;
-      const supplementalIncome = currentAge >= supplementalAge ? supplementalAnnual : 0;
-      const yearSavings = (fireYear === null) ? annualSavings + supplementalIncome : supplementalIncome - expenses;
-      portfolio += yearSavings + yearReturn;
-      if (portfolio < 0) portfolio = 0;
-      const target = requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, currentAge);
-      if (fireYear === null && portfolio >= target) fireYear = y;
-    }
-    return fireYear;
   }
 
   function calculate() {
@@ -646,15 +624,6 @@ permalink: /fire-calculator/
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
 
-    // Confidence range: same projection at +/-1.5% on the blended return
-    const RETURN_SPREAD = 0.015;
-    const conservativeYear = findFireYear(networth, annualSavings, expenses, blendedReturn - RETURN_SPREAD, wr, age, supplementalAnnual, supplementalAge);
-    const optimisticYear = findFireYear(networth, annualSavings, expenses, blendedReturn + RETURN_SPREAD, wr, age, supplementalAnnual, supplementalAge);
-    document.getElementById('stat-fire-age-conservative').textContent =
-      conservativeYear === null ? MAX_YEARS + '+ yrs' : 'Age ' + Math.round(age + conservativeYear);
-    document.getElementById('stat-fire-age-optimistic').textContent =
-      optimisticYear === null ? MAX_YEARS + '+ yrs' : 'Age ' + Math.round(age + optimisticYear);
-
     // Coast FI: present value of FIRE number discounted back fireYear years
     const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
     const coastEl = document.getElementById('stat-coast-fi');
@@ -691,9 +660,12 @@ permalink: /fire-calculator/
     const requiredToday = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age);
     const gap = requiredToday - networth;
     const tr = document.createElement('tr');
+    const gapValue = gap > 0
+      ? '<span class="gap-negative">−' + fmtMoney(gap) + '</span>'
+      : '<span class="gap-positive">+' + fmtMoney(Math.abs(gap)) + '</span>';
     tr.innerHTML = '<td>' + userRate.toFixed(1) + '% (SWR)</td>' +
       '<td>' + fmtMoney(requiredToday) + '</td>' +
-      '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
+      '<td>' + gapValue + '</td>';
     benchTbody.appendChild(tr);
     const verdictEl = document.getElementById('fi-verdict');
     if (gap <= 0) {
