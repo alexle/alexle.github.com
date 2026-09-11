@@ -718,7 +718,7 @@ permalink: /fire-calculator/
     } else {
       const yearLabel = fireYear === 1 ? 'year' : 'years';
       document.getElementById('headline').innerHTML =
-        'In this scenario, you reach Financial Independence in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
+        'In this scenario, you reach FI in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
     }
 
     // Actionable comparisons
