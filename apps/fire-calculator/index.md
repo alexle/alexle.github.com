@@ -53,6 +53,11 @@ permalink: /fire-calculator/
     border-color: var(--accent);
   }
 
+  .field-group input.input-error {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+
   .field-group .unit-label {
     color: var(--muted);
     font-size: 0.85rem;
@@ -502,6 +507,13 @@ permalink: /fire-calculator/
     return document.getElementById(id).value.trim() === '';
   }
 
+  function setFieldError(id, hasError) {
+    const input = document.getElementById(id);
+    input.classList.toggle('input-error', hasError);
+    if (hasError) input.setAttribute('aria-invalid', 'true');
+    else input.removeAttribute('aria-invalid');
+  }
+
   function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age) {
     if (supplementalAnnual <= 0 || supplementalAge <= age) {
       return Math.max(0, expenses - supplementalAnnual) / withdrawalRate;
@@ -537,7 +549,10 @@ permalink: /fire-calculator/
 
     // Check required fields
     const required = ['age', 'income', 'expenses', 'networth', 'alloc-stocks', 'alloc-bonds', 'alloc-cash', 'return-stocks', 'return-bonds', 'return-cash', 'withdrawal-rate'];
-    if (required.some(isEmpty)) {
+    const emptyFields = required.filter(isEmpty);
+    required.forEach(function(id) { setFieldError(id, emptyFields.includes(id)); });
+    setFieldError('supplemental-age', false);
+    if (emptyFields.length > 0) {
       showError('Please fill in all fields.');
       return;
     }
@@ -572,10 +587,12 @@ permalink: /fire-calculator/
     }
     if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
     if (supplementalMonthly > 0 && isEmpty('supplemental-age')) {
+      setFieldError('supplemental-age', true);
       showError('Enter the age when supplemental income begins.');
       return;
     }
     if (supplementalMonthly > 0 && supplementalAge < age) {
+      setFieldError('supplemental-age', true);
       showError('Supplemental income starting age cannot be before your current age.');
       return;
     }
@@ -815,11 +832,20 @@ permalink: /fire-calculator/
     document.getElementById('error').style.display = 'none';
     document.getElementById('warning').style.display = 'none';
     document.getElementById('alloc-error').style.display = 'none';
+    document.querySelectorAll('.field-group input').forEach(function(input) {
+      setFieldError(input.id, false);
+    });
   }
 
   // Enter key triggers calculation
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') calculate();
+  });
+
+  document.querySelectorAll('.field-group input').forEach(function(input) {
+    input.addEventListener('input', function() {
+      setFieldError(input.id, false);
+    });
   });
 
 </script>
