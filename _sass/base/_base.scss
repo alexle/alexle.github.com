@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 @font-face {
   font-family: Inter;
   font-style: normal;
@@ -21,14 +23,14 @@
 
 html,
 body {
-  color: $main-font-color;
-  background-color: $bg-color;
+  color: v.$main-font-color;
+  background-color: v.$bg-color;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: $main-font-family;
+  font-family: v.$main-font-family;
   font-size: 16px;
   overflow-y: scroll;
 
@@ -44,19 +46,19 @@ body {
 h1,
 h2,
 h3 {
-  color: $main-font-color;
-  font-family: $main-font-family;
+  color: v.$main-font-color;
+  font-family: v.$main-font-family;
   line-height: normal;
 }
 
 a {
-  color: $accent-color;
+  color: v.$accent-color;
   text-decoration: none;
 }
 
 blockquote {
-  border-left: .25rem solid $light-grey;
-  color: $main-font-color;
+  border-left: .25rem solid v.$light-grey;
+  color: v.$main-font-color;
   margin: 0 0 .8rem;
   padding: .5rem 1rem;
 
@@ -71,7 +73,7 @@ blockquote {
 
 hr {
   border: none;
-  border-top: 1px solid $light-grey;
+  border-top: 1px solid v.$light-grey;
   margin: 0 0 1rem;
 }
 
@@ -92,7 +94,7 @@ td {
   padding: .5rem .75rem;
   text-align: left;
   vertical-align: top;
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid v.$light-grey;
 }
 
 th {

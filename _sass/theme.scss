@@ -1,19 +1,18 @@
 // Base
-@import 'base/variables';
-@import 'base/base';
+@use 'base/base';
 
 // Layout
-@import 'layout/container';
-@import 'layout/nav';
-@import 'layout/footer';
-@import 'layout/pagination';
+@use 'layout/container';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'layout/pagination';
 
 // Pages
-@import 'pages/apps';
-@import 'pages/feed';
-@import 'pages/post';
-@import 'pages/search';
+@use 'pages/apps';
+@use 'pages/feed';
+@use 'pages/post';
+@use 'pages/search';
 
 // Content
-@import 'content/code';
-@import 'content/syntax';
+@use 'content/code';
+@use 'content/syntax';

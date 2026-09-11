@@ -1,4 +1,6 @@
 
+@use '../base/variables' as v;
+
 .home-card {
   .profile-card {
     display: flex;
@@ -15,7 +17,7 @@
       width: 80px;
       height: 80px;
       border-radius: 50%;
-      border: 2px solid $light-grey;
+      border: 2px solid v.$light-grey;
       flex-shrink: 0;
     }
   }
@@ -24,7 +26,7 @@
 
   .profile-bio {
     display: block;
-    color: $muted-color;
+    color: v.$muted-color;
     line-height: 1.4;
     margin-bottom: 1rem;
   }
@@ -34,14 +36,14 @@
     gap: 1rem;
 
     a {
-      color: $muted-color;
+      color: v.$muted-color;
       font-size: 1.1rem;
 
-      &:hover { color: $main-font-color; }
+      &:hover { color: v.$main-font-color; }
     }
   }
 
-  margin-bottom: $header-margin-bottom;
+  margin-bottom: v.$header-margin-bottom;
 
   .desktop-only { display: block; }
   .mobile-only { display: none; }
@@ -54,8 +56,8 @@
 
 .feed {
   &-item {
-    border-bottom: 1px solid $light-grey;
-    color: $main-font-color;
+    border-bottom: 1px solid v.$light-grey;
+    color: v.$main-font-color;
     display: inline-block;
     padding: 1rem 0 .2rem;
 
@@ -65,16 +67,16 @@
   }
 
   &-time {
-    color: $muted-color;
-    font-family: $code-font-family;
+    color: v.$muted-color;
+    font-family: v.$code-font-family;
     font-size: .85rem;
   }
 
   &-title {
     font-size: 1.4rem;
-    font-weight: $title-font-weight;
-    line-height: $title-line-height;
-    color: $main-font-color;
+    font-weight: v.$title-font-weight;
+    line-height: v.$title-line-height;
+    color: v.$main-font-color;
     display: block;
     margin: 0 0 .3rem;
   }
@@ -89,14 +91,14 @@
   }
 
   &-time {
-    color: $muted-color;
-    font-family: $code-font-family;
+    color: v.$muted-color;
+    font-family: v.$code-font-family;
     font-size: .85rem;
     min-width: 3.5rem;
     flex-shrink: 0;
   }
 
   &-title {
-    color: $main-font-color;
+    color: v.$main-font-color;
   }
 }

@@ -1,4 +1,6 @@
 
+@use '../base/variables' as v;
+
 .pagination {
   font-weight: bold;
   font-size: 1.2rem;
@@ -7,8 +9,8 @@
   text-align: center;
 
   a, span {
-    color: $main-font-color;
-    background-color: $bg-color;
+    color: v.$main-font-color;
+    background-color: v.$bg-color;
     padding: 7px 14px;
     margin: 0 -2px;
     display: inline-block;
@@ -21,12 +23,12 @@
 
   a {
     &:hover {
-      color: $muted-color;
+      color: v.$muted-color;
     }
   }
 
   span.pagination-current {
-    color: $accent-color;
+    color: v.$accent-color;
   }
 }
 
@@ -39,11 +41,11 @@
   padding: .2rem 0 1.2rem;
 
   a { /* stylelint-disable-line no-descending-specificity */
-    color: $accent-color;
+    color: v.$accent-color;
     transition: all .3s ease-out;
 
     &:hover {
-      color: $main-font-color;
+      color: v.$main-font-color;
     }
   }
 }

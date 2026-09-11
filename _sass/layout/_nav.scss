@@ -1,6 +1,8 @@
 
+@use '../base/variables' as v;
+
 .nav {
-  background-color: $bg-nav-color;
+  background-color: v.$bg-nav-color;
   overflow: auto;
 
   &-container {
@@ -17,12 +19,12 @@
   }
 
   a {
-    color: $main-font-color;
+    color: v.$main-font-color;
   }
 
   li {
     transition: all .2s ease-out;
-    color: $main-font-color;
+    color: v.$main-font-color;
     display: inline-block;
     opacity: .6;
     padding: 0 2rem 0 0;
@@ -40,7 +42,7 @@
       opacity: 1;
 
       a {
-        color: $accent-color;
+        color: v.$accent-color;
       }
     }
   }

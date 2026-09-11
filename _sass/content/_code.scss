@@ -1,13 +1,15 @@
 
+@use '../base/variables' as v;
+
 pre,
 code {
-  font-family: $code-font-family;
+  font-family: v.$code-font-family;
 }
 
 code {
-  background-color: $bg-code-color;
+  background-color: v.$bg-code-color;
   border-radius: 3px;
-  color: $accent-color;
+  color: v.$accent-color;
   font-size: 70%;
   padding: .25rem .5rem;
 }
@@ -29,7 +31,7 @@ pre code {
 
 // Code block highlighting
 .highlight {
-  background-color: $bg-code-color;
+  background-color: v.$bg-code-color;
   border-radius: 3px; // Round the corners
   line-height: 1.4;
   margin: 0 0 1rem; // Bottom margin only

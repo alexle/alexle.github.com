@@ -1,4 +1,6 @@
 
+@use '../base/variables' as v;
+
 .search-wrapper {
   width: 100%;
   margin: 0;
@@ -8,21 +10,21 @@
   width: 100%;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  font-family: $main-font-family;
-  color: $main-font-color;
-  background-color: $bg-color;
-  border: 1px solid $light-grey;
+  font-family: v.$main-font-family;
+  color: v.$main-font-color;
+  background-color: v.$bg-color;
+  border: 1px solid v.$light-grey;
   border-radius: 8px;
   outline: none;
   transition: border-color 0.2s ease;
 
   &::placeholder {
-    color: $muted-color;
+    color: v.$muted-color;
     opacity: 0.6;
   }
 
   &:focus {
-    border-color: $accent-color;
+    border-color: v.$accent-color;
   }
 }
 
@@ -32,17 +34,17 @@
 
   li {
     padding: 0.5rem 0;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid v.$light-grey;
 
     &:last-child {
       border-bottom: none;
     }
 
     a {
-      color: $main-font-color;
+      color: v.$main-font-color;
 
       &:hover {
-        color: $accent-color;
+        color: v.$accent-color;
       }
     }
   }

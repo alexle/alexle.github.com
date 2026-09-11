@@ -1,12 +1,14 @@
 
+@use '../base/variables' as v;
+
 footer {
   padding: 1.7rem 0 2rem;
   text-align: center;
-  box-shadow: inset 0 2px 2px -2px $muted-color;
+  box-shadow: inset 0 2px 2px -2px v.$muted-color;
   overflow: auto;
 
   span {
-    color: $main-font-color;
+    color: v.$main-font-color;
     font-size: 0.8rem;
   }
 }
