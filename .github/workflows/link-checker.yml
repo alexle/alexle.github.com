@@ -1,7 +1,6 @@
 name: Check Links
 
 on:
-  # Run on pushes to main
   push:
     branches:
       - main
@@ -11,11 +10,9 @@ on:
       - '**.md'
       - '**.html'
 
-  # Run weekly to catch external link rot
   schedule:
-    - cron: '0 0 * * 0'  # Every Sunday at midnight
+    - cron: '0 0 * * 0'  # Sunday 00:00 UTC
 
-  # Allow manual trigger
   workflow_dispatch:
 
 permissions:
@@ -78,7 +75,6 @@ jobs:
                   with open(filepath, 'w') as f:
                       f.write(content)
 
-          # Write summary for PR body
           os.makedirs('./lychee', exist_ok=True)
           with open('./lychee/summary.md', 'w') as f:
               f.write('## Replaced links\n\n')

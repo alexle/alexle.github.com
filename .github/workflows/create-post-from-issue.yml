@@ -22,7 +22,6 @@ jobs:
         run: |
           BODY="$ISSUE_BODY"
 
-          # Validate body is not empty
           if [ -z "$(echo "$BODY" | tr -d '[:space:]')" ]; then
             echo "error=empty" >> $GITHUB_OUTPUT
             echo "Issue body is empty — skipping post creation."
@@ -39,10 +38,8 @@ jobs:
           SLUG=${FILENAME#"$DATE-"}
           SLUG=${SLUG%.markdown}
 
-          # Set outputs for subsequent steps
           echo "slug=${SLUG}" >> $GITHUB_OUTPUT
 
-          # Configure git
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 

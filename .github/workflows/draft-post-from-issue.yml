@@ -83,7 +83,6 @@ jobs:
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          # Find the draft file that references this issue number
           DRAFT=$(grep -rl "issue: $ISSUE_NUMBER" _drafts/ 2>/dev/null | head -1)
 
           if [ -z "$DRAFT" ]; then
@@ -95,7 +94,6 @@ jobs:
           YEAR=$(date +%Y)
           mkdir -p "_posts/$YEAR"
 
-          # Remove the issue frontmatter field before publishing
           sed -i '/^issue: /d' "$DRAFT"
 
           mv "$DRAFT" "_posts/$YEAR/$FILENAME"

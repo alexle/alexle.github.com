@@ -1,7 +1,6 @@
 name: optimize-images
 
 on:
-  # Run on pull requests that include image files
   pull_request:
     paths:
       - '**.jpg'
@@ -10,10 +9,8 @@ on:
       - '**.webp'
       - '**.svg'
 
-  # Also allow manual triggering
   workflow_dispatch:
 
-  # Run when images are pushed to main branch
   push:
     branches:
       - main
@@ -35,21 +32,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Full git history needed for proper optimization
+          # The image action needs full Git history.
           fetch-depth: 0
 
       - name: Optimize images
         uses: calibreapp/image-actions@main
         with:
-          # Compress JPEG images with a quality of 80% (good balance of size/quality)
           jpegQuality: 80
-          # Compress PNG images with a quality of 80%
           pngQuality: 80
-          # Set a maximum of 10 concurrent optimization processes
           compressOnly: ${{ github.event_name != 'pull_request' }}
-          # The higher the number, the more aggressive the optimization
           compressLevel: 5
-          # Automatically create a PR with optimized images (if on pull_request event)
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Commit directly for push and manual runs; the action updates pull requests.
