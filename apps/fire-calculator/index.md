@@ -198,6 +198,14 @@ permalink: /fire-calculator/
     color: var(--accent);
   }
 
+  .action-insights {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .action-insights p { margin: 0.25rem 0; }
+
   .chart-container {
     position: relative;
     width: 100%;
@@ -446,10 +454,15 @@ permalink: /fire-calculator/
 <div class="results-section" id="results-section">
   <div class="fire-headline" id="headline"></div>
 
-  <div class="chart-container">
+  <div class="action-insights" id="action-insights">
+    <p id="scenario-save"></p>
+    <p id="scenario-spend"></p>
+  </div>
+
+  <div class="chart-container" id="chart-container">
     <canvas id="chart"></canvas>
   </div>
-  <div class="chart-legend">
+  <div class="chart-legend" id="chart-legend">
     <span class="legend-working">Working</span>
     <span class="legend-retired">Retired</span>
     <span class="legend-fire">FIRE Target</span>
@@ -477,17 +490,17 @@ permalink: /fire-calculator/
     <span class="stat-label">FIRE Number</span>
     <span class="stat-value milestone-value" id="stat-fire-number"></span>
   </div>
-  <div class="stats-row">
+  <div class="stats-row" id="coast-fi-row">
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
   </div>
   <div class="stat-desc" id="coast-fi-desc">Portfolio needed today to coast with $0 savings</div>
 
-  <div class="stats-header">Safe Spend Rates</div>
-  <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;">Annual spend at FIRE portfolio size</div>
+  <div class="stats-header">Target by Withdrawal Rate</div>
+  <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;"></div>
   <table class="stress-table" id="stress-table">
     <thead>
-      <tr><th>Rate</th><th>Annual Spend</th></tr>
+      <tr><th>Rate</th><th>Target Portfolio</th></tr>
     </thead>
     <tbody id="stress-tbody"></tbody>
   </table>
@@ -511,6 +524,10 @@ permalink: /fire-calculator/
   }
 
   function fmtMoney(n) {
+    return '$' + Math.round(n).toLocaleString();
+  }
+
+  function fmtMoneyCompact(n) {
     if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
     if (n >= 1e3) return '$' + Math.round(n).toLocaleString();
     return '$' + Math.round(n);
@@ -573,6 +590,30 @@ permalink: /fire-calculator/
       ? annualGap * bridgeYears
       : annualGap * (1 - Math.pow(1 + returnRate, -bridgeYears)) / returnRate;
     return Math.min(noSupplementTarget, ongoingExpenses / withdrawalRate + bridge);
+  }
+
+  function findFireYear(age, networth, annualSavings, expenses, returnRate, withdrawalRate, supplementalAnnual, supplementalAge) {
+    let portfolio = networth;
+    for (let year = 0; year <= MAX_YEARS; year++) {
+      const currentAge = age + year;
+      const target = requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, currentAge, returnRate);
+      if (portfolio >= target) return year;
+      const supplementalIncome = currentAge + 1 >= supplementalAge ? supplementalAnnual : 0;
+      portfolio = Math.max(0, portfolio * (1 + returnRate) + annualSavings + supplementalIncome);
+    }
+    return null;
+  }
+
+  function scenarioText(action, scenarioYear, baseYear, currentYear) {
+    if (scenarioYear === null && baseYear === null) {
+      return action + ' → FIRE remains beyond the ' + MAX_YEARS + '-year projection.';
+    }
+    const scenario = scenarioYear === 0 ? 'FI today' :
+      scenarioYear === null ? 'FI beyond the ' + MAX_YEARS + '-year projection' : 'FI in ' + (currentYear + scenarioYear);
+    if (scenarioYear === baseYear) return action + ' → ' + scenario + ' (same projected year).';
+    const base = baseYear === 0 ? 'today' :
+      baseYear === null ? 'beyond the ' + MAX_YEARS + '-year projection' : (currentYear + baseYear);
+    return action + ' → ' + scenario + ' instead of ' + base + '.';
   }
 
   function calculate() {
@@ -639,9 +680,7 @@ permalink: /fire-calculator/
 
     // Projection
     let portfolio = networth;
-    let cumContributions = networth;
-    let cumReturns = 0;
-    const data = [{ year: 0, contributions: cumContributions, returns: 0, total: portfolio }];
+    const data = [{ year: 0, total: portfolio }];
     let fireYear = portfolio >= fireNumber ? 0 : null;
 
     for (let y = 1; y <= MAX_YEARS; y++) {
@@ -651,9 +690,7 @@ permalink: /fire-calculator/
       const yearSavings = (fireYear === null) ? annualSavings + supplementalIncome : supplementalIncome - expenses;
       portfolio += yearSavings + yearReturn;
       if (portfolio < 0) portfolio = 0;
-      cumContributions += yearSavings;
-      cumReturns += yearReturn;
-      data.push({ year: y, contributions: cumContributions, returns: cumReturns, total: portfolio });
+      data.push({ year: y, total: portfolio });
 
       const currentTarget = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, currentAge, blendedReturn);
       if (fireYear === null && portfolio >= currentTarget) {
@@ -662,58 +699,76 @@ permalink: /fire-calculator/
       }
     }
 
-    // If never reached FIRE
-    if (fireYear === null) {
-      showError('FIRE target not reached within ' + MAX_YEARS + ' years. Try reducing expenses or increasing income.');
-      return;
-    }
-
     // Headline
-    const fireAge = Math.round(age + fireYear);
     const currentYear = new Date().getFullYear();
-    if (fireYear === 0) {
+    const fireAge = fireYear === null ? null : Math.round(age + fireYear);
+    if (fireYear === null) {
       document.getElementById('headline').innerHTML =
-        '<strong>You are financially independent today at age ' + fireAge + '</strong>';
+        '<strong>FIRE is beyond the ' + MAX_YEARS + '-year projection</strong> at these assumptions';
+    } else if (fireYear === 0) {
+      document.getElementById('headline').innerHTML =
+        '<strong style="color:#a3d9a5">You are financially independent today at age ' + fireAge + '</strong>';
     } else {
       const yearLabel = fireYear === 1 ? 'year' : 'years';
       document.getElementById('headline').innerHTML =
         'You can reach Financial Independence in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
     }
 
+    // Actionable comparisons
+    const saveMoreYear = findFireYear(age, networth, annualSavings + 6000, expenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
+    const monthlySpendingReduction = Math.min(500, expenses / 12);
+    const reducedExpenses = expenses - monthlySpendingReduction * 12;
+    const spendLessYear = findFireYear(age, networth, income - reducedExpenses, reducedExpenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
+    const actionInsights = document.getElementById('action-insights');
+    actionInsights.style.display = fireYear === 0 ? 'none' : 'block';
+    document.getElementById('scenario-save').textContent = scenarioText('Save $500 more per month', saveMoreYear, fireYear, currentYear);
+    const spendScenario = document.getElementById('scenario-spend');
+    spendScenario.style.display = monthlySpendingReduction > 0 ? 'block' : 'none';
+    spendScenario.textContent = scenarioText('Spend ' + fmtMoney(monthlySpendingReduction) + ' less per month', spendLessYear, fireYear, currentYear);
+
     // Stats
     document.getElementById('stat-savings').textContent = fmtMoney(annualSavings) + '/yr';
     document.getElementById('stat-rate').textContent = (Math.max(0, savingsRate) * 100).toFixed(1) + '%';
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
-    document.getElementById('stat-fire-year').textContent = (currentYear + fireYear).toString();
+    document.getElementById('stat-fire-year').textContent = fireYear === null ? 'Not within ' + MAX_YEARS + ' years' : (currentYear + fireYear).toString();
 
-    // Coast FI: present value of FIRE number discounted back fireYear years
-    const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
+    // Coast FI: present value of FIRE number discounted back to today
+    const coastRow = document.getElementById('coast-fi-row');
     const coastEl = document.getElementById('stat-coast-fi');
     const coastLabel = document.getElementById('stat-coast-fi-label');
     const coastDesc = document.getElementById('coast-fi-desc');
-    coastEl.textContent = fmtMoney(coastFI);
-    coastDesc.style.display = 'block';
-    if (networth >= coastFI) {
-      coastLabel.innerHTML = 'Coast FI Number <span class="coast-reached">(reached)</span>';
+    if (fireYear === null) {
+      coastRow.style.display = 'none';
+      coastDesc.style.display = 'none';
     } else {
-      const delta = coastFI - networth;
-      coastLabel.innerHTML = 'Coast FI Number <span class="coast-delta">(' + fmtMoney(delta) + ' to go)</span>';
+      const coastFI = fireNumber / Math.pow(1 + blendedReturn, fireYear);
+      coastRow.style.display = 'flex';
+      coastDesc.style.display = 'block';
+      coastDesc.textContent = 'Portfolio needed today to reach the FIRE target by ' + (currentYear + fireYear) + ' with $0 additional savings';
+      coastEl.textContent = fmtMoney(coastFI);
+      if (networth >= coastFI) {
+        coastLabel.innerHTML = 'Coast FI Number <span class="coast-reached">(reached)</span>';
+      } else {
+        const delta = coastFI - networth;
+        coastLabel.innerHTML = 'Coast FI Number <span class="coast-delta">(' + fmtMoney(delta) + ' to go)</span>';
+      }
     }
 
-    // Withdrawal stress test
-    const firePortfolio = data[fireYear].total;
+    // Portfolio targets at alternate withdrawal rates
     const stressRates = [3, 4, 5];
     const userRate = val('withdrawal-rate');
+    const targetAge = fireYear === null ? age : fireAge;
+    document.getElementById('stress-desc').textContent = fireYear === null ?
+      'Portfolio needed today at each withdrawal rate' : 'Portfolio target at your projected FIRE age of ' + fireAge;
     const tbody = document.getElementById('stress-tbody');
     tbody.innerHTML = '';
     for (const rate of stressRates) {
-      const rateDecimal = rate / 100;
-      const annualSpend = firePortfolio * rateDecimal;
+      const target = requiredPortfolio(expenses, rate / 100, supplementalAnnual, supplementalAge, targetAge, blendedReturn);
       const tr = document.createElement('tr');
       if (rate === userRate) tr.className = 'stress-active';
       tr.innerHTML = '<td>' + rate.toFixed(1) + '%' + (rate === userRate ? ' ←' : '') + '</td>' +
-        '<td>' + fmtMoney(annualSpend) + '/yr</td>';
+        '<td>' + fmtMoney(target) + '</td>';
       tbody.appendChild(tr);
     }
 
@@ -739,10 +794,18 @@ permalink: /fire-calculator/
 
     document.getElementById('results-section').style.display = 'block';
 
-    // Chart extends to 20 years or fireYear + 10, whichever is longer
-    const chartYears = Math.min(Math.max(20, fireYear + 10), MAX_YEARS);
-    const chartData = data.slice(0, chartYears + 1);
-    drawChart(chartData, fireNumber, fireYear);
+    const chartContainer = document.getElementById('chart-container');
+    const chartLegend = document.getElementById('chart-legend');
+    if (fireYear === null) {
+      chartContainer.style.display = 'none';
+      chartLegend.style.display = 'none';
+    } else {
+      chartContainer.style.display = 'block';
+      chartLegend.style.display = 'flex';
+      const chartYears = Math.min(Math.max(20, fireYear + 10), MAX_YEARS);
+      const chartData = data.slice(0, chartYears + 1);
+      drawChart(chartData, fireNumber, fireYear);
+    }
   }
 
   function drawChart(data, fireNumber, fireYear) {
@@ -826,7 +889,7 @@ permalink: /fire-calculator/
     ctx.fillStyle = muted;
     ctx.font = '11px Inter, sans-serif';
     ctx.textAlign = 'right';
-    ctx.fillText(fmtMoney(fireNumber), w - pad.right, yPos(fireNumber) - 5);
+    ctx.fillText(fmtMoneyCompact(fireNumber), w - pad.right, yPos(fireNumber) - 5);
 
     // Dot at FIRE crossing
     if (fireYear <= data[data.length - 1].year) {
@@ -858,7 +921,7 @@ permalink: /fire-calculator/
     ctx.textAlign = 'right';
     for (let i = 0; i <= yTicks; i++) {
       const v = (maxVal / yTicks) * i;
-      ctx.fillText(fmtMoney(v), pad.left - 8, yPos(v) + 4);
+      ctx.fillText(fmtMoneyCompact(v), pad.left - 8, yPos(v) + 4);
     }
   }
 
