@@ -531,7 +531,6 @@ permalink: /pace-calculator/
       const races = [
         ['5K', '5K'], ['10K', '10K'], ['Half Marathon', 'Half'], ['Marathon', 'Marathon']
       ];
-      const paceLabel = unit === 'mi' ? '/mi' : '/km';
       document.getElementById('pace-col-header').textContent = 'Pace';
       const tbody = document.getElementById('pred-body');
       tbody.innerHTML = '';

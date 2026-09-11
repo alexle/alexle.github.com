@@ -456,17 +456,6 @@ permalink: /marathon/
     line-height: 1.5;
   }
 
-  .customize-header {
-    font-size: 1.05rem;
-    font-weight: 500;
-    margin: 0 0 0.3rem;
-  }
-  .customize-sub {
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin: 0 0 1.5rem;
-  }
-
   @media (max-width: 380px) {
     .day-row { flex-wrap: wrap; }
     .day-desc {
@@ -758,8 +747,6 @@ function D(day, type, miles, desc) { return { day: day, type: type, miles: miles
 function W(num, phase, days) { return { week: num, phase: phase, days: days }; }
 
 var TYPE_COLORS = { easy: 'var(--easy)', tempo: 'var(--tempo)', interval: 'var(--interval)', long: 'var(--long)', rest: 'var(--rest-color)', cross: 'var(--cross)', 'race-pace': 'var(--race-pace)', race: 'var(--race)' };
-var DAY_NAMES = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-
 var PLANS = {
   hansons: {
     name: 'Hansons Marathon Method',

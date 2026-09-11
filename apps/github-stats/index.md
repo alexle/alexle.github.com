@@ -11,7 +11,6 @@ permalink: /github-stats/
     --accent: #bf616a;
     --input-bg: #2d3033;
     --border: #444;
-    --gold: #d4a843;
   }
 
   .gh-inputs { max-width: 480px; }

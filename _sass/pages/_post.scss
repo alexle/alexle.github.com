@@ -26,10 +26,6 @@
       font-family: $code-font-family;
       font-size: .85rem;
     }
-
-    span {
-      font-style: italic;
-    }
   }
 
   p.post-stats {
@@ -57,17 +53,5 @@
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
-  }
-
-  // CSS for making emoji inline
-  img.emoji {
-    display: inline-block;
-    left: 0;
-    transform: none;
-    width: 1rem;
-    height: 1rem;
-    vertical-align: text-top;
-    padding: 0;
-    margin: 0;
   }
 }
