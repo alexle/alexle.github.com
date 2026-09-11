@@ -9,6 +9,10 @@ permalink: /apps/
 
 Order a fresh coffee from Alex's home bar. He'll get a push notification and start brewing.
 
+### [FIRE Calculator](/fire-calculator/)
+
+A calculator that projects when you can retire early based on your savings rate, asset allocation, and withdrawal strategy.
+
 ### [Pace Calculator](/pace-calculator/)
 
 A simple web app which calculates your pace per mile and total time for a given distance and time.
@@ -16,10 +20,6 @@ A simple web app which calculates your pace per mile and total time for a given 
 ### [Marathon Buddy](/marathon/)
 
 Pick a proven marathon plan, tweak it to your mileage, and get your full training schedule.
-
-### [FIRE Calculator](/fire-calculator/)
-
-A calculator that projects when you can retire early based on your savings rate, asset allocation, and withdrawal strategy.
 
 ### [Regex Lab](/regex/)
 
