@@ -26,7 +26,11 @@ on:
 
 jobs:
   optimize-images:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,15 +46,15 @@ jobs:
           # Compress PNG images with a quality of 80%
           pngQuality: 80
           # Set a maximum of 10 concurrent optimization processes
-          compressOnly: true
+          compressOnly: ${{ github.event_name != 'pull_request' }}
           # The higher the number, the more aggressive the optimization
           compressLevel: 5
           # Automatically create a PR with optimized images (if on pull_request event)
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      # For push events to main, commit optimized images directly
+      # Commit directly for push and manual runs; the action updates pull requests.
       - name: Commit optimized images
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

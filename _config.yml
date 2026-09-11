@@ -3,7 +3,6 @@ title:          Alex Le
 description:    "Alex Le lives in Colorado and is a software engineer. He likes to run, read, and tinker with technology and side projects."
 tagline:        "Software Engineer, Minimalist, Improving Runner"
 url:            "https://alexanderle.com"
-production_url: "https://alexanderle.com"
 
 # Google Analytics (GA4)
 google_analytics: G-S03KNPH8PC
@@ -19,7 +18,6 @@ author:
   instagram:    alextrle
 
 # Build settings
-markdown:       kramdown
 kramdown:
   syntax_highlighter_opts:
     block:
@@ -27,15 +25,8 @@ kramdown:
 include:
   - _pages
 
-# Preserves optimized images between builds
-keep_files:     [assets/images]
-
-# Only rebuild changed files
-incremental:    true
-
 # Assets
 sass:
-  sass_dir:     _sass
   style:        compressed
   quiet_deps:   true
 
@@ -45,7 +36,6 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
 
 # Jekyll Feed Configuration
 feed:
@@ -54,9 +44,6 @@ feed:
 # Permalinks
 permalink:      /:title
 paginate:       7
-
-# RSS Feed
-feed_xml:             feed.xml
 
 # Excludes
 exclude:        [Gemfile, Gemfile.lock, vendor, node_modules]
