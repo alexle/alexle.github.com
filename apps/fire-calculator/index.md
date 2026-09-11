@@ -9,12 +9,21 @@ permalink: /fire-calculator/
   .fire-calc {
     --muted: #909498;
     --accent: #bf616a;
-    --highlight: #88c0d0;
+    --highlight: #a3d9a5;
     --input-bg: #2d3033;
     --border: #444;
   }
 
   .fire-inputs { max-width: 480px; }
+
+  .fire-intro {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .fire-intro p { margin: 0 0 0.6rem; }
+  .fire-intro p:last-child { margin-bottom: 0; }
 
   .field-group { margin-bottom: 1rem; }
 
@@ -64,26 +73,6 @@ permalink: /fire-calculator/
     font-size: 0.85rem;
     white-space: nowrap;
     min-width: 1.5rem;
-  }
-
-  .assumptions {
-    border-top: 1px solid var(--border);
-    margin-top: 1.5rem;
-    padding-top: 0.75rem;
-  }
-
-  .assumptions > summary {
-    color: var(--muted);
-    cursor: pointer;
-    font-size: 0.85rem;
-  }
-
-  .assumptions[open] > summary { margin-bottom: 1rem; }
-
-  .assumption-summary {
-    display: block;
-    font-size: 0.75rem;
-    margin-left: 1.1rem;
   }
 
   .optional-fields {
@@ -203,14 +192,6 @@ permalink: /fire-calculator/
     color: var(--accent);
   }
 
-  .action-insights {
-    color: var(--muted);
-    font-size: 0.85rem;
-    margin-bottom: 1rem;
-  }
-
-  .action-insights p { margin: 0.25rem 0; }
-
   .chart-container {
     position: relative;
     width: 100%;
@@ -321,6 +302,9 @@ permalink: /fire-calculator/
     font-weight: 500;
   }
 
+  .scenario-table th:first-child,
+  .scenario-table td:first-child { width: 50%; }
+
   .gap-negative { color: var(--accent); }
   .gap-positive { color: #a3d9a5; }
 
@@ -338,8 +322,10 @@ permalink: /fire-calculator/
 </style>
 
 <div class="fire-calc">
-<p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
-<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">FI means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns (<a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">link</a>).</p>
+<div class="fire-intro">
+  <p>Project when you can achieve financial independence.</p>
+  <p>FI means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns (<a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">link</a>).</p>
+</div>
 
 <form class="fire-inputs" id="fire-form" novalidate>
 <div class="field-group">
@@ -373,9 +359,6 @@ permalink: /fire-calculator/
     <span class="unit-label">$</span>
   </div>
 </div>
-
-<details class="assumptions">
-<summary>Adjust assumptions (optional)<span class="assumption-summary" id="assumption-summary">4% withdrawal · 80/15/5 allocation · 6.9% blended real return</span></summary>
 
 <div class="field-group">
   <label for="withdrawal-rate">Withdrawal Rate</label>
@@ -457,7 +440,6 @@ permalink: /fire-calculator/
     </div>
   </div>
 </div>
-</details>
 
 <div class="actions">
   <button class="btn-calc" type="submit">Calculate</button>
@@ -470,11 +452,6 @@ permalink: /fire-calculator/
 
 <div class="results-section" id="results-section" aria-live="polite">
   <div class="fire-headline" id="headline"></div>
-
-  <div class="action-insights" id="action-insights">
-    <p id="scenario-save"></p>
-    <p id="scenario-spend"></p>
-  </div>
 
   <div class="chart-container" id="chart-container">
     <canvas id="chart" role="img" aria-describedby="chart-summary">Portfolio projection chart</canvas>
@@ -533,6 +510,16 @@ permalink: /fire-calculator/
     </thead>
     <tbody id="fi-bench-tbody"></tbody>
   </table>
+
+  <div id="action-insights">
+    <div class="stats-header">Ways to Reach FI Sooner</div>
+    <table class="stress-table scenario-table">
+      <thead>
+        <tr><th>Change</th><th>FI Year</th><th>Difference</th></tr>
+      </thead>
+      <tbody id="scenario-tbody"></tbody>
+    </table>
+  </div>
 </div>
 </div>
 
@@ -578,25 +565,6 @@ permalink: /fire-calculator/
     input.focus();
   }
 
-  function updateAssumptionSummary() {
-    const ids = ['withdrawal-rate', 'alloc-stocks', 'alloc-bonds', 'alloc-cash', 'return-stocks', 'return-bonds', 'return-cash'];
-    const summary = document.getElementById('assumption-summary');
-    if (ids.some(isEmpty)) {
-      summary.textContent = 'Complete the assumption fields';
-      return;
-    }
-
-    const withdrawalRate = val('withdrawal-rate');
-    const allocations = [val('alloc-stocks'), val('alloc-bonds'), val('alloc-cash')];
-    const returns = [val('return-stocks'), val('return-bonds'), val('return-cash')];
-    const blendedReturn = allocations.reduce(function(total, allocation, index) {
-      return total + allocation * returns[index];
-    }, 0) / 100;
-    const withdrawalLabel = Number.isInteger(withdrawalRate) ? withdrawalRate.toFixed(0) : withdrawalRate.toFixed(1);
-    summary.textContent = withdrawalLabel + '% withdrawal · ' +
-      allocations.join('/') + ' allocation · ' + blendedReturn.toFixed(1) + '% blended real return';
-  }
-
   function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age, returnRate) {
     const noSupplementTarget = expenses / withdrawalRate;
     if (supplementalAnnual <= 0 || supplementalAge <= age) {
@@ -624,16 +592,18 @@ permalink: /fire-calculator/
     return null;
   }
 
-  function scenarioText(action, scenarioYear, baseYear, currentYear) {
-    if (scenarioYear === null && baseYear === null) {
-      return action + ' → FIRE remains beyond the ' + MAX_YEARS + '-year projection.';
-    }
-    const scenario = scenarioYear === 0 ? 'FI today' :
-      scenarioYear === null ? 'FI beyond the ' + MAX_YEARS + '-year projection' : 'FI in ' + (currentYear + scenarioYear);
-    if (scenarioYear === baseYear) return action + ' → ' + scenario + ' (same projected year).';
-    const base = baseYear === 0 ? 'today' :
-      baseYear === null ? 'beyond the ' + MAX_YEARS + '-year projection' : (currentYear + baseYear);
-    return action + ' → ' + scenario + ' instead of ' + base + '.';
+  function fireYearText(year, currentYear) {
+    if (year === null) return 'Not within ' + MAX_YEARS + ' years';
+    return year === 0 ? 'Today' : (currentYear + year).toString();
+  }
+
+  function yearDifferenceText(scenarioYear, baseYear) {
+    if (scenarioYear === null) return baseYear === null ? 'No change' : 'Beyond range';
+    if (baseYear === null) return 'Now projected';
+    const yearsSooner = baseYear - scenarioYear;
+    if (yearsSooner === 0) return 'Same year';
+    const unit = Math.abs(yearsSooner) === 1 ? 'year' : 'years';
+    return Math.abs(yearsSooner) + ' ' + unit + (yearsSooner > 0 ? ' sooner' : ' later');
   }
 
   function calculate() {
@@ -741,10 +711,20 @@ permalink: /fire-calculator/
     const spendLessYear = findFireYear(age, networth, income - reducedExpenses, reducedExpenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
     const actionInsights = document.getElementById('action-insights');
     actionInsights.style.display = fireYear === 0 ? 'none' : 'block';
-    document.getElementById('scenario-save').textContent = scenarioText('Save $500 more per month', saveMoreYear, fireYear, currentYear);
-    const spendScenario = document.getElementById('scenario-spend');
-    spendScenario.style.display = monthlySpendingReduction > 0 ? 'block' : 'none';
-    spendScenario.textContent = scenarioText('Spend ' + fmtMoney(monthlySpendingReduction) + ' less per month', spendLessYear, fireYear, currentYear);
+    const scenarioTbody = document.getElementById('scenario-tbody');
+    scenarioTbody.innerHTML = '';
+    const scenarios = [
+      { change: 'Save $500 more per month', year: saveMoreYear },
+      { change: 'Spend ' + fmtMoney(monthlySpendingReduction) + ' less per month', year: spendLessYear, hidden: monthlySpendingReduction === 0 }
+    ];
+    scenarios.forEach(function(scenario) {
+      if (scenario.hidden) return;
+      const row = document.createElement('tr');
+      row.innerHTML = '<td>' + scenario.change + '</td>' +
+        '<td>' + fireYearText(scenario.year, currentYear) + '</td>' +
+        '<td>' + yearDifferenceText(scenario.year, fireYear) + '</td>';
+      scenarioTbody.appendChild(row);
+    });
 
     // Stats
     document.getElementById('stat-savings').textContent = fmtMoney(annualSavings) + '/yr';
@@ -956,7 +936,6 @@ permalink: /fire-calculator/
       setFieldError(input.id, false);
     });
     document.querySelectorAll('details').forEach(function(details) { details.open = false; });
-    updateAssumptionSummary();
   }
 
   document.getElementById('fire-form').addEventListener('submit', function(event) {
@@ -969,10 +948,7 @@ permalink: /fire-calculator/
   document.querySelectorAll('.field-group input').forEach(function(input) {
     input.addEventListener('input', function() {
       setFieldError(input.id, false);
-      updateAssumptionSummary();
     });
   });
-
-  updateAssumptionSummary();
 
 </script>
