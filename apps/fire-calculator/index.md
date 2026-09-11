@@ -294,8 +294,7 @@ permalink: /fire-calculator/
 
 <div class="fire-calc">
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
-<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">Financial independence means your investments can cover your living expenses.</p>
-<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">All amounts are in today's dollars — the return assumptions below are already net of inflation.</p>
+<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">Financial independence means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns; actual results will vary. <a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">Withdrawal-rate research</a>.</p>
 
 <div class="fire-inputs">
 <div class="field-group">
@@ -331,7 +330,7 @@ permalink: /fire-calculator/
 </div>
 
 <div class="field-group">
-  <label>Safe Withdrawal Rate</label>
+  <label>Withdrawal Rate</label>
   <div class="inputs">
     <input type="number" id="withdrawal-rate" min="1" max="10" step="0.5" value="4" required>
     <span class="unit-label">%</span>
@@ -563,9 +562,9 @@ permalink: /fire-calculator/
       return;
     }
 
-    if (expenses >= income) {
+    if (expenses > income) {
       const el = document.getElementById('warning');
-      el.textContent = 'Expenses exceed income — savings rate is negative. Results assume no new contributions.';
+      el.textContent = 'Expenses exceed income — the annual shortfall reduces your portfolio before FIRE.';
       el.style.display = 'block';
     }
     if (supplementalMonthly > 0 && isEmpty('supplemental-age')) {
@@ -679,9 +678,9 @@ permalink: /fire-calculator/
     benchTbody.appendChild(tr);
     const verdictEl = document.getElementById('fi-verdict');
     if (gap <= 0) {
-      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Yes</strong> — your portfolio covers expenses at your selected withdrawal rate';
+      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Yes</strong> — your portfolio covers the target at your selected withdrawal rate';
     } else {
-      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover expenses at a sustainable withdrawal rate';
+      verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover the target at your selected withdrawal rate';
     }
 
     document.getElementById('results-section').style.display = 'block';
