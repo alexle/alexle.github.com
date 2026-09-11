@@ -66,6 +66,26 @@ permalink: /fire-calculator/
     min-width: 1.5rem;
   }
 
+  .assumptions {
+    border-top: 1px solid var(--border);
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+  }
+
+  .assumptions > summary {
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+
+  .assumptions[open] > summary { margin-bottom: 1rem; }
+
+  .assumption-summary {
+    display: block;
+    font-size: 0.75rem;
+    margin-left: 1.1rem;
+  }
+
   .optional-fields {
     margin: -0.35rem 0 1rem;
   }
@@ -294,7 +314,7 @@ permalink: /fire-calculator/
 
 <div class="fire-calc">
 <p style="color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem;">Project when you can achieve financial independence.</p>
-<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">Financial independence means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns; actual results will vary. <a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">Withdrawal-rate research</a>.</p>
+<p style="color: var(--muted); font-size: 0.8rem; margin: -1rem 0 1.5rem;">FI means your investments can cover your living expenses. All amounts are in today's dollars and assume constant real returns. Reference <a href="https://www.financialplanningassociation.org/sites/default/files/2020-05/7%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf">Withdrawal-rate research</a>.</p>
 
 <div class="fire-inputs">
 <div class="field-group">
@@ -328,6 +348,9 @@ permalink: /fire-calculator/
     <span class="unit-label">$</span>
   </div>
 </div>
+
+<details class="assumptions">
+<summary>Adjust assumptions (optional)<span class="assumption-summary" id="assumption-summary">4% withdrawal · 80/15/5 allocation · 6.9% blended real return</span></summary>
 
 <div class="field-group">
   <label>Withdrawal Rate</label>
@@ -409,6 +432,7 @@ permalink: /fire-calculator/
     </div>
   </div>
 </div>
+</details>
 
 <div class="actions">
   <button class="btn-calc" onclick="calculate()">Calculate</button>
@@ -510,6 +534,32 @@ permalink: /fire-calculator/
     else input.removeAttribute('aria-invalid');
   }
 
+  function focusField(input) {
+    document.querySelectorAll('details').forEach(function(details) {
+      if (details.contains(input)) details.open = true;
+    });
+    input.focus();
+  }
+
+  function updateAssumptionSummary() {
+    const ids = ['withdrawal-rate', 'alloc-stocks', 'alloc-bonds', 'alloc-cash', 'return-stocks', 'return-bonds', 'return-cash'];
+    const summary = document.getElementById('assumption-summary');
+    if (ids.some(isEmpty)) {
+      summary.textContent = 'Complete the assumption fields';
+      return;
+    }
+
+    const withdrawalRate = val('withdrawal-rate');
+    const allocations = [val('alloc-stocks'), val('alloc-bonds'), val('alloc-cash')];
+    const returns = [val('return-stocks'), val('return-bonds'), val('return-cash')];
+    const blendedReturn = allocations.reduce(function(total, allocation, index) {
+      return total + allocation * returns[index];
+    }, 0) / 100;
+    const withdrawalLabel = Number.isInteger(withdrawalRate) ? withdrawalRate.toFixed(0) : withdrawalRate.toFixed(1);
+    summary.textContent = withdrawalLabel + '% withdrawal · ' +
+      allocations.join('/') + ' allocation · ' + blendedReturn.toFixed(1) + '% blended real return';
+  }
+
   function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age, returnRate) {
     const noSupplementTarget = expenses / withdrawalRate;
     if (supplementalAnnual <= 0 || supplementalAge <= age) {
@@ -536,7 +586,7 @@ permalink: /fire-calculator/
     if (invalidInputs.length > 0) {
       const hasMissingValue = invalidInputs.some(function(input) { return input.validity.valueMissing; });
       showError(hasMissingValue ? 'Please fill in all required fields.' : 'Please enter values within the allowed ranges.');
-      invalidInputs[0].focus();
+      focusField(invalidInputs[0]);
       return;
     }
 
@@ -559,6 +609,8 @@ permalink: /fire-calculator/
     const allocSum = allocStocks + allocBonds + allocCash;
     if (Math.abs(allocSum - 100) > 0.01) {
       document.getElementById('alloc-error').style.display = 'block';
+      ['alloc-stocks', 'alloc-bonds', 'alloc-cash'].forEach(function(id) { setFieldError(id, true); });
+      focusField(document.getElementById('alloc-stocks'));
       return;
     }
 
@@ -570,11 +622,13 @@ permalink: /fire-calculator/
     if (supplementalMonthly > 0 && isEmpty('supplemental-age')) {
       setFieldError('supplemental-age', true);
       showError('Enter the age when supplemental income begins.');
+      focusField(document.getElementById('supplemental-age'));
       return;
     }
     if (supplementalMonthly > 0 && supplementalAge < age) {
       setFieldError('supplemental-age', true);
       showError('Supplemental income starting age cannot be before your current age.');
+      focusField(document.getElementById('supplemental-age'));
       return;
     }
 
@@ -826,7 +880,10 @@ permalink: /fire-calculator/
   document.querySelectorAll('.field-group input').forEach(function(input) {
     input.addEventListener('input', function() {
       setFieldError(input.id, false);
+      updateAssumptionSummary();
     });
   });
+
+  updateAssumptionSummary();
 
 </script>
