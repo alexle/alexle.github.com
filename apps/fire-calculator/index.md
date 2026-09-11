@@ -547,7 +547,8 @@ permalink: /fire-calculator/
   }
 
   function fmtMoney(n) {
-    return '$' + Math.round(n).toLocaleString();
+    const rounded = Math.round(n);
+    return (rounded < 0 ? '-$' : '$') + Math.abs(rounded).toLocaleString();
   }
 
   function fmtMoneyCompact(n) {
@@ -617,7 +618,7 @@ permalink: /fire-calculator/
     if (scenarioYear === null) return baseYear === null ? 'No change' : 'Beyond range';
     if (baseYear === null) return 'Now projected';
     const yearsSooner = baseYear - scenarioYear;
-    if (yearsSooner === 0) return 'Same year';
+    if (yearsSooner === 0) return 'No change within this annual estimate';
     const unit = Math.abs(yearsSooner) === 1 ? 'year' : 'years';
     return Math.abs(yearsSooner) + ' ' + unit + (yearsSooner > 0 ? ' sooner' : ' later');
   }
@@ -717,7 +718,7 @@ permalink: /fire-calculator/
     } else {
       const yearLabel = fireYear === 1 ? 'year' : 'years';
       document.getElementById('headline').innerHTML =
-        'You can reach Financial Independence in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
+        'In this scenario, you reach Financial Independence in <strong>' + fireYear + ' ' + yearLabel + ' by age ' + fireAge + '</strong>';
     }
 
     // Actionable comparisons
@@ -744,7 +745,7 @@ permalink: /fire-calculator/
 
     // Stats
     document.getElementById('stat-savings').textContent = fmtMoney(annualSavings) + '/yr';
-    document.getElementById('stat-rate').textContent = (Math.max(0, savingsRate) * 100).toFixed(1) + '%';
+    document.getElementById('stat-rate').textContent = (savingsRate * 100).toFixed(1) + '%';
     document.getElementById('stat-return').textContent = (blendedReturn * 100).toFixed(1) + '%';
     document.getElementById('stat-fire-number').textContent = fmtMoney(fireNumber);
     document.getElementById('stat-fire-year').textContent = fireYear === null ? 'Not within ' + MAX_YEARS + ' years' : (currentYear + fireYear).toString();
@@ -850,7 +851,7 @@ permalink: /fire-calculator/
 
     // Scales
     const maxYear = data[data.length - 1].year;
-    const maxVal = Math.max(fireNumber, data[data.length - 1].total) * 1.1;
+    const maxVal = Math.max(1, fireNumber, data[data.length - 1].total) * 1.1;
 
     function xPos(year) { return pad.left + (year / maxYear) * plotW; }
     function yPos(val) { return pad.top + plotH - (val / maxVal) * plotH; }
