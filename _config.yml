@@ -52,4 +52,4 @@ permalink:      /:title
 paginate:       7
 
 # Excludes
-exclude:        [Gemfile, Gemfile.lock, vendor, node_modules]
+exclude:        [Gemfile, Gemfile.lock, vendor, node_modules, scripts/issue-to-post.sh, tests]

@@ -21,7 +21,6 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          TITLE="$ISSUE_TITLE"
           BODY="$ISSUE_BODY"
 
           if [ -z "$(echo "$BODY" | tr -d '[:space:]')" ]; then
@@ -29,36 +28,21 @@ jobs:
             exit 0
           fi
 
-          # Extract tags if specified
-          TAGS=""
-          if echo "$BODY" | grep -q "Tags:"; then
-            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r' | xargs)
-            BODY=$(echo "$BODY" | grep -v "Tags:")
-          fi
-
-          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -dc 'a-z0-9-')
           DATE=$(date +%Y-%m-%d)
-
-          mkdir -p "_drafts"
-
-          {
-            printf '%s\n' '---'
-            printf 'title: "%s"\n' "$TITLE"
-            printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
-            if [ -n "$TAGS" ]; then
-              printf 'tags: %s\n' "$TAGS"
-            fi
-            printf 'issue: %s\n' "$ISSUE_NUMBER"
-            printf '%s\n\n' '---'
-            printf '%s\n' "$BODY"
-          } > "_drafts/$DATE-$SLUG.markdown"
+          FILENAME=$(
+            POST_DATE="$DATE" \
+            POST_DIRECTORY="_drafts" \
+            scripts/issue-to-post.sh
+          )
+          SLUG=${FILENAME#"$DATE-"}
+          SLUG=${SLUG%.markdown}
 
           echo "slug=${SLUG}" >> $GITHUB_OUTPUT
-          echo "filename=$DATE-$SLUG.markdown" >> $GITHUB_OUTPUT
+          echo "filename=$FILENAME" >> $GITHUB_OUTPUT
 
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add "_drafts/$DATE-$SLUG.markdown"
+          git add "_drafts/$FILENAME"
           git commit -m "Add draft: $ISSUE_TITLE"
           git push
 

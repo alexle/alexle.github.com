@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Test issue-to-post transformation
+        run: tests/issue-to-post.sh
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

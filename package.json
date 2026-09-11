@@ -11,6 +11,7 @@
   },
   "scripts": {
     "prepare": "husky",
+    "test": "tests/issue-to-post.sh",
     "lint": "stylelint \"**/*.scss\" --ignore-path .gitignore",
     "lint:fix": "stylelint \"**/*.scss\" --ignore-path .gitignore --fix",
     "jekyll:serve": "bundle exec jekyll serve --drafts",

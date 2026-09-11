@@ -20,8 +20,6 @@ jobs:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          # Extract info from issue
-          TITLE="$ISSUE_TITLE"
           BODY="$ISSUE_BODY"
 
           # Validate body is not empty
@@ -31,32 +29,15 @@ jobs:
             exit 0
           fi
 
-          # Extract tags if specified in body with "Tags: tag1, tag2"
-          TAGS=""
-          if echo "$BODY" | grep -q "Tags:"; then
-            TAGS=$(echo "$BODY" | grep "Tags:" | sed 's/Tags://' | tr -d '\r' | xargs)
-            BODY=$(echo "$BODY" | grep -v "Tags:")
-          fi
-
-          # Create filename-friendly slug
-          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -dc 'a-z0-9-')
           DATE=$(date +%Y-%m-%d)
           YEAR=$(date +%Y)
-
-          # Create post file with front matter in yearly directory
-          mkdir -p "_posts/$YEAR"
-
-          # Write front matter and content
-          {
-            printf '%s\n' '---'
-            printf 'title: "%s"\n' "$TITLE"
-            printf 'date: %s\n' "$(date +"%Y-%m-%d %H:%M:%S")"
-            if [ -n "$TAGS" ]; then
-              printf 'tags: %s\n' "$TAGS"
-            fi
-            printf '%s\n\n' '---'
-            printf '%s\n' "$BODY"
-          } > "_posts/$YEAR/$DATE-$SLUG.markdown"
+          FILENAME=$(
+            POST_DATE="$DATE" \
+            POST_DIRECTORY="_posts/$YEAR" \
+            scripts/issue-to-post.sh
+          )
+          SLUG=${FILENAME#"$DATE-"}
+          SLUG=${SLUG%.markdown}
 
           # Set outputs for subsequent steps
           echo "slug=${SLUG}" >> $GITHUB_OUTPUT
@@ -65,7 +46,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          git add "_posts/$YEAR/$DATE-$SLUG.markdown"
+          git add "_posts/$YEAR/$FILENAME"
           git commit -m "Add new post: $ISSUE_TITLE"
           git push
 
