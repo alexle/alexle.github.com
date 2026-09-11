@@ -60,6 +60,31 @@ permalink: /fire-calculator/
     min-width: 1.5rem;
   }
 
+  .optional-fields {
+    margin: -0.35rem 0 1rem;
+  }
+
+  .optional-fields summary {
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: fit-content;
+  }
+
+  .optional-fields[open] summary { margin-bottom: 0.75rem; }
+
+  .supplemental-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .supplemental-row .field-group { margin-bottom: 0; }
+
+  @media (max-width: 420px) {
+    .supplemental-row { grid-template-columns: 1fr; }
+  }
+
   .section-label {
     font-size: 0.85rem;
     color: var(--muted);
@@ -302,6 +327,26 @@ permalink: /fire-calculator/
   </div>
 </div>
 
+<details class="optional-fields">
+  <summary>Supplemental income (optional)</summary>
+  <div class="supplemental-row">
+    <div class="field-group">
+      <label>Supplemental Per Month</label>
+      <div class="inputs">
+        <input type="number" id="supplemental-monthly" min="0" step="100" placeholder="0">
+        <span class="unit-label">$</span>
+      </div>
+    </div>
+    <div class="field-group">
+      <label>Starting At Age</label>
+      <div class="inputs">
+        <input type="number" id="supplemental-age" min="18" max="120" placeholder="67">
+        <span class="unit-label">yrs</span>
+      </div>
+    </div>
+  </div>
+</details>
+
 <div class="section-label">Asset Allocation</div>
 
 <div class="alloc-row">
@@ -335,7 +380,7 @@ permalink: /fire-calculator/
   <div class="field-group">
     <label>Stocks</label>
     <div class="inputs">
-      <input type="number" id="return-stocks" min="0" max="30" step="0.5" value="7">
+      <input type="number" id="return-stocks" min="0" max="30" step="0.5" value="8">
       <span class="unit-label">%</span>
     </div>
   </div>
@@ -423,18 +468,13 @@ permalink: /fire-calculator/
   </table>
 
   <div class="stats-header">Am I FI Today?</div>
-  <div class="stats-row">
-    <span class="stat-label">Your Current Withdrawal Rate</span>
-    <span class="stat-value" id="stat-current-wr"></span>
-  </div>
-  <div class="stat-desc" id="current-wr-desc">expenses / current net worth</div>
+  <div class="fire-headline" id="fi-verdict" style="margin: 0.5rem 0 0.75rem;"></div>
   <table class="stress-table" id="fi-benchmarks">
     <thead>
       <tr><th>Benchmark</th><th>Required Portfolio</th><th>Gap</th></tr>
     </thead>
     <tbody id="fi-bench-tbody"></tbody>
   </table>
-  <div class="fire-headline" id="fi-verdict" style="margin-top: 0.75rem;"></div>
 </div>
 </div>
 
@@ -462,18 +502,30 @@ permalink: /fire-calculator/
     return document.getElementById(id).value.trim() === '';
   }
 
-  // Finds the year a portfolio crosses fireNumber under a given constant return rate.
+  function requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, age) {
+    if (supplementalAnnual <= 0 || supplementalAge <= age) {
+      return Math.max(0, expenses - supplementalAnnual) / withdrawalRate;
+    }
+    const bridgeYears = supplementalAge - age;
+    const ongoingExpenses = Math.max(0, expenses - supplementalAnnual);
+    return ongoingExpenses / withdrawalRate + Math.min(expenses, supplementalAnnual) * bridgeYears;
+  }
+
+  // Finds the year a portfolio crosses its required target under a constant return rate.
   // Mirrors the main projection loop's logic without tracking the full data series —
   // used only to derive the confidence range.
-  function findFireYear(networth, annualSavings, expenses, returnRate, fireNumber) {
+  function findFireYear(networth, annualSavings, expenses, returnRate, withdrawalRate, age, supplementalAnnual, supplementalAge) {
     let portfolio = networth;
     let fireYear = null;
     for (let y = 1; y <= MAX_YEARS; y++) {
       const yearReturn = portfolio * returnRate;
-      const yearSavings = (fireYear === null) ? annualSavings : -expenses;
+      const currentAge = age + y;
+      const supplementalIncome = currentAge >= supplementalAge ? supplementalAnnual : 0;
+      const yearSavings = (fireYear === null) ? annualSavings + supplementalIncome : supplementalIncome - expenses;
       portfolio += yearSavings + yearReturn;
       if (portfolio < 0) portfolio = 0;
-      if (fireYear === null && portfolio >= fireNumber) fireYear = y;
+      const target = requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, currentAge);
+      if (fireYear === null && portfolio >= target) fireYear = y;
     }
     return fireYear;
   }
@@ -501,6 +553,9 @@ permalink: /fire-calculator/
     const retBonds = val('return-bonds') / 100;
     const retCash = val('return-cash') / 100;
     const wr = val('withdrawal-rate') / 100;
+    const supplementalMonthly = val('supplemental-monthly');
+    const supplementalAnnual = supplementalMonthly * 12;
+    const supplementalAge = val('supplemental-age');
 
     // Validation
     const allocSum = allocStocks + allocBonds + allocCash;
@@ -516,11 +571,19 @@ permalink: /fire-calculator/
       el.style.display = 'block';
     }
     if (wr <= 0) { showError('Withdrawal rate must be greater than 0.'); return; }
+    if (supplementalMonthly > 0 && isEmpty('supplemental-age')) {
+      showError('Enter the age when supplemental income begins.');
+      return;
+    }
+    if (supplementalMonthly > 0 && supplementalAge < age) {
+      showError('Supplemental income starting age cannot be before your current age.');
+      return;
+    }
 
     const annualSavings = income - expenses;
     const savingsRate = income > 0 ? annualSavings / income : 0;
     const blendedReturn = (allocStocks * retStocks + allocBonds * retBonds + allocCash * retCash) / 100;
-    const fireNumber = expenses / wr;
+    let fireNumber = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age);
 
     // Projection
     let portfolio = networth;
@@ -531,15 +594,19 @@ permalink: /fire-calculator/
 
     for (let y = 1; y <= MAX_YEARS; y++) {
       const yearReturn = portfolio * blendedReturn;
-      const yearSavings = (fireYear === null) ? annualSavings : -expenses;
+      const currentAge = age + y;
+      const supplementalIncome = currentAge >= supplementalAge ? supplementalAnnual : 0;
+      const yearSavings = (fireYear === null) ? annualSavings + supplementalIncome : supplementalIncome - expenses;
       portfolio += yearSavings + yearReturn;
       if (portfolio < 0) portfolio = 0;
       cumContributions += yearSavings;
       cumReturns += yearReturn;
       data.push({ year: y, contributions: cumContributions, returns: cumReturns, total: portfolio });
 
-      if (fireYear === null && portfolio >= fireNumber) {
+      const currentTarget = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, currentAge);
+      if (fireYear === null && portfolio >= currentTarget) {
         fireYear = y;
+        fireNumber = currentTarget;
       }
     }
 
@@ -564,8 +631,8 @@ permalink: /fire-calculator/
 
     // Confidence range: same projection at +/-1.5% on the blended return
     const RETURN_SPREAD = 0.015;
-    const conservativeYear = findFireYear(networth, annualSavings, expenses, blendedReturn - RETURN_SPREAD, fireNumber);
-    const optimisticYear = findFireYear(networth, annualSavings, expenses, blendedReturn + RETURN_SPREAD, fireNumber);
+    const conservativeYear = findFireYear(networth, annualSavings, expenses, blendedReturn - RETURN_SPREAD, wr, age, supplementalAnnual, supplementalAge);
+    const optimisticYear = findFireYear(networth, annualSavings, expenses, blendedReturn + RETURN_SPREAD, wr, age, supplementalAnnual, supplementalAge);
     document.getElementById('stat-fire-age-conservative').textContent =
       conservativeYear === null ? MAX_YEARS + '+ yrs' : 'Age ' + Math.round(age + conservativeYear);
     document.getElementById('stat-fire-age-optimistic').textContent =
@@ -587,13 +654,11 @@ permalink: /fire-calculator/
 
     // Withdrawal stress test
     const firePortfolio = data[fireYear].total;
-    const stressRates = [3, 3.5, 4, 4.5, 5];
+    const stressRates = [3, 4, 5];
     const userRate = val('withdrawal-rate');
-    // Ensure user's rate is in the list
-    const rates = stressRates.includes(userRate) ? stressRates : [...stressRates, userRate].sort((a, b) => a - b);
     const tbody = document.getElementById('stress-tbody');
     tbody.innerHTML = '';
-    for (const rate of rates) {
+    for (const rate of stressRates) {
       const rateDecimal = rate / 100;
       const annualSpend = firePortfolio * rateDecimal;
       const tr = document.createElement('tr');
@@ -604,28 +669,18 @@ permalink: /fire-calculator/
     }
 
     // Am I FI Today?
-    const currentWR = networth > 0 ? (expenses / networth) * 100 : null;
-    document.getElementById('stat-current-wr').textContent = currentWR !== null ? currentWR.toFixed(2) + '%' : 'N/A';
-    const benchmarks = [3, 3.5, 4];
     const benchTbody = document.getElementById('fi-bench-tbody');
     benchTbody.innerHTML = '';
-    let verdict = 'Not yet';
-    for (const bench of benchmarks) {
-      const required = expenses / (bench / 100);
-      const gap = required - networth;
-      const tr = document.createElement('tr');
-      tr.innerHTML = '<td>' + bench.toFixed(1) + '% (SWR)</td>' +
-        '<td>' + fmtMoney(required) + '</td>' +
-        '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
-      benchTbody.appendChild(tr);
-    }
-    if (currentWR !== null && currentWR <= 4) verdict = 'Safe';
-    else if (currentWR !== null && currentWR <= 5) verdict = 'Lean';
+    const requiredToday = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age);
+    const gap = requiredToday - networth;
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td>' + userRate.toFixed(1) + '% (SWR)</td>' +
+      '<td>' + fmtMoney(requiredToday) + '</td>' +
+      '<td>' + (gap <= 0 ? '<span style="color:#a3d9a5">✓ covered</span>' : fmtMoney(gap) + ' short') + '</td>';
+    benchTbody.appendChild(tr);
     const verdictEl = document.getElementById('fi-verdict');
-    if (verdict === 'Safe') {
-      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Safe</strong> — your portfolio covers expenses at a 4% withdrawal rate';
-    } else if (verdict === 'Lean') {
-      verdictEl.innerHTML = '<strong style="color:#e0a458">Lean</strong> — you could retire today, but it\'s a stretch';
+    if (gap <= 0) {
+      verdictEl.innerHTML = '<strong style="color:#a3d9a5">Yes</strong> — your portfolio covers expenses at your selected withdrawal rate';
     } else {
       verdictEl.innerHTML = '<strong style="color:var(--accent)">Not yet</strong> — your portfolio doesn\'t cover expenses at a sustainable withdrawal rate';
     }
