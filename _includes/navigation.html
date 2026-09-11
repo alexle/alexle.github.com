@@ -1,10 +1,10 @@
 <nav class="nav">
   <div class="nav-container">
     <ul>
-      <li{% if page.url == "/" %} class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
-      <li{% if page.layout == "posts" or page.date %} class="active"{% endif %}><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
-      <li{% if page.layout == "app" %} class="active"{% endif %}><a href="{{ '/apps' | prepend: site.baseurl }}">Apps</a></li>
-      <li{% if page.layout == "search" %} class="active"{% endif %}><a href="{{ '/search' | prepend: site.baseurl }}">Search</a></li>
+      <li{% if page.url == "/" %} class="active"{% endif %}><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li{% if page.layout == "posts" or page.date %} class="active"{% endif %}><a href="{{ '/posts' | relative_url }}">Posts</a></li>
+      <li{% if page.layout == "app" %} class="active"{% endif %}><a href="{{ '/apps' | relative_url }}">Apps</a></li>
+      <li{% if page.layout == "search" %} class="active"{% endif %}><a href="{{ '/search' | relative_url }}">Search</a></li>
     </ul>
   </div>
 </nav>

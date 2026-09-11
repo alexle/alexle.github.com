@@ -22,7 +22,7 @@ layout: default
     {% for post in year.items %}
     <div class="archive-item">
       <span class="archive-time">{{ post.date | date: "%b %d" }}</span>
-      <a class="archive-title" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="archive-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </div>
     {% endfor %}
     {% endfor %}
@@ -32,5 +32,5 @@ layout: default
 </div>
 
 <div class="pagination">
-  <a href="/" class="home">Home</a>
+  <a href="{{ '/' | relative_url }}" class="home">Home</a>
 </div>

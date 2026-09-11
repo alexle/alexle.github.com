@@ -21,7 +21,7 @@ layout: default
 
 <div class="feed">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="feed-item">
+    <a href="{{ post.url | relative_url }}" class="feed-item">
       <div>
         <h2 class="feed-title">{{ post.title }}</h2>
         <time datetime="{{ post.date }}" class="feed-time">{{ post.date | date: "%B %d, %Y" }}</time>
