@@ -4,19 +4,19 @@ date: 2025-11-02 00:59:55
 tags:
 ---
 
-Thirteen years ago -- I signed up for a 10k on a whim. Little did I know how much running would later become a part of my life and my identity.
+Thirteen years ago, I signed up for a 10k on a whim. I never imagined how much running would later become a part of my life and my identity after that race.
 
-And then a freak injury changed everything.
+Then a freak injury changed everything.
 
 ## The Grief No One Talks About
 
-I was shuttled to the ER in the middle of the night. The pain was unbearable. I was even held an extra night.
+I was shuttled to the ER in the middle of the night. The pain was unbearable. They even held me an extra night.
 
-Injuries are awful. We all hear about the pain. The rehab. The setbacks.
+Injuries are awful. There's the ongoing pain. The time-consuming rehab. The setbacks.
 
 But one thing people don't talk about often is the grief.
 
-The grief of losing a version of yourself that was built over years. And knowing it was all taken away -- not by choice -- but by accident.
+The grief of losing a version of yourself that was built over years. And having to accept that it was all taken away -- not by choice -- but by accident.
 
 In some ways, I think the ache of _what could have been_ hurts more than the injury itself.
 
@@ -30,7 +30,7 @@ Instead of tying running to arbitrary numbers — a sub-3 marathon, a 100k ultra
 
 It was more than chasing the next milestone.
 
-Running was about the joy of movement. The love of training. The mental clarity during a run. Following the process and choosing the "hard" each day. And just lacing up the shoes even when I didn't want to.
+Running was about the joy of movement. The love of training. The mental clarity I always had on runs. It was about following the process and choosing to lace up the shoes even when I didn't want to.
 
 None of which has changed after my injury.
 
