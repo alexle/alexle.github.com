@@ -8,13 +8,18 @@ permalink: /fire-calculator/
 <style>
   .fire-calc {
     --highlight: #a3d9a5;
+    --text-small: 0.8rem;
+    --text-label: 0.85rem;
+    --text-body: 0.9rem;
+    --text-heading: 1.1rem;
+    --text-emphasis: 1.4rem;
   }
 
   .fire-inputs { max-width: 480px; }
 
   .fire-intro {
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: var(--text-body);
     margin-bottom: 1.5rem;
   }
 
@@ -37,7 +42,7 @@ permalink: /fire-calculator/
   .optional-fields summary {
     color: var(--muted);
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: var(--text-small);
     width: fit-content;
   }
 
@@ -56,7 +61,7 @@ permalink: /fire-calculator/
   }
 
   .section-label {
-    font-size: 0.85rem;
+    font-size: var(--text-label);
     color: var(--muted);
     margin: 1.5rem 0 0.75rem;
     padding-top: 0.75rem;
@@ -79,27 +84,27 @@ permalink: /fire-calculator/
 
   .alloc-error {
     color: var(--accent);
-    font-size: 0.8rem;
+    font-size: var(--text-small);
     margin-top: 0.25rem;
     display: none;
   }
 
   .error-msg {
     color: var(--accent);
-    font-size: 0.85rem;
+    font-size: var(--text-label);
     margin-top: 0.5rem;
     display: none;
   }
 
   .warning-msg {
     color: #e0a458;
-    font-size: 0.85rem;
+    font-size: var(--text-label);
     margin-top: 0.5rem;
     display: none;
   }
 
   .fire-headline {
-    font-size: 1.1rem;
+    font-size: var(--text-heading);
     font-weight: 400;
     color: var(--muted);
     margin-bottom: 1rem;
@@ -107,23 +112,34 @@ permalink: /fire-calculator/
   }
 
   .fire-headline strong {
-    font-size: 1.4rem;
+    font-size: var(--text-emphasis);
     color: var(--accent);
   }
 
-  .fi-verdict { margin: 0.5rem 0 0.75rem; }
-
-  .fi-verdict strong {
-    display: block;
-    font-size: 1.4rem;
+  .fi-status-row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: var(--text-heading);
+    margin-top: 1rem;
   }
+
+  .fi-status-row .stats-header {
+    font-size: inherit;
+    margin: 0;
+  }
+
+  .fi-status-row #fi-status { font-weight: 500; }
+
+  .fi-verdict { margin: 0.5rem 0 0.75rem; }
 
   .fi-status-yes { color: #a3d9a5; }
   .fi-status-not-yet { color: var(--accent); }
 
   .fi-explanation {
     color: var(--muted);
-    font-size: 1.1rem;
+    font-size: var(--text-body);
     line-height: 1.4;
   }
 
@@ -142,7 +158,7 @@ permalink: /fire-calculator/
   .chart-legend {
     display: flex;
     gap: 1.2rem;
-    font-size: 0.8rem;
+    font-size: var(--text-small);
     color: var(--muted);
     margin-bottom: 1rem;
   }
@@ -170,7 +186,7 @@ permalink: /fire-calculator/
     display: flex;
     justify-content: space-between;
     padding: 0.3rem 0;
-    font-size: 0.9rem;
+    font-size: var(--text-body);
   }
 
   .stats-row .stat-label { color: var(--muted); }
@@ -178,7 +194,7 @@ permalink: /fire-calculator/
   .stats-row .stat-value.milestone-value { color: var(--highlight); }
 
   .stats-header {
-    font-size: 1.1rem;
+    font-size: var(--text-heading);
     color: inherit;
     margin-top: 1rem;
     margin-bottom: 0.25rem;
@@ -187,27 +203,27 @@ permalink: /fire-calculator/
   .stats-header:first-child { margin-top: 0; }
 
   .stat-desc {
-    font-size: 0.75rem;
+    font-size: var(--text-body);
     color: var(--muted);
     text-align: right;
   }
 
   .coast-reached {
     color: #a3d9a5;
-    font-size: 0.8rem;
+    font-size: inherit;
     font-weight: 500;
   }
 
   .coast-delta {
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: inherit;
   }
 
   .stress-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 0.5rem;
-    font-size: 0.85rem;
+    font-size: var(--text-body);
     table-layout: fixed;
   }
 
@@ -218,6 +234,8 @@ permalink: /fire-calculator/
     padding: 0.35rem 0;
     border-bottom: 1px solid var(--border);
   }
+
+  #action-insights .stress-table th { vertical-align: bottom; }
 
   .stress-table th:first-child,
   .stress-table td:first-child {
@@ -434,9 +452,11 @@ permalink: /fire-calculator/
     <tbody id="stress-tbody"></tbody>
   </table>
 
-  <div class="stats-header">Am I FI Today?</div>
+  <div class="fi-status-row">
+    <div class="stats-header">Am I FI Today?</div>
+    <span id="fi-status"></span>
+  </div>
   <div class="fi-verdict">
-    <strong id="fi-status"></strong>
     <div class="fi-explanation" id="fi-explanation"></div>
   </div>
   <table class="stress-table">
@@ -450,7 +470,7 @@ permalink: /fire-calculator/
     <div class="stats-header">Ways to Reach FI Sooner</div>
     <table class="stress-table">
       <thead>
-        <tr><th>Change</th><th>FI Year</th><th>Difference</th></tr>
+        <tr><th>Invest More Each Month</th><th>FI Year</th><th>Sooner By</th></tr>
       </thead>
       <tbody id="scenario-tbody"></tbody>
     </table>
@@ -516,30 +536,31 @@ permalink: /fire-calculator/
     return Math.min(noSupplementTarget, ongoingExpenses / withdrawalRate + bridge);
   }
 
-  function findFireYear(age, networth, annualSavings, expenses, returnRate, withdrawalRate, supplementalAnnual, supplementalAge) {
+  function findFireMonth(age, networth, annualSavings, expenses, returnRate, withdrawalRate, supplementalAnnual, supplementalAge) {
     let portfolio = networth;
-    for (let year = 0; year <= MAX_YEARS; year++) {
-      const currentAge = age + year;
+    const monthlyReturn = Math.pow(1 + returnRate, 1 / 12) - 1;
+    for (let month = 0; month <= MAX_YEARS * 12; month++) {
+      const currentAge = age + month / 12;
       const target = requiredPortfolio(expenses, withdrawalRate, supplementalAnnual, supplementalAge, currentAge, returnRate);
-      if (portfolio >= target) return year;
-      const supplementalIncome = currentAge + 1 >= supplementalAge ? supplementalAnnual : 0;
-      portfolio = Math.max(0, portfolio * (1 + returnRate) + annualSavings + supplementalIncome);
+      if (portfolio >= target) return month;
+      const supplementalIncome = age + (month + 1) / 12 >= supplementalAge ? supplementalAnnual / 12 : 0;
+      portfolio = Math.max(0, portfolio * (1 + monthlyReturn) + annualSavings / 12 + supplementalIncome);
     }
     return null;
   }
 
-  function fireYearText(year, currentYear) {
-    if (year === null) return 'Not within ' + MAX_YEARS + ' years';
-    return year === 0 ? 'Today' : (currentYear + year).toString();
+  function fireYearText(month, currentYear, currentMonth) {
+    if (month === null) return 'Not within ' + MAX_YEARS + ' years';
+    return month === 0 ? 'Today' : (currentYear + Math.floor((currentMonth + month) / 12)).toString();
   }
 
-  function yearDifferenceText(scenarioYear, baseYear) {
-    if (scenarioYear === null) return baseYear === null ? 'No change' : 'Beyond range';
-    if (baseYear === null) return 'Now projected';
-    const yearsSooner = baseYear - scenarioYear;
-    if (yearsSooner === 0) return 'No change annually';
-    const unit = Math.abs(yearsSooner) === 1 ? 'year' : 'years';
-    return Math.abs(yearsSooner) + ' ' + unit + (yearsSooner > 0 ? ' sooner' : ' later');
+  function monthDifferenceText(scenarioMonth, baseMonth) {
+    if (scenarioMonth === null) return baseMonth === null ? 'No change' : 'Beyond range';
+    if (baseMonth === null) return 'Now projected';
+    const monthsSooner = baseMonth - scenarioMonth;
+    if (monthsSooner === 0) return 'No change within monthly estimate';
+    const duration = Math.abs(monthsSooner) + ' ' + (Math.abs(monthsSooner) === 1 ? 'month' : 'months');
+    return monthsSooner > 0 ? duration : duration + ' later';
   }
 
   function calculate() {
@@ -626,7 +647,8 @@ permalink: /fire-calculator/
     }
 
     // Headline
-    const currentYear = new Date().getFullYear();
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
     const fireAge = fireYear === null ? null : Math.round(age + fireYear);
     if (fireYear === null) {
       document.getElementById('headline').innerHTML =
@@ -641,24 +663,22 @@ permalink: /fire-calculator/
     }
 
     // Actionable comparisons
-    const saveMoreYear = findFireYear(age, networth, annualSavings + 6000, expenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
-    const monthlySpendingReduction = Math.min(500, expenses / 12);
-    const reducedExpenses = expenses - monthlySpendingReduction * 12;
-    const spendLessYear = findFireYear(age, networth, income - reducedExpenses, reducedExpenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
+    const baseFireMonth = findFireMonth(age, networth, annualSavings, expenses, blendedReturn, wr, supplementalAnnual, supplementalAge);
     const actionInsights = document.getElementById('action-insights');
     actionInsights.style.display = fireYear === 0 ? 'none' : 'block';
     const scenarioTbody = document.getElementById('scenario-tbody');
     scenarioTbody.innerHTML = '';
-    const scenarios = [
-      { change: 'Save $500 more per month', year: saveMoreYear },
-      { change: 'Spend ' + fmtMoney(monthlySpendingReduction) + ' less per month', year: spendLessYear, hidden: monthlySpendingReduction === 0 }
-    ];
+    const scenarios = [500, 1000, 2000].map(function(monthlyInvestment) {
+      return {
+        change: fmtMoney(monthlyInvestment),
+        month: findFireMonth(age, networth, annualSavings + monthlyInvestment * 12, expenses, blendedReturn, wr, supplementalAnnual, supplementalAge)
+      };
+    });
     scenarios.forEach(function(scenario) {
-      if (scenario.hidden) return;
       const row = document.createElement('tr');
       row.innerHTML = '<td>' + scenario.change + '</td>' +
-        '<td>' + fireYearText(scenario.year, currentYear) + '</td>' +
-        '<td>' + yearDifferenceText(scenario.year, fireYear) + '</td>';
+        '<td>' + fireYearText(scenario.month, currentYear, currentDate.getMonth()) + '</td>' +
+        '<td>' + monthDifferenceText(scenario.month, baseFireMonth) + '</td>';
       scenarioTbody.appendChild(row);
     });
 
