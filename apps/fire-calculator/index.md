@@ -53,11 +53,6 @@ permalink: /fire-calculator/
 
   @media (max-width: 520px) {
     .supplemental-row { grid-template-columns: 1fr; }
-
-    .alloc-row {
-      flex-direction: column;
-      gap: 0.75rem;
-    }
   }
 
   .section-label {
@@ -74,7 +69,13 @@ permalink: /fire-calculator/
     margin-bottom: 0.5rem;
   }
 
-  .alloc-row .field-group { flex: 1; margin-bottom: 0; }
+  .alloc-row .field-group {
+    flex: 1;
+    margin-bottom: 0;
+    min-width: 0;
+  }
+
+  .alloc-row input { min-width: 0; }
 
   .alloc-error {
     color: var(--accent);
@@ -536,7 +537,7 @@ permalink: /fire-calculator/
     if (scenarioYear === null) return baseYear === null ? 'No change' : 'Beyond range';
     if (baseYear === null) return 'Now projected';
     const yearsSooner = baseYear - scenarioYear;
-    if (yearsSooner === 0) return 'No change within this annual estimate';
+    if (yearsSooner === 0) return 'No change annually';
     const unit = Math.abs(yearsSooner) === 1 ? 'year' : 'years';
     return Math.abs(yearsSooner) + ' ' + unit + (yearsSooner > 0 ? ' sooner' : ' later');
   }
