@@ -117,10 +117,6 @@ permalink: /fire-calculator/
   }
 
   .fi-status-row {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.2rem;
     font-size: var(--text-heading);
     margin-top: 1rem;
   }
@@ -130,17 +126,24 @@ permalink: /fire-calculator/
     margin: 0;
   }
 
-  .fi-status-row #fi-status { font-weight: 500; }
+  .fi-verdict {
+    color: var(--muted);
+    font-size: var(--text-body);
+    line-height: 1.4;
+    margin: 0.5rem 0 0.75rem;
+  }
 
-  .fi-verdict { margin: 0.5rem 0 0.75rem; }
+  .fi-verdict #fi-status {
+    font-size: var(--text-emphasis);
+  }
 
   .fi-status-yes { color: #a3d9a5; }
   .fi-status-not-yet { color: var(--accent); }
 
   .fi-explanation {
-    color: var(--muted);
-    font-size: var(--text-body);
-    line-height: 1.4;
+    display: block;
+    font-size: inherit;
+    margin-top: 0.2rem;
   }
 
   .chart-container {
@@ -455,17 +458,17 @@ permalink: /fire-calculator/
 
   <div class="fi-status-row">
     <div class="stats-header">Am I FI Today?</div>
-    <span id="fi-status"></span>
   </div>
   <div class="fi-verdict">
-    <div class="fi-explanation" id="fi-explanation"></div>
+    <strong id="fi-status"></strong>
+    <span class="fi-explanation" id="fi-explanation"></span>
   </div>
 
   <div id="action-insights">
     <div class="stats-header">Ways to Reach FI Sooner</div>
     <table class="stress-table">
       <thead>
-        <tr><th>Invest More Each Month</th><th>Age</th><th>Sooner By</th></tr>
+        <tr><th>Invest More Each Month</th><th>FI Age</th><th>Sooner By</th></tr>
       </thead>
       <tbody id="scenario-tbody"></tbody>
     </table>
