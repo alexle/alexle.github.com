@@ -4,7 +4,7 @@ date: 2025-10-18 15:33:17
 tags:
 ---
 
-One of my favorite quotes — and one that has quietly changed the way I live — is from Theodore Roosevelt:
+One of my favorite quotes which changed the way I view action is from Theodore Roosevelt:
 
 > It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better.
 >
@@ -20,11 +20,11 @@ I used to worry about what others thought when I started something new.
 
 Until I realized that most criticism comes from people who aren't even trying. People who rather judge than take action themselves.
 
-It costs nothing to criticize. To sit back and poke holes in others' efforts. To say how things should have been done differently.
+It costs nothing to criticize. To sit back and poke holes in others' efforts. To say how things should've been done differently.
 
 Staying on the sidelines is easy.
 
-Stepping into the arena takes courage. To build. To begin. To take a chance on something that might not succeed.
+Stepping into the arena takes courage. To build something. To step into something unknown. To take a chance on something that might not succeed.
 
 I've come to greatly respect those who try and put themselves out there. Even if it's not perfect. 
 
