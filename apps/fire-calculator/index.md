@@ -460,18 +460,12 @@ permalink: /fire-calculator/
   <div class="fi-verdict">
     <div class="fi-explanation" id="fi-explanation"></div>
   </div>
-  <table class="stress-table">
-    <thead>
-      <tr><th>Benchmark</th><th>Required Portfolio</th><th>Gap</th></tr>
-    </thead>
-    <tbody id="fi-bench-tbody"></tbody>
-  </table>
 
   <div id="action-insights">
     <div class="stats-header">Ways to Reach FI Sooner</div>
     <table class="stress-table">
       <thead>
-        <tr><th>Invest More Each Month</th><th>FI Year</th><th>Sooner By</th></tr>
+        <tr><th>Invest More Each Month</th><th>Age</th><th>Sooner By</th></tr>
       </thead>
       <tbody id="scenario-tbody"></tbody>
     </table>
@@ -550,9 +544,9 @@ permalink: /fire-calculator/
     return null;
   }
 
-  function fireYearText(month, currentYear, currentMonth) {
-    if (month === null) return 'Not within ' + MAX_YEARS + ' years';
-    return month === 0 ? 'Today' : (currentYear + Math.floor((currentMonth + month) / 12)).toString();
+  function fireAgeText(month, age) {
+    if (month === null) return 'Beyond range';
+    return Math.floor(age + month / 12).toString();
   }
 
   function monthDifferenceText(scenarioMonth, baseMonth) {
@@ -648,8 +642,7 @@ permalink: /fire-calculator/
     }
 
     // Headline
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
+    const currentYear = new Date().getFullYear();
     const fireAge = fireYear === null ? null : Math.round(age + fireYear);
     if (fireYear === null) {
       document.getElementById('headline').innerHTML =
@@ -678,7 +671,7 @@ permalink: /fire-calculator/
     scenarios.forEach(function(scenario) {
       const row = document.createElement('tr');
       row.innerHTML = '<td>' + scenario.change + '</td>' +
-        '<td>' + fireYearText(scenario.month, currentYear, currentDate.getMonth()) + '</td>' +
+        '<td>' + fireAgeText(scenario.month, age) + '</td>' +
         '<td>' + monthDifferenceText(scenario.month, baseFireMonth) + '</td>';
       scenarioTbody.appendChild(row);
     });
@@ -727,28 +720,22 @@ permalink: /fire-calculator/
     }
 
     // Am I FI Today?
-    const benchTbody = document.getElementById('fi-bench-tbody');
-    benchTbody.innerHTML = '';
     const requiredToday = requiredPortfolio(expenses, wr, supplementalAnnual, supplementalAge, age, blendedReturn);
     const gap = requiredToday - networth;
-    const tr = document.createElement('tr');
-    const gapValue = gap > 0
-      ? '<span class="gap-negative">−' + fmtMoney(gap) + '</span>'
-      : '<span class="gap-positive">+' + fmtMoney(Math.abs(gap)) + '</span>';
-    tr.innerHTML = '<td>' + userRate.toFixed(1) + '% (SWR)</td>' +
-      '<td>' + fmtMoney(requiredToday) + '</td>' +
-      '<td>' + gapValue + '</td>';
-    benchTbody.appendChild(tr);
     const statusEl = document.getElementById('fi-status');
     const explanationEl = document.getElementById('fi-explanation');
+    const targetExplanation = 'At your ' + userRate.toFixed(1) + '% withdrawal rate, the FI target is ' + fmtMoney(requiredToday) + '. ';
     if (gap <= 0) {
       statusEl.textContent = 'Yes';
       statusEl.className = 'fi-status-yes';
-      explanationEl.textContent = 'Your portfolio covers the target at your selected withdrawal rate.';
+      explanationEl.innerHTML = targetExplanation + (gap === 0 ?
+        'Your portfolio meets it exactly.' :
+        'Your portfolio is <span class="gap-positive">' + fmtMoney(Math.abs(gap)) + '</span> above it.');
     } else {
       statusEl.textContent = 'Not yet';
       statusEl.className = 'fi-status-not-yet';
-      explanationEl.textContent = 'Your portfolio doesn\'t cover the target at your selected withdrawal rate.';
+      explanationEl.innerHTML = targetExplanation +
+        'Your portfolio is <span class="gap-negative">' + fmtMoney(gap) + '</span> short.';
     }
 
     document.getElementById('results-section').style.display = 'block';
