@@ -219,6 +219,8 @@ permalink: /fire-calculator/
     font-size: inherit;
   }
 
+  .coast-desc { font-size: var(--text-small); }
+
   .stress-table {
     width: 100%;
     border-collapse: collapse;
@@ -440,14 +442,13 @@ permalink: /fire-calculator/
     <span class="stat-label" id="stat-coast-fi-label">Coast FI Number</span>
     <span class="stat-value" id="stat-coast-fi"></span>
   </div>
-  <div class="stat-desc">Portfolio needed today to reach the FIRE target by <span id="coast-fi-year"></span> with $0 additional savings</div>
+  <div class="stat-desc coast-desc">Amount needed today to reach FI by <span id="coast-fi-year"></span> with $0 additional savings</div>
   </div>
 
-  <div class="stats-header">Target by Withdrawal Rate</div>
-  <div class="stat-desc" id="stress-desc" style="text-align: left; margin-bottom: 0.4rem;"></div>
+  <div class="stats-header" id="stress-heading"></div>
   <table class="stress-table">
     <thead>
-      <tr><th>Rate</th><th>Target Portfolio</th></tr>
+      <tr><th>Withdrawal Rate</th><th>Target Portfolio</th></tr>
     </thead>
     <tbody id="stress-tbody"></tbody>
   </table>
@@ -712,8 +713,8 @@ permalink: /fire-calculator/
     const stressRates = [3, 4, 5];
     const userRate = val('withdrawal-rate');
     const targetAge = fireYear === null ? age : fireAge;
-    document.getElementById('stress-desc').textContent = fireYear === null ?
-      'Portfolio needed today at each withdrawal rate' : 'Portfolio target at your projected FIRE age of ' + fireAge;
+    document.getElementById('stress-heading').textContent = fireYear === null ?
+      'Portfolio Targets Today' : 'Portfolio Targets at FIRE Age ' + fireAge;
     const tbody = document.getElementById('stress-tbody');
     tbody.innerHTML = '';
     for (const rate of stressRates) {
