@@ -87,4 +87,4 @@ Many people view technical debt as a business or code problem, without realizing
 
 [1]: https://en.wikipedia.org/wiki/Technical_debt
 [2]: /dont-put-up-with-crap.html
-[3]: http://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/
+[3]: https://web.archive.org/web/http://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/
