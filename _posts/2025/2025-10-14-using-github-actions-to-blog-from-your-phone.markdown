@@ -27,7 +27,7 @@ For the times I need to start a draft without publishing, there's an alternative
 
 This gives a scratchpad for half-formed thoughts that I can revisit and finish later.
 
-The workflows can be found in [create-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/create-post-from-issue.yml) and [draft-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/draft-post-from-issue.yml).
+The workflows can be found in [create-post-from-issue.yml](https://web.archive.org/web/https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/create-post-from-issue.yml) and [draft-post-from-issue.yml](https://github.com/alexle/alexle.github.com/blob/main/.github/workflows/draft-post-from-issue.yml).
 
 ## Why I love this workflow
 
