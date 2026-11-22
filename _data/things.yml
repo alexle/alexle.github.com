@@ -43,6 +43,10 @@
 - name: Roborock Qrevo S Pro Robot Vacuum
   category: Tech
 
+- name: Suri Pro 2.0 Toothbrush
+  category: Tech
+  url: https://www.trysuri.com/en-us/products/suri-pro-2-sonic-toothbrush-uv-c-led-case
+
 - name: Vuori Ponto Crew
   category: Clothing
 
@@ -54,10 +58,6 @@
 
 - name: Cotopaxi Allpa 18L Backpack
   category: Clothing
-
-- name: Suri Pro 2.0 Toothbrush
-  category: Clothing
-  url: https://www.trysuri.com/en-us/products/suri-pro-2-sonic-toothbrush-uv-c-led-case
 
 - name: Hario Switch V60
   category: Hobbies
