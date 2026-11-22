@@ -55,7 +55,14 @@
 - name: Cotopaxi Allpa 18L Backpack
   category: Clothing
 
+- name: Suri Pro 2.0 Toothbrush
+  category: Clothing
+  url: https://www.trysuri.com/en-us/products/suri-pro-2-sonic-toothbrush-uv-c-led-case
+
 - name: Hario Switch V60
+  category: Hobbies
+
+- name: Bambu Lab A1 Combo 3D Printer
   category: Hobbies
 
 - name: Die With Zero
