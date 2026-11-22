@@ -1,43 +1,43 @@
 # Add a thing: copy an entry. Only name and category are required.
-# category: Personal, Travel, Productivity, or Books (set in _pages/things.html filters).
+# category: Running, Tech, Hobbies, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
 
 - name: Vaporfly 3
-  category: Personal
+  category: Running
   url: https://www.nike.com/
 
 - name: Coros Pace 3
-  category: Personal
-
-- name: Comandante C40
-  category: Personal
-
-- name: Hario Switch V60
-  category: Personal
+  category: Running
 
 - name: Adidas Adios Pro 4
-  category: Personal
+  category: Running
 
 - name: FlipBelt Half Tight
-  category: Personal
+  category: Running
 
 - name: Garmin Venu 4
-  category: Personal
+  category: Running
 
 - name: Vuori Ponto Crew
-  category: Personal
+  category: Running
 
 - name: Kindle Paperwhite
-  category: Travel
+  category: Tech
 
 - name: AirPods Pro
-  category: Travel
+  category: Tech
 
 - name: NuPhy Air75 V3
-  category: Productivity
+  category: Tech
 
 - name: iPad mini 7
-  category: Productivity
+  category: Tech
+
+- name: Comandante C40
+  category: Hobbies
+
+- name: Hario Switch V60
+  category: Hobbies
 
 - name: Die With Zero
   category: Books
