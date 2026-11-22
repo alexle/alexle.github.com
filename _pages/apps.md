@@ -24,7 +24,3 @@ Pick a proven marathon plan, tweak it to your mileage, and get your full trainin
 ### [Regex Lab](/regex/)
 
 Test regular expressions with live matching, capture groups, and a quick reference guide.
-
-### [GitHub Stats](/github-stats/)
-
-Look up any GitHub user's public profile, language breakdown, and top repositories.
