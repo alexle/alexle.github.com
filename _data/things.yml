@@ -1,33 +1,33 @@
 # Add a thing: copy an entry. Only name and category are required.
-# category: Hobbies, Travel, Productivity, or Books (set in _pages/things.html filters).
+# category: Personal, Travel, Productivity, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
 
 - name: Vaporfly 3
-  category: Hobbies
+  category: Personal
   url: https://www.nike.com/
   note: Race day
 
 - name: Coros Pace 3
-  category: Hobbies
+  category: Personal
   note: Light watch, long battery
 
 - name: Comandante C40
-  category: Hobbies
+  category: Personal
   note: Hand grinder
 
 - name: Hario V60
-  category: Hobbies
+  category: Personal
 
 - name: Adidas Adios Pro 4
-  category: Hobbies
+  category: Personal
   note: Running shoe
 
 - name: FlipBelt Half Tight
-  category: Hobbies
+  category: Personal
   note: Compression shorts
 
 - name: Garmin Venu 4
-  category: Hobbies
+  category: Personal
   note: 41mm watch
 
 - name: Kindle Paperwhite
