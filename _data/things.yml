@@ -17,16 +17,25 @@
 - name: Shokz OpenDots 2
   category: Running
 
+- name: Balega Ultralight Mini Crew
+  category: Running
+
 - name: NuPhy Air75 V3
   category: Tech
 
 - name: iPad mini 7
   category: Tech
 
+- name: iPhone Duo
+  category: Tech
+
 - name: Vuori Ponto Crew
   category: Clothing
 
 - name: Kane Legends
+  category: Clothing
+
+- name: BYLT Drop-Cut Short Sleeve
   category: Clothing
 
 - name: Comandante C40
