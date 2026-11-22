@@ -2,9 +2,6 @@
 # category: Running, Tech, Clothing, Hobbies, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
 
-- name: Coros Pace 3
-  category: Running
-
 - name: Adidas Adios Pro 4
   category: Running
 
@@ -32,14 +29,11 @@
 - name: Vuori Ponto Crew
   category: Clothing
 
-- name: Kane Legends
+- name: Kane Recovery Shoe
   category: Clothing
 
 - name: BYLT Drop-Cut Short Sleeve
   category: Clothing
-
-- name: Comandante C40
-  category: Hobbies
 
 - name: Hario Switch V60
   category: Hobbies
