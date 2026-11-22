@@ -18,8 +18,24 @@
 - name: Hario V60
   category: Hobbies
 
+- name: Adidas Adios Pro 4
+  category: Hobbies
+  note: Running shoe
+
+- name: FlipBelt Half Tight
+  category: Hobbies
+  note: Compression shorts
+
+- name: Garmin Venu 4
+  category: Hobbies
+  note: 41mm watch
+
 - name: Kindle Paperwhite
   category: Travel
 
 - name: AirPods Pro
   category: Travel
+
+- name: Die With Zero
+  category: Books
+  note: Bill Perkins
