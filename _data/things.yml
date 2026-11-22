@@ -1,0 +1,25 @@
+# Add a thing: copy an entry. Only name and category are required.
+# Categories: Hobbies, Travel, Productivity, Books. Filter buttons follow first appearance.
+# image: any product photo in assets/things/; white backgrounds blend into the tile.
+
+- name: Vaporfly 3
+  category: Hobbies
+  url: https://www.nike.com/
+  note: Race day
+
+- name: Coros Pace 3
+  category: Hobbies
+  note: Light watch, long battery
+
+- name: Comandante C40
+  category: Hobbies
+  note: Hand grinder
+
+- name: Hario V60
+  category: Hobbies
+
+- name: Kindle Paperwhite
+  category: Travel
+
+- name: AirPods Pro
+  category: Travel

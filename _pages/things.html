@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Things"
+author: "Alex Le"
+permalink: /things/
+sitemap: false
+---
+
+<div class="post things">
+  <div class="post-header">
+    <h1 class="post-title">Things</h1>
+    <p class="post-info">Some of my favorite things right now</p>
+  </div>
+
+  {% assign categories = site.data.things | map: "category" | uniq %}
+  <div class="things-filter" role="group" aria-label="Filter by category" hidden>
+    <button type="button" aria-pressed="true" data-filter="all">All</button>
+    {% for category in categories %}
+    <button type="button" aria-pressed="false" data-filter="{{ category | slugify }}">{{ category }}</button>
+    {% endfor %}
+  </div>
+
+  <ul class="things-grid">
+    {% for thing in site.data.things %}
+    <li class="thing" data-category="{{ thing.category | slugify }}">
+      {% if thing.url %}<a href="{{ thing.url }}" rel="noopener">{% endif %}
+      <div class="thing-tile">
+        {% if thing.image %}
+        <img src="{{ thing.image | relative_url }}" alt="" loading="lazy">
+        {% else %}
+        <span aria-hidden="true">{{ thing.name | slice: 0 }}</span>
+        {% endif %}
+      </div>
+      <div class="thing-name">{{ thing.name }}</div>
+      {% if thing.note %}<div class="thing-note">{{ thing.note }}</div>{% endif %}
+      {% if thing.url %}</a>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  const filter = document.querySelector('.things-filter');
+  const buttons = filter.querySelectorAll('button');
+  filter.hidden = false;
+  buttons.forEach((button) => button.addEventListener('click', () => {
+    buttons.forEach((b) => b.setAttribute('aria-pressed', b === button));
+    document.querySelectorAll('.thing').forEach((thing) => {
+      thing.hidden = button.dataset.filter !== 'all' && thing.dataset.category !== button.dataset.filter;
+    });
+  }));
+</script>

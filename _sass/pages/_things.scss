@@ -1,0 +1,89 @@
+@use '../base/variables' as v;
+
+.things-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  button {
+    background: none;
+    border: 1px solid v.$light-grey;
+    border-radius: 999px;
+    color: v.$muted-color;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.8rem;
+
+    &:hover,
+    &[aria-pressed="true"] {
+      border-color: v.$accent-color;
+      color: v.$main-font-color;
+    }
+  }
+}
+
+.things-grid {
+  display: grid;
+  gap: 1.25rem 0.75rem;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (width >= 600px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.thing {
+  a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+  }
+
+  &-tile {
+    align-items: center;
+    aspect-ratio: 1;
+    background: #f2f2f2;
+    border-radius: 8px;
+    color: #b0b0b0;
+    display: flex;
+    font-size: 1.75rem;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+    padding: 12%;
+
+    &:not(:has(img)) {
+      background: v.$bg-code-color;
+      color: v.$muted-color;
+    }
+
+    img {
+      height: 100%;
+      margin: 0;
+      mix-blend-mode: multiply;
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+
+  &-name {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  &-note {
+    color: v.$muted-color;
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
+
+  a:hover .thing-name {
+    color: v.$accent-color;
+  }
+}
