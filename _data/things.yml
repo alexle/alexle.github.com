@@ -17,6 +17,14 @@
 - name: Balega Ultralight Mini Crew Socks
   category: Running
 
+- name: Nathan Pinnacle Lite Handheld Soft Flask
+  category: Running
+  url: https://thefeed.com/products/nathan-pinnacle-lite-handheld?variant=41584948052031
+
+- name: Tracksmith Brighton Base Layer
+  category: Running
+  url: https://www.tracksmith.com/products/m-brighton-base-layer-ls
+
 - name: NuPhy Air75 V3
   category: Tech
 
@@ -42,6 +50,9 @@
   category: Clothing
 
 - name: BYLT Drop-Cut Short Sleeve
+  category: Clothing
+
+- name: Cotopaxi Allpa 18L Backpack
   category: Clothing
 
 - name: Hario Switch V60
