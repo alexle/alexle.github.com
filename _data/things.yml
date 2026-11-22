@@ -2,10 +2,6 @@
 # category: Running, Tech, Clothing, Hobbies, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
 
-- name: Vaporfly 3
-  category: Running
-  url: https://www.nike.com/
-
 - name: Coros Pace 3
   category: Running
 
@@ -18,11 +14,8 @@
 - name: Garmin Venu 4
   category: Running
 
-- name: Kindle Paperwhite
-  category: Tech
-
-- name: AirPods Pro
-  category: Tech
+- name: Shokz OpenDots 2
+  category: Running
 
 - name: NuPhy Air75 V3
   category: Tech
@@ -31,6 +24,9 @@
   category: Tech
 
 - name: Vuori Ponto Crew
+  category: Clothing
+
+- name: Kane Legends
   category: Clothing
 
 - name: Comandante C40
