@@ -4,22 +4,27 @@
 
 - name: Adidas Adios Pro 4
   category: Running
+  url: https://www.adidas.com/us/adizero-adios-pro-4-shoes/JR1241.html
 
 - name: FlipBelt Half Tight
   category: Running
+  url: https://flipbelt.com
 
 - name: Garmin Venu 4
   category: Running
+  url: https://www.garmin.com/en-US/p/1614061/
 
 - name: Shokz OpenDots 2
   category: Running
+  url: https://shokz.com/pages/opendots-2
 
 - name: Balega Ultralight Mini Crew Socks
   category: Running
+  url: https://balega.com/products/ultralight-crew
 
 - name: Nathan Pinnacle Lite Handheld Soft Flask
   category: Running
-  url: https://thefeed.com/products/nathan-pinnacle-lite-handheld?variant=41584948052031
+  url: https://nathansports.com/products/pinnacle-lite-handheld-14oz
 
 - name: Tracksmith Brighton Base Layer
   category: Running
@@ -27,21 +32,27 @@
 
 - name: NuPhy Air75 V3
   category: Tech
+  url: https://nuphy.com/products/nuphy-air75-v3
 
 - name: iPad mini 7
   category: Tech
+  url: https://www.apple.com/ipad-mini/
 
 - name: iPhone Duo
   category: Tech
+  url: https://www.apple.com/iphone-duo/
 
 - name: Instinct AI
   category: Tech
+  url: https://instinct.com
 
 - name: Laifen P3 Pro Electric Shaver
   category: Tech
+  url: https://www.laifentech.com/pages/p3-pro-electric-shaver
 
 - name: Roborock Qrevo S Pro Robot Vacuum
   category: Tech
+  url: https://us.roborock.com/pages/roborock-qrevo-s-pro
 
 - name: Suri Pro 2.0 Toothbrush
   category: Tech
@@ -49,21 +60,27 @@
 
 - name: Vuori Ponto Crew
   category: Clothing
+  url: https://vuoriclothing.com/products/ponto-performance-crew-black-heather
 
 - name: Kane Recovery Shoe
   category: Clothing
+  url: https://kanefootwear.com/pages/recovery-shoes
 
 - name: BYLT Drop-Cut Short Sleeve
   category: Clothing
+  url: https://byltbasics.com/products/drop-cut-shirt-lux
 
 - name: Cotopaxi Allpa 18L Backpack
   category: Clothing
+  url: https://www.cotopaxi.com/products/allpa-18l-daypack
 
 - name: Hario Switch V60
   category: Hobbies
+  url: https://www.hario-usa.com/products/switch-immersion-dripper
 
 - name: Bambu Lab A1 Combo 3D Printer
   category: Hobbies
+  url: https://us.store.bambulab.com/products/a1
 
 - name: Huckleberry Coffee Club Jar
   category: Hobbies
@@ -71,6 +88,8 @@
 
 - name: Die With Zero
   category: Books
+  url: https://diewithzerobook.com
 
 - name: Red Rising Series
   category: Books
+  url: https://www.penguinrandomhouse.com/series/RRT/red-rising-series/
