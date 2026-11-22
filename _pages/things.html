@@ -32,7 +32,7 @@ filters: [Personal, Travel, Productivity, Books]
         {% endif %}
       </div>
       <div class="thing-name">{{ thing.name }}</div>
-      {% if thing.note %}<div class="thing-note">{{ thing.note }}</div>{% endif %}
+      <div class="thing-category">{{ thing.category }}</div>
       {% if thing.url %}</a>{% endif %}
     </li>
     {% endfor %}

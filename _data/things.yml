@@ -5,34 +5,27 @@
 - name: Vaporfly 3
   category: Personal
   url: https://www.nike.com/
-  note: Race day
 
 - name: Coros Pace 3
   category: Personal
-  note: Light watch, long battery
 
 - name: Comandante C40
   category: Personal
-  note: Hand grinder
 
 - name: Hario V60
   category: Personal
 
 - name: Adidas Adios Pro 4
   category: Personal
-  note: Running shoe
 
 - name: FlipBelt Half Tight
   category: Personal
-  note: Compression shorts
 
 - name: Garmin Venu 4
   category: Personal
-  note: 41mm watch
 
 - name: Vuori Ponto Crew
   category: Personal
-  note: Black
 
 - name: Kindle Paperwhite
   category: Travel
@@ -42,12 +35,9 @@
 
 - name: NuPhy Air75 V3
   category: Productivity
-  note: Low-profile keyboard
 
 - name: iPad mini 7
   category: Productivity
-  note: A17 Pro
 
 - name: Die With Zero
   category: Books
-  note: Bill Perkins
