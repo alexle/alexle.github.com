@@ -19,23 +19,31 @@ filters: [Running, Tech, Clothing, Hobbies, Books]
     {% endfor %}
   </div>
 
-  <ul class="things-grid">
-    {% for thing in site.data.things %}
-    <li class="thing" data-category="{{ thing.category | slugify }}">
-      {% if thing.url %}<a href="{{ thing.url }}" rel="noopener">{% endif %}
-      <div class="thing-tile">
-        {% if thing.image %}
-        <img src="{{ thing.image | relative_url }}" alt="" loading="lazy">
-        {% else %}
-        <span aria-hidden="true">{{ thing.name | slice: 0 }}</span>
-        {% endif %}
-      </div>
-      <div class="thing-name">{{ thing.name }}</div>
-      <div class="thing-category">{{ thing.category }}</div>
-      {% if thing.url %}</a>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+  {% for category in page.filters %}
+  {% assign items = site.data.things | where: "category", category %}
+  {% if items.size > 0 %}
+  <section class="things-section" data-category="{{ category | slugify }}">
+    <h2>{{ category }}</h2>
+    <ul class="things-grid">
+      {% for thing in items %}
+      <li class="thing">
+        {% if thing.url %}<a href="{{ thing.url }}" rel="noopener">{% endif %}
+        <div class="thing-tile">
+          {% if thing.image %}
+          <img src="{{ thing.image | relative_url }}" alt="" loading="lazy">
+          {% else %}
+          <span aria-hidden="true">{{ thing.name | slice: 0 }}</span>
+          {% endif %}
+        </div>
+        <div class="thing-name">{{ thing.name }}</div>
+        <div class="thing-category">{{ thing.category }}</div>
+        {% if thing.url %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% endfor %}
   <p class="things-empty" hidden>Nothing here yet.</p>
 </div>
 
@@ -45,9 +53,9 @@ filters: [Running, Tech, Clothing, Hobbies, Books]
   filter.hidden = false;
   buttons.forEach((button) => button.addEventListener('click', () => {
     buttons.forEach((b) => b.setAttribute('aria-pressed', b === button));
-    document.querySelectorAll('.thing').forEach((thing) => {
-      thing.hidden = button.dataset.filter !== 'all' && thing.dataset.category !== button.dataset.filter;
+    document.querySelectorAll('.things-section').forEach((section) => {
+      section.hidden = button.dataset.filter !== 'all' && section.dataset.category !== button.dataset.filter;
     });
-    document.querySelector('.things-empty').hidden = document.querySelector('.thing:not([hidden])') !== null;
+    document.querySelector('.things-empty').hidden = document.querySelector('.things-section:not([hidden])') !== null;
   }));
 </script>

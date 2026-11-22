@@ -24,6 +24,19 @@
   }
 }
 
+.things-section {
+  margin-bottom: 2rem;
+
+  h2 {
+    color: v.$muted-color;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 0 0.75rem;
+    text-transform: uppercase;
+  }
+}
+
 .things-empty {
   color: v.$muted-color;
   font-size: 0.85rem;
