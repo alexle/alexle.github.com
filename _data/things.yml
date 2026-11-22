@@ -1,95 +1,125 @@
 # Add a thing: copy an entry. Only name and category are required.
 # category: Running, Tech, Clothing, Hobbies, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
+# fill: true makes a photo with a real background fill the tile edge to edge.
 
 - name: Adidas Adios Pro 4
   category: Running
   url: https://www.adidas.com/us/adizero-adios-pro-4-shoes/JR1241.html
+  image: /assets/things/adidas-adios-pro-4.jpg
 
 - name: FlipBelt Half Tight
   category: Running
   url: https://flipbelt.com
+  image: /assets/things/flipbelt-half-tight.png
+  fill: true
 
 - name: Garmin Venu 4
   category: Running
   url: https://www.garmin.com/en-US/p/1614061/
+  image: /assets/things/garmin-venu-4.jpg
 
 - name: Shokz OpenDots 2
   category: Running
   url: https://shokz.com/pages/opendots-2
+  image: /assets/things/shokz-opendots-2.png
 
 - name: Balega Ultralight Mini Crew Socks
   category: Running
   url: https://balega.com/products/ultralight-crew
+  image: /assets/things/balega-ultralight-mini-crew.jpg
 
 - name: Nathan Pinnacle Lite Handheld Soft Flask
   category: Running
   url: https://nathansports.com/products/pinnacle-lite-handheld-14oz
+  image: /assets/things/nathan-pinnacle-lite.png
+  fill: true
 
 - name: Tracksmith Brighton Base Layer
   category: Running
   url: https://www.tracksmith.com/products/m-brighton-base-layer-ls
+  image: /assets/things/tracksmith-brighton-base-layer.png
 
 - name: NuPhy Air75 V3
   category: Tech
   url: https://nuphy.com/products/nuphy-air75-v3
+  image: /assets/things/nuphy-air75-v3.png
+  fill: true
 
 - name: iPad mini 7
   category: Tech
   url: https://www.apple.com/ipad-mini/
+  image: /assets/things/ipad-mini.png
 
 - name: iPhone Duo
   category: Tech
   url: https://www.apple.com/iphone-duo/
+  image: /assets/things/iphone-duo.png
 
 - name: Instinct AI
   category: Tech
   url: https://instinct.com
+  image: /assets/things/instinct-ai.png
 
 - name: Laifen P3 Pro Electric Shaver
   category: Tech
   url: https://www.laifentech.com/pages/p3-pro-electric-shaver
+  image: /assets/things/laifen-p3-pro.png
 
 - name: Roborock Qrevo S Pro Robot Vacuum
   category: Tech
   url: https://us.roborock.com/pages/roborock-qrevo-s-pro
+  image: /assets/things/roborock-qrevo-s-pro.png
+  fill: true
 
 - name: Suri Pro 2.0 Toothbrush
   category: Tech
   url: https://www.trysuri.com/en-us/products/suri-pro-2-sonic-toothbrush-uv-c-led-case
+  image: /assets/things/suri-pro-2.png
 
 - name: Vuori Ponto Crew
   category: Clothing
   url: https://vuoriclothing.com/products/ponto-performance-crew-black-heather
+  image: /assets/things/vuori-ponto-crew.png
 
 - name: Kane Recovery Shoe
   category: Clothing
   url: https://kanefootwear.com/pages/recovery-shoes
+  image: /assets/things/kane-revive.jpg
+  fill: true
 
 - name: BYLT Drop-Cut Short Sleeve
   category: Clothing
   url: https://byltbasics.com/products/drop-cut-shirt-lux
+  image: /assets/things/bylt-drop-cut-lux.jpg
+  fill: true
 
 - name: Cotopaxi Allpa 18L Backpack
   category: Clothing
   url: https://www.cotopaxi.com/products/allpa-18l-daypack
+  image: /assets/things/cotopaxi-allpa-18l.png
 
 - name: Hario Switch V60
   category: Hobbies
   url: https://www.hario-usa.com/products/switch-immersion-dripper
+  image: /assets/things/hario-switch-v60.png
 
 - name: Bambu Lab A1 Combo 3D Printer
   category: Hobbies
   url: https://us.store.bambulab.com/products/a1
+  image: /assets/things/bambu-a1-combo.jpg
 
 - name: Huckleberry Coffee Club Jar
   category: Hobbies
   url: https://www.huckleberryroasters.com/shop/products/coffee-club?Title=Coffee+Club+Jar+-+6+Fills+%26+3+Drips+***LOCAL+PICK-UP+ONLY***
+  image: /assets/things/huckleberry-coffee-club.png
 
 - name: Die With Zero
   category: Books
   url: https://diewithzerobook.com
+  image: /assets/things/die-with-zero.jpg
 
 - name: Red Rising Series
   category: Books
   url: https://www.penguinrandomhouse.com/series/RRT/red-rising-series/
+  image: /assets/things/red-rising.jpg

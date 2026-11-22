@@ -88,6 +88,15 @@
       object-fit: contain;
       width: 100%;
     }
+
+    &--fill {
+      padding: 0;
+
+      img {
+        mix-blend-mode: normal;
+        object-fit: cover;
+      }
+    }
   }
 
   &-name {

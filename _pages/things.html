@@ -28,7 +28,7 @@ filters: [Running, Tech, Clothing, Hobbies, Books]
       {% for thing in items %}
       <li class="thing">
         {% if thing.url %}<a href="{{ thing.url }}" rel="noopener">{% endif %}
-        <div class="thing-tile">
+        <div class="thing-tile{% if thing.fill %} thing-tile--fill{% endif %}">
           {% if thing.image %}
           <img src="{{ thing.image | relative_url }}" alt="" loading="lazy">
           {% else %}
