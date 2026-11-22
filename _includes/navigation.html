@@ -4,7 +4,8 @@
       <li{% if page.url == "/" %} class="active"{% endif %}><a href="{{ '/' | relative_url }}">Home</a></li>
       <li{% if page.layout == "posts" or page.date %} class="active"{% endif %}><a href="{{ '/posts' | relative_url }}">Posts</a></li>
       <li{% if page.layout == "app" %} class="active"{% endif %}><a href="{{ '/apps' | relative_url }}">Apps</a></li>
-      <li{% if page.layout == "search" %} class="active"{% endif %}><a href="{{ '/search' | relative_url }}">Search</a></li>
+      <li{% if page.url == "/things/" %} class="active"{% endif %}><a href="{{ '/things' | relative_url }}">Things</a></li>
+      <li{% if page.layout == "search" %} class="active"{% endif %}><a href="{{ '/search' | relative_url }}" aria-label="Search"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></li>
     </ul>
   </div>
 </nav>

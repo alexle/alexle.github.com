@@ -22,12 +22,20 @@
     color: v.$main-font-color;
   }
 
+  &-icon {
+    vertical-align: -0.15em;
+  }
+
   li {
     transition: all .2s ease-out;
     color: v.$main-font-color;
     display: inline-block;
     opacity: .6;
-    padding: 0 2rem 0 0;
+    padding: 0 1.25rem 0 0;
+
+    @media (width >= 600px) {
+      padding-right: 2rem;
+    }
 
     &:last-child {
       padding-right: 0;
