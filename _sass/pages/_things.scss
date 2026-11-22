@@ -28,7 +28,7 @@
   margin-bottom: 2rem;
 
   h2 {
-    color: v.$muted-color;
+    color: v.$accent-color;
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 1px;
@@ -92,12 +92,6 @@
 
   &-name {
     font-size: 0.8rem;
-    line-height: 1.3;
-  }
-
-  &-category {
-    color: v.$muted-color;
-    font-size: 0.7rem;
     line-height: 1.3;
   }
 
