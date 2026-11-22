@@ -30,11 +30,23 @@
   category: Personal
   note: 41mm watch
 
+- name: Vuori Ponto Crew
+  category: Personal
+  note: Black
+
 - name: Kindle Paperwhite
   category: Travel
 
 - name: AirPods Pro
   category: Travel
+
+- name: NuPhy Air75 V3
+  category: Productivity
+  note: Low-profile keyboard
+
+- name: iPad mini 7
+  category: Productivity
+  note: A17 Pro
 
 - name: Die With Zero
   category: Books
