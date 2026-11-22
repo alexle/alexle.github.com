@@ -1,5 +1,5 @@
 # Add a thing: copy an entry. Only name and category are required.
-# Categories: Hobbies, Travel, Productivity, Books. Filter buttons follow first appearance.
+# category: Hobbies, Travel, Productivity, or Books (set in _pages/things.html filters).
 # image: any product photo in assets/things/; white backgrounds blend into the tile.
 
 - name: Vaporfly 3

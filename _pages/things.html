@@ -4,6 +4,7 @@ title: "Things"
 author: "Alex Le"
 permalink: /things/
 sitemap: false
+filters: [Hobbies, Travel, Productivity, Books]
 ---
 
 <div class="post things">
@@ -12,10 +13,9 @@ sitemap: false
     <p class="post-info">Some of my favorite things right now</p>
   </div>
 
-  {% assign categories = site.data.things | map: "category" | uniq %}
   <div class="things-filter" role="group" aria-label="Filter by category" hidden>
     <button type="button" aria-pressed="true" data-filter="all">All</button>
-    {% for category in categories %}
+    {% for category in page.filters %}
     <button type="button" aria-pressed="false" data-filter="{{ category | slugify }}">{{ category }}</button>
     {% endfor %}
   </div>
@@ -37,6 +37,7 @@ sitemap: false
     </li>
     {% endfor %}
   </ul>
+  <p class="things-empty" hidden>Nothing here yet.</p>
 </div>
 
 <script>
@@ -48,5 +49,6 @@ sitemap: false
     document.querySelectorAll('.thing').forEach((thing) => {
       thing.hidden = button.dataset.filter !== 'all' && thing.dataset.category !== button.dataset.filter;
     });
+    document.querySelector('.things-empty').hidden = document.querySelector('.thing:not([hidden])') !== null;
   }));
 </script>
